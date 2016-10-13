@@ -1,5 +1,9 @@
 function getConnectionData(){
 return {
+  "categories": [
+    "Films", 
+    "One-shots"
+  ], 
   "characters": [
     "Agent Blake", 
     "Agent Coulson", 
@@ -54,26 +58,7 @@ return {
   ], 
   "properties": [
     {
-      "characters": [
-        "Dum Dum Dugan", 
-        "Howard Stark", 
-        "Peggy Carter"
-      ], 
-      "interactions": [
-        {
-          "desc": "Howard recruited Peggy to found SHIELD", 
-          "p1": "Peggy Carter", 
-          "p2": "Howard Stark"
-        }, 
-        {
-          "desc": "Howard introduced Dugan to the bikini", 
-          "p1": "Howard Stark", 
-          "p2": "Dum Dum Dugan"
-        }
-      ], 
-      "name": "Agent Carter"
-    }, 
-    {
+      "category": "Films", 
       "characters": [
         "Arnim Zola", 
         "Bucky Barnes", 
@@ -381,6 +366,7 @@ return {
       "name": "Captain America The First Avenger"
     }, 
     {
+      "category": "Films", 
       "characters": [
         "Agent Coulson", 
         "Christine Everhart", 
@@ -515,47 +501,7 @@ return {
       "name": "Iron Man"
     }, 
     {
-      "characters": [
-        "Agent Blake", 
-        "Agent Sitwell", 
-        "Bennie Pollock", 
-        "Claire Weiss"
-      ], 
-      "interactions": [
-        {
-          "desc": "Claire and Bennie robbed banks together", 
-          "p1": "Claire Weiss", 
-          "p2": "Bennie Pollock"
-        }, 
-        {
-          "desc": "Sitwell recruited Claire into SHIELD", 
-          "p1": "Claire Weiss", 
-          "p2": "Agent Sitwell"
-        }, 
-        {
-          "desc": "Claire became Blake's assistant", 
-          "p1": "Claire Weiss", 
-          "p2": "Agent Blake"
-        }, 
-        {
-          "desc": "Sitwell recruited Bennie into SHIELD", 
-          "p1": "Bennie Pollock", 
-          "p2": "Agent Sitwell"
-        }, 
-        {
-          "desc": "Bennie was with Claire when she became Agent Blake's assistant", 
-          "p1": "Bennie Pollock", 
-          "p2": "Agent Blake"
-        }, 
-        {
-          "desc": "Blake sent Sitwell to retrieve the chitauri gun", 
-          "p1": "Agent Sitwell", 
-          "p2": "Agent Blake"
-        }
-      ], 
-      "name": "Item 47"
-    }, 
-    {
+      "category": "Films", 
       "characters": [
         "Betty Ross", 
         "Bruce Banner", 
@@ -646,6 +592,7 @@ return {
       "name": "The Incredible Hulk"
     }, 
     {
+      "category": "Films", 
       "characters": [
         "Agent Coulson", 
         "Agent Sitwell", 
@@ -1053,6 +1000,69 @@ return {
         }
       ], 
       "name": "Thor"
+    }, 
+    {
+      "category": "One-shots", 
+      "characters": [
+        "Dum Dum Dugan", 
+        "Howard Stark", 
+        "Peggy Carter"
+      ], 
+      "interactions": [
+        {
+          "desc": "Howard recruited Peggy to found SHIELD", 
+          "p1": "Peggy Carter", 
+          "p2": "Howard Stark"
+        }, 
+        {
+          "desc": "Howard introduced Dugan to the bikini", 
+          "p1": "Howard Stark", 
+          "p2": "Dum Dum Dugan"
+        }
+      ], 
+      "name": "Agent Carter"
+    }, 
+    {
+      "category": "One-shots", 
+      "characters": [
+        "Agent Blake", 
+        "Agent Sitwell", 
+        "Bennie Pollock", 
+        "Claire Weiss"
+      ], 
+      "interactions": [
+        {
+          "desc": "Claire and Bennie robbed banks together", 
+          "p1": "Claire Weiss", 
+          "p2": "Bennie Pollock"
+        }, 
+        {
+          "desc": "Sitwell recruited Claire into SHIELD", 
+          "p1": "Claire Weiss", 
+          "p2": "Agent Sitwell"
+        }, 
+        {
+          "desc": "Claire became Blake's assistant", 
+          "p1": "Claire Weiss", 
+          "p2": "Agent Blake"
+        }, 
+        {
+          "desc": "Sitwell recruited Bennie into SHIELD", 
+          "p1": "Bennie Pollock", 
+          "p2": "Agent Sitwell"
+        }, 
+        {
+          "desc": "Bennie was with Claire when she became Agent Blake's assistant", 
+          "p1": "Bennie Pollock", 
+          "p2": "Agent Blake"
+        }, 
+        {
+          "desc": "Blake sent Sitwell to retrieve the chitauri gun", 
+          "p1": "Agent Sitwell", 
+          "p2": "Agent Blake"
+        }
+      ], 
+      "name": "Item 47"
     }
   ]
 }

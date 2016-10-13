@@ -4,6 +4,7 @@ import json
 
 allCharacters = set()
 properties = []
+categories = set()
 
 for (dirpath, dirnames, filenames) in walk("./interactions"):
     for file in filenames:
@@ -22,18 +23,22 @@ for (dirpath, dirnames, filenames) in walk("./interactions"):
                 interactions.append(interaction)
             output = {}
             characters = sorted(characters)
+            category = path.basename(dirpath)
             output['name'] = file[:-4]
+            output['category'] = category
             output['characters'] = characters
             output['interactions'] = interactions
             outfile = open(filename[:-3] + 'json','w')
             outfile.write(json.dumps(output, indent=4, sort_keys=True))
             
             properties.append(output)
+            categories.add(category)
             for character in characters:
                 allCharacters.add(character)
 
 output = {}
 output['characters'] = sorted(allCharacters)
+output['categories'] = sorted(categories)
 output['properties'] = properties
 outfile = open('./interactions/connections.json','w')
 outfile.write(json.dumps(output, indent=2, sort_keys=True))

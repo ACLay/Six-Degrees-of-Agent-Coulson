@@ -1,10 +1,19 @@
 function fillSelectors(){
 	// populate the drop down menus
-	for(var i=0; i < connectionGraph.properties.length; i++){
-		var media = connectionGraph.properties[i];
-		var name = media.name;
-		createDropDownElement(mediaFrom,name,false);
-		createDropDownElement(mediaTo,name,false);
+	createDropDownElement(mediaFrom,"All",false);
+	createDropDownElement(mediaTo,"All",false);
+	for (var i = 0; i < connectionGraph.categories.length; i++){
+		var category = connectionGraph.categories[i];
+		createDropDownElement(mediaFrom,category,true);
+		createDropDownElement(mediaTo,category,true);
+		for(var j=0; j < connectionGraph.properties.length; j++){
+			var media = connectionGraph.properties[j];
+			if(media.category == category){
+				var name = media.name;
+				createDropDownElement(mediaFrom,name,false);
+				createDropDownElement(mediaTo,name,false);
+			}
+		}
 	}
 	updateSelector("mediaFrom","goFrom");
 	updateSelector("mediaTo","goTo");
@@ -13,18 +22,24 @@ function fillSelectors(){
 function updateSelector(mediaSelectId, charSelectId){
 	var charSelect = document.getElementById(charSelectId);
 	var mediaName = getSelectorValue(mediaSelectId);
+	var characters;
 
-	for(var i=0; i < connectionGraph.properties.length; i++){
-		var media = connectionGraph.properties[i];
-		var name = media.name;
-		if (mediaName == name){
-			removeChildren(charSelect);
-			for(var j=0; j < media.characters.length; j++){
-				var opt = media.characters[j];
-				createDropDownElement(charSelect, opt, false);
+	if(mediaName == "All"){
+		characters = connectionGraph.characters;
+	} else {
+		for(var i=0; i < connectionGraph.properties.length; i++){
+			var media = connectionGraph.properties[i];
+			var name = media.name;
+			if (mediaName == name){
+				characters = media.characters;
+				break;
 			}
-			return;
 		}
+	}
+
+	removeChildren(charSelect);
+	for(var i=0; i < characters.length; i++){
+		createDropDownElement(charSelect, characters[i], false);
 	}
 };
 
