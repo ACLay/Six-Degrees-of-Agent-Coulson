@@ -1,0 +1,36 @@
+<html>
+	<head>
+		<title>Six Degrees of Agent Coulson</title>
+	</head>
+	<body>
+		<script>
+			var connectionGraph;
+		</script>
+		<script src="js/connections.js">Contains the connection graph</script>
+		<script src="js/solver.js">Works out and shows the connections between characters</script>
+		<script src="js/selectors.js">Manages the character selectors</script>
+		<script src="js/setup.js">Sets up the controls and graph</script>
+
+		<h1>Six Degrees of Agent Coulson</h1>
+
+		<selectors>
+			<p>Find a link from:</p>
+			<select id="mediaFrom" onchange="updateSelector('mediaFrom','goFrom')">
+			</select>
+			<select id="goFrom">
+			</select>
+			<p>to:</p>
+			<select id="mediaTo" onchange="updateSelector('mediaTo','goTo')">
+			</select>
+			<select id="goTo">
+			</select>
+		</selectors>
+
+		<button type="button" id="findConnection">Find the connection</button>
+	
+		<searchResult id="searchResult">
+
+		</searchResult>
+		
+	</body>
+</html>
