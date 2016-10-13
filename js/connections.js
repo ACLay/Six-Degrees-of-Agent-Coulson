@@ -6,6 +6,7 @@ return {
     "Agent Sitwell", 
     "Arnim Zola", 
     "Bennie Pollock", 
+    "Betty Ross", 
     "Bruce Banner", 
     "Bucky Barnes", 
     "Christine Everhart", 
@@ -15,10 +16,12 @@ return {
     "Darcy Lewis", 
     "Dr Erskine", 
     "Dum Dum Dugan", 
+    "Emil Blonsky", 
     "Erik Selvig", 
     "Fandral", 
     "Frigga", 
     "Gabe Jones", 
+    "General Ross", 
     "Happy Hogan", 
     "Hawkeye", 
     "Heimdall", 
@@ -30,6 +33,7 @@ return {
     "Jane Foster", 
     "Jim Morita", 
     "Laufey", 
+    "Leonard Samson", 
     "Loki", 
     "Maria Stark", 
     "Nick Fury", 
@@ -39,8 +43,10 @@ return {
     "Pepper Potts", 
     "Red Skull", 
     "Rhodey", 
+    "Samuel Sterns", 
     "Senator Brandt", 
     "Sif", 
+    "Stanley Lieber", 
     "Steve Rogers", 
     "Thor", 
     "Tony Stark", 
@@ -550,6 +556,96 @@ return {
         }
       ], 
       "name": "Item 47"
+    }, 
+    {
+      "characters": [
+        "Betty Ross", 
+        "Bruce Banner", 
+        "Emil Blonsky", 
+        "General Ross", 
+        "Leonard Samson", 
+        "Samuel Sterns", 
+        "Stanley Lieber", 
+        "Tony Stark"
+      ], 
+      "interactions": [
+        {
+          "desc": "Betty was Bruce's girlfriend before he became The Hulk", 
+          "p1": "Bruce Banner", 
+          "p2": "Betty Ross"
+        }, 
+        {
+          "desc": "Banner and Blonsky fought as Hulk and Abomination", 
+          "p1": "Bruce Banner", 
+          "p2": "Emil Blonsky"
+        }, 
+        {
+          "desc": "Ross let Bruce free so he could stop Blonsky", 
+          "p1": "Bruce Banner", 
+          "p2": "General Ross"
+        }, 
+        {
+          "desc": "Sterns helped Banner try to control The Hulk", 
+          "p1": "Bruce Banner", 
+          "p2": "Samuel Sterns"
+        }, 
+        {
+          "desc": "Leonard let Bruce stay with him", 
+          "p1": "Bruce Banner", 
+          "p2": "Leonard Samson"
+        }, 
+        {
+          "desc": "Bruce stayed at Stanley's pizzaria", 
+          "p1": "Bruce Banner", 
+          "p2": "Stanley Lieber"
+        }, 
+        {
+          "desc": "General Ross is Betty's father", 
+          "p1": "Betty Ross", 
+          "p2": "General Ross"
+        }, 
+        {
+          "desc": "Betty was with Bruce when he visited Sterns", 
+          "p1": "Betty Ross", 
+          "p2": "Samuel Sterns"
+        }, 
+        {
+          "desc": "Betty went out with Leonard after Bruce became The Hulk", 
+          "p1": "Betty Ross", 
+          "p2": "Leonard Samson"
+        }, 
+        {
+          "desc": "Betty and Bruce used to frequent Stanleys pizza restaurant", 
+          "p1": "Betty Ross", 
+          "p2": "Stanley Lieber"
+        }, 
+        {
+          "desc": "Blonsky was on Ross' team to catch The Hulk", 
+          "p1": "Emil Blonsky", 
+          "p2": "General Ross"
+        }, 
+        {
+          "desc": "Blonsky forced Sterns to turn him into Abominaton", 
+          "p1": "Emil Blonsky", 
+          "p2": "Samuel Sterns"
+        }, 
+        {
+          "desc": "Leonard called Ross to let him know where Banner was", 
+          "p1": "General Ross", 
+          "p2": "Leonard Samson"
+        }, 
+        {
+          "desc": "Stark spoke to Ross about putting a team together", 
+          "p1": "General Ross", 
+          "p2": "Tony Stark"
+        }, 
+        {
+          "desc": "Leonard went to Stanley's pizza shop with Betty", 
+          "p1": "Leonard Samson", 
+          "p2": "Stanley Lieber"
+        }
+      ], 
+      "name": "The Incredible Hulk"
     }, 
     {
       "characters": [
