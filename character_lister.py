@@ -12,7 +12,7 @@ people = set()
 for file in files:
     print file
     for line in open(file):
-        parts = line.strip().split(',')
+        parts = line.strip().split('|')
         people.add(parts[0])
         people.add(parts[1])
         

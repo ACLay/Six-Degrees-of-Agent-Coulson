@@ -12,7 +12,7 @@ for (dirpath, dirnames, filenames) in walk("./interactions"):
             characters = set()
             interactions = []
             for line in open(filename):
-                parts = line.strip().split(',',2)
+                parts = line.strip().split('|',2)
                 characters.add(parts[0])
                 characters.add(parts[1])
                 interaction = {}
