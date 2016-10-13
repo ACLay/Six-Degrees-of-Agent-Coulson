@@ -1,36 +1,46 @@
 <html>
 	<head>
 		<title>Six Degrees of Agent Coulson</title>
+		<link rel="stylesheet" type="text/css" href="theme.css">
 	</head>
 	<body>
-		<script>
-			var connectionGraph;
-		</script>
+		<script>var connectionGraph;</script>
 		<script src="js/connections.js">Contains the connection graph</script>
 		<script src="js/solver.js">Works out and shows the connections between characters</script>
 		<script src="js/selectors.js">Manages the character selectors</script>
 		<script src="js/setup.js">Sets up the controls and graph</script>
 
-		<h1>Six Degrees of Agent Coulson</h1>
+		<div class=page>
+			<h1>Six Degrees of Agent Coulson</h1>
+			
+			<div class=selectors>
+				<div class=fromSelectors>
+					<p>Find a link from:</p>
+					<select id="mediaFrom" onchange="updateSelector('mediaFrom','goFrom')">
+					</select>
+					<select id="goFrom">
+					</select>
+				</div>
+				<div class=toSelectors>
+					<p>to:</p>
+					<select id="mediaTo" onchange="updateSelector('mediaTo','goTo')">
+					</select>
+					<select id="goTo">
+					</select>
+				</div>
+				<div>
+					<button type="button" id="findConnection">Find the connection</button>
+				</div>
+			</div>
+			<div id="searchResult"/>
 
-		<selectors>
-			<p>Find a link from:</p>
-			<select id="mediaFrom" onchange="updateSelector('mediaFrom','goFrom')">
-			</select>
-			<select id="goFrom">
-			</select>
-			<p>to:</p>
-			<select id="mediaTo" onchange="updateSelector('mediaTo','goTo')">
-			</select>
-			<select id="goTo">
-			</select>
-		</selectors>
+		</div>
 
-		<button type="button" id="findConnection">Find the connection</button>
-	
-		<searchResult id="searchResult">
-
-		</searchResult>
-		
+		<div class=footer>
+			<p>
+				Want to help add missing connections or correct mistakes? Visit
+				<a href="http://www.reddit.com/r/SixDegreesOfCoulson">www.reddit.com/r/SixDegreesOfCoulson</a>
+			</p>
+		</div>
 	</body>
 </html>

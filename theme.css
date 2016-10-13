@@ -1,0 +1,58 @@
+/**
+ * Body Styles
+ */
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  position: relative;
+  padding: 0.5em;
+  margin: 0;
+  padding-bottom: 5rem;
+  min-height: 100%;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+h1 {
+  margin-top: 0;
+  text-align: center;
+}
+
+.selectors div {
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+}
+
+.selectors p {
+	margin-bottom: 0.5em;
+}
+
+.selectors {
+	margin-bottom: 1em;
+}
+
+#searchResult {
+	text-align: center;
+}
+
+/**
+ * Footer Styles
+ */
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #efefef;
+  text-align: center;
+}
