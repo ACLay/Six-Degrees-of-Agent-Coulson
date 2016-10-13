@@ -11,7 +11,6 @@ return {
     "Bucky Barnes", 
     "Christine Everhart", 
     "Claire Weiss", 
-    "Colonel Philips", 
     "Colonel Phillips", 
     "Darcy Lewis", 
     "Dr Erskine", 
@@ -78,7 +77,6 @@ return {
       "characters": [
         "Arnim Zola", 
         "Bucky Barnes", 
-        "Colonel Philips", 
         "Colonel Phillips", 
         "Dr Erskine", 
         "Dum Dum Dugan", 
@@ -105,9 +103,9 @@ return {
           "p2": "Bucky Barnes"
         }, 
         {
-          "desc": "Colonel Philips was in charge of the SSR when Steve joined", 
+          "desc": "Colonel Phillips was in charge of the SSR when Steve joined", 
           "p1": "Steve Rogers", 
-          "p2": "Colonel Philips"
+          "p2": "Colonel Phillips"
         }, 
         {
           "desc": "Steve fought against Red Skull's Hydra", 
