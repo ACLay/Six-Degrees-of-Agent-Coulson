@@ -98,33 +98,30 @@ function calculateConnections(){
 };
 
 function getConnections(character) {
-	var media = connectionGraph.properties;
+	var properties = connectionGraph.properties;
 	var connections = new Set();
 
-	for (var i = 0; i < media.length; i++) {
-		var interactions = media[i].interactions;
-		for (var j = 0; j < interactions.length; j++){
-			var connection = interactions[j]
-			if (connection.p1 == character){
-				connections.add({
-					"person":connection.p2,
-					"link":connection.desc,
-					"media":media[i].name});
-			} else if (connection.p2 == character){
-				connections.add({
-					"person":connection.p1,
-					"link":connection.desc,
-					"media":media[i].name});
+	for (var i = 0; i < properties.length; i++) {
+		var media = properties[i];
+		if (isMediaSelected(media.name)){
+			var interactions = media.interactions;
+			for (var j = 0; j < interactions.length; j++){
+				var connection = interactions[j]
+				if (connection.p1 == character){
+					connections.add({
+						"person":connection.p2,
+						"link":connection.desc,
+						"media":media.name});
+				} else if (connection.p2 == character){
+					connections.add({
+						"person":connection.p1,
+						"link":connection.desc,
+						"media":media.name});
+				}
 			}
 		}
 	}
 	return connections;
-};
-
-function getSelectorValue(selectorId){
-	var selector = document.getElementById(selectorId);
-	var index = selector.selectedIndex;
-	return selector.options[index].value;
 };
 
 

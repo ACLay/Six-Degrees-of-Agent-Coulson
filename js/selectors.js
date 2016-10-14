@@ -1,5 +1,13 @@
 function fillSelectors(){
+	// preserve the selected values
+	var previousMediaFrom = getSelectorValue("mediaFrom");
+	var previousMediaTo = getSelectorValue("mediaTo");
+	var previousCharFrom = getSelectorValue("goFrom");
+	var previousCharTo = getSelectorValue("goTo");
+
 	// populate the drop down menus
+	removeChildren(mediaFrom);
+	removeChildren(mediaTo);
 	createDropDownElement(mediaFrom,"All",false);
 	createDropDownElement(mediaTo,"All",false);
 	for (var i = 0; i < connectionGraph.categories.length; i++){
@@ -8,15 +16,23 @@ function fillSelectors(){
 		createDropDownElement(mediaTo,category,true);
 		for(var j=0; j < connectionGraph.properties.length; j++){
 			var media = connectionGraph.properties[j];
-			if(media.category == category){
-				var name = media.name;
-				createDropDownElement(mediaFrom,name,false);
-				createDropDownElement(mediaTo,name,false);
+			if(isMediaSelected(media.name)){
+				if(media.category == category){
+					var name = media.name;
+					createDropDownElement(mediaFrom,name,false);
+					createDropDownElement(mediaTo,name,false);
+				}
 			}
 		}
 	}
 	updateSelector("mediaFrom","goFrom");
 	updateSelector("mediaTo","goTo");
+
+	//reload previous values where possible
+	setSelectionIfPresent("mediaFrom", previousMediaFrom);
+	setSelectionIfPresent("mediaTo", previousMediaTo);
+	setSelectionIfPresent("goFrom", previousCharFrom);
+	setSelectionIfPresent("goTo", previousCharTo);
 }
 
 function updateSelector(mediaSelectId, charSelectId){
@@ -25,7 +41,17 @@ function updateSelector(mediaSelectId, charSelectId){
 	var characters;
 
 	if(mediaName == "All"){
-		characters = connectionGraph.characters;
+		characters = new Set();
+		for(var i=0; i < connectionGraph.properties.length; i++){
+			var media = connectionGraph.properties[i];
+			var name = media.name;
+			if (isMediaSelected(name)){
+				for(var j=0; j < media.characters.length; j++){
+					characters.add(media.characters[j]);
+				}
+			}
+		}
+		characters = Array.from(characters).sort()
 	} else {
 		for(var i=0; i < connectionGraph.properties.length; i++){
 			var media = connectionGraph.properties[i];
@@ -49,4 +75,23 @@ function createDropDownElement(parent, name, disabled){
 	element.value = name;
 	element.disabled = disabled;
 	parent.appendChild(element);
+};
+
+function setSelectionIfPresent(selectorId, value){
+	var selector = document.getElementById(selectorId);
+	var children = selector.children;
+	for (var i = 0; i < children.length; i++){
+		var child = children[i]
+		if (child.value == value){
+			selector.selectedIndex = i;
+			return;
+		}
+	}
+};
+
+function getSelectorValue(selectorId){
+	var selector = document.getElementById(selectorId);
+	var index = selector.selectedIndex;
+	if (index == -1) { return "" }
+	return selector.options[index].value;
 };

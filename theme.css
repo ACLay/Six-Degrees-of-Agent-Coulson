@@ -27,6 +27,20 @@ h1 {
   text-align: center;
 }
 
+form,
+#hideFilters{
+  display:none;
+}
+
+#showFilters:target ~ form,
+#showFilters:target ~ #hideFilters {
+  display:block;
+}
+
+#showFilters:target {
+  display:none;
+}
+
 .selectors div {
 	margin-top: 1em;
 	margin-bottom: 0.5em;

@@ -1,5 +1,7 @@
 window.onload = function(){
 	connectionGraph = getConnectionData();
+	
+	generateFilters();
 
 	fillSelectors();
 
