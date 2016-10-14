@@ -1,4 +1,5 @@
-# Six-Degrees-of-Agent-Coulson
-Links between characters in the Marvel Cinematic Universe.
+# Six Degrees of Agent Coulson
+A site where "6 degrees of kevin bacon" style connection chains can be worked out for different characters in the Marvel Cinematic Universe.
 
-My aim is to have this produce a site where "6 degrees of kevin bacon" connection chains can be worked out for different MCU characters.
+Live site: https://aclay.github.io/Six-Degrees-of-Agent-Coulson/  
+Discussion: www.reddit.com/r/SixDegreesOfCoulson
