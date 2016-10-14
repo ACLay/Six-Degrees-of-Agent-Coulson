@@ -25,8 +25,10 @@ return {
     "Frigga", 
     "Gabe Jones", 
     "General Ross", 
+    "Gideon Mallick", 
     "Happy Hogan", 
     "Hawkeye", 
+    "Hawley", 
     "Heimdall", 
     "Hogun", 
     "Howard Stark", 
@@ -38,7 +40,9 @@ return {
     "Laufey", 
     "Leonard Samson", 
     "Loki", 
+    "Maria Hill", 
     "Maria Stark", 
+    "Natasha Romanov", 
     "Nick Fury", 
     "Obadiah Staine", 
     "Odin", 
@@ -51,6 +55,8 @@ return {
     "Sif", 
     "Stanley Lieber", 
     "Steve Rogers", 
+    "Thanos", 
+    "The Other", 
     "Thor", 
     "Tony Stark", 
     "Volstagg", 
@@ -499,6 +505,362 @@ return {
         }
       ], 
       "name": "Iron Man"
+    }, 
+    {
+      "category": "Films", 
+      "characters": [
+        "Agent Coulson", 
+        "Agent Sitwell", 
+        "Bruce Banner", 
+        "Erik Selvig", 
+        "Gideon Mallick", 
+        "Hawkeye", 
+        "Hawley", 
+        "JARVIS", 
+        "Loki", 
+        "Maria Hill", 
+        "Natasha Romanov", 
+        "Nick Fury", 
+        "Pepper Potts", 
+        "Steve Rogers", 
+        "Thanos", 
+        "The Other", 
+        "Thor", 
+        "Tony Stark"
+      ], 
+      "interactions": [
+        {
+          "desc": "The Other told Thanos about the tesseract", 
+          "p1": "The Other", 
+          "p2": "Thanos"
+        }, 
+        {
+          "desc": "The Other handed Loki his scepter", 
+          "p1": "The Other", 
+          "p2": "Loki"
+        }, 
+        {
+          "desc": "Thanos sent Loki to retrieve the tesseract", 
+          "p1": "Thanos", 
+          "p2": "Loki"
+        }, 
+        {
+          "desc": "Loki killed Agent Coulson", 
+          "p1": "Loki", 
+          "p2": "Agent Coulson"
+        }, 
+        {
+          "desc": "An ant has no quarrel with a boot", 
+          "p1": "Loki", 
+          "p2": "Nick Fury"
+        }, 
+        {
+          "desc": "Loki mind controlled Dr Selvig", 
+          "p1": "Loki", 
+          "p2": "Erik Selvig"
+        }, 
+        {
+          "desc": "Loki mind controlled Hawkeye", 
+          "p1": "Loki", 
+          "p2": "Hawkeye"
+        }, 
+        {
+          "desc": "Natasha interrogated Loki", 
+          "p1": "Loki", 
+          "p2": "Natasha Romanov"
+        }, 
+        {
+          "desc": "Puny god.", 
+          "p1": "Loki", 
+          "p2": "Bruce Banner"
+        }, 
+        {
+          "desc": "Loki and Cap fought in Germany", 
+          "p1": "Loki", 
+          "p2": "Steve Rogers"
+        }, 
+        {
+          "desc": "Tony tried to threaten Loki before the battle of New York", 
+          "p1": "Loki", 
+          "p2": "Tony Stark"
+        }, 
+        {
+          "desc": "Thor stole Loki from the quinjet", 
+          "p1": "Loki", 
+          "p2": "Thor"
+        }, 
+        {
+          "desc": "Coulson welcomed Fury to SHIELD's research facility", 
+          "p1": "Agent Coulson", 
+          "p2": "Nick Fury"
+        }, 
+        {
+          "desc": "Coulson welcomed Hill to SHIELD's research facility", 
+          "p1": "Agent Coulson", 
+          "p2": "Maria Hill"
+        }, 
+        {
+          "desc": "Coulson sent Romanov to recruit Dr Banner", 
+          "p1": "Agent Coulson", 
+          "p2": "Natasha Romanov"
+        }, 
+        {
+          "desc": "Banner was on the hellicarrier bridge when Coulson arrived with Tony", 
+          "p1": "Agent Coulson", 
+          "p2": "Bruce Banner"
+        }, 
+        {
+          "desc": "Steve agreed to sign Coulson's trading cards", 
+          "p1": "Agent Coulson", 
+          "p2": "Steve Rogers"
+        }, 
+        {
+          "desc": "Coulson brought Stark his homework", 
+          "p1": "Agent Coulson", 
+          "p2": "Tony Stark"
+        }, 
+        {
+          "desc": "Coulson gave Pepper a lift to the airport", 
+          "p1": "Agent Coulson", 
+          "p2": "Pepper Potts"
+        }, 
+        {
+          "desc": "Coulson overrode JARVIS telephone protocols to call Tony", 
+          "p1": "Agent Coulson", 
+          "p2": "JARVIS"
+        }, 
+        {
+          "desc": "Thor and Coulson discussed Bilgesnipe on the hellicarrier bridge", 
+          "p1": "Agent Coulson", 
+          "p2": "Thor"
+        }, 
+        {
+          "desc": "Sitwell and Coulson worked together on the hellicarrier bridge", 
+          "p1": "Agent Coulson", 
+          "p2": "Agent Sitwell"
+        }, 
+        {
+          "desc": "Fury has Hill get the phase 2 prototypes to safety", 
+          "p1": "Nick Fury", 
+          "p2": "Maria Hill"
+        }, 
+        {
+          "desc": "Selvig briefs Fury about the tessaract's misbehaviour", 
+          "p1": "Nick Fury", 
+          "p2": "Erik Selvig"
+        }, 
+        {
+          "desc": "Hawkeye shot Fury and stole the tessaract", 
+          "p1": "Nick Fury", 
+          "p2": "Hawkeye"
+        }, 
+        {
+          "desc": "Fury had Romanov show Banner to his lab", 
+          "p1": "Nick Fury", 
+          "p2": "Natasha Romanov"
+        }, 
+        {
+          "desc": "Fury welcomed Bruce to the hellicarrier bridge", 
+          "p1": "Nick Fury", 
+          "p2": "Bruce Banner"
+        }, 
+        {
+          "desc": "Fury went to Steve's gym to recruit him", 
+          "p1": "Nick Fury", 
+          "p2": "Steve Rogers"
+        }, 
+        {
+          "desc": "Fury and Stark were in the group argument in the hellicarrier lab", 
+          "p1": "Nick Fury", 
+          "p2": "Tony Stark"
+        }, 
+        {
+          "desc": "Fury and Thor were in the group argument in the hellicarrier lab", 
+          "p1": "Nick Fury", 
+          "p2": "Thor"
+        }, 
+        {
+          "desc": "Fury and Sitwell were both on the hellicarrier bridge", 
+          "p1": "Nick Fury", 
+          "p2": "Agent Sitwell"
+        }, 
+        {
+          "desc": "Mallick was on the Security Council and ordered Fury to nuke the Chitauri", 
+          "p1": "Nick Fury", 
+          "p2": "Gideon Mallick"
+        }, 
+        {
+          "desc": "Hawley was on the Security Council and ordered Fury to nuke the Chitauri", 
+          "p1": "Nick Fury", 
+          "p2": "Hawley"
+        }, 
+        {
+          "desc": "Hill was on the hellicarrier bridge when Romanov arrived", 
+          "p1": "Maria Hill", 
+          "p2": "Natasha Romanov"
+        }, 
+        {
+          "desc": "Hill was on the hellicarrier bridge when Bruce arrived", 
+          "p1": "Maria Hill", 
+          "p2": "Bruce Banner"
+        }, 
+        {
+          "desc": "Hill was on the hellicarrier bridge when Rogers arrived", 
+          "p1": "Maria Hill", 
+          "p2": "Steve Rogers"
+        }, 
+        {
+          "desc": "Hill was on the hellicarrier bridge when Tony arrived", 
+          "p1": "Maria Hill", 
+          "p2": "Tony Stark"
+        }, 
+        {
+          "desc": "Hill and Thor met on the hellicarrier bridge", 
+          "p1": "Maria Hill", 
+          "p2": "Thor"
+        }, 
+        {
+          "desc": "Hill and Sitwell were both working on the hellicarrier bridge", 
+          "p1": "Maria Hill", 
+          "p2": "Agent Sitwell"
+        }, 
+        {
+          "desc": "Hawkeye went to retrieve Irridium at Selvigs request", 
+          "p1": "Erik Selvig", 
+          "p2": "Hawkeye"
+        }, 
+        {
+          "desc": "Selvig and Romanov shut down Loki's portal", 
+          "p1": "Erik Selvig", 
+          "p2": "Natasha Romanov"
+        }, 
+        {
+          "desc": "Selvig and Bruce both saw Loki and Thor leave Earth", 
+          "p1": "Erik Selvig", 
+          "p2": "Bruce Banner"
+        }, 
+        {
+          "desc": "Selvig and Steve both saw Loki and Thor leave Earth", 
+          "p1": "Erik Selvig", 
+          "p2": "Steve Rogers"
+        }, 
+        {
+          "desc": "Tony tried to get Selvig to shut down the portal", 
+          "p1": "Erik Selvig", 
+          "p2": "Tony Stark"
+        }, 
+        {
+          "desc": "Selvig was in the group that saw Thor leave Earth with Loki", 
+          "p1": "Erik Selvig", 
+          "p2": "Thor"
+        }, 
+        {
+          "desc": "Hawkeye and Black widow founght together in Budapest", 
+          "p1": "Hawkeye", 
+          "p2": "Natasha Romanov"
+        }, 
+        {
+          "desc": "Hawkeye and Hulk fought together in New York", 
+          "p1": "Hawkeye", 
+          "p2": "Bruce Banner"
+        }, 
+        {
+          "desc": "Hawkeye and Cap fought together in New York", 
+          "p1": "Hawkeye", 
+          "p2": "Steve Rogers"
+        }, 
+        {
+          "desc": "Tony flew Hawkeye up to his vantage point", 
+          "p1": "Hawkeye", 
+          "p2": "Tony Stark"
+        }, 
+        {
+          "desc": "Hawkeye and Thor fought together in New York", 
+          "p1": "Hawkeye", 
+          "p2": "Thor"
+        }, 
+        {
+          "desc": "Romanov recruited Banner to find the tessaract", 
+          "p1": "Natasha Romanov", 
+          "p2": "Bruce Banner"
+        }, 
+        {
+          "desc": "Steve gave Nat a boost to reach the portal", 
+          "p1": "Natasha Romanov", 
+          "p2": "Steve Rogers"
+        }, 
+        {
+          "desc": "Tony and Natasha fought together in New York", 
+          "p1": "Natasha Romanov", 
+          "p2": "Tony Stark"
+        }, 
+        {
+          "desc": "Romanov and Sitwell were on the hellicarrier bridge together", 
+          "p1": "Natasha Romanov", 
+          "p2": "Agent Sitwell"
+        }, 
+        {
+          "desc": "...and Hulk, smash!", 
+          "p1": "Bruce Banner", 
+          "p2": "Steve Rogers"
+        }, 
+        {
+          "desc": "Hulk caught Tony after he flew through the portal", 
+          "p1": "Bruce Banner", 
+          "p2": "Tony Stark"
+        }, 
+        {
+          "desc": "Hulk and Thor fought on the hellicarrier", 
+          "p1": "Bruce Banner", 
+          "p2": "Thor"
+        }, 
+        {
+          "desc": "Sitwell was on the hellicarrier bridge when Banner arrived there", 
+          "p1": "Bruce Banner", 
+          "p2": "Agent Sitwell"
+        }, 
+        {
+          "desc": "Steve and Tony fought together in New York", 
+          "p1": "Steve Rogers", 
+          "p2": "Tony Stark"
+        }, 
+        {
+          "desc": "Thor and Steve fought in the forest", 
+          "p1": "Steve Rogers", 
+          "p2": "Thor"
+        }, 
+        {
+          "desc": "Sitwell was on the hellicarrier bridge when Steve arrived there", 
+          "p1": "Steve Rogers", 
+          "p2": "Agent Sitwell"
+        }, 
+        {
+          "desc": "Tony and Pepper had 12% of a moment", 
+          "p1": "Tony Stark", 
+          "p2": "Pepper Potts"
+        }, 
+        {
+          "desc": "JARVIS tried to call Pepper for Tony", 
+          "p1": "Tony Stark", 
+          "p2": "JARVIS"
+        }, 
+        {
+          "desc": "Tony and Thor fought in the forest", 
+          "p1": "Tony Stark", 
+          "p2": "Thor"
+        }, 
+        {
+          "desc": "JARVIS informed Pepper and Tony of Coulsons arrival", 
+          "p1": "Pepper Potts", 
+          "p2": "JARVIS"
+        }, 
+        {
+          "desc": "Mallick and Hawley served together on the Security Council", 
+          "p1": "Gideon Mallick", 
+          "p2": "Hawley"
+        }
+      ], 
+      "name": "The Avengers"
     }, 
     {
       "category": "Films", 
