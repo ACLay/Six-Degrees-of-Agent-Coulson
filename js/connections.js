@@ -16,20 +16,26 @@ return {
     "Anton Vanko", 
     "Arnim Zola", 
     "Bennie Pollock", 
+    "Bereet", 
     "Betty Ross", 
     "Bruce Banner", 
     "Bucky Barnes", 
+    "Carina", 
     "Christine Everhart", 
     "Claire Weiss", 
     "Clint Barton", 
     "Colonel Phillips", 
+    "Cosmo the dog", 
     "DJ AM", 
     "Darcy Lewis", 
     "Darren Cross", 
+    "Denarian Sall", 
     "Detective Lemieux", 
     "Doctor Wu", 
     "Dr Erskine", 
+    "Drax", 
     "Dum Dum Dugan", 
+    "Duranna Dey", 
     "Ellen Brandt", 
     "Elon Musk", 
     "Emil Blonsky", 
@@ -38,12 +44,15 @@ return {
     "Fandral", 
     "Frigga", 
     "Gabe Jones", 
+    "Gamora", 
     "Gary the Camera Guy", 
     "General Gabriel", 
     "General Meade", 
     "General Ross", 
     "Gideon Mallick", 
     "Gilmore Hodge", 
+    "Grandpa Quill", 
+    "Groot", 
     "Happy Hogan", 
     "Harley Keener", 
     "Hawley", 
@@ -52,6 +61,7 @@ return {
     "Ho Yinsen", 
     "Hogun", 
     "Howard Stark", 
+    "Howard the duck", 
     "Ivan Vanko", 
     "JARVIS", 
     "Jack the Valet", 
@@ -64,7 +74,10 @@ return {
     "Jim Morita", 
     "Joe Greller", 
     "Justin Hammer", 
+    "Karman-Kan Dey", 
     "Kathleen Sparr", 
+    "Korath", 
+    "Kraglin Obfonteri", 
     "Larry Ellison", 
     "Larry King", 
     "Laufey", 
@@ -75,17 +88,24 @@ return {
     "Maria Stark", 
     "Martina", 
     "Maya Hansen", 
+    "Meredith Quill", 
     "Mrs Davis", 
     "Natasha Romanoff", 
+    "Nebula", 
     "Nick Fury", 
+    "Nova Prime", 
     "Obadiah Stane", 
     "Odin", 
     "Peggy Carter", 
     "Pepper Potts", 
+    "Peter Quill", 
     "President Ellis", 
     "Prisoner 6219", 
     "Raza", 
     "Red Skull", 
+    "Rhomann Dey", 
+    "Rocket", 
+    "Ronan", 
     "Samuel Sterns", 
     "Savin", 
     "Scott Lang", 
@@ -96,6 +116,8 @@ return {
     "Steve Rogers", 
     "Taggart", 
     "Thanos", 
+    "The Broker", 
+    "The Collector", 
     "The Other", 
     "Thomas Richards", 
     "Thor", 
@@ -105,7 +127,8 @@ return {
     "Volstagg", 
     "Will Adams", 
     "William Ginter Riva", 
-    "Yinsen"
+    "Yinsen", 
+    "Yondu Udonta"
   ], 
   "properties": [
     {
@@ -467,6 +490,469 @@ return {
         }
       ], 
       "name": "Captain America The First Avenger"
+    }, 
+    {
+      "category": "Films", 
+      "characters": [
+        "Bereet", 
+        "Carina", 
+        "Cosmo the dog", 
+        "Denarian Sall", 
+        "Drax", 
+        "Duranna Dey", 
+        "Gamora", 
+        "Grandpa Quill", 
+        "Groot", 
+        "Howard the duck", 
+        "Karman-Kan Dey", 
+        "Korath", 
+        "Kraglin Obfonteri", 
+        "Meredith Quill", 
+        "Nebula", 
+        "Nova Prime", 
+        "Peter Quill", 
+        "Rhomann Dey", 
+        "Rocket", 
+        "Ronan", 
+        "Thanos", 
+        "The Broker", 
+        "The Collector", 
+        "The Other", 
+        "Yondu Udonta"
+      ], 
+      "interactions": [
+        {
+          "desc": "Quill and Gamora are both Guardians of the Galaxy", 
+          "p1": "Peter Quill", 
+          "p2": "Gamora"
+        }, 
+        {
+          "desc": "Quill and Drax are both Guardians of the Galaxy", 
+          "p1": "Peter Quill", 
+          "p2": "Drax"
+        }, 
+        {
+          "desc": "Quill and Groot are both Guardians of the Galaxy", 
+          "p1": "Peter Quill", 
+          "p2": "Groot"
+        }, 
+        {
+          "desc": "Quill and Rocket are both Guardians of the Galaxy", 
+          "p1": "Peter Quill", 
+          "p2": "Rocket"
+        }, 
+        {
+          "desc": "Quill challenged Ronan to a dance off", 
+          "p1": "Peter Quill", 
+          "p2": "Ronan"
+        }, 
+        {
+          "desc": "Yondu abducted Peter from Earth in 1988", 
+          "p1": "Peter Quill", 
+          "p2": "Yondu Udonta"
+        }, 
+        {
+          "desc": "Kraglin and the other Ravagers wanted to eat Quill", 
+          "p1": "Peter Quill", 
+          "p2": "Kraglin Obfonteri"
+        }, 
+        {
+          "desc": "Nebula confronted Quill and the Guardians on the Dark Aster", 
+          "p1": "Peter Quill", 
+          "p2": "Nebula"
+        }, 
+        {
+          "desc": "Korath was the first person to call Quill Star-Lord", 
+          "p1": "Peter Quill", 
+          "p2": "Korath"
+        }, 
+        {
+          "desc": "Dey got Quill's dick message", 
+          "p1": "Peter Quill", 
+          "p2": "Rhomann Dey"
+        }, 
+        {
+          "desc": "Nova Prime thanked Quill and the Guardians for saving Xandar", 
+          "p1": "Peter Quill", 
+          "p2": "Nova Prime"
+        }, 
+        {
+          "desc": "Quill and the Guardians brought the Orb to The Collector in Knowhere", 
+          "p1": "Peter Quill", 
+          "p2": "The Collector"
+        }, 
+        {
+          "desc": "Meredith is Peter's mother", 
+          "p1": "Peter Quill", 
+          "p2": "Meredith Quill"
+        }, 
+        {
+          "desc": "Sall advised against trusting Quill, but helped him under Nova Prime's orders", 
+          "p1": "Peter Quill", 
+          "p2": "Denarian Sall"
+        }, 
+        {
+          "desc": "Quill tried to sell the Orb to The Broker", 
+          "p1": "Peter Quill", 
+          "p2": "The Broker"
+        }, 
+        {
+          "desc": "Grandpa Quill is Peter's Grandpa", 
+          "p1": "Peter Quill", 
+          "p2": "Grandpa Quill"
+        }, 
+        {
+          "desc": "Quill forgot Bereet was on his ship", 
+          "p1": "Peter Quill", 
+          "p2": "Bereet"
+        }, 
+        {
+          "desc": "Carina summoned the Guardians into The Collectors museum in Knowhere", 
+          "p1": "Peter Quill", 
+          "p2": "Carina"
+        }, 
+        {
+          "desc": "Quill walked past Cosmo's display case in The Collectors museum", 
+          "p1": "Peter Quill", 
+          "p2": "Cosmo the dog"
+        }, 
+        {
+          "desc": "Gamora and Drax are both Guardians of the Galaxy", 
+          "p1": "Gamora", 
+          "p2": "Drax"
+        }, 
+        {
+          "desc": "Gamora and Groot are both Guardians of the Galaxy", 
+          "p1": "Gamora", 
+          "p2": "Groot"
+        }, 
+        {
+          "desc": "Gamora and Rocket are both Guardians of the Galaxy", 
+          "p1": "Gamora", 
+          "p2": "Rocket"
+        }, 
+        {
+          "desc": "Gamora was assigned to work with Ronan by Thanos", 
+          "p1": "Gamora", 
+          "p2": "Ronan"
+        }, 
+        {
+          "desc": "Yondu beamed Gamora and Quill onto his ship from space outside Knowhere", 
+          "p1": "Gamora", 
+          "p2": "Yondu Udonta"
+        }, 
+        {
+          "desc": "Kraglin and the other Ravagers held Gamora captive after rescuing her and Quill", 
+          "p1": "Gamora", 
+          "p2": "Kraglin Obfonteri"
+        }, 
+        {
+          "desc": "Nebula chopped off her robotic hand to get away from Gamora", 
+          "p1": "Gamora", 
+          "p2": "Nebula"
+        }, 
+        {
+          "desc": "Gamora was present when Korath told Ronan that Quill took the Orb", 
+          "p1": "Gamora", 
+          "p2": "Korath"
+        }, 
+        {
+          "desc": "Dey told Gamora and the other Guardians their criminal records had been cleared", 
+          "p1": "Gamora", 
+          "p2": "Rhomann Dey"
+        }, 
+        {
+          "desc": "Nova Prime thanked Gamora and the Guardians for saving Xandar", 
+          "p1": "Gamora", 
+          "p2": "Nova Prime"
+        }, 
+        {
+          "desc": "Gamora had arranged to sell the Orb to The Collector for 4-billion units", 
+          "p1": "Gamora", 
+          "p2": "The Collector"
+        }, 
+        {
+          "desc": "Sall and Dey screened Gamora after arresting her on Xandar", 
+          "p1": "Gamora", 
+          "p2": "Denarian Sall"
+        }, 
+        {
+          "desc": "Gamora was an adopted daughter of Thanos", 
+          "p1": "Gamora", 
+          "p2": "Thanos"
+        }, 
+        {
+          "desc": "Carina summoned the Guardians into The Collectors museum in Knowhere", 
+          "p1": "Gamora", 
+          "p2": "Carina"
+        }, 
+        {
+          "desc": "Gamora walked past Cosmo's display case in The Collectors museum", 
+          "p1": "Gamora", 
+          "p2": "Cosmo the dog"
+        }, 
+        {
+          "desc": "This dumb tree is Drax's friend", 
+          "p1": "Drax", 
+          "p2": "Groot"
+        }, 
+        {
+          "desc": "Drax called Rocket Vermin, Rocket wanted to shoot Drax", 
+          "p1": "Drax", 
+          "p2": "Rocket"
+        }, 
+        {
+          "desc": "Drax got his ass handed to him when fighting Ronan in Knowhere", 
+          "p1": "Drax", 
+          "p2": "Ronan"
+        }, 
+        {
+          "desc": "Drax was with Quill and Gamora when briefing the Ravagers on their plan to beat Ronan", 
+          "p1": "Drax", 
+          "p2": "Yondu Udonta"
+        }, 
+        {
+          "desc": "Drax was with Quill and Gamora when briefing the Ravagers on their plan to beat Ronan", 
+          "p1": "Drax", 
+          "p2": "Kraglin Obfonteri"
+        }, 
+        {
+          "desc": "Drax fired a rocket at Nebula when she confronted the Guardians on the Dark Aster", 
+          "p1": "Drax", 
+          "p2": "Nebula"
+        }, 
+        {
+          "desc": "Drax pulled the cybernetic implants out of Koraths head", 
+          "p1": "Drax", 
+          "p2": "Korath"
+        }, 
+        {
+          "desc": "Dey told Drax and the other Guardians their criminal records had been cleared", 
+          "p1": "Drax", 
+          "p2": "Rhomann Dey"
+        }, 
+        {
+          "desc": "Nova Prime thanked Drax and the Guardians for saving Xandar", 
+          "p1": "Drax", 
+          "p2": "Nova Prime"
+        }, 
+        {
+          "desc": "The Broker was at the fight between the Guardians and Ronan", 
+          "p1": "Drax", 
+          "p2": "The Broker"
+        }, 
+        {
+          "desc": "We are Groot.", 
+          "p1": "Groot", 
+          "p2": "Rocket"
+        }, 
+        {
+          "desc": "Groot was with the other Guardians when they fired the Hadron Enforcer at Ronan", 
+          "p1": "Groot", 
+          "p2": "Ronan"
+        }, 
+        {
+          "desc": "Groot was with Quill and Gamora when briefing the Ravagers on their plan to beat Ronan", 
+          "p1": "Groot", 
+          "p2": "Yondu Udonta"
+        }, 
+        {
+          "desc": "Groot was with Quill and Gamora when briefing the Ravagers on their plan to beat Ronan", 
+          "p1": "Groot", 
+          "p2": "Kraglin Obfonteri"
+        }, 
+        {
+          "desc": "Nebula confronted Groot and the Guardians on the Dark Aster", 
+          "p1": "Groot", 
+          "p2": "Nebula"
+        }, 
+        {
+          "desc": "Groot fought Korath and his soldiers onboard the Dark Aster", 
+          "p1": "Groot", 
+          "p2": "Korath"
+        }, 
+        {
+          "desc": "Dey told the Guardians that their criminal records had been cleared", 
+          "p1": "Groot", 
+          "p2": "Rhomann Dey"
+        }, 
+        {
+          "desc": "Nova Prime thanked Groot and the Guardians for saving Xandar", 
+          "p1": "Groot", 
+          "p2": "Nova Prime"
+        }, 
+        {
+          "desc": "The Collector offered to pay Groot to own his carcass after he dies", 
+          "p1": "Groot", 
+          "p2": "The Collector"
+        }, 
+        {
+          "desc": "Sall and Dey screened Groot after arresting him on Xandar", 
+          "p1": "Groot", 
+          "p2": "Denarian Sall"
+        }, 
+        {
+          "desc": "Carina summoned the Guardians into The Collectors museum in Knowhere", 
+          "p1": "Groot", 
+          "p2": "Carina"
+        }, 
+        {
+          "desc": "Groot walked past Cosmo's display case in The Collectors museum", 
+          "p1": "Groot", 
+          "p2": "Cosmo the dog"
+        }, 
+        {
+          "desc": "Rocket flew his spaceship into Ronan after the Hadron Enforcer failed", 
+          "p1": "Rocket", 
+          "p2": "Ronan"
+        }, 
+        {
+          "desc": "Rocket threatened to blow up Yondu's ship if he didn't free Quill and Gamora", 
+          "p1": "Rocket", 
+          "p2": "Yondu Udonta"
+        }, 
+        {
+          "desc": "Rocket was with Quill and Gamora when briefing the Ravagers on their plan to beat Ronan", 
+          "p1": "Rocket", 
+          "p2": "Kraglin Obfonteri"
+        }, 
+        {
+          "desc": "Dey told the Guardians that their criminal records had been cleared", 
+          "p1": "Rocket", 
+          "p2": "Rhomann Dey"
+        }, 
+        {
+          "desc": "Nova Prime thanked Rocket and the Guardians for saving Xandar", 
+          "p1": "Rocket", 
+          "p2": "Nova Prime"
+        }, 
+        {
+          "desc": "The Collectors speech about infinity stones bored Rocket, who just wanted to get paid", 
+          "p1": "Rocket", 
+          "p2": "The Collector"
+        }, 
+        {
+          "desc": "Sall and Dey screened Rocket after arresting him on Xandar", 
+          "p1": "Rocket", 
+          "p2": "Denarian Sall"
+        }, 
+        {
+          "desc": "Carina summoned the Guardians into The Collectors museum in Knowhere", 
+          "p1": "Rocket", 
+          "p2": "Carina"
+        }, 
+        {
+          "desc": "Rocket and Cosmo snarled at each other in The Collectors museum", 
+          "p1": "Rocket", 
+          "p2": "Cosmo the dog"
+        }, 
+        {
+          "desc": "Nebula was assigned to work with Ronan by Thanos", 
+          "p1": "Ronan", 
+          "p2": "Nebula"
+        }, 
+        {
+          "desc": "Korath was one of Ronan's henchmen", 
+          "p1": "Ronan", 
+          "p2": "Korath"
+        }, 
+        {
+          "desc": "Ronan snapped The Other's neck", 
+          "p1": "Ronan", 
+          "p2": "The Other"
+        }, 
+        {
+          "desc": "Ronan was to retrieve the Orb for Thanos", 
+          "p1": "Ronan", 
+          "p2": "Thanos"
+        }, 
+        {
+          "desc": "Kraglin is Yondu's First Mate in the Ravagers", 
+          "p1": "Yondu Udonta", 
+          "p2": "Kraglin Obfonteri"
+        }, 
+        {
+          "desc": "Yondu had a deal with The Broker to retrieve the Orb", 
+          "p1": "Yondu Udonta", 
+          "p2": "The Broker"
+        }, 
+        {
+          "desc": "Kraglin was at the Brokers shop with Yondu", 
+          "p1": "Kraglin Obfonteri", 
+          "p2": "The Broker"
+        }, 
+        {
+          "desc": "Nebula was present when Korath told Ronan that Quill took the Orb", 
+          "p1": "Nebula", 
+          "p2": "Korath"
+        }, 
+        {
+          "desc": "Nebula saw Ronan snap The Other's neck", 
+          "p1": "Nebula", 
+          "p2": "The Other"
+        }, 
+        {
+          "desc": "Nebula is an adopted daughter of Thanos", 
+          "p1": "Nebula", 
+          "p2": "Thanos"
+        }, 
+        {
+          "desc": "Dey informed Nova Prime of Quill's warning about Ronan's attack", 
+          "p1": "Rhomann Dey", 
+          "p2": "Nova Prime"
+        }, 
+        {
+          "desc": "Dey and Sall screened the Guardians after arresting them on Xandar", 
+          "p1": "Rhomann Dey", 
+          "p2": "Denarian Sall"
+        }, 
+        {
+          "desc": "Karman-Kan is married to Rhomann Dey", 
+          "p1": "Rhomann Dey", 
+          "p2": "Karman-Kan Dey"
+        }, 
+        {
+          "desc": "Duranna Dey is Rhomann Dey's daughter", 
+          "p1": "Rhomann Dey", 
+          "p2": "Duranna Dey"
+        }, 
+        {
+          "desc": "Sall advised Nova Prime not to believe Quill's story", 
+          "p1": "Nova Prime", 
+          "p2": "Denarian Sall"
+        }, 
+        {
+          "desc": "Carina was an attendant for The Collector", 
+          "p1": "The Collector", 
+          "p2": "Carina"
+        }, 
+        {
+          "desc": "Cosmo licked The Collector's face after his museum got wrecked", 
+          "p1": "The Collector", 
+          "p2": "Cosmo the dog"
+        }, 
+        {
+          "desc": "Howard and The Collector shared space martinis", 
+          "p1": "The Collector", 
+          "p2": "Howard the duck"
+        }, 
+        {
+          "desc": "Grandpa Quill is Meredith's father.", 
+          "p1": "Meredith Quill", 
+          "p2": "Grandpa Quill"
+        }, 
+        {
+          "desc": "The Other worked for Thanos", 
+          "p1": "The Other", 
+          "p2": "Thanos"
+        }, 
+        {
+          "desc": "Duranna is Karman-Kan's daughter", 
+          "p1": "Karman-Kan Dey", 
+          "p2": "Duranna Dey"
+        }
+      ], 
+      "name": "Guardians of the Galaxy"
     }, 
     {
       "category": "Films", 
