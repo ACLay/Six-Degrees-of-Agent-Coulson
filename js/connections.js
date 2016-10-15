@@ -21,6 +21,7 @@ return {
     "Bucky Barnes", 
     "Christine Everhart", 
     "Claire Weiss", 
+    "Clint Barton", 
     "Colonel Phillips", 
     "DJ AM", 
     "Darcy Lewis", 
@@ -46,7 +47,6 @@ return {
     "Gilmore Hodge", 
     "Happy Hogan", 
     "Harley Keener", 
-    "Hawkeye", 
     "Hawley", 
     "Heimdall", 
     "Heinz Kruger", 
@@ -1303,9 +1303,9 @@ return {
         "Agent Coulson", 
         "Agent Sitwell", 
         "Bruce Banner", 
+        "Clint Barton", 
         "Erik Selvig", 
         "Gideon Mallick", 
-        "Hawkeye", 
         "Hawley", 
         "JARVIS", 
         "Loki", 
@@ -1353,7 +1353,7 @@ return {
         {
           "desc": "Loki mind controlled Hawkeye", 
           "p1": "Loki", 
-          "p2": "Hawkeye"
+          "p2": "Clint Barton"
         }, 
         {
           "desc": "Natasha interrogated Loki", 
@@ -1441,9 +1441,9 @@ return {
           "p2": "Erik Selvig"
         }, 
         {
-          "desc": "Hawkeye shot Fury and stole the tessaract", 
+          "desc": "Barton shot Fury and stole the tessaract", 
           "p1": "Nick Fury", 
-          "p2": "Hawkeye"
+          "p2": "Clint Barton"
         }, 
         {
           "desc": "Fury had Romanov show Banner to his lab", 
@@ -1516,9 +1516,9 @@ return {
           "p2": "Agent Sitwell"
         }, 
         {
-          "desc": "Hawkeye went to retrieve Irridium at Selvigs request", 
+          "desc": "Barton went to retrieve Irridium at Selvigs request", 
           "p1": "Erik Selvig", 
-          "p2": "Hawkeye"
+          "p2": "Clint Barton"
         }, 
         {
           "desc": "Selvig and Romanov shut down Loki's portal", 
@@ -1547,27 +1547,27 @@ return {
         }, 
         {
           "desc": "Hawkeye and Black widow founght together in Budapest", 
-          "p1": "Hawkeye", 
+          "p1": "Clint Barton", 
           "p2": "Natasha Romanoff"
         }, 
         {
           "desc": "Hawkeye and Hulk fought together in New York", 
-          "p1": "Hawkeye", 
+          "p1": "Clint Barton", 
           "p2": "Bruce Banner"
         }, 
         {
           "desc": "Hawkeye and Cap fought together in New York", 
-          "p1": "Hawkeye", 
+          "p1": "Clint Barton", 
           "p2": "Steve Rogers"
         }, 
         {
-          "desc": "Tony flew Hawkeye up to his vantage point", 
-          "p1": "Hawkeye", 
+          "desc": "Tony flew Clint up to his vantage point", 
+          "p1": "Clint Barton", 
           "p2": "Tony Stark"
         }, 
         {
           "desc": "Hawkeye and Thor fought together in New York", 
-          "p1": "Hawkeye", 
+          "p1": "Clint Barton", 
           "p2": "Thor"
         }, 
         {
@@ -1789,11 +1789,11 @@ return {
         "Agent Coulson", 
         "Agent Sitwell", 
         "Bruce Banner", 
+        "Clint Barton", 
         "Darcy Lewis", 
         "Erik Selvig", 
         "Fandral", 
         "Frigga", 
-        "Hawkeye", 
         "Heimdall", 
         "Hogun", 
         "Jane Foster", 
@@ -2181,9 +2181,9 @@ return {
           "p2": "Agent Sitwell"
         }, 
         {
-          "desc": "Coulson ordered Hawkeye to observe Thor", 
+          "desc": "Coulson ordered Barton to observe Thor", 
           "p1": "Agent Coulson", 
-          "p2": "Hawkeye"
+          "p2": "Clint Barton"
         }, 
         {
           "desc": "Laufey walked past the frozen Heimdall on entering Asgard", 
