@@ -72,6 +72,10 @@ form,
   margin-right: 1em;
 }
 
+#filters label {
+  display:block;
+}
+
 /**
  * Footer Styles
  */

@@ -28,27 +28,30 @@ function makeCategoryTag(category){
 }
 
 function addMediaCheckbox(categoryTag, mediaName){
+	var labelTag = document.createElement("label");
+
 	var checkbox = document.createElement("input");
 	checkbox.type = "checkbox";
 	checkbox.id = mediaName + "_cb";
 	checkbox.value = mediaName + "_cb";
 	checkbox.checked = true;
-	checkbox.onclick = fillSelectors;
-	categoryTag.appendChild(checkbox);
+	labelTag.onclick = fillSelectors;
 
-	var label = document.createTextNode(mediaName);
-	categoryTag.appendChild(label);
+	var labelText = document.createTextNode(mediaName);
 
-	var newline = document.createElement("br");
-	categoryTag.appendChild(newline);
+	labelTag.appendChild(checkbox);
+	labelTag.appendChild(labelText);
+	categoryTag.appendChild(labelTag);
 }
 
 function categoryContainsSelection(category){
-	var categoryTag = document.getElementById(category + "_selectors");
-	var children = categoryTag.children;
-	for (var i = 1; i < children.length; i = i+2){
-		if (children[i].checked){
-			return true;
+	for(var i = 0; i < connectionGraph.properties.length; i++){
+		var property = connectionGraph.properties[i];
+		if(property.category == category){
+			var checkbox = document.getElementById(property.name + "_cb");
+			if(checkbox.checked){
+				return true;
+			}
 		}
 	}
 	return false;
