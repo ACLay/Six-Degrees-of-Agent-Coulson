@@ -2,7 +2,8 @@ function getConnectionData(){
 return {
   "categories": [
     "Films", 
-    "One-shots"
+    "One-shots", 
+    "Other"
   ], 
   "characters": [
     "Abu Bakar", 
@@ -22,6 +23,7 @@ return {
     "Colonel Phillips", 
     "DJ AM", 
     "Darcy Lewis", 
+    "Darren Cross", 
     "Detective Lemieux", 
     "Dr Erskine", 
     "Dum Dum Dugan", 
@@ -46,9 +48,11 @@ return {
     "Ivan Vanko", 
     "JARVIS", 
     "Jack the Valet", 
+    "Jackson Norris", 
     "Jacques Dernier", 
     "James Falsworth", 
     "James Rhodes", 
+    "James Rondell", 
     "Jane Foster", 
     "Jim Morita", 
     "Joe Greller", 
@@ -69,10 +73,12 @@ return {
     "Odin", 
     "Peggy Carter", 
     "Pepper Potts", 
+    "President Ellis", 
     "Prisoner 6219", 
     "Raza", 
     "Red Skull", 
     "Samuel Sterns", 
+    "Scott Lang", 
     "Senator Brandt", 
     "Senator Stern", 
     "Sif", 
@@ -83,6 +89,7 @@ return {
     "Thor", 
     "Tony Stark", 
     "Volstagg", 
+    "Will Adams", 
     "William Ginter Riva", 
     "Yinsen"
   ], 
@@ -1928,6 +1935,62 @@ return {
         }
       ], 
       "name": "Item 47"
+    }, 
+    {
+      "category": "Other", 
+      "characters": [
+        "Christine Everhart", 
+        "Darren Cross", 
+        "General Ross", 
+        "Jackson Norris", 
+        "James Rondell", 
+        "President Ellis", 
+        "Scott Lang", 
+        "Will Adams"
+      ], 
+      "interactions": [
+        {
+          "desc": "Christine interviewed Scott for WHIH World News", 
+          "p1": "Christine Everhart", 
+          "p2": "Scott Lang"
+        }, 
+        {
+          "desc": "Christine and Will co-anchored a WHIH Newsfront Special", 
+          "p1": "Christine Everhart", 
+          "p2": "Will Adams"
+        }, 
+        {
+          "desc": "Christine interviewed Ellis for a WHIH Newsfront Special", 
+          "p1": "Christine Everhart", 
+          "p2": "President Ellis"
+        }, 
+        {
+          "desc": "Will Adams interviewed Ellis for a WHIH Newsfront Special", 
+          "p1": "Will Adams", 
+          "p2": "President Ellis"
+        }, 
+        {
+          "desc": "WHIH World News reported that President Ellis met with retired General Ross", 
+          "p1": "General Ross", 
+          "p2": "President Ellis"
+        }, 
+        {
+          "desc": "James interviewed Darren for WIRED Insider", 
+          "p1": "Darren Cross", 
+          "p2": "James Rondell"
+        }, 
+        {
+          "desc": "Jackson was a field reporter for a WHIH Breaking News segment co-anchored by Christine and Will Adams", 
+          "p1": "Jackson Norris", 
+          "p2": "Christine Everhart"
+        }, 
+        {
+          "desc": "|Jackson was a field reporter for a WHIH Breaking News segment co-anchored by Will and Christine Everhart", 
+          "p1": "Jackson Norris", 
+          "p2": "Will Adams"
+        }
+      ], 
+      "name": "WHIH World News"
     }
   ]
 }
