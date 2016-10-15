@@ -4,7 +4,7 @@ function displayConnection(){
 	var connection = calculateConnections();
 
 	if (connection == null){
-		addChild(resultElement,"p","Something went wrong, unable to work out the connection");
+		addChild(resultElement,"p","No connection could be found through the current media");
 	} else if (connection.start == connection.end){
 		addChild(resultElement,"h3",connection.start);
 		addChild(resultElement,"p","is");
