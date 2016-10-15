@@ -10,7 +10,6 @@ return {
     "Agent Blake", 
     "Agent Coulson", 
     "Agent Sitwell", 
-    "Aldrich Killan", 
     "Aldrich Killian", 
     "Amadeus Cho", 
     "Anton Vanko", 
@@ -1299,7 +1298,6 @@ return {
     {
       "category": "Films", 
       "characters": [
-        "Aldrich Killan", 
         "Aldrich Killian", 
         "Bruce Banner", 
         "Doctor Wu", 
@@ -1426,7 +1424,7 @@ return {
         {
           "desc": "Savin is Killian's lead henchmen", 
           "p1": "Savin", 
-          "p2": "Aldrich Killan"
+          "p2": "Aldrich Killian"
         }, 
         {
           "desc": "Pepper is the one thing that Tony can't live without", 
