@@ -10,6 +10,8 @@ return {
     "Agent Blake", 
     "Agent Coulson", 
     "Agent Sitwell", 
+    "Aldrich Killan", 
+    "Aldrich Killian", 
     "Amadeus Cho", 
     "Anton Vanko", 
     "Arnim Zola", 
@@ -24,24 +26,31 @@ return {
     "Darcy Lewis", 
     "Darren Cross", 
     "Detective Lemieux", 
+    "Doctor Wu", 
     "Dr Erskine", 
+    "Dr. Wu", 
     "Dum Dum Dugan", 
+    "Ellen Brandt", 
     "Elon Musk", 
     "Emil Blonsky", 
     "Erik Selvig", 
+    "Erin", 
     "Fandral", 
     "Frigga", 
     "Gabe Jones", 
+    "Gary the Camera Guy", 
     "General Gabriel", 
     "General Meade", 
     "General Ross", 
     "Gideon Mallick", 
     "Gilmore Hodge", 
     "Happy Hogan", 
+    "Harley Keener", 
     "Hawkeye", 
     "Hawley", 
     "Heimdall", 
     "Heinz Kruger", 
+    "Ho Yinsen", 
     "Hogun", 
     "Howard Stark", 
     "Ivan Vanko", 
@@ -66,6 +75,8 @@ return {
     "Maria Hill", 
     "Maria Stark", 
     "Martina", 
+    "Maya Hansen", 
+    "Mrs Davis", 
     "Natasha Romanoff", 
     "Nick Fury", 
     "Obadiah Stane", 
@@ -77,16 +88,21 @@ return {
     "Raza", 
     "Red Skull", 
     "Samuel Sterns", 
+    "Savin", 
     "Scott Lang", 
     "Senator Brandt", 
     "Senator Stern", 
     "Sif", 
     "Stanley Lieber", 
     "Steve Rogers", 
+    "Taggart", 
     "Thanos", 
     "The Other", 
+    "Thomas Richards", 
     "Thor", 
     "Tony Stark", 
+    "Trevor Slattery", 
+    "Vice President Rodriguez", 
     "Volstagg", 
     "Will Adams", 
     "William Ginter Riva", 
@@ -794,6 +810,312 @@ return {
         }
       ], 
       "name": "Iron Man 2"
+    }, 
+    {
+      "category": "Films", 
+      "characters": [
+        "Aldrich Killan", 
+        "Aldrich Killian", 
+        "Bruce Banner", 
+        "Doctor Wu", 
+        "Dr. Wu", 
+        "Ellen Brandt", 
+        "Erin", 
+        "Gary the Camera Guy", 
+        "Happy Hogan", 
+        "Harley Keener", 
+        "Ho Yinsen", 
+        "JARVIS", 
+        "James Rhodes", 
+        "Maya Hansen", 
+        "Mrs Davis", 
+        "Pepper Potts", 
+        "President Ellis", 
+        "Savin", 
+        "Taggart", 
+        "Thomas Richards", 
+        "Tony Stark", 
+        "Trevor Slattery", 
+        "Vice President Rodriguez"
+      ], 
+      "interactions": [
+        {
+          "desc": "Tony bored Bruce into unconciousness with the power of his narrative", 
+          "p1": "Bruce Banner", 
+          "p2": "Tony Stark"
+        }, 
+        {
+          "desc": "Happy tried to save Tony from Y2K", 
+          "p1": "Tony Stark", 
+          "p2": "Happy Hogan"
+        }, 
+        {
+          "desc": "Tony and Maya exchanged \"ideas\" at a conference in Bern", 
+          "p1": "Tony Stark", 
+          "p2": "Maya Hansen"
+        }, 
+        {
+          "desc": "Happy broke Maya's science fern", 
+          "p1": "Maya Hansen", 
+          "p2": "Happy Hogan"
+        }, 
+        {
+          "desc": "Yinsen introduced Tony to Dr. Wu", 
+          "p1": "Ho Yinsen", 
+          "p2": "Tony Stark"
+        }, 
+        {
+          "desc": "Yinsen and Hansen met at a conference in Bern", 
+          "p1": "Ho Yinsen", 
+          "p2": "Maya Hansen"
+        }, 
+        {
+          "desc": "Happy was with Tony Stark when the latter met Yinsen at a conference in Bern", 
+          "p1": "Ho Yinsen", 
+          "p2": "Happy Hogan"
+        }, 
+        {
+          "desc": "Doctors Wu and Hansen met at a conference in Bern", 
+          "p1": "Doctor Wu", 
+          "p2": "Maya Hansen"
+        }, 
+        {
+          "desc": "Wu was visibly weirded out by Tony's personality", 
+          "p1": "Doctor Wu", 
+          "p2": "Tony Stark"
+        }, 
+        {
+          "desc": "Doctors Wu and Yinsen attended a conference in Bern together", 
+          "p1": "Doctor Wu", 
+          "p2": "Ho Yinsen"
+        }, 
+        {
+          "desc": "Happy was with Tony Stark when the latter met Wu at a conference in Bern", 
+          "p1": "Doctor Wu", 
+          "p2": "Happy Hogan"
+        }, 
+        {
+          "desc": "Killian funded Hansen's research to create Extremis", 
+          "p1": "Aldrich Killian", 
+          "p2": "Maya Hansen"
+        }, 
+        {
+          "desc": "Happy presses an elevator button for Aldritch", 
+          "p1": "Aldrich Killian", 
+          "p2": "Happy Hogan"
+        }, 
+        {
+          "desc": "JARVIS is Tony's personal AI assistant", 
+          "p1": "JARVIS", 
+          "p2": "Tony Stark"
+        }, 
+        {
+          "desc": "Ellis made Rhodey paint his armor red, white and blue", 
+          "p1": "President Ellis", 
+          "p2": "James Rhodes"
+        }, 
+        {
+          "desc": "Stark and Rhodey had lunch at Neptune's Nest", 
+          "p1": "Tony Stark", 
+          "p2": "James Rhodes"
+        }, 
+        {
+          "desc": "Erin asked Tony to autograph her crayon portrait of Iron man", 
+          "p1": "Erin", 
+          "p2": "Tony Stark"
+        }, 
+        {
+          "desc": "Happy is Pepper's Head of Security", 
+          "p1": "Happy Hogan", 
+          "p2": "Pepper Potts"
+        }, 
+        {
+          "desc": "Killian is Pepper's former boss who harbors a crush", 
+          "p1": "Aldrich Killian", 
+          "p2": "Pepper Potts"
+        }, 
+        {
+          "desc": "Happy followed Savin because he's \"shifty\"", 
+          "p1": "Savin", 
+          "p2": "Happy Hogan"
+        }, 
+        {
+          "desc": "Savin is Killian's lead henchmen", 
+          "p1": "Savin", 
+          "p2": "Aldrich Killan"
+        }, 
+        {
+          "desc": "Pepper is the one thing that Tony can't live without", 
+          "p1": "Pepper Potts", 
+          "p2": "Tony Stark"
+        }, 
+        {
+          "desc": "Taggart told Savin he could regulate, but was proven to be a liar", 
+          "p1": "Taggart", 
+          "p2": "Savin"
+        }, 
+        {
+          "desc": "Taggart was a subject in Killian's Extremis trials", 
+          "p1": "Taggart", 
+          "p2": "Aldrich Killian"
+        }, 
+        {
+          "desc": "Happy is injured when Taggart explodes", 
+          "p1": "Taggart", 
+          "p2": "Happy Hogan"
+        }, 
+        {
+          "desc": "Pepper and Maya bonded over their mutual distaste for Tony, until Maya turned out to be a traitor", 
+          "p1": "Maya Hansen", 
+          "p2": "Pepper Potts"
+        }, 
+        {
+          "desc": "Harley got Tony a laptop, a digital watch, the pneumatic actuator from his potato gun, a map of town, a big spring and a tunafish sandwich", 
+          "p1": "Harley Keener", 
+          "p2": "Tony Stark"
+        }, 
+        {
+          "desc": "Trevor portrayed the Mandarin for Killian in exchange for lots of lovely drugs", 
+          "p1": "Trevor Slattery", 
+          "p2": "Aldrich Killian"
+        }, 
+        {
+          "desc": "Stark killed Brandt with a science oven", 
+          "p1": "Ellen Brandt", 
+          "p2": "Tony Stark"
+        }, 
+        {
+          "desc": "Davis and Stark met in a bar and discussed her son's death", 
+          "p1": "Mrs Davis", 
+          "p2": "Tony Stark"
+        }, 
+        {
+          "desc": "Brandt arranged to meet Mrs Davis in an attempt to eliminate evidence of Extremis", 
+          "p1": "Ellen Brandt", 
+          "p2": "Mrs Davis"
+        }, 
+        {
+          "desc": "Stark killed Savin with the Unibeam (and it was sweet)", 
+          "p1": "Savin", 
+          "p2": "Tony Stark"
+        }, 
+        {
+          "desc": "Savin and Brandt were both henchmen of Aldrich Killian", 
+          "p1": "Savin", 
+          "p2": "Ellen Brandt"
+        }, 
+        {
+          "desc": "Harley used the bully deterrent on Savin", 
+          "p1": "Savin", 
+          "p2": "Harley Keener"
+        }, 
+        {
+          "desc": "Eliis calls Slattery to save Thomas Richards, but Slattery doesn't pick up", 
+          "p1": "President Ellis", 
+          "p2": "Trevor Slattery"
+        }, 
+        {
+          "desc": "Trevor pretended to shoot Thomas in the head, but it was all special effects", 
+          "p1": "Trevor Slattery", 
+          "p2": "Thomas Richards"
+        }, 
+        {
+          "desc": "Tony asked Gary to jump on the roof, recalibrate the ISDN's and pump it up by about 40%. Gary was in awe of Tony, and so pretended those instructions actually meant something.", 
+          "p1": "Tony Stark", 
+          "p2": "Gary the Camera Guy"
+        }, 
+        {
+          "desc": "It is presumed that they must have met at least once during the 2012 presidential campaign", 
+          "p1": "President Ellis", 
+          "p2": "Vice President Rodriguez"
+        }, 
+        {
+          "desc": "Harley and Jarvis worked together to recharge the Mark XLII", 
+          "p1": "Harley Keener", 
+          "p2": "JARVIS"
+        }, 
+        {
+          "desc": "Stark tracked Slattery to Florida, thinking he was the real Madarin", 
+          "p1": "Tony Stark", 
+          "p2": "Trevor Slattery"
+        }, 
+        {
+          "desc": "Killian burned Rhodes out of the Iron Patriot armor", 
+          "p1": "Aldrich Killian", 
+          "p2": "James Rhodes"
+        }, 
+        {
+          "desc": "Savin helped kidnap Rhodes in order to steal the Iron Patriot armor", 
+          "p1": "Savin", 
+          "p2": "James Rhodes"
+        }, 
+        {
+          "desc": "Stark was a jerk to Killian, so Killian kidnapped his girlfriend 13 years later", 
+          "p1": "Aldrich Killian", 
+          "p2": "Tony Stark"
+        }, 
+        {
+          "desc": "Trevor told Rhodey about Killian's plan", 
+          "p1": "James Rhodes", 
+          "p2": "Trevor Slattery"
+        }, 
+        {
+          "desc": "Stark and Rhodes talked to the VP over the phone about the false Iron Patriot", 
+          "p1": "Tony Stark", 
+          "p2": "Vice President Rodriguez"
+        }, 
+        {
+          "desc": "Stark and Rhodes talked to the VP over the phone about the false Iron Patriot", 
+          "p1": "James Rhodes", 
+          "p2": "Vice President Rodriguez"
+        }, 
+        {
+          "desc": "Rhodey heard JARVIS talking to stark while they were on the lovely boat", 
+          "p1": "JARVIS", 
+          "p2": "James Rhodes"
+        }, 
+        {
+          "desc": "Savin kidnapped the President from Air Force One and straight up murdered most of Ellis's staff", 
+          "p1": "Savin", 
+          "p2": "President Ellis"
+        }, 
+        {
+          "desc": "Rodrigues is Killian's new politcal sponsor", 
+          "p1": "Aldrich Killian", 
+          "p2": "Vice President Rodriguez"
+        }, 
+        {
+          "desc": "Killian kidnapped Ellis and attempted to execute him", 
+          "p1": "Aldrich Killian", 
+          "p2": "President Ellis"
+        }, 
+        {
+          "desc": "Pepper and Ellis were both Aldrich Killians prisoner on the Roxxon Norco", 
+          "p1": "Pepper Potts", 
+          "p2": "President Ellis"
+        }, 
+        {
+          "desc": "Stark was onboard the Roxxon Norco while the President was being rescued by Rhodey", 
+          "p1": "Tony Stark", 
+          "p2": "President Ellis"
+        }, 
+        {
+          "desc": "Pepper was present when Dr. Wu performed Tony Stark's heart surgery", 
+          "p1": "Pepper Potts", 
+          "p2": "Dr. Wu"
+        }, 
+        {
+          "desc": "Rhodey was present when Dr. Wu performed Tony Stark's heart surgery", 
+          "p1": "James Rhodes", 
+          "p2": "Dr. Wu"
+        }, 
+        {
+          "desc": "Rhodey and Pepper observed Tony Stark's heart surgery together", 
+          "p1": "James Rhodes", 
+          "p2": "Pepper Potts"
+        }
+      ], 
+      "name": "Iron Man 3"
     }, 
     {
       "category": "Films", 
