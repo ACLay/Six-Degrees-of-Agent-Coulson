@@ -9,7 +9,6 @@ return {
     "Abu Bakar", 
     "Agent Blake", 
     "Agent Coulson", 
-    "Agent Couson", 
     "Agent Sitwell", 
     "Amadeus Cho", 
     "Anton Vanko", 
@@ -458,7 +457,6 @@ return {
       "category": "Films", 
       "characters": [
         "Agent Coulson", 
-        "Agent Couson", 
         "Anton Vanko", 
         "Christine Everhart", 
         "DJ AM", 
@@ -751,7 +749,7 @@ return {
         }, 
         {
           "desc": "Interact while handling Tony Stark on Nick Fury's orders", 
-          "p1": "Agent Couson", 
+          "p1": "Agent Coulson", 
           "p2": "Natasha Romanoff"
         }, 
         {
