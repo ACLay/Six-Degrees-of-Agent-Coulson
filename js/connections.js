@@ -29,7 +29,6 @@ return {
     "Detective Lemieux", 
     "Doctor Wu", 
     "Dr Erskine", 
-    "Dr. Wu", 
     "Dum Dum Dugan", 
     "Ellen Brandt", 
     "Elon Musk", 
@@ -818,7 +817,6 @@ return {
         "Aldrich Killian", 
         "Bruce Banner", 
         "Doctor Wu", 
-        "Dr. Wu", 
         "Ellen Brandt", 
         "Erin", 
         "Gary the Camera Guy", 
@@ -1102,12 +1100,12 @@ return {
         {
           "desc": "Pepper was present when Dr. Wu performed Tony Stark's heart surgery", 
           "p1": "Pepper Potts", 
-          "p2": "Dr. Wu"
+          "p2": "Doctor Wu"
         }, 
         {
           "desc": "Rhodey was present when Dr. Wu performed Tony Stark's heart surgery", 
           "p1": "James Rhodes", 
-          "p2": "Dr. Wu"
+          "p2": "Doctor Wu"
         }, 
         {
           "desc": "Rhodey and Pepper observed Tony Stark's heart surgery together", 
