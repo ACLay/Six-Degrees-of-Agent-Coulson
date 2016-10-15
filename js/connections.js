@@ -8,8 +8,10 @@ return {
     "Abu Bakar", 
     "Agent Blake", 
     "Agent Coulson", 
+    "Agent Couson", 
     "Agent Sitwell", 
     "Amadeus Cho", 
+    "Anton Vanko", 
     "Arnim Zola", 
     "Bennie Pollock", 
     "Betty Ross", 
@@ -18,15 +20,19 @@ return {
     "Christine Everhart", 
     "Claire Weiss", 
     "Colonel Phillips", 
+    "DJ AM", 
     "Darcy Lewis", 
+    "Detective Lemieux", 
     "Dr Erskine", 
     "Dum Dum Dugan", 
+    "Elon Musk", 
     "Emil Blonsky", 
     "Erik Selvig", 
     "Fandral", 
     "Frigga", 
     "Gabe Jones", 
     "General Gabriel", 
+    "General Meade", 
     "General Ross", 
     "Gideon Mallick", 
     "Gilmore Hodge", 
@@ -37,13 +43,19 @@ return {
     "Heinz Kruger", 
     "Hogun", 
     "Howard Stark", 
+    "Ivan Vanko", 
     "JARVIS", 
+    "Jack the Valet", 
     "Jacques Dernier", 
     "James Falsworth", 
+    "James Rhodes", 
     "Jane Foster", 
     "Jim Morita", 
     "Joe Greller", 
+    "Justin Hammer", 
     "Kathleen Sparr", 
+    "Larry Ellison", 
+    "Larry King", 
     "Laufey", 
     "Leonard Samson", 
     "Loki", 
@@ -51,17 +63,18 @@ return {
     "Maria Hill", 
     "Maria Stark", 
     "Martina", 
-    "Natasha Romanov", 
+    "Natasha Romanoff", 
     "Nick Fury", 
     "Obadiah Stane", 
     "Odin", 
     "Peggy Carter", 
     "Pepper Potts", 
+    "Prisoner 6219", 
     "Raza", 
     "Red Skull", 
-    "Rhodey", 
     "Samuel Sterns", 
     "Senator Brandt", 
+    "Senator Stern", 
     "Sif", 
     "Stanley Lieber", 
     "Steve Rogers", 
@@ -437,6 +450,349 @@ return {
     {
       "category": "Films", 
       "characters": [
+        "Agent Coulson", 
+        "Agent Couson", 
+        "Anton Vanko", 
+        "Christine Everhart", 
+        "DJ AM", 
+        "Detective Lemieux", 
+        "Elon Musk", 
+        "General Meade", 
+        "Happy Hogan", 
+        "Howard Stark", 
+        "Ivan Vanko", 
+        "JARVIS", 
+        "Jack the Valet", 
+        "James Rhodes", 
+        "Justin Hammer", 
+        "Larry Ellison", 
+        "Larry King", 
+        "Major Allen", 
+        "Maria Stark", 
+        "Natasha Romanoff", 
+        "Nick Fury", 
+        "Pepper Potts", 
+        "Prisoner 6219", 
+        "Senator Stern", 
+        "Tony Stark"
+      ], 
+      "interactions": [
+        {
+          "desc": "Anton is Ivan's Father", 
+          "p1": "Ivan Vanko", 
+          "p2": "Anton Vanko"
+        }, 
+        {
+          "desc": "They worked together to build the first Arc Reactor", 
+          "p1": "Anton Vanko", 
+          "p2": "Howard Stark"
+        }, 
+        {
+          "desc": "Pepper works for and becomes romantically involved with Tony", 
+          "p1": "Pepper Potts", 
+          "p2": "Tony Stark"
+        }, 
+        {
+          "desc": "Howard is Tony's father", 
+          "p1": "Howard Stark", 
+          "p2": "Tony Stark"
+        }, 
+        {
+          "desc": "Happy is Tony's bodyguard and driver", 
+          "p1": "Happy Hogan", 
+          "p2": "Tony Stark"
+        }, 
+        {
+          "desc": "Tony says hello to Larry while leaving the Stark Expo", 
+          "p1": "Larry King", 
+          "p2": "Tony Stark"
+        }, 
+        {
+          "desc": "Happy introduces Tony Stark to Larry while leaving the Stark Expo", 
+          "p1": "Happy Hogan", 
+          "p2": "Larry King"
+        }, 
+        {
+          "desc": "Tony meets Larry while leaving the Stark Expo", 
+          "p1": "Larry Ellison", 
+          "p2": "Tony Stark"
+        }, 
+        {
+          "desc": "Happy introduces Tony Stark to Larry while leaving the Stark Expo", 
+          "p1": "Happy Hogan", 
+          "p2": "Larry Ellison"
+        }, 
+        {
+          "desc": "Stern calls Hammer as a witness in a congressional hearing", 
+          "p1": "Senator Stern", 
+          "p2": "Justin Hammer"
+        }, 
+        {
+          "desc": "Stern calls Rhodes as a witness in a congressional hearing", 
+          "p1": "Senator Stern", 
+          "p2": "James Rhodes"
+        }, 
+        {
+          "desc": "Stern holds congressional hearing investigating Stark", 
+          "p1": "Senator Stern", 
+          "p2": "Tony Stark"
+        }, 
+        {
+          "desc": "They are both present during a congressional hearing investigating Tony Stark", 
+          "p1": "Senator Stern", 
+          "p2": "Pepper Potts"
+        }, 
+        {
+          "desc": "They are best friends", 
+          "p1": "James Rhodes", 
+          "p2": "Tony Stark"
+        }, 
+        {
+          "desc": "They run rival tech conglomerates", 
+          "p1": "Justin Hammer", 
+          "p2": "Tony Stark"
+        }, 
+        {
+          "desc": "They run rival tech conglomerates", 
+          "p1": "Justin Hammer", 
+          "p2": "Pepper Potts"
+        }, 
+        {
+          "desc": "Hammer arms the Mark II armor to Rhodes' specifications", 
+          "p1": "James Rhodes", 
+          "p2": "Justin Hammer"
+        }, 
+        {
+          "desc": "JARVIS is Tony's AI personal assistant", 
+          "p1": "JARVIS", 
+          "p2": "Tony Stark"
+        }, 
+        {
+          "desc": "Natasha works for Tony under the alias Natalie Rushman", 
+          "p1": "Natasha Romanoff", 
+          "p2": "Tony Stark"
+        }, 
+        {
+          "desc": "Natasha works for Pepper under the alias Natalie Rushman", 
+          "p1": "Natasha Romanoff", 
+          "p2": "Pepper Potts"
+        }, 
+        {
+          "desc": "Regularly interact as employees of Stark Enterprises", 
+          "p1": "Natasha Romanoff", 
+          "p2": "Happy Hogan"
+        }, 
+        {
+          "desc": "Regularly interact as employees of Tony Stark", 
+          "p1": "Happy Hogan", 
+          "p2": "Pepper Potts"
+        }, 
+        {
+          "desc": "They speak at the Monaco Grand Prix", 
+          "p1": "Elon Musk", 
+          "p2": "Pepper Potts"
+        }, 
+        {
+          "desc": "Elon pitches Tony an electric jet at the Monaco Grand Prix", 
+          "p1": "Elon Musk", 
+          "p2": "Tony Stark"
+        }, 
+        {
+          "desc": "They are in the same restaurant at the Monaco Grand Prix", 
+          "p1": "Elon Musk", 
+          "p2": "Natasha Romanoff"
+        }, 
+        {
+          "desc": "They are in the same restaurant at the Monaco Grand Prix", 
+          "p1": "Elon Musk", 
+          "p2": "Christine Everhart"
+        }, 
+        {
+          "desc": "They are in the same restaurant at the Monaco Grand Prix", 
+          "p1": "Elon Musk", 
+          "p2": "Justin Hammer"
+        }, 
+        {
+          "desc": "Christine interviews Justin for a piece in Vanity Fair", 
+          "p1": "Christine Everhart", 
+          "p2": "Justin Hammer"
+        }, 
+        {
+          "desc": "They speak while attending the Monaco Grand Prix", 
+          "p1": "Christine Everhart", 
+          "p2": "Pepper Potts"
+        }, 
+        {
+          "desc": "They speak while attending the Monaco Grand Prix", 
+          "p1": "Christine Everhart", 
+          "p2": "Tony Stark"
+        }, 
+        {
+          "desc": "They are in the same restaurant at the Monaco Grand Prix", 
+          "p1": "Christine Everhart", 
+          "p2": "Natasha Romanoff"
+        }, 
+        {
+          "desc": "They are in the same restaurant at the Monaco Grand Prix", 
+          "p1": "Justin Hammer", 
+          "p2": "Natasha Romanoff"
+        }, 
+        {
+          "desc": "They are enemies", 
+          "p1": "Ivan Vanko", 
+          "p2": "Tony Stark"
+        }, 
+        {
+          "desc": "Happy and Pepper Potts help Tony Stark fight Vanko on the Circuit De Monaco", 
+          "p1": "Ivan Vanko", 
+          "p2": "Happy Hogan"
+        }, 
+        {
+          "desc": "Pepper and Happy Hogan help Tony Stark fight Vanko on the Circuit De Monaco", 
+          "p1": "Ivan Vanko", 
+          "p2": "Pepper Potts"
+        }, 
+        {
+          "desc": "Lemieux escorts Tony to Ivan Vanko's cell", 
+          "p1": "Detective Lemieux", 
+          "p2": "Tony Stark"
+        }, 
+        {
+          "desc": "Lemieux escorts Tony Stark to Vanko's cell", 
+          "p1": "Detective Lemieux", 
+          "p2": "Ivan Vanko"
+        }, 
+        {
+          "desc": "Vanko murders prisoner 6219 while escaping prison", 
+          "p1": "Prisoner 6219", 
+          "p2": "Ivan Vanko"
+        }, 
+        {
+          "desc": "Hammer employs Vanko to design and build armored suits", 
+          "p1": "Justin Hammer", 
+          "p2": "Ivan Vanko"
+        }, 
+        {
+          "desc": "Jack is Hammer's valet", 
+          "p1": "Jack the Valet", 
+          "p2": "Justin Hammer"
+        }, 
+        {
+          "desc": "Interact as employees of Justin Hammer", 
+          "p1": "Jack the Valet", 
+          "p2": "Ivan Vanko"
+        }, 
+        {
+          "desc": "Regularly interact due to mutual relationships with Tony Stark", 
+          "p1": "James Rhodes", 
+          "p2": "Pepper Potts"
+        }, 
+        {
+          "desc": "AM plays Tony's birthday party", 
+          "p1": "DJ AM", 
+          "p2": "Tony Stark"
+        }, 
+        {
+          "desc": "Pepper attends Tony Starks birthday party which is DJ'd by DJ AM", 
+          "p1": "DJ AM", 
+          "p2": "Pepper Potts"
+        }, 
+        {
+          "desc": "Rhodes attends Tony Starks birthday party which is DJ'd by DJ AM", 
+          "p1": "DJ AM", 
+          "p2": "James Rhodes"
+        }, 
+        {
+          "desc": "Romanoff attends Tony Starks birthday party which is DJ'd by DJ AM", 
+          "p1": "DJ AM", 
+          "p2": "Natasha Romanoff"
+        }, 
+        {
+          "desc": "Allen helps Rhodes with the Mark II armor", 
+          "p1": "Major Allen", 
+          "p2": "James Rhodes"
+        }, 
+        {
+          "desc": "Fury helps Stark when Stark is dying from Palladium poisoning", 
+          "p1": "Nick Fury", 
+          "p2": "Tony Stark"
+        }, 
+        {
+          "desc": "Romanoff works for Fury as a SHIELD agent", 
+          "p1": "Nick Fury", 
+          "p2": "Natasha Romanoff"
+        }, 
+        {
+          "desc": "Meade orders Rhodes to have Justin Hammer arm the Mark II armor", 
+          "p1": "General Meade", 
+          "p2": "James Rhodes"
+        }, 
+        {
+          "desc": "Allen is present when Hammer arms the Mark II armor", 
+          "p1": "Major Allen", 
+          "p2": "Justin Hammer"
+        }, 
+        {
+          "desc": "Coulson works for Fury as a SHIELD agent", 
+          "p1": "Agent Coulson", 
+          "p2": "Nick Fury"
+        }, 
+        {
+          "desc": "Coulson babysits Stark on Nick Fury's orders", 
+          "p1": "Agent Coulson", 
+          "p2": "Tony Stark"
+        }, 
+        {
+          "desc": "Interact while handling Tony Stark on Nick Fury's orders", 
+          "p1": "Agent Couson", 
+          "p2": "Natasha Romanoff"
+        }, 
+        {
+          "desc": "Fury states that he knew Howard in Howard's capacity as a founder of SHIELD", 
+          "p1": "Howard Stark", 
+          "p2": "Nick Fury"
+        }, 
+        {
+          "desc": "Maria is referenced as Tony's mother", 
+          "p1": "Maria Stark", 
+          "p2": "Tony Stark"
+        }, 
+        {
+          "desc": "Howard calls Maria to attend to their son, Tony", 
+          "p1": "Maria Stark", 
+          "p2": "Howard Stark"
+        }, 
+        {
+          "desc": "Jack caddies for Justin Hammer when Hammer and Stern play golf", 
+          "p1": "Jack the Valet", 
+          "p2": "Senator Stern"
+        }, 
+        {
+          "desc": "Rhodes and Tony Stark fight Vanko at the Stark Expo", 
+          "p1": "Ivan Vanko", 
+          "p2": "James Rhodes"
+        }, 
+        {
+          "desc": "Jack is present when Pepper and Natasha Romanoff confront Justin Hammer at the Stark Expo", 
+          "p1": "Jack the Valet", 
+          "p2": "Pepper Potts"
+        }, 
+        {
+          "desc": "Jack is present when Natasha and Pepper Potts confront Justin Hammer at the Stark Expo", 
+          "p1": "Jack the Valet", 
+          "p2": "Natasha Romanoff"
+        }, 
+        {
+          "desc": "Romanoff reboots the Mark II Armor to release Rhodes from Ivan Vanko's control", 
+          "p1": "Natasha Romanoff", 
+          "p2": "James Rhodes"
+        }
+      ], 
+      "name": "Iron Man 2"
+    }, 
+    {
+      "category": "Films", 
+      "characters": [
         "Abu Bakar", 
         "Agent Coulson", 
         "Christine Everhart", 
@@ -444,13 +800,13 @@ return {
         "Happy Hogan", 
         "Howard Stark", 
         "JARVIS", 
+        "James Rhodes", 
         "Major Allen", 
         "Maria Stark", 
         "Nick Fury", 
         "Obadiah Stane", 
         "Pepper Potts", 
         "Raza", 
-        "Rhodey", 
         "Tony Stark", 
         "William Ginter Riva", 
         "Yinsen"
@@ -464,7 +820,7 @@ return {
         {
           "desc": "Tony is friends with Rhodey", 
           "p1": "Tony Stark", 
-          "p2": "Rhodey"
+          "p2": "James Rhodes"
         }, 
         {
           "desc": "Happy is Tony's driver", 
@@ -534,7 +890,7 @@ return {
         {
           "desc": "Rhodey gave Tony's award to Obadiah", 
           "p1": "Obadiah Stane", 
-          "p2": "Rhodey"
+          "p2": "James Rhodes"
         }, 
         {
           "desc": "Obadiah left his segway with Happy", 
@@ -568,22 +924,22 @@ return {
         }, 
         {
           "desc": "Rhodey and Hogan were with Tony at the casino", 
-          "p1": "Rhodey", 
+          "p1": "James Rhodes", 
           "p2": "Happy Hogan"
         }, 
         {
           "desc": "Pepper called Rhodey to check on Tony", 
-          "p1": "Rhodey", 
+          "p1": "James Rhodes", 
           "p2": "Pepper Potts"
         }, 
         {
           "desc": "Rhodes is present when Gabriel views the Jericho missle demonstration", 
-          "p1": "Rhodey", 
+          "p1": "James Rhodes", 
           "p2": "General Gabriel"
         }, 
         {
           "desc": "Allen calls Rhodes in when his men notice unauthorized hardware in Gulmira", 
-          "p1": "Rhodey", 
+          "p1": "James Rhodes", 
           "p2": "Major Allen"
         }, 
         {
@@ -627,7 +983,7 @@ return {
         "JARVIS", 
         "Loki", 
         "Maria Hill", 
-        "Natasha Romanov", 
+        "Natasha Romanoff", 
         "Nick Fury", 
         "Pepper Potts", 
         "Steve Rogers", 
@@ -675,7 +1031,7 @@ return {
         {
           "desc": "Natasha interrogated Loki", 
           "p1": "Loki", 
-          "p2": "Natasha Romanov"
+          "p2": "Natasha Romanoff"
         }, 
         {
           "desc": "Puny god.", 
@@ -710,7 +1066,7 @@ return {
         {
           "desc": "Coulson sent Romanov to recruit Dr Banner", 
           "p1": "Agent Coulson", 
-          "p2": "Natasha Romanov"
+          "p2": "Natasha Romanoff"
         }, 
         {
           "desc": "Banner was on the hellicarrier bridge when Coulson arrived with Tony", 
@@ -765,7 +1121,7 @@ return {
         {
           "desc": "Fury had Romanov show Banner to his lab", 
           "p1": "Nick Fury", 
-          "p2": "Natasha Romanov"
+          "p2": "Natasha Romanoff"
         }, 
         {
           "desc": "Fury welcomed Bruce to the hellicarrier bridge", 
@@ -805,7 +1161,7 @@ return {
         {
           "desc": "Hill was on the hellicarrier bridge when Romanov arrived", 
           "p1": "Maria Hill", 
-          "p2": "Natasha Romanov"
+          "p2": "Natasha Romanoff"
         }, 
         {
           "desc": "Hill was on the hellicarrier bridge when Bruce arrived", 
@@ -840,7 +1196,7 @@ return {
         {
           "desc": "Selvig and Romanov shut down Loki's portal", 
           "p1": "Erik Selvig", 
-          "p2": "Natasha Romanov"
+          "p2": "Natasha Romanoff"
         }, 
         {
           "desc": "Selvig and Bruce both saw Loki and Thor leave Earth", 
@@ -865,7 +1221,7 @@ return {
         {
           "desc": "Hawkeye and Black widow founght together in Budapest", 
           "p1": "Hawkeye", 
-          "p2": "Natasha Romanov"
+          "p2": "Natasha Romanoff"
         }, 
         {
           "desc": "Hawkeye and Hulk fought together in New York", 
@@ -889,22 +1245,22 @@ return {
         }, 
         {
           "desc": "Romanov recruited Banner to find the tessaract", 
-          "p1": "Natasha Romanov", 
+          "p1": "Natasha Romanoff", 
           "p2": "Bruce Banner"
         }, 
         {
           "desc": "Steve gave Nat a boost to reach the portal", 
-          "p1": "Natasha Romanov", 
+          "p1": "Natasha Romanoff", 
           "p2": "Steve Rogers"
         }, 
         {
           "desc": "Tony and Natasha fought together in New York", 
-          "p1": "Natasha Romanov", 
+          "p1": "Natasha Romanoff", 
           "p2": "Tony Stark"
         }, 
         {
           "desc": "Romanov and Sitwell were on the hellicarrier bridge together", 
-          "p1": "Natasha Romanov", 
+          "p1": "Natasha Romanoff", 
           "p2": "Agent Sitwell"
         }, 
         {
