@@ -47,7 +47,7 @@ function categoryContainsSelection(category){
 	var categoryTag = document.getElementById(category + "_selectors");
 	var children = categoryTag.children;
 	for (var i = 1; i < children.length; i = i+3){
-		if (children.checked){
+		if (children[i].checked){
 			return true;
 		}
 	}

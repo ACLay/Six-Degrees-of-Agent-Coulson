@@ -12,15 +12,17 @@ function fillSelectors(){
 	createDropDownElement(mediaTo,"All",false);
 	for (var i = 0; i < connectionGraph.categories.length; i++){
 		var category = connectionGraph.categories[i];
-		createDropDownElement(mediaFrom,category,true);
-		createDropDownElement(mediaTo,category,true);
-		for(var j=0; j < connectionGraph.properties.length; j++){
-			var media = connectionGraph.properties[j];
-			if(isMediaSelected(media.name)){
-				if(media.category == category){
-					var name = media.name;
-					createDropDownElement(mediaFrom,name,false);
-					createDropDownElement(mediaTo,name,false);
+		if (categoryContainsSelection(category)){
+			createDropDownElement(mediaFrom,category,true);
+			createDropDownElement(mediaTo,category,true);
+			for(var j=0; j < connectionGraph.properties.length; j++){
+				var media = connectionGraph.properties[j];
+				if(isMediaSelected(media.name)){
+					if(media.category == category){
+						var name = media.name;
+						createDropDownElement(mediaFrom,name,false);
+						createDropDownElement(mediaTo,name,false);
+					}
 				}
 			}
 		}
