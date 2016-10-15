@@ -46,7 +46,7 @@ function addMediaCheckbox(categoryTag, mediaName){
 function categoryContainsSelection(category){
 	var categoryTag = document.getElementById(category + "_selectors");
 	var children = categoryTag.children;
-	for (var i = 1; i < children.length; i = i+3){
+	for (var i = 1; i < children.length; i = i+2){
 		if (children[i].checked){
 			return true;
 		}
