@@ -48,8 +48,7 @@ function categoryContainsSelection(category){
 	for(var i = 0; i < connectionGraph.properties.length; i++){
 		var property = connectionGraph.properties[i];
 		if(property.category == category){
-			var checkbox = document.getElementById(property.name + "_cb");
-			if(checkbox.checked){
+			if(isMediaSelected(property.name)){
 				return true;
 			}
 		}
