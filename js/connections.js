@@ -5,9 +5,11 @@ return {
     "One-shots"
   ], 
   "characters": [
+    "Abu Bakaar", 
     "Agent Blake", 
     "Agent Coulson", 
     "Agent Sitwell", 
+    "Amadeus Cho", 
     "Arnim Zola", 
     "Bennie Pollock", 
     "Betty Ross", 
@@ -24,12 +26,15 @@ return {
     "Fandral", 
     "Frigga", 
     "Gabe Jones", 
+    "General Gabriel", 
     "General Ross", 
     "Gideon Mallick", 
+    "Gilmore Hodge", 
     "Happy Hogan", 
     "Hawkeye", 
     "Hawley", 
     "Heimdall", 
+    "Heinz Kruger", 
     "Hogun", 
     "Howard Stark", 
     "JARVIS", 
@@ -37,17 +42,23 @@ return {
     "James Falsworth", 
     "Jane Foster", 
     "Jim Morita", 
+    "Joe Greller", 
+    "Kathleen Sparr", 
     "Laufey", 
     "Leonard Samson", 
     "Loki", 
+    "Major Allen", 
     "Maria Hill", 
     "Maria Stark", 
+    "Martina", 
     "Natasha Romanov", 
     "Nick Fury", 
     "Obadiah Staine", 
+    "Obadiah Stane", 
     "Odin", 
     "Peggy Carter", 
     "Pepper Potts", 
+    "Raza", 
     "Red Skull", 
     "Rhodey", 
     "Samuel Sterns", 
@@ -60,6 +71,7 @@ return {
     "Thor", 
     "Tony Stark", 
     "Volstagg", 
+    "William Ginter Riva", 
     "Yinsen"
   ], 
   "properties": [
@@ -72,6 +84,8 @@ return {
         "Dr Erskine", 
         "Dum Dum Dugan", 
         "Gabe Jones", 
+        "Gilmore Hodge", 
+        "Heinz Kruger", 
         "Howard Stark", 
         "Jacques Dernier", 
         "James Falsworth", 
@@ -154,6 +168,16 @@ return {
           "p2": "Senator Brandt"
         }, 
         {
+          "desc": "Hodge and Rogers were both candidates for becoming the first super soldier", 
+          "p1": "Steve Rogers", 
+          "p2": "Gilmore Hodge"
+        }, 
+        {
+          "desc": "Steve chased Kruger across New York on foot", 
+          "p1": "Steve Rogers", 
+          "p2": "Heinz Kruger"
+        }, 
+        {
           "desc": "Bucky was with Steve when he was talking to Peggy in the London pub", 
           "p1": "Peggy Carter", 
           "p2": "Bucky Barnes"
@@ -192,6 +216,16 @@ return {
           "desc": "Peggy and the Senator were in the observation booth when Steve got the super serum", 
           "p1": "Peggy Carter", 
           "p2": "Senator Brandt"
+        }, 
+        {
+          "desc": "Peggy punched Hodge in the face during army training", 
+          "p1": "Peggy Carter", 
+          "p2": "Gilmore Hodge"
+        }, 
+        {
+          "desc": "Peggy and Kruger were both in the viewing booth when Steve became Captain America", 
+          "p1": "Peggy Carter", 
+          "p2": "Heinz Kruger"
         }, 
         {
           "desc": "Bucky was with Steve when he spoke to Phillips on returning from the Hydra factory", 
@@ -279,6 +313,16 @@ return {
           "p2": "Senator Brandt"
         }, 
         {
+          "desc": "Phillips was in charge of Hodge's division in the army, the SSR", 
+          "p1": "Colonel Phillips", 
+          "p2": "Gilmore Hodge"
+        }, 
+        {
+          "desc": "Phillips and Kruger were both in the viewing booth when Steve became Captain America", 
+          "p1": "Colonel Phillips", 
+          "p2": "Heinz Kruger"
+        }, 
+        {
           "desc": "Red Skull made Erskine give him an unfinished version of the super serum", 
           "p1": "Red Skull", 
           "p2": "Dr Erskine"
@@ -312,6 +356,21 @@ return {
           "desc": "Brandt and Stark were together when Steve got the super serum", 
           "p1": "Howard Stark", 
           "p2": "Senator Brandt"
+        }, 
+        {
+          "desc": "Stark and Kruger were both in the facility when Steve became Captain America", 
+          "p1": "Howard Stark", 
+          "p2": "Heinz Kruger"
+        }, 
+        {
+          "desc": "Erskine assessed the candidates for the super soldier procedure, including Hodge", 
+          "p1": "Dr Erskine", 
+          "p2": "Gilmore Hodge"
+        }, 
+        {
+          "desc": "Kruger killed Dr Erskine after the creation of Captain America", 
+          "p1": "Dr Erskine", 
+          "p2": "Heinz Kruger"
         }, 
         {
           "desc": "Jones was the commando that captured Zola on the train", 
@@ -367,6 +426,11 @@ return {
           "desc": "Falsworth and Dernier served together in the howling commandos", 
           "p1": "James Falsworth", 
           "p2": "Jacques Dernier"
+        }, 
+        {
+          "desc": "Kruger rode to the SSR facility in Senator Brandt's car", 
+          "p1": "Senator Brandt", 
+          "p2": "Heinz Kruger"
         }
       ], 
       "name": "Captain America The First Avenger"
@@ -374,17 +438,23 @@ return {
     {
       "category": "Films", 
       "characters": [
+        "Abu Bakaar", 
         "Agent Coulson", 
         "Christine Everhart", 
+        "General Gabriel", 
         "Happy Hogan", 
         "Howard Stark", 
         "JARVIS", 
+        "Major Allen", 
         "Maria Stark", 
         "Nick Fury", 
         "Obadiah Staine", 
+        "Obadiah Stane", 
         "Pepper Potts", 
+        "Raza", 
         "Rhodey", 
         "Tony Stark", 
+        "William Ginter Riva", 
         "Yinsen"
       ], 
       "interactions": [
@@ -444,6 +514,21 @@ return {
           "p2": "Maria Stark"
         }, 
         {
+          "desc": "Raza's terrorist organization, the Ten Rings, kidnaps Tony", 
+          "p1": "Tony Stark", 
+          "p2": "Raza"
+        }, 
+        {
+          "desc": "Bakaar kidnaps Stark in his role as a henchman of Raza", 
+          "p1": "Tony Stark", 
+          "p2": "Abu Bakaar"
+        }, 
+        {
+          "desc": "Stark demonstrates the Jericho missle to Gabriel", 
+          "p1": "Tony Stark", 
+          "p2": "General Gabriel"
+        }, 
+        {
           "desc": "Howard and Maria were married", 
           "p1": "Howard Stark", 
           "p2": "Maria Stark"
@@ -474,6 +559,16 @@ return {
           "p2": "Howard Stark"
         }, 
         {
+          "desc": "Obadiah hires Raza to kidnap Tony Stark", 
+          "p1": "Obadiah Stane", 
+          "p2": "Raza"
+        }, 
+        {
+          "desc": "Stane assigns Riva to reverse engineer the minaturized arc reactor", 
+          "p1": "Obadiah Stane", 
+          "p2": "William Ginter Riva"
+        }, 
+        {
           "desc": "Rhodey and Hogan were with Tony at the casino", 
           "p1": "Rhodey", 
           "p2": "Happy Hogan"
@@ -482,6 +577,16 @@ return {
           "desc": "Pepper called Rhodey to check on Tony", 
           "p1": "Rhodey", 
           "p2": "Pepper Potts"
+        }, 
+        {
+          "desc": "Rhodes is present when Gabriel views the Jericho missle demonstration", 
+          "p1": "Rhodey", 
+          "p2": "General Gabriel"
+        }, 
+        {
+          "desc": "Allen calls Rhodes in when his men notice unauthorized hardware in Gulmira", 
+          "p1": "Rhodey", 
+          "p2": "Major Allen"
         }, 
         {
           "desc": "Happy was with Tony during Christine's interview", 
@@ -502,6 +607,11 @@ return {
           "desc": "Pepper told Coulson about sector 17", 
           "p1": "Pepper Potts", 
           "p2": "Agent Coulson"
+        }, 
+        {
+          "desc": "Bakaar is one of Raza's henchmen", 
+          "p1": "Raza", 
+          "p2": "Abu Bakaar"
         }
       ], 
       "name": "Iron Man"
@@ -865,11 +975,15 @@ return {
     {
       "category": "Films", 
       "characters": [
+        "Amadeus Cho", 
         "Betty Ross", 
         "Bruce Banner", 
         "Emil Blonsky", 
         "General Ross", 
+        "Joe Greller", 
+        "Kathleen Sparr", 
         "Leonard Samson", 
+        "Martina", 
         "Samuel Sterns", 
         "Stanley Lieber", 
         "Tony Stark"
@@ -906,6 +1020,16 @@ return {
           "p2": "Stanley Lieber"
         }, 
         {
+          "desc": "Martina and Bruce worked in the same Brazillian soda factory", 
+          "p1": "Bruce Banner", 
+          "p2": "Martina"
+        }, 
+        {
+          "desc": "Bruce bribed Cho with pizza to get onto the university computer network", 
+          "p1": "Bruce Banner", 
+          "p2": "Amadeus Cho"
+        }, 
+        {
           "desc": "General Ross is Betty's father", 
           "p1": "Betty Ross", 
           "p2": "General Ross"
@@ -936,6 +1060,16 @@ return {
           "p2": "Samuel Sterns"
         }, 
         {
+          "desc": "Blonsky killed Sparr in Stern's lab", 
+          "p1": "Emil Blonsky", 
+          "p2": "Kathleen Sparr"
+        }, 
+        {
+          "desc": "Blonsky was recruited to hunt the Hulk by General Greller", 
+          "p1": "Emil Blonsky", 
+          "p2": "Joe Greller"
+        }, 
+        {
           "desc": "Leonard called Ross to let him know where Banner was", 
           "p1": "General Ross", 
           "p2": "Leonard Samson"
@@ -944,6 +1078,21 @@ return {
           "desc": "Stark spoke to Ross about putting a team together", 
           "p1": "General Ross", 
           "p2": "Tony Stark"
+        }, 
+        {
+          "desc": "Sparr informed Ross of the Hulk contaminated soda", 
+          "p1": "General Ross", 
+          "p2": "Kathleen Sparr"
+        }, 
+        {
+          "desc": "Greller assembled a strike team for Ross to hunt Hulk with", 
+          "p1": "General Ross", 
+          "p2": "Joe Greller"
+        }, 
+        {
+          "desc": "Sparr questioned Sterns after Banner was captured", 
+          "p1": "Samuel Sterns", 
+          "p2": "Kathleen Sparr"
         }, 
         {
           "desc": "Leonard went to Stanley's pizza shop with Betty", 

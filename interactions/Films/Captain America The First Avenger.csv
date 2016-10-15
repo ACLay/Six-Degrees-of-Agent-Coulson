@@ -12,6 +12,8 @@ Steve Rogers|Jim Morita|Jim served under Cap in the howling commandos
 Steve Rogers|James Falsworth|James served under Cap in the howling commandos
 Steve Rogers|Jacques Dernier|Jacques served under Cap in the howling commandos
 Steve Rogers|Senator Brandt|Senator Brandt gave Steve his performing job
+Steve Rogers|Gilmore Hodge|Hodge and Rogers were both candidates for becoming the first super soldier
+Steve Rogers|Heinz Kruger|Steve chased Kruger across New York on foot
 Peggy Carter|Bucky Barnes|Bucky was with Steve when he was talking to Peggy in the London pub
 Peggy Carter|Colonel Phillips|Colonel Phillips ran the SSR when Peggy worked there in WW2.
 Peggy Carter|Dum Dum Dugan|Dugan and Carter were both at the planning meeting for the attack on Hydra's last base
@@ -20,6 +22,8 @@ Peggy Carter|Jim Morita|Morita and Carter were both at the planning meeting for 
 Peggy Carter|James Falsworth|Falsworth and Carter were both at the planning meeting for the attack on Hydra's last base
 Peggy Carter|Jacques Dernier|Dernier and Carter were both at the planning meeting for the attack on Hydra's last base
 Peggy Carter|Senator Brandt|Peggy and the Senator were in the observation booth when Steve got the super serum
+Peggy Carter|Gilmore Hodge|Peggy punched Hodge in the face during army training
+Peggy Carter|Heinz Kruger|Peggy and Kruger were both in the viewing booth when Steve became Captain America
 Bucky Barnes|Colonel Phillips|Bucky was with Steve when he spoke to Phillips on returning from the Hydra factory
 Bucky Barnes|Red Skull|Bucky was with Steve when he fought Red Skull while escaping the HYDRA factory
 Bucky Barnes|Arnim Zola|Dr Zola experimented on Bucky at the Hydra factory
@@ -37,6 +41,8 @@ Colonel Phillips|Jim Morita|Morita and Phillips were both at the planning meetin
 Colonel Phillips|James Falsworth|Falsworth and Phillips were both at the planning meeting for the attack on Hydra's last base
 Colonel Phillips|Jacques Dernier|Dernier and Phillips were both at the planning meeting for the attack on Hydra's last base
 Colonel Phillips|Senator Brandt|Brandt and Phillips were together when Steve got the super serum
+Colonel Phillips|Gilmore Hodge|Phillips was in charge of Hodge's division in the army, the SSR
+Colonel Phillips|Heinz Kruger|Phillips and Kruger were both in the viewing booth when Steve became Captain America
 Red Skull|Dr Erskine|Red Skull made Erskine give him an unfinished version of the super serum
 Red Skull|Arnim Zola|Zola worked for Red Skull in Hydra
 Red Skull|Dum Dum Dugan|Dugan rode a zipline into Schmitt's office
@@ -44,6 +50,9 @@ Red Skull|James Falsworth|Falsworth rode a zipline into Schmitt's office
 Red Skull|Gabe Jones|Jones rode a zipline into Schmitt's office
 Howard Stark|Dr Erskine|Stark and Erskine worked together to create Captain America
 Howard Stark|Senator Brandt|Brandt and Stark were together when Steve got the super serum
+Howard Stark|Heinz Kruger|Stark and Kruger were both in the facility when Steve became Captain America
+Dr Erskine|Gilmore Hodge|Erskine assessed the candidates for the super soldier procedure, including Hodge
+Dr Erskine|Heinz Kruger|Kruger killed Dr Erskine after the creation of Captain America
 Arnim Zola|Gabe Jones|Jones was the commando that captured Zola on the train
 Dum Dum Dugan|Gabe Jones|Dugan and Jones served together in the howling commandos
 Dum Dum Dugan|Jim Morita|Dugan and Morita served together in the howling commandos
@@ -55,3 +64,4 @@ Gabe Jones|Jacques Dernier|Gabe and Jacque served together in the howling comman
 Jim Morita|James Falsworth|Morita and Falsworth served together in the howling commandos
 Jim Morita|Jacques Dernier|Morita and Dernier served together in the howling commandos
 James Falsworth|Jacques Dernier|Falsworth and Dernier served together in the howling commandos
+Senator Brandt|Heinz Kruger|Kruger rode to the SSR facility in Senator Brandt's car
