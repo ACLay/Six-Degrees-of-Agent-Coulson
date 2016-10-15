@@ -5,7 +5,7 @@ return {
     "One-shots"
   ], 
   "characters": [
-    "Abu Bakaar", 
+    "Abu Bakar", 
     "Agent Blake", 
     "Agent Coulson", 
     "Agent Sitwell", 
@@ -53,7 +53,6 @@ return {
     "Martina", 
     "Natasha Romanov", 
     "Nick Fury", 
-    "Obadiah Staine", 
     "Obadiah Stane", 
     "Odin", 
     "Peggy Carter", 
@@ -438,7 +437,7 @@ return {
     {
       "category": "Films", 
       "characters": [
-        "Abu Bakaar", 
+        "Abu Bakar", 
         "Agent Coulson", 
         "Christine Everhart", 
         "General Gabriel", 
@@ -448,7 +447,6 @@ return {
         "Major Allen", 
         "Maria Stark", 
         "Nick Fury", 
-        "Obadiah Staine", 
         "Obadiah Stane", 
         "Pepper Potts", 
         "Raza", 
@@ -461,7 +459,7 @@ return {
         {
           "desc": "Tony worked with Obadiah", 
           "p1": "Tony Stark", 
-          "p2": "Obadiah Staine"
+          "p2": "Obadiah Stane"
         }, 
         {
           "desc": "Tony is friends with Rhodey", 
@@ -519,9 +517,9 @@ return {
           "p2": "Raza"
         }, 
         {
-          "desc": "Bakaar kidnaps Stark in his role as a henchman of Raza", 
+          "desc": "Bakar kidnaps Stark in his role as a henchman of Raza", 
           "p1": "Tony Stark", 
-          "p2": "Abu Bakaar"
+          "p2": "Abu Bakar"
         }, 
         {
           "desc": "Stark demonstrates the Jericho missle to Gabriel", 
@@ -535,27 +533,27 @@ return {
         }, 
         {
           "desc": "Rhodey gave Tony's award to Obadiah", 
-          "p1": "Obadiah Staine", 
+          "p1": "Obadiah Stane", 
           "p2": "Rhodey"
         }, 
         {
           "desc": "Obadiah left his segway with Happy", 
-          "p1": "Obadiah Staine", 
+          "p1": "Obadiah Stane", 
           "p2": "Happy Hogan"
         }, 
         {
           "desc": "Obadiah tried to kill Pepper", 
-          "p1": "Obadiah Staine", 
+          "p1": "Obadiah Stane", 
           "p2": "Pepper Potts"
         }, 
         {
           "desc": "Obadiah attacked Coulson and the other agents", 
-          "p1": "Obadiah Staine", 
+          "p1": "Obadiah Stane", 
           "p2": "Agent Coulson"
         }, 
         {
           "desc": "Obadiah and Howard were business partners", 
-          "p1": "Obadiah Staine", 
+          "p1": "Obadiah Stane", 
           "p2": "Howard Stark"
         }, 
         {
@@ -609,9 +607,9 @@ return {
           "p2": "Agent Coulson"
         }, 
         {
-          "desc": "Bakaar is one of Raza's henchmen", 
+          "desc": "Bakar is one of Raza's henchmen", 
           "p1": "Raza", 
-          "p2": "Abu Bakaar"
+          "p2": "Abu Bakar"
         }
       ], 
       "name": "Iron Man"
