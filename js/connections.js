@@ -26,7 +26,7 @@ return {
     "Claire Weiss", 
     "Clint Barton", 
     "Colonel Phillips", 
-    "Cosmo the dog", 
+    "Cosmo the Dog", 
     "DJ AM", 
     "Darcy Lewis", 
     "Darren Cross", 
@@ -63,7 +63,7 @@ return {
     "Ho Yinsen", 
     "Hogun", 
     "Howard Stark", 
-    "Howard the duck", 
+    "Howard the Duck", 
     "Ian Boothby", 
     "Ivan Vanko", 
     "JARVIS", 
@@ -503,14 +503,14 @@ return {
       "characters": [
         "Bereet", 
         "Carina", 
-        "Cosmo the dog", 
+        "Cosmo the Dog", 
         "Denarian Sall", 
         "Drax", 
         "Duranna Dey", 
         "Gamora", 
         "Grandpa Quill", 
         "Groot", 
-        "Howard the duck", 
+        "Howard the Duck", 
         "Karman-Kan Dey", 
         "Korath", 
         "Kraglin Obfonteri", 
@@ -621,7 +621,7 @@ return {
         {
           "desc": "Quill walked past Cosmo's display case in The Collectors museum", 
           "p1": "Peter Quill", 
-          "p2": "Cosmo the dog"
+          "p2": "Cosmo the Dog"
         }, 
         {
           "desc": "Gamora and Drax are both Guardians of the Galaxy", 
@@ -696,7 +696,7 @@ return {
         {
           "desc": "Gamora walked past Cosmo's display case in The Collectors museum", 
           "p1": "Gamora", 
-          "p2": "Cosmo the dog"
+          "p2": "Cosmo the Dog"
         }, 
         {
           "desc": "This dumb tree is Drax's friend", 
@@ -806,7 +806,7 @@ return {
         {
           "desc": "Groot walked past Cosmo's display case in The Collectors museum", 
           "p1": "Groot", 
-          "p2": "Cosmo the dog"
+          "p2": "Cosmo the Dog"
         }, 
         {
           "desc": "Rocket flew his spaceship into Ronan after the Hadron Enforcer failed", 
@@ -851,7 +851,7 @@ return {
         {
           "desc": "Rocket and Cosmo snarled at each other in The Collectors museum", 
           "p1": "Rocket", 
-          "p2": "Cosmo the dog"
+          "p2": "Cosmo the Dog"
         }, 
         {
           "desc": "Nebula was assigned to work with Ronan by Thanos", 
@@ -936,12 +936,12 @@ return {
         {
           "desc": "Cosmo licked The Collector's face after his museum got wrecked", 
           "p1": "The Collector", 
-          "p2": "Cosmo the dog"
+          "p2": "Cosmo the Dog"
         }, 
         {
           "desc": "Howard and The Collector shared space martinis", 
           "p1": "The Collector", 
-          "p2": "Howard the duck"
+          "p2": "Howard the Duck"
         }, 
         {
           "desc": "Grandpa Quill is Meredith's father.", 
@@ -952,6 +952,16 @@ return {
           "desc": "The Other worked for Thanos", 
           "p1": "The Other", 
           "p2": "Thanos"
+        }, 
+        {
+          "desc": "Carina's cleaning duties mean she probably would have cleaned Cosmo's container", 
+          "p1": "Carina", 
+          "p2": "Cosmo the Dog"
+        }, 
+        {
+          "desc": "Carina's cleaning duties mean she probably would have cleaned Howards's container", 
+          "p1": "Carina", 
+          "p2": "Howard the Duck"
         }, 
         {
           "desc": "Duranna is Karman-Kan's daughter", 
