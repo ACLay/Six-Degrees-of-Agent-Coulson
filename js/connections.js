@@ -11,12 +11,14 @@ return {
     "Agent Coulson", 
     "Agent Sitwell", 
     "Aldrich Killian", 
+    "Algrim", 
     "Amadeus Cho", 
     "Anton Vanko", 
     "Arnim Zola", 
     "Bennie Pollock", 
     "Bereet", 
     "Betty Ross", 
+    "Bor", 
     "Bruce Banner", 
     "Bucky Barnes", 
     "Carina", 
@@ -35,6 +37,7 @@ return {
     "Drax", 
     "Dum Dum Dugan", 
     "Duranna Dey", 
+    "Eir", 
     "Ellen Brandt", 
     "Elon Musk", 
     "Emil Blonsky", 
@@ -61,6 +64,7 @@ return {
     "Hogun", 
     "Howard Stark", 
     "Howard the duck", 
+    "Ian Boothby", 
     "Ivan Vanko", 
     "JARVIS", 
     "Jack the Valet", 
@@ -83,6 +87,7 @@ return {
     "Leonard Samson", 
     "Loki", 
     "Major Allen", 
+    "Malekith", 
     "Maria Hill", 
     "Maria Stark", 
     "Martina", 
@@ -103,6 +108,7 @@ return {
     "Raza", 
     "Red Skull", 
     "Rhomann Dey", 
+    "Richard", 
     "Rocket", 
     "Ronan", 
     "Samuel Sterns", 
@@ -111,8 +117,10 @@ return {
     "Senator Brandt", 
     "Senator Stern", 
     "Sif", 
+    "Stan Lee", 
     "Stanley Lieber", 
     "Steve Rogers", 
+    "Steve Scott", 
     "Taggart", 
     "Thanos", 
     "The Broker", 
@@ -122,11 +130,11 @@ return {
     "Thor", 
     "Tony Stark", 
     "Trevor Slattery", 
+    "Tyr", 
     "Vice President Rodriguez", 
     "Volstagg", 
     "Will Adams", 
     "William Ginter Riva", 
-    "Yinsen", 
     "Yondu Udonta"
   ], 
   "properties": [
@@ -1607,6 +1615,7 @@ return {
         "Christine Everhart", 
         "General Gabriel", 
         "Happy Hogan", 
+        "Ho Yinsen", 
         "Howard Stark", 
         "JARVIS", 
         "James Rhodes", 
@@ -1617,8 +1626,7 @@ return {
         "Pepper Potts", 
         "Raza", 
         "Tony Stark", 
-        "William Ginter Riva", 
-        "Yinsen"
+        "William Ginter Riva"
       ], 
       "interactions": [
         {
@@ -1654,7 +1662,7 @@ return {
         {
           "desc": "Tony and Yinsen built the Mk 1 suit", 
           "p1": "Tony Stark", 
-          "p2": "Yinsen"
+          "p2": "Ho Yinsen"
         }, 
         {
           "desc": "Coulson gave Tony queue cards for his press conference", 
@@ -1770,6 +1778,16 @@ return {
           "desc": "Pepper told Coulson about sector 17", 
           "p1": "Pepper Potts", 
           "p2": "Agent Coulson"
+        }, 
+        {
+          "desc": "Yinsen was an injured bystander when Raza and Tony exchanged Rocket fire", 
+          "p1": "Ho Yinsen", 
+          "p2": "Raza"
+        }, 
+        {
+          "desc": "Yinsen was translator between Tony Stark and Abu Bakar", 
+          "p1": "Ho Yinsen", 
+          "p2": "Abu Bakar"
         }, 
         {
           "desc": "Bakar is one of Raza's henchmen", 
@@ -2264,6 +2282,447 @@ return {
         }
       ], 
       "name": "The Incredible Hulk"
+    }, 
+    {
+      "category": "Films", 
+      "characters": [
+        "Algrim", 
+        "Bor", 
+        "Carina", 
+        "Darcy Lewis", 
+        "Eir", 
+        "Erik Selvig", 
+        "Fandral", 
+        "Frigga", 
+        "Heimdall", 
+        "Hogun", 
+        "Ian Boothby", 
+        "Jane Foster", 
+        "Loki", 
+        "Malekith", 
+        "Odin", 
+        "Richard", 
+        "Sif", 
+        "Stan Lee", 
+        "Steve Scott", 
+        "The Collector", 
+        "Thor", 
+        "Tyr", 
+        "Volstagg"
+      ], 
+      "interactions": [
+        {
+          "desc": "Algrim was Malekith's loyal subject", 
+          "p1": "Malekith", 
+          "p2": "Algrim"
+        }, 
+        {
+          "desc": "Bor defeated Malekith and hid the Aether", 
+          "p1": "Bor", 
+          "p2": "Malekith"
+        }, 
+        {
+          "desc": "Algrim was one of the Dark Elves who fought against Bor's army", 
+          "p1": "Bor", 
+          "p2": "Algrim"
+        }, 
+        {
+          "desc": "Bor was Odin's father", 
+          "p1": "Bor", 
+          "p2": "Odin"
+        }, 
+        {
+          "desc": "Frigga was Loki's adopted mother", 
+          "p1": "Loki", 
+          "p2": "Frigga"
+        }, 
+        {
+          "desc": "Odin was Loki's adopted father", 
+          "p1": "Loki", 
+          "p2": "Odin"
+        }, 
+        {
+          "desc": "Odin and Frigga were married", 
+          "p1": "Odin", 
+          "p2": "Frigga"
+        }, 
+        {
+          "desc": "Thor and Sif fought together on Vanaheim", 
+          "p1": "Thor", 
+          "p2": "Sif"
+        }, 
+        {
+          "desc": "Thor and Fandral fought together on Vanaheim", 
+          "p1": "Thor", 
+          "p2": "Fandral"
+        }, 
+        {
+          "desc": "Thor and Volstagg fought together on Vanaheim", 
+          "p1": "Thor", 
+          "p2": "Volstagg"
+        }, 
+        {
+          "desc": "Thor and Hogun fought together on Vanaheim", 
+          "p1": "Thor", 
+          "p2": "Hogun"
+        }, 
+        {
+          "desc": "Sif and Fandral fought together on Vanaheim", 
+          "p1": "Sif", 
+          "p2": "Fandral"
+        }, 
+        {
+          "desc": "Sif and Volstagg fought together on Vanaheim", 
+          "p1": "Sif", 
+          "p2": "Volstagg"
+        }, 
+        {
+          "desc": "Sif and Hogun fought together on Vanaheim", 
+          "p1": "Sif", 
+          "p2": "Hogun"
+        }, 
+        {
+          "desc": "Fandral and Volstagg fought together on Vanaheim", 
+          "p1": "Fandral", 
+          "p2": "Volstagg"
+        }, 
+        {
+          "desc": "Fandral and Hogun fought together on Vanaheim", 
+          "p1": "Fandral", 
+          "p2": "Hogun"
+        }, 
+        {
+          "desc": "Volstagg and Hogun fought together on Vanaheim", 
+          "p1": "Volstagg", 
+          "p2": "Hogun"
+        }, 
+        {
+          "desc": "Odin was Thor's Father", 
+          "p1": "Thor", 
+          "p2": "Odin"
+        }, 
+        {
+          "desc": "Frigga was Thor's Mother", 
+          "p1": "Thor", 
+          "p2": "Frigga"
+        }, 
+        {
+          "desc": "Heimdall opened the Bifrost to transport Thor to Midgard", 
+          "p1": "Heimdall", 
+          "p2": "Thor"
+        }, 
+        {
+          "desc": "Richard and Jane went on a date", 
+          "p1": "Richard", 
+          "p2": "Jane Foster"
+        }, 
+        {
+          "desc": "Darcy interrupted Richard's date with Jane Foster", 
+          "p1": "Darcy Lewis", 
+          "p2": "Richard"
+        }, 
+        {
+          "desc": "Darcy was Jane's intern", 
+          "p1": "Jane Foster", 
+          "p2": "Darcy Lewis"
+        }, 
+        {
+          "desc": "Ian was Darcy's intern", 
+          "p1": "Ian Boothby", 
+          "p2": "Darcy Lewis"
+        }, 
+        {
+          "desc": "Ian was Jane's intern's intern", 
+          "p1": "Ian Boothby", 
+          "p2": "Jane Foster"
+        }, 
+        {
+          "desc": "Scott was present and filed a report for ITV News when Selvig was arrested at Stonehenge", 
+          "p1": "Steve Scott", 
+          "p2": "Erik Selvig"
+        }, 
+        {
+          "desc": "Jane slapped Thor straight in the face, like, twice", 
+          "p1": "Jane Foster", 
+          "p2": "Thor"
+        }, 
+        {
+          "desc": "Darcy asked Thor how space was, because she is a person who cares about others' feelings", 
+          "p1": "Darcy Lewis", 
+          "p2": "Thor"
+        }, 
+        {
+          "desc": "Heimdall welcomed Jane to Asgard", 
+          "p1": "Heimdall", 
+          "p2": "Jane Foster"
+        }, 
+        {
+          "desc": "Eir examined Jane with the Soul Forge (Quantum Field Generator)", 
+          "p1": "Eir", 
+          "p2": "Jane Foster"
+        }, 
+        {
+          "desc": "Odin explained the Aether to Jane and Thor", 
+          "p1": "Odin", 
+          "p2": "Jane Foster"
+        }, 
+        {
+          "desc": "Odin and Eir spoke about Jane Foster's condition", 
+          "p1": "Odin", 
+          "p2": "Eir"
+        }, 
+        {
+          "desc": "Thor was present when Eir examined Jane Foster", 
+          "p1": "Thor", 
+          "p2": "Eir"
+        }, 
+        {
+          "desc": "Heimdall unknowingly opened the Bifrost to Algrim, who was posing as Volstagg and Fandral's prisoner", 
+          "p1": "Heimdall", 
+          "p2": "Algrim"
+        }, 
+        {
+          "desc": "Heimdall opened the Bifrost to Volstagg, Fandral, and their prisoners", 
+          "p1": "Heimdall", 
+          "p2": "Volstagg"
+        }, 
+        {
+          "desc": "Heimdall opened the Bifrost to Fandral, Volstagg, and their prisoners", 
+          "p1": "Heimdall", 
+          "p2": "Fandral"
+        }, 
+        {
+          "desc": "Volstagg and Fandral brought a disguised Algrim to Asgard as their prisoner", 
+          "p1": "Volstagg", 
+          "p2": "Algrim"
+        }, 
+        {
+          "desc": "Fandral and Volstagg brought a disguised Algrim to Asgard as their prisoner", 
+          "p1": "Fandral", 
+          "p2": "Algrim"
+        }, 
+        {
+          "desc": "Frigga protected Jane from Malekith and Kurse", 
+          "p1": "Jane Foster", 
+          "p2": "Frigga"
+        }, 
+        {
+          "desc": "Loki was present when Algrim transformed into Kurse", 
+          "p1": "Loki", 
+          "p2": "Algrim"
+        }, 
+        {
+          "desc": "Sif was present when Odin and Frigga spoke about Jane Foster", 
+          "p1": "Sif", 
+          "p2": "Frigga"
+        }, 
+        {
+          "desc": "Sif was present when Odin and Frigga spoke about Jane Foster", 
+          "p1": "Sif", 
+          "p2": "Odin"
+        }, 
+        {
+          "desc": "Sif helped Jane Foster escape from Asgard", 
+          "p1": "Sif", 
+          "p2": "Jane Foster"
+        }, 
+        {
+          "desc": "Malekith and Frigga fought over Jane Foster", 
+          "p1": "Malekith", 
+          "p2": "Frigga"
+        }, 
+        {
+          "desc": "Malekith removed the Aether from Jane Foster", 
+          "p1": "Malekith", 
+          "p2": "Jane Foster"
+        }, 
+        {
+          "desc": "Algrim, as Kurse, killed Frigga", 
+          "p1": "Algrim", 
+          "p2": "Frigga"
+        }, 
+        {
+          "desc": "Volstagg and Fandral attended Odin's meeting about the security of Asgard", 
+          "p1": "Volstagg", 
+          "p2": "Odin"
+        }, 
+        {
+          "desc": "Fandral told Odin that Asgard was all but defenseless", 
+          "p1": "Fandral", 
+          "p2": "Odin"
+        }, 
+        {
+          "desc": "Tyr and Volstagg both attended Frigga's funeral", 
+          "p1": "Tyr", 
+          "p2": "Volstagg"
+        }, 
+        {
+          "desc": "Tyr and Sif both attended Frigga's funeral", 
+          "p1": "Tyr", 
+          "p2": "Sif"
+        }, 
+        {
+          "desc": "Tyr and Fandral both attended Frigga's funeral", 
+          "p1": "Tyr", 
+          "p2": "Fandral"
+        }, 
+        {
+          "desc": "Tyr and Jane Foster both attended Frigga's funeral", 
+          "p1": "Tyr", 
+          "p2": "Jane Foster"
+        }, 
+        {
+          "desc": "Odin ordered Tyr to confine Jane Foster. Tyr is the God of War and was woefully overqualified for this.", 
+          "p1": "Tyr", 
+          "p2": "Odin"
+        }, 
+        {
+          "desc": "Tyr and Thor both attended Frigga's funeral", 
+          "p1": "Tyr", 
+          "p2": "Thor"
+        }, 
+        {
+          "desc": "Heimdall was present when Tyr informed Odin of Jane Foster's escape", 
+          "p1": "Tyr", 
+          "p2": "Heimdall"
+        }, 
+        {
+          "desc": "Heimdall informed Odin that he betrayed him and helped Thor", 
+          "p1": "Heimdall", 
+          "p2": "Odin"
+        }, 
+        {
+          "desc": "Erik borrows Stan's shoe in the psych ward", 
+          "p1": "Erik Selvig", 
+          "p2": "Stan Lee"
+        }, 
+        {
+          "desc": "Ian and Darcy got Erik released from the police custody", 
+          "p1": "Ian Boothby", 
+          "p2": "Erik Selvig"
+        }, 
+        {
+          "desc": "Darcy and Ian got Erik released from the police custody", 
+          "p1": "Darcy Lewis", 
+          "p2": "Erik Selvig"
+        }, 
+        {
+          "desc": "Thor and Loki were brothers", 
+          "p1": "Thor", 
+          "p2": "Loki"
+        }, 
+        {
+          "desc": "Sif threatened to kill Loki if he betrayed Thor", 
+          "p1": "Loki", 
+          "p2": "Sif"
+        }, 
+        {
+          "desc": "Fandral helped Loki escape from Asgard", 
+          "p1": "Loki", 
+          "p2": "Fandral"
+        }, 
+        {
+          "desc": "Volstag threatened to kill Loki if he betrayed Thor", 
+          "p1": "Loki", 
+          "p2": "Volstagg"
+        }, 
+        {
+          "desc": "Jane slapped Loki straight in the face", 
+          "p1": "Loki", 
+          "p2": "Jane Foster"
+        }, 
+        {
+          "desc": "Volstagg helped Jane Foster escape from Asgard", 
+          "p1": "Jane Foster", 
+          "p2": "Volstagg"
+        }, 
+        {
+          "desc": "Fandral helped Jane Foster escape from Asgard", 
+          "p1": "Jane Foster", 
+          "p2": "Fandral"
+        }, 
+        {
+          "desc": "Jane and Erik worked together science the heck out of stuff", 
+          "p1": "Jane Foster", 
+          "p2": "Erik Selvig"
+        }, 
+        {
+          "desc": "Thor informed Erik of Loki's \"death,\" much to Erik's relief", 
+          "p1": "Thor", 
+          "p2": "Erik Selvig"
+        }, 
+        {
+          "desc": "Ian and Thor met in Jane's lab", 
+          "p1": "Ian Boothby", 
+          "p2": "Thor"
+        }, 
+        {
+          "desc": "Algrim was present when Malekith removed the Aether from Jane Foster", 
+          "p1": "Algrim", 
+          "p2": "Jane Foster"
+        }, 
+        {
+          "desc": "Thor and Malekith fought a battle that spanned multiple realms", 
+          "p1": "Thor", 
+          "p2": "Malekith"
+        }, 
+        {
+          "desc": "Thor fought Algrim on Svartalfheim", 
+          "p1": "Thor", 
+          "p2": "Algrim"
+        }, 
+        {
+          "desc": "Loki helped Thor trick Malekith (for all the good it did)", 
+          "p1": "Loki", 
+          "p2": "Malekith"
+        }, 
+        {
+          "desc": "Thor was present while Jane Foster was on speakerphone with Richard", 
+          "p1": "Thor", 
+          "p2": "Richard"
+        }, 
+        {
+          "desc": "Darcy helped Thor fight Malekith in Greenwich", 
+          "p1": "Darcy Lewis", 
+          "p2": "Malekith"
+        }, 
+        {
+          "desc": "Ian helped Thor fight Malekith in Greenwich", 
+          "p1": "Ian Boothby", 
+          "p2": "Malekith"
+        }, 
+        {
+          "desc": "Erik helped Thor fight Malekith in Greenwich", 
+          "p1": "Erik Selvig", 
+          "p2": "Malekith"
+        }, 
+        {
+          "desc": "Sif and Volstagg delivered the Aether to The Collector", 
+          "p1": "The Collector", 
+          "p2": "Sif"
+        }, 
+        {
+          "desc": "Volstagg and Sif delivered the Aether to The Collector", 
+          "p1": "The Collector", 
+          "p2": "Volstagg"
+        }, 
+        {
+          "desc": "Carina presented Sif and Volstagg to The Collector", 
+          "p1": "Carina", 
+          "p2": "Sif"
+        }, 
+        {
+          "desc": "Carina presented Sif and Volstagg to The Collector", 
+          "p1": "Carina", 
+          "p2": "Volstagg"
+        }, 
+        {
+          "desc": "Carina presented Sif and Volstagg to The Collector", 
+          "p1": "The Collector", 
+          "p2": "Carina"
+        }
+      ], 
+      "name": "Thor The Dark World"
     }, 
     {
       "category": "Films", 
