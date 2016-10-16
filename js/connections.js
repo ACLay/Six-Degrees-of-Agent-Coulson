@@ -56,6 +56,7 @@ return {
     "Erin", 
     "Fandral", 
     "Ferdinand Lopez", 
+    "Fletcher Heggs", 
     "Frigga", 
     "Gabe Jones", 
     "Gamora", 
@@ -83,7 +84,8 @@ return {
     "JARVIS", 
     "Jack Rollins", 
     "Jack the Valet", 
-    "Jackson Norris", 
+    "Jackson Norris (WHIH)", 
+    "Jackson Norriss (10 rings)", 
     "Jacques Dernier", 
     "James Falsworth", 
     "James Rhodes", 
@@ -120,12 +122,15 @@ return {
     "Peter Quill", 
     "Pietro Maximoff", 
     "President Ellis", 
+    "Priscilla Everhart", 
     "Prisoner 6219", 
+    "Prisoner Herman", 
     "Raza", 
     "Red Skull", 
     "Renata", 
     "Rhomann Dey", 
     "Richard", 
+    "Rick Hawkins", 
     "Riley", 
     "Rocket", 
     "Ronan", 
@@ -133,6 +138,7 @@ return {
     "Samuel Sterns", 
     "Savin", 
     "Scott Lang", 
+    "Sean Connery", 
     "Senator Brandt", 
     "Senator Stern", 
     "Sharon Carter", 
@@ -145,6 +151,7 @@ return {
     "Thanos", 
     "The Broker", 
     "The Collector", 
+    "The Mandarin", 
     "The Other", 
     "Thomas Richards", 
     "Thor", 
@@ -154,6 +161,7 @@ return {
     "Vice President Rodriguez", 
     "Volstagg", 
     "Wanda Maximoff", 
+    "White Power Dave", 
     "Will Adams", 
     "William Ginter Riva", 
     "Yondu Udonta"
@@ -3715,6 +3723,104 @@ return {
     {
       "category": "One-shots", 
       "characters": [
+        "Fletcher Heggs", 
+        "Jackson Norriss (10 rings)", 
+        "Justin Hammer", 
+        "Priscilla Everhart", 
+        "Prisoner Herman", 
+        "Rick Hawkins", 
+        "Sean Connery", 
+        "The Mandarin", 
+        "Trevor Slattery", 
+        "White Power Dave"
+      ], 
+      "interactions": [
+        {
+          "desc": "Norriss interviewed Slattery in prison", 
+          "p1": "Jackson Norriss (10 rings)", 
+          "p2": "Trevor Slattery"
+        }, 
+        {
+          "desc": "Herman acted as a butler for Slattery in prison", 
+          "p1": "Prisoner Herman", 
+          "p2": "Trevor Slattery"
+        }, 
+        {
+          "desc": "Slattery walked into Dave with his lunch tray", 
+          "p1": "White Power Dave", 
+          "p2": "Trevor Slattery"
+        }, 
+        {
+          "desc": "Herman prevented Dave attacking Slattery", 
+          "p1": "White Power Dave", 
+          "p2": "Prisoner Herman"
+        }, 
+        {
+          "desc": "Fletcher was in Trevor's fan club and backed him up against Dave", 
+          "p1": "White Power Dave", 
+          "p2": "Fletcher Heggs"
+        }, 
+        {
+          "desc": "Herman and Fletcher were both fans of Trevor's mandarin", 
+          "p1": "Prisoner Herman", 
+          "p2": "Fletcher Heggs"
+        }, 
+        {
+          "desc": "Herman was present when Norriss interviewed Slattery", 
+          "p1": "Prisoner Herman", 
+          "p2": "Jackson Norriss (10 rings)"
+        }, 
+        {
+          "desc": "Trevor and Priscilla both starred in an unaired TV pilot", 
+          "p1": "Trevor Slattery", 
+          "p2": "Priscilla Everhart"
+        }, 
+        {
+          "desc": "Rick and Trevor both starred in an unaired TV pilot", 
+          "p1": "Trevor Slattery", 
+          "p2": "Rick Hawkins"
+        }, 
+        {
+          "desc": "Priscilla and Rick both starred in an unaired TV pilot", 
+          "p1": "Priscilla Everhart", 
+          "p2": "Rick Hawkins"
+        }, 
+        {
+          "desc": "Trevor and Sean met on set once", 
+          "p1": "Trevor Slattery", 
+          "p2": "Sean Connery"
+        }, 
+        {
+          "desc": "The Mandarin sent Norriss to break Slattery out of prison", 
+          "p1": "The Mandarin", 
+          "p2": "Jackson Norriss (10 rings)"
+        }, 
+        {
+          "desc": "Trevor and Justin were together in Seagate prison", 
+          "p1": "Justin Hammer", 
+          "p2": "Trevor Slattery"
+        }, 
+        {
+          "desc": "Justin Hammer and Herman were together in Seagate prison", 
+          "p1": "Justin Hammer", 
+          "p2": "Prisoner Herman"
+        }, 
+        {
+          "desc": "Justin and Dave were together in Seagate prison", 
+          "p1": "Justin Hammer", 
+          "p2": "White Power Dave"
+        }, 
+        {
+          "desc": "Justin and Fletcher were together in Seagate prison", 
+          "p1": "Justin Hammer", 
+          "p2": "Fletcher Heggs"
+        }
+      ], 
+      "name": "All Hail the King"
+    }, 
+    {
+      "category": "One-shots", 
+      "characters": [
         "Agent Blake", 
         "Agent Sitwell", 
         "Bennie Pollock", 
@@ -3755,12 +3861,34 @@ return {
       "name": "Item 47"
     }, 
     {
+      "category": "One-shots", 
+      "characters": [
+        "Agent Coulson", 
+        "Agent Sitwell", 
+        "General Ross", 
+        "Tony Stark"
+      ], 
+      "interactions": [
+        {
+          "desc": "Coulson and Sitwell met in a diner for breakfast", 
+          "p1": "Agent Sitwell", 
+          "p2": "Agent Coulson"
+        }, 
+        {
+          "desc": "Stark and Ross met to discuss the Avenger initiative", 
+          "p1": "Tony Stark", 
+          "p2": "General Ross"
+        }
+      ], 
+      "name": "The Consultant"
+    }, 
+    {
       "category": "Other", 
       "characters": [
         "Christine Everhart", 
         "Darren Cross", 
         "General Ross", 
-        "Jackson Norris", 
+        "Jackson Norris (WHIH)", 
         "James Rondell", 
         "President Ellis", 
         "Scott Lang", 
@@ -3799,12 +3927,12 @@ return {
         }, 
         {
           "desc": "Jackson was a field reporter for a WHIH Breaking News segment co-anchored by Christine and Will Adams", 
-          "p1": "Jackson Norris", 
+          "p1": "Jackson Norris (WHIH)", 
           "p2": "Christine Everhart"
         }, 
         {
           "desc": "|Jackson was a field reporter for a WHIH Breaking News segment co-anchored by Will and Christine Everhart", 
-          "p1": "Jackson Norris", 
+          "p1": "Jackson Norris (WHIH)", 
           "p2": "Will Adams"
         }
       ], 
