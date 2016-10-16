@@ -11,27 +11,38 @@ return {
     "Agent Coulson", 
     "Agent Sitwell", 
     "Aldrich Killian", 
+    "Alexander Pierce", 
     "Algrim", 
     "Amadeus Cho", 
     "Anton Vanko", 
+    "Apple Aaron", 
     "Arnim Zola", 
+    "Baron Strucker", 
     "Bennie Pollock", 
     "Bereet", 
     "Betty Ross", 
     "Bor", 
+    "Brock Rumlow", 
     "Bruce Banner", 
     "Bucky Barnes", 
+    "Cameron Klein", 
     "Carina", 
     "Christine Everhart", 
     "Claire Weiss", 
     "Clint Barton", 
     "Colonel Phillips", 
     "Cosmo the Dog", 
+    "Councilman Rockwell", 
+    "Councilman Singh", 
+    "Councilman Yen", 
+    "Councilwoman Hawley", 
     "DJ AM", 
     "Darcy Lewis", 
     "Darren Cross", 
     "Denarian Sall", 
     "Detective Lemieux", 
+    "Doctor Fine", 
+    "Doctor List", 
     "Doctor Wu", 
     "Dr Erskine", 
     "Drax", 
@@ -44,20 +55,23 @@ return {
     "Erik Selvig", 
     "Erin", 
     "Fandral", 
+    "Ferdinand Lopez", 
     "Frigga", 
     "Gabe Jones", 
     "Gamora", 
+    "Garcia", 
     "Gary the Camera Guy", 
     "General Gabriel", 
     "General Meade", 
     "General Ross", 
+    "Georges Batroc", 
+    "Gerald Durand", 
     "Gideon Mallick", 
     "Gilmore Hodge", 
     "Grandpa Quill", 
     "Groot", 
     "Happy Hogan", 
     "Harley Keener", 
-    "Hawley", 
     "Heimdall", 
     "Heinz Kruger", 
     "Ho Yinsen", 
@@ -67,6 +81,7 @@ return {
     "Ian Boothby", 
     "Ivan Vanko", 
     "JARVIS", 
+    "Jack Rollins", 
     "Jack the Valet", 
     "Jackson Norris", 
     "Jacques Dernier", 
@@ -103,19 +118,24 @@ return {
     "Peggy Carter", 
     "Pepper Potts", 
     "Peter Quill", 
+    "Pietro Maximoff", 
     "President Ellis", 
     "Prisoner 6219", 
     "Raza", 
     "Red Skull", 
+    "Renata", 
     "Rhomann Dey", 
     "Richard", 
+    "Riley", 
     "Rocket", 
     "Ronan", 
+    "Sam Wilson", 
     "Samuel Sterns", 
     "Savin", 
     "Scott Lang", 
     "Senator Brandt", 
     "Senator Stern", 
+    "Sharon Carter", 
     "Sif", 
     "Stan Lee", 
     "Stanley Lieber", 
@@ -133,6 +153,7 @@ return {
     "Tyr", 
     "Vice President Rodriguez", 
     "Volstagg", 
+    "Wanda Maximoff", 
     "Will Adams", 
     "William Ginter Riva", 
     "Yondu Udonta"
@@ -497,6 +518,532 @@ return {
         }
       ], 
       "name": "Captain America The First Avenger"
+    }, 
+    {
+      "category": "Films", 
+      "characters": [
+        "Agent Sitwell", 
+        "Alexander Pierce", 
+        "Apple Aaron", 
+        "Arnim Zola", 
+        "Baron Strucker", 
+        "Brock Rumlow", 
+        "Bucky Barnes", 
+        "Cameron Klein", 
+        "Councilman Rockwell", 
+        "Councilman Singh", 
+        "Councilman Yen", 
+        "Councilwoman Hawley", 
+        "Doctor Fine", 
+        "Doctor List", 
+        "Ferdinand Lopez", 
+        "Garcia", 
+        "Georges Batroc", 
+        "Gerald Durand", 
+        "Howard Stark", 
+        "Jack Rollins", 
+        "Maria Hill", 
+        "Maria Stark", 
+        "Natasha Romanoff", 
+        "Nick Fury", 
+        "Peggy Carter", 
+        "Pietro Maximoff", 
+        "Renata", 
+        "Riley", 
+        "Sam Wilson", 
+        "Senator Stern", 
+        "Sharon Carter", 
+        "Steve Rogers", 
+        "Wanda Maximoff"
+      ], 
+      "interactions": [
+        {
+          "desc": "Sam was on Steve's right", 
+          "p1": "Steve Rogers", 
+          "p2": "Sam Wilson"
+        }, 
+        {
+          "desc": "Nat tried to find Steve a date", 
+          "p1": "Steve Rogers", 
+          "p2": "Natasha Romanoff"
+        }, 
+        {
+          "desc": "Sam gave Nat shelter when she was on the run", 
+          "p1": "Sam Wilson", 
+          "p2": "Natasha Romanoff"
+        }, 
+        {
+          "desc": "Rumlow was the last man standing against Steve in the elevator", 
+          "p1": "Brock Rumlow", 
+          "p2": "Steve Rogers"
+        }, 
+        {
+          "desc": "Rumlow and Rollins were both members of the STRIKE team", 
+          "p1": "Brock Rumlow", 
+          "p2": "Jack Rollins"
+        }, 
+        {
+          "desc": "Rumlow and Romanoff were both in the team sent to retake the Lemurian Star", 
+          "p1": "Brock Rumlow", 
+          "p2": "Natasha Romanoff"
+        }, 
+        {
+          "desc": "Rollins and Romanoff were both in the team sent to retake the Lemurian Star", 
+          "p1": "Jack Rollins", 
+          "p2": "Natasha Romanoff"
+        }, 
+        {
+          "desc": "Rollins and Rogers were both in the team sent to retake the Lemurian Star", 
+          "p1": "Jack Rollins", 
+          "p2": "Steve Rogers"
+        }, 
+        {
+          "desc": "Lopez was a mercinary under Batroc's command on the Lemurian Star", 
+          "p1": "Georges Batroc", 
+          "p2": "Ferdinand Lopez"
+        }, 
+        {
+          "desc": "Lopez called Durand and ordered him to start the Lemurian Star's engines", 
+          "p1": "Gerald Durand", 
+          "p2": "Ferdinand Lopez"
+        }, 
+        {
+          "desc": "Nat used Gerald as an anchor for her grapple hook as she went to the Lemurian Star's engine room.", 
+          "p1": "Gerald Durand", 
+          "p2": "Natasha Romanoff"
+        }, 
+        {
+          "desc": "Durand was a mercinary under Batroc's command on the Lemurian Star", 
+          "p1": "Georges Batroc", 
+          "p2": "Gerald Durand"
+        }, 
+        {
+          "desc": "Rumlow freed Sitwell from the Lemurian Star", 
+          "p1": "Agent Sitwell", 
+          "p2": "Brock Rumlow"
+        }, 
+        {
+          "desc": "Rollins freed Sitwell from the Lemurian Star", 
+          "p1": "Agent Sitwell", 
+          "p2": "Jack Rollins"
+        }, 
+        {
+          "desc": "Rogers took down Batroc on the Lemurian Star", 
+          "p1": "Steve Rogers", 
+          "p2": "Georges Batroc"
+        }, 
+        {
+          "desc": "Steve knocked Lopez out with his shield when attacking the Lemurian Star's bridge", 
+          "p1": "Steve Rogers", 
+          "p2": "Ferdinand Lopez"
+        }, 
+        {
+          "desc": "Fury ordered Romanoff to recover SHIELD data from the Lemurian Star", 
+          "p1": "Natasha Romanoff", 
+          "p2": "Nick Fury"
+        }, 
+        {
+          "desc": "Batroc threw a grenade at Nat and Steve", 
+          "p1": "Natasha Romanoff", 
+          "p2": "Georges Batroc"
+        }, 
+        {
+          "desc": "Fury told Rogers about Project Insight", 
+          "p1": "Steve Rogers", 
+          "p2": "Nick Fury"
+        }, 
+        {
+          "desc": "With eachother till the end of the line", 
+          "p1": "Steve Rogers", 
+          "p2": "Bucky Barnes"
+        }, 
+        {
+          "desc": "Steve visited an aged, dementia suffering Peggy", 
+          "p1": "Steve Rogers", 
+          "p2": "Peggy Carter"
+        }, 
+        {
+          "desc": "Pierce put Fury in charge of SHIELD", 
+          "p1": "Nick Fury", 
+          "p2": "Alexander Pierce"
+        }, 
+        {
+          "desc": "Pierce and Hawley served on the World Security Council together", 
+          "p1": "Alexander Pierce", 
+          "p2": "Councilwoman Hawley"
+        }, 
+        {
+          "desc": "Pierce and Yen served on the World Security Council together", 
+          "p1": "Alexander Pierce", 
+          "p2": "Councilman Yen"
+        }, 
+        {
+          "desc": "Pierce and Singh served on the World Security Council together", 
+          "p1": "Alexander Pierce", 
+          "p2": "Councilman Singh"
+        }, 
+        {
+          "desc": "Pierce and Rockwell served on the World Security Council together", 
+          "p1": "Alexander Pierce", 
+          "p2": "Councilman Rockwell"
+        }, 
+        {
+          "desc": "Hawley and Yen served on the World Security Council together", 
+          "p1": "Councilwoman Hawley", 
+          "p2": "Councilman Yen"
+        }, 
+        {
+          "desc": "Hawley and Singh served on the World Security Council together", 
+          "p1": "Councilwoman Hawley", 
+          "p2": "Councilman Singh"
+        }, 
+        {
+          "desc": "Hawley and Rockwell served on the World Security Council together", 
+          "p1": "Councilwoman Hawley", 
+          "p2": "Councilman Rockwell"
+        }, 
+        {
+          "desc": "Yen and Singh served on the World Security Council together", 
+          "p1": "Councilman Yen", 
+          "p2": "Councilman Singh"
+        }, 
+        {
+          "desc": "Yen and Rockwell served on the World Security Council together", 
+          "p1": "Councilman Yen", 
+          "p2": "Councilman Rockwell"
+        }, 
+        {
+          "desc": "Singh and Rockwell served on the World Security Council together", 
+          "p1": "Councilman Singh", 
+          "p2": "Councilman Rockwell"
+        }, 
+        {
+          "desc": "Garcia told Sam and the rest of their support group about swerving to miss a plastic bag she thought was an IED", 
+          "p1": "Sam Wilson", 
+          "p2": "Garcia"
+        }, 
+        {
+          "desc": "Steve was listening at the support group when Garcia spoke about swerving to miss what she thought was an IED", 
+          "p1": "Steve Rogers", 
+          "p2": "Garcia"
+        }, 
+        {
+          "desc": "Riley was Sam's wingman in the Air Force", 
+          "p1": "Sam Wilson", 
+          "p2": "Riley"
+        }, 
+        {
+          "desc": "Fury ordered Hill to join him, in secret, in DC", 
+          "p1": "Nick Fury", 
+          "p2": "Maria Hill"
+        }, 
+        {
+          "desc": "Fury was attacked multiple times by The Winter Soldier", 
+          "p1": "Nick Fury", 
+          "p2": "Bucky Barnes"
+        }, 
+        {
+          "desc": "Sharon lived across the hall from Steve", 
+          "p1": "Steve Rogers", 
+          "p2": "Sharon Carter"
+        }, 
+        {
+          "desc": "Sharon was talking to Peggy on the phone when Steve got home", 
+          "p1": "Sharon Carter", 
+          "p2": "Peggy Carter"
+        }, 
+        {
+          "desc": "Fury orderd Sharon to observe and provide protection to Steve Rogers", 
+          "p1": "Sharon Carter", 
+          "p2": "Nick Fury"
+        }, 
+        {
+          "desc": "Doctor Fine operated on Fury and helped to fake his death", 
+          "p1": "Doctor Fine", 
+          "p2": "Nick Fury"
+        }, 
+        {
+          "desc": "Hill and Rogers watched Fury's surgery after his shooting", 
+          "p1": "Maria Hill", 
+          "p2": "Steve Rogers"
+        }, 
+        {
+          "desc": "Hill and Romanoff watched Fury's surgery after his shooting", 
+          "p1": "Maria Hill", 
+          "p2": "Natasha Romanoff"
+        }, 
+        {
+          "desc": "Hill and Sitwell watched Fury's surgery after his shooting", 
+          "p1": "Maria Hill", 
+          "p2": "Agent Sitwell"
+        }, 
+        {
+          "desc": "Hill and Rumlow watched Fury's surgery after his shooting", 
+          "p1": "Maria Hill", 
+          "p2": "Brock Rumlow"
+        }, 
+        {
+          "desc": "Romanoff kicked Sitwell off a building", 
+          "p1": "Agent Sitwell", 
+          "p2": "Natasha Romanoff"
+        }, 
+        {
+          "desc": "Rogers and Sitwell both watched Fury's surgery after his shooting", 
+          "p1": "Agent Sitwell", 
+          "p2": "Steve Rogers"
+        }, 
+        {
+          "desc": "Carter met with Pierce in the Triskellion after Fury's \"murder\"", 
+          "p1": "Sharon Carter", 
+          "p2": "Alexander Pierce"
+        }, 
+        {
+          "desc": "Rogers met with Pierce in the Triskellion after Fury's \"murder\"", 
+          "p1": "Steve Rogers", 
+          "p2": "Alexander Pierce"
+        }, 
+        {
+          "desc": "Fury hired Batroc to get onboard the Lemurian Star", 
+          "p1": "Georges Batroc", 
+          "p2": "Nick Fury"
+        }, 
+        {
+          "desc": "Carter questioned Sitwell as to why SHIELD was hunting Captian America", 
+          "p1": "Agent Sitwell", 
+          "p2": "Sharon Carter"
+        }, 
+        {
+          "desc": "Sitwell and Pierce started the manhunt for Captain America", 
+          "p1": "Alexander Pierce", 
+          "p2": "Agent Sitwell"
+        }, 
+        {
+          "desc": "Aaron had the exact same glasses as Steve", 
+          "p1": "Steve Rogers", 
+          "p2": "Apple Aaron"
+        }, 
+        {
+          "desc": "Aaron tried to help Steve and Nat in the Apple store", 
+          "p1": "Natasha Romanoff", 
+          "p2": "Apple Aaron"
+        }, 
+        {
+          "desc": "Zola told Steve about Hydra's plan", 
+          "p1": "Arnim Zola", 
+          "p2": "Steve Rogers"
+        }, 
+        {
+          "desc": "Zola told Natasha about Hydra's plan", 
+          "p1": "Arnim Zola", 
+          "p2": "Natasha Romanoff"
+        }, 
+        {
+          "desc": "Zola tells Steve that The Winter Soldier killed Howard Stark", 
+          "p1": "Bucky Barnes", 
+          "p2": "Howard Stark"
+        }, 
+        {
+          "desc": "Zola tells Steve that The Winter Soldier killed Maria Stark", 
+          "p1": "Bucky Barnes", 
+          "p2": "Maria Stark"
+        }, 
+        {
+          "desc": "Zola informed Pierce where Steve and Nat were so he could launch a missile at them", 
+          "p1": "Arnim Zola", 
+          "p2": "Alexander Pierce"
+        }, 
+        {
+          "desc": "Pierce ordered The Winter Soldier to take out Steve and Nat", 
+          "p1": "Alexander Pierce", 
+          "p2": "Bucky Barnes"
+        }, 
+        {
+          "desc": "Renata was a housemaid for Alexander Pierce", 
+          "p1": "Renata", 
+          "p2": "Alexander Pierce"
+        }, 
+        {
+          "desc": "Renata was killed for walking in on Pierce and The Winter Soldier", 
+          "p1": "Renata", 
+          "p2": "Bucky Barnes"
+        }, 
+        {
+          "desc": "Sam caught Sitwell after he got kicked off a building", 
+          "p1": "Sam Wilson", 
+          "p2": "Agent Sitwell"
+        }, 
+        {
+          "desc": "Sitwell and Stern met for lunch. Hail Hydra.", 
+          "p1": "Agent Sitwell", 
+          "p2": "Senator Stern"
+        }, 
+        {
+          "desc": "The Winter Soldier threw Sitwell into the path of a moving truck", 
+          "p1": "Bucky Barnes", 
+          "p2": "Agent Sitwell"
+        }, 
+        {
+          "desc": "The Winter Soldier attacked Nat, Steve and Sam on the highway", 
+          "p1": "Bucky Barnes", 
+          "p2": "Natasha Romanoff"
+        }, 
+        {
+          "desc": "The Winter Soldier attacked Sam, Nat and Steve on the highway", 
+          "p1": "Bucky Barnes", 
+          "p2": "Sam Wilson"
+        }, 
+        {
+          "desc": "Hill rescued Sam, Steve and Nat from STRIKE", 
+          "p1": "Maria Hill", 
+          "p2": "Sam Wilson"
+        }, 
+        {
+          "desc": "Hill brought Fine and Fury to a secret bunker", 
+          "p1": "Maria Hill", 
+          "p2": "Doctor Fine"
+        }, 
+        {
+          "desc": "Fine treated Romanoff's shoulder in Fury's bunker", 
+          "p1": "Natasha Romanoff", 
+          "p2": "Doctor Fine"
+        }, 
+        {
+          "desc": "Rogers met Fine in Fury's bunker", 
+          "p1": "Steve Rogers", 
+          "p2": "Doctor Fine"
+        }, 
+        {
+          "desc": "Sam met Fine in Fury's bunker", 
+          "p1": "Sam Wilson", 
+          "p2": "Doctor Fine"
+        }, 
+        {
+          "desc": "Sam met Fury in his secret bunker", 
+          "p1": "Sam Wilson", 
+          "p2": "Nick Fury"
+        }, 
+        {
+          "desc": "Zola was one of the scientists that turned Bucky into The Winter Soldier", 
+          "p1": "Arnim Zola", 
+          "p2": "Bucky Barnes"
+        }, 
+        {
+          "desc": "Rollins was in the room when Hydra rewiped Bucky's mind", 
+          "p1": "Jack Rollins", 
+          "p2": "Bucky Barnes"
+        }, 
+        {
+          "desc": "Rumlow was in the room when Hydra rewiped Bucky's mind", 
+          "p1": "Brock Rumlow", 
+          "p2": "Bucky Barnes"
+        }, 
+        {
+          "desc": "Romanoff met Pierce disguised as Councilwoman Hawley", 
+          "p1": "Alexander Pierce", 
+          "p2": "Natasha Romanoff"
+        }, 
+        {
+          "desc": "Romanoff met Yen disguised as Councilwoman Hawley", 
+          "p1": "Natasha Romanoff", 
+          "p2": "Councilman Yen"
+        }, 
+        {
+          "desc": "Romanoff met Singh disguised as Councilwoman Hawley", 
+          "p1": "Natasha Romanoff", 
+          "p2": "Councilman Singh"
+        }, 
+        {
+          "desc": "Romanoff met Rockwell disguised as Councilwoman Hawley", 
+          "p1": "Natasha Romanoff", 
+          "p2": "Councilman Rockwell"
+        }, 
+        {
+          "desc": "Romanoff presumably met Hawley in order to take her place and infiltrate the Triskellion", 
+          "p1": "Natasha Romanoff", 
+          "p2": "Councilwoman Hawley"
+        }, 
+        {
+          "desc": "Rollins held the council at gunpoint once Hydra were revealed", 
+          "p1": "Jack Rollins", 
+          "p2": "Councilman Yen"
+        }, 
+        {
+          "desc": "Rollins held the council at gunpoint once Hydra were revealed", 
+          "p1": "Jack Rollins", 
+          "p2": "Councilman Singh"
+        }, 
+        {
+          "desc": "Rollins held the council at gunpoint once Hydra were revealed", 
+          "p1": "Jack Rollins", 
+          "p2": "Councilman Rockwell"
+        }, 
+        {
+          "desc": "Rumlow ordered Klein to launch the hellicarriers at gunpoint", 
+          "p1": "Brock Rumlow", 
+          "p2": "Cameron Klein"
+        }, 
+        {
+          "desc": "Sharon confronted Rumlow when he ordered the hellicarriers be launched", 
+          "p1": "Brock Rumlow", 
+          "p2": "Sharon Carter"
+        }, 
+        {
+          "desc": "Sharon protected Cameron from Rumlow in the Insight control room", 
+          "p1": "Sharon Carter", 
+          "p2": "Cameron Klein"
+        }, 
+        {
+          "desc": "Fury met the council when releasing SHIELD files online", 
+          "p1": "Nick Fury", 
+          "p2": "Councilman Yen"
+        }, 
+        {
+          "desc": "Fury met the council when releasing SHIELD files online", 
+          "p1": "Nick Fury", 
+          "p2": "Councilman Singh"
+        }, 
+        {
+          "desc": "Fury met the council when releasing SHIELD files online", 
+          "p1": "Nick Fury", 
+          "p2": "Councilman Rockwell"
+        }, 
+        {
+          "desc": "Sam fought Rumlow to stop him reaching the council", 
+          "p1": "Sam Wilson", 
+          "p2": "Brock Rumlow"
+        }, 
+        {
+          "desc": "List and Strucker discuss the consequences of Hydra's reveal (post credits)", 
+          "p1": "Baron Strucker", 
+          "p2": "Doctor List"
+        }, 
+        {
+          "desc": "Strucker observed Wanda and Pietro (post credits)", 
+          "p1": "Baron Strucker", 
+          "p2": "Pietro Maximoff"
+        }, 
+        {
+          "desc": "Strucker observed Wanda and Pietro (post credits)", 
+          "p1": "Baron Strucker", 
+          "p2": "Wanda Maximoff"
+        }, 
+        {
+          "desc": "List observed Wanda and Pietro (post credits)", 
+          "p1": "Doctor List", 
+          "p2": "Pietro Maximoff"
+        }, 
+        {
+          "desc": "List observed Wanda and Pietro (post credits)", 
+          "p1": "Doctor List", 
+          "p2": "Wanda Maximoff"
+        }, 
+        {
+          "desc": "Wanda and Pietro are twins (post credits)", 
+          "p1": "Wanda Maximoff", 
+          "p2": "Pietro Maximoff"
+        }
+      ], 
+      "name": "Captain America The Winter Soldier"
     }, 
     {
       "category": "Films", 
@@ -1814,9 +2361,9 @@ return {
         "Agent Sitwell", 
         "Bruce Banner", 
         "Clint Barton", 
+        "Councilwoman Hawley", 
         "Erik Selvig", 
         "Gideon Mallick", 
-        "Hawley", 
         "JARVIS", 
         "Loki", 
         "Maria Hill", 
@@ -1993,7 +2540,7 @@ return {
         {
           "desc": "Hawley was on the Security Council and ordered Fury to nuke the Chitauri", 
           "p1": "Nick Fury", 
-          "p2": "Hawley"
+          "p2": "Councilwoman Hawley"
         }, 
         {
           "desc": "Hill was on the hellicarrier bridge when Romanov arrived", 
@@ -2158,7 +2705,7 @@ return {
         {
           "desc": "Mallick and Hawley served together on the Security Council", 
           "p1": "Gideon Mallick", 
-          "p2": "Hawley"
+          "p2": "Councilwoman Hawley"
         }
       ], 
       "name": "The Avengers"
