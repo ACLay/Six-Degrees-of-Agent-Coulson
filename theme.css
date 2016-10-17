@@ -47,25 +47,6 @@ h1 {
  * Hideable filters
  */
 
-form,
-#hideFilters{
-  display: none;
-}
-
-#showFilters:target ~ form,
-#showFilters:target ~ #hideFilters {
-  display: block;
-}
-
-#showFilters:target {
-  display: none;
-}
-
-#hideFilters,
-#showFilters {
-  color: blue;
-}
-
 #filters div {
   display: inline-block;
   vertical-align: top;
@@ -74,6 +55,9 @@ form,
 
 #filters label {
   display:block;
+}
+.hidden{
+  display:none;
 }
 
 /**
