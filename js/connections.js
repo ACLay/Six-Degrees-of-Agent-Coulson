@@ -2,6 +2,7 @@ function getConnectionData(){
 return {
   "categories": [
     "Films", 
+    "Netflix", 
     "One-shots", 
     "Other"
   ], 
@@ -10,24 +11,42 @@ return {
     "Agent Blake", 
     "Agent Coulson", 
     "Agent Sitwell", 
+    "Albert Thompson", 
     "Aldrich Killian", 
     "Alexander Pierce", 
     "Algrim", 
+    "Alisa Jones", 
+    "Alva Ramirez", 
     "Amadeus Cho", 
+    "Andre", 
+    "Antoine Grier", 
     "Anton Vanko", 
     "Apple Aaron", 
     "Arnim Zola", 
+    "Audrey Eastman", 
+    "Barbara Shlottman", 
     "Baron Strucker", 
     "Bennie Pollock", 
     "Bereet", 
     "Betty Ross", 
+    "Bob Shlottman", 
+    "Bobby", 
     "Bor", 
+    "Brett Mahoney", 
+    "Brian Jones", 
     "Brock Rumlow", 
     "Bruce Banner", 
     "Bucky Barnes", 
+    "Bunny Wiles", 
     "Cameron Klein", 
     "Carina", 
+    "Carlo Eastman", 
+    "Chanise", 
+    "Charles Wallace", 
     "Christine Everhart", 
+    "Chuck", 
+    "Clair", 
+    "Claire Temple", 
     "Claire Weiss", 
     "Clint Barton", 
     "Colonel Phillips", 
@@ -39,24 +58,31 @@ return {
     "DJ AM", 
     "Darcy Lewis", 
     "Darren Cross", 
+    "David Kurata", 
     "Denarian Sall", 
+    "Desmond Tobey", 
     "Detective Lemieux", 
     "Doctor Fine", 
     "Doctor List", 
     "Doctor Wu", 
+    "Donald", 
+    "Dorothy Walker", 
     "Dr Erskine", 
     "Drax", 
     "Dum Dum Dugan", 
     "Duranna Dey", 
     "Eir", 
+    "Elizabeth De Luca", 
     "Ellen Brandt", 
     "Elon Musk", 
     "Emil Blonsky", 
+    "Emma", 
     "Erik Selvig", 
     "Erin", 
     "Fandral", 
     "Ferdinand Lopez", 
     "Fletcher Heggs", 
+    "Frank Levin", 
     "Frigga", 
     "Gabe Jones", 
     "Gamora", 
@@ -69,21 +95,28 @@ return {
     "Gerald Durand", 
     "Gideon Mallick", 
     "Gilmore Hodge", 
+    "Gina", 
     "Grandpa Quill", 
+    "Gregory Spheeris", 
     "Groot", 
+    "Hank", 
     "Happy Hogan", 
     "Harley Keener", 
+    "Harvey", 
     "Heimdall", 
     "Heinz Kruger", 
     "Ho Yinsen", 
     "Hogun", 
+    "Hope Shlottman", 
     "Howard Stark", 
     "Howard the Duck", 
     "Ian Boothby", 
     "Ivan Vanko", 
     "JARVIS", 
+    "Jack Denton", 
     "Jack Rollins", 
     "Jack the Valet", 
+    "Jackson", 
     "Jackson Norris (WHIH)", 
     "Jackson Norriss (10 rings)", 
     "Jacques Dernier", 
@@ -91,58 +124,90 @@ return {
     "James Rhodes", 
     "James Rondell", 
     "Jane Foster", 
+    "Jeri Hogarth", 
+    "Jessica Jones", 
     "Jim Morita", 
     "Joe Greller", 
+    "Justin Boden", 
     "Justin Hammer", 
     "Karman-Kan Dey", 
     "Kathleen Sparr", 
+    "Ken", 
+    "Kilgrave", 
     "Korath", 
+    "Kozlov", 
     "Kraglin Obfonteri", 
     "Larry Ellison", 
     "Larry King", 
     "Laufey", 
+    "Laurent Bouchard", 
+    "Len Sirkes", 
     "Leonard Samson", 
     "Loki", 
+    "Louise Thompson", 
+    "Luke Cage", 
     "Major Allen", 
+    "Malcolm Ducasse", 
     "Malekith", 
     "Maria Hill", 
     "Maria Stark", 
     "Martina", 
+    "Matt", 
+    "Maureen Denton", 
+    "Maury Tuttlebaum", 
     "Maya Hansen", 
+    "McManus", 
+    "Mei", 
     "Meredith Quill", 
+    "Mr Lin", 
     "Mrs Davis", 
     "Natasha Romanoff", 
     "Nebula", 
     "Nick Fury", 
+    "Nicole", 
     "Nova Prime", 
+    "Nurse Ellie Chung", 
     "Obadiah Stane", 
     "Odin", 
+    "Officer Cooper", 
+    "Oscar Clemons", 
+    "Pam", 
     "Peggy Carter", 
     "Pepper Potts", 
     "Peter Quill", 
+    "Phillip Jones", 
     "Pietro Maximoff", 
     "President Ellis", 
     "Priscilla Everhart", 
     "Prisoner 6219", 
     "Prisoner Herman", 
+    "Raj", 
     "Raza", 
     "Red Skull", 
     "Renata", 
+    "Reva Connors", 
     "Rhomann Dey", 
     "Richard", 
     "Rick Hawkins", 
     "Riley", 
+    "Robinson", 
+    "Robyn", 
     "Rocket", 
     "Ronan", 
+    "Roy Healy", 
+    "Ruben", 
     "Sam Wilson", 
+    "Samantha Reyes", 
     "Samuel Sterns", 
     "Savin", 
     "Scott Lang", 
     "Sean Connery", 
     "Senator Brandt", 
     "Senator Stern", 
+    "Serena Grier", 
     "Sharon Carter", 
     "Sif", 
+    "Sissy Garcia", 
     "Stan Lee", 
     "Stanley Lieber", 
     "Steve Rogers", 
@@ -157,14 +222,21 @@ return {
     "Thor", 
     "Tony Stark", 
     "Trevor Slattery", 
+    "Trish Walker", 
+    "Tweaky", 
     "Tyr", 
     "Vice President Rodriguez", 
+    "Victor", 
     "Volstagg", 
     "Wanda Maximoff", 
+    "Wendy Ross-Hogarth", 
     "White Power Dave", 
     "Will Adams", 
+    "Will Simpson", 
     "William Ginter Riva", 
-    "Yondu Udonta"
+    "Yondu Udonta", 
+    "Yuliana", 
+    "Zack"
   ], 
   "properties": [
     {
@@ -3700,6 +3772,1170 @@ return {
       "name": "Thor"
     }, 
     {
+      "category": "Netflix", 
+      "characters": [
+        "Albert Thompson", 
+        "Alisa Jones", 
+        "Alva Ramirez", 
+        "Andre", 
+        "Antoine Grier", 
+        "Audrey Eastman", 
+        "Barbara Shlottman", 
+        "Bob Shlottman", 
+        "Bobby", 
+        "Brett Mahoney", 
+        "Brian Jones", 
+        "Bunny Wiles", 
+        "Carlo Eastman", 
+        "Chanise", 
+        "Charles Wallace", 
+        "Chuck", 
+        "Clair", 
+        "Claire Temple", 
+        "David Kurata", 
+        "Desmond Tobey", 
+        "Donald", 
+        "Dorothy Walker", 
+        "Elizabeth De Luca", 
+        "Emma", 
+        "Frank Levin", 
+        "Gina", 
+        "Gregory Spheeris", 
+        "Hank", 
+        "Harvey", 
+        "Hope Shlottman", 
+        "Jack Denton", 
+        "Jackson", 
+        "Jeri Hogarth", 
+        "Jessica Jones", 
+        "Justin Boden", 
+        "Ken", 
+        "Kilgrave", 
+        "Kozlov", 
+        "Laurent Bouchard", 
+        "Len Sirkes", 
+        "Louise Thompson", 
+        "Luke Cage", 
+        "Malcolm Ducasse", 
+        "Matt", 
+        "Maureen Denton", 
+        "Maury Tuttlebaum", 
+        "McManus", 
+        "Mei", 
+        "Mr Lin", 
+        "Nicole", 
+        "Nurse Ellie Chung", 
+        "Officer Cooper", 
+        "Oscar Clemons", 
+        "Pam", 
+        "Phillip Jones", 
+        "Raj", 
+        "Reva Connors", 
+        "Robinson", 
+        "Robyn", 
+        "Roy Healy", 
+        "Ruben", 
+        "Samantha Reyes", 
+        "Serena Grier", 
+        "Sissy Garcia", 
+        "Trish Walker", 
+        "Tweaky", 
+        "Victor", 
+        "Wendy Ross-Hogarth", 
+        "Will Simpson", 
+        "Yuliana", 
+        "Zack"
+      ], 
+      "interactions": [
+        {
+          "desc": "Jessica killed Luke's wife, then stalked him, then slept with him", 
+          "p1": "Jessica Jones", 
+          "p2": "Luke Cage"
+        }, 
+        {
+          "desc": "Jessica and Trish are life-long friends", 
+          "p1": "Jessica Jones", 
+          "p2": "Trish Walker"
+        }, 
+        {
+          "desc": "Jessica saved Hope from Kilgrave, for a while", 
+          "p1": "Jessica Jones", 
+          "p2": "Hope Shlottman"
+        }, 
+        {
+          "desc": "Malcolm spied on Jessica for Kilgrave", 
+          "p1": "Jessica Jones", 
+          "p2": "Malcolm Ducasse"
+        }, 
+        {
+          "desc": "Jessica worked for Hogarth as a freelance investigator", 
+          "p1": "Jessica Jones", 
+          "p2": "Jeri Hogarth"
+        }, 
+        {
+          "desc": "This is basically the whole show - just watch it", 
+          "p1": "Jessica Jones", 
+          "p2": "Kilgrave"
+        }, 
+        {
+          "desc": "Malcolm told Luke what Kilgrave did to Jessica", 
+          "p1": "Luke Cage", 
+          "p2": "Malcolm Ducasse"
+        }, 
+        {
+          "desc": "Kilgrave compelled Luke to mess with Jessica Jones", 
+          "p1": "Luke Cage", 
+          "p2": "Kilgrave"
+        }, 
+        {
+          "desc": "Trish interviewed Hope for her radio show", 
+          "p1": "Trish Walker", 
+          "p2": "Hope Shlottman"
+        }, 
+        {
+          "desc": "Malcolm asked Trish to stop Jessica from making a huge mistake", 
+          "p1": "Trish Walker", 
+          "p2": "Malcolm Ducasse"
+        }, 
+        {
+          "desc": "Hogarth was with Hope when Trish interviewed her", 
+          "p1": "Trish Walker", 
+          "p2": "Jeri Hogarth"
+        }, 
+        {
+          "desc": "Kilgrave asked Trish if she thought insulting him was a good idea", 
+          "p1": "Trish Walker", 
+          "p2": "Kilgrave"
+        }, 
+        {
+          "desc": "Hogarth represented Hope for the murder of her parents while under Kilgrave's control", 
+          "p1": "Hope Shlottman", 
+          "p2": "Jeri Hogarth"
+        }, 
+        {
+          "desc": "Kilgrave abducted Hope and made her kill her parents", 
+          "p1": "Hope Shlottman", 
+          "p2": "Kilgrave"
+        }, 
+        {
+          "desc": "Kilgrave compelled Malcolm to become a drug addict and spy on Jessica Jones", 
+          "p1": "Malcolm Ducasse", 
+          "p2": "Kilgrave"
+        }, 
+        {
+          "desc": "Hogarth drove Kilgrave to see Wendy", 
+          "p1": "Jeri Hogarth", 
+          "p2": "Kilgrave"
+        }, 
+        {
+          "desc": "Pam was present when Desmond, Jeri and Wendy discussed the divorce", 
+          "p1": "Pam", 
+          "p2": "Desmond Tobey"
+        }, 
+        {
+          "desc": "Pam and Jeri had an affair", 
+          "p1": "Pam", 
+          "p2": "Jeri Hogarth"
+        }, 
+        {
+          "desc": "Jessica told Pam the Jeri was expecting her, even though she wasn't. Jessica lies.", 
+          "p1": "Pam", 
+          "p2": "Jessica Jones"
+        }, 
+        {
+          "desc": "Wendy and Jeri were married", 
+          "p1": "Wendy Ross-Hogarth", 
+          "p2": "Jeri Hogarth"
+        }, 
+        {
+          "desc": "Pam killed Wendy with a vase", 
+          "p1": "Wendy Ross-Hogarth", 
+          "p2": "Pam"
+        }, 
+        {
+          "desc": "Wendy wrote Jessica a prescription for anti-psychotics", 
+          "p1": "Wendy Ross-Hogarth", 
+          "p2": "Jessica Jones"
+        }, 
+        {
+          "desc": "Kilgrave told Wendy to kill her wife", 
+          "p1": "Wendy Ross-Hogarth", 
+          "p2": "Kilgrave"
+        }, 
+        {
+          "desc": "Zack worked as a producer for Trish", 
+          "p1": "Zack", 
+          "p2": "Trish Walker"
+        }, 
+        {
+          "desc": "Zack and Nicole both worked for Trish Walker", 
+          "p1": "Zack", 
+          "p2": "Nicole"
+        }, 
+        {
+          "desc": "Roy tended bar for Luke", 
+          "p1": "Roy Healy", 
+          "p2": "Luke Cage"
+        }, 
+        {
+          "desc": "Roy told Jessica she had to swim or fly", 
+          "p1": "Roy Healy", 
+          "p2": "Jessica Jones"
+        }, 
+        {
+          "desc": "Roy was present when Gina was at Luke's bar", 
+          "p1": "Roy Healy", 
+          "p2": "Gina"
+        }, 
+        {
+          "desc": "Bob saw Malcolm as he was leaving Jessica's apartment", 
+          "p1": "Bob Shlottman", 
+          "p2": "Malcolm Ducasse"
+        }, 
+        {
+          "desc": "Barbara saw Malcolm as he was leaving Jessica's apartment", 
+          "p1": "Barbara Shlottman", 
+          "p2": "Malcolm Ducasse"
+        }, 
+        {
+          "desc": "Bob and Barbara were married", 
+          "p1": "Bob Shlottman", 
+          "p2": "Barbara Shlottman"
+        }, 
+        {
+          "desc": "Bob was Hope's father", 
+          "p1": "Bob Shlottman", 
+          "p2": "Hope Shlottman"
+        }, 
+        {
+          "desc": "Barbara was Hope's mother", 
+          "p1": "Barbara Shlottman", 
+          "p2": "Hope Shlottman"
+        }, 
+        {
+          "desc": "Bob and Barbara Shlottman hired Jessica to find their daugher, Hope", 
+          "p1": "Bob Shlottman", 
+          "p2": "Jessica Jones"
+        }, 
+        {
+          "desc": "Bob and Barbara Shlottman hired Jessica to find their daugher, Hope", 
+          "p1": "Barbara Shlottman", 
+          "p2": "Jessica Jones"
+        }, 
+        {
+          "desc": "Jessica threatened Gregory with her laser eyes", 
+          "p1": "Gregory Spheeris", 
+          "p2": "Jessica Jones"
+        }, 
+        {
+          "desc": "Hogarth sued Spheeris on behalf of a client", 
+          "p1": "Gregory Spheeris", 
+          "p2": "Jeri Hogarth"
+        }, 
+        {
+          "desc": "Audrey learned about Jessica's powers at lunch with Gregory and his wife", 
+          "p1": "Gregory Spheeris", 
+          "p2": "Audrey Eastman"
+        }, 
+        {
+          "desc": "Nicole was a producer working for Trish", 
+          "p1": "Nicole", 
+          "p2": "Trish Walker"
+        }, 
+        {
+          "desc": "Zack said it was time to leave Trish's apartment, but Nicole clearly wanted to keep eating", 
+          "p1": "Nicole", 
+          "p2": "Zack"
+        }, 
+        {
+          "desc": "Nicole watched while Trish spoke with Will", 
+          "p1": "Nicole", 
+          "p2": "Will Simpson"
+        }, 
+        {
+          "desc": "Mei and Hope were best friends and roommates", 
+          "p1": "Mei", 
+          "p2": "Hope Shlottman"
+        }, 
+        {
+          "desc": "Jessica questioned Mei about Hope's disappearance", 
+          "p1": "Mei", 
+          "p2": "Jessica Jones"
+        }, 
+        {
+          "desc": "Mei and Raj became roomates after Hope left", 
+          "p1": "Mei", 
+          "p2": "Raj"
+        }, 
+        {
+          "desc": "Jessica threatened to do bad things to Raj with his camera", 
+          "p1": "Raj", 
+          "p2": "Jessica Jones"
+        }, 
+        {
+          "desc": "Maureen was Jack's mother", 
+          "p1": "Maureen Denton", 
+          "p2": "Jack Denton"
+        }, 
+        {
+          "desc": "Jones visited Maureen's home to question her son", 
+          "p1": "Maureen Denton", 
+          "p2": "Jessica Jones"
+        }, 
+        {
+          "desc": "Kilgrave forced David Kurata to give him both of Jack Denton's kidneys", 
+          "p1": "David Kurata", 
+          "p2": "Kilgrave"
+        }, 
+        {
+          "desc": "Jones questioned Kurata about Kilgrave", 
+          "p1": "David Kurata", 
+          "p2": "Jessica Jones"
+        }, 
+        {
+          "desc": "Kilgrave forced Reva to tell him the location of a flash drive", 
+          "p1": "Reva Connors", 
+          "p2": "Kilgrave"
+        }, 
+        {
+          "desc": "Cage and Connors were married", 
+          "p1": "Reva Connors", 
+          "p2": "Luke Cage"
+        }, 
+        {
+          "desc": "Jessica killed Reva while under Kilgrave's control", 
+          "p1": "Reva Connors", 
+          "p2": "Jessica Jones"
+        }, 
+        {
+          "desc": "Robyn was Jones' upstairs neighboor", 
+          "p1": "Robyn", 
+          "p2": "Jessica Jones"
+        }, 
+        {
+          "desc": "Robyn and Ruben were fraternal twins", 
+          "p1": "Robyn", 
+          "p2": "Ruben"
+        }, 
+        {
+          "desc": "Ruben was Jones' upstairs neighboor and had a crush on her", 
+          "p1": "Ruben", 
+          "p2": "Jessica Jones"
+        }, 
+        {
+          "desc": "Malcolm broke into Ruben's apartment to steal peanut butter", 
+          "p1": "Ruben", 
+          "p2": "Malcolm Ducasse"
+        }, 
+        {
+          "desc": "Malcolm broke into Robyn's apartment to steal peanut butter", 
+          "p1": "Robyn", 
+          "p2": "Malcolm Ducasse"
+        }, 
+        {
+          "desc": "Kilgrave compelled Ruben to kill himself", 
+          "p1": "Ruben", 
+          "p2": "Kilgrave"
+        }, 
+        {
+          "desc": "Robyn saved Kilgrave from Jessica - this did not work out for her", 
+          "p1": "Robyn", 
+          "p2": "Kilgrave"
+        }, 
+        {
+          "desc": "Donald was at Niku when Hope stabbed herself", 
+          "p1": "Donald", 
+          "p2": "Hope Shlottman"
+        }, 
+        {
+          "desc": "Jackson was at Niku when Hope stabbed herself", 
+          "p1": "Jackson", 
+          "p2": "Hope Shlottman"
+        }, 
+        {
+          "desc": "Malcolm was at Niku when Hope stabbed herself", 
+          "p1": "Malcolm Ducasse", 
+          "p2": "Hope Shlottman"
+        }, 
+        {
+          "desc": "Robyn was at Niku when Hope stabbed herself", 
+          "p1": "Robyn", 
+          "p2": "Hope Shlottman"
+        }, 
+        {
+          "desc": "Andre tried to beat up Cage for sleeping with Gina", 
+          "p1": "Andre", 
+          "p2": "Luke Cage"
+        }, 
+        {
+          "desc": "Jones helped Luke Cage fend off Andre and his friends", 
+          "p1": "Andre", 
+          "p2": "Jessica Jones"
+        }, 
+        {
+          "desc": "Andre and Gina were married", 
+          "p1": "Andre", 
+          "p2": "Gina"
+        }, 
+        {
+          "desc": "Gina and Luke had an affair", 
+          "p1": "Gina", 
+          "p2": "Luke Cage"
+        }, 
+        {
+          "desc": "Gina confronted Jones in the Alias office", 
+          "p1": "Gina", 
+          "p2": "Jessica Jones"
+        }, 
+        {
+          "desc": "Yuliana helped Jessica use the hospital computer", 
+          "p1": "Yuliana", 
+          "p2": "Jessica Jones"
+        }, 
+        {
+          "desc": "Kilgrave forced David Kurata to give him both of Jack Denton's kidneys", 
+          "p1": "Jack Denton", 
+          "p2": "Kilgrave"
+        }, 
+        {
+          "desc": "Kurata removed Denton's kidneys and gave them to Kilgrave", 
+          "p1": "Jack Denton", 
+          "p2": "David Kurata"
+        }, 
+        {
+          "desc": "Denton asked Jones to kill him", 
+          "p1": "Jack Denton", 
+          "p2": "Jessica Jones"
+        }, 
+        {
+          "desc": "Kilgrave ordered Simpson to kill Trish Walker", 
+          "p1": "Will Simpson", 
+          "p2": "Kilgrave"
+        }, 
+        {
+          "desc": "Jones and Simpson worked together to kidnap Kilgrave", 
+          "p1": "Will Simpson", 
+          "p2": "Jessica Jones"
+        }, 
+        {
+          "desc": "Walker and Simpson were romantically involved", 
+          "p1": "Will Simpson", 
+          "p2": "Trish Walker"
+        }, 
+        {
+          "desc": "Simpson threatened Ducasse the first time he met him", 
+          "p1": "Will Simpson", 
+          "p2": "Malcolm Ducasse"
+        }, 
+        {
+          "desc": "Audrey and Carlos were married", 
+          "p1": "Audrey Eastman", 
+          "p2": "Carlo Eastman"
+        }, 
+        {
+          "desc": "Carlo and Audrey Eastman tried to kill Jessica", 
+          "p1": "Carlo Eastman", 
+          "p2": "Jessica Jones"
+        }, 
+        {
+          "desc": "Carlo and Audrey Eastman tried to kill Jessica", 
+          "p1": "Audrey Eastman", 
+          "p2": "Jessica Jones"
+        }, 
+        {
+          "desc": "Cooper went with Simpson to Trish Walker's apartment", 
+          "p1": "Officer Cooper", 
+          "p2": "Will Simpson"
+        }, 
+        {
+          "desc": "Jones opened the door before Cooper could use the ram", 
+          "p1": "Officer Cooper", 
+          "p2": "Jessica Jones"
+        }, 
+        {
+          "desc": "Cooper told Trish he loved her and sang the theme to her show", 
+          "p1": "Officer Cooper", 
+          "p2": "Trish Walker"
+        }, 
+        {
+          "desc": "Kilgrave lived with Clair for two days and forced her to play her cello", 
+          "p1": "Clair", 
+          "p2": "Kilgrave"
+        }, 
+        {
+          "desc": "Kilgrave forced Emma to smile continuously", 
+          "p1": "Emma", 
+          "p2": "Kilgrave"
+        }, 
+        {
+          "desc": "Clair went to Jeri's office after he heard Trish's broadcast about Kilgrave", 
+          "p1": "Clair", 
+          "p2": "Jeri Hogarth"
+        }, 
+        {
+          "desc": "Emma went to Jeri's office after he heard Trish's broadcast about Kilgrave", 
+          "p1": "Emma", 
+          "p2": "Jeri Hogarth"
+        }, 
+        {
+          "desc": "Clair told Jessica that Kilgrave made her play the Celo", 
+          "p1": "Clair", 
+          "p2": "Jessica Jones"
+        }, 
+        {
+          "desc": "Emma told Jessica that Kilgrave forced her to smile", 
+          "p1": "Emma", 
+          "p2": "Jessica Jones"
+        }, 
+        {
+          "desc": "Jackson went to Jeri's office after he heard Trish's broadcast about Kilgrave", 
+          "p1": "Jackson", 
+          "p2": "Jeri Hogarth"
+        }, 
+        {
+          "desc": "Jackson gave Kilgrave his $5000 jacket", 
+          "p1": "Jackson", 
+          "p2": "Kilgrave"
+        }, 
+        {
+          "desc": "Jackson told Jessica the story of how Kilgrave took his Jacket", 
+          "p1": "Jackson", 
+          "p2": "Jessica Jones"
+        }, 
+        {
+          "desc": "Kilgrave compelled Chanise to tell Jessica Jones that Trish was no longer his target", 
+          "p1": "Chanise", 
+          "p2": "Kilgrave"
+        }, 
+        {
+          "desc": "Kilgrave compelled Chanise to tell Jessica Jones that Trish was no longer his target", 
+          "p1": "Chanise", 
+          "p2": "Jessica Jones"
+        }, 
+        {
+          "desc": "Kilgrave made Donald act as his personal chauffeur", 
+          "p1": "Donald", 
+          "p2": "Kilgrave"
+        }, 
+        {
+          "desc": "Donald and Emma were members of the Kilgrave Victim Support Group", 
+          "p1": "Donald", 
+          "p2": "Emma"
+        }, 
+        {
+          "desc": "Donald and Clair were members of the Kilgrave Victim Support Group", 
+          "p1": "Donald", 
+          "p2": "Clair"
+        }, 
+        {
+          "desc": "Donald and Jackson were members of the Kilgrave Victim Support Group", 
+          "p1": "Donald", 
+          "p2": "Jackson"
+        }, 
+        {
+          "desc": "Donald and Malcolm were members of the Kilgrave Victim Support Group", 
+          "p1": "Donald", 
+          "p2": "Malcolm Ducasse"
+        }, 
+        {
+          "desc": "Emma and Clair were members of the Kilgrave Victim Support Group", 
+          "p1": "Emma", 
+          "p2": "Clair"
+        }, 
+        {
+          "desc": "Emma and Jackson were members of the Kilgrave Victim Support Group", 
+          "p1": "Emma", 
+          "p2": "Jackson"
+        }, 
+        {
+          "desc": "Emmal and Malcolm were members of the Kilgrave Victim Support Group", 
+          "p1": "Emma", 
+          "p2": "Malcolm Ducasse"
+        }, 
+        {
+          "desc": "Clair and Jackson were members of the Kilgrave Victim Support Group", 
+          "p1": "Clair", 
+          "p2": "Jackson"
+        }, 
+        {
+          "desc": "Clair and Malcolm were members of the Kilgrave Victim Support Group", 
+          "p1": "Clair", 
+          "p2": "Malcolm Ducasse"
+        }, 
+        {
+          "desc": "Jackson and Malcolm were members of the Kilgrave Victim Support Group", 
+          "p1": "Jackson", 
+          "p2": "Malcolm Ducasse"
+        }, 
+        {
+          "desc": "Robyn convinced Jackson and Donald to help her confront Jessica Jones", 
+          "p1": "Donald", 
+          "p2": "Robyn"
+        }, 
+        {
+          "desc": "Robyn convinced Jackson and Donald to help her confront Jessica Jones", 
+          "p1": "Jackson", 
+          "p2": "Robyn"
+        }, 
+        {
+          "desc": "Donald went to Jeri's office after he heard Trish's broadcast about Kilgrave", 
+          "p1": "Donald", 
+          "p2": "Jeri Hogarth"
+        }, 
+        {
+          "desc": "Donald told Jessica about driving Kilgrave to the man with a blue scarf", 
+          "p1": "Donald", 
+          "p2": "Jessica Jones"
+        }, 
+        {
+          "desc": "Sissy was Hope's cell mate", 
+          "p1": "Sissy Garcia", 
+          "p2": "Hope Shlottman"
+        }, 
+        {
+          "desc": "Jessica told Sissy to leave Hope alone", 
+          "p1": "Sissy Garcia", 
+          "p2": "Jessica Jones"
+        }, 
+        {
+          "desc": "Jessica beat Bobby at a bar game", 
+          "p1": "Bobby", 
+          "p2": "Jessica Jones"
+        }, 
+        {
+          "desc": "Bobby apologized to Trish because Jessica Jones beat him at a bar game", 
+          "p1": "Bobby", 
+          "p2": "Trish Walker"
+        }, 
+        {
+          "desc": "Tweaky was Malcolm's drug dealer", 
+          "p1": "Tweaky", 
+          "p2": "Malcolm Ducasse"
+        }, 
+        {
+          "desc": "Jessica took Tweaky's gun", 
+          "p1": "Tweaky", 
+          "p2": "Jessica Jones"
+        }, 
+        {
+          "desc": "Will Simpson and Jessica Jones questioned Matt after losing Kilgrave", 
+          "p1": "Matt", 
+          "p2": "Will Simpson"
+        }, 
+        {
+          "desc": "Will Simpson and Jessica Jones questioned Matt after losing Kilgrave", 
+          "p1": "Matt", 
+          "p2": "Jessica Jones"
+        }, 
+        {
+          "desc": "Trish helped Jessica and Will Simpson kidnap Kilgrave before his bodyguards, including Matt, retrieved him", 
+          "p1": "Matt", 
+          "p2": "Trish Walker"
+        }, 
+        {
+          "desc": "Hank was head of Kilgrave's security team, of which Matt was a member", 
+          "p1": "Matt", 
+          "p2": "Hank"
+        }, 
+        {
+          "desc": "Jones and Cage encountered Sirkes in Antoine Griers apartment", 
+          "p1": "Len Sirkes", 
+          "p2": "Jessica Jones"
+        }, 
+        {
+          "desc": "Jones and Cage encountered Sirkes in Antoine Griers apartment", 
+          "p1": "Len Sirkes", 
+          "p2": "Luke Cage"
+        }, 
+        {
+          "desc": "Antoine owed Len money", 
+          "p1": "Antoine Grier", 
+          "p2": "Len Sirkes"
+        }, 
+        {
+          "desc": "Luke and Jessica returned Antoine to his sister", 
+          "p1": "Antoine Grier", 
+          "p2": "Luke Cage"
+        }, 
+        {
+          "desc": "Luke and Jessica returned Antoine to his sister", 
+          "p1": "Antoine Grier", 
+          "p2": "Jessica Jones"
+        }, 
+        {
+          "desc": "Charles Wallace was the bus driver who believed he killed Reva", 
+          "p1": "Charles Wallace", 
+          "p2": "Reva Connors"
+        }, 
+        {
+          "desc": "While driving intozicated, Wallace nearly killed Kilgrave", 
+          "p1": "Charles Wallace", 
+          "p2": "Kilgrave"
+        }, 
+        {
+          "desc": "Jessica saved Wallace from Luke Cage", 
+          "p1": "Charles Wallace", 
+          "p2": "Jessica Jones"
+        }, 
+        {
+          "desc": "Believing Wallace had killed Reva Connors, Luke almost killed him", 
+          "p1": "Charles Wallace", 
+          "p2": "Luke Cage"
+        }, 
+        {
+          "desc": "Victor and Antoine started a business growing pot", 
+          "p1": "Victor", 
+          "p2": "Antoine Grier"
+        }, 
+        {
+          "desc": "Jessica told Victor to go the post office to get his Xbox One", 
+          "p1": "Victor", 
+          "p2": "Jessica Jones"
+        }, 
+        {
+          "desc": "Serena asked Luke for help finding her brother, Antoine", 
+          "p1": "Serena Grier", 
+          "p2": "Luke Cage"
+        }, 
+        {
+          "desc": "Serena was Antoine's sister", 
+          "p1": "Serena Grier", 
+          "p2": "Antoine Grier"
+        }, 
+        {
+          "desc": "Jessica returned Antoine to Serena", 
+          "p1": "Serena Grier", 
+          "p2": "Jessica Jones"
+        }, 
+        {
+          "desc": "Lin and De Luca were once neighboors", 
+          "p1": "Mr Lin", 
+          "p2": "Elizabeth De Luca"
+        }, 
+        {
+          "desc": "Kilgrave bought Lin's house", 
+          "p1": "Mr Lin", 
+          "p2": "Kilgrave"
+        }, 
+        {
+          "desc": "Kilgrave made Harvey ram his head into a post", 
+          "p1": "Harvey", 
+          "p2": "Kilgrave"
+        }, 
+        {
+          "desc": "Dorothy was Trish's mother", 
+          "p1": "Dorothy Walker", 
+          "p2": "Trish Walker"
+        }, 
+        {
+          "desc": "Dororthy took Jessica in when her parents died - it's not as nice as it sounds", 
+          "p1": "Dorothy Walker", 
+          "p2": "Jessica Jones"
+        }, 
+        {
+          "desc": "Jessica dumped Ruben's head on Clemons' desk", 
+          "p1": "Oscar Clemons", 
+          "p2": "Jessica Jones"
+        }, 
+        {
+          "desc": "Trish pointed a gun and Clemons outside of Kilgrave's cell", 
+          "p1": "Oscar Clemons", 
+          "p2": "Trish Walker"
+        }, 
+        {
+          "desc": "Hogarth and Clemons were both present when Kilgrave killed his mother", 
+          "p1": "Oscar Clemons", 
+          "p2": "Jeri Hogarth"
+        }, 
+        {
+          "desc": "Clemons was the lead Detective investigating Hope's murder of her parents while under Kilgrave's control", 
+          "p1": "Oscar Clemons", 
+          "p2": "Hope Shlottman"
+        }, 
+        {
+          "desc": "Kilgrave made Clemons rip his hand from his handcuffs", 
+          "p1": "Oscar Clemons", 
+          "p2": "Kilgrave"
+        }, 
+        {
+          "desc": "Simpson killed Clemons because crazy", 
+          "p1": "Oscar Clemons", 
+          "p2": "Will Simpson"
+        }, 
+        {
+          "desc": "Mahoney was controlled by Kilgrave, along with every other officer in the 15th Precinct Station", 
+          "p1": "Brett Mahoney", 
+          "p2": "Kilgrave"
+        }, 
+        {
+          "desc": "Mahoney told Jessica she was free to go", 
+          "p1": "Brett Mahoney", 
+          "p2": "Jessica Jones"
+        }, 
+        {
+          "desc": "Mahoney pointed his weapon at Clemons while under Kilgrave's control", 
+          "p1": "Brett Mahoney", 
+          "p2": "Oscar Clemons"
+        }, 
+        {
+          "desc": "De Luca was a neighboor of the Jones family", 
+          "p1": "Elizabeth De Luca", 
+          "p2": "Jessica Jones"
+        }, 
+        {
+          "desc": "Kilgrave gave De Luca bacon, but later killed her", 
+          "p1": "Elizabeth De Luca", 
+          "p2": "Kilgrave"
+        }, 
+        {
+          "desc": "De Luca was a neighboor of the Jones family", 
+          "p1": "Elizabeth De Luca", 
+          "p2": "Alisa Jones"
+        }, 
+        {
+          "desc": "De Luca was a neighboor of the Jones family", 
+          "p1": "Elizabeth De Luca", 
+          "p2": "Brian Jones"
+        }, 
+        {
+          "desc": "De Luca was a neighboor of the Jones family", 
+          "p1": "Elizabeth De Luca", 
+          "p2": "Phillip Jones"
+        }, 
+        {
+          "desc": "De Luca gave Simpson a package from Kilgrave", 
+          "p1": "Elizabeth De Luca", 
+          "p2": "Will Simpson"
+        }, 
+        {
+          "desc": "Ken was present when De Luca gave Will Simpson a package from Kilgrave", 
+          "p1": "Ken", 
+          "p2": "Elizabeth De Luca"
+        }, 
+        {
+          "desc": "Albert was Kilgrave's father", 
+          "p1": "Albert Thompson", 
+          "p2": "Kilgrave"
+        }, 
+        {
+          "desc": "Albert and Louise were married", 
+          "p1": "Albert Thompson", 
+          "p2": "Louise Thompson"
+        }, 
+        {
+          "desc": "Jessica told Albert and Louise just what she thought of their parenting", 
+          "p1": "Albert Thompson", 
+          "p2": "Jessica Jones"
+        }, 
+        {
+          "desc": "Trish saw Albert confront his son", 
+          "p1": "Albert Thompson", 
+          "p2": "Trish Walker"
+        }, 
+        {
+          "desc": "Clemons saw Albert confront his son", 
+          "p1": "Albert Thompson", 
+          "p2": "Oscar Clemons"
+        }, 
+        {
+          "desc": "Hogarth saw Albert confront his son", 
+          "p1": "Albert Thompson", 
+          "p2": "Jeri Hogarth"
+        }, 
+        {
+          "desc": "", 
+          "p1": "Albert Thompson", 
+          "p2": "Will Simpson"
+        }, 
+        {
+          "desc": "Louise was Kilgrave's mother", 
+          "p1": "Louise Thompson", 
+          "p2": "Kilgrave"
+        }, 
+        {
+          "desc": "Jessica told Albert and Louise just what she thought of their parenting", 
+          "p1": "Louise Thompson", 
+          "p2": "Jessica Jones"
+        }, 
+        {
+          "desc": "Trish saw Kilgrave force Louise to kill herself", 
+          "p1": "Louise Thompson", 
+          "p2": "Trish Walker"
+        }, 
+        {
+          "desc": "Clemons saw Kilgrave force Louise to kill herself", 
+          "p1": "Louise Thompson", 
+          "p2": "Oscar Clemons"
+        }, 
+        {
+          "desc": "Hogarth saw Kilgrave force Louise to kill herself", 
+          "p1": "Louise Thompson", 
+          "p2": "Jeri Hogarth"
+        }, 
+        {
+          "desc": "Alisa was Jessica's mother", 
+          "p1": "Alisa Jones", 
+          "p2": "Jessica Jones"
+        }, 
+        {
+          "desc": "Alisa and Brian were married", 
+          "p1": "Alisa Jones", 
+          "p2": "Brian Jones"
+        }, 
+        {
+          "desc": "Alisa was Phillip's mother", 
+          "p1": "Alisa Jones", 
+          "p2": "Phillip Jones"
+        }, 
+        {
+          "desc": "Brian was Jessica's father", 
+          "p1": "Brian Jones", 
+          "p2": "Jessica Jones"
+        }, 
+        {
+          "desc": "Brian was Phillip's father", 
+          "p1": "Brian Jones", 
+          "p2": "Phillip Jones"
+        }, 
+        {
+          "desc": "Phillip and Jessica were brother and sister", 
+          "p1": "Phillip Jones", 
+          "p2": "Jessica Jones"
+        }, 
+        {
+          "desc": "Hank was the head of Kilgrave's security detail", 
+          "p1": "Hank", 
+          "p2": "Kilgrave"
+        }, 
+        {
+          "desc": "Hank took Jessica's phone and gave it to Kilgrave", 
+          "p1": "Hank", 
+          "p2": "Jessica Jones"
+        }, 
+        {
+          "desc": "Simpson killed Hank", 
+          "p1": "Hank", 
+          "p2": "Will Simpson"
+        }, 
+        {
+          "desc": "Laurent was Kilgrave's servent while Hank was head of security", 
+          "p1": "Hank", 
+          "p2": "Laurent Bouchard"
+        }, 
+        {
+          "desc": "Alva was Kilgrave's servent while Hank was head of security", 
+          "p1": "Hank", 
+          "p2": "Alva Ramirez"
+        }, 
+        {
+          "desc": "Jessica and Kilgrave stopped Chuck from killing his family", 
+          "p1": "Chuck", 
+          "p2": "Jessica Jones"
+        }, 
+        {
+          "desc": "Jessica Jones and Kilgrave stopped Chuck from killing his family", 
+          "p1": "Chuck", 
+          "p2": "Kilgrave"
+        }, 
+        {
+          "desc": "Alva served under Kilgrave's control at Jessica Jones' childhood home", 
+          "p1": "Alva Ramirez", 
+          "p2": "Kilgrave"
+        }, 
+        {
+          "desc": "Alva waited on Jessica while under Kilgrave's control", 
+          "p1": "Alva Ramirez", 
+          "p2": "Jessica Jones"
+        }, 
+        {
+          "desc": "Laurent served under Kilgrave's control at Jessica Jones' childhood home", 
+          "p1": "Laurent Bouchard", 
+          "p2": "Kilgrave"
+        }, 
+        {
+          "desc": "Laurent waited on Jessica while under Kilgrave's control", 
+          "p1": "Laurent Bouchard", 
+          "p2": "Jessica Jones"
+        }, 
+        {
+          "desc": "Robinson was present when De Luca gave Will Simpson a package from Kilgrave", 
+          "p1": "Robinson", 
+          "p2": "Elizabeth De Luca"
+        }, 
+        {
+          "desc": "Robinson was an ally of Will Simpson's who helped him try to assasinate Kilgrave", 
+          "p1": "Robinson", 
+          "p2": "Will Simpson"
+        }, 
+        {
+          "desc": "Robinson helped Simpson attempt to assinate Kilgrave", 
+          "p1": "Robinson", 
+          "p2": "Kilgrave"
+        }, 
+        {
+          "desc": "Ken and Robinson helped Simpson attempt to assinate Kilgrave", 
+          "p1": "Ken", 
+          "p2": "Robinson"
+        }, 
+        {
+          "desc": "Ken was an ally of Will Simpson's who helped him try to assasinate Kilgrave", 
+          "p1": "Ken", 
+          "p2": "Will Simpson"
+        }, 
+        {
+          "desc": "Ken was an ally of Will Simpson's who helped him try to assasinate Kilgrave", 
+          "p1": "Ken", 
+          "p2": "Kilgrave"
+        }, 
+        {
+          "desc": "Eastman asked Tobey to be her divorce attorney", 
+          "p1": "Desmond Tobey", 
+          "p2": "Audrey Eastman"
+        }, 
+        {
+          "desc": "Jones asked Tobey to confirm that he recommended her to Audrey Eastman", 
+          "p1": "Desmond Tobey", 
+          "p2": "Jessica Jones"
+        }, 
+        {
+          "desc": "Tobey was Hogarth's divorce attorney", 
+          "p1": "Desmond Tobey", 
+          "p2": "Jeri Hogarth"
+        }, 
+        {
+          "desc": "Tobey met Ross-Hogarth in his capacity as her wife's divorce attorney", 
+          "p1": "Desmond Tobey", 
+          "p2": "Wendy Ross-Hogarth"
+        }, 
+        {
+          "desc": "Simpson was one of the subjects on which Kozlov tested combat enhancing drugs", 
+          "p1": "Kozlov", 
+          "p2": "Will Simpson"
+        }, 
+        {
+          "desc": "Trish met Kozlov when he visited Will Simplson in the hospital", 
+          "p1": "Kozlov", 
+          "p2": "Trish Walker"
+        }, 
+        {
+          "desc": "Jessica and Trish met Tuttlebaum in the morgue of the Riverbank Medical Center", 
+          "p1": "Maury Tuttlebaum", 
+          "p2": "Jessica Jones"
+        }, 
+        {
+          "desc": "Jessica and Trish met Tuttlebaum in the morgue of the Riverbank Medical Center", 
+          "p1": "Maury Tuttlebaum", 
+          "p2": "Trish Walker"
+        }, 
+        {
+          "desc": "Kozlov sent McManus to bring Simpson back to IGH", 
+          "p1": "McManus", 
+          "p2": "Kozlov"
+        }, 
+        {
+          "desc": "Simpson shot McManus in the head", 
+          "p1": "McManus", 
+          "p2": "Will Simpson"
+        }, 
+        {
+          "desc": "Trish was present when McManus confronted Simpson", 
+          "p1": "Trish Walker", 
+          "p2": "McManus"
+        }, 
+        {
+          "desc": "Bunny rented a hotel room to Albert and Louise Thompson", 
+          "p1": "Bunny Wiles", 
+          "p2": "Albert Thompson"
+        }, 
+        {
+          "desc": "Bunny rented a hotel room to Albert and Louise Thompson", 
+          "p1": "Bunny Wiles", 
+          "p2": "Louise Thompson"
+        }, 
+        {
+          "desc": "Jessica Jones and Luke Cage met Bunny in the Thompsons' hotel room", 
+          "p1": "Bunny Wiles", 
+          "p2": "Jessica Jones"
+        }, 
+        {
+          "desc": "Jessica Jones and Luke Cage met Bunny in the Thompsons' hotel room", 
+          "p1": "Bunny Wiles", 
+          "p2": "Luke Cage"
+        }, 
+        {
+          "desc": "Justin and Frank were romantic partners", 
+          "p1": "Justin Boden", 
+          "p2": "Frank Levin"
+        }, 
+        {
+          "desc": "Kilgrave forced Justin Boden and Frank Levin to help Albert Thompson increase Kilgrave's power", 
+          "p1": "Justin Boden", 
+          "p2": "Kilgrave"
+        }, 
+        {
+          "desc": "Kilgrave forced Justin Boden and Frank Levin to help Albert Thompson increase Kilgrave's power", 
+          "p1": "Frank Levin", 
+          "p2": "Kilgrave"
+        }, 
+        {
+          "desc": "Kilgrave forced Justin to kill Albert", 
+          "p1": "Justin Boden", 
+          "p2": "Albert Thompson"
+        }, 
+        {
+          "desc": "Kilgrave forced Justin Boden and Frank Levin to help Albert Thompson increase Kilgrave's power", 
+          "p1": "Frank Levin", 
+          "p2": "Albert Thompson"
+        }, 
+        {
+          "desc": "Jessica freed Justin from Kilgrave's control", 
+          "p1": "Justin Boden", 
+          "p2": "Jessica Jones"
+        }, 
+        {
+          "desc": "Jeri represented Justin after Kilgrave forced him to commit murder", 
+          "p1": "Justin Boden", 
+          "p2": "Jeri Hogarth"
+        }, 
+        {
+          "desc": "Reyes questioned Jessica after the death of Kilgrave", 
+          "p1": "Samantha Reyes", 
+          "p2": "Jessica Jones"
+        }, 
+        {
+          "desc": "Hogarth represented Jessica Jones when she was questioned by Reyes", 
+          "p1": "Samantha Reyes", 
+          "p2": "Jeri Hogarth"
+        }, 
+        {
+          "desc": "Claire helped Luke after Jessice shot him in the face", 
+          "p1": "Claire Temple", 
+          "p2": "Luke Cage"
+        }, 
+        {
+          "desc": "Jessica asked Claire to help Luke Cage after Jessica shot him in the face", 
+          "p1": "Claire Temple", 
+          "p2": "Jessica Jones"
+        }, 
+        {
+          "desc": "Chung told Jones there was a call waiting for her at Metro General Hospital", 
+          "p1": "Nurse Ellie Chung", 
+          "p2": "Jessica Jones"
+        }, 
+        {
+          "desc": "Clair and Ellie worked together at Metro General Hospital", 
+          "p1": "Nurse Ellie Chung", 
+          "p2": "Claire Temple"
+        }, 
+        {
+          "desc": "Claire and Malcolm met at Jessica Jones' apartment when Claire was watching the recovering Luke Cage", 
+          "p1": "Claire Temple", 
+          "p2": "Malcolm Ducasse"
+        }
+      ], 
+      "name": "Jessica Jones"
+    }, 
+    {
       "category": "One-shots", 
       "characters": [
         "Agent Coulson"
@@ -3945,7 +5181,7 @@ return {
           "p2": "Christine Everhart"
         }, 
         {
-          "desc": "|Jackson was a field reporter for a WHIH Breaking News segment co-anchored by Will and Christine Everhart", 
+          "desc": "Jackson was a field reporter for a WHIH Breaking News segment co-anchored by Will and Christine Everhart", 
           "p1": "Jackson Norris (WHIH)", 
           "p2": "Will Adams"
         }
