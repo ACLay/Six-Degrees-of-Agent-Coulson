@@ -3702,6 +3702,20 @@ return {
     {
       "category": "One-shots", 
       "characters": [
+        "Agent Coulson"
+      ], 
+      "interactions": [
+        {
+          "desc": "", 
+          "p1": "Agent Coulson", 
+          "p2": "Agent Coulson"
+        }
+      ], 
+      "name": "A Funny Thing Happened..."
+    }, 
+    {
+      "category": "One-shots", 
+      "characters": [
         "Dum Dum Dugan", 
         "Howard Stark", 
         "Peggy Carter"
