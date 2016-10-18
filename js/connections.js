@@ -26,7 +26,6 @@ return {
     "Audrey Eastman", 
     "Barbara Shlottman", 
     "Baron Strucker", 
-    "Bartender Stan", 
     "Bennie Pollock", 
     "Bereet", 
     "Betty Ross", 
@@ -59,7 +58,6 @@ return {
     "Councilman Yen", 
     "Councilwoman Hawley", 
     "Crazy-stupid-fine Writer", 
-    "Crazy-stupid-fine writer", 
     "DJ AM", 
     "Dale", 
     "Darby", 
@@ -155,7 +153,6 @@ return {
     "Kraglin Obfonteri", 
     "Kurt", 
     "Larry Ellison", 
-    "Larry King", 
     "Laufey", 
     "Laurent Bouchard", 
     "Len Sirkes", 
@@ -230,7 +227,6 @@ return {
     "Sharon Carter", 
     "Sif", 
     "Sissy Garcia", 
-    "Stan Lee", 
     "Stanley Lieber", 
     "Steve Rogers", 
     "Steve Scott", 
@@ -397,11 +393,9 @@ return {
     {
       "category": "Films", 
       "characters": [
-        "Bartender Stan", 
         "Carlos", 
         "Cassie Lang", 
         "Crazy-stupid-fine Writer", 
-        "Crazy-stupid-fine writer", 
         "Dale", 
         "Darby", 
         "Darren Cross", 
@@ -774,21 +768,11 @@ return {
         {
           "desc": "Ignacio had drinks with the writer. She was crazy, stupid fine!", 
           "p1": "Ignacio", 
-          "p2": "Crazy-stupid-fine writer"
+          "p2": "Crazy-stupid-fine Writer"
         }, 
         {
           "desc": "Writer told Sam that they had a guy who jumps, a guy who swings and a guy who can climb walls", 
           "p1": "Sam Wilson", 
-          "p2": "Crazy-stupid-fine Writer"
-        }, 
-        {
-          "desc": "Ignacio ordered drinks from Stan. They agreed that the writer was crazy stupid fine", 
-          "p1": "Ignacio", 
-          "p2": "Bartender Stan"
-        }, 
-        {
-          "desc": "Stan was serving drinks at the bar the writer was at.", 
-          "p1": "Bartender Stan", 
           "p2": "Crazy-stupid-fine Writer"
         }
       ], 
@@ -2361,7 +2345,6 @@ return {
         "James Rhodes", 
         "Justin Hammer", 
         "Larry Ellison", 
-        "Larry King", 
         "Major Allen", 
         "Maria Stark", 
         "Natasha Romanoff", 
@@ -2396,16 +2379,6 @@ return {
           "desc": "Happy is Tony's bodyguard and driver", 
           "p1": "Happy Hogan", 
           "p2": "Tony Stark"
-        }, 
-        {
-          "desc": "Tony says hello to Larry while leaving the Stark Expo", 
-          "p1": "Larry King", 
-          "p2": "Tony Stark"
-        }, 
-        {
-          "desc": "Happy introduces Tony Stark to Larry while leaving the Stark Expo", 
-          "p1": "Happy Hogan", 
-          "p2": "Larry King"
         }, 
         {
           "desc": "Tony meets Larry while leaving the Stark Expo", 
@@ -5133,7 +5106,6 @@ return {
         "Odin", 
         "Richard", 
         "Sif", 
-        "Stan Lee", 
         "Steve Scott", 
         "The Collector", 
         "Thor", 
@@ -5422,11 +5394,6 @@ return {
           "p2": "Odin"
         }, 
         {
-          "desc": "Erik borrows Stan's shoe in the psych ward", 
-          "p1": "Erik Selvig", 
-          "p2": "Stan Lee"
-        }, 
-        {
           "desc": "Ian and Darcy got Erik released from the police custody", 
           "p1": "Ian Boothby", 
           "p2": "Erik Selvig"
@@ -5612,4 +5579,268 @@ return {
     }
   ]
 }
+}
+function getOneStanConnections(){
+return [
+  {
+    "p2": "Stan Lee", 
+    "media": "Iron Man", 
+    "p1": "Tony Stark", 
+    "desc": "Tony mistakes Stan for Hugh Hefner on the red carpet"
+  }, 
+  {
+    "p2": "Stan Lee", 
+    "media": "Iron Man 2", 
+    "p1": "Tony Stark", 
+    "desc": "Stan is introduced to Tony as Larry King"
+  }, 
+  {
+    "p2": "Stan Lee", 
+    "media": "Iron Man 2", 
+    "p1": "Happy Hogan", 
+    "desc": "Happy mistakes Stan for Larry King"
+  }, 
+  {
+    "p2": "Stan Lee", 
+    "media": "Captain America The First Avenger", 
+    "p1": "Senator Brandt", 
+    "desc": "Stan is present at a ceremony hosted by the senator to honour Captain America"
+  }, 
+  {
+    "p2": "Stan Lee", 
+    "media": "Thor The Dark World", 
+    "p1": "Erik Selvig", 
+    "desc": "Selvig borrows Stan's shoe for an explanation of the convergence"
+  }, 
+  {
+    "p2": "Stan Lee", 
+    "media": "Avengers Age of Ultron", 
+    "p1": "Thor", 
+    "desc": "Thor gives Stan a taste of Asgardian liquor"
+  }, 
+  {
+    "p2": "Stan Lee", 
+    "media": "Avengers Age of Ultron", 
+    "p1": "Steve Rogers", 
+    "desc": "Steve is with Thor and Stan when they drink the Asgardian liquor"
+  }, 
+  {
+    "p2": "Stan Lee", 
+    "media": "Ant-Man", 
+    "p1": "Ignacio", 
+    "desc": "Ignacio ordered drinks from Stan. They agreed that the writer was crazy stupid fine"
+  }, 
+  {
+    "p2": "Crazy-stupid-fine Writer", 
+    "media": "Ant-Man", 
+    "p1": "Stan Lee", 
+    "desc": "Stan was serving drinks at the bar the writer was at"
+  }, 
+  {
+    "p2": "Stan Lee", 
+    "media": "Captain America Civil War", 
+    "p1": "Tony Stark", 
+    "desc": "Stan delivered Steve's package for Tony Stank"
+  }, 
+  {
+    "p2": "Stan Lee", 
+    "media": "Captain America Civil War", 
+    "p1": "James Rhodes", 
+    "desc": "Rhodey was with Tony when Stan delivered Mr Stank's package"
+  }, 
+  {
+    "p2": "Stan Lee", 
+    "media": "Agent Carter Season 1", 
+    "p1": "Howard Stark", 
+    "desc": "Stan borrows the sports section from Howard's newspaper"
+  }, 
+  {
+    "p2": "Stan Lee", 
+    "media": "Agents of SHIELD Season 1", 
+    "p1": "Agent Coulson", 
+    "desc": "Stan tells Coulson's undercover character that this is his chance to do better"
+  }, 
+  {
+    "p2": "Stan Lee", 
+    "media": "Agents of SHIELD Season 1", 
+    "p1": "Jemma Simmons", 
+    "desc": "Stan gives his condolences to Simmons' undercover character"
+  }
+]
+}
+function getTwoStansConnections(){
+return [
+  {
+    "p2": "Stan Lee Jr", 
+    "media": "Iron Man", 
+    "p1": "Tony Stark", 
+    "desc": "Tony mistakes Stan for Hugh Hefner on the red carpet"
+  }, 
+  {
+    "p2": "Stan Lee Jr", 
+    "media": "Iron Man 2", 
+    "p1": "Tony Stark", 
+    "desc": "Stan is introduced to Tony as Larry King"
+  }, 
+  {
+    "p2": "Stan Lee Jr", 
+    "media": "Iron Man 2", 
+    "p1": "Happy Hogan", 
+    "desc": "Happy mistakes Stan for Larry King"
+  }, 
+  {
+    "p2": "Stan Lee Sr", 
+    "media": "Captain America The First Avenger", 
+    "p1": "Senator Brandt", 
+    "desc": "Stan is present at a ceremony hosted by the senator to honour Captain America"
+  }, 
+  {
+    "p2": "Stan Lee Jr", 
+    "media": "Thor The Dark World", 
+    "p1": "Erik Selvig", 
+    "desc": "Selvig borrows Stan's shoe for an explanation of the convergence"
+  }, 
+  {
+    "p2": "Stan Lee Jr", 
+    "media": "Avengers Age of Ultron", 
+    "p1": "Thor", 
+    "desc": "Thor gives Stan a taste of Asgardian liquor"
+  }, 
+  {
+    "p2": "Stan Lee Jr", 
+    "media": "Avengers Age of Ultron", 
+    "p1": "Steve Rogers", 
+    "desc": "Steve is with Thor and Stan when they drink the Asgardian liquor"
+  }, 
+  {
+    "p2": "Stan Lee Jr", 
+    "media": "Ant-Man", 
+    "p1": "Ignacio", 
+    "desc": "Ignacio ordered drinks from Stan. They agreed that the writer was crazy stupid fine"
+  }, 
+  {
+    "p2": "Crazy-stupid-fine Writer", 
+    "media": "Ant-Man", 
+    "p1": "Stan Lee Jr", 
+    "desc": "Stan was serving drinks at the bar the writer was at."
+  }, 
+  {
+    "p2": "Stan Lee Jr", 
+    "media": "Captain America Civil War", 
+    "p1": "Tony Stark", 
+    "desc": "Stan delivered Steve's package for Tony Stank"
+  }, 
+  {
+    "p2": "Stan Lee Jr", 
+    "media": "Captain America Civil War", 
+    "p1": "James Rhodes", 
+    "desc": "Rhodey was with Tony when Stan delivered Mr Stank's package"
+  }, 
+  {
+    "p2": "Stan Lee Sr", 
+    "media": "Agent Carter Season 1", 
+    "p1": "Howard Stark", 
+    "desc": "Stan borrows the sports section from Howard's newspaper"
+  }, 
+  {
+    "p2": "Stan Lee Jr", 
+    "media": "Agents of SHIELD Season 1", 
+    "p1": "Agent Coulson", 
+    "desc": "Stan tells Coulson's undercover character that this is his chance to do better"
+  }, 
+  {
+    "p2": "Stan Lee Jr", 
+    "media": "Agents of SHIELD Season 1", 
+    "p1": "Jemma Simmons", 
+    "desc": "Stan gives his condolences to Simmons' undercover character"
+  }
+]
+}
+function getManyStansConnections(){
+return [
+  {
+    "p2": "Stan Lee (Hef)", 
+    "media": "Iron Man", 
+    "p1": "Tony Stark", 
+    "desc": "Tony mistakes Stan for Hugh Hefner on the red carpet"
+  }, 
+  {
+    "p2": "Stan Lee (Larry)", 
+    "media": "Iron Man 2", 
+    "p1": "Tony Stark", 
+    "desc": "Stan is introduced to Tony as Larry King"
+  }, 
+  {
+    "p2": "Stan Lee (Larry)", 
+    "media": "Iron Man 2", 
+    "p1": "Happy Hogan", 
+    "desc": "Happy mistakes Stan for Larry King"
+  }, 
+  {
+    "p2": "General Stan Lee", 
+    "media": "Captain America The First Avenger", 
+    "p1": "Senator Brandt", 
+    "desc": "Stan is present at a ceremony hosted by the senator to honour Captain America"
+  }, 
+  {
+    "p2": "Stan Lee the shoeless", 
+    "media": "Thor The Dark World", 
+    "p1": "Erik Selvig", 
+    "desc": "Selvig borrows Stan's shoe for an explanation of the convergence"
+  }, 
+  {
+    "p2": "Veteran Stan Lee", 
+    "media": "Avengers Age of Ultron", 
+    "p1": "Thor", 
+    "desc": "Thor gives Stan a taste of Asgardian liquor"
+  }, 
+  {
+    "p2": "Veteran Stan Lee", 
+    "media": "Avengers Age of Ultron", 
+    "p1": "Steve Rogers", 
+    "desc": "Steve is with Thor and Stan when they drink the Asgardian liquor"
+  }, 
+  {
+    "p2": "Bartender Stan Lee", 
+    "media": "Ant-Man", 
+    "p1": "Ignacio", 
+    "desc": "Ignacio ordered drinks from Stan. They agreed that the writer was crazy stupid fine"
+  }, 
+  {
+    "p2": "Crazy-stupid-fine Writer", 
+    "media": "Ant-Man", 
+    "p1": "Bartender Stan Lee", 
+    "desc": "Stan was serving drinks at the bar the writer was at."
+  }, 
+  {
+    "p2": "Fedex Stan Lee", 
+    "media": "Captain America Civil War", 
+    "p1": "Tony Stark", 
+    "desc": "Stan delivered Steve's package for Tony Stank"
+  }, 
+  {
+    "p2": "Fedex Stan Lee", 
+    "media": "Captain America Civil War", 
+    "p1": "James Rhodes", 
+    "desc": "Rhodey was with Tony when Stan delivered Mr Stank's package"
+  }, 
+  {
+    "p2": "Stan Lee Sr", 
+    "media": "Agent Carter Season 1", 
+    "p1": "Howard Stark", 
+    "desc": "Stan borrows the sports section from Howard's newspaper"
+  }, 
+  {
+    "p2": "Stan Lee Jr", 
+    "media": "Agents of SHIELD Season 1", 
+    "p1": "Agent Coulson", 
+    "desc": "Stan tells Coulson's undercover character that this is his chance to do better"
+  }, 
+  {
+    "p2": "Stan Lee Jr", 
+    "media": "Agents of SHIELD Season 1", 
+    "p1": "Jemma Simmons", 
+    "desc": "Stan gives his condolences to Simmons' undercover character"
+  }
+]
 }

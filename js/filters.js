@@ -61,7 +61,7 @@ function isMediaSelected(mediaName){
 }
 
 function toggleFilterVisibility(){
-	document.getElementById("filters").classList.toggle("hidden");
+	document.getElementById("filterContainer").classList.toggle("hidden");
 	document.getElementById("showFilters").classList.toggle("hidden");
 	document.getElementById("hideFilters").classList.toggle("hidden");
 }
