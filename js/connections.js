@@ -26,6 +26,7 @@ return {
     "Audrey Eastman", 
     "Barbara Shlottman", 
     "Baron Strucker", 
+    "Bartender Stan", 
     "Bennie Pollock", 
     "Bereet", 
     "Betty Ross", 
@@ -41,6 +42,8 @@ return {
     "Cameron Klein", 
     "Carina", 
     "Carlo Eastman", 
+    "Carlos", 
+    "Cassie Lang", 
     "Chanise", 
     "Charles Wallace", 
     "Christine Everhart", 
@@ -55,9 +58,14 @@ return {
     "Councilman Singh", 
     "Councilman Yen", 
     "Councilwoman Hawley", 
+    "Crazy-stupid-fine Writer", 
+    "Crazy-stupid-fine writer", 
     "DJ AM", 
+    "Dale", 
+    "Darby", 
     "Darcy Lewis", 
     "Darren Cross", 
+    "Dave", 
     "David Kurata", 
     "Denarian Sall", 
     "Desmond Tobey", 
@@ -76,15 +84,19 @@ return {
     "Ellen Brandt", 
     "Elon Musk", 
     "Emil Blonsky", 
+    "Emily", 
     "Emma", 
     "Erik Selvig", 
     "Erin", 
+    "Ernesto", 
     "Fandral", 
     "Ferdinand Lopez", 
     "Fletcher Heggs", 
+    "Frank", 
     "Frank Levin", 
     "Frigga", 
     "Gabe Jones", 
+    "Gale", 
     "Gamora", 
     "Garcia", 
     "Gary the Camera Guy", 
@@ -100,6 +112,7 @@ return {
     "Gregory Spheeris", 
     "Groot", 
     "Hank", 
+    "Hank Pym", 
     "Happy Hogan", 
     "Harley Keener", 
     "Harvey", 
@@ -108,9 +121,11 @@ return {
     "Ho Yinsen", 
     "Hogun", 
     "Hope Shlottman", 
+    "Hope Van Dyne", 
     "Howard Stark", 
     "Howard the Duck", 
     "Ian Boothby", 
+    "Ignacio", 
     "Ivan Vanko", 
     "JARVIS", 
     "Jack Denton", 
@@ -124,6 +139,7 @@ return {
     "James Rhodes", 
     "James Rondell", 
     "Jane Foster", 
+    "Janet Van Dyne", 
     "Jeri Hogarth", 
     "Jessica Jones", 
     "Jim Morita", 
@@ -137,6 +153,7 @@ return {
     "Korath", 
     "Kozlov", 
     "Kraglin Obfonteri", 
+    "Kurt", 
     "Larry Ellison", 
     "Larry King", 
     "Laufey", 
@@ -145,7 +162,9 @@ return {
     "Leonard Samson", 
     "Loki", 
     "Louise Thompson", 
+    "Luis", 
     "Luke Cage", 
+    "Maggie Lang", 
     "Major Allen", 
     "Malcolm Ducasse", 
     "Malekith", 
@@ -159,6 +178,7 @@ return {
     "McManus", 
     "Mei", 
     "Meredith Quill", 
+    "Mitchell Carson", 
     "Mr Lin", 
     "Mrs Davis", 
     "Natasha Romanoff", 
@@ -172,6 +192,8 @@ return {
     "Officer Cooper", 
     "Oscar Clemons", 
     "Pam", 
+    "Paxton", 
+    "Peachy", 
     "Peggy Carter", 
     "Pepper Potts", 
     "Peter Quill", 
@@ -239,6 +261,539 @@ return {
     "Zack"
   ], 
   "properties": [
+    {
+      "category": "One-shots", 
+      "characters": [
+        "Agent Coulson"
+      ], 
+      "interactions": [
+        {
+          "desc": "", 
+          "p1": "Agent Coulson", 
+          "p2": "Agent Coulson"
+        }
+      ], 
+      "name": "A Funny Thing Happened..."
+    }, 
+    {
+      "category": "One-shots", 
+      "characters": [
+        "Dum Dum Dugan", 
+        "Howard Stark", 
+        "Peggy Carter"
+      ], 
+      "interactions": [
+        {
+          "desc": "Howard recruited Peggy to found SHIELD", 
+          "p1": "Peggy Carter", 
+          "p2": "Howard Stark"
+        }, 
+        {
+          "desc": "Howard introduced Dugan to the bikini", 
+          "p1": "Howard Stark", 
+          "p2": "Dum Dum Dugan"
+        }
+      ], 
+      "name": "Agent Carter"
+    }, 
+    {
+      "category": "One-shots", 
+      "characters": [
+        "Fletcher Heggs", 
+        "Jackson Norriss (10 rings)", 
+        "Justin Hammer", 
+        "Priscilla Everhart", 
+        "Prisoner Herman", 
+        "Rick Hawkins", 
+        "Sean Connery", 
+        "The Mandarin", 
+        "Trevor Slattery", 
+        "White Power Dave"
+      ], 
+      "interactions": [
+        {
+          "desc": "Norriss interviewed Slattery in prison", 
+          "p1": "Jackson Norriss (10 rings)", 
+          "p2": "Trevor Slattery"
+        }, 
+        {
+          "desc": "Herman acted as a butler for Slattery in prison", 
+          "p1": "Prisoner Herman", 
+          "p2": "Trevor Slattery"
+        }, 
+        {
+          "desc": "Slattery walked into Dave with his lunch tray", 
+          "p1": "White Power Dave", 
+          "p2": "Trevor Slattery"
+        }, 
+        {
+          "desc": "Herman prevented Dave attacking Slattery", 
+          "p1": "White Power Dave", 
+          "p2": "Prisoner Herman"
+        }, 
+        {
+          "desc": "Fletcher was in Trevor's fan club and backed him up against Dave", 
+          "p1": "White Power Dave", 
+          "p2": "Fletcher Heggs"
+        }, 
+        {
+          "desc": "Herman and Fletcher were both fans of Trevor's mandarin", 
+          "p1": "Prisoner Herman", 
+          "p2": "Fletcher Heggs"
+        }, 
+        {
+          "desc": "Herman was present when Norriss interviewed Slattery", 
+          "p1": "Prisoner Herman", 
+          "p2": "Jackson Norriss (10 rings)"
+        }, 
+        {
+          "desc": "Trevor and Priscilla both starred in an unaired TV pilot", 
+          "p1": "Trevor Slattery", 
+          "p2": "Priscilla Everhart"
+        }, 
+        {
+          "desc": "Rick and Trevor both starred in an unaired TV pilot", 
+          "p1": "Trevor Slattery", 
+          "p2": "Rick Hawkins"
+        }, 
+        {
+          "desc": "Priscilla and Rick both starred in an unaired TV pilot", 
+          "p1": "Priscilla Everhart", 
+          "p2": "Rick Hawkins"
+        }, 
+        {
+          "desc": "Trevor and Sean met on set once", 
+          "p1": "Trevor Slattery", 
+          "p2": "Sean Connery"
+        }, 
+        {
+          "desc": "The Mandarin sent Norriss to break Slattery out of prison", 
+          "p1": "The Mandarin", 
+          "p2": "Jackson Norriss (10 rings)"
+        }, 
+        {
+          "desc": "Trevor and Justin were together in Seagate prison", 
+          "p1": "Justin Hammer", 
+          "p2": "Trevor Slattery"
+        }, 
+        {
+          "desc": "Justin Hammer and Herman were together in Seagate prison", 
+          "p1": "Justin Hammer", 
+          "p2": "Prisoner Herman"
+        }, 
+        {
+          "desc": "Justin and Dave were together in Seagate prison", 
+          "p1": "Justin Hammer", 
+          "p2": "White Power Dave"
+        }, 
+        {
+          "desc": "Justin and Fletcher were together in Seagate prison", 
+          "p1": "Justin Hammer", 
+          "p2": "Fletcher Heggs"
+        }
+      ], 
+      "name": "All Hail the King"
+    }, 
+    {
+      "category": "Films", 
+      "characters": [
+        "Bartender Stan", 
+        "Carlos", 
+        "Cassie Lang", 
+        "Crazy-stupid-fine Writer", 
+        "Crazy-stupid-fine writer", 
+        "Dale", 
+        "Darby", 
+        "Darren Cross", 
+        "Dave", 
+        "Emily", 
+        "Ernesto", 
+        "Frank", 
+        "Gale", 
+        "Hank Pym", 
+        "Hope Van Dyne", 
+        "Howard Stark", 
+        "Ignacio", 
+        "Janet Van Dyne", 
+        "Kurt", 
+        "Luis", 
+        "Maggie Lang", 
+        "Mitchell Carson", 
+        "Paxton", 
+        "Peachy", 
+        "Peggy Carter", 
+        "Sam Wilson", 
+        "Scott Lang"
+      ], 
+      "interactions": [
+        {
+          "desc": "Peggy stopped Hank from really beating the crap out of Mitchell Carson", 
+          "p1": "Hank Pym", 
+          "p2": "Peggy Carter"
+        }, 
+        {
+          "desc": "Howard refused to accept Hank's resignation", 
+          "p1": "Hank Pym", 
+          "p2": "Howard Stark"
+        }, 
+        {
+          "desc": "Hank beat the crap out of Mitchell", 
+          "p1": "Hank Pym", 
+          "p2": "Mitchell Carson"
+        }, 
+        {
+          "desc": "Howard and Peggy worked at the Triskelion in 1989", 
+          "p1": "Peggy Carter", 
+          "p2": "Howard Stark"
+        }, 
+        {
+          "desc": "Mitchell Carson and Peggy worked at the Triskelion in 1989", 
+          "p1": "Peggy Carter", 
+          "p2": "Mitchell Carson"
+        }, 
+        {
+          "desc": "Howard and Mitchell Carson worked at the Triskelion in 1989", 
+          "p1": "Howard Stark", 
+          "p2": "Mitchell Carson"
+        }, 
+        {
+          "desc": "You guys have the weirdest goodbye rituals", 
+          "p1": "Scott Lang", 
+          "p2": "Peachy"
+        }, 
+        {
+          "desc": "Luis told Scott that his girl left him, his mom died, and his dad got deported... but he got the van!", 
+          "p1": "Scott Lang", 
+          "p2": "Luis"
+        }, 
+        {
+          "desc": "Luis was the only one to knock Peachy out", 
+          "p1": "Luis", 
+          "p2": "Peachy"
+        }, 
+        {
+          "desc": "Dale told Scott that Baskin Robbins always finds out", 
+          "p1": "Dale", 
+          "p2": "Scott Lang"
+        }, 
+        {
+          "desc": "Scott asked Darby to take care of this idiot", 
+          "p1": "Darby", 
+          "p2": "Scott Lang"
+        }, 
+        {
+          "desc": "Darby worked for Dale at Baskin Robbins", 
+          "p1": "Dale", 
+          "p2": "Darby"
+        }, 
+        {
+          "desc": "Kurt and Dave enjoyed waffles while planning the heist", 
+          "p1": "Kurt", 
+          "p2": "Dave"
+        }, 
+        {
+          "desc": "Luis made waffles for Kurt and the rest of the gang", 
+          "p1": "Kurt", 
+          "p2": "Luis"
+        }, 
+        {
+          "desc": "Kurt pressed the magic space bar just in time to save Scott because he was a L337 H4x0r", 
+          "p1": "Kurt", 
+          "p2": "Scott Lang"
+        }, 
+        {
+          "desc": "Luis made waffles for Dave and the rest of the gang", 
+          "p1": "Dave", 
+          "p2": "Luis"
+        }, 
+        {
+          "desc": "Dave told Scott that Baskin Robbins always finds out", 
+          "p1": "Dave", 
+          "p2": "Scott Lang"
+        }, 
+        {
+          "desc": "Hank was Hope's father", 
+          "p1": "Hope Van Dyne", 
+          "p2": "Hank Pym"
+        }, 
+        {
+          "desc": "Hope worked for Darren while secretly working with Hank Pym and Scott Lang, even though she really liked Darren better at first, and had displaced anger directed at Scott", 
+          "p1": "Hope Van Dyne", 
+          "p2": "Darren Cross"
+        }, 
+        {
+          "desc": "Darren was Hank's protege - He chose his mentor poorly", 
+          "p1": "Darren Cross", 
+          "p2": "Hank Pym"
+        }, 
+        {
+          "desc": "Darren sold the Yellowjacket technology to Mitchell Carson", 
+          "p1": "Darren Cross", 
+          "p2": "Mitchell Carson"
+        }, 
+        {
+          "desc": "Hope helped stop Carson from getting the Yellowjacket armor", 
+          "p1": "Hope Van Dyne", 
+          "p2": "Mitchell Carson"
+        }, 
+        {
+          "desc": "Mitchell Carson was present when Frank sealed his death warrant by questioning Darren Cross", 
+          "p1": "Frank", 
+          "p2": "Mitchell Carson"
+        }, 
+        {
+          "desc": "Hope was present when Frank sealed his death warrant by questioning Darren Cross", 
+          "p1": "Frank", 
+          "p2": "Hope Van Dyne"
+        }, 
+        {
+          "desc": "Hank was present when Frank sealed his death warrant by questioning Darren Cross", 
+          "p1": "Frank", 
+          "p2": "Hank Pym"
+        }, 
+        {
+          "desc": "Darren took Frank's tissue so he could clean him off of the bathroom floor", 
+          "p1": "Frank", 
+          "p2": "Darren Cross"
+        }, 
+        {
+          "desc": "Scott was Cassie's father", 
+          "p1": "Cassie Lang", 
+          "p2": "Scott Lang"
+        }, 
+        {
+          "desc": "Maggie was Cassie's mother", 
+          "p1": "Cassie Lang", 
+          "p2": "Maggie Lang"
+        }, 
+        {
+          "desc": "Paxton was Cassie's step-father", 
+          "p1": "Cassie Lang", 
+          "p2": "Paxton"
+        }, 
+        {
+          "desc": "Maggie was Scott's ex-wife", 
+          "p1": "Maggie Lang", 
+          "p2": "Scott Lang"
+        }, 
+        {
+          "desc": "Paxton and Maggie were engaged", 
+          "p1": "Maggie Lang", 
+          "p2": "Paxton"
+        }, 
+        {
+          "desc": "Scott owes Paxton a new roof", 
+          "p1": "Paxton", 
+          "p2": "Scott Lang"
+        }, 
+        {
+          "desc": "Luis and Ernesto attended a wine tasting that was mostly reds but there was a rose that saved the day", 
+          "p1": "Ernesto", 
+          "p2": "Luis"
+        }, 
+        {
+          "desc": "Emily had the first pair of boobs Luis ever touched", 
+          "p1": "Luis", 
+          "p2": "Emily"
+        }, 
+        {
+          "desc": "Hank bribed Emily to tell Carlos about his safe", 
+          "p1": "Emily", 
+          "p2": "Hank Pym"
+        }, 
+        {
+          "desc": "Emily told Carlos about the rich guy she \"worked for\"", 
+          "p1": "Emily", 
+          "p2": "Carlos"
+        }, 
+        {
+          "desc": "Carlos and Ernesto were on the same softball team", 
+          "p1": "Carlos", 
+          "p2": "Ernesto"
+        }, 
+        {
+          "desc": "Hank trained Scott to be his successor as the Ant-Man", 
+          "p1": "Hank Pym", 
+          "p2": "Scott Lang"
+        }, 
+        {
+          "desc": "Hope wasn't even trying to hit Scott's hand", 
+          "p1": "Hope Van Dyne", 
+          "p2": "Scott Lang"
+        }, 
+        {
+          "desc": "Gale took Scott Lang to see \"his lawyer\" who was really Hank Pym", 
+          "p1": "Gale", 
+          "p2": "Hank Pym"
+        }, 
+        {
+          "desc": "Gale was surprised when Scott escaped from his cell", 
+          "p1": "Gale", 
+          "p2": "Scott Lang"
+        }, 
+        {
+          "desc": "Gale and Paxton were partners", 
+          "p1": "Gale", 
+          "p2": "Paxton"
+        }, 
+        {
+          "desc": "Hank and Janet were husband and wife as well as crime-fighting partners", 
+          "p1": "Janet Van Dyne", 
+          "p2": "Hank Pym"
+        }, 
+        {
+          "desc": "Janet was Hope's mother", 
+          "p1": "Janet Van Dyne", 
+          "p2": "Hope Van Dyne"
+        }, 
+        {
+          "desc": "Cap can never find out about this connection", 
+          "p1": "Sam Wilson", 
+          "p2": "Scott Lang"
+        }, 
+        {
+          "desc": "Dave let Hank let him break into Hank's house", 
+          "p1": "Dave", 
+          "p2": "Hank Pym"
+        }, 
+        {
+          "desc": "Kurt said Hank's tech was the work of gypsies", 
+          "p1": "Kurt", 
+          "p2": "Hank Pym"
+        }, 
+        {
+          "desc": "Hank explained the science of the suit to Luis and the other Wombats", 
+          "p1": "Luis", 
+          "p2": "Hank Pym"
+        }, 
+        {
+          "desc": "Hope helped make the plan in which Dave was the wheels on the ground", 
+          "p1": "Dave", 
+          "p2": "Hope Van Dyne"
+        }, 
+        {
+          "desc": "Hope helped make the plan in which Kurt was the eyes in the sky", 
+          "p1": "Kurt", 
+          "p2": "Hope Van Dyne"
+        }, 
+        {
+          "desc": "Hope told Luis he was in the system", 
+          "p1": "Luis", 
+          "p2": "Hope Van Dyne"
+        }, 
+        {
+          "desc": "Scott beat the heck out of Carson's thugs, but Carson got away", 
+          "p1": "Mitchell Carson", 
+          "p2": "Scott Lang"
+        }, 
+        {
+          "desc": "Darren trapped Scott in a glass case which Scott jumped around in comically", 
+          "p1": "Darren Cross", 
+          "p2": "Scott Lang"
+        }, 
+        {
+          "desc": "Paxton and Gale arrested Dave and Kurt, but let them go when the Pym Tech alarm went off", 
+          "p1": "Paxton", 
+          "p2": "Dave"
+        }, 
+        {
+          "desc": "Paxton and Gale arrested Dave and Kurt, but let them go when the Pym Tech alarm went off", 
+          "p1": "Paxton", 
+          "p2": "Kurt"
+        }, 
+        {
+          "desc": "Paxton and Gale arrested Dave and Kurt, but let them go when the Pym Tech alarm went off", 
+          "p1": "Gale", 
+          "p2": "Dave"
+        }, 
+        {
+          "desc": "Paxton and Gale arrested Dave and Kurt, but let them go when the Pym Tech alarm went off", 
+          "p1": "Gale", 
+          "p2": "Kurt"
+        }, 
+        {
+          "desc": "Paxton and Gale watched Hope drive a tank through Pym Tech", 
+          "p1": "Paxton", 
+          "p2": "Hope Van Dyne"
+        }, 
+        {
+          "desc": "Paxton and Gale watched Hope drive a tank through Pym Tech", 
+          "p1": "Gale", 
+          "p2": "Hope Van Dyne"
+        }, 
+        {
+          "desc": "Paxton and and Gale were questioning Hank, until Dave stole their car", 
+          "p1": "Paxton", 
+          "p2": "Hank Pym"
+        }, 
+        {
+          "desc": "Gale told Maggie she had a messed-up looking dog", 
+          "p1": "Gale", 
+          "p2": "Maggie Lang"
+        }, 
+        {
+          "desc": "Paxton told Luis to get out of that van", 
+          "p1": "Paxton", 
+          "p2": "Luis"
+        }, 
+        {
+          "desc": "Gale ran towards Luis while Paxton told him to get out of the van", 
+          "p1": "Gale", 
+          "p2": "Luis"
+        }, 
+        {
+          "desc": "Paxton and Gale saw Cross smoking in the bug zapper, but didn't take note", 
+          "p1": "Paxton", 
+          "p2": "Darren Cross"
+        }, 
+        {
+          "desc": "Paxton and Gale saw Cross smoking in the bug zapper, but didn't take note", 
+          "p1": "Gale", 
+          "p2": "Darren Cross"
+        }, 
+        {
+          "desc": "Darren broke all of Cassie's toys", 
+          "p1": "Darren Cross", 
+          "p2": "Cassie Lang"
+        }, 
+        {
+          "desc": "Cross was the \"thing\" that broke into Maggie's house", 
+          "p1": "Darren Cross", 
+          "p2": "Maggie Lang"
+        }, 
+        {
+          "desc": "Paxton tried to save Cassie from Cross, but he was under qualified", 
+          "p1": "Darren Cross", 
+          "p2": "Paxton"
+        }, 
+        {
+          "desc": "Ignacio and Luis went to an art gallery and there was this Rothko that was sublime", 
+          "p1": "Ignacio", 
+          "p2": "Luis"
+        }, 
+        {
+          "desc": "Ignacio had drinks with the writer. She was crazy, stupid fine!", 
+          "p1": "Ignacio", 
+          "p2": "Crazy-stupid-fine writer"
+        }, 
+        {
+          "desc": "Writer told Sam that they had a guy who jumps, a guy who swings and a guy who can climb walls", 
+          "p1": "Sam Wilson", 
+          "p2": "Crazy-stupid-fine Writer"
+        }, 
+        {
+          "desc": "Ignacio ordered drinks from Stan. They agreed that the writer was crazy stupid fine", 
+          "p1": "Ignacio", 
+          "p2": "Bartender Stan"
+        }, 
+        {
+          "desc": "Stan was serving drinks at the bar the writer was at.", 
+          "p1": "Bartender Stan", 
+          "p2": "Crazy-stupid-fine Writer"
+        }
+      ], 
+      "name": "Ant-Man"
+    }, 
     {
       "category": "Films", 
       "characters": [
@@ -1601,6 +2156,196 @@ return {
     {
       "category": "Films", 
       "characters": [
+        "Abu Bakar", 
+        "Agent Coulson", 
+        "Christine Everhart", 
+        "General Gabriel", 
+        "Happy Hogan", 
+        "Ho Yinsen", 
+        "Howard Stark", 
+        "JARVIS", 
+        "James Rhodes", 
+        "Major Allen", 
+        "Maria Stark", 
+        "Nick Fury", 
+        "Obadiah Stane", 
+        "Pepper Potts", 
+        "Raza", 
+        "Tony Stark", 
+        "William Ginter Riva"
+      ], 
+      "interactions": [
+        {
+          "desc": "Tony worked with Obadiah", 
+          "p1": "Tony Stark", 
+          "p2": "Obadiah Stane"
+        }, 
+        {
+          "desc": "Tony is friends with Rhodey", 
+          "p1": "Tony Stark", 
+          "p2": "James Rhodes"
+        }, 
+        {
+          "desc": "Happy is Tony's driver", 
+          "p1": "Tony Stark", 
+          "p2": "Happy Hogan"
+        }, 
+        {
+          "desc": "Christine interviews Tony", 
+          "p1": "Tony Stark", 
+          "p2": "Christine Everhart"
+        }, 
+        {
+          "desc": "Tony created JARVIS", 
+          "p1": "Tony Stark", 
+          "p2": "JARVIS"
+        }, 
+        {
+          "desc": "Pepper is Tony's assistant", 
+          "p1": "Tony Stark", 
+          "p2": "Pepper Potts"
+        }, 
+        {
+          "desc": "Tony and Yinsen built the Mk 1 suit", 
+          "p1": "Tony Stark", 
+          "p2": "Ho Yinsen"
+        }, 
+        {
+          "desc": "Coulson gave Tony queue cards for his press conference", 
+          "p1": "Tony Stark", 
+          "p2": "Agent Coulson"
+        }, 
+        {
+          "desc": "Fury told Tony about the Avenger initiative", 
+          "p1": "Tony Stark", 
+          "p2": "Nick Fury"
+        }, 
+        {
+          "desc": "Howard is Tony's father", 
+          "p1": "Tony Stark", 
+          "p2": "Howard Stark"
+        }, 
+        {
+          "desc": "Maria is Tony's mother", 
+          "p1": "Tony Stark", 
+          "p2": "Maria Stark"
+        }, 
+        {
+          "desc": "Raza's terrorist organization, the Ten Rings, kidnaps Tony", 
+          "p1": "Tony Stark", 
+          "p2": "Raza"
+        }, 
+        {
+          "desc": "Bakar kidnaps Stark in his role as a henchman of Raza", 
+          "p1": "Tony Stark", 
+          "p2": "Abu Bakar"
+        }, 
+        {
+          "desc": "Stark demonstrates the Jericho missle to Gabriel", 
+          "p1": "Tony Stark", 
+          "p2": "General Gabriel"
+        }, 
+        {
+          "desc": "Howard and Maria were married", 
+          "p1": "Howard Stark", 
+          "p2": "Maria Stark"
+        }, 
+        {
+          "desc": "Rhodey gave Tony's award to Obadiah", 
+          "p1": "Obadiah Stane", 
+          "p2": "James Rhodes"
+        }, 
+        {
+          "desc": "Obadiah left his segway with Happy", 
+          "p1": "Obadiah Stane", 
+          "p2": "Happy Hogan"
+        }, 
+        {
+          "desc": "Obadiah tried to kill Pepper", 
+          "p1": "Obadiah Stane", 
+          "p2": "Pepper Potts"
+        }, 
+        {
+          "desc": "Obadiah attacked Coulson and the other agents", 
+          "p1": "Obadiah Stane", 
+          "p2": "Agent Coulson"
+        }, 
+        {
+          "desc": "Obadiah and Howard were business partners", 
+          "p1": "Obadiah Stane", 
+          "p2": "Howard Stark"
+        }, 
+        {
+          "desc": "Obadiah hires Raza to kidnap Tony Stark", 
+          "p1": "Obadiah Stane", 
+          "p2": "Raza"
+        }, 
+        {
+          "desc": "Stane assigns Riva to reverse engineer the minaturized arc reactor", 
+          "p1": "Obadiah Stane", 
+          "p2": "William Ginter Riva"
+        }, 
+        {
+          "desc": "Rhodey and Hogan were with Tony at the casino", 
+          "p1": "James Rhodes", 
+          "p2": "Happy Hogan"
+        }, 
+        {
+          "desc": "Pepper called Rhodey to check on Tony", 
+          "p1": "James Rhodes", 
+          "p2": "Pepper Potts"
+        }, 
+        {
+          "desc": "Rhodes is present when Gabriel views the Jericho missle demonstration", 
+          "p1": "James Rhodes", 
+          "p2": "General Gabriel"
+        }, 
+        {
+          "desc": "Allen calls Rhodes in when his men notice unauthorized hardware in Gulmira", 
+          "p1": "James Rhodes", 
+          "p2": "Major Allen"
+        }, 
+        {
+          "desc": "Happy was with Tony during Christine's interview", 
+          "p1": "Happy Hogan", 
+          "p2": "Christine Everhart"
+        }, 
+        {
+          "desc": "JARVIS told christine she cannot access an area", 
+          "p1": "Christine Everhart", 
+          "p2": "JARVIS"
+        }, 
+        {
+          "desc": "Pepper gave Christine her dry cleaning", 
+          "p1": "Christine Everhart", 
+          "p2": "Pepper Potts"
+        }, 
+        {
+          "desc": "Pepper told Coulson about sector 17", 
+          "p1": "Pepper Potts", 
+          "p2": "Agent Coulson"
+        }, 
+        {
+          "desc": "Yinsen was an injured bystander when Raza and Tony exchanged Rocket fire", 
+          "p1": "Ho Yinsen", 
+          "p2": "Raza"
+        }, 
+        {
+          "desc": "Yinsen was translator between Tony Stark and Abu Bakar", 
+          "p1": "Ho Yinsen", 
+          "p2": "Abu Bakar"
+        }, 
+        {
+          "desc": "Bakar is one of Raza's henchmen", 
+          "p1": "Raza", 
+          "p2": "Abu Bakar"
+        }
+      ], 
+      "name": "Iron Man"
+    }, 
+    {
+      "category": "Films", 
+      "characters": [
         "Agent Coulson", 
         "Anton Vanko", 
         "Christine Everhart", 
@@ -2245,1531 +2990,46 @@ return {
       "name": "Iron Man 3"
     }, 
     {
-      "category": "Films", 
+      "category": "One-shots", 
       "characters": [
-        "Abu Bakar", 
-        "Agent Coulson", 
-        "Christine Everhart", 
-        "General Gabriel", 
-        "Happy Hogan", 
-        "Ho Yinsen", 
-        "Howard Stark", 
-        "JARVIS", 
-        "James Rhodes", 
-        "Major Allen", 
-        "Maria Stark", 
-        "Nick Fury", 
-        "Obadiah Stane", 
-        "Pepper Potts", 
-        "Raza", 
-        "Tony Stark", 
-        "William Ginter Riva"
-      ], 
-      "interactions": [
-        {
-          "desc": "Tony worked with Obadiah", 
-          "p1": "Tony Stark", 
-          "p2": "Obadiah Stane"
-        }, 
-        {
-          "desc": "Tony is friends with Rhodey", 
-          "p1": "Tony Stark", 
-          "p2": "James Rhodes"
-        }, 
-        {
-          "desc": "Happy is Tony's driver", 
-          "p1": "Tony Stark", 
-          "p2": "Happy Hogan"
-        }, 
-        {
-          "desc": "Christine interviews Tony", 
-          "p1": "Tony Stark", 
-          "p2": "Christine Everhart"
-        }, 
-        {
-          "desc": "Tony created JARVIS", 
-          "p1": "Tony Stark", 
-          "p2": "JARVIS"
-        }, 
-        {
-          "desc": "Pepper is Tony's assistant", 
-          "p1": "Tony Stark", 
-          "p2": "Pepper Potts"
-        }, 
-        {
-          "desc": "Tony and Yinsen built the Mk 1 suit", 
-          "p1": "Tony Stark", 
-          "p2": "Ho Yinsen"
-        }, 
-        {
-          "desc": "Coulson gave Tony queue cards for his press conference", 
-          "p1": "Tony Stark", 
-          "p2": "Agent Coulson"
-        }, 
-        {
-          "desc": "Fury told Tony about the Avenger initiative", 
-          "p1": "Tony Stark", 
-          "p2": "Nick Fury"
-        }, 
-        {
-          "desc": "Howard is Tony's father", 
-          "p1": "Tony Stark", 
-          "p2": "Howard Stark"
-        }, 
-        {
-          "desc": "Maria is Tony's mother", 
-          "p1": "Tony Stark", 
-          "p2": "Maria Stark"
-        }, 
-        {
-          "desc": "Raza's terrorist organization, the Ten Rings, kidnaps Tony", 
-          "p1": "Tony Stark", 
-          "p2": "Raza"
-        }, 
-        {
-          "desc": "Bakar kidnaps Stark in his role as a henchman of Raza", 
-          "p1": "Tony Stark", 
-          "p2": "Abu Bakar"
-        }, 
-        {
-          "desc": "Stark demonstrates the Jericho missle to Gabriel", 
-          "p1": "Tony Stark", 
-          "p2": "General Gabriel"
-        }, 
-        {
-          "desc": "Howard and Maria were married", 
-          "p1": "Howard Stark", 
-          "p2": "Maria Stark"
-        }, 
-        {
-          "desc": "Rhodey gave Tony's award to Obadiah", 
-          "p1": "Obadiah Stane", 
-          "p2": "James Rhodes"
-        }, 
-        {
-          "desc": "Obadiah left his segway with Happy", 
-          "p1": "Obadiah Stane", 
-          "p2": "Happy Hogan"
-        }, 
-        {
-          "desc": "Obadiah tried to kill Pepper", 
-          "p1": "Obadiah Stane", 
-          "p2": "Pepper Potts"
-        }, 
-        {
-          "desc": "Obadiah attacked Coulson and the other agents", 
-          "p1": "Obadiah Stane", 
-          "p2": "Agent Coulson"
-        }, 
-        {
-          "desc": "Obadiah and Howard were business partners", 
-          "p1": "Obadiah Stane", 
-          "p2": "Howard Stark"
-        }, 
-        {
-          "desc": "Obadiah hires Raza to kidnap Tony Stark", 
-          "p1": "Obadiah Stane", 
-          "p2": "Raza"
-        }, 
-        {
-          "desc": "Stane assigns Riva to reverse engineer the minaturized arc reactor", 
-          "p1": "Obadiah Stane", 
-          "p2": "William Ginter Riva"
-        }, 
-        {
-          "desc": "Rhodey and Hogan were with Tony at the casino", 
-          "p1": "James Rhodes", 
-          "p2": "Happy Hogan"
-        }, 
-        {
-          "desc": "Pepper called Rhodey to check on Tony", 
-          "p1": "James Rhodes", 
-          "p2": "Pepper Potts"
-        }, 
-        {
-          "desc": "Rhodes is present when Gabriel views the Jericho missle demonstration", 
-          "p1": "James Rhodes", 
-          "p2": "General Gabriel"
-        }, 
-        {
-          "desc": "Allen calls Rhodes in when his men notice unauthorized hardware in Gulmira", 
-          "p1": "James Rhodes", 
-          "p2": "Major Allen"
-        }, 
-        {
-          "desc": "Happy was with Tony during Christine's interview", 
-          "p1": "Happy Hogan", 
-          "p2": "Christine Everhart"
-        }, 
-        {
-          "desc": "JARVIS told christine she cannot access an area", 
-          "p1": "Christine Everhart", 
-          "p2": "JARVIS"
-        }, 
-        {
-          "desc": "Pepper gave Christine her dry cleaning", 
-          "p1": "Christine Everhart", 
-          "p2": "Pepper Potts"
-        }, 
-        {
-          "desc": "Pepper told Coulson about sector 17", 
-          "p1": "Pepper Potts", 
-          "p2": "Agent Coulson"
-        }, 
-        {
-          "desc": "Yinsen was an injured bystander when Raza and Tony exchanged Rocket fire", 
-          "p1": "Ho Yinsen", 
-          "p2": "Raza"
-        }, 
-        {
-          "desc": "Yinsen was translator between Tony Stark and Abu Bakar", 
-          "p1": "Ho Yinsen", 
-          "p2": "Abu Bakar"
-        }, 
-        {
-          "desc": "Bakar is one of Raza's henchmen", 
-          "p1": "Raza", 
-          "p2": "Abu Bakar"
-        }
-      ], 
-      "name": "Iron Man"
-    }, 
-    {
-      "category": "Films", 
-      "characters": [
-        "Agent Coulson", 
+        "Agent Blake", 
         "Agent Sitwell", 
-        "Bruce Banner", 
-        "Clint Barton", 
-        "Councilwoman Hawley", 
-        "Erik Selvig", 
-        "Gideon Mallick", 
-        "JARVIS", 
-        "Loki", 
-        "Maria Hill", 
-        "Natasha Romanoff", 
-        "Nick Fury", 
-        "Pepper Potts", 
-        "Steve Rogers", 
-        "Thanos", 
-        "The Other", 
-        "Thor", 
-        "Tony Stark"
+        "Bennie Pollock", 
+        "Claire Weiss"
       ], 
       "interactions": [
         {
-          "desc": "The Other told Thanos about the tesseract", 
-          "p1": "The Other", 
-          "p2": "Thanos"
+          "desc": "Claire and Bennie robbed banks together", 
+          "p1": "Claire Weiss", 
+          "p2": "Bennie Pollock"
         }, 
         {
-          "desc": "The Other handed Loki his scepter", 
-          "p1": "The Other", 
-          "p2": "Loki"
-        }, 
-        {
-          "desc": "Thanos sent Loki to retrieve the tesseract", 
-          "p1": "Thanos", 
-          "p2": "Loki"
-        }, 
-        {
-          "desc": "Loki killed Agent Coulson", 
-          "p1": "Loki", 
-          "p2": "Agent Coulson"
-        }, 
-        {
-          "desc": "An ant has no quarrel with a boot", 
-          "p1": "Loki", 
-          "p2": "Nick Fury"
-        }, 
-        {
-          "desc": "Loki mind controlled Dr Selvig", 
-          "p1": "Loki", 
-          "p2": "Erik Selvig"
-        }, 
-        {
-          "desc": "Loki mind controlled Hawkeye", 
-          "p1": "Loki", 
-          "p2": "Clint Barton"
-        }, 
-        {
-          "desc": "Natasha interrogated Loki", 
-          "p1": "Loki", 
-          "p2": "Natasha Romanoff"
-        }, 
-        {
-          "desc": "Puny god.", 
-          "p1": "Loki", 
-          "p2": "Bruce Banner"
-        }, 
-        {
-          "desc": "Loki and Cap fought in Germany", 
-          "p1": "Loki", 
-          "p2": "Steve Rogers"
-        }, 
-        {
-          "desc": "Tony tried to threaten Loki before the battle of New York", 
-          "p1": "Loki", 
-          "p2": "Tony Stark"
-        }, 
-        {
-          "desc": "Thor stole Loki from the quinjet", 
-          "p1": "Loki", 
-          "p2": "Thor"
-        }, 
-        {
-          "desc": "Coulson welcomed Fury to SHIELD's research facility", 
-          "p1": "Agent Coulson", 
-          "p2": "Nick Fury"
-        }, 
-        {
-          "desc": "Coulson welcomed Hill to SHIELD's research facility", 
-          "p1": "Agent Coulson", 
-          "p2": "Maria Hill"
-        }, 
-        {
-          "desc": "Coulson sent Romanov to recruit Dr Banner", 
-          "p1": "Agent Coulson", 
-          "p2": "Natasha Romanoff"
-        }, 
-        {
-          "desc": "Banner was on the hellicarrier bridge when Coulson arrived with Tony", 
-          "p1": "Agent Coulson", 
-          "p2": "Bruce Banner"
-        }, 
-        {
-          "desc": "Steve agreed to sign Coulson's trading cards", 
-          "p1": "Agent Coulson", 
-          "p2": "Steve Rogers"
-        }, 
-        {
-          "desc": "Coulson brought Stark his homework", 
-          "p1": "Agent Coulson", 
-          "p2": "Tony Stark"
-        }, 
-        {
-          "desc": "Coulson gave Pepper a lift to the airport", 
-          "p1": "Agent Coulson", 
-          "p2": "Pepper Potts"
-        }, 
-        {
-          "desc": "Coulson overrode JARVIS telephone protocols to call Tony", 
-          "p1": "Agent Coulson", 
-          "p2": "JARVIS"
-        }, 
-        {
-          "desc": "Thor and Coulson discussed Bilgesnipe on the hellicarrier bridge", 
-          "p1": "Agent Coulson", 
-          "p2": "Thor"
-        }, 
-        {
-          "desc": "Sitwell and Coulson worked together on the hellicarrier bridge", 
-          "p1": "Agent Coulson", 
+          "desc": "Sitwell recruited Claire into SHIELD", 
+          "p1": "Claire Weiss", 
           "p2": "Agent Sitwell"
         }, 
         {
-          "desc": "Fury has Hill get the phase 2 prototypes to safety", 
-          "p1": "Nick Fury", 
-          "p2": "Maria Hill"
+          "desc": "Claire became Blake's assistant", 
+          "p1": "Claire Weiss", 
+          "p2": "Agent Blake"
         }, 
         {
-          "desc": "Selvig briefs Fury about the tessaract's misbehaviour", 
-          "p1": "Nick Fury", 
-          "p2": "Erik Selvig"
-        }, 
-        {
-          "desc": "Barton shot Fury and stole the tessaract", 
-          "p1": "Nick Fury", 
-          "p2": "Clint Barton"
-        }, 
-        {
-          "desc": "Fury had Romanov show Banner to his lab", 
-          "p1": "Nick Fury", 
-          "p2": "Natasha Romanoff"
-        }, 
-        {
-          "desc": "Fury welcomed Bruce to the hellicarrier bridge", 
-          "p1": "Nick Fury", 
-          "p2": "Bruce Banner"
-        }, 
-        {
-          "desc": "Fury went to Steve's gym to recruit him", 
-          "p1": "Nick Fury", 
-          "p2": "Steve Rogers"
-        }, 
-        {
-          "desc": "Fury and Stark were in the group argument in the hellicarrier lab", 
-          "p1": "Nick Fury", 
-          "p2": "Tony Stark"
-        }, 
-        {
-          "desc": "Fury and Thor were in the group argument in the hellicarrier lab", 
-          "p1": "Nick Fury", 
-          "p2": "Thor"
-        }, 
-        {
-          "desc": "Fury and Sitwell were both on the hellicarrier bridge", 
-          "p1": "Nick Fury", 
+          "desc": "Sitwell recruited Bennie into SHIELD", 
+          "p1": "Bennie Pollock", 
           "p2": "Agent Sitwell"
         }, 
         {
-          "desc": "Mallick was on the Security Council and ordered Fury to nuke the Chitauri", 
-          "p1": "Nick Fury", 
-          "p2": "Gideon Mallick"
+          "desc": "Bennie was with Claire when she became Agent Blake's assistant", 
+          "p1": "Bennie Pollock", 
+          "p2": "Agent Blake"
         }, 
         {
-          "desc": "Hawley was on the Security Council and ordered Fury to nuke the Chitauri", 
-          "p1": "Nick Fury", 
-          "p2": "Councilwoman Hawley"
-        }, 
-        {
-          "desc": "Hill was on the hellicarrier bridge when Romanov arrived", 
-          "p1": "Maria Hill", 
-          "p2": "Natasha Romanoff"
-        }, 
-        {
-          "desc": "Hill was on the hellicarrier bridge when Bruce arrived", 
-          "p1": "Maria Hill", 
-          "p2": "Bruce Banner"
-        }, 
-        {
-          "desc": "Hill was on the hellicarrier bridge when Rogers arrived", 
-          "p1": "Maria Hill", 
-          "p2": "Steve Rogers"
-        }, 
-        {
-          "desc": "Hill was on the hellicarrier bridge when Tony arrived", 
-          "p1": "Maria Hill", 
-          "p2": "Tony Stark"
-        }, 
-        {
-          "desc": "Hill and Thor met on the hellicarrier bridge", 
-          "p1": "Maria Hill", 
-          "p2": "Thor"
-        }, 
-        {
-          "desc": "Hill and Sitwell were both working on the hellicarrier bridge", 
-          "p1": "Maria Hill", 
-          "p2": "Agent Sitwell"
-        }, 
-        {
-          "desc": "Barton went to retrieve Irridium at Selvigs request", 
-          "p1": "Erik Selvig", 
-          "p2": "Clint Barton"
-        }, 
-        {
-          "desc": "Selvig and Romanov shut down Loki's portal", 
-          "p1": "Erik Selvig", 
-          "p2": "Natasha Romanoff"
-        }, 
-        {
-          "desc": "Selvig and Bruce both saw Loki and Thor leave Earth", 
-          "p1": "Erik Selvig", 
-          "p2": "Bruce Banner"
-        }, 
-        {
-          "desc": "Selvig and Steve both saw Loki and Thor leave Earth", 
-          "p1": "Erik Selvig", 
-          "p2": "Steve Rogers"
-        }, 
-        {
-          "desc": "Tony tried to get Selvig to shut down the portal", 
-          "p1": "Erik Selvig", 
-          "p2": "Tony Stark"
-        }, 
-        {
-          "desc": "Selvig was in the group that saw Thor leave Earth with Loki", 
-          "p1": "Erik Selvig", 
-          "p2": "Thor"
-        }, 
-        {
-          "desc": "Hawkeye and Black widow founght together in Budapest", 
-          "p1": "Clint Barton", 
-          "p2": "Natasha Romanoff"
-        }, 
-        {
-          "desc": "Hawkeye and Hulk fought together in New York", 
-          "p1": "Clint Barton", 
-          "p2": "Bruce Banner"
-        }, 
-        {
-          "desc": "Hawkeye and Cap fought together in New York", 
-          "p1": "Clint Barton", 
-          "p2": "Steve Rogers"
-        }, 
-        {
-          "desc": "Tony flew Clint up to his vantage point", 
-          "p1": "Clint Barton", 
-          "p2": "Tony Stark"
-        }, 
-        {
-          "desc": "Hawkeye and Thor fought together in New York", 
-          "p1": "Clint Barton", 
-          "p2": "Thor"
-        }, 
-        {
-          "desc": "Romanov recruited Banner to find the tessaract", 
-          "p1": "Natasha Romanoff", 
-          "p2": "Bruce Banner"
-        }, 
-        {
-          "desc": "Steve gave Nat a boost to reach the portal", 
-          "p1": "Natasha Romanoff", 
-          "p2": "Steve Rogers"
-        }, 
-        {
-          "desc": "Tony and Natasha fought together in New York", 
-          "p1": "Natasha Romanoff", 
-          "p2": "Tony Stark"
-        }, 
-        {
-          "desc": "Romanov and Sitwell were on the hellicarrier bridge together", 
-          "p1": "Natasha Romanoff", 
-          "p2": "Agent Sitwell"
-        }, 
-        {
-          "desc": "...and Hulk, smash!", 
-          "p1": "Bruce Banner", 
-          "p2": "Steve Rogers"
-        }, 
-        {
-          "desc": "Hulk caught Tony after he flew through the portal", 
-          "p1": "Bruce Banner", 
-          "p2": "Tony Stark"
-        }, 
-        {
-          "desc": "Hulk and Thor fought on the hellicarrier", 
-          "p1": "Bruce Banner", 
-          "p2": "Thor"
-        }, 
-        {
-          "desc": "Sitwell was on the hellicarrier bridge when Banner arrived there", 
-          "p1": "Bruce Banner", 
-          "p2": "Agent Sitwell"
-        }, 
-        {
-          "desc": "Steve and Tony fought together in New York", 
-          "p1": "Steve Rogers", 
-          "p2": "Tony Stark"
-        }, 
-        {
-          "desc": "Thor and Steve fought in the forest", 
-          "p1": "Steve Rogers", 
-          "p2": "Thor"
-        }, 
-        {
-          "desc": "Sitwell was on the hellicarrier bridge when Steve arrived there", 
-          "p1": "Steve Rogers", 
-          "p2": "Agent Sitwell"
-        }, 
-        {
-          "desc": "Tony and Pepper had 12% of a moment", 
-          "p1": "Tony Stark", 
-          "p2": "Pepper Potts"
-        }, 
-        {
-          "desc": "JARVIS tried to call Pepper for Tony", 
-          "p1": "Tony Stark", 
-          "p2": "JARVIS"
-        }, 
-        {
-          "desc": "Tony and Thor fought in the forest", 
-          "p1": "Tony Stark", 
-          "p2": "Thor"
-        }, 
-        {
-          "desc": "JARVIS informed Pepper and Tony of Coulsons arrival", 
-          "p1": "Pepper Potts", 
-          "p2": "JARVIS"
-        }, 
-        {
-          "desc": "Mallick and Hawley served together on the Security Council", 
-          "p1": "Gideon Mallick", 
-          "p2": "Councilwoman Hawley"
+          "desc": "Blake sent Sitwell to retrieve the chitauri gun", 
+          "p1": "Agent Sitwell", 
+          "p2": "Agent Blake"
         }
       ], 
-      "name": "The Avengers"
-    }, 
-    {
-      "category": "Films", 
-      "characters": [
-        "Amadeus Cho", 
-        "Betty Ross", 
-        "Bruce Banner", 
-        "Emil Blonsky", 
-        "General Ross", 
-        "Joe Greller", 
-        "Kathleen Sparr", 
-        "Leonard Samson", 
-        "Martina", 
-        "Samuel Sterns", 
-        "Stanley Lieber", 
-        "Tony Stark"
-      ], 
-      "interactions": [
-        {
-          "desc": "Betty was Bruce's girlfriend before he became The Hulk", 
-          "p1": "Bruce Banner", 
-          "p2": "Betty Ross"
-        }, 
-        {
-          "desc": "Banner and Blonsky fought as Hulk and Abomination", 
-          "p1": "Bruce Banner", 
-          "p2": "Emil Blonsky"
-        }, 
-        {
-          "desc": "Ross let Bruce free so he could stop Blonsky", 
-          "p1": "Bruce Banner", 
-          "p2": "General Ross"
-        }, 
-        {
-          "desc": "Sterns helped Banner try to control The Hulk", 
-          "p1": "Bruce Banner", 
-          "p2": "Samuel Sterns"
-        }, 
-        {
-          "desc": "Leonard let Bruce stay with him", 
-          "p1": "Bruce Banner", 
-          "p2": "Leonard Samson"
-        }, 
-        {
-          "desc": "Bruce stayed at Stanley's pizzaria", 
-          "p1": "Bruce Banner", 
-          "p2": "Stanley Lieber"
-        }, 
-        {
-          "desc": "Martina and Bruce worked in the same Brazillian soda factory", 
-          "p1": "Bruce Banner", 
-          "p2": "Martina"
-        }, 
-        {
-          "desc": "Bruce bribed Cho with pizza to get onto the university computer network", 
-          "p1": "Bruce Banner", 
-          "p2": "Amadeus Cho"
-        }, 
-        {
-          "desc": "General Ross is Betty's father", 
-          "p1": "Betty Ross", 
-          "p2": "General Ross"
-        }, 
-        {
-          "desc": "Betty was with Bruce when he visited Sterns", 
-          "p1": "Betty Ross", 
-          "p2": "Samuel Sterns"
-        }, 
-        {
-          "desc": "Betty went out with Leonard after Bruce became The Hulk", 
-          "p1": "Betty Ross", 
-          "p2": "Leonard Samson"
-        }, 
-        {
-          "desc": "Betty and Bruce used to frequent Stanleys pizza restaurant", 
-          "p1": "Betty Ross", 
-          "p2": "Stanley Lieber"
-        }, 
-        {
-          "desc": "Blonsky was on Ross' team to catch The Hulk", 
-          "p1": "Emil Blonsky", 
-          "p2": "General Ross"
-        }, 
-        {
-          "desc": "Blonsky forced Sterns to turn him into Abominaton", 
-          "p1": "Emil Blonsky", 
-          "p2": "Samuel Sterns"
-        }, 
-        {
-          "desc": "Blonsky killed Sparr in Stern's lab", 
-          "p1": "Emil Blonsky", 
-          "p2": "Kathleen Sparr"
-        }, 
-        {
-          "desc": "Blonsky was recruited to hunt the Hulk by General Greller", 
-          "p1": "Emil Blonsky", 
-          "p2": "Joe Greller"
-        }, 
-        {
-          "desc": "Leonard called Ross to let him know where Banner was", 
-          "p1": "General Ross", 
-          "p2": "Leonard Samson"
-        }, 
-        {
-          "desc": "Stark spoke to Ross about putting a team together", 
-          "p1": "General Ross", 
-          "p2": "Tony Stark"
-        }, 
-        {
-          "desc": "Sparr informed Ross of the Hulk contaminated soda", 
-          "p1": "General Ross", 
-          "p2": "Kathleen Sparr"
-        }, 
-        {
-          "desc": "Greller assembled a strike team for Ross to hunt Hulk with", 
-          "p1": "General Ross", 
-          "p2": "Joe Greller"
-        }, 
-        {
-          "desc": "Sparr questioned Sterns after Banner was captured", 
-          "p1": "Samuel Sterns", 
-          "p2": "Kathleen Sparr"
-        }, 
-        {
-          "desc": "Leonard went to Stanley's pizza shop with Betty", 
-          "p1": "Leonard Samson", 
-          "p2": "Stanley Lieber"
-        }
-      ], 
-      "name": "The Incredible Hulk"
-    }, 
-    {
-      "category": "Films", 
-      "characters": [
-        "Algrim", 
-        "Bor", 
-        "Carina", 
-        "Darcy Lewis", 
-        "Eir", 
-        "Erik Selvig", 
-        "Fandral", 
-        "Frigga", 
-        "Heimdall", 
-        "Hogun", 
-        "Ian Boothby", 
-        "Jane Foster", 
-        "Loki", 
-        "Malekith", 
-        "Odin", 
-        "Richard", 
-        "Sif", 
-        "Stan Lee", 
-        "Steve Scott", 
-        "The Collector", 
-        "Thor", 
-        "Tyr", 
-        "Volstagg"
-      ], 
-      "interactions": [
-        {
-          "desc": "Algrim was Malekith's loyal subject", 
-          "p1": "Malekith", 
-          "p2": "Algrim"
-        }, 
-        {
-          "desc": "Bor defeated Malekith and hid the Aether", 
-          "p1": "Bor", 
-          "p2": "Malekith"
-        }, 
-        {
-          "desc": "Algrim was one of the Dark Elves who fought against Bor's army", 
-          "p1": "Bor", 
-          "p2": "Algrim"
-        }, 
-        {
-          "desc": "Bor was Odin's father", 
-          "p1": "Bor", 
-          "p2": "Odin"
-        }, 
-        {
-          "desc": "Frigga was Loki's adopted mother", 
-          "p1": "Loki", 
-          "p2": "Frigga"
-        }, 
-        {
-          "desc": "Odin was Loki's adopted father", 
-          "p1": "Loki", 
-          "p2": "Odin"
-        }, 
-        {
-          "desc": "Odin and Frigga were married", 
-          "p1": "Odin", 
-          "p2": "Frigga"
-        }, 
-        {
-          "desc": "Thor and Sif fought together on Vanaheim", 
-          "p1": "Thor", 
-          "p2": "Sif"
-        }, 
-        {
-          "desc": "Thor and Fandral fought together on Vanaheim", 
-          "p1": "Thor", 
-          "p2": "Fandral"
-        }, 
-        {
-          "desc": "Thor and Volstagg fought together on Vanaheim", 
-          "p1": "Thor", 
-          "p2": "Volstagg"
-        }, 
-        {
-          "desc": "Thor and Hogun fought together on Vanaheim", 
-          "p1": "Thor", 
-          "p2": "Hogun"
-        }, 
-        {
-          "desc": "Sif and Fandral fought together on Vanaheim", 
-          "p1": "Sif", 
-          "p2": "Fandral"
-        }, 
-        {
-          "desc": "Sif and Volstagg fought together on Vanaheim", 
-          "p1": "Sif", 
-          "p2": "Volstagg"
-        }, 
-        {
-          "desc": "Sif and Hogun fought together on Vanaheim", 
-          "p1": "Sif", 
-          "p2": "Hogun"
-        }, 
-        {
-          "desc": "Fandral and Volstagg fought together on Vanaheim", 
-          "p1": "Fandral", 
-          "p2": "Volstagg"
-        }, 
-        {
-          "desc": "Fandral and Hogun fought together on Vanaheim", 
-          "p1": "Fandral", 
-          "p2": "Hogun"
-        }, 
-        {
-          "desc": "Volstagg and Hogun fought together on Vanaheim", 
-          "p1": "Volstagg", 
-          "p2": "Hogun"
-        }, 
-        {
-          "desc": "Odin was Thor's Father", 
-          "p1": "Thor", 
-          "p2": "Odin"
-        }, 
-        {
-          "desc": "Frigga was Thor's Mother", 
-          "p1": "Thor", 
-          "p2": "Frigga"
-        }, 
-        {
-          "desc": "Heimdall opened the Bifrost to transport Thor to Midgard", 
-          "p1": "Heimdall", 
-          "p2": "Thor"
-        }, 
-        {
-          "desc": "Richard and Jane went on a date", 
-          "p1": "Richard", 
-          "p2": "Jane Foster"
-        }, 
-        {
-          "desc": "Darcy interrupted Richard's date with Jane Foster", 
-          "p1": "Darcy Lewis", 
-          "p2": "Richard"
-        }, 
-        {
-          "desc": "Darcy was Jane's intern", 
-          "p1": "Jane Foster", 
-          "p2": "Darcy Lewis"
-        }, 
-        {
-          "desc": "Ian was Darcy's intern", 
-          "p1": "Ian Boothby", 
-          "p2": "Darcy Lewis"
-        }, 
-        {
-          "desc": "Ian was Jane's intern's intern", 
-          "p1": "Ian Boothby", 
-          "p2": "Jane Foster"
-        }, 
-        {
-          "desc": "Scott was present and filed a report for ITV News when Selvig was arrested at Stonehenge", 
-          "p1": "Steve Scott", 
-          "p2": "Erik Selvig"
-        }, 
-        {
-          "desc": "Jane slapped Thor straight in the face, like, twice", 
-          "p1": "Jane Foster", 
-          "p2": "Thor"
-        }, 
-        {
-          "desc": "Darcy asked Thor how space was, because she is a person who cares about others' feelings", 
-          "p1": "Darcy Lewis", 
-          "p2": "Thor"
-        }, 
-        {
-          "desc": "Heimdall welcomed Jane to Asgard", 
-          "p1": "Heimdall", 
-          "p2": "Jane Foster"
-        }, 
-        {
-          "desc": "Eir examined Jane with the Soul Forge (Quantum Field Generator)", 
-          "p1": "Eir", 
-          "p2": "Jane Foster"
-        }, 
-        {
-          "desc": "Odin explained the Aether to Jane and Thor", 
-          "p1": "Odin", 
-          "p2": "Jane Foster"
-        }, 
-        {
-          "desc": "Odin and Eir spoke about Jane Foster's condition", 
-          "p1": "Odin", 
-          "p2": "Eir"
-        }, 
-        {
-          "desc": "Thor was present when Eir examined Jane Foster", 
-          "p1": "Thor", 
-          "p2": "Eir"
-        }, 
-        {
-          "desc": "Heimdall unknowingly opened the Bifrost to Algrim, who was posing as Volstagg and Fandral's prisoner", 
-          "p1": "Heimdall", 
-          "p2": "Algrim"
-        }, 
-        {
-          "desc": "Heimdall opened the Bifrost to Volstagg, Fandral, and their prisoners", 
-          "p1": "Heimdall", 
-          "p2": "Volstagg"
-        }, 
-        {
-          "desc": "Heimdall opened the Bifrost to Fandral, Volstagg, and their prisoners", 
-          "p1": "Heimdall", 
-          "p2": "Fandral"
-        }, 
-        {
-          "desc": "Volstagg and Fandral brought a disguised Algrim to Asgard as their prisoner", 
-          "p1": "Volstagg", 
-          "p2": "Algrim"
-        }, 
-        {
-          "desc": "Fandral and Volstagg brought a disguised Algrim to Asgard as their prisoner", 
-          "p1": "Fandral", 
-          "p2": "Algrim"
-        }, 
-        {
-          "desc": "Frigga protected Jane from Malekith and Kurse", 
-          "p1": "Jane Foster", 
-          "p2": "Frigga"
-        }, 
-        {
-          "desc": "Loki was present when Algrim transformed into Kurse", 
-          "p1": "Loki", 
-          "p2": "Algrim"
-        }, 
-        {
-          "desc": "Sif was present when Odin and Frigga spoke about Jane Foster", 
-          "p1": "Sif", 
-          "p2": "Frigga"
-        }, 
-        {
-          "desc": "Sif was present when Odin and Frigga spoke about Jane Foster", 
-          "p1": "Sif", 
-          "p2": "Odin"
-        }, 
-        {
-          "desc": "Sif helped Jane Foster escape from Asgard", 
-          "p1": "Sif", 
-          "p2": "Jane Foster"
-        }, 
-        {
-          "desc": "Malekith and Frigga fought over Jane Foster", 
-          "p1": "Malekith", 
-          "p2": "Frigga"
-        }, 
-        {
-          "desc": "Malekith removed the Aether from Jane Foster", 
-          "p1": "Malekith", 
-          "p2": "Jane Foster"
-        }, 
-        {
-          "desc": "Algrim, as Kurse, killed Frigga", 
-          "p1": "Algrim", 
-          "p2": "Frigga"
-        }, 
-        {
-          "desc": "Volstagg and Fandral attended Odin's meeting about the security of Asgard", 
-          "p1": "Volstagg", 
-          "p2": "Odin"
-        }, 
-        {
-          "desc": "Fandral told Odin that Asgard was all but defenseless", 
-          "p1": "Fandral", 
-          "p2": "Odin"
-        }, 
-        {
-          "desc": "Tyr and Volstagg both attended Frigga's funeral", 
-          "p1": "Tyr", 
-          "p2": "Volstagg"
-        }, 
-        {
-          "desc": "Tyr and Sif both attended Frigga's funeral", 
-          "p1": "Tyr", 
-          "p2": "Sif"
-        }, 
-        {
-          "desc": "Tyr and Fandral both attended Frigga's funeral", 
-          "p1": "Tyr", 
-          "p2": "Fandral"
-        }, 
-        {
-          "desc": "Tyr and Jane Foster both attended Frigga's funeral", 
-          "p1": "Tyr", 
-          "p2": "Jane Foster"
-        }, 
-        {
-          "desc": "Odin ordered Tyr to confine Jane Foster. Tyr is the God of War and was woefully overqualified for this.", 
-          "p1": "Tyr", 
-          "p2": "Odin"
-        }, 
-        {
-          "desc": "Tyr and Thor both attended Frigga's funeral", 
-          "p1": "Tyr", 
-          "p2": "Thor"
-        }, 
-        {
-          "desc": "Heimdall was present when Tyr informed Odin of Jane Foster's escape", 
-          "p1": "Tyr", 
-          "p2": "Heimdall"
-        }, 
-        {
-          "desc": "Heimdall informed Odin that he betrayed him and helped Thor", 
-          "p1": "Heimdall", 
-          "p2": "Odin"
-        }, 
-        {
-          "desc": "Erik borrows Stan's shoe in the psych ward", 
-          "p1": "Erik Selvig", 
-          "p2": "Stan Lee"
-        }, 
-        {
-          "desc": "Ian and Darcy got Erik released from the police custody", 
-          "p1": "Ian Boothby", 
-          "p2": "Erik Selvig"
-        }, 
-        {
-          "desc": "Darcy and Ian got Erik released from the police custody", 
-          "p1": "Darcy Lewis", 
-          "p2": "Erik Selvig"
-        }, 
-        {
-          "desc": "Thor and Loki were brothers", 
-          "p1": "Thor", 
-          "p2": "Loki"
-        }, 
-        {
-          "desc": "Sif threatened to kill Loki if he betrayed Thor", 
-          "p1": "Loki", 
-          "p2": "Sif"
-        }, 
-        {
-          "desc": "Fandral helped Loki escape from Asgard", 
-          "p1": "Loki", 
-          "p2": "Fandral"
-        }, 
-        {
-          "desc": "Volstag threatened to kill Loki if he betrayed Thor", 
-          "p1": "Loki", 
-          "p2": "Volstagg"
-        }, 
-        {
-          "desc": "Jane slapped Loki straight in the face", 
-          "p1": "Loki", 
-          "p2": "Jane Foster"
-        }, 
-        {
-          "desc": "Volstagg helped Jane Foster escape from Asgard", 
-          "p1": "Jane Foster", 
-          "p2": "Volstagg"
-        }, 
-        {
-          "desc": "Fandral helped Jane Foster escape from Asgard", 
-          "p1": "Jane Foster", 
-          "p2": "Fandral"
-        }, 
-        {
-          "desc": "Jane and Erik worked together science the heck out of stuff", 
-          "p1": "Jane Foster", 
-          "p2": "Erik Selvig"
-        }, 
-        {
-          "desc": "Thor informed Erik of Loki's \"death,\" much to Erik's relief", 
-          "p1": "Thor", 
-          "p2": "Erik Selvig"
-        }, 
-        {
-          "desc": "Ian and Thor met in Jane's lab", 
-          "p1": "Ian Boothby", 
-          "p2": "Thor"
-        }, 
-        {
-          "desc": "Algrim was present when Malekith removed the Aether from Jane Foster", 
-          "p1": "Algrim", 
-          "p2": "Jane Foster"
-        }, 
-        {
-          "desc": "Thor and Malekith fought a battle that spanned multiple realms", 
-          "p1": "Thor", 
-          "p2": "Malekith"
-        }, 
-        {
-          "desc": "Thor fought Algrim on Svartalfheim", 
-          "p1": "Thor", 
-          "p2": "Algrim"
-        }, 
-        {
-          "desc": "Loki helped Thor trick Malekith (for all the good it did)", 
-          "p1": "Loki", 
-          "p2": "Malekith"
-        }, 
-        {
-          "desc": "Thor was present while Jane Foster was on speakerphone with Richard", 
-          "p1": "Thor", 
-          "p2": "Richard"
-        }, 
-        {
-          "desc": "Darcy helped Thor fight Malekith in Greenwich", 
-          "p1": "Darcy Lewis", 
-          "p2": "Malekith"
-        }, 
-        {
-          "desc": "Ian helped Thor fight Malekith in Greenwich", 
-          "p1": "Ian Boothby", 
-          "p2": "Malekith"
-        }, 
-        {
-          "desc": "Erik helped Thor fight Malekith in Greenwich", 
-          "p1": "Erik Selvig", 
-          "p2": "Malekith"
-        }, 
-        {
-          "desc": "Sif and Volstagg delivered the Aether to The Collector", 
-          "p1": "The Collector", 
-          "p2": "Sif"
-        }, 
-        {
-          "desc": "Volstagg and Sif delivered the Aether to The Collector", 
-          "p1": "The Collector", 
-          "p2": "Volstagg"
-        }, 
-        {
-          "desc": "Carina presented Sif and Volstagg to The Collector", 
-          "p1": "Carina", 
-          "p2": "Sif"
-        }, 
-        {
-          "desc": "Carina presented Sif and Volstagg to The Collector", 
-          "p1": "Carina", 
-          "p2": "Volstagg"
-        }, 
-        {
-          "desc": "Carina presented Sif and Volstagg to The Collector", 
-          "p1": "The Collector", 
-          "p2": "Carina"
-        }
-      ], 
-      "name": "Thor The Dark World"
-    }, 
-    {
-      "category": "Films", 
-      "characters": [
-        "Agent Coulson", 
-        "Agent Sitwell", 
-        "Bruce Banner", 
-        "Clint Barton", 
-        "Darcy Lewis", 
-        "Erik Selvig", 
-        "Fandral", 
-        "Frigga", 
-        "Heimdall", 
-        "Hogun", 
-        "Jane Foster", 
-        "Laufey", 
-        "Loki", 
-        "Odin", 
-        "Sif", 
-        "Thor", 
-        "Volstagg"
-      ], 
-      "interactions": [
-        {
-          "desc": "Thor and Loki are adopted brothers", 
-          "p1": "Thor", 
-          "p2": "Loki"
-        }, 
-        {
-          "desc": "Thor is Odin's son", 
-          "p1": "Thor", 
-          "p2": "Odin"
-        }, 
-        {
-          "desc": "Thor is Frigga's son", 
-          "p1": "Thor", 
-          "p2": "Frigga"
-        }, 
-        {
-          "desc": "Thor and Sif fought together in Jotunheim", 
-          "p1": "Thor", 
-          "p2": "Sif"
-        }, 
-        {
-          "desc": "Thor and Volstagg fought together in Jotunheim", 
-          "p1": "Thor", 
-          "p2": "Volstagg"
-        }, 
-        {
-          "desc": "Thor and Hogun fought together in Jotunheim", 
-          "p1": "Thor", 
-          "p2": "Hogun"
-        }, 
-        {
-          "desc": "Thor and Fandral fought together in Jotunheim", 
-          "p1": "Thor", 
-          "p2": "Fandral"
-        }, 
-        {
-          "desc": "Jane drove into Thor twice", 
-          "p1": "Thor", 
-          "p2": "Jane Foster"
-        }, 
-        {
-          "desc": "Darcy tased Thor when he landed on earth", 
-          "p1": "Thor", 
-          "p2": "Darcy Lewis"
-        }, 
-        {
-          "desc": "Thor and Erik drank, fought, and made their ancestors proud", 
-          "p1": "Thor", 
-          "p2": "Erik Selvig"
-        }, 
-        {
-          "desc": "Agent Coulson interrogated Thor", 
-          "p1": "Thor", 
-          "p2": "Agent Coulson"
-        }, 
-        {
-          "desc": "Sitwell interrupted Coulson's interrogation of Thor", 
-          "p1": "Thor", 
-          "p2": "Agent Sitwell"
-        }, 
-        {
-          "desc": "Thor fought Laufey and his men on Jotunheim", 
-          "p1": "Thor", 
-          "p2": "Laufey"
-        }, 
-        {
-          "desc": "Heimdall sent Thor to Jotunheim through the bifrost", 
-          "p1": "Thor", 
-          "p2": "Heimdall"
-        }, 
-        {
-          "desc": "Odin adopted Loki", 
-          "p1": "Loki", 
-          "p2": "Odin"
-        }, 
-        {
-          "desc": "Frigga is Loki's adopted mother", 
-          "p1": "Loki", 
-          "p2": "Frigga"
-        }, 
-        {
-          "desc": "Loki and Sif fought together in Jotunheim", 
-          "p1": "Loki", 
-          "p2": "Sif"
-        }, 
-        {
-          "desc": "Loki and Volstagg fought together in Jotunheim", 
-          "p1": "Loki", 
-          "p2": "Volstagg"
-        }, 
-        {
-          "desc": "Loki and Hogun fought together in Jotunheim", 
-          "p1": "Loki", 
-          "p2": "Hogun"
-        }, 
-        {
-          "desc": "Loki and Fandral fought together in Jotunheim", 
-          "p1": "Loki", 
-          "p2": "Fandral"
-        }, 
-        {
-          "desc": "Laufey is Loki's father", 
-          "p1": "Loki", 
-          "p2": "Laufey"
-        }, 
-        {
-          "desc": "Heimdall sent Loki to Jotunheim through the bifrost", 
-          "p1": "Loki", 
-          "p2": "Heimdall"
-        }, 
-        {
-          "desc": "Odin and Frigga are married", 
-          "p1": "Odin", 
-          "p2": "Frigga"
-        }, 
-        {
-          "desc": "Odin retrieved Sif from the fight in Jotunheim", 
-          "p1": "Odin", 
-          "p2": "Sif"
-        }, 
-        {
-          "desc": "Odin retrieved Volstagg from the fight in Jotunheim", 
-          "p1": "Odin", 
-          "p2": "Volstagg"
-        }, 
-        {
-          "desc": "Odin retrieved Hogun from the fight in Jotunheim", 
-          "p1": "Odin", 
-          "p2": "Hogun"
-        }, 
-        {
-          "desc": "Odin retrieved Fandral from the fight in Jotunheim", 
-          "p1": "Odin", 
-          "p2": "Fandral"
-        }, 
-        {
-          "desc": "Odin and Laufey spoke in Jotunheim", 
-          "p1": "Odin", 
-          "p2": "Laufey"
-        }, 
-        {
-          "desc": "Heimdall serves Odin as gatekeeper", 
-          "p1": "Odin", 
-          "p2": "Heimdall"
-        }, 
-        {
-          "desc": "Frigga and Sif were together at Thor's coronation", 
-          "p1": "Frigga", 
-          "p2": "Sif"
-        }, 
-        {
-          "desc": "Frigga stood opposite Volstagg at Thor's coronation", 
-          "p1": "Frigga", 
-          "p2": "Volstagg"
-        }, 
-        {
-          "desc": "Frigga stood opposite Hogun at Thor's coronation", 
-          "p1": "Frigga", 
-          "p2": "Hogun"
-        }, 
-        {
-          "desc": "Frigga stood opposite Fandral at Thor's coronation", 
-          "p1": "Frigga", 
-          "p2": "Fandral"
-        }, 
-        {
-          "desc": "Laufey fought Frigga trying to get to Odin", 
-          "p1": "Frigga", 
-          "p2": "Laufey"
-        }, 
-        {
-          "desc": "Sif and Volstagg fought together in Jotunheim", 
-          "p1": "Sif", 
-          "p2": "Volstagg"
-        }, 
-        {
-          "desc": "Sif and Hogun fought together in Jotunheim", 
-          "p1": "Sif", 
-          "p2": "Hogun"
-        }, 
-        {
-          "desc": "Sif and Fandral fought together in Jotunheim", 
-          "p1": "Sif", 
-          "p2": "Fandral"
-        }, 
-        {
-          "desc": "Sif met Jane when getting Thor back from Earth", 
-          "p1": "Sif", 
-          "p2": "Jane Foster"
-        }, 
-        {
-          "desc": "Sif met Darcy when getting Thor back from Earth", 
-          "p1": "Sif", 
-          "p2": "Darcy Lewis"
-        }, 
-        {
-          "desc": "Sif met Erik when getting Thor back from Earth", 
-          "p1": "Sif", 
-          "p2": "Erik Selvig"
-        }, 
-        {
-          "desc": "Sif was with Thor and Coulson after the destroyer fight", 
-          "p1": "Sif", 
-          "p2": "Agent Coulson"
-        }, 
-        {
-          "desc": "Sif fought Laufey and his men on Jotunheim", 
-          "p1": "Sif", 
-          "p2": "Laufey"
-        }, 
-        {
-          "desc": "Heimdall sent Sif to Jotunheim through the bifrost", 
-          "p1": "Sif", 
-          "p2": "Heimdall"
-        }, 
-        {
-          "desc": "Volstagg and Hogun fought together in Jotunheim", 
-          "p1": "Volstagg", 
-          "p2": "Hogun"
-        }, 
-        {
-          "desc": "Volstagg and Fandral fought together in Jotunheim", 
-          "p1": "Volstagg", 
-          "p2": "Fandral"
-        }, 
-        {
-          "desc": "Volstagg met Jane when getting Thor back from Earth", 
-          "p1": "Volstagg", 
-          "p2": "Jane Foster"
-        }, 
-        {
-          "desc": "Volstagg met Darcy when getting Thor back from Earth", 
-          "p1": "Volstagg", 
-          "p2": "Darcy Lewis"
-        }, 
-        {
-          "desc": "Volstagg met Erik when getting Thor back from Earth", 
-          "p1": "Volstagg", 
-          "p2": "Erik Selvig"
-        }, 
-        {
-          "desc": "Volstagg was with Thor and Coulson after the destroyer fight", 
-          "p1": "Volstagg", 
-          "p2": "Agent Coulson"
-        }, 
-        {
-          "desc": "Volstagg fought Laufey and his men on Jotunheim", 
-          "p1": "Volstagg", 
-          "p2": "Laufey"
-        }, 
-        {
-          "desc": "Heimdall sent Volstagg to Jotunheim through the bifrost", 
-          "p1": "Volstagg", 
-          "p2": "Heimdall"
-        }, 
-        {
-          "desc": "Hogun and Fandral fought together in Jotunheim", 
-          "p1": "Hogun", 
-          "p2": "Fandral"
-        }, 
-        {
-          "desc": "Hogun met Jane when getting Thor back from Earth", 
-          "p1": "Hogun", 
-          "p2": "Jane Foster"
-        }, 
-        {
-          "desc": "Hogun met Darcy when getting Thor back from Earth", 
-          "p1": "Hogun", 
-          "p2": "Darcy Lewis"
-        }, 
-        {
-          "desc": "Hogun met Erik when getting Thor back from Earth", 
-          "p1": "Hogun", 
-          "p2": "Erik Selvig"
-        }, 
-        {
-          "desc": "Hogun was with Thor and Coulson after the destroyer fight", 
-          "p1": "Hogun", 
-          "p2": "Agent Coulson"
-        }, 
-        {
-          "desc": "Hogun fought Laufey and his men on Jotunheim", 
-          "p1": "Hogun", 
-          "p2": "Laufey"
-        }, 
-        {
-          "desc": "Heimdall sent Hogun to Jotunheim through the bifrost", 
-          "p1": "Hogun", 
-          "p2": "Heimdall"
-        }, 
-        {
-          "desc": "Fandral met Jane when getting Thor back from Earth", 
-          "p1": "Fandral", 
-          "p2": "Jane Foster"
-        }, 
-        {
-          "desc": "Fandral met Darcy when getting Thor back from Earth", 
-          "p1": "Fandral", 
-          "p2": "Darcy Lewis"
-        }, 
-        {
-          "desc": "Fandral met Erik when getting Thor back from Earth", 
-          "p1": "Fandral", 
-          "p2": "Erik Selvig"
-        }, 
-        {
-          "desc": "Fandral was with Thor and Coulson after the destroyer fight", 
-          "p1": "Fandral", 
-          "p2": "Agent Coulson"
-        }, 
-        {
-          "desc": "Fandral fought Laufey and his men on Jotunheim", 
-          "p1": "Fandral", 
-          "p2": "Laufey"
-        }, 
-        {
-          "desc": "Heimdall sent Fandral to Jotunheim through the bifrost", 
-          "p1": "Fandral", 
-          "p2": "Heimdall"
-        }, 
-        {
-          "desc": "Darcy is Jane's intern", 
-          "p1": "Jane Foster", 
-          "p2": "Darcy Lewis"
-        }, 
-        {
-          "desc": "Jane and Selvig are research colleagues", 
-          "p1": "Jane Foster", 
-          "p2": "Erik Selvig"
-        }, 
-        {
-          "desc": "Coulson borrowed Jane's research", 
-          "p1": "Jane Foster", 
-          "p2": "Agent Coulson"
-        }, 
-        {
-          "desc": "Sitwell was in the team that took Jane's research", 
-          "p1": "Jane Foster", 
-          "p2": "Agent Sitwell"
-        }, 
-        {
-          "desc": "Darcy worked with Selvig as Jane's intern", 
-          "p1": "Darcy Lewis", 
-          "p2": "Erik Selvig"
-        }, 
-        {
-          "desc": "Coulson and SHIELD took Darcy's iPod", 
-          "p1": "Darcy Lewis", 
-          "p2": "Agent Coulson"
-        }, 
-        {
-          "desc": "Sitwell and SHIELD took Darcy's iPod", 
-          "p1": "Darcy Lewis", 
-          "p2": "Agent Sitwell"
-        }, 
-        {
-          "desc": "Selvig spoke with Coulson to get Thor out of captivity", 
-          "p1": "Erik Selvig", 
-          "p2": "Agent Coulson"
-        }, 
-        {
-          "desc": "Sitwell was in the team that took Jane and Erik's research", 
-          "p1": "Erik Selvig", 
-          "p2": "Agent Sitwell"
-        }, 
-        {
-          "desc": "Selvig used to work with Bruce", 
-          "p1": "Erik Selvig", 
-          "p2": "Bruce Banner"
-        }, 
-        {
-          "desc": "Coulson and Sitwell are colleagues", 
-          "p1": "Agent Coulson", 
-          "p2": "Agent Sitwell"
-        }, 
-        {
-          "desc": "Coulson ordered Barton to observe Thor", 
-          "p1": "Agent Coulson", 
-          "p2": "Clint Barton"
-        }, 
-        {
-          "desc": "Laufey walked past the frozen Heimdall on entering Asgard", 
-          "p1": "Laufey", 
-          "p2": "Heimdall"
-        }
-      ], 
-      "name": "Thor"
+      "name": "Item 47"
     }, 
     {
       "category": "Netflix", 
@@ -4936,179 +4196,360 @@ return {
       "name": "Jessica Jones"
     }, 
     {
-      "category": "One-shots", 
+      "category": "Films", 
       "characters": [
-        "Agent Coulson"
-      ], 
-      "interactions": [
-        {
-          "desc": "", 
-          "p1": "Agent Coulson", 
-          "p2": "Agent Coulson"
-        }
-      ], 
-      "name": "A Funny Thing Happened..."
-    }, 
-    {
-      "category": "One-shots", 
-      "characters": [
-        "Dum Dum Dugan", 
-        "Howard Stark", 
-        "Peggy Carter"
-      ], 
-      "interactions": [
-        {
-          "desc": "Howard recruited Peggy to found SHIELD", 
-          "p1": "Peggy Carter", 
-          "p2": "Howard Stark"
-        }, 
-        {
-          "desc": "Howard introduced Dugan to the bikini", 
-          "p1": "Howard Stark", 
-          "p2": "Dum Dum Dugan"
-        }
-      ], 
-      "name": "Agent Carter"
-    }, 
-    {
-      "category": "One-shots", 
-      "characters": [
-        "Fletcher Heggs", 
-        "Jackson Norriss (10 rings)", 
-        "Justin Hammer", 
-        "Priscilla Everhart", 
-        "Prisoner Herman", 
-        "Rick Hawkins", 
-        "Sean Connery", 
-        "The Mandarin", 
-        "Trevor Slattery", 
-        "White Power Dave"
-      ], 
-      "interactions": [
-        {
-          "desc": "Norriss interviewed Slattery in prison", 
-          "p1": "Jackson Norriss (10 rings)", 
-          "p2": "Trevor Slattery"
-        }, 
-        {
-          "desc": "Herman acted as a butler for Slattery in prison", 
-          "p1": "Prisoner Herman", 
-          "p2": "Trevor Slattery"
-        }, 
-        {
-          "desc": "Slattery walked into Dave with his lunch tray", 
-          "p1": "White Power Dave", 
-          "p2": "Trevor Slattery"
-        }, 
-        {
-          "desc": "Herman prevented Dave attacking Slattery", 
-          "p1": "White Power Dave", 
-          "p2": "Prisoner Herman"
-        }, 
-        {
-          "desc": "Fletcher was in Trevor's fan club and backed him up against Dave", 
-          "p1": "White Power Dave", 
-          "p2": "Fletcher Heggs"
-        }, 
-        {
-          "desc": "Herman and Fletcher were both fans of Trevor's mandarin", 
-          "p1": "Prisoner Herman", 
-          "p2": "Fletcher Heggs"
-        }, 
-        {
-          "desc": "Herman was present when Norriss interviewed Slattery", 
-          "p1": "Prisoner Herman", 
-          "p2": "Jackson Norriss (10 rings)"
-        }, 
-        {
-          "desc": "Trevor and Priscilla both starred in an unaired TV pilot", 
-          "p1": "Trevor Slattery", 
-          "p2": "Priscilla Everhart"
-        }, 
-        {
-          "desc": "Rick and Trevor both starred in an unaired TV pilot", 
-          "p1": "Trevor Slattery", 
-          "p2": "Rick Hawkins"
-        }, 
-        {
-          "desc": "Priscilla and Rick both starred in an unaired TV pilot", 
-          "p1": "Priscilla Everhart", 
-          "p2": "Rick Hawkins"
-        }, 
-        {
-          "desc": "Trevor and Sean met on set once", 
-          "p1": "Trevor Slattery", 
-          "p2": "Sean Connery"
-        }, 
-        {
-          "desc": "The Mandarin sent Norriss to break Slattery out of prison", 
-          "p1": "The Mandarin", 
-          "p2": "Jackson Norriss (10 rings)"
-        }, 
-        {
-          "desc": "Trevor and Justin were together in Seagate prison", 
-          "p1": "Justin Hammer", 
-          "p2": "Trevor Slattery"
-        }, 
-        {
-          "desc": "Justin Hammer and Herman were together in Seagate prison", 
-          "p1": "Justin Hammer", 
-          "p2": "Prisoner Herman"
-        }, 
-        {
-          "desc": "Justin and Dave were together in Seagate prison", 
-          "p1": "Justin Hammer", 
-          "p2": "White Power Dave"
-        }, 
-        {
-          "desc": "Justin and Fletcher were together in Seagate prison", 
-          "p1": "Justin Hammer", 
-          "p2": "Fletcher Heggs"
-        }
-      ], 
-      "name": "All Hail the King"
-    }, 
-    {
-      "category": "One-shots", 
-      "characters": [
-        "Agent Blake", 
+        "Agent Coulson", 
         "Agent Sitwell", 
-        "Bennie Pollock", 
-        "Claire Weiss"
+        "Bruce Banner", 
+        "Clint Barton", 
+        "Councilwoman Hawley", 
+        "Erik Selvig", 
+        "Gideon Mallick", 
+        "JARVIS", 
+        "Loki", 
+        "Maria Hill", 
+        "Natasha Romanoff", 
+        "Nick Fury", 
+        "Pepper Potts", 
+        "Steve Rogers", 
+        "Thanos", 
+        "The Other", 
+        "Thor", 
+        "Tony Stark"
       ], 
       "interactions": [
         {
-          "desc": "Claire and Bennie robbed banks together", 
-          "p1": "Claire Weiss", 
-          "p2": "Bennie Pollock"
+          "desc": "The Other told Thanos about the tesseract", 
+          "p1": "The Other", 
+          "p2": "Thanos"
         }, 
         {
-          "desc": "Sitwell recruited Claire into SHIELD", 
-          "p1": "Claire Weiss", 
+          "desc": "The Other handed Loki his scepter", 
+          "p1": "The Other", 
+          "p2": "Loki"
+        }, 
+        {
+          "desc": "Thanos sent Loki to retrieve the tesseract", 
+          "p1": "Thanos", 
+          "p2": "Loki"
+        }, 
+        {
+          "desc": "Loki killed Agent Coulson", 
+          "p1": "Loki", 
+          "p2": "Agent Coulson"
+        }, 
+        {
+          "desc": "An ant has no quarrel with a boot", 
+          "p1": "Loki", 
+          "p2": "Nick Fury"
+        }, 
+        {
+          "desc": "Loki mind controlled Dr Selvig", 
+          "p1": "Loki", 
+          "p2": "Erik Selvig"
+        }, 
+        {
+          "desc": "Loki mind controlled Hawkeye", 
+          "p1": "Loki", 
+          "p2": "Clint Barton"
+        }, 
+        {
+          "desc": "Natasha interrogated Loki", 
+          "p1": "Loki", 
+          "p2": "Natasha Romanoff"
+        }, 
+        {
+          "desc": "Puny god.", 
+          "p1": "Loki", 
+          "p2": "Bruce Banner"
+        }, 
+        {
+          "desc": "Loki and Cap fought in Germany", 
+          "p1": "Loki", 
+          "p2": "Steve Rogers"
+        }, 
+        {
+          "desc": "Tony tried to threaten Loki before the battle of New York", 
+          "p1": "Loki", 
+          "p2": "Tony Stark"
+        }, 
+        {
+          "desc": "Thor stole Loki from the quinjet", 
+          "p1": "Loki", 
+          "p2": "Thor"
+        }, 
+        {
+          "desc": "Coulson welcomed Fury to SHIELD's research facility", 
+          "p1": "Agent Coulson", 
+          "p2": "Nick Fury"
+        }, 
+        {
+          "desc": "Coulson welcomed Hill to SHIELD's research facility", 
+          "p1": "Agent Coulson", 
+          "p2": "Maria Hill"
+        }, 
+        {
+          "desc": "Coulson sent Romanov to recruit Dr Banner", 
+          "p1": "Agent Coulson", 
+          "p2": "Natasha Romanoff"
+        }, 
+        {
+          "desc": "Banner was on the hellicarrier bridge when Coulson arrived with Tony", 
+          "p1": "Agent Coulson", 
+          "p2": "Bruce Banner"
+        }, 
+        {
+          "desc": "Steve agreed to sign Coulson's trading cards", 
+          "p1": "Agent Coulson", 
+          "p2": "Steve Rogers"
+        }, 
+        {
+          "desc": "Coulson brought Stark his homework", 
+          "p1": "Agent Coulson", 
+          "p2": "Tony Stark"
+        }, 
+        {
+          "desc": "Coulson gave Pepper a lift to the airport", 
+          "p1": "Agent Coulson", 
+          "p2": "Pepper Potts"
+        }, 
+        {
+          "desc": "Coulson overrode JARVIS telephone protocols to call Tony", 
+          "p1": "Agent Coulson", 
+          "p2": "JARVIS"
+        }, 
+        {
+          "desc": "Thor and Coulson discussed Bilgesnipe on the hellicarrier bridge", 
+          "p1": "Agent Coulson", 
+          "p2": "Thor"
+        }, 
+        {
+          "desc": "Sitwell and Coulson worked together on the hellicarrier bridge", 
+          "p1": "Agent Coulson", 
           "p2": "Agent Sitwell"
         }, 
         {
-          "desc": "Claire became Blake's assistant", 
-          "p1": "Claire Weiss", 
-          "p2": "Agent Blake"
+          "desc": "Fury has Hill get the phase 2 prototypes to safety", 
+          "p1": "Nick Fury", 
+          "p2": "Maria Hill"
         }, 
         {
-          "desc": "Sitwell recruited Bennie into SHIELD", 
-          "p1": "Bennie Pollock", 
+          "desc": "Selvig briefs Fury about the tessaract's misbehaviour", 
+          "p1": "Nick Fury", 
+          "p2": "Erik Selvig"
+        }, 
+        {
+          "desc": "Barton shot Fury and stole the tessaract", 
+          "p1": "Nick Fury", 
+          "p2": "Clint Barton"
+        }, 
+        {
+          "desc": "Fury had Romanov show Banner to his lab", 
+          "p1": "Nick Fury", 
+          "p2": "Natasha Romanoff"
+        }, 
+        {
+          "desc": "Fury welcomed Bruce to the hellicarrier bridge", 
+          "p1": "Nick Fury", 
+          "p2": "Bruce Banner"
+        }, 
+        {
+          "desc": "Fury went to Steve's gym to recruit him", 
+          "p1": "Nick Fury", 
+          "p2": "Steve Rogers"
+        }, 
+        {
+          "desc": "Fury and Stark were in the group argument in the hellicarrier lab", 
+          "p1": "Nick Fury", 
+          "p2": "Tony Stark"
+        }, 
+        {
+          "desc": "Fury and Thor were in the group argument in the hellicarrier lab", 
+          "p1": "Nick Fury", 
+          "p2": "Thor"
+        }, 
+        {
+          "desc": "Fury and Sitwell were both on the hellicarrier bridge", 
+          "p1": "Nick Fury", 
           "p2": "Agent Sitwell"
         }, 
         {
-          "desc": "Bennie was with Claire when she became Agent Blake's assistant", 
-          "p1": "Bennie Pollock", 
-          "p2": "Agent Blake"
+          "desc": "Mallick was on the Security Council and ordered Fury to nuke the Chitauri", 
+          "p1": "Nick Fury", 
+          "p2": "Gideon Mallick"
         }, 
         {
-          "desc": "Blake sent Sitwell to retrieve the chitauri gun", 
-          "p1": "Agent Sitwell", 
-          "p2": "Agent Blake"
+          "desc": "Hawley was on the Security Council and ordered Fury to nuke the Chitauri", 
+          "p1": "Nick Fury", 
+          "p2": "Councilwoman Hawley"
+        }, 
+        {
+          "desc": "Hill was on the hellicarrier bridge when Romanov arrived", 
+          "p1": "Maria Hill", 
+          "p2": "Natasha Romanoff"
+        }, 
+        {
+          "desc": "Hill was on the hellicarrier bridge when Bruce arrived", 
+          "p1": "Maria Hill", 
+          "p2": "Bruce Banner"
+        }, 
+        {
+          "desc": "Hill was on the hellicarrier bridge when Rogers arrived", 
+          "p1": "Maria Hill", 
+          "p2": "Steve Rogers"
+        }, 
+        {
+          "desc": "Hill was on the hellicarrier bridge when Tony arrived", 
+          "p1": "Maria Hill", 
+          "p2": "Tony Stark"
+        }, 
+        {
+          "desc": "Hill and Thor met on the hellicarrier bridge", 
+          "p1": "Maria Hill", 
+          "p2": "Thor"
+        }, 
+        {
+          "desc": "Hill and Sitwell were both working on the hellicarrier bridge", 
+          "p1": "Maria Hill", 
+          "p2": "Agent Sitwell"
+        }, 
+        {
+          "desc": "Barton went to retrieve Irridium at Selvigs request", 
+          "p1": "Erik Selvig", 
+          "p2": "Clint Barton"
+        }, 
+        {
+          "desc": "Selvig and Romanov shut down Loki's portal", 
+          "p1": "Erik Selvig", 
+          "p2": "Natasha Romanoff"
+        }, 
+        {
+          "desc": "Selvig and Bruce both saw Loki and Thor leave Earth", 
+          "p1": "Erik Selvig", 
+          "p2": "Bruce Banner"
+        }, 
+        {
+          "desc": "Selvig and Steve both saw Loki and Thor leave Earth", 
+          "p1": "Erik Selvig", 
+          "p2": "Steve Rogers"
+        }, 
+        {
+          "desc": "Tony tried to get Selvig to shut down the portal", 
+          "p1": "Erik Selvig", 
+          "p2": "Tony Stark"
+        }, 
+        {
+          "desc": "Selvig was in the group that saw Thor leave Earth with Loki", 
+          "p1": "Erik Selvig", 
+          "p2": "Thor"
+        }, 
+        {
+          "desc": "Hawkeye and Black widow founght together in Budapest", 
+          "p1": "Clint Barton", 
+          "p2": "Natasha Romanoff"
+        }, 
+        {
+          "desc": "Hawkeye and Hulk fought together in New York", 
+          "p1": "Clint Barton", 
+          "p2": "Bruce Banner"
+        }, 
+        {
+          "desc": "Hawkeye and Cap fought together in New York", 
+          "p1": "Clint Barton", 
+          "p2": "Steve Rogers"
+        }, 
+        {
+          "desc": "Tony flew Clint up to his vantage point", 
+          "p1": "Clint Barton", 
+          "p2": "Tony Stark"
+        }, 
+        {
+          "desc": "Hawkeye and Thor fought together in New York", 
+          "p1": "Clint Barton", 
+          "p2": "Thor"
+        }, 
+        {
+          "desc": "Romanov recruited Banner to find the tessaract", 
+          "p1": "Natasha Romanoff", 
+          "p2": "Bruce Banner"
+        }, 
+        {
+          "desc": "Steve gave Nat a boost to reach the portal", 
+          "p1": "Natasha Romanoff", 
+          "p2": "Steve Rogers"
+        }, 
+        {
+          "desc": "Tony and Natasha fought together in New York", 
+          "p1": "Natasha Romanoff", 
+          "p2": "Tony Stark"
+        }, 
+        {
+          "desc": "Romanov and Sitwell were on the hellicarrier bridge together", 
+          "p1": "Natasha Romanoff", 
+          "p2": "Agent Sitwell"
+        }, 
+        {
+          "desc": "...and Hulk, smash!", 
+          "p1": "Bruce Banner", 
+          "p2": "Steve Rogers"
+        }, 
+        {
+          "desc": "Hulk caught Tony after he flew through the portal", 
+          "p1": "Bruce Banner", 
+          "p2": "Tony Stark"
+        }, 
+        {
+          "desc": "Hulk and Thor fought on the hellicarrier", 
+          "p1": "Bruce Banner", 
+          "p2": "Thor"
+        }, 
+        {
+          "desc": "Sitwell was on the hellicarrier bridge when Banner arrived there", 
+          "p1": "Bruce Banner", 
+          "p2": "Agent Sitwell"
+        }, 
+        {
+          "desc": "Steve and Tony fought together in New York", 
+          "p1": "Steve Rogers", 
+          "p2": "Tony Stark"
+        }, 
+        {
+          "desc": "Thor and Steve fought in the forest", 
+          "p1": "Steve Rogers", 
+          "p2": "Thor"
+        }, 
+        {
+          "desc": "Sitwell was on the hellicarrier bridge when Steve arrived there", 
+          "p1": "Steve Rogers", 
+          "p2": "Agent Sitwell"
+        }, 
+        {
+          "desc": "Tony and Pepper had 12% of a moment", 
+          "p1": "Tony Stark", 
+          "p2": "Pepper Potts"
+        }, 
+        {
+          "desc": "JARVIS tried to call Pepper for Tony", 
+          "p1": "Tony Stark", 
+          "p2": "JARVIS"
+        }, 
+        {
+          "desc": "Tony and Thor fought in the forest", 
+          "p1": "Tony Stark", 
+          "p2": "Thor"
+        }, 
+        {
+          "desc": "JARVIS informed Pepper and Tony of Coulsons arrival", 
+          "p1": "Pepper Potts", 
+          "p2": "JARVIS"
+        }, 
+        {
+          "desc": "Mallick and Hawley served together on the Security Council", 
+          "p1": "Gideon Mallick", 
+          "p2": "Councilwoman Hawley"
         }
       ], 
-      "name": "Item 47"
+      "name": "The Avengers"
     }, 
     {
       "category": "One-shots", 
@@ -5131,6 +4572,987 @@ return {
         }
       ], 
       "name": "The Consultant"
+    }, 
+    {
+      "category": "Films", 
+      "characters": [
+        "Amadeus Cho", 
+        "Betty Ross", 
+        "Bruce Banner", 
+        "Emil Blonsky", 
+        "General Ross", 
+        "Joe Greller", 
+        "Kathleen Sparr", 
+        "Leonard Samson", 
+        "Martina", 
+        "Samuel Sterns", 
+        "Stanley Lieber", 
+        "Tony Stark"
+      ], 
+      "interactions": [
+        {
+          "desc": "Betty was Bruce's girlfriend before he became The Hulk", 
+          "p1": "Bruce Banner", 
+          "p2": "Betty Ross"
+        }, 
+        {
+          "desc": "Banner and Blonsky fought as Hulk and Abomination", 
+          "p1": "Bruce Banner", 
+          "p2": "Emil Blonsky"
+        }, 
+        {
+          "desc": "Ross let Bruce free so he could stop Blonsky", 
+          "p1": "Bruce Banner", 
+          "p2": "General Ross"
+        }, 
+        {
+          "desc": "Sterns helped Banner try to control The Hulk", 
+          "p1": "Bruce Banner", 
+          "p2": "Samuel Sterns"
+        }, 
+        {
+          "desc": "Leonard let Bruce stay with him", 
+          "p1": "Bruce Banner", 
+          "p2": "Leonard Samson"
+        }, 
+        {
+          "desc": "Bruce stayed at Stanley's pizzaria", 
+          "p1": "Bruce Banner", 
+          "p2": "Stanley Lieber"
+        }, 
+        {
+          "desc": "Martina and Bruce worked in the same Brazillian soda factory", 
+          "p1": "Bruce Banner", 
+          "p2": "Martina"
+        }, 
+        {
+          "desc": "Bruce bribed Cho with pizza to get onto the university computer network", 
+          "p1": "Bruce Banner", 
+          "p2": "Amadeus Cho"
+        }, 
+        {
+          "desc": "General Ross is Betty's father", 
+          "p1": "Betty Ross", 
+          "p2": "General Ross"
+        }, 
+        {
+          "desc": "Betty was with Bruce when he visited Sterns", 
+          "p1": "Betty Ross", 
+          "p2": "Samuel Sterns"
+        }, 
+        {
+          "desc": "Betty went out with Leonard after Bruce became The Hulk", 
+          "p1": "Betty Ross", 
+          "p2": "Leonard Samson"
+        }, 
+        {
+          "desc": "Betty and Bruce used to frequent Stanleys pizza restaurant", 
+          "p1": "Betty Ross", 
+          "p2": "Stanley Lieber"
+        }, 
+        {
+          "desc": "Blonsky was on Ross' team to catch The Hulk", 
+          "p1": "Emil Blonsky", 
+          "p2": "General Ross"
+        }, 
+        {
+          "desc": "Blonsky forced Sterns to turn him into Abominaton", 
+          "p1": "Emil Blonsky", 
+          "p2": "Samuel Sterns"
+        }, 
+        {
+          "desc": "Blonsky killed Sparr in Stern's lab", 
+          "p1": "Emil Blonsky", 
+          "p2": "Kathleen Sparr"
+        }, 
+        {
+          "desc": "Blonsky was recruited to hunt the Hulk by General Greller", 
+          "p1": "Emil Blonsky", 
+          "p2": "Joe Greller"
+        }, 
+        {
+          "desc": "Leonard called Ross to let him know where Banner was", 
+          "p1": "General Ross", 
+          "p2": "Leonard Samson"
+        }, 
+        {
+          "desc": "Stark spoke to Ross about putting a team together", 
+          "p1": "General Ross", 
+          "p2": "Tony Stark"
+        }, 
+        {
+          "desc": "Sparr informed Ross of the Hulk contaminated soda", 
+          "p1": "General Ross", 
+          "p2": "Kathleen Sparr"
+        }, 
+        {
+          "desc": "Greller assembled a strike team for Ross to hunt Hulk with", 
+          "p1": "General Ross", 
+          "p2": "Joe Greller"
+        }, 
+        {
+          "desc": "Sparr questioned Sterns after Banner was captured", 
+          "p1": "Samuel Sterns", 
+          "p2": "Kathleen Sparr"
+        }, 
+        {
+          "desc": "Leonard went to Stanley's pizza shop with Betty", 
+          "p1": "Leonard Samson", 
+          "p2": "Stanley Lieber"
+        }
+      ], 
+      "name": "The Incredible Hulk"
+    }, 
+    {
+      "category": "Films", 
+      "characters": [
+        "Agent Coulson", 
+        "Agent Sitwell", 
+        "Bruce Banner", 
+        "Clint Barton", 
+        "Darcy Lewis", 
+        "Erik Selvig", 
+        "Fandral", 
+        "Frigga", 
+        "Heimdall", 
+        "Hogun", 
+        "Jane Foster", 
+        "Laufey", 
+        "Loki", 
+        "Odin", 
+        "Sif", 
+        "Thor", 
+        "Volstagg"
+      ], 
+      "interactions": [
+        {
+          "desc": "Thor and Loki are adopted brothers", 
+          "p1": "Thor", 
+          "p2": "Loki"
+        }, 
+        {
+          "desc": "Thor is Odin's son", 
+          "p1": "Thor", 
+          "p2": "Odin"
+        }, 
+        {
+          "desc": "Thor is Frigga's son", 
+          "p1": "Thor", 
+          "p2": "Frigga"
+        }, 
+        {
+          "desc": "Thor and Sif fought together in Jotunheim", 
+          "p1": "Thor", 
+          "p2": "Sif"
+        }, 
+        {
+          "desc": "Thor and Volstagg fought together in Jotunheim", 
+          "p1": "Thor", 
+          "p2": "Volstagg"
+        }, 
+        {
+          "desc": "Thor and Hogun fought together in Jotunheim", 
+          "p1": "Thor", 
+          "p2": "Hogun"
+        }, 
+        {
+          "desc": "Thor and Fandral fought together in Jotunheim", 
+          "p1": "Thor", 
+          "p2": "Fandral"
+        }, 
+        {
+          "desc": "Jane drove into Thor twice", 
+          "p1": "Thor", 
+          "p2": "Jane Foster"
+        }, 
+        {
+          "desc": "Darcy tased Thor when he landed on earth", 
+          "p1": "Thor", 
+          "p2": "Darcy Lewis"
+        }, 
+        {
+          "desc": "Thor and Erik drank, fought, and made their ancestors proud", 
+          "p1": "Thor", 
+          "p2": "Erik Selvig"
+        }, 
+        {
+          "desc": "Agent Coulson interrogated Thor", 
+          "p1": "Thor", 
+          "p2": "Agent Coulson"
+        }, 
+        {
+          "desc": "Sitwell interrupted Coulson's interrogation of Thor", 
+          "p1": "Thor", 
+          "p2": "Agent Sitwell"
+        }, 
+        {
+          "desc": "Thor fought Laufey and his men on Jotunheim", 
+          "p1": "Thor", 
+          "p2": "Laufey"
+        }, 
+        {
+          "desc": "Heimdall sent Thor to Jotunheim through the bifrost", 
+          "p1": "Thor", 
+          "p2": "Heimdall"
+        }, 
+        {
+          "desc": "Odin adopted Loki", 
+          "p1": "Loki", 
+          "p2": "Odin"
+        }, 
+        {
+          "desc": "Frigga is Loki's adopted mother", 
+          "p1": "Loki", 
+          "p2": "Frigga"
+        }, 
+        {
+          "desc": "Loki and Sif fought together in Jotunheim", 
+          "p1": "Loki", 
+          "p2": "Sif"
+        }, 
+        {
+          "desc": "Loki and Volstagg fought together in Jotunheim", 
+          "p1": "Loki", 
+          "p2": "Volstagg"
+        }, 
+        {
+          "desc": "Loki and Hogun fought together in Jotunheim", 
+          "p1": "Loki", 
+          "p2": "Hogun"
+        }, 
+        {
+          "desc": "Loki and Fandral fought together in Jotunheim", 
+          "p1": "Loki", 
+          "p2": "Fandral"
+        }, 
+        {
+          "desc": "Laufey is Loki's father", 
+          "p1": "Loki", 
+          "p2": "Laufey"
+        }, 
+        {
+          "desc": "Heimdall sent Loki to Jotunheim through the bifrost", 
+          "p1": "Loki", 
+          "p2": "Heimdall"
+        }, 
+        {
+          "desc": "Odin and Frigga are married", 
+          "p1": "Odin", 
+          "p2": "Frigga"
+        }, 
+        {
+          "desc": "Odin retrieved Sif from the fight in Jotunheim", 
+          "p1": "Odin", 
+          "p2": "Sif"
+        }, 
+        {
+          "desc": "Odin retrieved Volstagg from the fight in Jotunheim", 
+          "p1": "Odin", 
+          "p2": "Volstagg"
+        }, 
+        {
+          "desc": "Odin retrieved Hogun from the fight in Jotunheim", 
+          "p1": "Odin", 
+          "p2": "Hogun"
+        }, 
+        {
+          "desc": "Odin retrieved Fandral from the fight in Jotunheim", 
+          "p1": "Odin", 
+          "p2": "Fandral"
+        }, 
+        {
+          "desc": "Odin and Laufey spoke in Jotunheim", 
+          "p1": "Odin", 
+          "p2": "Laufey"
+        }, 
+        {
+          "desc": "Heimdall serves Odin as gatekeeper", 
+          "p1": "Odin", 
+          "p2": "Heimdall"
+        }, 
+        {
+          "desc": "Frigga and Sif were together at Thor's coronation", 
+          "p1": "Frigga", 
+          "p2": "Sif"
+        }, 
+        {
+          "desc": "Frigga stood opposite Volstagg at Thor's coronation", 
+          "p1": "Frigga", 
+          "p2": "Volstagg"
+        }, 
+        {
+          "desc": "Frigga stood opposite Hogun at Thor's coronation", 
+          "p1": "Frigga", 
+          "p2": "Hogun"
+        }, 
+        {
+          "desc": "Frigga stood opposite Fandral at Thor's coronation", 
+          "p1": "Frigga", 
+          "p2": "Fandral"
+        }, 
+        {
+          "desc": "Laufey fought Frigga trying to get to Odin", 
+          "p1": "Frigga", 
+          "p2": "Laufey"
+        }, 
+        {
+          "desc": "Sif and Volstagg fought together in Jotunheim", 
+          "p1": "Sif", 
+          "p2": "Volstagg"
+        }, 
+        {
+          "desc": "Sif and Hogun fought together in Jotunheim", 
+          "p1": "Sif", 
+          "p2": "Hogun"
+        }, 
+        {
+          "desc": "Sif and Fandral fought together in Jotunheim", 
+          "p1": "Sif", 
+          "p2": "Fandral"
+        }, 
+        {
+          "desc": "Sif met Jane when getting Thor back from Earth", 
+          "p1": "Sif", 
+          "p2": "Jane Foster"
+        }, 
+        {
+          "desc": "Sif met Darcy when getting Thor back from Earth", 
+          "p1": "Sif", 
+          "p2": "Darcy Lewis"
+        }, 
+        {
+          "desc": "Sif met Erik when getting Thor back from Earth", 
+          "p1": "Sif", 
+          "p2": "Erik Selvig"
+        }, 
+        {
+          "desc": "Sif was with Thor and Coulson after the destroyer fight", 
+          "p1": "Sif", 
+          "p2": "Agent Coulson"
+        }, 
+        {
+          "desc": "Sif fought Laufey and his men on Jotunheim", 
+          "p1": "Sif", 
+          "p2": "Laufey"
+        }, 
+        {
+          "desc": "Heimdall sent Sif to Jotunheim through the bifrost", 
+          "p1": "Sif", 
+          "p2": "Heimdall"
+        }, 
+        {
+          "desc": "Volstagg and Hogun fought together in Jotunheim", 
+          "p1": "Volstagg", 
+          "p2": "Hogun"
+        }, 
+        {
+          "desc": "Volstagg and Fandral fought together in Jotunheim", 
+          "p1": "Volstagg", 
+          "p2": "Fandral"
+        }, 
+        {
+          "desc": "Volstagg met Jane when getting Thor back from Earth", 
+          "p1": "Volstagg", 
+          "p2": "Jane Foster"
+        }, 
+        {
+          "desc": "Volstagg met Darcy when getting Thor back from Earth", 
+          "p1": "Volstagg", 
+          "p2": "Darcy Lewis"
+        }, 
+        {
+          "desc": "Volstagg met Erik when getting Thor back from Earth", 
+          "p1": "Volstagg", 
+          "p2": "Erik Selvig"
+        }, 
+        {
+          "desc": "Volstagg was with Thor and Coulson after the destroyer fight", 
+          "p1": "Volstagg", 
+          "p2": "Agent Coulson"
+        }, 
+        {
+          "desc": "Volstagg fought Laufey and his men on Jotunheim", 
+          "p1": "Volstagg", 
+          "p2": "Laufey"
+        }, 
+        {
+          "desc": "Heimdall sent Volstagg to Jotunheim through the bifrost", 
+          "p1": "Volstagg", 
+          "p2": "Heimdall"
+        }, 
+        {
+          "desc": "Hogun and Fandral fought together in Jotunheim", 
+          "p1": "Hogun", 
+          "p2": "Fandral"
+        }, 
+        {
+          "desc": "Hogun met Jane when getting Thor back from Earth", 
+          "p1": "Hogun", 
+          "p2": "Jane Foster"
+        }, 
+        {
+          "desc": "Hogun met Darcy when getting Thor back from Earth", 
+          "p1": "Hogun", 
+          "p2": "Darcy Lewis"
+        }, 
+        {
+          "desc": "Hogun met Erik when getting Thor back from Earth", 
+          "p1": "Hogun", 
+          "p2": "Erik Selvig"
+        }, 
+        {
+          "desc": "Hogun was with Thor and Coulson after the destroyer fight", 
+          "p1": "Hogun", 
+          "p2": "Agent Coulson"
+        }, 
+        {
+          "desc": "Hogun fought Laufey and his men on Jotunheim", 
+          "p1": "Hogun", 
+          "p2": "Laufey"
+        }, 
+        {
+          "desc": "Heimdall sent Hogun to Jotunheim through the bifrost", 
+          "p1": "Hogun", 
+          "p2": "Heimdall"
+        }, 
+        {
+          "desc": "Fandral met Jane when getting Thor back from Earth", 
+          "p1": "Fandral", 
+          "p2": "Jane Foster"
+        }, 
+        {
+          "desc": "Fandral met Darcy when getting Thor back from Earth", 
+          "p1": "Fandral", 
+          "p2": "Darcy Lewis"
+        }, 
+        {
+          "desc": "Fandral met Erik when getting Thor back from Earth", 
+          "p1": "Fandral", 
+          "p2": "Erik Selvig"
+        }, 
+        {
+          "desc": "Fandral was with Thor and Coulson after the destroyer fight", 
+          "p1": "Fandral", 
+          "p2": "Agent Coulson"
+        }, 
+        {
+          "desc": "Fandral fought Laufey and his men on Jotunheim", 
+          "p1": "Fandral", 
+          "p2": "Laufey"
+        }, 
+        {
+          "desc": "Heimdall sent Fandral to Jotunheim through the bifrost", 
+          "p1": "Fandral", 
+          "p2": "Heimdall"
+        }, 
+        {
+          "desc": "Darcy is Jane's intern", 
+          "p1": "Jane Foster", 
+          "p2": "Darcy Lewis"
+        }, 
+        {
+          "desc": "Jane and Selvig are research colleagues", 
+          "p1": "Jane Foster", 
+          "p2": "Erik Selvig"
+        }, 
+        {
+          "desc": "Coulson borrowed Jane's research", 
+          "p1": "Jane Foster", 
+          "p2": "Agent Coulson"
+        }, 
+        {
+          "desc": "Sitwell was in the team that took Jane's research", 
+          "p1": "Jane Foster", 
+          "p2": "Agent Sitwell"
+        }, 
+        {
+          "desc": "Darcy worked with Selvig as Jane's intern", 
+          "p1": "Darcy Lewis", 
+          "p2": "Erik Selvig"
+        }, 
+        {
+          "desc": "Coulson and SHIELD took Darcy's iPod", 
+          "p1": "Darcy Lewis", 
+          "p2": "Agent Coulson"
+        }, 
+        {
+          "desc": "Sitwell and SHIELD took Darcy's iPod", 
+          "p1": "Darcy Lewis", 
+          "p2": "Agent Sitwell"
+        }, 
+        {
+          "desc": "Selvig spoke with Coulson to get Thor out of captivity", 
+          "p1": "Erik Selvig", 
+          "p2": "Agent Coulson"
+        }, 
+        {
+          "desc": "Sitwell was in the team that took Jane and Erik's research", 
+          "p1": "Erik Selvig", 
+          "p2": "Agent Sitwell"
+        }, 
+        {
+          "desc": "Selvig used to work with Bruce", 
+          "p1": "Erik Selvig", 
+          "p2": "Bruce Banner"
+        }, 
+        {
+          "desc": "Coulson and Sitwell are colleagues", 
+          "p1": "Agent Coulson", 
+          "p2": "Agent Sitwell"
+        }, 
+        {
+          "desc": "Coulson ordered Barton to observe Thor", 
+          "p1": "Agent Coulson", 
+          "p2": "Clint Barton"
+        }, 
+        {
+          "desc": "Laufey walked past the frozen Heimdall on entering Asgard", 
+          "p1": "Laufey", 
+          "p2": "Heimdall"
+        }
+      ], 
+      "name": "Thor"
+    }, 
+    {
+      "category": "Films", 
+      "characters": [
+        "Algrim", 
+        "Bor", 
+        "Carina", 
+        "Darcy Lewis", 
+        "Eir", 
+        "Erik Selvig", 
+        "Fandral", 
+        "Frigga", 
+        "Heimdall", 
+        "Hogun", 
+        "Ian Boothby", 
+        "Jane Foster", 
+        "Loki", 
+        "Malekith", 
+        "Odin", 
+        "Richard", 
+        "Sif", 
+        "Stan Lee", 
+        "Steve Scott", 
+        "The Collector", 
+        "Thor", 
+        "Tyr", 
+        "Volstagg"
+      ], 
+      "interactions": [
+        {
+          "desc": "Algrim was Malekith's loyal subject", 
+          "p1": "Malekith", 
+          "p2": "Algrim"
+        }, 
+        {
+          "desc": "Bor defeated Malekith and hid the Aether", 
+          "p1": "Bor", 
+          "p2": "Malekith"
+        }, 
+        {
+          "desc": "Algrim was one of the Dark Elves who fought against Bor's army", 
+          "p1": "Bor", 
+          "p2": "Algrim"
+        }, 
+        {
+          "desc": "Bor was Odin's father", 
+          "p1": "Bor", 
+          "p2": "Odin"
+        }, 
+        {
+          "desc": "Frigga was Loki's adopted mother", 
+          "p1": "Loki", 
+          "p2": "Frigga"
+        }, 
+        {
+          "desc": "Odin was Loki's adopted father", 
+          "p1": "Loki", 
+          "p2": "Odin"
+        }, 
+        {
+          "desc": "Odin and Frigga were married", 
+          "p1": "Odin", 
+          "p2": "Frigga"
+        }, 
+        {
+          "desc": "Thor and Sif fought together on Vanaheim", 
+          "p1": "Thor", 
+          "p2": "Sif"
+        }, 
+        {
+          "desc": "Thor and Fandral fought together on Vanaheim", 
+          "p1": "Thor", 
+          "p2": "Fandral"
+        }, 
+        {
+          "desc": "Thor and Volstagg fought together on Vanaheim", 
+          "p1": "Thor", 
+          "p2": "Volstagg"
+        }, 
+        {
+          "desc": "Thor and Hogun fought together on Vanaheim", 
+          "p1": "Thor", 
+          "p2": "Hogun"
+        }, 
+        {
+          "desc": "Sif and Fandral fought together on Vanaheim", 
+          "p1": "Sif", 
+          "p2": "Fandral"
+        }, 
+        {
+          "desc": "Sif and Volstagg fought together on Vanaheim", 
+          "p1": "Sif", 
+          "p2": "Volstagg"
+        }, 
+        {
+          "desc": "Sif and Hogun fought together on Vanaheim", 
+          "p1": "Sif", 
+          "p2": "Hogun"
+        }, 
+        {
+          "desc": "Fandral and Volstagg fought together on Vanaheim", 
+          "p1": "Fandral", 
+          "p2": "Volstagg"
+        }, 
+        {
+          "desc": "Fandral and Hogun fought together on Vanaheim", 
+          "p1": "Fandral", 
+          "p2": "Hogun"
+        }, 
+        {
+          "desc": "Volstagg and Hogun fought together on Vanaheim", 
+          "p1": "Volstagg", 
+          "p2": "Hogun"
+        }, 
+        {
+          "desc": "Odin was Thor's Father", 
+          "p1": "Thor", 
+          "p2": "Odin"
+        }, 
+        {
+          "desc": "Frigga was Thor's Mother", 
+          "p1": "Thor", 
+          "p2": "Frigga"
+        }, 
+        {
+          "desc": "Heimdall opened the Bifrost to transport Thor to Midgard", 
+          "p1": "Heimdall", 
+          "p2": "Thor"
+        }, 
+        {
+          "desc": "Richard and Jane went on a date", 
+          "p1": "Richard", 
+          "p2": "Jane Foster"
+        }, 
+        {
+          "desc": "Darcy interrupted Richard's date with Jane Foster", 
+          "p1": "Darcy Lewis", 
+          "p2": "Richard"
+        }, 
+        {
+          "desc": "Darcy was Jane's intern", 
+          "p1": "Jane Foster", 
+          "p2": "Darcy Lewis"
+        }, 
+        {
+          "desc": "Ian was Darcy's intern", 
+          "p1": "Ian Boothby", 
+          "p2": "Darcy Lewis"
+        }, 
+        {
+          "desc": "Ian was Jane's intern's intern", 
+          "p1": "Ian Boothby", 
+          "p2": "Jane Foster"
+        }, 
+        {
+          "desc": "Scott was present and filed a report for ITV News when Selvig was arrested at Stonehenge", 
+          "p1": "Steve Scott", 
+          "p2": "Erik Selvig"
+        }, 
+        {
+          "desc": "Jane slapped Thor straight in the face, like, twice", 
+          "p1": "Jane Foster", 
+          "p2": "Thor"
+        }, 
+        {
+          "desc": "Darcy asked Thor how space was, because she is a person who cares about others' feelings", 
+          "p1": "Darcy Lewis", 
+          "p2": "Thor"
+        }, 
+        {
+          "desc": "Heimdall welcomed Jane to Asgard", 
+          "p1": "Heimdall", 
+          "p2": "Jane Foster"
+        }, 
+        {
+          "desc": "Eir examined Jane with the Soul Forge (Quantum Field Generator)", 
+          "p1": "Eir", 
+          "p2": "Jane Foster"
+        }, 
+        {
+          "desc": "Odin explained the Aether to Jane and Thor", 
+          "p1": "Odin", 
+          "p2": "Jane Foster"
+        }, 
+        {
+          "desc": "Odin and Eir spoke about Jane Foster's condition", 
+          "p1": "Odin", 
+          "p2": "Eir"
+        }, 
+        {
+          "desc": "Thor was present when Eir examined Jane Foster", 
+          "p1": "Thor", 
+          "p2": "Eir"
+        }, 
+        {
+          "desc": "Heimdall unknowingly opened the Bifrost to Algrim, who was posing as Volstagg and Fandral's prisoner", 
+          "p1": "Heimdall", 
+          "p2": "Algrim"
+        }, 
+        {
+          "desc": "Heimdall opened the Bifrost to Volstagg, Fandral, and their prisoners", 
+          "p1": "Heimdall", 
+          "p2": "Volstagg"
+        }, 
+        {
+          "desc": "Heimdall opened the Bifrost to Fandral, Volstagg, and their prisoners", 
+          "p1": "Heimdall", 
+          "p2": "Fandral"
+        }, 
+        {
+          "desc": "Volstagg and Fandral brought a disguised Algrim to Asgard as their prisoner", 
+          "p1": "Volstagg", 
+          "p2": "Algrim"
+        }, 
+        {
+          "desc": "Fandral and Volstagg brought a disguised Algrim to Asgard as their prisoner", 
+          "p1": "Fandral", 
+          "p2": "Algrim"
+        }, 
+        {
+          "desc": "Frigga protected Jane from Malekith and Kurse", 
+          "p1": "Jane Foster", 
+          "p2": "Frigga"
+        }, 
+        {
+          "desc": "Loki was present when Algrim transformed into Kurse", 
+          "p1": "Loki", 
+          "p2": "Algrim"
+        }, 
+        {
+          "desc": "Sif was present when Odin and Frigga spoke about Jane Foster", 
+          "p1": "Sif", 
+          "p2": "Frigga"
+        }, 
+        {
+          "desc": "Sif was present when Odin and Frigga spoke about Jane Foster", 
+          "p1": "Sif", 
+          "p2": "Odin"
+        }, 
+        {
+          "desc": "Sif helped Jane Foster escape from Asgard", 
+          "p1": "Sif", 
+          "p2": "Jane Foster"
+        }, 
+        {
+          "desc": "Malekith and Frigga fought over Jane Foster", 
+          "p1": "Malekith", 
+          "p2": "Frigga"
+        }, 
+        {
+          "desc": "Malekith removed the Aether from Jane Foster", 
+          "p1": "Malekith", 
+          "p2": "Jane Foster"
+        }, 
+        {
+          "desc": "Algrim, as Kurse, killed Frigga", 
+          "p1": "Algrim", 
+          "p2": "Frigga"
+        }, 
+        {
+          "desc": "Volstagg and Fandral attended Odin's meeting about the security of Asgard", 
+          "p1": "Volstagg", 
+          "p2": "Odin"
+        }, 
+        {
+          "desc": "Fandral told Odin that Asgard was all but defenseless", 
+          "p1": "Fandral", 
+          "p2": "Odin"
+        }, 
+        {
+          "desc": "Tyr and Volstagg both attended Frigga's funeral", 
+          "p1": "Tyr", 
+          "p2": "Volstagg"
+        }, 
+        {
+          "desc": "Tyr and Sif both attended Frigga's funeral", 
+          "p1": "Tyr", 
+          "p2": "Sif"
+        }, 
+        {
+          "desc": "Tyr and Fandral both attended Frigga's funeral", 
+          "p1": "Tyr", 
+          "p2": "Fandral"
+        }, 
+        {
+          "desc": "Tyr and Jane Foster both attended Frigga's funeral", 
+          "p1": "Tyr", 
+          "p2": "Jane Foster"
+        }, 
+        {
+          "desc": "Odin ordered Tyr to confine Jane Foster. Tyr is the God of War and was woefully overqualified for this.", 
+          "p1": "Tyr", 
+          "p2": "Odin"
+        }, 
+        {
+          "desc": "Tyr and Thor both attended Frigga's funeral", 
+          "p1": "Tyr", 
+          "p2": "Thor"
+        }, 
+        {
+          "desc": "Heimdall was present when Tyr informed Odin of Jane Foster's escape", 
+          "p1": "Tyr", 
+          "p2": "Heimdall"
+        }, 
+        {
+          "desc": "Heimdall informed Odin that he betrayed him and helped Thor", 
+          "p1": "Heimdall", 
+          "p2": "Odin"
+        }, 
+        {
+          "desc": "Erik borrows Stan's shoe in the psych ward", 
+          "p1": "Erik Selvig", 
+          "p2": "Stan Lee"
+        }, 
+        {
+          "desc": "Ian and Darcy got Erik released from the police custody", 
+          "p1": "Ian Boothby", 
+          "p2": "Erik Selvig"
+        }, 
+        {
+          "desc": "Darcy and Ian got Erik released from the police custody", 
+          "p1": "Darcy Lewis", 
+          "p2": "Erik Selvig"
+        }, 
+        {
+          "desc": "Thor and Loki were brothers", 
+          "p1": "Thor", 
+          "p2": "Loki"
+        }, 
+        {
+          "desc": "Sif threatened to kill Loki if he betrayed Thor", 
+          "p1": "Loki", 
+          "p2": "Sif"
+        }, 
+        {
+          "desc": "Fandral helped Loki escape from Asgard", 
+          "p1": "Loki", 
+          "p2": "Fandral"
+        }, 
+        {
+          "desc": "Volstag threatened to kill Loki if he betrayed Thor", 
+          "p1": "Loki", 
+          "p2": "Volstagg"
+        }, 
+        {
+          "desc": "Jane slapped Loki straight in the face", 
+          "p1": "Loki", 
+          "p2": "Jane Foster"
+        }, 
+        {
+          "desc": "Volstagg helped Jane Foster escape from Asgard", 
+          "p1": "Jane Foster", 
+          "p2": "Volstagg"
+        }, 
+        {
+          "desc": "Fandral helped Jane Foster escape from Asgard", 
+          "p1": "Jane Foster", 
+          "p2": "Fandral"
+        }, 
+        {
+          "desc": "Jane and Erik worked together science the heck out of stuff", 
+          "p1": "Jane Foster", 
+          "p2": "Erik Selvig"
+        }, 
+        {
+          "desc": "Thor informed Erik of Loki's \"death,\" much to Erik's relief", 
+          "p1": "Thor", 
+          "p2": "Erik Selvig"
+        }, 
+        {
+          "desc": "Ian and Thor met in Jane's lab", 
+          "p1": "Ian Boothby", 
+          "p2": "Thor"
+        }, 
+        {
+          "desc": "Algrim was present when Malekith removed the Aether from Jane Foster", 
+          "p1": "Algrim", 
+          "p2": "Jane Foster"
+        }, 
+        {
+          "desc": "Thor and Malekith fought a battle that spanned multiple realms", 
+          "p1": "Thor", 
+          "p2": "Malekith"
+        }, 
+        {
+          "desc": "Thor fought Algrim on Svartalfheim", 
+          "p1": "Thor", 
+          "p2": "Algrim"
+        }, 
+        {
+          "desc": "Loki helped Thor trick Malekith (for all the good it did)", 
+          "p1": "Loki", 
+          "p2": "Malekith"
+        }, 
+        {
+          "desc": "Thor was present while Jane Foster was on speakerphone with Richard", 
+          "p1": "Thor", 
+          "p2": "Richard"
+        }, 
+        {
+          "desc": "Darcy helped Thor fight Malekith in Greenwich", 
+          "p1": "Darcy Lewis", 
+          "p2": "Malekith"
+        }, 
+        {
+          "desc": "Ian helped Thor fight Malekith in Greenwich", 
+          "p1": "Ian Boothby", 
+          "p2": "Malekith"
+        }, 
+        {
+          "desc": "Erik helped Thor fight Malekith in Greenwich", 
+          "p1": "Erik Selvig", 
+          "p2": "Malekith"
+        }, 
+        {
+          "desc": "Sif and Volstagg delivered the Aether to The Collector", 
+          "p1": "The Collector", 
+          "p2": "Sif"
+        }, 
+        {
+          "desc": "Volstagg and Sif delivered the Aether to The Collector", 
+          "p1": "The Collector", 
+          "p2": "Volstagg"
+        }, 
+        {
+          "desc": "Carina presented Sif and Volstagg to The Collector", 
+          "p1": "Carina", 
+          "p2": "Sif"
+        }, 
+        {
+          "desc": "Carina presented Sif and Volstagg to The Collector", 
+          "p1": "Carina", 
+          "p2": "Volstagg"
+        }, 
+        {
+          "desc": "Carina presented Sif and Volstagg to The Collector", 
+          "p1": "The Collector", 
+          "p2": "Carina"
+        }
+      ], 
+      "name": "Thor The Dark World"
     }, 
     {
       "category": "Other", 
