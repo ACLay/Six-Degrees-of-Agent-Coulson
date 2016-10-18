@@ -1,6 +1,6 @@
 window.onload = function(){
 
-	loadConnections(false);
+	loadConnections();
 	
 	generateFilters();
 
@@ -15,10 +15,10 @@ window.onload = function(){
 	button = document.getElementById("hideFilters");
 	button.onclick = toggleFilterVisibility;
 
-	stanOptions.onchange = function(){loadConnections(true);};
+	stanOptions.onchange = function(){loadConnections(); fillSelectors();};
 };
 
-function loadConnections(refreshSelectors){
+function loadConnections(){
 	connectionGraph = getConnectionData();
 
 	var stanCount = document.querySelector('input[name="stanOptions"]:checked').value;
@@ -29,10 +29,6 @@ function loadConnections(refreshSelectors){
 		addConnections(getTwoStansConnections());
 	} else if (stanCount == "n"){
 		addConnections(getManyStansConnections());
-	}
-
-	if(refreshSelectors){
-		fillSelectors();
 	}
 
 }
