@@ -22,7 +22,7 @@ function makeCategoryTag(category){
 	element.class = "category";
 	var header = document.createElement("h3");
 	header.textContent = category;
-	filters.appendChild(element);
+	filters.insertBefore(element,stanOptions);
 	element.appendChild(header);
 	return element;
 }
@@ -61,7 +61,7 @@ function isMediaSelected(mediaName){
 }
 
 function toggleFilterVisibility(){
-	document.getElementById("filterContainer").classList.toggle("hidden");
+	document.getElementById("filters").classList.toggle("hidden");
 	document.getElementById("showFilters").classList.toggle("hidden");
 	document.getElementById("hideFilters").classList.toggle("hidden");
 }
