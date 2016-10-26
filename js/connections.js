@@ -7,10 +7,13 @@ return {
     "Other"
   ], 
   "characters": [
+    "'Mama' Mabel Stokes", 
     "Abu Bakar", 
     "Agent Blake", 
     "Agent Coulson", 
     "Agent Sitwell", 
+    "Aisha Axton", 
+    "Albert Rackham", 
     "Albert Thompson", 
     "Aldrich Killian", 
     "Alexander Pierce", 
@@ -24,34 +27,50 @@ return {
     "Apple Aaron", 
     "Arnim Zola", 
     "Audrey Eastman", 
+    "Bailey", 
     "Barbara Shlottman", 
     "Baron Strucker", 
+    "Benjamin Donovan", 
     "Bennie Pollock", 
     "Bereet", 
+    "Bert Hunter", 
     "Betty Ross", 
+    "Blake Tower", 
+    "Blind Oliver", 
     "Bob Shlottman", 
     "Bobby", 
+    "Bobby Fish", 
     "Bor", 
     "Brett Mahoney", 
     "Brian Jones", 
     "Brock Rumlow", 
     "Bruce Banner", 
     "Bucky Barnes", 
+    "Buggy Stokes", 
     "Bunny Wiles", 
+    "C-Money", 
     "Cameron Klein", 
+    "Candace Miller", 
+    "Captain Betty Audrey", 
     "Carina", 
     "Carlo Eastman", 
     "Carlos", 
     "Cassie Lang", 
     "Chanise", 
     "Charles Wallace", 
+    "Chauncey", 
     "Christine Everhart", 
     "Chuck", 
     "Clair", 
     "Claire Temple", 
     "Claire Weiss", 
+    "Clifford 'Method Man' Smith", 
     "Clint Barton", 
+    "Club Manager Nate", 
     "Colonel Phillips", 
+    "Comanche", 
+    "Connie Lin", 
+    "Cornell 'Cottonmouth' Stokes", 
     "Cosmo the Dog", 
     "Councilman Rockwell", 
     "Councilman Singh", 
@@ -60,23 +79,36 @@ return {
     "Crazy-stupid-fine Writer", 
     "DJ AM", 
     "Dale", 
+    "Damon Boone", 
+    "Dana Stryker", 
+    "Dante Chapman", 
+    "Dapper Dan", 
     "Darby", 
     "Darcy Lewis", 
+    "Darrell Mitchell", 
     "Darren Cross", 
     "Dave", 
+    "Dave Griffith", 
     "David Kurata", 
     "Denarian Sall", 
     "Desmond Tobey", 
     "Detective Lemieux", 
+    "Detective Scarfe", 
+    "Diontey", 
     "Doctor Fine", 
     "Doctor List", 
     "Doctor Wu", 
+    "Domingo Colon", 
     "Donald", 
     "Dorothy Walker", 
     "Dr Erskine", 
+    "Dr Noah Burstein", 
     "Drax", 
+    "Driver Tony", 
     "Dum Dum Dugan", 
     "Duranna Dey", 
+    "Earl Scarfe", 
+    "Eddie Axton", 
     "Eir", 
     "Elizabeth De Luca", 
     "Ellen Brandt", 
@@ -84,9 +116,15 @@ return {
     "Emil Blonsky", 
     "Emily", 
     "Emma", 
+    "Enforcer Darnell", 
+    "Enforcer Lopes", 
+    "Enforcer Sugar", 
+    "Enforcer Zip", 
+    "Eric Fraser", 
     "Erik Selvig", 
     "Erin", 
     "Ernesto", 
+    "Etta Lucas", 
     "Fandral", 
     "Ferdinand Lopez", 
     "Fletcher Heggs", 
@@ -94,6 +132,7 @@ return {
     "Frank Levin", 
     "Frigga", 
     "Gabe Jones", 
+    "Gabe Krasner", 
     "Gale", 
     "Gamora", 
     "Garcia", 
@@ -114,8 +153,12 @@ return {
     "Happy Hogan", 
     "Harley Keener", 
     "Harvey", 
+    "Heather B.", 
     "Heimdall", 
     "Heinz Kruger", 
+    "Henry 'Pop' Hunter", 
+    "Hernam 'Shades' Alvarez", 
+    "Hernan 'Shades' Alvarez", 
     "Ho Yinsen", 
     "Hogun", 
     "Hope Shlottman", 
@@ -124,6 +167,7 @@ return {
     "Howard the Duck", 
     "Ian Boothby", 
     "Ignacio", 
+    "Inspector Priscilla Ridley", 
     "Ivan Vanko", 
     "JARVIS", 
     "Jack Denton", 
@@ -132,7 +176,9 @@ return {
     "Jackson", 
     "Jackson Norris (WHIH)", 
     "Jackson Norriss (10 rings)", 
+    "Jacques Alef", 
     "Jacques Dernier", 
+    "Jamel Shabazz", 
     "James Falsworth", 
     "James Rhodes", 
     "James Rondell", 
@@ -141,13 +187,18 @@ return {
     "Jeri Hogarth", 
     "Jessica Jones", 
     "Jim Morita", 
+    "Jimmy Quinto", 
+    "Jin Lin", 
     "Joe Greller", 
+    "Joel Spurlock", 
+    "Juan Carlos Castro", 
     "Justin Boden", 
     "Justin Hammer", 
     "Karman-Kan Dey", 
     "Kathleen Sparr", 
     "Ken", 
     "Kilgrave", 
+    "Koko", 
     "Korath", 
     "Kozlov", 
     "Kraglin Obfonteri", 
@@ -157,42 +208,61 @@ return {
     "Laurent Bouchard", 
     "Len Sirkes", 
     "Leonard Samson", 
+    "Lieutenant Perez", 
     "Loki", 
+    "Lonnie Wilson", 
     "Louise Thompson", 
+    "Lt Mario Green", 
     "Luis", 
     "Luke Cage", 
+    "Luke cage", 
     "Maggie Lang", 
     "Major Allen", 
     "Malcolm Ducasse", 
     "Malekith", 
+    "Mama Mabel", 
+    "Manny", 
     "Maria Hill", 
     "Maria Stark", 
+    "Mariah Dillard", 
+    "Marshal Franco", 
+    "Marshal Johnson", 
     "Martina", 
     "Matt", 
     "Maureen Denton", 
     "Maury Tuttlebaum", 
     "Maya Hansen", 
     "McManus", 
+    "Megan McClaren", 
     "Mei", 
     "Meredith Quill", 
+    "Mike Tyson", 
+    "Misty Knight", 
     "Mitchell Carson", 
     "Mr Lin", 
     "Mrs Davis", 
     "Natasha Romanoff", 
     "Nebula", 
+    "Neville Barnwell", 
     "Nick Fury", 
     "Nicole", 
     "Nova Prime", 
     "Nurse Ellie Chung", 
     "Obadiah Stane", 
     "Odin", 
+    "Officer Albini", 
     "Officer Cooper", 
+    "Officer Polsky", 
     "Oscar Clemons", 
+    "PA Alex", 
     "Pam", 
+    "Patricia Wilson", 
     "Paxton", 
     "Peachy", 
     "Peggy Carter", 
     "Pepper Potts", 
+    "Peter 'Pistol Pete' Stokes", 
+    "Peter Hong", 
     "Peter Quill", 
     "Phillip Jones", 
     "Pietro Maximoff", 
@@ -203,7 +273,9 @@ return {
     "Raj", 
     "Raza", 
     "Red Skull", 
+    "Reggie 'Squabbles'", 
     "Renata", 
+    "Rev James Lucas", 
     "Reva Connors", 
     "Rhomann Dey", 
     "Richard", 
@@ -224,23 +296,31 @@ return {
     "Senator Brandt", 
     "Senator Stern", 
     "Serena Grier", 
+    "Sergeant MacClean", 
+    "Shameek Smith", 
     "Sharon Carter", 
     "Sif", 
     "Sissy Garcia", 
+    "Sister Boy", 
+    "Soledad Temple", 
     "Stanley Lieber", 
     "Steve Rogers", 
     "Steve Scott", 
+    "Sway Calloway", 
     "Taggart", 
     "Thanos", 
     "The Broker", 
     "The Collector", 
     "The Mandarin", 
     "The Other", 
+    "Thembi Wallace", 
     "Thomas Richards", 
     "Thor", 
+    "Tone", 
     "Tony Stark", 
     "Trevor Slattery", 
     "Trish Walker", 
+    "Turk Barrett", 
     "Tweaky", 
     "Tyr", 
     "Vice President Rodriguez", 
@@ -249,9 +329,12 @@ return {
     "Wanda Maximoff", 
     "Wendy Ross-Hogarth", 
     "White Power Dave", 
+    "Wilfredo 'Chico' Diaz", 
+    "Wilfredo 'Fredo' Diaz Sr", 
     "Will Adams", 
     "Will Simpson", 
     "William Ginter Riva", 
+    "Willis 'Diamondback' Stryker", 
     "Yondu Udonta", 
     "Yuliana", 
     "Zack"
@@ -4167,6 +4250,1755 @@ return {
         }
       ], 
       "name": "Jessica Jones"
+    }, 
+    {
+      "category": "Netflix", 
+      "characters": [
+        "'Mama' Mabel Stokes", 
+        "Aisha Axton", 
+        "Albert Rackham", 
+        "Bailey", 
+        "Benjamin Donovan", 
+        "Bert Hunter", 
+        "Blake Tower", 
+        "Blind Oliver", 
+        "Bobby Fish", 
+        "Buggy Stokes", 
+        "C-Money", 
+        "Candace Miller", 
+        "Captain Betty Audrey", 
+        "Chauncey", 
+        "Claire Temple", 
+        "Clifford 'Method Man' Smith", 
+        "Club Manager Nate", 
+        "Comanche", 
+        "Connie Lin", 
+        "Cornell 'Cottonmouth' Stokes", 
+        "Damon Boone", 
+        "Dana Stryker", 
+        "Dante Chapman", 
+        "Dapper Dan", 
+        "Darrell Mitchell", 
+        "Dave Griffith", 
+        "Detective Scarfe", 
+        "Diontey", 
+        "Domingo Colon", 
+        "Dr Noah Burstein", 
+        "Driver Tony", 
+        "Earl Scarfe", 
+        "Eddie Axton", 
+        "Enforcer Darnell", 
+        "Enforcer Lopes", 
+        "Enforcer Sugar", 
+        "Enforcer Zip", 
+        "Eric Fraser", 
+        "Etta Lucas", 
+        "Gabe Krasner", 
+        "Heather B.", 
+        "Henry 'Pop' Hunter", 
+        "Hernam 'Shades' Alvarez", 
+        "Hernan 'Shades' Alvarez", 
+        "Inspector Priscilla Ridley", 
+        "Jacques Alef", 
+        "Jamel Shabazz", 
+        "Jimmy Quinto", 
+        "Jin Lin", 
+        "Joel Spurlock", 
+        "Juan Carlos Castro", 
+        "Koko", 
+        "Lieutenant Perez", 
+        "Lonnie Wilson", 
+        "Lt Mario Green", 
+        "Luke Cage", 
+        "Luke cage", 
+        "Mama Mabel", 
+        "Manny", 
+        "Mariah Dillard", 
+        "Marshal Franco", 
+        "Marshal Johnson", 
+        "Megan McClaren", 
+        "Mike Tyson", 
+        "Misty Knight", 
+        "Neville Barnwell", 
+        "Officer Albini", 
+        "Officer Polsky", 
+        "PA Alex", 
+        "Patricia Wilson", 
+        "Peter 'Pistol Pete' Stokes", 
+        "Peter Hong", 
+        "Reggie 'Squabbles'", 
+        "Rev James Lucas", 
+        "Reva Connors", 
+        "Sergeant MacClean", 
+        "Shameek Smith", 
+        "Sister Boy", 
+        "Soledad Temple", 
+        "Sway Calloway", 
+        "Thembi Wallace", 
+        "Tone", 
+        "Turk Barrett", 
+        "Wilfredo 'Chico' Diaz", 
+        "Wilfredo 'Fredo' Diaz Sr", 
+        "Willis 'Diamondback' Stryker"
+      ], 
+      "interactions": [
+        {
+          "desc": "Luke worked at Pop's barber shop", 
+          "p1": "Luke Cage", 
+          "p2": "Henry 'Pop' Hunter"
+        }, 
+        {
+          "desc": "Lonnie was a customer at Pop's barber shop, where Luke worked", 
+          "p1": "Luke Cage", 
+          "p2": "Lonnie Wilson"
+        }, 
+        {
+          "desc": "Chico and Luke both worked at Pop's barber shop", 
+          "p1": "Luke Cage", 
+          "p2": "Wilfredo 'Chico' Diaz"
+        }, 
+        {
+          "desc": "Shameek was a customer at Pop's barber shop, where Luke worked", 
+          "p1": "Luke Cage", 
+          "p2": "Shameek Smith"
+        }, 
+        {
+          "desc": "Bobby was a regular at Pop's barber shop, where Luke worked", 
+          "p1": "Luke Cage", 
+          "p2": "Bobby Fish"
+        }, 
+        {
+          "desc": "Lonnie was a customer at Pop's barber shop", 
+          "p1": "Henry 'Pop' Hunter", 
+          "p2": "Lonnie Wilson"
+        }, 
+        {
+          "desc": "Chico worked at Pop's barber shop. Pop tried to protect him from Cottonmouth", 
+          "p1": "Henry 'Pop' Hunter", 
+          "p2": "Wilfredo 'Chico' Diaz"
+        }, 
+        {
+          "desc": "Shameek was a customer at Pop's barber shop", 
+          "p1": "Henry 'Pop' Hunter", 
+          "p2": "Shameek Smith"
+        }, 
+        {
+          "desc": "Pop and Bobby were old friends", 
+          "p1": "Henry 'Pop' Hunter", 
+          "p2": "Bobby Fish"
+        }, 
+        {
+          "desc": "Lonnie was a customer at Pop's barber shop, where Chico worked", 
+          "p1": "Lonnie Wilson", 
+          "p2": "Wilfredo 'Chico' Diaz"
+        }, 
+        {
+          "desc": "Lonnie and Shameek got their hair cut at the same time in Pop's barber shop", 
+          "p1": "Lonnie Wilson", 
+          "p2": "Shameek Smith"
+        }, 
+        {
+          "desc": "Lonnie and Bobby were in Pop's barber shop at the same time", 
+          "p1": "Lonnie Wilson", 
+          "p2": "Bobby Fish"
+        }, 
+        {
+          "desc": "Shameek was a customer at Pop's barber shop, where Chico worked", 
+          "p1": "Wilfredo 'Chico' Diaz", 
+          "p2": "Shameek Smith"
+        }, 
+        {
+          "desc": "Chico worked at Pop's barber shop, which Bobby was a regular at", 
+          "p1": "Wilfredo 'Chico' Diaz", 
+          "p2": "Bobby Fish"
+        }, 
+        {
+          "desc": "Shameek and Bobby were in Pop's barber shop at the same time", 
+          "p1": "Shameek Smith", 
+          "p2": "Bobby Fish"
+        }, 
+        {
+          "desc": "Patricia told Luke they should get coffee some time", 
+          "p1": "Patricia Wilson", 
+          "p2": "Luke Cage"
+        }, 
+        {
+          "desc": "Patricia took her son to Pop's barber shop", 
+          "p1": "Patricia Wilson", 
+          "p2": "Henry 'Pop' Hunter"
+        }, 
+        {
+          "desc": "Patricia is Lonnie's mother", 
+          "p1": "Patricia Wilson", 
+          "p2": "Lonnie Wilson"
+        }, 
+        {
+          "desc": "Chico was in Pop's barber shop when Patricia collected her son", 
+          "p1": "Patricia Wilson", 
+          "p2": "Wilfredo 'Chico' Diaz"
+        }, 
+        {
+          "desc": "Shameek was in Pop's barber shop when Patricia collected her son", 
+          "p1": "Patricia Wilson", 
+          "p2": "Shameek Smith"
+        }, 
+        {
+          "desc": "Bobby was in Pop's barber shop when Patricia collected her son", 
+          "p1": "Patricia Wilson", 
+          "p2": "Bobby Fish"
+        }, 
+        {
+          "desc": "Reva and Luke were married", 
+          "p1": "Reva Connors", 
+          "p2": "Luke Cage"
+        }, 
+        {
+          "desc": "Dave tried to sell luke footage of 'the incident'", 
+          "p1": "Luke Cage", 
+          "p2": "Dave Griffith"
+        }, 
+        {
+          "desc": "Oliver sold Luke a copy of The New Yorker", 
+          "p1": "Luke Cage", 
+          "p2": "Blind Oliver"
+        }, 
+        {
+          "desc": "Connie is Luke's landlady.", 
+          "p1": "Luke Cage", 
+          "p2": "Connie Lin"
+        }, 
+        {
+          "desc": "Nate had Luke work as a bartender in Harlem's Paradise", 
+          "p1": "Luke Cage", 
+          "p2": "Club Manager Nate"
+        }, 
+        {
+          "desc": "Mariah and Cornell were cousins, then she killed him", 
+          "p1": "Cornell 'Cottonmouth' Stokes", 
+          "p2": "Mariah Dillard"
+        }, 
+        {
+          "desc": "Mama Mabel was Cornell's grandma, and raised him", 
+          "p1": "'Mama' Mabel Stokes", 
+          "p2": "Cornell 'Cottonmouth' Stokes"
+        }, 
+        {
+          "desc": "Mama Mabel was Mariah's grandma, and raised her", 
+          "p1": "'Mama' Mabel Stokes", 
+          "p2": "Mariah Dillard"
+        }, 
+        {
+          "desc": "Luke and Misty ran into eachother a lot", 
+          "p1": "Luke Cage", 
+          "p2": "Misty Knight"
+        }, 
+        {
+          "desc": "Cornell made a deal to sell guns to Domingo", 
+          "p1": "Domingo Colon", 
+          "p2": "Cornell 'Cottonmouth' Stokes"
+        }, 
+        {
+          "desc": "Dillard visited Colon to arrange a transition of power after Cornell's death", 
+          "p1": "Domingo Colon", 
+          "p2": "Mariah Dillard"
+        }, 
+        {
+          "desc": "Dante and Shameek robbed Cottonmouth's gun sale", 
+          "p1": "Dante Chapman", 
+          "p2": "Shameek Smith"
+        }, 
+        {
+          "desc": "Dante and Chico robbed Cottonmouth's gun sale", 
+          "p1": "Dante Chapman", 
+          "p2": "Wilfredo 'Chico' Diaz"
+        }, 
+        {
+          "desc": "Candace got Luke to help her bring drinks up to Cottonmouth", 
+          "p1": "Candace Miller", 
+          "p2": "Luke Cage"
+        }, 
+        {
+          "desc": "Candace told Misty that Luke killed Cottonmouth", 
+          "p1": "Candace Miller", 
+          "p2": "Misty Knight"
+        }, 
+        {
+          "desc": "Luke took out Domingo's men at his gym so he could get rid of his guns", 
+          "p1": "Luke Cage", 
+          "p2": "Domingo Colon"
+        }, 
+        {
+          "desc": "Luke took down Cornell's business", 
+          "p1": "Luke Cage", 
+          "p2": "Cornell 'Cottonmouth' Stokes"
+        }, 
+        {
+          "desc": "Luke brought drinks to Cottonmouth's table, which Mariah was at", 
+          "p1": "Luke Cage", 
+          "p2": "Mariah Dillard"
+        }, 
+        {
+          "desc": "Candace brought drinks to Cottonmouth's table, which Domingo was at", 
+          "p1": "Candace Miller", 
+          "p2": "Domingo Colon"
+        }, 
+        {
+          "desc": "Candace brought drinks to Cottonmouth's table", 
+          "p1": "Candace Miller", 
+          "p2": "Cornell 'Cottonmouth' Stokes"
+        }, 
+        {
+          "desc": "Dillard had Candace say that Luke killed Cottonmouth", 
+          "p1": "Candace Miller", 
+          "p2": "Mariah Dillard"
+        }, 
+        {
+          "desc": "Dante called Tone after he got shot at the gun sale", 
+          "p1": "Dante Chapman", 
+          "p2": "Tone"
+        }, 
+        {
+          "desc": "Tone was Cornell's bodyguard", 
+          "p1": "Tone", 
+          "p2": "Cornell 'Cottonmouth' Stokes"
+        }, 
+        {
+          "desc": "Tone was protecting Cornell when he was with Mariah in Harlem's paradise", 
+          "p1": "Tone", 
+          "p2": "Mariah Dillard"
+        }, 
+        {
+          "desc": "Tone was protecting Cornell when he was with Domingo in Harlem's paradise.", 
+          "p1": "Tone", 
+          "p2": "Domingo Colon"
+        }, 
+        {
+          "desc": "Tone acted most ungentlemanly towards Candace when she brought Cornell's champagne", 
+          "p1": "Tone", 
+          "p2": "Candace Miller"
+        }, 
+        {
+          "desc": "Tone was Cornell's bodyguard when Luke brought champagne to his table", 
+          "p1": "Tone", 
+          "p2": "Luke cage"
+        }, 
+        {
+          "desc": "Scarfe and Knight were parters", 
+          "p1": "Detective Scarfe", 
+          "p2": "Misty Knight"
+        }, 
+        {
+          "desc": "Bailey and Misty were both at the crime scene at the failed gun sale", 
+          "p1": "Bailey", 
+          "p2": "Misty Knight"
+        }, 
+        {
+          "desc": "Bailey and Scarfe were both at the crime scene at the failed gun sale", 
+          "p1": "Bailey", 
+          "p2": "Detective Scarfe"
+        }, 
+        {
+          "desc": "Diamondback sent Shades to help Cottonmouth", 
+          "p1": "Hernan 'Shades' Alvarez", 
+          "p2": "Cornell 'Cottonmouth' Stokes"
+        }, 
+        {
+          "desc": "Tone was with Cornell when Shades arrived in Harlem's Paradise", 
+          "p1": "Hernam 'Shades' Alvarez", 
+          "p2": "Tone"
+        }, 
+        {
+          "desc": "Pop knew Dante before he was killed in the gun heist", 
+          "p1": "Dante Chapman", 
+          "p2": "Henry 'Pop' Hunter"
+        }, 
+        {
+          "desc": "Megan reported on Mariah's Harlem redevelopment projects", 
+          "p1": "Mariah Dillard", 
+          "p2": "Megan McClaren"
+        }, 
+        {
+          "desc": "Shades helped Mariah take over Cottonmouth's empire", 
+          "p1": "Hernam 'Shades' Alvarez", 
+          "p2": "Mariah Dillard"
+        }, 
+        {
+          "desc": "Tone brought Shameek to Harlem's Paradise after he stole Cornell's money", 
+          "p1": "Tone", 
+          "p2": "Shameek Smith"
+        }, 
+        {
+          "desc": "Shades and Luke were in Seagate prison together", 
+          "p1": "Luke Cage", 
+          "p2": "Hernam 'Shades' Alvarez"
+        }, 
+        {
+          "desc": "Cornell killed Shameek for stealing his money", 
+          "p1": "Shameek Smith", 
+          "p2": "Cornell 'Cottonmouth' Stokes"
+        }, 
+        {
+          "desc": "Shades was with Cornell when he killed Shameek", 
+          "p1": "Shameek Smith", 
+          "p2": "Hernam 'Shades' Alvarez"
+        }, 
+        {
+          "desc": "Jin and Connie own the chinese restaurant Luke lives above", 
+          "p1": "Connie Lin", 
+          "p2": "Jin Lin"
+        }, 
+        {
+          "desc": "Luke stopped Cottonmouth's thugs extorting Jin and Connie", 
+          "p1": "Jin Lin", 
+          "p2": "Luke Cage"
+        }, 
+        {
+          "desc": "Zip was one of Cottonmouth's thugs that fought Luke in the restaurant", 
+          "p1": "Enforcer Zip", 
+          "p2": "Luke Cage"
+        }, 
+        {
+          "desc": "Zip was one of the thugs that threatened Connie for money", 
+          "p1": "Enforcer Zip", 
+          "p2": "Connie Lin"
+        }, 
+        {
+          "desc": "Zip was one of the thugs that threatened Jin for money", 
+          "p1": "Enforcer Zip", 
+          "p2": "Jin Lin"
+        }, 
+        {
+          "desc": "Sugar was one of Cottonmouth's thugs that fought Luke in the restaurant", 
+          "p1": "Enforcer Sugar", 
+          "p2": "Luke Cage"
+        }, 
+        {
+          "desc": "Sugar was one of the thugs that threatened Connie for money", 
+          "p1": "Enforcer Sugar", 
+          "p2": "Connie Lin"
+        }, 
+        {
+          "desc": "Sugar was one of the thugs that threatened Jin for money", 
+          "p1": "Enforcer Sugar", 
+          "p2": "Jin Lin"
+        }, 
+        {
+          "desc": "Sugar worked for Cottonmouth", 
+          "p1": "Enforcer Sugar", 
+          "p2": "Cornell 'Cottonmouth' Stokes"
+        }, 
+        {
+          "desc": "Shades went with Cottonmouth to Pop's barber shop", 
+          "p1": "Hernam 'Shades' Alvarez", 
+          "p2": "Henry 'Pop' Hunter"
+        }, 
+        {
+          "desc": "Tone killed Pop for harbouring Chico", 
+          "p1": "Tone", 
+          "p2": "Henry 'Pop' Hunter"
+        }, 
+        {
+          "desc": "Cottonmouth went to Pop's barber shop for a shave", 
+          "p1": "Cornell 'Cottonmouth' Stokes", 
+          "p2": "Henry 'Pop' Hunter"
+        }, 
+        {
+          "desc": "Turk played chess at Pop's barber shop", 
+          "p1": "Turk Barrett", 
+          "p2": "Henry 'Pop' Hunter"
+        }, 
+        {
+          "desc": "Luke sealed Turk in a dumpster", 
+          "p1": "Turk Barrett", 
+          "p2": "Luke Cage"
+        }, 
+        {
+          "desc": "Shades went to Pop's barber shop with Cottonmouth, where Turk was playing chess", 
+          "p1": "Turk Barrett", 
+          "p2": "Hernam 'Shades' Alvarez"
+        }, 
+        {
+          "desc": "Cottonmouth went to Pop's barber shop with Cottonmouth, where Turk was playing chess", 
+          "p1": "Turk Barrett", 
+          "p2": "Cornell 'Cottonmouth' Stokes"
+        }, 
+        {
+          "desc": "Turk told Tone where to find Chico", 
+          "p1": "Turk Barrett", 
+          "p2": "Tone"
+        }, 
+        {
+          "desc": "Turk and Bobby played chess at Pop's barber shop", 
+          "p1": "Turk Barrett", 
+          "p2": "Bobby Fish"
+        }, 
+        {
+          "desc": "Misty played basketball with Chauncey to get information about Chico", 
+          "p1": "Misty Knight", 
+          "p2": "Chauncey"
+        }, 
+        {
+          "desc": "Scarfe went with Misty to interview Chauncey about Chico's death", 
+          "p1": "Detective Scarfe", 
+          "p2": "Chauncey"
+        }, 
+        {
+          "desc": "Chico and Chauncey knew each other from the basketball courts", 
+          "p1": "Chauncey", 
+          "p2": "Wilfredo 'Chico' Diaz"
+        }, 
+        {
+          "desc": "Fredo was Chico's father", 
+          "p1": "Wilfredo 'Fredo' Diaz Sr", 
+          "p2": "Wilfredo 'Chico' Diaz"
+        }, 
+        {
+          "desc": "Fredo and Cottonmouth were in Pop's street gang back in the day", 
+          "p1": "Wilfredo 'Fredo' Diaz Sr", 
+          "p2": "Cornell 'Cottonmouth' Stokes"
+        }, 
+        {
+          "desc": "Fredo was in Pop's street gang back in the day", 
+          "p1": "Wilfredo 'Fredo' Diaz Sr", 
+          "p2": "Henry 'Pop' Hunter"
+        }, 
+        {
+          "desc": "Jamel took photos of Pop, Cottonmouth and Fredo", 
+          "p1": "Jamel Shabazz", 
+          "p2": "Henry 'Pop' Hunter"
+        }, 
+        {
+          "desc": "Jamel took photos of Pop, Cottonmouth and Fredo", 
+          "p1": "Jamel Shabazz", 
+          "p2": "Wilfredo 'Fredo' Diaz Sr"
+        }, 
+        {
+          "desc": "Jamel took photos of Pop, Cottonmouth and Fredo", 
+          "p1": "Jamel Shabazz", 
+          "p2": "Cornell 'Cottonmouth' Stokes"
+        }, 
+        {
+          "desc": "Turk found Chico at Pop's barber shop", 
+          "p1": "Turk Barrett", 
+          "p2": "Wilfredo 'Chico' Diaz"
+        }, 
+        {
+          "desc": "Turk met Misty outside Pop's barber shop", 
+          "p1": "Turk Barrett", 
+          "p2": "Misty Knight"
+        }, 
+        {
+          "desc": "Turk met Scarfe outside Pop's barber shop", 
+          "p1": "Turk Barrett", 
+          "p2": "Detective Scarfe"
+        }, 
+        {
+          "desc": "Scarfe went to Pop's barber shop to ask about Chico, where Bobby was playing chess", 
+          "p1": "Detective Scarfe", 
+          "p2": "Bobby Fish"
+        }, 
+        {
+          "desc": "Misty went to Pop's barber shop to ask about Chico, where Bobby was playing chess", 
+          "p1": "Misty Knight", 
+          "p2": "Bobby Fish"
+        }, 
+        {
+          "desc": "Scarfe went to Pop's barber shop to ask about Chico", 
+          "p1": "Detective Scarfe", 
+          "p2": "Henry 'Pop' Hunter"
+        }, 
+        {
+          "desc": "Misty went to Pop's barber shop to ask about Chico", 
+          "p1": "Misty Knight", 
+          "p2": "Henry 'Pop' Hunter"
+        }, 
+        {
+          "desc": "Scarfe met Luke while asking about Chico at Pop's barber shop", 
+          "p1": "Detective Scarfe", 
+          "p2": "Luke Cage"
+        }, 
+        {
+          "desc": "Lonnie was getting a haircut when Tone shot up Pop's barber shop", 
+          "p1": "Tone", 
+          "p2": "Lonnie Wilson"
+        }, 
+        {
+          "desc": "Shades was with Tone when he shot up Pop's barber shop, where Lonnie was having a haircut", 
+          "p1": "Hernam 'Shades' Alvarez", 
+          "p2": "Lonnie Wilson"
+        }, 
+        {
+          "desc": "Tone shot Chico at Pop's barber shop for stealing from Cottonmouth", 
+          "p1": "Tone", 
+          "p2": "Wilfredo 'Chico' Diaz"
+        }, 
+        {
+          "desc": "Shades was with Tone when he shot Chico at Pop's barber shop", 
+          "p1": "Hernam 'Shades' Alvarez", 
+          "p2": "Wilfredo 'Chico' Diaz"
+        }, 
+        {
+          "desc": "Patricia and Scarfe were both in Pop's barber shop after it was shot up", 
+          "p1": "Patricia Wilson", 
+          "p2": "Detective Scarfe"
+        }, 
+        {
+          "desc": "Patricia and Misty were both in Pop's barber shop after it was shot up", 
+          "p1": "Patricia Wilson", 
+          "p2": "Misty Knight"
+        }, 
+        {
+          "desc": "Joel ran the mortuary that Luke visited to arrange Pop's ceremony", 
+          "p1": "Joel Spurlock", 
+          "p2": "Luke Cage"
+        }, 
+        {
+          "desc": "Cornell paid Spurlock to make bodies disappear", 
+          "p1": "Joel Spurlock", 
+          "p2": "Cornell 'Cottonmouth' Stokes"
+        }, 
+        {
+          "desc": "Misty and Scarfe questioned Chico in hospital", 
+          "p1": "Wilfredo 'Chico' Diaz", 
+          "p2": "Misty Knight"
+        }, 
+        {
+          "desc": "Scarfe killed Chico to prevent him testifying against Cottonmouth", 
+          "p1": "Wilfredo 'Chico' Diaz", 
+          "p2": "Detective Scarfe"
+        }, 
+        {
+          "desc": "Zip was an enforcer for Cottonmouth", 
+          "p1": "Enforcer Zip", 
+          "p2": "Cornell 'Cottonmouth' Stokes"
+        }, 
+        {
+          "desc": "Zip was with Cottonmouth when Domingo visited him in Harlem's Paradise", 
+          "p1": "Enforcer Zip", 
+          "p2": "Domingo Colon"
+        }, 
+        {
+          "desc": "Dillard was with Cottonmouth when Zip told him Scarfe wanted to see him", 
+          "p1": "Enforcer Zip", 
+          "p2": "Mariah Dillard"
+        }, 
+        {
+          "desc": "Zip was Scarfe's contact for getting to Cottonmouth", 
+          "p1": "Enforcer Zip", 
+          "p2": "Detective Scarfe"
+        }, 
+        {
+          "desc": "Scarfe was a double agent in the police for Cottonmouth", 
+          "p1": "Detective Scarfe", 
+          "p2": "Cornell 'Cottonmouth' Stokes"
+        }, 
+        {
+          "desc": "Jin and Misty spoke at the scene of the collapsed restaurant", 
+          "p1": "Jin Lin", 
+          "p2": "Misty Knight"
+        }, 
+        {
+          "desc": "Rackham forced Luke to fight for him in Seagate prison.", 
+          "p1": "Albert Rackham", 
+          "p2": "Luke Cage"
+        }, 
+        {
+          "desc": "Shades worked for Rackham when he was an inmate at Seagate", 
+          "p1": "Albert Rackham", 
+          "p2": "Hernam 'Shades' Alvarez"
+        }, 
+        {
+          "desc": "Rackham was a warden at Seagate where Squabbles was an inmate", 
+          "p1": "Albert Rackham", 
+          "p2": "Reggie 'Squabbles'"
+        }, 
+        {
+          "desc": "Rackham and Reva both worked at Seagate prison", 
+          "p1": "Albert Rackham", 
+          "p2": "Reva Connors"
+        }, 
+        {
+          "desc": "Reva ran the prisoner support group that Squabbles attended", 
+          "p1": "Reggie 'Squabbles'", 
+          "p2": "Reva Connors"
+        }, 
+        {
+          "desc": "Luke and Reggie were in Seagate prison together", 
+          "p1": "Reggie 'Squabbles'", 
+          "p2": "Luke Cage"
+        }, 
+        {
+          "desc": "Comanche worked for Rackham when he was an inmate at Seagate", 
+          "p1": "Albert Rackham", 
+          "p2": "Comanche"
+        }, 
+        {
+          "desc": "Comanche and Shades both worked for Rackham when they were in Seagate", 
+          "p1": "Comanche", 
+          "p2": "Hernam 'Shades' Alvarez"
+        }, 
+        {
+          "desc": "Comanche attacked Luke in Seagate for Rackham", 
+          "p1": "Comanche", 
+          "p2": "Luke Cage"
+        }, 
+        {
+          "desc": "Noah and Reva worked together in Seagate", 
+          "p1": "Dr Noah Burstein", 
+          "p2": "Reva Connors"
+        }, 
+        {
+          "desc": "Perez and Knight looked at the footage of the rocket attack on the chinese restaurant", 
+          "p1": "Lieutenant Perez", 
+          "p2": "Misty Knight"
+        }, 
+        {
+          "desc": "Scarfe and Perez looked at the footage of the rocket attack on the chinese restaurant", 
+          "p1": "Lieutenant Perez", 
+          "p2": "Detective Scarfe"
+        }, 
+        {
+          "desc": "Quinto knew Squabbles before he volunteered for experiments in Seagate", 
+          "p1": "Jimmy Quinto", 
+          "p2": "Reggie 'Squabbles'"
+        }, 
+        {
+          "desc": "Quinto was signed up for experiments in Seagate by Reva", 
+          "p1": "Jimmy Quinto", 
+          "p2": "Reva Connors"
+        }, 
+        {
+          "desc": "Comanche attacked Squabbles to get Cage to join the Seagate fight club", 
+          "p1": "Reggie 'Squabbles'", 
+          "p2": "Comanche"
+        }, 
+        {
+          "desc": "Rackham sabbotaged the procedure when Rackham was trying to save Cage, inadvertantly giving Luke powers", 
+          "p1": "Dr Noah Burstein", 
+          "p2": "Albert Rackham"
+        }, 
+        {
+          "desc": "Shades and Reva spoke in Seagate prison", 
+          "p1": "Hernam 'Shades' Alvarez", 
+          "p2": "Reva Connors"
+        }, 
+        {
+          "desc": "Burstein put Luke in the regeneration tank at Seagate to try and save his life", 
+          "p1": "Dr Noah Burstein", 
+          "p2": "Luke Cage"
+        }, 
+        {
+          "desc": "Misty was at the scene when Luke and Connie got out of the restaurant's rubble", 
+          "p1": "Misty Knight", 
+          "p2": "Connie Lin"
+        }, 
+        {
+          "desc": "Mitchell was Cottonmouth's accountant", 
+          "p1": "Darrell Mitchell", 
+          "p2": "Cornell 'Cottonmouth' Stokes"
+        }, 
+        {
+          "desc": "Shades and Mitchell were both at Cottonmouth's finance meeting", 
+          "p1": "Darrell Mitchell", 
+          "p2": "Hernam 'Shades' Alvarez"
+        }, 
+        {
+          "desc": "Zip was at the financial report given by Mitchell", 
+          "p1": "Darrell Mitchell", 
+          "p2": "Enforcer Zip"
+        }, 
+        {
+          "desc": "Koko was at the financial report given by Mitchell", 
+          "p1": "Darrell Mitchell", 
+          "p2": "Koko"
+        }, 
+        {
+          "desc": "Koko suggested leaving Luke alone, so Cottonmouth shot him", 
+          "p1": "Koko", 
+          "p2": "Cornell 'Cottonmouth' Stokes"
+        }, 
+        {
+          "desc": "Koko and Zip were both enforcers for Cottonmouth", 
+          "p1": "Koko", 
+          "p2": "Enforcer Zip"
+        }, 
+        {
+          "desc": "Shades was at Cottonmouths side when he killed Koko", 
+          "p1": "Koko", 
+          "p2": "Hernam 'Shades' Alvarez"
+        }, 
+        {
+          "desc": "Zip was sent to visit Spurlock to dispose of Koko's body", 
+          "p1": "Joel Spurlock", 
+          "p2": "Enforcer Zip"
+        }, 
+        {
+          "desc": "Zip stole Aisha's fathers ring from her shop", 
+          "p1": "Enforcer Zip", 
+          "p2": "Aisha Axton"
+        }, 
+        {
+          "desc": "Aisha is Eddie's daughter", 
+          "p1": "Eddie Axton", 
+          "p2": "Aisha Axton"
+        }, 
+        {
+          "desc": "Dan gave Luke a suit for Pop's funeral", 
+          "p1": "Dapper Dan", 
+          "p2": "Luke Cage"
+        }, 
+        {
+          "desc": "Bobby met Dan at Pop's barber shop", 
+          "p1": "Dapper Dan", 
+          "p2": "Bobby Fish"
+        }, 
+        {
+          "desc": "Dan met Mike Tyson at some point", 
+          "p1": "Dapper Dan", 
+          "p2": "Mike Tyson"
+        }, 
+        {
+          "desc": "Aisha went to Luke to retrieve her father's ring", 
+          "p1": "Aisha Axton", 
+          "p2": "Luke Cage"
+        }, 
+        {
+          "desc": "Bobby was in the barber shop when Aisha went to speak to Luke", 
+          "p1": "Aisha Axton", 
+          "p2": "Bobby Fish"
+        }, 
+        {
+          "desc": "Claire is Soledad's daughter", 
+          "p1": "Claire Temple", 
+          "p2": "Soledad Temple"
+        }, 
+        {
+          "desc": "Audrey and Perez informed Misty that Scarfe was being investigated", 
+          "p1": "Captain Betty Audrey", 
+          "p2": "Lieutenant Perez"
+        }, 
+        {
+          "desc": "Audrey informed Misty that Scarfe was being investigated", 
+          "p1": "Captain Betty Audrey", 
+          "p2": "Misty Knight"
+        }, 
+        {
+          "desc": "Audrey was Scarfe's boss", 
+          "p1": "Captain Betty Audrey", 
+          "p2": "Detective Scarfe"
+        }, 
+        {
+          "desc": "Perez was a mole for Cottonmouth in the police", 
+          "p1": "Lieutenant Perez", 
+          "p2": "Cornell 'Cottonmouth' Stokes"
+        }, 
+        {
+          "desc": "Perez Had MacClean release Cottonmouth's guns from police lockup", 
+          "p1": "Lieutenant Perez", 
+          "p2": "Sergeant MacClean"
+        }, 
+        {
+          "desc": "Scarfe collected Cottonmouth's guns from MacClean", 
+          "p1": "Detective Scarfe", 
+          "p2": "Sergeant MacClean"
+        }, 
+        {
+          "desc": "Luke met Eddie at his shop trying to return Eddie's ring to his daughter", 
+          "p1": "Eddie Axton", 
+          "p2": "Luke Cage"
+        }, 
+        {
+          "desc": "Misty and Aisha were both at Pop's funeral", 
+          "p1": "Aisha Axton", 
+          "p2": "Misty Knight"
+        }, 
+        {
+          "desc": "Cornell and Aisha were both at Pop's funeral", 
+          "p1": "Cornell 'Cottonmouth' Stokes", 
+          "p2": "Aisha Axton"
+        }, 
+        {
+          "desc": "Cornell and Misty were both at Pop's funeral", 
+          "p1": "Cornell 'Cottonmouth' Stokes", 
+          "p2": "Misty Knight"
+        }, 
+        {
+          "desc": "Shades and Misty were both at Pop's funeral", 
+          "p1": "Hernam 'Shades' Alvarez", 
+          "p2": "Misty Knight"
+        }, 
+        {
+          "desc": "Shades and Aisha were both at Pop's funeral", 
+          "p1": "Hernam 'Shades' Alvarez", 
+          "p2": "Aisha Axton"
+        }, 
+        {
+          "desc": "Bert was Pop's son", 
+          "p1": "Bert Hunter", 
+          "p2": "Henry 'Pop' Hunter"
+        }, 
+        {
+          "desc": "Bert and Shades were both at Pop's funeral", 
+          "p1": "Bert Hunter", 
+          "p2": "Hernam 'Shades' Alvarez"
+        }, 
+        {
+          "desc": "Bert and Cornell were both at Pop's funeral", 
+          "p1": "Bert Hunter", 
+          "p2": "Cornell 'Cottonmouth' Stokes"
+        }, 
+        {
+          "desc": "Bert and Aisha were both at Pop's funeral", 
+          "p1": "Bert Hunter", 
+          "p2": "Aisha Axton"
+        }, 
+        {
+          "desc": "Bert and Misty were both at Pop's funeral", 
+          "p1": "Bert Hunter", 
+          "p2": "Misty Knight"
+        }, 
+        {
+          "desc": "Bert and Luke were both at Pop's funeral", 
+          "p1": "Bert Hunter", 
+          "p2": "Luke Cage"
+        }, 
+        {
+          "desc": "Bert and Bobby were both at Pop's funeral", 
+          "p1": "Bobby Fish", 
+          "p2": "Bert Hunter"
+        }, 
+        {
+          "desc": "Claire met Bobby in her mother's diner", 
+          "p1": "Claire Temple", 
+          "p2": "Bobby Fish"
+        }, 
+        {
+          "desc": "Claire saved Luke's life after he was shot with Judas bullets", 
+          "p1": "Claire Temple", 
+          "p2": "Luke Cage"
+        }, 
+        {
+          "desc": "Bobby and Luke had breakfast at Soledad's diner", 
+          "p1": "Soledad Temple", 
+          "p2": "Bobby Fish"
+        }, 
+        {
+          "desc": "Luke and Bobby had breakfast at Soledad's diner", 
+          "p1": "Soledad Temple", 
+          "p2": "Luke Cage"
+        }, 
+        {
+          "desc": "Earl was Detective Scarfe's son", 
+          "p1": "Earl Scarfe", 
+          "p2": "Detective Scarfe"
+        }, 
+        {
+          "desc": "Claire treated Scarfe after he was shot by Cottonmouth", 
+          "p1": "Detective Scarfe", 
+          "p2": "Claire Temple"
+        }, 
+        {
+          "desc": "Alex was Dillards personal assistant", 
+          "p1": "PA Alex", 
+          "p2": "Mariah Dillard"
+        }, 
+        {
+          "desc": "Wallace interviews Dillard and informs her of Cornell's arrest", 
+          "p1": "Thembi Wallace", 
+          "p2": "Mariah Dillard"
+        }, 
+        {
+          "desc": "Alex was present when Thembi was interviewing Mariah", 
+          "p1": "Thembi Wallace", 
+          "p2": "PA Alex"
+        }, 
+        {
+          "desc": "Diontey found the van Scarfe was in on Zip's orders", 
+          "p1": "Diontey", 
+          "p2": "Enforcer Zip"
+        }, 
+        {
+          "desc": "Diontey and C-Money hunted down Scarfe for Cottonmouth", 
+          "p1": "Diontey", 
+          "p2": "C-Money"
+        }, 
+        {
+          "desc": "Pete was Mabel's brother in law", 
+          "p1": "Mama Mabel", 
+          "p2": "Peter 'Pistol Pete' Stokes"
+        }, 
+        {
+          "desc": "C-Money fired at Luke when chasing Scarfe underground", 
+          "p1": "C-Money", 
+          "p2": "Luke Cage"
+        }, 
+        {
+          "desc": "C-Money fired at Claire when chasing Scarfe underground", 
+          "p1": "C-Money", 
+          "p2": "Claire Temple"
+        }, 
+        {
+          "desc": "C-Money fired at Scarfe when chasing him underground", 
+          "p1": "C-Money", 
+          "p2": "Detective Scarfe"
+        }, 
+        {
+          "desc": "Cage stopped Diontey's car when he tried to hit detective Scarfe", 
+          "p1": "Diontey", 
+          "p2": "Luke Cage"
+        }, 
+        {
+          "desc": "Diontey tried to hit detective Scarfe with his car", 
+          "p1": "Diontey", 
+          "p2": "Detective Scarfe"
+        }, 
+        {
+          "desc": "Diontey tried to hit detective Scarfe and Claire with his car", 
+          "p1": "Diontey", 
+          "p2": "Claire Temple"
+        }, 
+        {
+          "desc": "Misty was at the scene when Diontey tried to run over Scarfe", 
+          "p1": "Diontey", 
+          "p2": "Misty Knight"
+        }, 
+        {
+          "desc": "Misty arrested Cornell", 
+          "p1": "Misty Knight", 
+          "p2": "Cornell 'Cottonmouth' Stokes"
+        }, 
+        {
+          "desc": "Eric worked with Thembi Wallace", 
+          "p1": "Eric Fraser", 
+          "p2": "Thembi Wallace"
+        }, 
+        {
+          "desc": "Alex and Eric were present when their bosses interviewed", 
+          "p1": "Eric Fraser", 
+          "p2": "PA Alex"
+        }, 
+        {
+          "desc": "Eric was with Thembi when she interviewed Mariah", 
+          "p1": "Eric Fraser", 
+          "p2": "Mariah Dillard"
+        }, 
+        {
+          "desc": "Donovan was Cottonmouth's lawyer", 
+          "p1": "Benjamin Donovan", 
+          "p2": "Cornell 'Cottonmouth' Stokes"
+        }, 
+        {
+          "desc": "Donovan met Knight when freeing Cottonmouth from custody", 
+          "p1": "Benjamin Donovan", 
+          "p2": "Misty Knight"
+        }, 
+        {
+          "desc": "Donovan met Audrey when freeing Cottonmouth from custody", 
+          "p1": "Captain Betty Audrey", 
+          "p2": "Benjamin Donovan"
+        }, 
+        {
+          "desc": "Audrey was in charge of the station that Cornell was held in when under arrest", 
+          "p1": "Captain Betty Audrey", 
+          "p2": "Cornell 'Cottonmouth' Stokes"
+        }, 
+        {
+          "desc": "Ridley became Misty's boss after Cottonmouth was released", 
+          "p1": "Inspector Priscilla Ridley", 
+          "p2": "Misty Knight"
+        }, 
+        {
+          "desc": "After Cottonmouth's release Ridley replaced Audrey as head of the precinct", 
+          "p1": "Inspector Priscilla Ridley", 
+          "p2": "Captain Betty Audrey"
+        }, 
+        {
+          "desc": "Boone and Dillard were political rivals", 
+          "p1": "Damon Boone", 
+          "p2": "Mariah Dillard"
+        }, 
+        {
+          "desc": "Alex saw Boone as he left Mariah Dillard's house", 
+          "p1": "PA Alex", 
+          "p2": "Damon Boone"
+        }, 
+        {
+          "desc": "Alex and Shades both worked for Mariah Dillard", 
+          "p1": "PA Alex", 
+          "p2": "Hernam 'Shades' Alvarez"
+        }, 
+        {
+          "desc": "Mariah was Pete's Grand-niece", 
+          "p1": "Peter 'Pistol Pete' Stokes", 
+          "p2": "Mariah Dillard"
+        }, 
+        {
+          "desc": "Cornell was Pete's Grand-nephew. Pete was killed by Cornell", 
+          "p1": "Peter 'Pistol Pete' Stokes", 
+          "p2": "Cornell 'Cottonmouth' Stokes"
+        }, 
+        {
+          "desc": "Pop and Pete met at Mama Mabel's", 
+          "p1": "Peter 'Pistol Pete' Stokes", 
+          "p2": "Henry 'Pop' Hunter"
+        }, 
+        {
+          "desc": "Pop met Mariah at Mama Mabel's", 
+          "p1": "Henry 'Pop' Hunter", 
+          "p2": "Mariah Dillard"
+        }, 
+        {
+          "desc": "Pop used to work for Mama Mabel", 
+          "p1": "Henry 'Pop' Hunter", 
+          "p2": "'Mama' Mabel Stokes"
+        }, 
+        {
+          "desc": "Cornell and Sister met at Mama Mabel's", 
+          "p1": "Cornell 'Cottonmouth' Stokes", 
+          "p2": "Sister Boy"
+        }, 
+        {
+          "desc": "Sister Boy worked at Mama Mabel's", 
+          "p1": "'Mama' Mabel Stokes", 
+          "p2": "Sister Boy"
+        }, 
+        {
+          "desc": "Mariah had Tony bring the car around", 
+          "p1": "Driver Tony", 
+          "p2": "Mariah Dillard"
+        }, 
+        {
+          "desc": "Buggy and Mabel were married", 
+          "p1": "Buggy Stokes", 
+          "p2": "'Mama' Mabel Stokes"
+        }, 
+        {
+          "desc": "Buggy and Pete were brothers", 
+          "p1": "Buggy Stokes", 
+          "p2": "Peter 'Pistol Pete' Stokes"
+        }, 
+        {
+          "desc": "Manny drove the ambulance for Claire after Luke was shot with a Judas bullet", 
+          "p1": "Manny", 
+          "p2": "Claire Temple"
+        }, 
+        {
+          "desc": "Manny drove the ambulance Luke rode in after he was shot with a Judas bullet", 
+          "p1": "Manny", 
+          "p2": "Luke Cage"
+        }, 
+        {
+          "desc": "Luke and Diamondback are half brothers", 
+          "p1": "Willis 'Diamondback' Stryker", 
+          "p2": "Luke Cage"
+        }, 
+        {
+          "desc": "Donovan was sent to represent Miller and backup Mariah's story", 
+          "p1": "Benjamin Donovan", 
+          "p2": "Candace Miller"
+        }, 
+        {
+          "desc": "Alex was at the precinct when Donovan freed Candace", 
+          "p1": "PA Alex", 
+          "p2": "Benjamin Donovan"
+        }, 
+        {
+          "desc": "Mariah was at the precinct when Donovan freed Candace", 
+          "p1": "Mariah Dillard", 
+          "p2": "Benjamin Donovan"
+        }, 
+        {
+          "desc": "Alex and Misty met at the police precinct", 
+          "p1": "PA Alex", 
+          "p2": "Misty Knight"
+        }, 
+        {
+          "desc": "Millard sent Alex to wait in the car with Tony", 
+          "p1": "PA Alex", 
+          "p2": "Driver Tony"
+        }, 
+        {
+          "desc": "Priscilla and Mariah were sorority sisters", 
+          "p1": "Inspector Priscilla Ridley", 
+          "p2": "Mariah Dillard"
+        }, 
+        {
+          "desc": "Misty assaulted Claire in interrogation after Diamondback attacked them and Luke", 
+          "p1": "Misty Knight", 
+          "p2": "Claire Temple"
+        }, 
+        {
+          "desc": "Sugar and Zip both worked for Cottonmouth", 
+          "p1": "Enforcer Sugar", 
+          "p2": "Enforcer Zip"
+        }, 
+        {
+          "desc": "Shades became Sugar's boss after Cottonmouth was killed", 
+          "p1": "Enforcer Sugar", 
+          "p2": "Hernan 'Shades' Alvarez"
+        }, 
+        {
+          "desc": "Shades became Zip's boss after Cottonmouth was killed", 
+          "p1": "Enforcer Zip", 
+          "p2": "Hernan 'Shades' Alvarez"
+        }, 
+        {
+          "desc": "Diamondback took Misty's gun at Harlem's womens clinic", 
+          "p1": "Willis 'Diamondback' Stryker", 
+          "p2": "Misty Knight"
+        }, 
+        {
+          "desc": "Diamondback attacked Claire and Luke in Harlem's womens clinic", 
+          "p1": "Willis 'Diamondback' Stryker", 
+          "p2": "Claire Temple"
+        }, 
+        {
+          "desc": "Ridley stopped Misty attacking Claire in the interview room", 
+          "p1": "Inspector Priscilla Ridley", 
+          "p2": "Claire Temple"
+        }, 
+        {
+          "desc": "Shades killed Candace after she came clean about Cottonmouth's murder", 
+          "p1": "Candace Miller", 
+          "p2": "Hernan 'Shades' Alvarez"
+        }, 
+        {
+          "desc": "Gabe councilled Misty after she assaulted Claire Temple in the interview room", 
+          "p1": "Gabe Krasner", 
+          "p2": "Misty Knight"
+        }, 
+        {
+          "desc": "Ridley had Krasner council Misty after she assaulted Claire Temple during an interview", 
+          "p1": "Gabe Krasner", 
+          "p2": "Inspector Priscilla Ridley"
+        }, 
+        {
+          "desc": "Shades worked for Diamondback", 
+          "p1": "Willis 'Diamondback' Stryker", 
+          "p2": "Hernan 'Shades' Alvarez"
+        }, 
+        {
+          "desc": "Diamondback sent Zip to find Cage", 
+          "p1": "Willis 'Diamondback' Stryker", 
+          "p2": "Enforcer Zip"
+        }, 
+        {
+          "desc": "Diamondback sent Sugar to find Cage", 
+          "p1": "Willis 'Diamondback' Stryker", 
+          "p2": "Enforcer Sugar"
+        }, 
+        {
+          "desc": "Diamondback shot Darnell in the shoulder and sent him to find Cage", 
+          "p1": "Willis 'Diamondback' Stryker", 
+          "p2": "Enforcer Darnell"
+        }, 
+        {
+          "desc": "Darnell and Zip both worked for Shades", 
+          "p1": "Enforcer Darnell", 
+          "p2": "Enforcer Zip"
+        }, 
+        {
+          "desc": "Darnell and Sugar both worked for Shades", 
+          "p1": "Enforcer Darnell", 
+          "p2": "Enforcer Sugar"
+        }, 
+        {
+          "desc": "Darnell worked for Shades after Cottonmouth's death", 
+          "p1": "Enforcer Darnell", 
+          "p2": "Hernan 'Shades' Alvarez"
+        }, 
+        {
+          "desc": "Sugar worked for Shades after Cottonmouth's death", 
+          "p1": "Enforcer Sugar", 
+          "p2": "Hernan 'Shades' Alvarez"
+        }, 
+        {
+          "desc": "Cottonmouth and Diamondback used to be friends", 
+          "p1": "Willis 'Diamondback' Stryker", 
+          "p2": "Cornell 'Cottonmouth' Stokes"
+        }, 
+        {
+          "desc": "Claire took Luke to Burstein to get medical help for Luke", 
+          "p1": "Dr Noah Burstein", 
+          "p2": "Claire Temple"
+        }, 
+        {
+          "desc": "Alef attended Mariah's crime boss meeting", 
+          "p1": "Mariah Dillard", 
+          "p2": "Jacques Alef"
+        }, 
+        {
+          "desc": "Barnwell attended Mariah's crime boss meeting", 
+          "p1": "Mariah Dillard", 
+          "p2": "Neville Barnwell"
+        }, 
+        {
+          "desc": "Castro attended Mariah's crime boss meeting", 
+          "p1": "Mariah Dillard", 
+          "p2": "Juan Carlos Castro"
+        }, 
+        {
+          "desc": "Hong attended Mariah's crime boss meeting", 
+          "p1": "Mariah Dillard", 
+          "p2": "Peter Hong"
+        }, 
+        {
+          "desc": "Diamondback killed most of the other attendee's of Mariah's crime boss meeting", 
+          "p1": "Mariah Dillard", 
+          "p2": "Willis 'Diamondback' Stryker"
+        }, 
+        {
+          "desc": "Shades and Domingo both survived Mariah's crime boss meeting", 
+          "p1": "Hernan 'Shades' Alvarez", 
+          "p2": "Domingo Colon"
+        }, 
+        {
+          "desc": "Shades and Alef attended Mariah's crime boss meeting", 
+          "p1": "Hernan 'Shades' Alvarez", 
+          "p2": "Jacques Alef"
+        }, 
+        {
+          "desc": "Shades and Barnwell attended Mariah's crime boss meeting", 
+          "p1": "Hernan 'Shades' Alvarez", 
+          "p2": "Neville Barnwell"
+        }, 
+        {
+          "desc": "Shades and Castro attended Mariah's crime boss meeting", 
+          "p1": "Hernan 'Shades' Alvarez", 
+          "p2": "Juan Carlos Castro"
+        }, 
+        {
+          "desc": "Shades and Hong attended Mariah's crime boss meeting", 
+          "p1": "Hernan 'Shades' Alvarez", 
+          "p2": "Peter Hong"
+        }, 
+        {
+          "desc": "Domingo and Alef attended Mariah's crime boss meeting", 
+          "p1": "Domingo Colon", 
+          "p2": "Jacques Alef"
+        }, 
+        {
+          "desc": "Domingo and Barnwell attended Mariah's crime boss meeting", 
+          "p1": "Domingo Colon", 
+          "p2": "Neville Barnwell"
+        }, 
+        {
+          "desc": "Domingo and Castro attended Mariah's crime boss meeting", 
+          "p1": "Domingo Colon", 
+          "p2": "Juan Carlos Castro"
+        }, 
+        {
+          "desc": "Domingo and Hong attended Mariah's crime boss meeting", 
+          "p1": "Domingo Colon", 
+          "p2": "Peter Hong"
+        }, 
+        {
+          "desc": "Diamondback used his super suit to kill Domingo and his crew after a shoot out", 
+          "p1": "Domingo Colon", 
+          "p2": "Willis 'Diamondback' Stryker"
+        }, 
+        {
+          "desc": "Jacques and Barnwell attended Mariah's crime boss meeting", 
+          "p1": "Jacques Alef", 
+          "p2": "Neville Barnwell"
+        }, 
+        {
+          "desc": "Jacques and Castro attended Mariah's crime boss meeting", 
+          "p1": "Jacques Alef", 
+          "p2": "Juan Carlos Castro"
+        }, 
+        {
+          "desc": "Jacques and Hong attended Mariah's crime boss meeting", 
+          "p1": "Jacques Alef", 
+          "p2": "Peter Hong"
+        }, 
+        {
+          "desc": "Diamondback killed Jacques at Mariah's crime boss meeting", 
+          "p1": "Jacques Alef", 
+          "p2": "Willis 'Diamondback' Stryker"
+        }, 
+        {
+          "desc": "Neville and Castro attended Mariah's crime boss meeting", 
+          "p1": "Neville Barnwell", 
+          "p2": "Juan Carlos Castro"
+        }, 
+        {
+          "desc": "Neville and Hong attended Mariah's crime boss meeting", 
+          "p1": "Neville Barnwell", 
+          "p2": "Peter Hong"
+        }, 
+        {
+          "desc": "Diamondback killed Neville at Mariah's crime boss meeting", 
+          "p1": "Neville Barnwell", 
+          "p2": "Willis 'Diamondback' Stryker"
+        }, 
+        {
+          "desc": "Castro and Hong attended Mariah's crime boss meeting", 
+          "p1": "Juan Carlos Castro", 
+          "p2": "Peter Hong"
+        }, 
+        {
+          "desc": "Diamondback killed Castro at Mariah's crime boss meeting", 
+          "p1": "Juan Carlos Castro", 
+          "p2": "Willis 'Diamondback' Stryker"
+        }, 
+        {
+          "desc": "Diamondback killed Hong at Mariah's crime boss meeting", 
+          "p1": "Peter Hong", 
+          "p2": "Willis 'Diamondback' Stryker"
+        }, 
+        {
+          "desc": "Diamondback killed Albini, framing Luke to spread fear", 
+          "p1": "Willis 'Diamondback' Stryker", 
+          "p2": "Officer Albini"
+        }, 
+        {
+          "desc": "Ridley met Lonnie after he was attacked in the interrogation room", 
+          "p1": "Lonnie Wilson", 
+          "p2": "Inspector Priscilla Ridley"
+        }, 
+        {
+          "desc": "Misty met Lonnie after he was attacked in the interrogation room", 
+          "p1": "Lonnie Wilson", 
+          "p2": "Misty Knight"
+        }, 
+        {
+          "desc": "Bailey met Lonnie after he was attacked in the interrogation room", 
+          "p1": "Lonnie Wilson", 
+          "p2": "Bailey"
+        }, 
+        {
+          "desc": "Patricia met Misty at the precinct after her son was attacked in the interrogation room", 
+          "p1": "Patricia Wilson", 
+          "p2": "Misty Knight"
+        }, 
+        {
+          "desc": "Ridley and Patricia met at the precinct after Lonnie was attacked by a cop", 
+          "p1": "Patricia Wilson", 
+          "p2": "Inspector Priscilla Ridley"
+        }, 
+        {
+          "desc": "Patricia and Mariah told the media about Lonnie's assaut at police hands", 
+          "p1": "Patricia Wilson", 
+          "p2": "Mariah Dillard"
+        }, 
+        {
+          "desc": "Ridley became Bailey's boss", 
+          "p1": "Bailey", 
+          "p2": "Inspector Priscilla Ridley"
+        }, 
+        {
+          "desc": "Misty visited Domingo at his boxing gym", 
+          "p1": "Misty Knight", 
+          "p2": "Domingo Colon"
+        }, 
+        {
+          "desc": "James was Willis' father", 
+          "p1": "Rev James Lucas", 
+          "p2": "Willis 'Diamondback' Stryker"
+        }, 
+        {
+          "desc": "James was Luke's father", 
+          "p1": "Rev James Lucas", 
+          "p2": "Luke Cage"
+        }, 
+        {
+          "desc": "Dana was Willis' mother", 
+          "p1": "Dana Stryker", 
+          "p2": "Willis 'Diamondback' Stryker"
+        }, 
+        {
+          "desc": "Dana knew Luke when he was a kid", 
+          "p1": "Dana Stryker", 
+          "p2": "Luke Cage"
+        }, 
+        {
+          "desc": "Dana was James' mistress", 
+          "p1": "Dana Stryker", 
+          "p2": "Rev James Lucas"
+        }, 
+        {
+          "desc": "Etta knew Willis when he was a kid", 
+          "p1": "Etta Lucas", 
+          "p2": "Willis 'Diamondback' Stryker"
+        }, 
+        {
+          "desc": "Etta was Luke's mother", 
+          "p1": "Etta Lucas", 
+          "p2": "Luke Cage"
+        }, 
+        {
+          "desc": "Etta and James were married", 
+          "p1": "Etta Lucas", 
+          "p2": "Rev James Lucas"
+        }, 
+        {
+          "desc": "Dana and Etta did not get along, Dana was Etta's husband's mistress", 
+          "p1": "Dana Stryker", 
+          "p2": "Etta Lucas"
+        }, 
+        {
+          "desc": "Claire passed Dave's stall with Luke after healing him in Georgia", 
+          "p1": "Dave Griffith", 
+          "p2": "Claire Temple"
+        }, 
+        {
+          "desc": "Diamondback used Boone as a negotiator during a hostage scenario in Harlem's Paradise, then killed him", 
+          "p1": "Damon Boone", 
+          "p2": "Willis 'Diamondback' Stryker"
+        }, 
+        {
+          "desc": "Shades and Boone were in Harlem's Paradise when Diamondback held hostages", 
+          "p1": "Damon Boone", 
+          "p2": "Hernan 'Shades' Alvarez"
+        }, 
+        {
+          "desc": "Sugar held Claire and the other hostages at gunpoint in Harlem's Paradise", 
+          "p1": "Enforcer Sugar", 
+          "p2": "Claire Temple"
+        }, 
+        {
+          "desc": "Green and Ridley were in charge of the hostage rescue mission in Harlem's Paradise", 
+          "p1": "Inspector Priscilla Ridley", 
+          "p2": "Lt Mario Green"
+        }, 
+        {
+          "desc": "Boone and Ridley spoke to negotiate the hostage situation in Harlem's Paradise", 
+          "p1": "Inspector Priscilla Ridley", 
+          "p2": "Damon Boone"
+        }, 
+        {
+          "desc": "Claire treated Candace's ankle during the Harlem's Paradise hostage situation", 
+          "p1": "Claire Temple", 
+          "p2": "Candace Miller"
+        }, 
+        {
+          "desc": "Sugar held Candace and the other hostages at gunpoint in Harlem's Paradise", 
+          "p1": "Candace Miller", 
+          "p2": "Enforcer Sugar"
+        }, 
+        {
+          "desc": "Lopes and Sugar worked together for Diamondback", 
+          "p1": "Enforcer Lopes", 
+          "p2": "Enforcer Sugar"
+        }, 
+        {
+          "desc": "Lopes escorted Claire to the basement, where she escaped to help Luke and Misty", 
+          "p1": "Enforcer Lopes", 
+          "p2": "Claire Temple"
+        }, 
+        {
+          "desc": "Lopes and Shades were both in Harlem's Paradise during the hostage situation", 
+          "p1": "Enforcer Lopes", 
+          "p2": "Hernan 'Shades' Alvarez"
+        }, 
+        {
+          "desc": "Lopes worked for Diamondback", 
+          "p1": "Enforcer Lopes", 
+          "p2": "Willis 'Diamondback' Stryker"
+        }, 
+        {
+          "desc": "Blake and Priscilla worked on the Harlem's Paradise hostage situation together", 
+          "p1": "Blake Tower", 
+          "p2": "Inspector Priscilla Ridley"
+        }, 
+        {
+          "desc": "Blake and Mario worked on the Harlem's Paradise hostage situation together", 
+          "p1": "Blake Tower", 
+          "p2": "Lt Mario Green"
+        }, 
+        {
+          "desc": "Luke took out Lopes when resolving the Harlem's Paradise hostage situation", 
+          "p1": "Enforcer Lopes", 
+          "p2": "Luke Cage"
+        }, 
+        {
+          "desc": "Misty and Claire took out Shades in Harlem's Paradise's basement", 
+          "p1": "Hernan 'Shades' Alvarez", 
+          "p2": "Misty Knight"
+        }, 
+        {
+          "desc": "Claire broke Shades' sunglasses after the hostage situation", 
+          "p1": "Hernan 'Shades' Alvarez", 
+          "p2": "Claire Temple"
+        }, 
+        {
+          "desc": "Stryker kept Candace as the last hostage to hold off Luke Cage", 
+          "p1": "Candace Miller", 
+          "p2": "Willis 'Diamondback' Stryker"
+        }, 
+        {
+          "desc": "Green met Cage when raiding the hostage situation in Harlem's Paradise", 
+          "p1": "Lt Mario Green", 
+          "p2": "Luke Cage"
+        }, 
+        {
+          "desc": "Green met Candace when raiding the hostage situation in Harlem's Paradise", 
+          "p1": "Lt Mario Green", 
+          "p2": "Candace Miller"
+        }, 
+        {
+          "desc": "Polsky let Luke escape so he could go after Diamondback", 
+          "p1": "Officer Polsky", 
+          "p2": "Luke Cage"
+        }, 
+        {
+          "desc": "Polsky used to get his hair cut at Pop's", 
+          "p1": "Officer Polsky", 
+          "p2": "Henry 'Pop' Hunter"
+        }, 
+        {
+          "desc": "Turk worked with Diamondback", 
+          "p1": "Turk Barrett", 
+          "p2": "Willis 'Diamondback' Stryker"
+        }, 
+        {
+          "desc": "Zip was working for Diamondback when Turk did business with him", 
+          "p1": "Turk Barrett", 
+          "p2": "Enforcer Zip"
+        }, 
+        {
+          "desc": "Sugar was held at Misty's precinct", 
+          "p1": "Enforcer Sugar", 
+          "p2": "Misty Knight"
+        }, 
+        {
+          "desc": "Sugar was held at Ridley's precinct", 
+          "p1": "Enforcer Sugar", 
+          "p2": "Inspector Priscilla Ridley"
+        }, 
+        {
+          "desc": "Ridley interviewed Shades after the Harlem's Paradise hostage situation", 
+          "p1": "Hernan 'Shades' Alvarez", 
+          "p2": "Inspector Priscilla Ridley"
+        }, 
+        {
+          "desc": "Cage saved Smith from being robbed. They traded hoodies", 
+          "p1": "Clifford 'Method Man' Smith", 
+          "p2": "Luke Cage"
+        }, 
+        {
+          "desc": "Sway and Clifford hosted a radio show together", 
+          "p1": "Clifford 'Method Man' Smith", 
+          "p2": "Sway Calloway"
+        }, 
+        {
+          "desc": "Clifford and Heather hosted a radio show together", 
+          "p1": "Clifford 'Method Man' Smith", 
+          "p2": "Heather B."
+        }, 
+        {
+          "desc": "Heather and Sway hosted a radio show together", 
+          "p1": "Heather B.", 
+          "p2": "Sway Calloway"
+        }, 
+        {
+          "desc": "Thembi interviewed Priscilla on TV", 
+          "p1": "Thembi Wallace", 
+          "p2": "Inspector Priscilla Ridley"
+        }, 
+        {
+          "desc": "Misty retrieved Turk from the dumpster Luke sealed him in", 
+          "p1": "Misty Knight", 
+          "p2": "Turk Barrett"
+        }, 
+        {
+          "desc": "Bobby was in Pop's barbershop when Mariah visited to get Luke to fight Diamondback", 
+          "p1": "Bobby Fish", 
+          "p2": "Mariah Dillard"
+        }, 
+        {
+          "desc": "Dave was in the crowd Misty told to back off from the Luke/Diamondback fight", 
+          "p1": "Dave Griffith", 
+          "p2": "Misty Knight"
+        }, 
+        {
+          "desc": "Candace hid at Soledad's appartment", 
+          "p1": "Candace Miller", 
+          "p2": "Soledad Temple"
+        }, 
+        {
+          "desc": "Mario and Misty were both policing the Cage/Diamondback fight", 
+          "p1": "Lt Mario Green", 
+          "p2": "Misty Knight"
+        }, 
+        {
+          "desc": "Thembi saw Misty arrest Mariah", 
+          "p1": "Misty Knight", 
+          "p2": "Thembi Wallace"
+        }, 
+        {
+          "desc": "Misty saw Diamondback get taken in", 
+          "p1": "Misty Knight", 
+          "p2": "Willis 'Diamondback' Stryker"
+        }, 
+        {
+          "desc": "Thembi interviewed Aisha on TV", 
+          "p1": "Thembi Wallace", 
+          "p2": "Aisha Axton"
+        }, 
+        {
+          "desc": "Bailey met Luke at the precinct", 
+          "p1": "Bailey", 
+          "p2": "Luke Cage"
+        }, 
+        {
+          "desc": "Baileymet Claire at the precinct", 
+          "p1": "Bailey", 
+          "p2": "Claire Temple"
+        }, 
+        {
+          "desc": "Bailey interrupted Mariah's interrogation", 
+          "p1": "Bailey", 
+          "p2": "Mariah Dillard"
+        }, 
+        {
+          "desc": "Franco was sent to return Carl Lucas to seagate", 
+          "p1": "Marshal Franco", 
+          "p2": "Luke Cage"
+        }, 
+        {
+          "desc": "Johnson was sent to return Carl Lucas to seagate", 
+          "p1": "Marshal Johnson", 
+          "p2": "Luke Cage"
+        }, 
+        {
+          "desc": "Misty was present when Franco arrested Luke", 
+          "p1": "Marshal Franco", 
+          "p2": "Misty Knight"
+        }, 
+        {
+          "desc": "Misty was present when Johnson arrested Luke", 
+          "p1": "Marshal Johnson", 
+          "p2": "Misty Knight"
+        }, 
+        {
+          "desc": "Claire was present when Franco arrested Luke", 
+          "p1": "Marshal Franco", 
+          "p2": "Claire Temple"
+        }, 
+        {
+          "desc": "Claire was present when Johnson arrested Luke", 
+          "p1": "Marshal Johnson", 
+          "p2": "Claire Temple"
+        }, 
+        {
+          "desc": "Ridley was present when Franco arrested Luke", 
+          "p1": "Marshal Franco", 
+          "p2": "Inspector Priscilla Ridley"
+        }, 
+        {
+          "desc": "Ridley was present when Johnson arrested Luke", 
+          "p1": "Marshal Johnson", 
+          "p2": "Inspector Priscilla Ridley"
+        }, 
+        {
+          "desc": "Burstein treated Diamondback after his fight with Luke", 
+          "p1": "Willis 'Diamondback' Stryker", 
+          "p2": "Dr Noah Burstein"
+        }
+      ], 
+      "name": "Luke Cage"
     }, 
     {
       "category": "Films", 
