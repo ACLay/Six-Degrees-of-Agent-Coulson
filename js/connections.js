@@ -7,7 +7,6 @@ return {
     "Other"
   ], 
   "characters": [
-    "'Mama' Mabel Stokes", 
     "Abu Bakar", 
     "Agent Blake", 
     "Agent Coulson", 
@@ -157,7 +156,6 @@ return {
     "Heimdall", 
     "Heinz Kruger", 
     "Henry 'Pop' Hunter", 
-    "Hernam 'Shades' Alvarez", 
     "Hernan 'Shades' Alvarez", 
     "Ho Yinsen", 
     "Hogun", 
@@ -215,7 +213,6 @@ return {
     "Lt Mario Green", 
     "Luis", 
     "Luke Cage", 
-    "Luke cage", 
     "Maggie Lang", 
     "Major Allen", 
     "Malcolm Ducasse", 
@@ -4254,7 +4251,6 @@ return {
     {
       "category": "Netflix", 
       "characters": [
-        "'Mama' Mabel Stokes", 
         "Aisha Axton", 
         "Albert Rackham", 
         "Bailey", 
@@ -4296,7 +4292,6 @@ return {
         "Gabe Krasner", 
         "Heather B.", 
         "Henry 'Pop' Hunter", 
-        "Hernam 'Shades' Alvarez", 
         "Hernan 'Shades' Alvarez", 
         "Inspector Priscilla Ridley", 
         "Jacques Alef", 
@@ -4310,7 +4305,6 @@ return {
         "Lonnie Wilson", 
         "Lt Mario Green", 
         "Luke Cage", 
-        "Luke cage", 
         "Mama Mabel", 
         "Manny", 
         "Mariah Dillard", 
@@ -4479,12 +4473,12 @@ return {
         }, 
         {
           "desc": "Mama Mabel was Cornell's grandma, and raised him", 
-          "p1": "'Mama' Mabel Stokes", 
+          "p1": "Mama Mabel", 
           "p2": "Cornell 'Cottonmouth' Stokes"
         }, 
         {
           "desc": "Mama Mabel was Mariah's grandma, and raised her", 
-          "p1": "'Mama' Mabel Stokes", 
+          "p1": "Mama Mabel", 
           "p2": "Mariah Dillard"
         }, 
         {
@@ -4580,7 +4574,7 @@ return {
         {
           "desc": "Tone was Cornell's bodyguard when Luke brought champagne to his table", 
           "p1": "Tone", 
-          "p2": "Luke cage"
+          "p2": "Luke Cage"
         }, 
         {
           "desc": "Scarfe and Knight were parters", 
@@ -4604,7 +4598,7 @@ return {
         }, 
         {
           "desc": "Tone was with Cornell when Shades arrived in Harlem's Paradise", 
-          "p1": "Hernam 'Shades' Alvarez", 
+          "p1": "Hernan 'Shades' Alvarez", 
           "p2": "Tone"
         }, 
         {
@@ -4619,7 +4613,7 @@ return {
         }, 
         {
           "desc": "Shades helped Mariah take over Cottonmouth's empire", 
-          "p1": "Hernam 'Shades' Alvarez", 
+          "p1": "Hernan 'Shades' Alvarez", 
           "p2": "Mariah Dillard"
         }, 
         {
@@ -4630,7 +4624,7 @@ return {
         {
           "desc": "Shades and Luke were in Seagate prison together", 
           "p1": "Luke Cage", 
-          "p2": "Hernam 'Shades' Alvarez"
+          "p2": "Hernan 'Shades' Alvarez"
         }, 
         {
           "desc": "Cornell killed Shameek for stealing his money", 
@@ -4640,7 +4634,7 @@ return {
         {
           "desc": "Shades was with Cornell when he killed Shameek", 
           "p1": "Shameek Smith", 
-          "p2": "Hernam 'Shades' Alvarez"
+          "p2": "Hernan 'Shades' Alvarez"
         }, 
         {
           "desc": "Jin and Connie own the chinese restaurant Luke lives above", 
@@ -4689,7 +4683,7 @@ return {
         }, 
         {
           "desc": "Shades went with Cottonmouth to Pop's barber shop", 
-          "p1": "Hernam 'Shades' Alvarez", 
+          "p1": "Hernan 'Shades' Alvarez", 
           "p2": "Henry 'Pop' Hunter"
         }, 
         {
@@ -4715,7 +4709,7 @@ return {
         {
           "desc": "Shades went to Pop's barber shop with Cottonmouth, where Turk was playing chess", 
           "p1": "Turk Barrett", 
-          "p2": "Hernam 'Shades' Alvarez"
+          "p2": "Hernan 'Shades' Alvarez"
         }, 
         {
           "desc": "Cottonmouth went to Pop's barber shop with Cottonmouth, where Turk was playing chess", 
@@ -4824,7 +4818,7 @@ return {
         }, 
         {
           "desc": "Shades was with Tone when he shot up Pop's barber shop, where Lonnie was having a haircut", 
-          "p1": "Hernam 'Shades' Alvarez", 
+          "p1": "Hernan 'Shades' Alvarez", 
           "p2": "Lonnie Wilson"
         }, 
         {
@@ -4834,7 +4828,7 @@ return {
         }, 
         {
           "desc": "Shades was with Tone when he shot Chico at Pop's barber shop", 
-          "p1": "Hernam 'Shades' Alvarez", 
+          "p1": "Hernan 'Shades' Alvarez", 
           "p2": "Wilfredo 'Chico' Diaz"
         }, 
         {
@@ -4905,7 +4899,7 @@ return {
         {
           "desc": "Shades worked for Rackham when he was an inmate at Seagate", 
           "p1": "Albert Rackham", 
-          "p2": "Hernam 'Shades' Alvarez"
+          "p2": "Hernan 'Shades' Alvarez"
         }, 
         {
           "desc": "Rackham was a warden at Seagate where Squabbles was an inmate", 
@@ -4935,7 +4929,7 @@ return {
         {
           "desc": "Comanche and Shades both worked for Rackham when they were in Seagate", 
           "p1": "Comanche", 
-          "p2": "Hernam 'Shades' Alvarez"
+          "p2": "Hernan 'Shades' Alvarez"
         }, 
         {
           "desc": "Comanche attacked Luke in Seagate for Rackham", 
@@ -4979,7 +4973,7 @@ return {
         }, 
         {
           "desc": "Shades and Reva spoke in Seagate prison", 
-          "p1": "Hernam 'Shades' Alvarez", 
+          "p1": "Hernan 'Shades' Alvarez", 
           "p2": "Reva Connors"
         }, 
         {
@@ -5000,7 +4994,7 @@ return {
         {
           "desc": "Shades and Mitchell were both at Cottonmouth's finance meeting", 
           "p1": "Darrell Mitchell", 
-          "p2": "Hernam 'Shades' Alvarez"
+          "p2": "Hernan 'Shades' Alvarez"
         }, 
         {
           "desc": "Zip was at the financial report given by Mitchell", 
@@ -5025,7 +5019,7 @@ return {
         {
           "desc": "Shades was at Cottonmouths side when he killed Koko", 
           "p1": "Koko", 
-          "p2": "Hernam 'Shades' Alvarez"
+          "p2": "Hernan 'Shades' Alvarez"
         }, 
         {
           "desc": "Zip was sent to visit Spurlock to dispose of Koko's body", 
@@ -5124,12 +5118,12 @@ return {
         }, 
         {
           "desc": "Shades and Misty were both at Pop's funeral", 
-          "p1": "Hernam 'Shades' Alvarez", 
+          "p1": "Hernan 'Shades' Alvarez", 
           "p2": "Misty Knight"
         }, 
         {
           "desc": "Shades and Aisha were both at Pop's funeral", 
-          "p1": "Hernam 'Shades' Alvarez", 
+          "p1": "Hernan 'Shades' Alvarez", 
           "p2": "Aisha Axton"
         }, 
         {
@@ -5140,7 +5134,7 @@ return {
         {
           "desc": "Bert and Shades were both at Pop's funeral", 
           "p1": "Bert Hunter", 
-          "p2": "Hernam 'Shades' Alvarez"
+          "p2": "Hernan 'Shades' Alvarez"
         }, 
         {
           "desc": "Bert and Cornell were both at Pop's funeral", 
@@ -5325,7 +5319,7 @@ return {
         {
           "desc": "Alex and Shades both worked for Mariah Dillard", 
           "p1": "PA Alex", 
-          "p2": "Hernam 'Shades' Alvarez"
+          "p2": "Hernan 'Shades' Alvarez"
         }, 
         {
           "desc": "Mariah was Pete's Grand-niece", 
@@ -5350,7 +5344,7 @@ return {
         {
           "desc": "Pop used to work for Mama Mabel", 
           "p1": "Henry 'Pop' Hunter", 
-          "p2": "'Mama' Mabel Stokes"
+          "p2": "Mama Mabel"
         }, 
         {
           "desc": "Cornell and Sister met at Mama Mabel's", 
@@ -5359,7 +5353,7 @@ return {
         }, 
         {
           "desc": "Sister Boy worked at Mama Mabel's", 
-          "p1": "'Mama' Mabel Stokes", 
+          "p1": "Mama Mabel", 
           "p2": "Sister Boy"
         }, 
         {
@@ -5370,7 +5364,7 @@ return {
         {
           "desc": "Buggy and Mabel were married", 
           "p1": "Buggy Stokes", 
-          "p2": "'Mama' Mabel Stokes"
+          "p2": "Mama Mabel"
         }, 
         {
           "desc": "Buggy and Pete were brothers", 

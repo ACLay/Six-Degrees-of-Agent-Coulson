@@ -25,8 +25,8 @@ Luke Cage|Blind Oliver|Oliver sold Luke a copy of The New Yorker
 Luke Cage|Connie Lin|Connie is Luke's landlady.
 Luke Cage|Club Manager Nate|Nate had Luke work as a bartender in Harlem's Paradise
 Cornell 'Cottonmouth' Stokes|Mariah Dillard|Mariah and Cornell were cousins, then she killed him
-'Mama' Mabel Stokes|Cornell 'Cottonmouth' Stokes|Mama Mabel was Cornell's grandma, and raised him
-'Mama' Mabel Stokes|Mariah Dillard|Mama Mabel was Mariah's grandma, and raised her
+Mama Mabel|Cornell 'Cottonmouth' Stokes|Mama Mabel was Cornell's grandma, and raised him
+Mama Mabel|Mariah Dillard|Mama Mabel was Mariah's grandma, and raised her
 Luke Cage|Misty Knight|Luke and Misty ran into eachother a lot
 Domingo Colon|Cornell 'Cottonmouth' Stokes|Cornell made a deal to sell guns to Domingo
 Domingo Colon|Mariah Dillard|Dillard visited Colon to arrange a transition of power after Cornell's death
@@ -45,19 +45,19 @@ Tone|Cornell 'Cottonmouth' Stokes|Tone was Cornell's bodyguard
 Tone|Mariah Dillard|Tone was protecting Cornell when he was with Mariah in Harlem's paradise
 Tone|Domingo Colon|Tone was protecting Cornell when he was with Domingo in Harlem's paradise.
 Tone|Candace Miller|Tone acted most ungentlemanly towards Candace when she brought Cornell's champagne
-Tone|Luke cage|Tone was Cornell's bodyguard when Luke brought champagne to his table
+Tone|Luke Cage|Tone was Cornell's bodyguard when Luke brought champagne to his table
 Detective Scarfe|Misty Knight|Scarfe and Knight were parters
 Bailey|Misty Knight|Bailey and Misty were both at the crime scene at the failed gun sale
 Bailey|Detective Scarfe|Bailey and Scarfe were both at the crime scene at the failed gun sale
 Hernan 'Shades' Alvarez|Cornell 'Cottonmouth' Stokes|Diamondback sent Shades to help Cottonmouth
-Hernam 'Shades' Alvarez|Tone|Tone was with Cornell when Shades arrived in Harlem's Paradise
+Hernan 'Shades' Alvarez|Tone|Tone was with Cornell when Shades arrived in Harlem's Paradise
 Dante Chapman|Henry 'Pop' Hunter|Pop knew Dante before he was killed in the gun heist
 Mariah Dillard|Megan McClaren|Megan reported on Mariah's Harlem redevelopment projects
-Hernam 'Shades' Alvarez|Mariah Dillard|Shades helped Mariah take over Cottonmouth's empire
+Hernan 'Shades' Alvarez|Mariah Dillard|Shades helped Mariah take over Cottonmouth's empire
 Tone|Shameek Smith|Tone brought Shameek to Harlem's Paradise after he stole Cornell's money
-Luke Cage|Hernam 'Shades' Alvarez|Shades and Luke were in Seagate prison together
+Luke Cage|Hernan 'Shades' Alvarez|Shades and Luke were in Seagate prison together
 Shameek Smith|Cornell 'Cottonmouth' Stokes|Cornell killed Shameek for stealing his money
-Shameek Smith|Hernam 'Shades' Alvarez|Shades was with Cornell when he killed Shameek
+Shameek Smith|Hernan 'Shades' Alvarez|Shades was with Cornell when he killed Shameek
 Connie Lin|Jin Lin|Jin and Connie own the chinese restaurant Luke lives above
 Jin Lin|Luke Cage|Luke stopped Cottonmouth's thugs extorting Jin and Connie
 Enforcer Zip|Luke Cage|Zip was one of Cottonmouth's thugs that fought Luke in the restaurant
@@ -67,12 +67,12 @@ Enforcer Sugar|Luke Cage|Sugar was one of Cottonmouth's thugs that fought Luke i
 Enforcer Sugar|Connie Lin|Sugar was one of the thugs that threatened Connie for money
 Enforcer Sugar|Jin Lin|Sugar was one of the thugs that threatened Jin for money
 Enforcer Sugar|Cornell 'Cottonmouth' Stokes|Sugar worked for Cottonmouth
-Hernam 'Shades' Alvarez|Henry 'Pop' Hunter|Shades went with Cottonmouth to Pop's barber shop
+Hernan 'Shades' Alvarez|Henry 'Pop' Hunter|Shades went with Cottonmouth to Pop's barber shop
 Tone|Henry 'Pop' Hunter|Tone killed Pop for harbouring Chico
 Cornell 'Cottonmouth' Stokes|Henry 'Pop' Hunter|Cottonmouth went to Pop's barber shop for a shave
 Turk Barrett|Henry 'Pop' Hunter|Turk played chess at Pop's barber shop
 Turk Barrett|Luke Cage|Luke sealed Turk in a dumpster
-Turk Barrett|Hernam 'Shades' Alvarez|Shades went to Pop's barber shop with Cottonmouth, where Turk was playing chess
+Turk Barrett|Hernan 'Shades' Alvarez|Shades went to Pop's barber shop with Cottonmouth, where Turk was playing chess
 Turk Barrett|Cornell 'Cottonmouth' Stokes|Cottonmouth went to Pop's barber shop with Cottonmouth, where Turk was playing chess
 Turk Barrett|Tone|Turk told Tone where to find Chico
 Turk Barrett|Bobby Fish|Turk and Bobby played chess at Pop's barber shop
@@ -94,9 +94,9 @@ Detective Scarfe|Henry 'Pop' Hunter|Scarfe went to Pop's barber shop to ask abou
 Misty Knight|Henry 'Pop' Hunter|Misty went to Pop's barber shop to ask about Chico
 Detective Scarfe|Luke Cage|Scarfe met Luke while asking about Chico at Pop's barber shop
 Tone|Lonnie Wilson|Lonnie was getting a haircut when Tone shot up Pop's barber shop
-Hernam 'Shades' Alvarez|Lonnie Wilson|Shades was with Tone when he shot up Pop's barber shop, where Lonnie was having a haircut
+Hernan 'Shades' Alvarez|Lonnie Wilson|Shades was with Tone when he shot up Pop's barber shop, where Lonnie was having a haircut
 Tone|Wilfredo 'Chico' Diaz|Tone shot Chico at Pop's barber shop for stealing from Cottonmouth
-Hernam 'Shades' Alvarez|Wilfredo 'Chico' Diaz|Shades was with Tone when he shot Chico at Pop's barber shop
+Hernan 'Shades' Alvarez|Wilfredo 'Chico' Diaz|Shades was with Tone when he shot Chico at Pop's barber shop
 Patricia Wilson|Detective Scarfe|Patricia and Scarfe were both in Pop's barber shop after it was shot up
 Patricia Wilson|Misty Knight|Patricia and Misty were both in Pop's barber shop after it was shot up
 Joel Spurlock|Luke Cage|Joel ran the mortuary that Luke visited to arrange Pop's ceremony
@@ -110,13 +110,13 @@ Enforcer Zip|Detective Scarfe|Zip was Scarfe's contact for getting to Cottonmout
 Detective Scarfe|Cornell 'Cottonmouth' Stokes|Scarfe was a double agent in the police for Cottonmouth
 Jin Lin|Misty Knight|Jin and Misty spoke at the scene of the collapsed restaurant
 Albert Rackham|Luke Cage|Rackham forced Luke to fight for him in Seagate prison.
-Albert Rackham|Hernam 'Shades' Alvarez|Shades worked for Rackham when he was an inmate at Seagate
+Albert Rackham|Hernan 'Shades' Alvarez|Shades worked for Rackham when he was an inmate at Seagate
 Albert Rackham|Reggie 'Squabbles'|Rackham was a warden at Seagate where Squabbles was an inmate
 Albert Rackham|Reva Connors|Rackham and Reva both worked at Seagate prison
 Reggie 'Squabbles'|Reva Connors|Reva ran the prisoner support group that Squabbles attended
 Reggie 'Squabbles'|Luke Cage|Luke and Reggie were in Seagate prison together
 Albert Rackham|Comanche|Comanche worked for Rackham when he was an inmate at Seagate
-Comanche|Hernam 'Shades' Alvarez|Comanche and Shades both worked for Rackham when they were in Seagate
+Comanche|Hernan 'Shades' Alvarez|Comanche and Shades both worked for Rackham when they were in Seagate
 Comanche|Luke Cage|Comanche attacked Luke in Seagate for Rackham
 Dr Noah Burstein|Reva Connors|Noah and Reva worked together in Seagate
 Lieutenant Perez|Misty Knight|Perez and Knight looked at the footage of the rocket attack on the chinese restaurant
@@ -125,16 +125,16 @@ Jimmy Quinto|Reggie 'Squabbles'|Quinto knew Squabbles before he volunteered for 
 Jimmy Quinto|Reva Connors|Quinto was signed up for experiments in Seagate by Reva
 Reggie 'Squabbles'|Comanche|Comanche attacked Squabbles to get Cage to join the Seagate fight club
 Dr Noah Burstein|Albert Rackham|Rackham sabbotaged the procedure when Rackham was trying to save Cage, inadvertantly giving Luke powers
-Hernam 'Shades' Alvarez|Reva Connors|Shades and Reva spoke in Seagate prison
+Hernan 'Shades' Alvarez|Reva Connors|Shades and Reva spoke in Seagate prison
 Dr Noah Burstein|Luke Cage|Burstein put Luke in the regeneration tank at Seagate to try and save his life
 Misty Knight|Connie Lin|Misty was at the scene when Luke and Connie got out of the restaurant's rubble
 Darrell Mitchell|Cornell 'Cottonmouth' Stokes|Mitchell was Cottonmouth's accountant
-Darrell Mitchell|Hernam 'Shades' Alvarez|Shades and Mitchell were both at Cottonmouth's finance meeting
+Darrell Mitchell|Hernan 'Shades' Alvarez|Shades and Mitchell were both at Cottonmouth's finance meeting
 Darrell Mitchell|Enforcer Zip|Zip was at the financial report given by Mitchell
 Darrell Mitchell|Koko|Koko was at the financial report given by Mitchell
 Koko|Cornell 'Cottonmouth' Stokes|Koko suggested leaving Luke alone, so Cottonmouth shot him
 Koko|Enforcer Zip|Koko and Zip were both enforcers for Cottonmouth
-Koko|Hernam 'Shades' Alvarez|Shades was at Cottonmouths side when he killed Koko
+Koko|Hernan 'Shades' Alvarez|Shades was at Cottonmouths side when he killed Koko
 Joel Spurlock|Enforcer Zip|Zip was sent to visit Spurlock to dispose of Koko's body
 Enforcer Zip|Aisha Axton|Zip stole Aisha's fathers ring from her shop
 Eddie Axton|Aisha Axton|Aisha is Eddie's daughter
@@ -154,10 +154,10 @@ Eddie Axton|Luke Cage|Luke met Eddie at his shop trying to return Eddie's ring t
 Aisha Axton|Misty Knight|Misty and Aisha were both at Pop's funeral
 Cornell 'Cottonmouth' Stokes|Aisha Axton|Cornell and Aisha were both at Pop's funeral
 Cornell 'Cottonmouth' Stokes|Misty Knight|Cornell and Misty were both at Pop's funeral
-Hernam 'Shades' Alvarez|Misty Knight|Shades and Misty were both at Pop's funeral
-Hernam 'Shades' Alvarez|Aisha Axton|Shades and Aisha were both at Pop's funeral
+Hernan 'Shades' Alvarez|Misty Knight|Shades and Misty were both at Pop's funeral
+Hernan 'Shades' Alvarez|Aisha Axton|Shades and Aisha were both at Pop's funeral
 Bert Hunter|Henry 'Pop' Hunter|Bert was Pop's son
-Bert Hunter|Hernam 'Shades' Alvarez|Bert and Shades were both at Pop's funeral
+Bert Hunter|Hernan 'Shades' Alvarez|Bert and Shades were both at Pop's funeral
 Bert Hunter|Cornell 'Cottonmouth' Stokes|Bert and Cornell were both at Pop's funeral
 Bert Hunter|Aisha Axton|Bert and Aisha were both at Pop's funeral
 Bert Hunter|Misty Knight|Bert and Misty were both at Pop's funeral
@@ -194,16 +194,16 @@ Inspector Priscilla Ridley|Misty Knight|Ridley became Misty's boss after Cottonm
 Inspector Priscilla Ridley|Captain Betty Audrey|After Cottonmouth's release Ridley replaced Audrey as head of the precinct
 Damon Boone|Mariah Dillard|Boone and Dillard were political rivals
 PA Alex|Damon Boone|Alex saw Boone as he left Mariah Dillard's house
-PA Alex|Hernam 'Shades' Alvarez|Alex and Shades both worked for Mariah Dillard
+PA Alex|Hernan 'Shades' Alvarez|Alex and Shades both worked for Mariah Dillard
 Peter 'Pistol Pete' Stokes|Mariah Dillard|Mariah was Pete's Grand-niece
 Peter 'Pistol Pete' Stokes|Cornell 'Cottonmouth' Stokes|Cornell was Pete's Grand-nephew. Pete was killed by Cornell
 Peter 'Pistol Pete' Stokes|Henry 'Pop' Hunter|Pop and Pete met at Mama Mabel's
 Henry 'Pop' Hunter|Mariah Dillard|Pop met Mariah at Mama Mabel's
-Henry 'Pop' Hunter|'Mama' Mabel Stokes|Pop used to work for Mama Mabel
+Henry 'Pop' Hunter|Mama Mabel|Pop used to work for Mama Mabel
 Cornell 'Cottonmouth' Stokes|Sister Boy|Cornell and Sister met at Mama Mabel's
-'Mama' Mabel Stokes|Sister Boy|Sister Boy worked at Mama Mabel's
+Mama Mabel|Sister Boy|Sister Boy worked at Mama Mabel's
 Driver Tony|Mariah Dillard|Mariah had Tony bring the car around
-Buggy Stokes|'Mama' Mabel Stokes|Buggy and Mabel were married
+Buggy Stokes|Mama Mabel|Buggy and Mabel were married
 Buggy Stokes|Peter 'Pistol Pete' Stokes|Buggy and Pete were brothers
 Manny|Claire Temple|Manny drove the ambulance for Claire after Luke was shot with a Judas bullet
 Manny|Luke Cage|Manny drove the ambulance Luke rode in after he was shot with a Judas bullet
