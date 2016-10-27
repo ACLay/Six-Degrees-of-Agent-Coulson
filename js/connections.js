@@ -1934,7 +1934,7 @@ return {
           "p2": "Heinz Kruger"
         }
       ], 
-      "name": "Captain America The First Avenger"
+      "name": "Captain America: The First Avenger"
     }, 
     {
       "category": "Films", 
@@ -2460,7 +2460,7 @@ return {
           "p2": "Pietro Maximoff"
         }
       ], 
-      "name": "Captain America The Winter Soldier"
+      "name": "Captain America: The Winter Soldier"
     }, 
     {
       "category": "Films", 
@@ -8063,7 +8063,7 @@ return {
           "p2": "Carina"
         }
       ], 
-      "name": "Thor The Dark World"
+      "name": "Thor: The Dark World"
     }, 
     {
       "category": "Other", 
