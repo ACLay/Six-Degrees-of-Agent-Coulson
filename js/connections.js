@@ -69,6 +69,7 @@ return {
     "Colonel Phillips", 
     "Comanche", 
     "Connie Lin", 
+    "Cooper Barton", 
     "Cornell 'Cottonmouth' Stokes", 
     "Cosmo the Dog", 
     "Councilman Rockwell", 
@@ -101,6 +102,7 @@ return {
     "Donald", 
     "Dorothy Walker", 
     "Dr Erskine", 
+    "Dr Helen Cho", 
     "Dr Noah Burstein", 
     "Drax", 
     "Driver Tony", 
@@ -124,6 +126,7 @@ return {
     "Erin", 
     "Ernesto", 
     "Etta Lucas", 
+    "FRIDAY", 
     "Fandral", 
     "Ferdinand Lopez", 
     "Fletcher Heggs", 
@@ -203,16 +206,19 @@ return {
     "Kurt", 
     "Larry Ellison", 
     "Laufey", 
+    "Laura Barton", 
     "Laurent Bouchard", 
     "Len Sirkes", 
     "Leonard Samson", 
     "Lieutenant Perez", 
+    "Lila Barton", 
     "Loki", 
     "Lonnie Wilson", 
     "Louise Thompson", 
     "Lt Mario Green", 
     "Luis", 
     "Luke Cage", 
+    "Madame B", 
     "Maggie Lang", 
     "Major Allen", 
     "Malcolm Ducasse", 
@@ -239,6 +245,7 @@ return {
     "Mr Lin", 
     "Mrs Davis", 
     "Natasha Romanoff", 
+    "Nathaniel Barton", 
     "Nebula", 
     "Neville Barnwell", 
     "Nick Fury", 
@@ -320,8 +327,11 @@ return {
     "Turk Barrett", 
     "Tweaky", 
     "Tyr", 
+    "Ultron", 
+    "Ulysses Klaue", 
     "Vice President Rodriguez", 
     "Victor", 
+    "Vision", 
     "Volstagg", 
     "Wanda Maximoff", 
     "Wendy Ross-Hogarth", 
@@ -857,6 +867,714 @@ return {
         }
       ], 
       "name": "Ant-Man"
+    }, 
+    {
+      "category": "Films", 
+      "characters": [
+        "Baron Strucker", 
+        "Bruce Banner", 
+        "Cameron Klein", 
+        "Clint Barton", 
+        "Cooper Barton", 
+        "Doctor List", 
+        "Dr Helen Cho", 
+        "Erik Selvig", 
+        "FRIDAY", 
+        "Heimdall", 
+        "JARVIS", 
+        "James Rhodes", 
+        "Laura Barton", 
+        "Lila Barton", 
+        "Madame B", 
+        "Maria Hill", 
+        "Natasha Romanoff", 
+        "Nathaniel Barton", 
+        "Nick Fury", 
+        "Peggy Carter", 
+        "Pietro Maximoff", 
+        "Sam Wilson", 
+        "Steve Rogers", 
+        "Thanos", 
+        "Thor", 
+        "Tony Stark", 
+        "Ultron", 
+        "Ulysses Klaue", 
+        "Vision", 
+        "Wanda Maximoff"
+      ], 
+      "interactions": [
+        {
+          "desc": "Tony and Thor are both Avengers", 
+          "p1": "Tony Stark", 
+          "p2": "Thor"
+        }, 
+        {
+          "desc": "Tony and Bruce are both Avengers", 
+          "p1": "Tony Stark", 
+          "p2": "Bruce Banner"
+        }, 
+        {
+          "desc": "Tony and Steve are both Avengers", 
+          "p1": "Tony Stark", 
+          "p2": "Steve Rogers"
+        }, 
+        {
+          "desc": "Tony and Nat are both Avengers", 
+          "p1": "Tony Stark", 
+          "p2": "Natasha Romanoff"
+        }, 
+        {
+          "desc": "Tony and Clint are both Avengers", 
+          "p1": "Tony Stark", 
+          "p2": "Clint Barton"
+        }, 
+        {
+          "desc": "Tony kinda created Ultron", 
+          "p1": "Tony Stark", 
+          "p2": "Ultron"
+        }, 
+        {
+          "desc": "Nick gave Tony a pep talk on the farm", 
+          "p1": "Tony Stark", 
+          "p2": "Nick Fury"
+        }, 
+        {
+          "desc": "Tony and Rhodey are besties", 
+          "p1": "Tony Stark", 
+          "p2": "James Rhodes"
+        }, 
+        {
+          "desc": "Tony and Pietro were (briefly) both Avengers", 
+          "p1": "Tony Stark", 
+          "p2": "Pietro Maximoff"
+        }, 
+        {
+          "desc": "Tony and Wanda fought together against Ultron in Sokovia", 
+          "p1": "Tony Stark", 
+          "p2": "Wanda Maximoff"
+        }, 
+        {
+          "desc": "JARVIS controls Tony's suits and buildings", 
+          "p1": "Tony Stark", 
+          "p2": "JARVIS"
+        }, 
+        {
+          "desc": "Tony and Vision are both Avengers", 
+          "p1": "Tony Stark", 
+          "p2": "Vision"
+        }, 
+        {
+          "desc": "Hill worked for Stark at Avengers tower", 
+          "p1": "Tony Stark", 
+          "p2": "Maria Hill"
+        }, 
+        {
+          "desc": "Sam and Tony met at the Avengers party", 
+          "p1": "Tony Stark", 
+          "p2": "Sam Wilson"
+        }, 
+        {
+          "desc": "Tony hid at the Barton's farm", 
+          "p1": "Tony Stark", 
+          "p2": "Laura Barton"
+        }, 
+        {
+          "desc": "Tony had Helen met at Avengers tower", 
+          "p1": "Tony Stark", 
+          "p2": "Dr Helen Cho"
+        }, 
+        {
+          "desc": "Tony knew Klaue from his arms dealer days", 
+          "p1": "Tony Stark", 
+          "p2": "Ulysses Klaue"
+        }, 
+        {
+          "desc": "Tony interrupted List when he was deleting Hydra's files", 
+          "p1": "Tony Stark", 
+          "p2": "Doctor List"
+        }, 
+        {
+          "desc": "Tony met Cooper at the Barton's farm", 
+          "p1": "Tony Stark", 
+          "p2": "Cooper Barton"
+        }, 
+        {
+          "desc": "Tony met Lila at the Barton's farm", 
+          "p1": "Tony Stark", 
+          "p2": "Lila Barton"
+        }, 
+        {
+          "desc": "Tony created FRIDAY to be his new digital PA", 
+          "p1": "Tony Stark", 
+          "p2": "FRIDAY"
+        }, 
+        {
+          "desc": "Thor and Bruce are both Avengers", 
+          "p1": "Thor", 
+          "p2": "Bruce Banner"
+        }, 
+        {
+          "desc": "Thor and Steve are both Avengers", 
+          "p1": "Thor", 
+          "p2": "Steve Rogers"
+        }, 
+        {
+          "desc": "Thor and Nat are both Avengers", 
+          "p1": "Thor", 
+          "p2": "Natasha Romanoff"
+        }, 
+        {
+          "desc": "Thor and Clint are both Avengers", 
+          "p1": "Thor", 
+          "p2": "Clint Barton"
+        }, 
+        {
+          "desc": "Thor hammered many Ultron drones to pieces", 
+          "p1": "Thor", 
+          "p2": "Ultron"
+        }, 
+        {
+          "desc": "Rhodey told Thor a very impressive and complete story", 
+          "p1": "Thor", 
+          "p2": "James Rhodes"
+        }, 
+        {
+          "desc": "Thor and Pietro were (briefly) both Avengers", 
+          "p1": "Thor", 
+          "p2": "Pietro Maximoff"
+        }, 
+        {
+          "desc": "Wanda made Thor see Ragnarok", 
+          "p1": "Thor", 
+          "p2": "Wanda Maximoff"
+        }, 
+        {
+          "desc": "Both are worthy", 
+          "p1": "Thor", 
+          "p2": "Vision"
+        }, 
+        {
+          "desc": "Thor and Hill were both at the Avengers party", 
+          "p1": "Thor", 
+          "p2": "Maria Hill"
+        }, 
+        {
+          "desc": "Thor supposed led Heimdall and Asgard to Hel", 
+          "p1": "Thor", 
+          "p2": "Heimdall"
+        }, 
+        {
+          "desc": "Thor met Laura at the Barton's farm", 
+          "p1": "Thor", 
+          "p2": "Laura Barton"
+        }, 
+        {
+          "desc": "Thor went to Erik to help him find the magic Jacuzzi", 
+          "p1": "Thor", 
+          "p2": "Erik Selvig"
+        }, 
+        {
+          "desc": "Thor and Helen were both at the Avengers party", 
+          "p1": "Thor", 
+          "p2": "Dr Helen Cho"
+        }, 
+        {
+          "desc": "Thor met Cooper at the Barton's farm", 
+          "p1": "Thor", 
+          "p2": "Cooper Barton"
+        }, 
+        {
+          "desc": "Thor met Lila at the Barton's farm", 
+          "p1": "Thor", 
+          "p2": "Lila Barton"
+        }, 
+        {
+          "desc": "Bruce and Steve are both Avengers", 
+          "p1": "Bruce Banner", 
+          "p2": "Steve Rogers"
+        }, 
+        {
+          "desc": "Bruce and Natasha, sitting in a tree...", 
+          "p1": "Bruce Banner", 
+          "p2": "Natasha Romanoff"
+        }, 
+        {
+          "desc": "Bruce and Clint are both Avengers", 
+          "p1": "Bruce Banner", 
+          "p2": "Clint Barton"
+        }, 
+        {
+          "desc": "Hulk smash puny Ultron's", 
+          "p1": "Bruce Banner", 
+          "p2": "Ultron"
+        }, 
+        {
+          "desc": "Fury gave Bruce and the other Avengers a pep talk", 
+          "p1": "Bruce Banner", 
+          "p2": "Nick Fury"
+        }, 
+        {
+          "desc": "Bruce and Rhodey were both at the Avengers party", 
+          "p1": "Bruce Banner", 
+          "p2": "James Rhodes"
+        }, 
+        {
+          "desc": "Bruce and Pietro were (briefly) both Avengers", 
+          "p1": "Bruce Banner", 
+          "p2": "Pietro Maximoff"
+        }, 
+        {
+          "desc": "Wanda made Bruce Hulk-out in South Africa", 
+          "p1": "Bruce Banner", 
+          "p2": "Wanda Maximoff"
+        }, 
+        {
+          "desc": "Bruce and JARVIS worked together to create Ultron", 
+          "p1": "Bruce Banner", 
+          "p2": "JARVIS"
+        }, 
+        {
+          "desc": "Bruce and Vision are both Avengers", 
+          "p1": "Bruce Banner", 
+          "p2": "Vision"
+        }, 
+        {
+          "desc": "Bruce and Maria were both at the Avengers party", 
+          "p1": "Bruce Banner", 
+          "p2": "Maria Hill"
+        }, 
+        {
+          "desc": "Bruce met Laura at the Barton's farm", 
+          "p1": "Bruce Banner", 
+          "p2": "Laura Barton"
+        }, 
+        {
+          "desc": "Bruce and Dr Cho were both at the Avengers party", 
+          "p1": "Bruce Banner", 
+          "p2": "Dr Helen Cho"
+        }, 
+        {
+          "desc": "Bruce met Cooper at the Barton's farm", 
+          "p1": "Bruce Banner", 
+          "p2": "Cooper Barton"
+        }, 
+        {
+          "desc": "Bruce met Lila at the Barton's farm", 
+          "p1": "Bruce Banner", 
+          "p2": "Lila Barton"
+        }, 
+        {
+          "desc": "Steve and Nat are both Avengers", 
+          "p1": "Steve Rogers", 
+          "p2": "Natasha Romanoff"
+        }, 
+        {
+          "desc": "Steve and Clint are both Avengers", 
+          "p1": "Steve Rogers", 
+          "p2": "Clint Barton"
+        }, 
+        {
+          "desc": "Steve fought against Ultron", 
+          "p1": "Steve Rogers", 
+          "p2": "Ultron"
+        }, 
+        {
+          "desc": "Fury gave Steve and the other Avengers a pep talk", 
+          "p1": "Steve Rogers", 
+          "p2": "Nick Fury"
+        }, 
+        {
+          "desc": "Steve and Rhodey were both at the Avengers party", 
+          "p1": "Steve Rogers", 
+          "p2": "James Rhodes"
+        }, 
+        {
+          "desc": "Steve and Pietro were (briefly) both Avengers", 
+          "p1": "Steve Rogers", 
+          "p2": "Pietro Maximoff"
+        }, 
+        {
+          "desc": "Wanda gave Steve war flashbacks", 
+          "p1": "Steve Rogers", 
+          "p2": "Wanda Maximoff"
+        }, 
+        {
+          "desc": "Steve and Vision are both Avengers", 
+          "p1": "Steve Rogers", 
+          "p2": "Vision"
+        }, 
+        {
+          "desc": "Steve was Maria's boss", 
+          "p1": "Steve Rogers", 
+          "p2": "Maria Hill"
+        }, 
+        {
+          "desc": "Steve had Sam looking for Bucky", 
+          "p1": "Steve Rogers", 
+          "p2": "Sam Wilson"
+        }, 
+        {
+          "desc": "Steve and Peggy had a dance", 
+          "p1": "Steve Rogers", 
+          "p2": "Peggy Carter"
+        }, 
+        {
+          "desc": "Steve met Laura at the Barton's farm", 
+          "p1": "Steve Rogers", 
+          "p2": "Laura Barton"
+        }, 
+        {
+          "desc": "Helen warned Steve about the mind gem after Ultron attacked her lab", 
+          "p1": "Steve Rogers", 
+          "p2": "Dr Helen Cho"
+        }, 
+        {
+          "desc": "Steve captured Baron Strucker", 
+          "p1": "Steve Rogers", 
+          "p2": "Baron Strucker"
+        }, 
+        {
+          "desc": "Steve met Cooper at the Barton's farm", 
+          "p1": "Steve Rogers", 
+          "p2": "Cooper Barton"
+        }, 
+        {
+          "desc": "Steve met Lila at the Barton's farm", 
+          "p1": "Steve Rogers", 
+          "p2": "Lila Barton"
+        }, 
+        {
+          "desc": "Clint and Nat are old friends", 
+          "p1": "Natasha Romanoff", 
+          "p2": "Clint Barton"
+        }, 
+        {
+          "desc": "Nat fought against Ultron", 
+          "p1": "Natasha Romanoff", 
+          "p2": "Ultron"
+        }, 
+        {
+          "desc": "Fury gave Nat and the other Avengers a pep talk", 
+          "p1": "Natasha Romanoff", 
+          "p2": "Nick Fury"
+        }, 
+        {
+          "desc": "Nat and Rhodey were both at the Avenger party", 
+          "p1": "Natasha Romanoff", 
+          "p2": "James Rhodes"
+        }, 
+        {
+          "desc": "Natasha and Pietro were (briefly) both Avengers", 
+          "p1": "Natasha Romanoff", 
+          "p2": "Pietro Maximoff"
+        }, 
+        {
+          "desc": "Wanda gave Nat flashbacks to her Black Widow training", 
+          "p1": "Natasha Romanoff", 
+          "p2": "Wanda Maximoff"
+        }, 
+        {
+          "desc": "Nat and Vision are both Avengers", 
+          "p1": "Natasha Romanoff", 
+          "p2": "Vision"
+        }, 
+        {
+          "desc": "Nat and Maria were both at the Avengers party", 
+          "p1": "Natasha Romanoff", 
+          "p2": "Maria Hill"
+        }, 
+        {
+          "desc": "Nat met Laura at the Barton's farm", 
+          "p1": "Natasha Romanoff", 
+          "p2": "Laura Barton"
+        }, 
+        {
+          "desc": "Nat met Helen when she healed Clints injuries", 
+          "p1": "Natasha Romanoff", 
+          "p2": "Dr Helen Cho"
+        }, 
+        {
+          "desc": "Madame B trained Natasha to be a Black Widow agent", 
+          "p1": "Natasha Romanoff", 
+          "p2": "Madame B"
+        }, 
+        {
+          "desc": "Nat was like an Aunt to Cooper", 
+          "p1": "Natasha Romanoff", 
+          "p2": "Cooper Barton"
+        }, 
+        {
+          "desc": "Nat was like an Aunt to Lila", 
+          "p1": "Natasha Romanoff", 
+          "p2": "Lila Barton"
+        }, 
+        {
+          "desc": "Clint fought Ultron, with a bow and arrow", 
+          "p1": "Clint Barton", 
+          "p2": "Ultron"
+        }, 
+        {
+          "desc": "Nick provided Clint with his hidden farm", 
+          "p1": "Clint Barton", 
+          "p2": "Nick Fury"
+        }, 
+        {
+          "desc": "Clint and James were both at the Avengers party", 
+          "p1": "Clint Barton", 
+          "p2": "James Rhodes"
+        }, 
+        {
+          "desc": "Bet you didn't see this link coming", 
+          "p1": "Clint Barton", 
+          "p2": "Pietro Maximoff"
+        }, 
+        {
+          "desc": "Clint zapped Wanda before she could mind control him", 
+          "p1": "Clint Barton", 
+          "p2": "Wanda Maximoff"
+        }, 
+        {
+          "desc": "Clint and Vision were both Avengers", 
+          "p1": "Clint Barton", 
+          "p2": "Vision"
+        }, 
+        {
+          "desc": "Clint and Maria were both at the Avengers party", 
+          "p1": "Clint Barton", 
+          "p2": "Maria Hill"
+        }, 
+        {
+          "desc": "Clint and Laura are married", 
+          "p1": "Clint Barton", 
+          "p2": "Laura Barton"
+        }, 
+        {
+          "desc": "Dr Cho healed Clints battle wounds", 
+          "p1": "Clint Barton", 
+          "p2": "Dr Helen Cho"
+        }, 
+        {
+          "desc": "Clint is Cooper's father", 
+          "p1": "Clint Barton", 
+          "p2": "Cooper Barton"
+        }, 
+        {
+          "desc": "Clint is Lila's father", 
+          "p1": "Clint Barton", 
+          "p2": "Lila Barton"
+        }, 
+        {
+          "desc": "Clint is Nathaniel's father", 
+          "p1": "Clint Barton", 
+          "p2": "Nathaniel Barton"
+        }, 
+        {
+          "desc": "Nick smashed an Ultron on the hellicarrier bridge", 
+          "p1": "Ultron", 
+          "p2": "Nick Fury"
+        }, 
+        {
+          "desc": "Rhodey destroyed Ultrons in Sokovia", 
+          "p1": "Ultron", 
+          "p2": "James Rhodes"
+        }, 
+        {
+          "desc": "Pietro saw Ultron coming, but still couldn't dodge his bullets", 
+          "p1": "Ultron", 
+          "p2": "Pietro Maximoff"
+        }, 
+        {
+          "desc": "Wanda ripped Ultrons robot heart from his robot body", 
+          "p1": "Ultron", 
+          "p2": "Wanda Maximoff"
+        }, 
+        {
+          "desc": "Ultron destroyed JARVIS", 
+          "p1": "Ultron", 
+          "p2": "JARVIS"
+        }, 
+        {
+          "desc": "Ultron designed, fought against, and was destroyed by, Vision", 
+          "p1": "Ultron", 
+          "p2": "Vision"
+        }, 
+        {
+          "desc": "Hill fought Ultrons in Avengers tower and the Hellicarrier bridge", 
+          "p1": "Ultron", 
+          "p2": "Maria Hill"
+        }, 
+        {
+          "desc": "Ultron had Cho help him build Vision", 
+          "p1": "Ultron", 
+          "p2": "Dr Helen Cho"
+        }, 
+        {
+          "desc": "Ultron killed Strucker", 
+          "p1": "Ultron", 
+          "p2": "Baron Strucker"
+        }, 
+        {
+          "desc": "Ultron chopped Klaue's hand off", 
+          "p1": "Ultron", 
+          "p2": "Ulysses Klaue"
+        }, 
+        {
+          "desc": "List did early work on Ultron for Hydra", 
+          "p1": "Ultron", 
+          "p2": "Doctor List"
+        }, 
+        {
+          "desc": "An Ultron tried to kill Cameron on the Hellicarrier bridge", 
+          "p1": "Ultron", 
+          "p2": "Cameron Klein"
+        }, 
+        {
+          "desc": "Fury had Rhodes defend the Hellicarrier in Sokovia", 
+          "p1": "Nick Fury", 
+          "p2": "James Rhodes"
+        }, 
+        {
+          "desc": "Hill and Fury worked together on the Hellicarrier", 
+          "p1": "Nick Fury", 
+          "p2": "Maria Hill"
+        }, 
+        {
+          "desc": "Klein worked under Fury on the Hellicarrier", 
+          "p1": "Nick Fury", 
+          "p2": "Cameron Klein"
+        }, 
+        {
+          "desc": "Rhodey and Wanda were both in the New Avengers", 
+          "p1": "James Rhodes", 
+          "p2": "Wanda Maximoff"
+        }, 
+        {
+          "desc": "Rhodey and Vision were both in the New Avengers", 
+          "p1": "James Rhodes", 
+          "p2": "Vision"
+        }, 
+        {
+          "desc": "Rhodey and Maria were both at the Avengers party", 
+          "p1": "James Rhodes", 
+          "p2": "Maria Hill"
+        }, 
+        {
+          "desc": "Rhodey and Sam were both in the New Avengers", 
+          "p1": "James Rhodes", 
+          "p2": "Sam Wilson"
+        }, 
+        {
+          "desc": "Pietro and Wanda are twins", 
+          "p1": "Pietro Maximoff", 
+          "p2": "Wanda Maximoff"
+        }, 
+        {
+          "desc": "Pietro and Vision were (briefly) both Avengers", 
+          "p1": "Pietro Maximoff", 
+          "p2": "Vision"
+        }, 
+        {
+          "desc": "Pietro met Helen in her South Korea lab", 
+          "p1": "Pietro Maximoff", 
+          "p2": "Dr Helen Cho"
+        }, 
+        {
+          "desc": "Strucker experimented on Pietro, giving him powers", 
+          "p1": "Pietro Maximoff", 
+          "p2": "Baron Strucker"
+        }, 
+        {
+          "desc": "Klaue gave Pietro a candy in South Africa", 
+          "p1": "Pietro Maximoff", 
+          "p2": "Ulysses Klaue"
+        }, 
+        {
+          "desc": "List and Pietro met in Hydra's Sokovia base", 
+          "p1": "Pietro Maximoff", 
+          "p2": "Doctor List"
+        }, 
+        {
+          "desc": "Wanda and Vision were both Avengers", 
+          "p1": "Wanda Maximoff", 
+          "p2": "Vision"
+        }, 
+        {
+          "desc": "Wanda and Sam were both in the New Avengers", 
+          "p1": "Wanda Maximoff", 
+          "p2": "Sam Wilson"
+        }, 
+        {
+          "desc": "Wanda released Helen from Ultron's mind control", 
+          "p1": "Wanda Maximoff", 
+          "p2": "Dr Helen Cho"
+        }, 
+        {
+          "desc": "Wanda volunteered for Struckers experiments", 
+          "p1": "Wanda Maximoff", 
+          "p2": "Baron Strucker"
+        }, 
+        {
+          "desc": "Cuttlefish, womp, womp, womp", 
+          "p1": "Wanda Maximoff", 
+          "p2": "Ulysses Klaue"
+        }, 
+        {
+          "desc": "List and Wanda met in Hydra's Sokovia base", 
+          "p1": "Wanda Maximoff", 
+          "p2": "Doctor List"
+        }, 
+        {
+          "desc": "JARVIS' code went into creating Vision", 
+          "p1": "JARVIS", 
+          "p2": "Vision"
+        }, 
+        {
+          "desc": "Vision and Sam were both in the New Avengers", 
+          "p1": "Vision", 
+          "p2": "Sam Wilson"
+        }, 
+        {
+          "desc": "Helen helped Ultron create Vision's body", 
+          "p1": "Vision", 
+          "p2": "Dr Helen Cho"
+        }, 
+        {
+          "desc": "Cho and Hill were both at the Avengers party", 
+          "p1": "Maria Hill", 
+          "p2": "Dr Helen Cho"
+        }, 
+        {
+          "desc": "Hill and Klein both worked on the Hellicarrier bridge", 
+          "p1": "Maria Hill", 
+          "p2": "Cameron Klein"
+        }, 
+        {
+          "desc": "Laura is Cooper's mother", 
+          "p1": "Laura Barton", 
+          "p2": "Cooper Barton"
+        }, 
+        {
+          "desc": "Laura is Lila's mother", 
+          "p1": "Laura Barton", 
+          "p2": "Lila Barton"
+        }, 
+        {
+          "desc": "Laura is Nathaniel's mother", 
+          "p1": "Laura Barton", 
+          "p2": "Nathaniel Barton"
+        }, 
+        {
+          "desc": "Strucker and List led Hydra's Sokovia operations", 
+          "p1": "Baron Strucker", 
+          "p2": "Doctor List"
+        }, 
+        {
+          "desc": "", 
+          "p1": "Thanos", 
+          "p2": "Thanos"
+        }
+      ], 
+      "name": "Avengers: Age of Ultron"
     }, 
     {
       "category": "Films", 
@@ -7440,13 +8158,13 @@ return [
   }, 
   {
     "p2": "Stan Lee", 
-    "media": "Avengers Age of Ultron", 
+    "media": "Avengers: Age of Ultron", 
     "p1": "Thor", 
     "desc": "Thor gives Stan a taste of Asgardian liquor"
   }, 
   {
     "p2": "Stan Lee", 
-    "media": "Avengers Age of Ultron", 
+    "media": "Avengers: Age of Ultron", 
     "p1": "Steve Rogers", 
     "desc": "Steve is with Thor and Stan when they drink the Asgardian liquor"
   }, 
@@ -7528,13 +8246,13 @@ return [
   }, 
   {
     "p2": "Stan Lee Jr", 
-    "media": "Avengers Age of Ultron", 
+    "media": "Avengers: Age of Ultron", 
     "p1": "Thor", 
     "desc": "Thor gives Stan a taste of Asgardian liquor"
   }, 
   {
     "p2": "Stan Lee Jr", 
-    "media": "Avengers Age of Ultron", 
+    "media": "Avengers: Age of Ultron", 
     "p1": "Steve Rogers", 
     "desc": "Steve is with Thor and Stan when they drink the Asgardian liquor"
   }, 
@@ -7616,13 +8334,13 @@ return [
   }, 
   {
     "p2": "Veteran Stan Lee", 
-    "media": "Avengers Age of Ultron", 
+    "media": "Avengers: Age of Ultron", 
     "p1": "Thor", 
     "desc": "Thor gives Stan a taste of Asgardian liquor"
   }, 
   {
     "p2": "Veteran Stan Lee", 
-    "media": "Avengers Age of Ultron", 
+    "media": "Avengers: Age of Ultron", 
     "p1": "Steve Rogers", 
     "desc": "Steve is with Thor and Stan when they drink the Asgardian liquor"
   }, 
