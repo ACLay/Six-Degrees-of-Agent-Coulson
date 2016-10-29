@@ -1,7 +1,9 @@
 function displayConnection(){
 	var resultElement = document.getElementById("searchResult");
 	removeChildren(resultElement);
-	var connection = calculateConnections();
+	var source = getSelectorValue("goFrom");
+	var target = getSelectorValue("goTo");
+	var connection = calculateConnections(source, target);
 
 	if (connection == null){
 		addChild(resultElement,"p","No connection could be found through the current media");
@@ -38,9 +40,7 @@ function addChild(parent, tag, content){
 	parent.appendChild(child);
 }
 
-function calculateConnections(){
-	var source = getSelectorValue("goFrom");
-	var target = getSelectorValue("goTo");
+function calculateConnections(source, target){
 	
 	if (source == target){
 		return {

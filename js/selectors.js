@@ -43,17 +43,7 @@ function updateSelector(mediaSelectId, charSelectId){
 	var characters;
 
 	if(mediaName == "All"){
-		characters = new Set();
-		for(var i=0; i < connectionGraph.properties.length; i++){
-			var media = connectionGraph.properties[i];
-			var name = media.name;
-			if (isMediaSelected(name)){
-				for(var j=0; j < media.characters.length; j++){
-					characters.add(media.characters[j]);
-				}
-			}
-		}
-		characters = Array.from(characters).sort()
+		characters = listCharactersFromSelectedMedia();
 	} else {
 		for(var i=0; i < connectionGraph.properties.length; i++){
 			var media = connectionGraph.properties[i];

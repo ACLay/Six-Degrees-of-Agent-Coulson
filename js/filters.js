@@ -65,3 +65,17 @@ function toggleFilterVisibility(){
 	document.getElementById("showFilters").classList.toggle("hidden");
 	document.getElementById("hideFilters").classList.toggle("hidden");
 }
+
+function listCharactersFromSelectedMedia(){
+	var characters = new Set();
+	for(var i=0; i < connectionGraph.properties.length; i++){
+		var media = connectionGraph.properties[i];
+		var name = media.name;
+		if (isMediaSelected(name)){
+			for(var j=0; j < media.characters.length; j++){
+				characters.add(media.characters[j]);
+			}
+		}
+	}
+	return Array.from(characters).sort()
+}
