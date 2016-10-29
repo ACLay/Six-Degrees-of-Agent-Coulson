@@ -1,4 +1,9 @@
+var statsWorker;
+
 function displayStats(){
+	var button = document.getElementById("findStats")
+	button.disabled = true;
+
 	var resultElement = document.getElementById("statsResult");
 	removeChildren(resultElement);
 
@@ -6,21 +11,52 @@ function displayStats(){
 	progressLabel.id = "progressLabel";
 	resultElement.appendChild(progressLabel);
 
-	progressLabel.textContent = "This will probably take a while..."
-	setTimeout(function(){
+	var rootCharacter = getSelectorValue("rootCharacter");
+			
+	if (typeof(Worker) !== "undefined"){
+		//if available, use a web worker so that a progress indicator can be shown
+		if (typeof(statsWorker) == "undefined"){
+			statsWorker = new Worker("js/stats_worker.js");
+		}
+		statsWorker.onmessage = function(e){
+			if (e.data.complete){
+				progressLabel.textContent = "Generating table";
+				setTimeout(function(){
+					var table = buildStatsTable(e.data.characterStats);
+					removeChildren(resultElement);
+					resultElement.appendChild(table);
 
-		var rootCharacter = getSelectorValue("rootCharacter");
-		var characterStats = getGraphStats(rootCharacter, progressLabel);
-		progressLabel.textContent = "Generating table";
-		var table = buildStatsTable(characterStats);
-		removeChildren(resultElement);
-		resultElement.appendChild(table);
+					sorttable.makeSortable(table);
+					var myTH = document.getElementsByTagName("th")[0];
+					sorttable.innerSortFunction.apply(myTH, []);
+					button.disabled = false;
+				},0);
+			} else {
+				progressLabel.textContent = e.data.progressMessage;
+			}
+		}
+		var selections = new Map();
+		for (var i=0; i < connectionGraph.properties.length;i++){
+			var property = connectionGraph.properties[i].name;
+			selections.set(property,isMediaSelected(property));
+		}
+		statsWorker.postMessage({"root":rootCharacter, "graph":connectionGraph, "selections":selections});
+	} else {
+		progressLabel.textContent = "This will probably take a while..."
+		setTimeout(function(){
 
-		sorttable.makeSortable(table);
-		var myTH = document.getElementsByTagName("th")[0];
-		sorttable.innerSortFunction.apply(myTH, []);
-	},50);
+			var characterStats = getGraphStats(rootCharacter, progressLabel);
+			progressLabel.textContent = "Generating table";
+			var table = buildStatsTable(characterStats);
+			removeChildren(resultElement);
+			resultElement.appendChild(table);
 
+			sorttable.makeSortable(table);
+			var myTH = document.getElementsByTagName("th")[0];
+			sorttable.innerSortFunction.apply(myTH, []);
+			button.disabled = false;
+		},0);
+	}
 }
 
 function getGraphStats(rootCharacter, progressLabel){
@@ -48,8 +84,8 @@ function getGraphStats(rootCharacter, progressLabel){
 	var toCalculate = reachableCharacters.length * (reachableCharacters.length - 1) / 2;
 	var calculated = 0;
 	// for each pairing
-	progressLabel.textContent = "Calculating connections " + (100*(calculated + 1) / toCalculate) + "%";
 	for (var i = 0; i < reachableCharacters.length; i++){
+		progressLabel.textContent = "Calculating connections: " + calculated + "/" + toCalculate;
 		var personA = reachableCharacters[i];
 		var personAstats = characterStats.get(personA);
 		for (var j = i+1; j < reachableCharacters.length; j++){
@@ -67,7 +103,6 @@ function getGraphStats(rootCharacter, progressLabel){
 				longestRoutes.push(route);
 			}
 			calculated++;
-			progressLabel.textContent = "Calculating connections " + (100*(calculated + 1) / toCalculate) + "%";
 		}
 		personAstats.averageDistance = personAstats.totalDistance/(reachableCharacters.length-1);
 	}
