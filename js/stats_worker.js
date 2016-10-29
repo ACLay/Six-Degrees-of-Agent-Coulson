@@ -69,7 +69,6 @@ function isMediaSelected(mediaName){
 
 function listCharactersFromSelectedMedia(){
 	var characters = new Set();
-	console.log(connectionGraph);
 	for(var i=0; i < connectionGraph.properties.length; i++){
 		var media = connectionGraph.properties[i];
 		var name = media.name;
@@ -88,6 +87,5 @@ var selections;
 onmessage = function(e){
 	connectionGraph = e.data.graph;
 	selections = e.data.selections;
-	console.log(e.data);
 	getGraphStats(e.data.root);
 };
