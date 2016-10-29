@@ -5,29 +5,41 @@ function generateFilters(){
 		var category = categories[i];
 		
 		var categoryTag = makeCategoryTag(category);
+		//addCategoryToggleButtons(categoryTag,category);
 		for(var j=0; j < properties.length; j++){
 			var media = properties[j];
 			if(media.category == category){
 				//add media filter
-				addMediaCheckbox(categoryTag,media.name);
+				addMediaCheckbox(categoryTag,category,media.name);
 			}
 		}
-
 	}
 }
 
 function makeCategoryTag(category){
 	var element = document.createElement("div");
 	element.id = category + "_selectors";
-	element.class = "category";
+	element.classList.add("category");
+	
+
 	var header = document.createElement("h3");
-	header.textContent = category;
+	var label = document.createElement("label");
+	label.setAttribute("onclick", "categoryCheckboxClicked('"+category+"')");
+	var checkbox = document.createElement("input");
+	checkbox.type = "checkbox";
+	checkbox.id = category + "_cb";
+	checkbox.checked = true;
+	var text = document.createTextNode(category);
+	
 	filters.insertBefore(element,stanOptions);
 	element.appendChild(header);
+	header.appendChild(label);
+	label.appendChild(checkbox);
+	label.appendChild(text);
 	return element;
 }
 
-function addMediaCheckbox(categoryTag, mediaName){
+function addMediaCheckbox(categoryTag, categoryName, mediaName){
 	var labelTag = document.createElement("label");
 
 	var checkbox = document.createElement("input");
@@ -35,7 +47,7 @@ function addMediaCheckbox(categoryTag, mediaName){
 	checkbox.id = mediaName + "_cb";
 	checkbox.value = mediaName + "_cb";
 	checkbox.checked = true;
-	labelTag.onclick = fillSelectors;
+	labelTag.setAttribute("onclick", "mediaCheckboxClicked('"+categoryName+"')");
 
 	var labelText = document.createTextNode(mediaName);
 
@@ -44,16 +56,9 @@ function addMediaCheckbox(categoryTag, mediaName){
 	categoryTag.appendChild(labelTag);
 }
 
-function categoryContainsSelection(category){
-	for(var i = 0; i < connectionGraph.properties.length; i++){
-		var property = connectionGraph.properties[i];
-		if(property.category == category){
-			if(isMediaSelected(property.name)){
-				return true;
-			}
-		}
-	}
-	return false;
+function categoryContainsSelection(categoryName){
+	var categoryCheckbox = document.getElementById(categoryName+"_cb");
+	return categoryCheckbox.checked || categoryCheckbox.indeterminate;
 }
 
 function isMediaSelected(mediaName){
@@ -72,4 +77,27 @@ function listCharactersFromSelectedMedia(){
 		}
 	}
 	return Array.from(characters).sort()
+}
+
+function categoryCheckboxClicked(category){
+	var selected = document.getElementById(category+"_cb").checked;
+	var checkboxes = document.querySelectorAll("#"+category+"_selectors > label [type=checkbox]")
+	for(var i=0; i < checkboxes.length; i++){
+		checkboxes[i].checked = selected;
+	}
+	fillSelectors();
+}
+
+function mediaCheckboxClicked(categoryName){
+	var categoryCheckbox = document.getElementById(categoryName+"_cb");
+	var checkboxes = document.querySelectorAll("#"+categoryName+"_selectors > label [type=checkbox]");
+	var and = checkboxes[0].checked;
+	var or = checkboxes[0].checked;
+	for(var i=1; i < checkboxes.length; i++){
+		and = and && checkboxes[i].checked;
+		or = or || checkboxes[i].checked;
+	}
+	categoryCheckbox.checked = and;
+	categoryCheckbox.indeterminate = !(and) && or;
+	fillSelectors();
 }
