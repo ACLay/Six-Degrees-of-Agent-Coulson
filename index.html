@@ -2,6 +2,7 @@
 	<head>
 		<title>Six Degrees of Agent Coulson</title>
 		<link rel="stylesheet" type="text/css" href="theme.css">
+		<script src="js/sorttable.js"></script>
 	</head>
 	<body>
 		<script>var connectionGraph;</script>
@@ -10,42 +11,90 @@
 		<script src="js/selectors.js">Manages the character selectors</script>
 		<script src="js/setup.js">Sets up the controls and graph</script>
 		<script src="js/filters.js">Filters to select which films to use</script>
+		<script src="js/stats.js">Works out facts about the graph</script>
+		<script>
+			function openCity(evt, cityName) {
+			    // Declare all variables
+			    var i, tabcontent, tablinks;
+
+			    // Get all elements with class="tabcontent" and hide them
+			    tabcontent = document.getElementsByClassName("tabcontent");
+			    for (i = 0; i < tabcontent.length; i++) {
+			        tabcontent[i].style.display = "none";
+			    }
+
+			    // Get all elements with class="tablinks" and remove the class "active"
+			    tablinks = document.getElementsByClassName("tablinks");
+			    for (i = 0; i < tablinks.length; i++) {
+			        tablinks[i].className = tablinks[i].className.replace(" active", "");
+			    }
+
+			    // Show the current tab, and add an "active" class to the link that opened the tab
+			    document.getElementById(cityName).style.display = "block";
+			    evt.currentTarget.className += " active";
+			}
+		</script>
 
 		<div class=page>
 			<h1>Six Degrees of Agent Coulson</h1>
-			
-			<button id=showFilters buttonType=show>Show media filters</button>
-			<button id=hideFilters class=hidden>Hide media filters</button>
-			<form id=filters class=hidden>
-				<div id=stanOptions>
-					<h3>Stan Lee</h3>
-					<label><input name="stanOptions" type="radio" value="1">1 Stan Lee</label>
-					<label><input name="stanOptions" type="radio" value="2">2 Stan Lees'</label>
-					<label><input name="stanOptions" type="radio" value="n" checked>Many Stan Lees'</label>
-				</div>
-			</form>
 
-			<div class=selectors>
-				<div class=fromSelectors>
-					<p>Find a link from:</p>
-					<select id="mediaFrom" onchange="updateSelector('mediaFrom','goFrom')">
-					</select>
-					<select id="goFrom">
-					</select>
+			<ul class="tab">
+				<li><a href="javascript:void(0)" class="tablinks" id="defaultTab" onclick="openCity(event, 'connectionTab')">Find connections</a></li>
+				<li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'statsTab')">Connectivity stats</a></li>
+				<li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'mediaTab')">Media filters</a></li>
+			</ul>
+
+			<div id="connectionTab" class="tabcontent">
+				<div class=selectors>
+					<div class=fromSelectors>
+						<p>Find a link from:</p>
+						<select id="mediaFrom" onchange="updateSelector('mediaFrom','goFrom')">
+						</select>
+						<select id="goFrom">
+						</select>
+					</div>
+					<div class=toSelectors>
+						<p>to:</p>
+						<select id="mediaTo" onchange="updateSelector('mediaTo','goTo')">
+						</select>
+						<select id="goTo">
+						</select>
+					</div>
+					<div>
+						<button type="button" id="findConnection">Find the connection</button>
+					</div>
 				</div>
-				<div class=toSelectors>
-					<p>to:</p>
-					<select id="mediaTo" onchange="updateSelector('mediaTo','goTo')">
-					</select>
-					<select id="goTo">
-					</select>
-				</div>
-				<div>
-					<button type="button" id="findConnection">Find the connection</button>
-				</div>
+
+				<div id="searchResult"></div>
 			</div>
 
-			<div id="searchResult"/>
+			<div id="statsTab" class="tabcontent">
+				<div class=selectors>
+					<div class=rootSelectors>
+						<p>Select a character to include:</p>
+						<select id="rootMedia" onchange="updateSelector('rootMedia','rootCharacter')">
+						</select>
+						<select id="rootCharacter">
+						</select>
+					</div>
+					<div>
+						<button type="button" id="findStats">Generate stats</button>
+					</div>
+				</div>
+
+				<div id="statsResult"></div>
+			</div>
+
+			<div id="mediaTab" class="tabcontent">
+				<form id=filters>
+					<div id=stanOptions>
+						<h3>Stan Lee</h3>
+						<label><input name="stanOptions" type="radio" value="1">1 Stan Lee</label>
+						<label><input name="stanOptions" type="radio" value="2">2 Stan Lees'</label>
+						<label><input name="stanOptions" type="radio" value="n" checked>Many Stan Lees'</label>
+					</div>
+				</form>
+			</div>
 
 		</div>
 

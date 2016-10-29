@@ -60,12 +60,6 @@ function isMediaSelected(mediaName){
 	return document.getElementById(mediaName + "_cb").checked;
 }
 
-function toggleFilterVisibility(){
-	document.getElementById("filters").classList.toggle("hidden");
-	document.getElementById("showFilters").classList.toggle("hidden");
-	document.getElementById("hideFilters").classList.toggle("hidden");
-}
-
 function listCharactersFromSelectedMedia(){
 	var characters = new Set();
 	for(var i=0; i < connectionGraph.properties.length; i++){

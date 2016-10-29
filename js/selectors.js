@@ -2,19 +2,24 @@ function fillSelectors(){
 	// preserve the selected values
 	var previousMediaFrom = getSelectorValue("mediaFrom");
 	var previousMediaTo = getSelectorValue("mediaTo");
+	var previousMediaRoot = getSelectorValue("rootMedia");
 	var previousCharFrom = getSelectorValue("goFrom");
 	var previousCharTo = getSelectorValue("goTo");
+	var previousCharRoot = getSelectorValue("rootCharacter");
 
 	// populate the drop down menus
 	removeChildren(mediaFrom);
 	removeChildren(mediaTo);
+	removeChildren(rootMedia)
 	createDropDownElement(mediaFrom,"All",false);
 	createDropDownElement(mediaTo,"All",false);
+	createDropDownElement(rootMedia,"All",false);
 	for (var i = 0; i < connectionGraph.categories.length; i++){
 		var category = connectionGraph.categories[i];
 		if (categoryContainsSelection(category)){
 			createDropDownElement(mediaFrom,category,true);
 			createDropDownElement(mediaTo,category,true);
+			createDropDownElement(rootMedia,category,true);
 			for(var j=0; j < connectionGraph.properties.length; j++){
 				var media = connectionGraph.properties[j];
 				if(isMediaSelected(media.name)){
@@ -22,6 +27,7 @@ function fillSelectors(){
 						var name = media.name;
 						createDropDownElement(mediaFrom,name,false);
 						createDropDownElement(mediaTo,name,false);
+						createDropDownElement(rootMedia,name,false);
 					}
 				}
 			}
@@ -29,12 +35,15 @@ function fillSelectors(){
 	}
 	updateSelector("mediaFrom","goFrom");
 	updateSelector("mediaTo","goTo");
+	updateSelector("rootMedia","rootCharacter");
 
 	//reload previous values where possible
 	setSelectionIfPresent("mediaFrom", previousMediaFrom);
 	setSelectionIfPresent("mediaTo", previousMediaTo);
+	setSelectionIfPresent("rootMedia", previousMediaRoot);
 	setSelectionIfPresent("goFrom", previousCharFrom);
 	setSelectionIfPresent("goTo", previousCharTo);
+	setSelectionIfPresent("rootCharacter", previousCharRoot);
 }
 
 function updateSelector(mediaSelectId, charSelectId){
