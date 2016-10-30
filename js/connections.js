@@ -1,7 +1,8 @@
 function getConnectionData(){
 return {
   "categories": [
-    "Films", 
+    "Films - Phase 1", 
+    "Films - Phase 2", 
     "Netflix", 
     "One-shots", 
     "Other"
@@ -481,7 +482,7 @@ return {
       "name": "All Hail the King"
     }, 
     {
-      "category": "Films", 
+      "category": "Films - Phase 2", 
       "characters": [
         "Carlos", 
         "Cassie Lang", 
@@ -869,7 +870,7 @@ return {
       "name": "Ant-Man"
     }, 
     {
-      "category": "Films", 
+      "category": "Films - Phase 2", 
       "characters": [
         "Baron Strucker", 
         "Bruce Banner", 
@@ -1577,7 +1578,7 @@ return {
       "name": "Avengers: Age of Ultron"
     }, 
     {
-      "category": "Films", 
+      "category": "Films - Phase 1", 
       "characters": [
         "Arnim Zola", 
         "Bucky Barnes", 
@@ -1937,7 +1938,7 @@ return {
       "name": "Captain America: The First Avenger"
     }, 
     {
-      "category": "Films", 
+      "category": "Films - Phase 2", 
       "characters": [
         "Agent Sitwell", 
         "Alexander Pierce", 
@@ -2463,7 +2464,7 @@ return {
       "name": "Captain America: The Winter Soldier"
     }, 
     {
-      "category": "Films", 
+      "category": "Films - Phase 2", 
       "characters": [
         "Bereet", 
         "Carina", 
@@ -2936,7 +2937,7 @@ return {
       "name": "Guardians of the Galaxy"
     }, 
     {
-      "category": "Films", 
+      "category": "Films - Phase 1", 
       "characters": [
         "Abu Bakar", 
         "Agent Coulson", 
@@ -3126,7 +3127,7 @@ return {
       "name": "Iron Man"
     }, 
     {
-      "category": "Films", 
+      "category": "Films - Phase 1", 
       "characters": [
         "Agent Coulson", 
         "Anton Vanko", 
@@ -3457,7 +3458,7 @@ return {
       "name": "Iron Man 2"
     }, 
     {
-      "category": "Films", 
+      "category": "Films - Phase 2", 
       "characters": [
         "Aldrich Killian", 
         "Bruce Banner", 
@@ -6713,7 +6714,7 @@ return {
       "name": "Luke Cage"
     }, 
     {
-      "category": "Films", 
+      "category": "Films - Phase 1", 
       "characters": [
         "Agent Coulson", 
         "Agent Sitwell", 
@@ -7091,7 +7092,7 @@ return {
       "name": "The Consultant"
     }, 
     {
-      "category": "Films", 
+      "category": "Films - Phase 1", 
       "characters": [
         "Amadeus Cho", 
         "Betty Ross", 
@@ -7221,7 +7222,7 @@ return {
       "name": "The Incredible Hulk"
     }, 
     {
-      "category": "Films", 
+      "category": "Films - Phase 1", 
       "characters": [
         "Agent Coulson", 
         "Agent Sitwell", 
@@ -7631,7 +7632,7 @@ return {
       "name": "Thor"
     }, 
     {
-      "category": "Films", 
+      "category": "Films - Phase 2", 
       "characters": [
         "Algrim", 
         "Bor", 
