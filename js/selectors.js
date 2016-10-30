@@ -33,14 +33,15 @@ function fillSelectors(){
 			}
 		}
 	}
+
+	setSelectionIfPresent("mediaFrom", previousMediaFrom);
+	setSelectionIfPresent("mediaTo", previousMediaTo);
+	setSelectionIfPresent("rootMedia", previousMediaRoot);
+
 	updateSelector("mediaFrom","goFrom");
 	updateSelector("mediaTo","goTo");
 	updateSelector("rootMedia","rootCharacter");
 
-	//reload previous values where possible
-	setSelectionIfPresent("mediaFrom", previousMediaFrom);
-	setSelectionIfPresent("mediaTo", previousMediaTo);
-	setSelectionIfPresent("rootMedia", previousMediaRoot);
 	setSelectionIfPresent("goFrom", previousCharFrom);
 	setSelectionIfPresent("goTo", previousCharTo);
 	setSelectionIfPresent("rootCharacter", previousCharRoot);
