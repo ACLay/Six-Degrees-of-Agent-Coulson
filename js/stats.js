@@ -24,6 +24,7 @@ function displayStats(){
 				setTimeout(function(){
 					var table = buildStatsTable(e.data.characterStats);
 					removeChildren(resultElement);
+					addGeneralStats(e.data.characterStats);
 					resultElement.appendChild(table);
 
 					sorttable.makeSortable(table);
@@ -49,6 +50,7 @@ function displayStats(){
 			progressLabel.textContent = "Generating table";
 			var table = buildStatsTable(characterStats);
 			removeChildren(resultElement);
+			addGeneralStats(characterStats);
 			resultElement.appendChild(table);
 
 			sorttable.makeSortable(table);
@@ -57,6 +59,17 @@ function displayStats(){
 			button.disabled = false;
 		},0);
 	}
+}
+
+function addGeneralStats(characterStats){
+	var characterCount = characterStats.size;
+	var averageSum = 0;
+	for(var stats of characterStats.values()){
+		averageSum += stats.averageDistance;
+	}
+	var averageLength = averageSum / characterCount;
+	var resultElement = document.getElementById("statsResult");
+	addChild(resultElement, "p", "Average Distance: "+averageLength.toFixed(3));
 }
 
 function getGraphStats(rootCharacter, progressLabel){
