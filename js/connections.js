@@ -3,6 +3,7 @@ return {
   "categories": [
     "Films - Phase 1", 
     "Films - Phase 2", 
+    "Films - Phase 3", 
     "Netflix", 
     "One-shots", 
     "Other"
@@ -27,6 +28,8 @@ return {
     "Apple Aaron", 
     "Arnim Zola", 
     "Audrey Eastman", 
+    "Aunt May", 
+    "Ayo", 
     "Bailey", 
     "Barbara Shlottman", 
     "Baron Strucker", 
@@ -58,6 +61,7 @@ return {
     "Cassie Lang", 
     "Chanise", 
     "Charles Wallace", 
+    "Charlie Sharpe", 
     "Chauncey", 
     "Christine Everhart", 
     "Chuck", 
@@ -127,6 +131,7 @@ return {
     "Erin", 
     "Ernesto", 
     "Etta Lucas", 
+    "Everett K. Ross", 
     "FRIDAY", 
     "Fandral", 
     "Ferdinand Lopez", 
@@ -142,7 +147,6 @@ return {
     "Gary the Camera Guy", 
     "General Gabriel", 
     "General Meade", 
-    "General Ross", 
     "Georges Batroc", 
     "Gerald Durand", 
     "Gideon Mallick", 
@@ -159,6 +163,7 @@ return {
     "Heather B.", 
     "Heimdall", 
     "Heinz Kruger", 
+    "Helmut Zemo", 
     "Henry 'Pop' Hunter", 
     "Hernan 'Shades' Alvarez", 
     "Ho Yinsen", 
@@ -241,6 +246,7 @@ return {
     "Mei", 
     "Meredith Quill", 
     "Mike Tyson", 
+    "Miriam Sharpe", 
     "Misty Knight", 
     "Mitchell Carson", 
     "Mr Lin", 
@@ -268,6 +274,7 @@ return {
     "Pepper Potts", 
     "Peter 'Pistol Pete' Stokes", 
     "Peter Hong", 
+    "Peter Parker", 
     "Peter Quill", 
     "Phillip Jones", 
     "Pietro Maximoff", 
@@ -312,13 +319,17 @@ return {
     "Steve Rogers", 
     "Steve Scott", 
     "Sway Calloway", 
+    "T'Chaka", 
+    "T'Challa", 
     "Taggart", 
+    "Thaddeus Ross", 
     "Thanos", 
     "The Broker", 
     "The Collector", 
     "The Mandarin", 
     "The Other", 
     "Thembi Wallace", 
+    "Theo Broussard", 
     "Thomas Richards", 
     "Thor", 
     "Tone", 
@@ -330,6 +341,7 @@ return {
     "Tyr", 
     "Ultron", 
     "Ulysses Klaue", 
+    "Vasily Karpov", 
     "Vice President Rodriguez", 
     "Victor", 
     "Vision", 
@@ -1576,6 +1588,601 @@ return {
         }
       ], 
       "name": "Avengers: Age of Ultron"
+    }, 
+    {
+      "category": "Films - Phase 3", 
+      "characters": [
+        "Aunt May", 
+        "Ayo", 
+        "Brock Rumlow", 
+        "Bucky Barnes", 
+        "Charlie Sharpe", 
+        "Clint Barton", 
+        "Everett K. Ross", 
+        "FRIDAY", 
+        "Helmut Zemo", 
+        "Howard Stark", 
+        "James Rhodes", 
+        "Maria Stark", 
+        "Miriam Sharpe", 
+        "Natasha Romanoff", 
+        "Peter Parker", 
+        "Sam Wilson", 
+        "Scott Lang", 
+        "Sharon Carter", 
+        "Steve Rogers", 
+        "T'Chaka", 
+        "T'Challa", 
+        "Thaddeus Ross", 
+        "Theo Broussard", 
+        "Tony Stark", 
+        "Vasily Karpov", 
+        "Vision", 
+        "Wanda Maximoff"
+      ], 
+      "interactions": [
+        {
+          "desc": "They fight each other in the Airport Battle", 
+          "p1": "Steve Rogers", 
+          "p2": "Tony Stark"
+        }, 
+        {
+          "desc": "Romanoff comforts Rogers after Peggy Carter's Funeral", 
+          "p1": "Steve Rogers", 
+          "p2": "Natasha Romanoff"
+        }, 
+        {
+          "desc": "They work together in an attempt to escape Bucharest", 
+          "p1": "Steve Rogers", 
+          "p2": "Bucky Barnes"
+        }, 
+        {
+          "desc": "They work together in an attempt to escape Bucharest", 
+          "p1": "Steve Rogers", 
+          "p2": "Sam Wilson"
+        }, 
+        {
+          "desc": "Rhodes arrests Rogers in Bucharest", 
+          "p1": "Steve Rogers", 
+          "p2": "James Rhodes"
+        }, 
+        {
+          "desc": "Rogers and Barton work together to recruit Scott Lang", 
+          "p1": "Steve Rogers", 
+          "p2": "Clint Barton"
+        }, 
+        {
+          "desc": "They fight each other in the Airport Battle", 
+          "p1": "Steve Rogers", 
+          "p2": "T'Challa"
+        }, 
+        {
+          "desc": "Vision attempts to stop Rogers from escaping during the Airport Battle", 
+          "p1": "Steve Rogers", 
+          "p2": "Vision"
+        }, 
+        {
+          "desc": "They work together in an attempt to arrest Brock Rumlow in Lagos", 
+          "p1": "Steve Rogers", 
+          "p2": "Wanda Maximoff"
+        }, 
+        {
+          "desc": "They work together to fight off Tony Stark's team during the Airport Battle", 
+          "p1": "Steve Rogers", 
+          "p2": "Scott Lang"
+        }, 
+        {
+          "desc": "They kiss each other once", 
+          "p1": "Steve Rogers", 
+          "p2": "Sharon Carter"
+        }, 
+        {
+          "desc": "They fight each other during the Airport Battle", 
+          "p1": "Steve Rogers", 
+          "p2": "Peter Parker"
+        }, 
+        {
+          "desc": "They fight each other in Lagos", 
+          "p1": "Steve Rogers", 
+          "p2": "Brock Rumlow"
+        }, 
+        {
+          "desc": "Ross introduces the Sokovia Accords to Rogers", 
+          "p1": "Steve Rogers", 
+          "p2": "Thaddeus Ross"
+        }, 
+        {
+          "desc": "Zemo reveals his plans and motivations to Rogers in Siberia", 
+          "p1": "Steve Rogers", 
+          "p2": "Helmut Zemo"
+        }, 
+        {
+          "desc": "Everett Ross processes Rogers in Berlin", 
+          "p1": "Steve Rogers", 
+          "p2": "Everett K. Ross"
+        }, 
+        {
+          "desc": "They work together in an attempt to arrest Steve Roger's team during the Airport Battle", 
+          "p1": "Tony Stark", 
+          "p2": "Natasha Romanoff"
+        }, 
+        {
+          "desc": "They fight each other in Siberia", 
+          "p1": "Tony Stark", 
+          "p2": "Bucky Barnes"
+        }, 
+        {
+          "desc": "Wilson reveals Rogers's location to Stark hoping to strike a truce", 
+          "p1": "Tony Stark", 
+          "p2": "Sam Wilson"
+        }, 
+        {
+          "desc": "They work together in an attempt to arrest Steve Rogers's team during the Airport Battle", 
+          "p1": "Tony Stark", 
+          "p2": "James Rhodes"
+        }, 
+        {
+          "desc": "They fight each other during the Airport Battle", 
+          "p1": "Tony Stark", 
+          "p2": "Clint Barton"
+        }, 
+        {
+          "desc": "They work together to arrest Steve Rogers's team during the Airport Battle", 
+          "p1": "Tony Stark", 
+          "p2": "T'Challa"
+        }, 
+        {
+          "desc": "They work together in an attempt to arrest Steve Rogers's team during the Airport Battle", 
+          "p1": "Tony Stark", 
+          "p2": "Vision"
+        }, 
+        {
+          "desc": "They fight each other during the Airport Battle", 
+          "p1": "Tony Stark", 
+          "p2": "Wanda Maximoff"
+        }, 
+        {
+          "desc": "They fight each other during the Airport Battle", 
+          "p1": "Tony Stark", 
+          "p2": "Scott Lang"
+        }, 
+        {
+          "desc": "They work together to restrain a brainwashed Bucky Barnes in Berlin", 
+          "p1": "Tony Stark", 
+          "p2": "Sharon Carter"
+        }, 
+        {
+          "desc": "Stark personally recruits Parker into his team", 
+          "p1": "Tony Stark", 
+          "p2": "Peter Parker"
+        }, 
+        {
+          "desc": "Ross orders Stark to arrest Rogers and his team in 36 hours or less", 
+          "p1": "Tony Stark", 
+          "p2": "Thaddeus Ross"
+        }, 
+        {
+          "desc": "Zemo reveals his plans and motivations to Stark in Siberia", 
+          "p1": "Tony Stark", 
+          "p2": "Helmut Zemo"
+        }, 
+        {
+          "desc": "Tony Stark has memories of his last interaction with Howard Stark during his MIT Presentation", 
+          "p1": "Tony Stark", 
+          "p2": "Howard Stark"
+        }, 
+        {
+          "desc": "FRIDAY aids Stark and manages his suit's inner functions during the Airport Battle", 
+          "p1": "Tony Stark", 
+          "p2": "FRIDAY"
+        }, 
+        {
+          "desc": "They monitor Bucky Barnes's \"psychological evaluation\" from the same room", 
+          "p1": "Tony Stark", 
+          "p2": "Everett K. Ross"
+        }, 
+        {
+          "desc": "Stark has small talk with Aunt May while waiting for Peter Pakrer in Queens", 
+          "p1": "Tony Stark", 
+          "p2": "Aunt May"
+        }, 
+        {
+          "desc": "Tony Stark has memories of his last interaction with Maria Stark during his MIT Presentation", 
+          "p1": "Tony Stark", 
+          "p2": "Maria Stark"
+        }, 
+        {
+          "desc": "Sharpe personally accuses Stark of killing her son in the Sokovia Incident", 
+          "p1": "Tony Stark", 
+          "p2": "Miriam Sharpe"
+        }, 
+        {
+          "desc": "Romanoff attempts to restrain a brainwashed Barnes in Berlin", 
+          "p1": "Natasha Romanoff", 
+          "p2": "Bucky Barnes"
+        }, 
+        {
+          "desc": "They work together in an attempt to arrest Brock Rumlow in Lagos", 
+          "p1": "Natasha Romanoff", 
+          "p2": "Sam Wilson"
+        }, 
+        {
+          "desc": "They work together in attempt to arrest Steve Rogers's team during the Airport Battle", 
+          "p1": "Natasha Romanoff", 
+          "p2": "James Rhodes"
+        }, 
+        {
+          "desc": "They fight each other during the Airport Battle", 
+          "p1": "Natasha Romanoff", 
+          "p2": "Clint Barton"
+        }, 
+        {
+          "desc": "They meet each other at the Signing of the Sokovia Accords in Vienna", 
+          "p1": "Natasha Romanoff", 
+          "p2": "T'Challa"
+        }, 
+        {
+          "desc": "They work together in an attempt to arrest Steve Rogers's team during the Airport Battle", 
+          "p1": "Natasha Romanoff", 
+          "p2": "Vision"
+        }, 
+        {
+          "desc": "They work together in attempt to arrest Brock Rumlow in Lagos", 
+          "p1": "Natasha Romanoff", 
+          "p2": "Wanda Maximoff"
+        }, 
+        {
+          "desc": "They fight each other during the Airport Battle", 
+          "p1": "Natasha Romanoff", 
+          "p2": "Scott Lang"
+        }, 
+        {
+          "desc": "They work together to restrain a brainwashed Bucky Barnes in Berlin", 
+          "p1": "Natasha Romanoff", 
+          "p2": "Sharon Carter"
+        }, 
+        {
+          "desc": "They work together in an attempt to arrest Steve Rogers's team during the Airport Battle", 
+          "p1": "Natasha Romanoff", 
+          "p2": "Peter Parker"
+        }, 
+        {
+          "desc": "They fight each other in Lagos", 
+          "p1": "Natasha Romanoff", 
+          "p2": "Brock Rumlow"
+        }, 
+        {
+          "desc": "Ross introduces the Sokovia Accords to Romanoff", 
+          "p1": "Natasha Romanoff", 
+          "p2": "Thaddeus Ross"
+        }, 
+        {
+          "desc": "They monitor Bucky Barnes's \"pscycological evaluation\" from the same room", 
+          "p1": "Natasha Romanoff", 
+          "p2": "Everett K. Ross"
+        }, 
+        {
+          "desc": "They meet each other at the Signing of the Sokovia Accords in Vienna", 
+          "p1": "Natasha Romanoff", 
+          "p2": "T'Chaka"
+        }, 
+        {
+          "desc": "They confront each other when Romanoff recruits T'Challa into Tony Stark's team", 
+          "p1": "Natasha Romanoff", 
+          "p2": "Ayo"
+        }, 
+        {
+          "desc": "They work together to fight off Tony Stark's team during the Airport Battle", 
+          "p1": "Bucky Barnes", 
+          "p2": "Sam Wilson"
+        }, 
+        {
+          "desc": "Rhodes arrests Barnes in Bucharest", 
+          "p1": "Bucky Barnes", 
+          "p2": "James Rhodes"
+        }, 
+        {
+          "desc": "They work together to fight off Tony Stark's team during the Airport Battle", 
+          "p1": "Bucky Barnes", 
+          "p2": "Clint Barton"
+        }, 
+        {
+          "desc": "They fight each other during the Airport Battle", 
+          "p1": "Bucky Barnes", 
+          "p2": "T'Challa"
+        }, 
+        {
+          "desc": "Vision attempts to stop Barnes from escaping during the Airport Battle", 
+          "p1": "Bucky Barnes", 
+          "p2": "Vision"
+        }, 
+        {
+          "desc": "They work together to fight off Tony Stark's team during the Airport Battle", 
+          "p1": "Bucky Barnes", 
+          "p2": "Wanda Maximoff"
+        }, 
+        {
+          "desc": "They work together to fight off Tony Stark's team during the Airport Battle", 
+          "p1": "Bucky Barnes", 
+          "p2": "Scott Lang"
+        }, 
+        {
+          "desc": "Carter attempts to restrain a brainwashed Barnes in Berlin", 
+          "p1": "Bucky Barnes", 
+          "p2": "Sharon Carter"
+        }, 
+        {
+          "desc": "They fight each other during the Airport Battle", 
+          "p1": "Bucky Barnes", 
+          "p2": "Peter Parker"
+        }, 
+        {
+          "desc": "Zemo reveals his plans and motivations to Barnes in Siberia", 
+          "p1": "Bucky Barnes", 
+          "p2": "Helmut Zemo"
+        }, 
+        {
+          "desc": "A brainwashed Barnes kills Howard Stark in 1991", 
+          "p1": "Bucky Barnes", 
+          "p2": "Howard Stark"
+        }, 
+        {
+          "desc": "Everett Ross processes Barnes in Berlin", 
+          "p1": "Bucky Barnes", 
+          "p2": "Everett K. Ross"
+        }, 
+        {
+          "desc": "A brainwashed Barnes kills Maria Stark in 1991", 
+          "p1": "Bucky Barnes", 
+          "p2": "Maria Stark"
+        }, 
+        {
+          "desc": "Karpov was Barnes's handler back in 1991", 
+          "p1": "Bucky Barnes", 
+          "p2": "Vasily Karpov"
+        }, 
+        {
+          "desc": "They fight each other during the Airport Battle", 
+          "p1": "Sam Wilson", 
+          "p2": "James Rhodes"
+        }, 
+        {
+          "desc": "They work together to fight off Tony Stark's team during the Airport Battle", 
+          "p1": "Sam Wilson", 
+          "p2": "Clint Barton"
+        }, 
+        {
+          "desc": "They fight each other in Bucharest", 
+          "p1": "Sam Wilson", 
+          "p2": "T'Challa"
+        }, 
+        {
+          "desc": "Vision attempts to stop Wilson from escaping during the Airport Battle", 
+          "p1": "Sam Wilson", 
+          "p2": "Vision"
+        }, 
+        {
+          "desc": "They work together in an attempt to arrest Brock Rumlow in Lagos", 
+          "p1": "Sam Wilson", 
+          "p2": "Wanda Maximoff"
+        }, 
+        {
+          "desc": "They work together to fight off Tony Stark's team during the Airport Battle", 
+          "p1": "Sam Wilson", 
+          "p2": "Scott Lang"
+        }, 
+        {
+          "desc": "Carter processes Wilson in Berlin", 
+          "p1": "Sam Wilson", 
+          "p2": "Sharon Carter"
+        }, 
+        {
+          "desc": "They fight each other during the Airport Battle", 
+          "p1": "Sam Wilson", 
+          "p2": "Peter Parker"
+        }, 
+        {
+          "desc": "Wilson attempts to arrest Rumlow in Lagos", 
+          "p1": "Sam Wilson", 
+          "p2": "Brock Rumlow"
+        }, 
+        {
+          "desc": "Ross introduces the Sokovia Accords to Wilson", 
+          "p1": "Sam Wilson", 
+          "p2": "Thaddeus Ross"
+        }, 
+        {
+          "desc": "Everett Ross processes Wilson in Berlin", 
+          "p1": "Sam Wilson", 
+          "p2": "Everett K. Ross"
+        }, 
+        {
+          "desc": "They fight each other during the Airport Battle", 
+          "p1": "James Rhodes", 
+          "p2": "Clint Barton"
+        }, 
+        {
+          "desc": "They work together in an attempt to arrest Steve Rogers's team during the Airport Battle", 
+          "p1": "James Rhodes", 
+          "p2": "T'Challa"
+        }, 
+        {
+          "desc": "They work together in an attempt to arrest Steve Rogers's team during the Airport Battle", 
+          "p1": "James Rhodes", 
+          "p2": "Vision"
+        }, 
+        {
+          "desc": "They are both present when Thaddeus Ross introduces the Sokovia Accords to the New Avengers", 
+          "p1": "James Rhodes", 
+          "p2": "Wanda Maximoff"
+        }, 
+        {
+          "desc": "They fight each other during the Airport Battle", 
+          "p1": "James Rhodes", 
+          "p2": "Scott Lang"
+        }, 
+        {
+          "desc": "They work together in an attempt to arrest Steve Rogers's team during the Airport Battle", 
+          "p1": "James Rhodes", 
+          "p2": "Peter Parker"
+        }, 
+        {
+          "desc": "Ross introduces the Sokovia Accords to Rhodes", 
+          "p1": "James Rhodes", 
+          "p2": "Thaddeus Ross"
+        }, 
+        {
+          "desc": "They fight each other during the Airport Battle", 
+          "p1": "Clint Barton", 
+          "p2": "T'Challa"
+        }, 
+        {
+          "desc": "Vision attempts to stop Barton from breaking Maximoff out of the New Avengers Base", 
+          "p1": "Clint Barton", 
+          "p2": "Vision"
+        }, 
+        {
+          "desc": "Barton breaks Maximoff out of the New Avengers Base and recruits her into Steve Roger's team", 
+          "p1": "Clint Barton", 
+          "p2": "Wanda Maximoff"
+        }, 
+        {
+          "desc": "They work together to fight off Tony Stark's team during the Airport Battle", 
+          "p1": "Clint Barton", 
+          "p2": "Scott Lang"
+        }, 
+        {
+          "desc": "They fight each other during the Airport Battle", 
+          "p1": "Clint Barton", 
+          "p2": "Peter Parker"
+        }, 
+        {
+          "desc": "They work together in an attempt to arrest Steve Rogers's team during the Airport Battle", 
+          "p1": "T'Challa", 
+          "p2": "Vision"
+        }, 
+        {
+          "desc": "They fight each other during the Airport Battle", 
+          "p1": "T'Challa", 
+          "p2": "Wanda Maximoff"
+        }, 
+        {
+          "desc": "They fight each other during the Airpor Battle", 
+          "p1": "T'Challa", 
+          "p2": "Scott Lang"
+        }, 
+        {
+          "desc": "Carter processes T'Challa in Berlin", 
+          "p1": "T'Challa", 
+          "p2": "Sharon Carter"
+        }, 
+        {
+          "desc": "They work together in an attempt to arrest Steve Rogers's team during the Airport Battle", 
+          "p1": "T'Challa", 
+          "p2": "Peter Parker"
+        }, 
+        {
+          "desc": "T'Challa stops Zemo from comitting suicide", 
+          "p1": "T'Challa", 
+          "p2": "Helmut Zemo"
+        }, 
+        {
+          "desc": "Everett Ross processes T'Challa in Berlin", 
+          "p1": "T'Challa", 
+          "p2": "Everett K. Ross"
+        }, 
+        {
+          "desc": "They speak to each other at the Signing of the UN Accords", 
+          "p1": "T'Challa", 
+          "p2": "T'Chaka"
+        }, 
+        {
+          "desc": "T'Challa orders Ayo to stand down during her confrontation with Natasha Romanoff in Berlin", 
+          "p1": "T'Challa", 
+          "p2": "Ayo"
+        }, 
+        {
+          "desc": "They fight each other when Clint Barton breaks Maximoff out of the New Avengers Base", 
+          "p1": "Vision", 
+          "p2": "Wanda Maximoff"
+        }, 
+        {
+          "desc": "The fight each other during the Airport Battle", 
+          "p1": "Vision", 
+          "p2": "Scott Lang"
+        }, 
+        {
+          "desc": "They work together in an attempt to arrest Steve Rogers's team during the Airport Battle", 
+          "p1": "Vision", 
+          "p2": "Peter Parker"
+        }, 
+        {
+          "desc": "Ross introduces the Sokovia Accords to Vision", 
+          "p1": "Vision", 
+          "p2": "Thaddeus Ross"
+        }, 
+        {
+          "desc": "They work together to fight off Tony Stark's team during the Airport Battle", 
+          "p1": "Wanda Maximoff", 
+          "p2": "Scott Lang"
+        }, 
+        {
+          "desc": "They fight each other during the Airport Battle", 
+          "p1": "Wanda Maximoff", 
+          "p2": "Peter Parker"
+        }, 
+        {
+          "desc": "Maximoff attempts to stop him from exploding in Lagos", 
+          "p1": "Wanda Maximoff", 
+          "p2": "Brock Rumlow"
+        }, 
+        {
+          "desc": "Ross introduces the Sokovia Accords to Maximoff", 
+          "p1": "Wanda Maximoff", 
+          "p2": "Thaddeus Ross"
+        }, 
+        {
+          "desc": "They fight each other during the Airport Battle", 
+          "p1": "Scott Lang", 
+          "p2": "Peter Parker"
+        }, 
+        {
+          "desc": "They work together to enforce the Accords in Berlin", 
+          "p1": "Sharon Carter", 
+          "p2": "Everett K. Ross"
+        }, 
+        {
+          "desc": "Peter Parker lives with Aunt May", 
+          "p1": "Peter Parker", 
+          "p2": "Aunt May"
+        }, 
+        {
+          "desc": "Everett Ross processes Zemo after Zemo is arrested", 
+          "p1": "Helmut Zemo", 
+          "p2": "Everett K. Ross"
+        }, 
+        {
+          "desc": "Zemo kills Karpov in Cleveland", 
+          "p1": "Helmut Zemo", 
+          "p2": "Vasily Karpov"
+        }, 
+        {
+          "desc": "Zemo kills Broussard in Berlin", 
+          "p1": "Helmut Zemo", 
+          "p2": "Theo Broussard"
+        }, 
+        {
+          "desc": "They are married to each other", 
+          "p1": "Howard Stark", 
+          "p2": "Maria Stark"
+        }, 
+        {
+          "desc": "Miriam Sharpe was Charlie Sharpe's mother", 
+          "p1": "Miriam Sharpe", 
+          "p2": "Charlie Sharpe"
+        }
+      ], 
+      "name": "Captain America: Civil War"
     }, 
     {
       "category": "Films - Phase 1", 
@@ -7074,7 +7681,7 @@ return {
       "characters": [
         "Agent Coulson", 
         "Agent Sitwell", 
-        "General Ross", 
+        "Thaddeus Ross", 
         "Tony Stark"
       ], 
       "interactions": [
@@ -7086,7 +7693,7 @@ return {
         {
           "desc": "Stark and Ross met to discuss the Avenger initiative", 
           "p1": "Tony Stark", 
-          "p2": "General Ross"
+          "p2": "Thaddeus Ross"
         }
       ], 
       "name": "The Consultant"
@@ -7098,13 +7705,13 @@ return {
         "Betty Ross", 
         "Bruce Banner", 
         "Emil Blonsky", 
-        "General Ross", 
         "Joe Greller", 
         "Kathleen Sparr", 
         "Leonard Samson", 
         "Martina", 
         "Samuel Sterns", 
         "Stanley Lieber", 
+        "Thaddeus Ross", 
         "Tony Stark"
       ], 
       "interactions": [
@@ -7121,7 +7728,7 @@ return {
         {
           "desc": "Ross let Bruce free so he could stop Blonsky", 
           "p1": "Bruce Banner", 
-          "p2": "General Ross"
+          "p2": "Thaddeus Ross"
         }, 
         {
           "desc": "Sterns helped Banner try to control The Hulk", 
@@ -7151,7 +7758,7 @@ return {
         {
           "desc": "General Ross is Betty's father", 
           "p1": "Betty Ross", 
-          "p2": "General Ross"
+          "p2": "Thaddeus Ross"
         }, 
         {
           "desc": "Betty was with Bruce when he visited Sterns", 
@@ -7171,7 +7778,7 @@ return {
         {
           "desc": "Blonsky was on Ross' team to catch The Hulk", 
           "p1": "Emil Blonsky", 
-          "p2": "General Ross"
+          "p2": "Thaddeus Ross"
         }, 
         {
           "desc": "Blonsky forced Sterns to turn him into Abominaton", 
@@ -7190,22 +7797,22 @@ return {
         }, 
         {
           "desc": "Leonard called Ross to let him know where Banner was", 
-          "p1": "General Ross", 
+          "p1": "Thaddeus Ross", 
           "p2": "Leonard Samson"
         }, 
         {
           "desc": "Stark spoke to Ross about putting a team together", 
-          "p1": "General Ross", 
+          "p1": "Thaddeus Ross", 
           "p2": "Tony Stark"
         }, 
         {
           "desc": "Sparr informed Ross of the Hulk contaminated soda", 
-          "p1": "General Ross", 
+          "p1": "Thaddeus Ross", 
           "p2": "Kathleen Sparr"
         }, 
         {
           "desc": "Greller assembled a strike team for Ross to hunt Hulk with", 
-          "p1": "General Ross", 
+          "p1": "Thaddeus Ross", 
           "p2": "Joe Greller"
         }, 
         {
@@ -8071,11 +8678,11 @@ return {
       "characters": [
         "Christine Everhart", 
         "Darren Cross", 
-        "General Ross", 
         "Jackson Norris (WHIH)", 
         "James Rondell", 
         "President Ellis", 
         "Scott Lang", 
+        "Thaddeus Ross", 
         "Will Adams"
       ], 
       "interactions": [
@@ -8101,7 +8708,7 @@ return {
         }, 
         {
           "desc": "WHIH World News reported that President Ellis met with retired General Ross", 
-          "p1": "General Ross", 
+          "p1": "Thaddeus Ross", 
           "p2": "President Ellis"
         }, 
         {
