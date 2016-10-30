@@ -1,5 +1,5 @@
 
-importScripts('solver.js');
+importScripts('solver.js', 'filters.js');
 
 function addRouteToStats(stats,route,otherPerson){
 	stats.totalDistance += route.links.length;
@@ -63,29 +63,11 @@ function getGraphStats(rootCharacter){
 	
 }
 
-function isMediaSelected(mediaName){
-	return selections.get(mediaName);
-}
-
-function listCharactersFromSelectedMedia(){
-	var characters = new Set();
-	for(var i=0; i < connectionGraph.properties.length; i++){
-		var media = connectionGraph.properties[i];
-		var name = media.name;
-		if (isMediaSelected(name)){
-			for(var j=0; j < media.characters.length; j++){
-				characters.add(media.characters[j]);
-			}
-		}
-	}
-	return Array.from(characters).sort()
-}
-
 var connectionGraph;
-var selections;
+var mediaCheckboxes;
 
 onmessage = function(e){
 	connectionGraph = e.data.graph;
-	selections = e.data.selections;
+	mediaCheckboxes = e.data.selections;
 	getGraphStats(e.data.root);
 };

@@ -16,11 +16,13 @@ function generateFilters(){
 	}
 }
 
+var categoryCheckboxes = new Map();
+var mediaCheckboxes = new Map();
+
 function makeCategoryTag(category){
 	var element = document.createElement("div");
 	element.id = category + "_selectors";
 	element.classList.add("category");
-	
 
 	var header = document.createElement("h3");
 	var label = document.createElement("label");
@@ -29,6 +31,7 @@ function makeCategoryTag(category){
 	checkbox.type = "checkbox";
 	checkbox.id = category + "_cb";
 	checkbox.checked = true;
+	categoryCheckboxes.set(category,{"category":checkbox,"media":[]})
 	var text = document.createTextNode(category);
 	
 	filters.insertBefore(element,stanOptions);
@@ -47,6 +50,8 @@ function addMediaCheckbox(categoryTag, categoryName, mediaName){
 	checkbox.id = mediaName + "_cb";
 	checkbox.value = mediaName + "_cb";
 	checkbox.checked = true;
+	categoryCheckboxes.get(categoryName).media.push(checkbox);
+	mediaCheckboxes.set(mediaName,checkbox);
 	labelTag.setAttribute("onclick", "mediaCheckboxClicked('"+categoryName+"')");
 
 	var labelText = document.createTextNode(mediaName);
@@ -57,12 +62,12 @@ function addMediaCheckbox(categoryTag, categoryName, mediaName){
 }
 
 function categoryContainsSelection(categoryName){
-	var categoryCheckbox = document.getElementById(categoryName+"_cb");
+	var categoryCheckbox = categoryCheckboxes.get(categoryName).category;
 	return categoryCheckbox.checked || categoryCheckbox.indeterminate;
 }
 
 function isMediaSelected(mediaName){
-	return document.getElementById(mediaName + "_cb").checked;
+	return mediaCheckboxes.get(mediaName).checked;
 }
 
 function listCharactersFromSelectedMedia(){
@@ -79,9 +84,9 @@ function listCharactersFromSelectedMedia(){
 	return Array.from(characters).sort()
 }
 
-function categoryCheckboxClicked(category){
-	var selected = document.getElementById(category+"_cb").checked;
-	var checkboxes = document.querySelectorAll("[id='"+category+"_selectors'] > label [type=checkbox]")
+function categoryCheckboxClicked(categoryName){
+	var selected = categoryCheckboxes.get(categoryName).category.checked;
+	var checkboxes = categoryCheckboxes.get(categoryName).media;
 	for(var i=0; i < checkboxes.length; i++){
 		checkboxes[i].checked = selected;
 	}
@@ -89,8 +94,8 @@ function categoryCheckboxClicked(category){
 }
 
 function mediaCheckboxClicked(categoryName){
-	var categoryCheckbox = document.getElementById(categoryName+"_cb");
-	var checkboxes = document.querySelectorAll("[id='"+categoryName+"_selectors'] > label [type=checkbox]");
+	var categoryCheckbox = categoryCheckboxes.get(categoryName).category;
+	var checkboxes = categoryCheckboxes.get(categoryName).media;
 	var and = checkboxes[0].checked;
 	var or = checkboxes[0].checked;
 	for(var i=1; i < checkboxes.length; i++){

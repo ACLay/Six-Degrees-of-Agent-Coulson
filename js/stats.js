@@ -38,7 +38,7 @@ function displayStats(){
 		var selections = new Map();
 		for (var i=0; i < connectionGraph.properties.length;i++){
 			var property = connectionGraph.properties[i].name;
-			selections.set(property,isMediaSelected(property));
+			selections.set(property,{"checked":isMediaSelected(property)});
 		}
 		statsWorker.postMessage({"root":rootCharacter, "graph":connectionGraph, "selections":selections});
 	} else {
