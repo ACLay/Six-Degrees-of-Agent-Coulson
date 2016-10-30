@@ -8147,13 +8147,13 @@ return [
   }, 
   {
     "p2": "Stan Lee", 
-    "media": "Captain America The First Avenger", 
+    "media": "Captain America: The First Avenger", 
     "p1": "Senator Brandt", 
     "desc": "Stan is present at a ceremony hosted by the senator to honour Captain America"
   }, 
   {
     "p2": "Stan Lee", 
-    "media": "Thor The Dark World", 
+    "media": "Thor: The Dark World", 
     "p1": "Erik Selvig", 
     "desc": "Selvig borrows Stan's shoe for an explanation of the convergence"
   }, 
@@ -8183,13 +8183,13 @@ return [
   }, 
   {
     "p2": "Stan Lee", 
-    "media": "Captain America Civil War", 
+    "media": "Captain America: Civil War", 
     "p1": "Tony Stark", 
     "desc": "Stan delivered Steve's package for Tony Stank"
   }, 
   {
     "p2": "Stan Lee", 
-    "media": "Captain America Civil War", 
+    "media": "Captain America: Civil War", 
     "p1": "James Rhodes", 
     "desc": "Rhodey was with Tony when Stan delivered Mr Stank's package"
   }, 
@@ -8235,13 +8235,13 @@ return [
   }, 
   {
     "p2": "Stan Lee Sr", 
-    "media": "Captain America The First Avenger", 
+    "media": "Captain America: The First Avenger", 
     "p1": "Senator Brandt", 
     "desc": "Stan is present at a ceremony hosted by the senator to honour Captain America"
   }, 
   {
     "p2": "Stan Lee Jr", 
-    "media": "Thor The Dark World", 
+    "media": "Thor: The Dark World", 
     "p1": "Erik Selvig", 
     "desc": "Selvig borrows Stan's shoe for an explanation of the convergence"
   }, 
@@ -8271,13 +8271,13 @@ return [
   }, 
   {
     "p2": "Stan Lee Jr", 
-    "media": "Captain America Civil War", 
+    "media": "Captain America: Civil War", 
     "p1": "Tony Stark", 
     "desc": "Stan delivered Steve's package for Tony Stank"
   }, 
   {
     "p2": "Stan Lee Jr", 
-    "media": "Captain America Civil War", 
+    "media": "Captain America: Civil War", 
     "p1": "James Rhodes", 
     "desc": "Rhodey was with Tony when Stan delivered Mr Stank's package"
   }, 
@@ -8323,13 +8323,13 @@ return [
   }, 
   {
     "p2": "General Stan Lee", 
-    "media": "Captain America The First Avenger", 
+    "media": "Captain America: The First Avenger", 
     "p1": "Senator Brandt", 
     "desc": "Stan is present at a ceremony hosted by the senator to honour Captain America"
   }, 
   {
     "p2": "Stan Lee the shoeless", 
-    "media": "Thor The Dark World", 
+    "media": "Thor: The Dark World", 
     "p1": "Erik Selvig", 
     "desc": "Selvig borrows Stan's shoe for an explanation of the convergence"
   }, 
@@ -8359,13 +8359,13 @@ return [
   }, 
   {
     "p2": "Fedex Stan Lee", 
-    "media": "Captain America Civil War", 
+    "media": "Captain America: Civil War", 
     "p1": "Tony Stark", 
     "desc": "Stan delivered Steve's package for Tony Stank"
   }, 
   {
     "p2": "Fedex Stan Lee", 
-    "media": "Captain America Civil War", 
+    "media": "Captain America: Civil War", 
     "p1": "James Rhodes", 
     "desc": "Rhodey was with Tony when Stan delivered Mr Stank's package"
   }, 
