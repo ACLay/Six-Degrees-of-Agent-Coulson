@@ -93,10 +93,28 @@ table.sortable thead {
     cursor: default;
 }
 
-table, th, td {
+table, th, td, tr::before {
     border: 1px solid black;
     border-collapse: collapse;
-    padding:2px
+    padding:2px;
+    vertical-align:inherit;
+}
+
+/**
+ * Table row numbers
+ */
+
+table.sortable tbody {
+    counter-reset: sortabletablescope;
+}
+table.sortable thead tr::before {
+    content: "";
+    display: table-cell;
+}
+table.sortable tbody tr::before {
+    content: counter(sortabletablescope);
+    counter-increment: sortabletablescope;
+    display: table-cell;
 }
 
 /**
