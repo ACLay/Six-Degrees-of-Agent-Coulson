@@ -42,7 +42,7 @@ function displayStats(){
 		}
 		statsWorker.postMessage({"root":rootCharacter, "graph":connectionGraph, "selections":selections});
 	} else {
-		progressLabel.textContent = "This will probably take a while..."
+		progressLabel.textContent = "This might take a while..."
 		setTimeout(function(){
 
 			var characterStats = getGraphStats(rootCharacter, progressLabel);
