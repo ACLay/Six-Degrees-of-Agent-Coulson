@@ -81,7 +81,7 @@ function listCharactersFromSelectedMedia(){
 
 function categoryCheckboxClicked(category){
 	var selected = document.getElementById(category+"_cb").checked;
-	var checkboxes = document.querySelectorAll("#"+category+"_selectors > label [type=checkbox]")
+	var checkboxes = document.querySelectorAll("[id='"+category+"_selectors'] > label [type=checkbox]")
 	for(var i=0; i < checkboxes.length; i++){
 		checkboxes[i].checked = selected;
 	}
@@ -90,7 +90,7 @@ function categoryCheckboxClicked(category){
 
 function mediaCheckboxClicked(categoryName){
 	var categoryCheckbox = document.getElementById(categoryName+"_cb");
-	var checkboxes = document.querySelectorAll("#"+categoryName+"_selectors > label [type=checkbox]");
+	var checkboxes = document.querySelectorAll("[id='"+categoryName+"_selectors'] > label [type=checkbox]");
 	var and = checkboxes[0].checked;
 	var or = checkboxes[0].checked;
 	for(var i=1; i < checkboxes.length; i++){
