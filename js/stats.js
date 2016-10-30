@@ -28,7 +28,7 @@ function displayStats(){
 					resultElement.appendChild(table);
 
 					sorttable.makeSortable(table);
-					var myTH = document.getElementsByTagName("th")[0];
+					var myTH = document.getElementsByTagName("th")[1];
 					sorttable.innerSortFunction.apply(myTH, []);
 					button.disabled = false;
 				},0);
@@ -54,7 +54,7 @@ function displayStats(){
 			resultElement.appendChild(table);
 
 			sorttable.makeSortable(table);
-			var myTH = document.getElementsByTagName("th")[0];
+			var myTH = document.getElementsByTagName("th")[1];
 			sorttable.innerSortFunction.apply(myTH, []);
 			button.disabled = false;
 		},0);
