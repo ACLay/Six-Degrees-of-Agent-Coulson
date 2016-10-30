@@ -20,18 +20,7 @@ function displayStats(){
 		}
 		statsWorker.onmessage = function(e){
 			if (e.data.complete){
-				progressLabel.textContent = "Generating table";
-				setTimeout(function(){
-					var table = buildStatsTable(e.data.characterStats);
-					removeChildren(resultElement);
-					addGeneralStats(e.data.characterStats);
-					resultElement.appendChild(table);
-
-					sorttable.makeSortable(table);
-					var myTH = document.getElementsByTagName("th")[1];
-					sorttable.innerSortFunction.apply(myTH, []);
-					button.disabled = false;
-				},0);
+				displayStatsTable(e.data.characterStats);
 			} else {
 				progressLabel.textContent = e.data.progressMessage;
 			}
@@ -45,20 +34,28 @@ function displayStats(){
 	} else {
 		progressLabel.textContent = "This might take a while..."
 		setTimeout(function(){
-
 			var characterStats = getGraphStats(rootCharacter, progressLabel);
-			progressLabel.textContent = "Generating table";
-			var table = buildStatsTable(characterStats);
-			removeChildren(resultElement);
-			addGeneralStats(characterStats);
-			resultElement.appendChild(table);
-
-			sorttable.makeSortable(table);
-			var myTH = document.getElementsByTagName("th")[1];
-			sorttable.innerSortFunction.apply(myTH, []);
-			button.disabled = false;
+			displayStatsTable(characterStats);
 		},0);
 	}
+}
+
+function displayStatsTable(characterStats){
+	var resultElement = document.getElementById("statsResult");
+
+	progressLabel.textContent = "Generating table";
+	setTimeout(function(){
+		var table = buildStatsTable(characterStats);
+		removeChildren(resultElement);
+		addGeneralStats(characterStats);
+		resultElement.appendChild(table);
+
+		sorttable.makeSortable(table);
+		var myTH = document.getElementsByTagName("th")[1];
+		sorttable.innerSortFunction.apply(myTH, []);
+		var button = document.getElementById("findStats")
+		button.disabled = false;
+	},0);
 }
 
 function addGeneralStats(characterStats){
@@ -121,30 +118,6 @@ function getGraphStats(rootCharacter, progressLabel){
 	}
 	
 	return characterStats;
-}
-
-function findBestConnected(allStats){
-	var bestStats = [{"totalDistance":Number.MAX_SAFE_INTEGER}];
-	for(var stats of allStats.values()){
-		if (stats.totalDistance < bestStats[0].totalDistance){
-			bestStats = [stats];
-		} else if (stats.totalDistance == bestStats[0].totalDistance){
-			bestStats.push(stats);
-		}
-	}
-	return bestStats;
-}
-
-function findWorstConnected(allStats){
-	var worstStats = [{"totalDistance":-1}];
-	for(var stats of allStats.values()){
-		if (stats.totalDistance > worstStats[0].totalDistance){
-			worstStats = [stats];
-		} else if (stats.totalDistance == worstStats[0].totalDistance){
-			worstStats.push(stats);
-		}
-	}
-	return worstStats;
 }
 
 function addRouteToStats(stats,route,otherPerson){
