@@ -18,3 +18,15 @@ function openTab(evt, tabId) {
 	document.getElementById(tabId).style.display = "block";
 	evt.currentTarget.className += " active";
 }
+
+function removeChildren(element){
+	while (element.firstChild){
+		element.removeChild(element.firstChild);
+	}
+}
+
+function addChild(parent, tag, content){
+	var child = document.createElement(tag);
+	child.textContent = content;
+	parent.appendChild(child);
+}

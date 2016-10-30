@@ -28,18 +28,6 @@ function displayConnection(){
 	}
 }
 
-function removeChildren(element){
-	while (element.firstChild){
-		element.removeChild(element.firstChild);
-	}
-}
-
-function addChild(parent, tag, content){
-	var child = document.createElement(tag);
-	child.textContent = content;
-	parent.appendChild(child);
-}
-
 function calculateConnections(source, target){
 	
 	if (source == target){
