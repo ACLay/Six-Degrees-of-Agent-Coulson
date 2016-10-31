@@ -6,25 +6,35 @@ return {
     "Films - Phase 3", 
     "Netflix", 
     "One-shots", 
-    "Other"
+    "Other", 
+    "TV"
   ], 
   "characters": [
     "Abu Bakar", 
     "Agent Blake", 
+    "Agent Corcoran", 
     "Agent Coulson", 
+    "Agent Messner", 
+    "Agent Reese", 
     "Agent Sitwell", 
+    "Agent Yauch", 
     "Aisha Axton", 
     "Albert Rackham", 
     "Albert Thompson", 
+    "Albert the jeweler", 
     "Aldrich Killian", 
+    "Alex Doobin", 
     "Alexander Pierce", 
     "Algrim", 
     "Alisa Jones", 
     "Alva Ramirez", 
     "Amadeus Cho", 
+    "Ana Jarvis", 
     "Andre", 
+    "Angie Martinelli", 
     "Antoine Grier", 
     "Anton Vanko", 
+    "Anya (Red room)", 
     "Apple Aaron", 
     "Arnim Zola", 
     "Audrey Eastman", 
@@ -51,6 +61,7 @@ return {
     "Bucky Barnes", 
     "Buggy Stokes", 
     "Bunny Wiles", 
+    "Butch Wallace", 
     "C-Money", 
     "Cameron Klein", 
     "Candace Miller", 
@@ -58,6 +69,7 @@ return {
     "Carina", 
     "Carlo Eastman", 
     "Carlos", 
+    "Carol (Griffith)", 
     "Cassie Lang", 
     "Chanise", 
     "Charles Wallace", 
@@ -71,6 +83,9 @@ return {
     "Clifford 'Method Man' Smith", 
     "Clint Barton", 
     "Club Manager Nate", 
+    "Colleen O'Brien", 
+    "Colonel Ernst Mueller", 
+    "Colonel Fyodor", 
     "Colonel Phillips", 
     "Comanche", 
     "Connie Lin", 
@@ -86,6 +101,7 @@ return {
     "Dale", 
     "Damon Boone", 
     "Dana Stryker", 
+    "Daniel Sousa", 
     "Dante Chapman", 
     "Dapper Dan", 
     "Darby", 
@@ -98,14 +114,18 @@ return {
     "Denarian Sall", 
     "Desmond Tobey", 
     "Detective Lemieux", 
+    "Detective Prendergast", 
     "Detective Scarfe", 
     "Diontey", 
     "Doctor Fine", 
+    "Doctor Johann Fennhoff", 
     "Doctor List", 
+    "Doctor Seth Honicky", 
     "Doctor Wu", 
     "Domingo Colon", 
     "Donald", 
     "Dorothy Walker", 
+    "Dottie Underwood", 
     "Dr Erskine", 
     "Dr Helen Cho", 
     "Dr Noah Burstein", 
@@ -115,6 +135,8 @@ return {
     "Duranna Dey", 
     "Earl Scarfe", 
     "Eddie Axton", 
+    "Edith Oberon", 
+    "Edwin Jarvis", 
     "Eir", 
     "Elizabeth De Luca", 
     "Ellen Brandt", 
@@ -122,6 +144,7 @@ return {
     "Emil Blonsky", 
     "Emily", 
     "Emma", 
+    "Emmett Dooley", 
     "Enforcer Darnell", 
     "Enforcer Lopes", 
     "Enforcer Sugar", 
@@ -131,6 +154,8 @@ return {
     "Erin", 
     "Ernesto", 
     "Etta Lucas", 
+    "Eva (Red Room)", 
+    "Evelyn (Griffith)", 
     "Everett K. Ross", 
     "FRIDAY", 
     "Fandral", 
@@ -146,23 +171,29 @@ return {
     "Garcia", 
     "Gary the Camera Guy", 
     "General Gabriel", 
+    "General John McGinnis", 
     "General Meade", 
+    "George (tramp)", 
     "Georges Batroc", 
     "Gerald Durand", 
     "Gideon Mallick", 
     "Gilmore Hodge", 
     "Gina", 
+    "Gino DeLucia", 
+    "Gloria (Griffith)", 
     "Grandpa Quill", 
     "Gregory Spheeris", 
     "Groot", 
     "Hank", 
     "Hank Pym", 
     "Happy Hogan", 
+    "Happy Sam Sawyer", 
     "Harley Keener", 
     "Harvey", 
     "Heather B.", 
     "Heimdall", 
     "Heinz Kruger", 
+    "Helen (Griffith)", 
     "Helmut Zemo", 
     "Henry 'Pop' Hunter", 
     "Hernan 'Shades' Alvarez", 
@@ -172,6 +203,7 @@ return {
     "Hope Van Dyne", 
     "Howard Stark", 
     "Howard the Duck", 
+    "Hugh Jones", 
     "Ian Boothby", 
     "Ignacio", 
     "Inspector Priscilla Ridley", 
@@ -179,6 +211,7 @@ return {
     "JARVIS", 
     "Jack Denton", 
     "Jack Rollins", 
+    "Jack Thompson", 
     "Jack the Valet", 
     "Jackson", 
     "Jackson Norris (WHIH)", 
@@ -192,13 +225,17 @@ return {
     "Jane Foster", 
     "Janet Van Dyne", 
     "Jeri Hogarth", 
+    "Jerome Zandow", 
     "Jessica Jones", 
     "Jim Morita", 
+    "Jimmy 'Houdini'", 
     "Jimmy Quinto", 
     "Jin Lin", 
     "Joe Greller", 
     "Joel Spurlock", 
+    "Josephine", 
     "Juan Carlos Castro", 
+    "Junior Juniper", 
     "Justin Boden", 
     "Justin Hammer", 
     "Karman-Kan Dey", 
@@ -214,12 +251,15 @@ return {
     "Laufey", 
     "Laura Barton", 
     "Laurent Bouchard", 
+    "Leet Brannis", 
     "Len Sirkes", 
     "Leonard Samson", 
     "Lieutenant Perez", 
     "Lila Barton", 
     "Loki", 
     "Lonnie Wilson", 
+    "Loretta Dooley", 
+    "Lorraine (Griffith)", 
     "Louise Thompson", 
     "Lt Mario Green", 
     "Luis", 
@@ -237,6 +277,7 @@ return {
     "Marshal Franco", 
     "Marshal Johnson", 
     "Martina", 
+    "Mary (Griffith)", 
     "Matt", 
     "Maureen Denton", 
     "Maury Tuttlebaum", 
@@ -245,10 +286,14 @@ return {
     "Megan McClaren", 
     "Mei", 
     "Meredith Quill", 
+    "Mike Li", 
     "Mike Tyson", 
+    "Miles Van Ert", 
+    "Miriam Fry", 
     "Miriam Sharpe", 
     "Misty Knight", 
     "Mitchell Carson", 
+    "Molly Bowden", 
     "Mr Lin", 
     "Mrs Davis", 
     "Natasha Romanoff", 
@@ -263,8 +308,10 @@ return {
     "Odin", 
     "Officer Albini", 
     "Officer Cooper", 
+    "Officer Pike", 
     "Officer Polsky", 
     "Oscar Clemons", 
+    "Otto Mink", 
     "PA Alex", 
     "Pam", 
     "Patricia Wilson", 
@@ -278,11 +325,16 @@ return {
     "Peter Quill", 
     "Phillip Jones", 
     "Pietro Maximoff", 
+    "Pinky Pinkerton", 
     "President Ellis", 
     "Priscilla Everhart", 
     "Prisoner 6219", 
     "Prisoner Herman", 
+    "Prisoner Nikola", 
+    "Prisoner Pasha", 
+    "Private Ovechkin", 
     "Raj", 
+    "Ray Krzeminski", 
     "Raza", 
     "Red Skull", 
     "Reggie 'Squabbles'", 
@@ -292,29 +344,38 @@ return {
     "Rhomann Dey", 
     "Richard", 
     "Rick Hawkins", 
+    "Rick Ramirez", 
     "Riley", 
     "Robinson", 
     "Robyn", 
     "Rocket", 
+    "Roger Dooley", 
     "Ronan", 
+    "Rose Roberts", 
     "Roy Healy", 
     "Ruben", 
     "Sam Wilson", 
     "Samantha Reyes", 
     "Samuel Sterns", 
+    "Sarah (Griffith)", 
+    "Sasha Demidov", 
     "Savin", 
     "Scott Lang", 
     "Sean Connery", 
     "Senator Brandt", 
     "Senator Stern", 
+    "Senator Walt Cooper", 
+    "Senator Webster", 
     "Serena Grier", 
     "Sergeant MacClean", 
     "Shameek Smith", 
     "Sharon Carter", 
+    "Sheldon McFee", 
     "Sif", 
     "Sissy Garcia", 
     "Sister Boy", 
     "Soledad Temple", 
+    "Spider Raymond", 
     "Stanley Lieber", 
     "Steve Rogers", 
     "Steve Scott", 
@@ -328,6 +389,7 @@ return {
     "The Collector", 
     "The Mandarin", 
     "The Other", 
+    "Thelma Crawford", 
     "Thembi Wallace", 
     "Theo Broussard", 
     "Thomas Richards", 
@@ -342,6 +404,8 @@ return {
     "Ultron", 
     "Ulysses Klaue", 
     "Vasily Karpov", 
+    "Vera (Griffith)", 
+    "Veteran Frank", 
     "Vice President Rodriguez", 
     "Victor", 
     "Vision", 
@@ -355,6 +419,7 @@ return {
     "Will Simpson", 
     "William Ginter Riva", 
     "Willis 'Diamondback' Stryker", 
+    "Winston the butler", 
     "Yondu Udonta", 
     "Yuliana", 
     "Zack"
@@ -394,6 +459,1228 @@ return {
         }
       ], 
       "name": "Agent Carter"
+    }, 
+    {
+      "category": "TV", 
+      "characters": [
+        "Agent Corcoran", 
+        "Agent Messner", 
+        "Agent Reese", 
+        "Agent Yauch", 
+        "Albert the jeweler", 
+        "Alex Doobin", 
+        "Ana Jarvis", 
+        "Angie Martinelli", 
+        "Anton Vanko", 
+        "Anya (Red room)", 
+        "Arnim Zola", 
+        "Butch Wallace", 
+        "Carol (Griffith)", 
+        "Colleen O'Brien", 
+        "Colonel Ernst Mueller", 
+        "Colonel Fyodor", 
+        "Daniel Sousa", 
+        "Detective Prendergast", 
+        "Doctor Johann Fennhoff", 
+        "Doctor Seth Honicky", 
+        "Dottie Underwood", 
+        "Dum Dum Dugan", 
+        "Edith Oberon", 
+        "Edwin Jarvis", 
+        "Emmett Dooley", 
+        "Eva (Red Room)", 
+        "Evelyn (Griffith)", 
+        "General John McGinnis", 
+        "George (tramp)", 
+        "Gino DeLucia", 
+        "Gloria (Griffith)", 
+        "Happy Sam Sawyer", 
+        "Helen (Griffith)", 
+        "Howard Stark", 
+        "Hugh Jones", 
+        "Jack Thompson", 
+        "Jerome Zandow", 
+        "Jimmy 'Houdini'", 
+        "Josephine", 
+        "Junior Juniper", 
+        "Leet Brannis", 
+        "Loretta Dooley", 
+        "Lorraine (Griffith)", 
+        "Mary (Griffith)", 
+        "Mike Li", 
+        "Miles Van Ert", 
+        "Miriam Fry", 
+        "Molly Bowden", 
+        "Officer Pike", 
+        "Otto Mink", 
+        "Peggy Carter", 
+        "Pinky Pinkerton", 
+        "Prisoner Nikola", 
+        "Prisoner Pasha", 
+        "Private Ovechkin", 
+        "Ray Krzeminski", 
+        "Rick Ramirez", 
+        "Roger Dooley", 
+        "Rose Roberts", 
+        "Sarah (Griffith)", 
+        "Sasha Demidov", 
+        "Senator Walt Cooper", 
+        "Senator Webster", 
+        "Sheldon McFee", 
+        "Spider Raymond", 
+        "Thelma Crawford", 
+        "Vera (Griffith)", 
+        "Veteran Frank", 
+        "Winston the butler"
+      ], 
+      "interactions": [
+        {
+          "desc": "Peggy and Jarvis work together to restore Howard's name", 
+          "p1": "Peggy Carter", 
+          "p2": "Edwin Jarvis"
+        }, 
+        {
+          "desc": "Peggy and Thompson worked together at the SSR", 
+          "p1": "Peggy Carter", 
+          "p2": "Jack Thompson"
+        }, 
+        {
+          "desc": "Peggy and Daniel worked together at the SSR", 
+          "p1": "Peggy Carter", 
+          "p2": "Daniel Sousa"
+        }, 
+        {
+          "desc": "Dooley was Peggy's boss at the SSR", 
+          "p1": "Peggy Carter", 
+          "p2": "Roger Dooley"
+        }, 
+        {
+          "desc": "Thompson interviewed Jarvis at the SSR", 
+          "p1": "Edwin Jarvis", 
+          "p2": "Jack Thompson"
+        }, 
+        {
+          "desc": "Sousa brought Jarvis to the SSR for questioning", 
+          "p1": "Edwin Jarvis", 
+          "p2": "Daniel Sousa"
+        }, 
+        {
+          "desc": "Jarvis tried to save Dooley from Stark's faulty heating vest", 
+          "p1": "Edwin Jarvis", 
+          "p2": "Roger Dooley"
+        }, 
+        {
+          "desc": "Thompson and Sousa worked at the SSR together", 
+          "p1": "Jack Thompson", 
+          "p2": "Daniel Sousa"
+        }, 
+        {
+          "desc": "Dooley was Thompson's boss at the SSR", 
+          "p1": "Jack Thompson", 
+          "p2": "Roger Dooley"
+        }, 
+        {
+          "desc": "Dooley was Sousa's boss at the SSR", 
+          "p1": "Daniel Sousa", 
+          "p2": "Roger Dooley"
+        }, 
+        {
+          "desc": "Peggy was secretly working to help Howard", 
+          "p1": "Howard Stark", 
+          "p2": "Peggy Carter"
+        }, 
+        {
+          "desc": "Stark shared a weekend with Dottie, who was going as 'Ida Emke'", 
+          "p1": "Howard Stark", 
+          "p2": "Dottie Underwood"
+        }, 
+        {
+          "desc": "Howard and Hugh were business rivals", 
+          "p1": "Howard Stark", 
+          "p2": "Hugh Jones"
+        }, 
+        {
+          "desc": "Webster accused Stark of being a traitor following the theft of his inventions", 
+          "p1": "Howard Stark", 
+          "p2": "Senator Webster"
+        }, 
+        {
+          "desc": "Howard employed Jarvis as his butler", 
+          "p1": "Howard Stark", 
+          "p2": "Edwin Jarvis"
+        }, 
+        {
+          "desc": "Stark paid Mink to smuggle him back into the USA", 
+          "p1": "Howard Stark", 
+          "p2": "Otto Mink"
+        }, 
+        {
+          "desc": "Stark 'hid' in Lorraine's room at the Griffith", 
+          "p1": "Howard Stark", 
+          "p2": "Lorraine (Griffith)"
+        }, 
+        {
+          "desc": "Stark 'hid' in Helen's room at the Griffith", 
+          "p1": "Howard Stark", 
+          "p2": "Helen (Griffith)"
+        }, 
+        {
+          "desc": "Stark met Sousa when he surrendered to the SSR", 
+          "p1": "Howard Stark", 
+          "p2": "Daniel Sousa"
+        }, 
+        {
+          "desc": "Thompson questione Stark after he surrendered to the SSR", 
+          "p1": "Howard Stark", 
+          "p2": "Jack Thompson"
+        }, 
+        {
+          "desc": "Stark attacked, and was beaten up by, General McGinnis after he stole and used 'Midnight Oil' from Stark", 
+          "p1": "Howard Stark", 
+          "p2": "General John McGinnis"
+        }, 
+        {
+          "desc": "Fennhoff hypnotised Stark to gas New York", 
+          "p1": "Howard Stark", 
+          "p2": "Doctor Johann Fennhoff"
+        }, 
+        {
+          "desc": "Pike was hypnotised to bring Howard to Fennhoff", 
+          "p1": "Howard Stark", 
+          "p2": "Officer Pike"
+        }, 
+        {
+          "desc": "Albert designed bracelets for Howard to give to women", 
+          "p1": "Howard Stark", 
+          "p2": "Albert the jeweler"
+        }, 
+        {
+          "desc": "Josephine was one of Howard Stark's lovers", 
+          "p1": "Howard Stark", 
+          "p2": "Josephine"
+        }, 
+        {
+          "desc": "Thelma was one of Howard Stark's lovers", 
+          "p1": "Howard Stark", 
+          "p2": "Thelma Crawford"
+        }, 
+        {
+          "desc": "Edith was one of Howard Stark's lovers", 
+          "p1": "Howard Stark", 
+          "p2": "Edith Oberon"
+        }, 
+        {
+          "desc": "Peggy and Angie were good friends", 
+          "p1": "Angie Martinelli", 
+          "p2": "Peggy Carter"
+        }, 
+        {
+          "desc": "Miriam was Angie's landlady", 
+          "p1": "Angie Martinelli", 
+          "p2": "Miriam Fry"
+        }, 
+        {
+          "desc": "Carol and Angie both lived at the Griffith Hotel", 
+          "p1": "Angie Martinelli", 
+          "p2": "Carol (Griffith)"
+        }, 
+        {
+          "desc": "Angie and Molly both lived at the Griffith Hotel", 
+          "p1": "Angie Martinelli", 
+          "p2": "Molly Bowden"
+        }, 
+        {
+          "desc": "Angie and Gloria both lived at the Griffith Hotel", 
+          "p1": "Angie Martinelli", 
+          "p2": "Gloria (Griffith)"
+        }, 
+        {
+          "desc": "Angie and Dottie both lived at the Griffith Hotel", 
+          "p1": "Angie Martinelli", 
+          "p2": "Dottie Underwood"
+        }, 
+        {
+          "desc": "Jack met Angie when searching for Peggy at the Griffith", 
+          "p1": "Angie Martinelli", 
+          "p2": "Jack Thompson"
+        }, 
+        {
+          "desc": "Sousa met Angie when searching for Peggy at the Griffith", 
+          "p1": "Angie Martinelli", 
+          "p2": "Daniel Sousa"
+        }, 
+        {
+          "desc": "Jarvis showed Angie to the Stark residence that had been gifted to Peggy", 
+          "p1": "Angie Martinelli", 
+          "p2": "Edwin Jarvis"
+        }, 
+        {
+          "desc": "Mary and Angie both lived at the Griffith Hotel", 
+          "p1": "Angie Martinelli", 
+          "p2": "Mary (Griffith)"
+        }, 
+        {
+          "desc": "Angie and Evelyn both lived at the Griffith Hotel", 
+          "p1": "Angie Martinelli", 
+          "p2": "Evelyn (Griffith)"
+        }, 
+        {
+          "desc": "Angie and Sarah both lived at the Griffith Hotel", 
+          "p1": "Angie Martinelli", 
+          "p2": "Sarah (Griffith)"
+        }, 
+        {
+          "desc": "Peggy and Ray worked together at the SSR", 
+          "p1": "Ray Krzeminski", 
+          "p2": "Peggy Carter"
+        }, 
+        {
+          "desc": "Ray and Daniel worked together at the SSR", 
+          "p1": "Ray Krzeminski", 
+          "p2": "Daniel Sousa"
+        }, 
+        {
+          "desc": "Dooley was Ray's boss at the SSR", 
+          "p1": "Ray Krzeminski", 
+          "p2": "Roger Dooley"
+        }, 
+        {
+          "desc": "Ray and Jack worked together at the SSR", 
+          "p1": "Ray Krzeminski", 
+          "p2": "Jack Thompson"
+        }, 
+        {
+          "desc": "Yauch and Krzeminski worked together at the SSR", 
+          "p1": "Ray Krzeminski", 
+          "p2": "Agent Yauch"
+        }, 
+        {
+          "desc": "Ray and Butch worked together at the SSR", 
+          "p1": "Ray Krzeminski", 
+          "p2": "Butch Wallace"
+        }, 
+        {
+          "desc": "Ray and Sousa found Jerome with a cache of stolen Stark weapons", 
+          "p1": "Ray Krzeminski", 
+          "p2": "Jerome Zandow"
+        }, 
+        {
+          "desc": "Dottie killed Krzeminski", 
+          "p1": "Ray Krzeminski", 
+          "p2": "Dottie Underwood"
+        }, 
+        {
+          "desc": "Brannis turned on Leviathan and helped Peggy's investigation until he was killed", 
+          "p1": "Leet Brannis", 
+          "p2": "Peggy Carter"
+        }, 
+        {
+          "desc": "Leet and Sasha used to work together for Leviathan", 
+          "p1": "Leet Brannis", 
+          "p2": "Sasha Demidov"
+        }, 
+        {
+          "desc": "Leet hired Jerome to guard his stolen Stark technology", 
+          "p1": "Leet Brannis", 
+          "p2": "Jerome Zandow"
+        }, 
+        {
+          "desc": "Brannis sold Raymond the formula for nitramene", 
+          "p1": "Leet Brannis", 
+          "p2": "Spider Raymond"
+        }, 
+        {
+          "desc": "Brannis and Van Ert produced nitramene at the Roxxon Oil refinery", 
+          "p1": "Leet Brannis", 
+          "p2": "Miles Van Ert"
+        }, 
+        {
+          "desc": "McFee let Brannis use his milk truck", 
+          "p1": "Leet Brannis", 
+          "p2": "Sheldon McFee"
+        }, 
+        {
+          "desc": "Jarvis was with Peggy when she met Brannis", 
+          "p1": "Leet Brannis", 
+          "p2": "Edwin Jarvis"
+        }, 
+        {
+          "desc": "Peggy killed Demidov after he tried to reobtain the the nitramene from her", 
+          "p1": "Sasha Demidov", 
+          "p2": "Peggy Carter"
+        }, 
+        {
+          "desc": "Demidov killed Raymond for losing a nitramene bomb to Peggy", 
+          "p1": "Sasha Demidov", 
+          "p2": "Spider Raymond"
+        }, 
+        {
+          "desc": "Demidov killed Colleen", 
+          "p1": "Sasha Demidov", 
+          "p2": "Colleen O'Brien"
+        }, 
+        {
+          "desc": "Demidov killed DeLucia for information about Leet Brannis", 
+          "p1": "Sasha Demidov", 
+          "p2": "Gino DeLucia"
+        }, 
+        {
+          "desc": "Demidov tried to kill Jarvis along with Peggy and Leet Brannis", 
+          "p1": "Sasha Demidov", 
+          "p2": "Edwin Jarvis"
+        }, 
+        {
+          "desc": "Colleen was Peggy's roommate", 
+          "p1": "Colleen O'Brien", 
+          "p2": "Peggy Carter"
+        }, 
+        {
+          "desc": "Jones was Van Ert's boss at Roxxon", 
+          "p1": "Miles Van Ert", 
+          "p2": "Hugh Jones"
+        }, 
+        {
+          "desc": "Thompson scanned Van Ert for vita radiation", 
+          "p1": "Miles Van Ert", 
+          "p2": "Jack Thompson"
+        }, 
+        {
+          "desc": "Carter saw Van Ert at the Roxxon refinery before it imploded", 
+          "p1": "Miles Van Ert", 
+          "p2": "Peggy Carter"
+        }, 
+        {
+          "desc": "Van Ert turned down a deal offered by Dooley", 
+          "p1": "Miles Van Ert", 
+          "p2": "Roger Dooley"
+        }, 
+        {
+          "desc": "Carter stole a nitramene bomb from Raymond", 
+          "p1": "Spider Raymond", 
+          "p2": "Peggy Carter"
+        }, 
+        {
+          "desc": "Raymond tried to sell nitramene to DeLucia", 
+          "p1": "Spider Raymond", 
+          "p2": "Gino DeLucia"
+        }, 
+        {
+          "desc": "Rose and Peggy both worked at the SSR", 
+          "p1": "Rose Roberts", 
+          "p2": "Peggy Carter"
+        }, 
+        {
+          "desc": "Jarvis spoke to Rose when trying to give the SSR a fake confession from Howard Stark", 
+          "p1": "Rose Roberts", 
+          "p2": "Edwin Jarvis"
+        }, 
+        {
+          "desc": "Peggy consulted Vanko about nitramene", 
+          "p1": "Anton Vanko", 
+          "p2": "Peggy Carter"
+        }, 
+        {
+          "desc": "Jarvis consulted Vanko about nitramene", 
+          "p1": "Anton Vanko", 
+          "p2": "Edwin Jarvis"
+        }, 
+        {
+          "desc": "Dooley was Yauch's boss at the SSR", 
+          "p1": "Agent Yauch", 
+          "p2": "Roger Dooley"
+        }, 
+        {
+          "desc": "Yauch and Thompson worked together at the SSR", 
+          "p1": "Agent Yauch", 
+          "p2": "Jack Thompson"
+        }, 
+        {
+          "desc": "Yauch and Wallace worked together at the SSR", 
+          "p1": "Agent Yauch", 
+          "p2": "Butch Wallace"
+        }, 
+        {
+          "desc": "Carter and Yauch worked together at the SSR", 
+          "p1": "Agent Yauch", 
+          "p2": "Peggy Carter"
+        }, 
+        {
+          "desc": "Fennhoff hypnotised Yauch to assist him and then commit suicide", 
+          "p1": "Agent Yauch", 
+          "p2": "Doctor Johann Fennhoff"
+        }, 
+        {
+          "desc": "Sousa and Yauch worked together at the SSR", 
+          "p1": "Agent Yauch", 
+          "p2": "Daniel Sousa"
+        }, 
+        {
+          "desc": "Edwin and Ana are married", 
+          "p1": "Ana Jarvis", 
+          "p2": "Edwin Jarvis"
+        }, 
+        {
+          "desc": "Dooley met with Jones when investigating the Roxxon refinery implosion", 
+          "p1": "Hugh Jones", 
+          "p2": "Roger Dooley"
+        }, 
+        {
+          "desc": "Thompson met with Jones when investigating the Roxxon refinery implosion", 
+          "p1": "Hugh Jones", 
+          "p2": "Jack Thompson"
+        }, 
+        {
+          "desc": "Winston is Hugh Jone's butler", 
+          "p1": "Hugh Jones", 
+          "p2": "Winston the butler"
+        }, 
+        {
+          "desc": "Miriam was Peggy's landlady at the Griffith Hotel", 
+          "p1": "Miriam Fry", 
+          "p2": "Peggy Carter"
+        }, 
+        {
+          "desc": "Miriam was Dottie's landlady at the Griffith Hotel", 
+          "p1": "Miriam Fry", 
+          "p2": "Dottie Underwood"
+        }, 
+        {
+          "desc": "Miriam was Carol's landlady", 
+          "p1": "Miriam Fry", 
+          "p2": "Carol (Griffith)"
+        }, 
+        {
+          "desc": "Miriam was Lorraine's landlady", 
+          "p1": "Miriam Fry", 
+          "p2": "Lorraine (Griffith)"
+        }, 
+        {
+          "desc": "Miriam was Helen's landlady", 
+          "p1": "Miriam Fry", 
+          "p2": "Helen (Griffith)"
+        }, 
+        {
+          "desc": "Miriam was Vera's landlady", 
+          "p1": "Miriam Fry", 
+          "p2": "Vera (Griffith)"
+        }, 
+        {
+          "desc": "Miriam was Gloria's landlady", 
+          "p1": "Miriam Fry", 
+          "p2": "Gloria (Griffith)"
+        }, 
+        {
+          "desc": "Miriam was Mary's landlady", 
+          "p1": "Miriam Fry", 
+          "p2": "Mary (Griffith)"
+        }, 
+        {
+          "desc": "Miriam was Evelyn's landlady", 
+          "p1": "Miriam Fry", 
+          "p2": "Evelyn (Griffith)"
+        }, 
+        {
+          "desc": "Miriam was Sarah's landlady", 
+          "p1": "Miriam Fry", 
+          "p2": "Sarah (Griffith)"
+        }, 
+        {
+          "desc": "Miriam was Molly's landlady", 
+          "p1": "Miriam Fry", 
+          "p2": "Molly Bowden"
+        }, 
+        {
+          "desc": "Jack met Miriam when searching for Peggy at the Griffith", 
+          "p1": "Miriam Fry", 
+          "p2": "Jack Thompson"
+        }, 
+        {
+          "desc": "Sousa met Miriam when searching for Peggy at the Griffith", 
+          "p1": "Miriam Fry", 
+          "p2": "Daniel Sousa"
+        }, 
+        {
+          "desc": "Mink met Fry when trying to find and kill Peggy at the Griffith", 
+          "p1": "Miriam Fry", 
+          "p2": "Otto Mink"
+        }, 
+        {
+          "desc": "Peggy confronted Sheldon for letting Leviathan use his milk truck", 
+          "p1": "Sheldon McFee", 
+          "p2": "Peggy Carter"
+        }, 
+        {
+          "desc": "Dooley found McFee tied to a chair after Peggy overpowered him", 
+          "p1": "Sheldon McFee", 
+          "p2": "Roger Dooley"
+        }, 
+        {
+          "desc": "Thompson found McFee tied to a chair after Peggy overpowered him", 
+          "p1": "Sheldon McFee", 
+          "p2": "Jack Thompson"
+        }, 
+        {
+          "desc": "Sousa questioned McFee in jail about Peggy", 
+          "p1": "Sheldon McFee", 
+          "p2": "Daniel Sousa"
+        }, 
+        {
+          "desc": "Winston and Miles both worked for the Roxxon Oil Corporation", 
+          "p1": "Winston the butler", 
+          "p2": "Miles Van Ert"
+        }, 
+        {
+          "desc": "Winston met Dooley when he was investigating the Roxxon refinery implosion", 
+          "p1": "Winston the butler", 
+          "p2": "Roger Dooley"
+        }, 
+        {
+          "desc": "Winston met Thompson when he was investigating the Roxxon refinery implosion", 
+          "p1": "Winston the butler", 
+          "p2": "Jack Thompson"
+        }, 
+        {
+          "desc": "Winston met Peggy when she was investigating the Roxxon refinery implosion", 
+          "p1": "Winston the butler", 
+          "p2": "Peggy Carter"
+        }, 
+        {
+          "desc": "Mary and Peggy both lived at the Griffith Hotel", 
+          "p1": "Mary (Griffith)", 
+          "p2": "Peggy Carter"
+        }, 
+        {
+          "desc": "Peggy and Evelyn both lived at the Griffith Hotel", 
+          "p1": "Evelyn (Griffith)", 
+          "p2": "Peggy Carter"
+        }, 
+        {
+          "desc": "Sarah and Peggy both lived at the Griffith Hotel", 
+          "p1": "Sarah (Griffith)", 
+          "p2": "Peggy Carter"
+        }, 
+        {
+          "desc": "Wallace and Carter worked together at the SSR", 
+          "p1": "Butch Wallace", 
+          "p2": "Peggy Carter"
+        }, 
+        {
+          "desc": "Jack and Butch worked together at the SSR", 
+          "p1": "Butch Wallace", 
+          "p2": "Jack Thompson"
+        }, 
+        {
+          "desc": "Wallace met Senator Cooper when he visited the SSR's New York offices", 
+          "p1": "Butch Wallace", 
+          "p2": "Senator Walt Cooper"
+        }, 
+        {
+          "desc": "Jerome fought Peggy to defend the stolen Stark weapons", 
+          "p1": "Jerome Zandow", 
+          "p2": "Peggy Carter"
+        }, 
+        {
+          "desc": "Jarvis helped Peggy fight Zandow", 
+          "p1": "Jerome Zandow", 
+          "p2": "Edwin Jarvis"
+        }, 
+        {
+          "desc": "Sousa arrested Zandow after a tip-off from Jarvis", 
+          "p1": "Jerome Zandow", 
+          "p2": "Daniel Sousa"
+        }, 
+        {
+          "desc": "Dooley saw Zandow be taken to interrogation", 
+          "p1": "Jerome Zandow", 
+          "p2": "Roger Dooley"
+        }, 
+        {
+          "desc": "Thompson saw Zandow be taken to interrogation", 
+          "p1": "Jerome Zandow", 
+          "p2": "Jack Thompson"
+        }, 
+        {
+          "desc": "Dottie killed Jerome to prevent him talking about Leviathan to the SSR", 
+          "p1": "Jerome Zandow", 
+          "p2": "Dottie Underwood"
+        }, 
+        {
+          "desc": "Carol and Molly both lived at the Griffith Hotel", 
+          "p1": "Carol (Griffith)", 
+          "p2": "Molly Bowden"
+        }, 
+        {
+          "desc": "Carol and Peggy both lived at the Griffith Hotel", 
+          "p1": "Carol (Griffith)", 
+          "p2": "Peggy Carter"
+        }, 
+        {
+          "desc": "Carol and Dottie both lived at the Griffith Hotel", 
+          "p1": "Carol (Griffith)", 
+          "p2": "Dottie Underwood"
+        }, 
+        {
+          "desc": "Carol and Vera both lived at the Griffith Hotel", 
+          "p1": "Carol (Griffith)", 
+          "p2": "Vera (Griffith)"
+        }, 
+        {
+          "desc": "Gloria and Carol both lived at the Griffith Hotel", 
+          "p1": "Carol (Griffith)", 
+          "p2": "Gloria (Griffith)"
+        }, 
+        {
+          "desc": "Dottie killed Anya while sparring in the red room program", 
+          "p1": "Dottie Underwood", 
+          "p2": "Anya (Red room)"
+        }, 
+        {
+          "desc": "Underwood and Fyodor both worked for Leviathan", 
+          "p1": "Dottie Underwood", 
+          "p2": "Colonel Fyodor"
+        }, 
+        {
+          "desc": "Fennhoff and Underwood both worked for Leviathan", 
+          "p1": "Dottie Underwood", 
+          "p2": "Doctor Johann Fennhoff"
+        }, 
+        {
+          "desc": "Dottie killed Pasha when he refused to join Leviathan", 
+          "p1": "Dottie Underwood", 
+          "p2": "Prisoner Pasha"
+        }, 
+        {
+          "desc": "Peggy and Dottie fought as agents of the SSR and Leviathan", 
+          "p1": "Dottie Underwood", 
+          "p2": "Peggy Carter"
+        }, 
+        {
+          "desc": "Dottie and Gloria lived together at the Griffith Hotel", 
+          "p1": "Dottie Underwood", 
+          "p2": "Gloria (Griffith)"
+        }, 
+        {
+          "desc": "Dottie killed Otto when he broke into the Griffith looking to kill Peggy", 
+          "p1": "Dottie Underwood", 
+          "p2": "Otto Mink"
+        }, 
+        {
+          "desc": "Dottie killed Honicky to use his office to observe the SSR building", 
+          "p1": "Dottie Underwood", 
+          "p2": "Doctor Seth Honicky"
+        }, 
+        {
+          "desc": "Thompson met Dottie at the Griffith when arresting Peggy", 
+          "p1": "Dottie Underwood", 
+          "p2": "Jack Thompson"
+        }, 
+        {
+          "desc": "Sousa met Dottie at the Griffith when arresting Peggy", 
+          "p1": "Dottie Underwood", 
+          "p2": "Daniel Sousa"
+        }, 
+        {
+          "desc": "Pike tried, and failed, to arrest Dottie and Dr Fennhoff", 
+          "p1": "Dottie Underwood", 
+          "p2": "Officer Pike"
+        }, 
+        {
+          "desc": "Dottie killed Corcoran when escaping from the dentists office opposite the SSR building", 
+          "p1": "Dottie Underwood", 
+          "p2": "Agent Corcoran"
+        }, 
+        {
+          "desc": "Molly and Peggy both lived at the Griffith", 
+          "p1": "Molly Bowden", 
+          "p2": "Peggy Carter"
+        }, 
+        {
+          "desc": "Jimmy was Molly's boyfriend", 
+          "p1": "Molly Bowden", 
+          "p2": "Jimmy 'Houdini'"
+        }, 
+        {
+          "desc": "Jimmy went to Peggy's window when looking for Molly'save", 
+          "p1": "Jimmy 'Houdini'", 
+          "p2": "Peggy Carter"
+        }, 
+        {
+          "desc": "Vera and Peggy both lived at the Griffith Hotel", 
+          "p1": "Vera (Griffith)", 
+          "p2": "Peggy Carter"
+        }, 
+        {
+          "desc": "Vera and Gloria both lived at the Griffith Hotel", 
+          "p1": "Vera (Griffith)", 
+          "p2": "Gloria (Griffith)"
+        }, 
+        {
+          "desc": "Peggy and Gloria both lived at the Griffith Hotel", 
+          "p1": "Gloria (Griffith)", 
+          "p2": "Peggy Carter"
+        }, 
+        {
+          "desc": "Sousa arrested Frank for attacking him at the docks", 
+          "p1": "Veteran Frank", 
+          "p2": "Daniel Sousa"
+        }, 
+        {
+          "desc": "Frank and George were friends", 
+          "p1": "Veteran Frank", 
+          "p2": "George (tramp)"
+        }, 
+        {
+          "desc": "Thompson gave Frank whisky in exchange for information", 
+          "p1": "Veteran Frank", 
+          "p2": "Jack Thompson"
+        }, 
+        {
+          "desc": "Sousa asked George for information about the boad the stolen Stark tech was kept on", 
+          "p1": "George (tramp)", 
+          "p2": "Daniel Sousa"
+        }, 
+        {
+          "desc": "Dooley saw Mueller for information about the battle at Finow", 
+          "p1": "Colonel Ernst Mueller", 
+          "p2": "Roger Dooley"
+        }, 
+        {
+          "desc": "Carter and Doobin worked for the SSR", 
+          "p1": "Alex Doobin", 
+          "p2": "Peggy Carter"
+        }, 
+        {
+          "desc": "Dooley was Doobin's boss at the SSR", 
+          "p1": "Alex Doobin", 
+          "p2": "Roger Dooley"
+        }, 
+        {
+          "desc": "Fennhoff entered Doobin's lab with chief Dooley", 
+          "p1": "Alex Doobin", 
+          "p2": "Doctor Johann Fennhoff"
+        }, 
+        {
+          "desc": "Lorraine and Peggy both lived at the Griffith Hotel", 
+          "p1": "Lorraine (Griffith)", 
+          "p2": "Peggy Carter"
+        }, 
+        {
+          "desc": "Helen and Peggy both lived at the Griffith Hotel", 
+          "p1": "Helen (Griffith)", 
+          "p2": "Peggy Carter"
+        }, 
+        {
+          "desc": "Peggy and Dugan worked together infiltrating a Leviathan base", 
+          "p1": "Dum Dum Dugan", 
+          "p2": "Peggy Carter"
+        }, 
+        {
+          "desc": "Dugan and Sawyer were both Howling Commandos", 
+          "p1": "Dum Dum Dugan", 
+          "p2": "Happy Sam Sawyer"
+        }, 
+        {
+          "desc": "Dugan and Pinky were both Howling Commandos", 
+          "p1": "Dum Dum Dugan", 
+          "p2": "Pinky Pinkerton"
+        }, 
+        {
+          "desc": "Juniper and Dugan were both Howling Commandos", 
+          "p1": "Dum Dum Dugan", 
+          "p2": "Junior Juniper"
+        }, 
+        {
+          "desc": "Thompson and Dugan worked together infiltrating a Leviathan base", 
+          "p1": "Dum Dum Dugan", 
+          "p2": "Jack Thompson"
+        }, 
+        {
+          "desc": "Eva stabbed Dugan before running from the SSR team", 
+          "p1": "Dum Dum Dugan", 
+          "p2": "Eva (Red Room)"
+        }, 
+        {
+          "desc": "Dugan was in the team that 'rescued' Fennhoff from Leviathan", 
+          "p1": "Dum Dum Dugan", 
+          "p2": "Doctor Johann Fennhoff"
+        }, 
+        {
+          "desc": "Li and Dugan worked together infiltrating a Leviathan base", 
+          "p1": "Dum Dum Dugan", 
+          "p2": "Mike Li"
+        }, 
+        {
+          "desc": "Ramirez and Dugan worked together infiltrating a Leviathan base", 
+          "p1": "Dum Dum Dugan", 
+          "p2": "Rick Ramirez"
+        }, 
+        {
+          "desc": "Peggy and Sawyer worked together infiltrating a Leviathan base", 
+          "p1": "Happy Sam Sawyer", 
+          "p2": "Peggy Carter"
+        }, 
+        {
+          "desc": "Sawyer and Pinkerton were both Howling Commandos", 
+          "p1": "Happy Sam Sawyer", 
+          "p2": "Pinky Pinkerton"
+        }, 
+        {
+          "desc": "Sawyer and Juniper were both Howling Commandos", 
+          "p1": "Happy Sam Sawyer", 
+          "p2": "Junior Juniper"
+        }, 
+        {
+          "desc": "Thompson and Sawyer worked together infiltrating a Leviathan base", 
+          "p1": "Happy Sam Sawyer", 
+          "p2": "Jack Thompson"
+        }, 
+        {
+          "desc": "Eva attacked and ran from Sawyer's SSR team", 
+          "p1": "Happy Sam Sawyer", 
+          "p2": "Eva (Red Room)"
+        }, 
+        {
+          "desc": "Sawyer was in the team that 'rescued' Fennhoff from Leviathan", 
+          "p1": "Happy Sam Sawyer", 
+          "p2": "Doctor Johann Fennhoff"
+        }, 
+        {
+          "desc": "Sawyer was held at gunpoint by a panicking Nikola", 
+          "p1": "Happy Sam Sawyer", 
+          "p2": "Prisoner Nikola"
+        }, 
+        {
+          "desc": "Li and Sawyer worked together infiltrating a Leviathan base", 
+          "p1": "Happy Sam Sawyer", 
+          "p2": "Mike Li"
+        }, 
+        {
+          "desc": "Ramirez and Sawyer worked together infiltrating a Leviathan base", 
+          "p1": "Happy Sam Sawyer", 
+          "p2": "Rick Ramirez"
+        }, 
+        {
+          "desc": "Peggy and Pinky worked together infiltrating a Leviathan base", 
+          "p1": "Pinky Pinkerton", 
+          "p2": "Peggy Carter"
+        }, 
+        {
+          "desc": "Pinkerton and Juniper were both Howling Commandos", 
+          "p1": "Pinky Pinkerton", 
+          "p2": "Junior Juniper"
+        }, 
+        {
+          "desc": "Thompson and Pinkerton worked together infiltrating a Leviathan base", 
+          "p1": "Pinky Pinkerton", 
+          "p2": "Jack Thompson"
+        }, 
+        {
+          "desc": "Eva attacked and ran from Pinky's SSR team", 
+          "p1": "Pinky Pinkerton", 
+          "p2": "Eva (Red Room)"
+        }, 
+        {
+          "desc": "Pinkerton was in the team that 'rescued' Fennhoff from Leviathan", 
+          "p1": "Pinky Pinkerton", 
+          "p2": "Doctor Johann Fennhoff"
+        }, 
+        {
+          "desc": "Li and Pinkerton worked together infiltrating a Leviathan base", 
+          "p1": "Pinky Pinkerton", 
+          "p2": "Mike Li"
+        }, 
+        {
+          "desc": "Ramirez and Pinkerton worked together infiltrating a Leviathan base", 
+          "p1": "Pinky Pinkerton", 
+          "p2": "Rick Ramirez"
+        }, 
+        {
+          "desc": "Peggy and Juniper worked together infiltrating a Leviathan base", 
+          "p1": "Junior Juniper", 
+          "p2": "Peggy Carter"
+        }, 
+        {
+          "desc": "Thompson and Juniper worked together infiltrating a Leviathan base", 
+          "p1": "Junior Juniper", 
+          "p2": "Jack Thompson"
+        }, 
+        {
+          "desc": "Eva killed Juniper in the leviathan base", 
+          "p1": "Junior Juniper", 
+          "p2": "Eva (Red Room)"
+        }, 
+        {
+          "desc": "Li and Juniper worked together infiltrating a Leviathan base", 
+          "p1": "Junior Juniper", 
+          "p2": "Mike Li"
+        }, 
+        {
+          "desc": "Ramirez and Juniper worked together infiltrating a Leviathan base", 
+          "p1": "Junior Juniper", 
+          "p2": "Rick Ramirez"
+        }, 
+        {
+          "desc": "Eva attacked and ran from Peggy's SSR team", 
+          "p1": "Eva (Red Room)", 
+          "p2": "Peggy Carter"
+        }, 
+        {
+          "desc": "Eva attacked and ran from Thompson's SSR team", 
+          "p1": "Eva (Red Room)", 
+          "p2": "Jack Thompson"
+        }, 
+        {
+          "desc": "Eva attacked and ran from Li's SSR team", 
+          "p1": "Eva (Red Room)", 
+          "p2": "Mike Li"
+        }, 
+        {
+          "desc": "Eva killed Ramirez when his SSR team infiltrated a Leviathan base", 
+          "p1": "Eva (Red Room)", 
+          "p2": "Rick Ramirez"
+        }, 
+        {
+          "desc": "Peggy was in the SSR team that tried to free Nikola from Leviathan", 
+          "p1": "Prisoner Nikola", 
+          "p2": "Peggy Carter"
+        }, 
+        {
+          "desc": "Jack was in the SSR team that tried to free Nikola from Leviathan", 
+          "p1": "Prisoner Nikola", 
+          "p2": "Jack Thompson"
+        }, 
+        {
+          "desc": "Mike Li was in the SSR team that tried to free Nikola from Leviathan", 
+          "p1": "Prisoner Nikola", 
+          "p2": "Mike Li"
+        }, 
+        {
+          "desc": "Ramirez was in the SSR team that tried to free Nikola from Leviathan", 
+          "p1": "Prisoner Nikola", 
+          "p2": "Rick Ramirez"
+        }, 
+        {
+          "desc": "Fennhoff controlled Nikola so he would make Stark weapons for Leviathan", 
+          "p1": "Prisoner Nikola", 
+          "p2": "Doctor Johann Fennhoff"
+        }, 
+        {
+          "desc": "Mike and Peggy were on the SSR team that infiltrated a Leviathan base", 
+          "p1": "Mike Li", 
+          "p2": "Peggy Carter"
+        }, 
+        {
+          "desc": "Mike and Thompson were on the SSR team that infiltrated a Leviathan base", 
+          "p1": "Mike Li", 
+          "p2": "Jack Thompson"
+        }, 
+        {
+          "desc": "Mike and Rick were on the SSR team that infiltrated a Leviathan base", 
+          "p1": "Mike Li", 
+          "p2": "Rick Ramirez"
+        }, 
+        {
+          "desc": "Mike Li was in the team that 'rescued' Fennhoff from Leviathan", 
+          "p1": "Mike Li", 
+          "p2": "Doctor Johann Fennhoff"
+        }, 
+        {
+          "desc": "Mike and Daniel were SSR colleagues", 
+          "p1": "Mike Li", 
+          "p2": "Daniel Sousa"
+        }, 
+        {
+          "desc": "Ramirez and Peggy were on the SSR team that infiltrated a Leviathan base", 
+          "p1": "Rick Ramirez", 
+          "p2": "Peggy Carter"
+        }, 
+        {
+          "desc": "Ramirez and Thompson were on the SSR team that infiltrated a Leviathan base", 
+          "p1": "Rick Ramirez", 
+          "p2": "Jack Thompson"
+        }, 
+        {
+          "desc": "Ramirez was in the team that 'rescued' Fennhoff from Leviathan", 
+          "p1": "Rick Ramirez", 
+          "p2": "Doctor Johann Fennhoff"
+        }, 
+        {
+          "desc": "Sousa and Ramirez both worked for the SSR", 
+          "p1": "Rick Ramirez", 
+          "p2": "Daniel Sousa"
+        }, 
+        {
+          "desc": "Fennhoff assisted in surgery on Ovechkin", 
+          "p1": "Doctor Johann Fennhoff", 
+          "p2": "Private Ovechkin"
+        }, 
+        {
+          "desc": "Fyodor recruited Fennhoff into Leviathan", 
+          "p1": "Doctor Johann Fennhoff", 
+          "p2": "Colonel Fyodor"
+        }, 
+        {
+          "desc": "Fennhoff and Pasha were both potential Leviathan recruits", 
+          "p1": "Doctor Johann Fennhoff", 
+          "p2": "Prisoner Pasha"
+        }, 
+        {
+          "desc": "Fennhoff killed Dooley by hypnotising him to put on an exploding vest", 
+          "p1": "Doctor Johann Fennhoff", 
+          "p2": "Roger Dooley"
+        }, 
+        {
+          "desc": "Thompson was in the team that 'rescued' Fennhoff from Leviathan", 
+          "p1": "Doctor Johann Fennhoff", 
+          "p2": "Jack Thompson"
+        }, 
+        {
+          "desc": "Sousa met Fennhoff when he was brought to the SSR offices in New York", 
+          "p1": "Doctor Johann Fennhoff", 
+          "p2": "Daniel Sousa"
+        }, 
+        {
+          "desc": "Fennhoff hypnotised Pike to help him", 
+          "p1": "Doctor Johann Fennhoff", 
+          "p2": "Officer Pike"
+        }, 
+        {
+          "desc": "Peggy stopped Fennhoff's plans to gas New York", 
+          "p1": "Doctor Johann Fennhoff", 
+          "p2": "Peggy Carter"
+        }, 
+        {
+          "desc": "Fennhoff was placed in a cell with Zola", 
+          "p1": "Doctor Johann Fennhoff", 
+          "p2": "Arnim Zola"
+        }, 
+        {
+          "desc": "Jarvis put Howard into a car being driven by a hypnotised Pike", 
+          "p1": "Officer Pike", 
+          "p2": "Edwin Jarvis"
+        }, 
+        {
+          "desc": "Jarvis brought Peggy to talk with Albert during their investigation", 
+          "p1": "Albert the jeweler", 
+          "p2": "Edwin Jarvis"
+        }, 
+        {
+          "desc": "Jarvis brought Peggy to talk with Albert during their investigation", 
+          "p1": "Albert the jeweler", 
+          "p2": "Peggy Carter"
+        }, 
+        {
+          "desc": "Fyodor had Pasha killed for refusing to join Leviathan", 
+          "p1": "Colonel Fyodor", 
+          "p2": "Prisoner Pasha"
+        }, 
+        {
+          "desc": "Jarvis was sent by Stark to tell Josephine he was breaking up with her", 
+          "p1": "Josephine", 
+          "p2": "Edwin Jarvis"
+        }, 
+        {
+          "desc": "Peggy visited Josephine when investigating the stolen Stark inventions", 
+          "p1": "Josephine", 
+          "p2": "Peggy Carter"
+        }, 
+        {
+          "desc": "Jarvis was sent by Stark to tell Thelma he was breaking up with her", 
+          "p1": "Thelma Crawford", 
+          "p2": "Edwin Jarvis"
+        }, 
+        {
+          "desc": "Peggy visited Thelma when investigating the stolen Stark inventions", 
+          "p1": "Thelma Crawford", 
+          "p2": "Peggy Carter"
+        }, 
+        {
+          "desc": "Jarvis was sent by Stark to tell Edith he was breaking up with her", 
+          "p1": "Edith Oberon", 
+          "p2": "Edwin Jarvis"
+        }, 
+        {
+          "desc": "Peggy visited Edith when investigating the stolen Stark inventions", 
+          "p1": "Edith Oberon", 
+          "p2": "Peggy Carter"
+        }, 
+        {
+          "desc": "Reese attempted to arrest Peggy", 
+          "p1": "Agent Reese", 
+          "p2": "Peggy Carter"
+        }, 
+        {
+          "desc": "Jarvis knocked out Reese to prevent Peggy's arrest", 
+          "p1": "Agent Reese", 
+          "p2": "Edwin Jarvis"
+        }, 
+        {
+          "desc": "Messner attempted to arrest Peggy", 
+          "p1": "Agent Messner", 
+          "p2": "Peggy Carter"
+        }, 
+        {
+          "desc": "Jarvis knocked out Messner to prevent Peggy's arrest", 
+          "p1": "Agent Messner", 
+          "p2": "Edwin Jarvis"
+        }, 
+        {
+          "desc": "Loretta and Roger were married", 
+          "p1": "Loretta Dooley", 
+          "p2": "Roger Dooley"
+        }, 
+        {
+          "desc": "Loretta was Emmett's mother", 
+          "p1": "Loretta Dooley", 
+          "p2": "Emmett Dooley"
+        }, 
+        {
+          "desc": "Corcoran and Thompson worked together at the SSR", 
+          "p1": "Agent Corcoran", 
+          "p2": "Jack Thompson"
+        }, 
+        {
+          "desc": "Corcoran and Sousa worked together at the SSR", 
+          "p1": "Agent Corcoran", 
+          "p2": "Daniel Sousa"
+        }, 
+        {
+          "desc": "Roger was Emmett's father", 
+          "p1": "Emmett Dooley", 
+          "p2": "Roger Dooley"
+        }, 
+        {
+          "desc": "Prendergast informed Peggy about the cinema massacre", 
+          "p1": "Detective Prendergast", 
+          "p2": "Peggy Carter"
+        }, 
+        {
+          "desc": "Prendergast informed Thompson about the cinema massacre", 
+          "p1": "Detective Prendergast", 
+          "p2": "Jack Thompson"
+        }, 
+        {
+          "desc": "Prendergast informed Sousa about the cinema massacre", 
+          "p1": "Detective Prendergast", 
+          "p2": "Daniel Sousa"
+        }, 
+        {
+          "desc": "Cooper congratulated Jack for stopping the midnight oil attack on New York", 
+          "p1": "Senator Walt Cooper", 
+          "p2": "Jack Thompson"
+        }, 
+        {
+          "desc": "Sousa met Cooper when he visited the SSR's New York offices", 
+          "p1": "Senator Walt Cooper", 
+          "p2": "Daniel Sousa"
+        }, 
+        {
+          "desc": "Peggy met Cooper when he visited the SSR's New York offices", 
+          "p1": "Senator Walt Cooper", 
+          "p2": "Peggy Carter"
+        }
+      ], 
+      "name": "Agent Carter Season 1"
     }, 
     {
       "category": "One-shots", 
