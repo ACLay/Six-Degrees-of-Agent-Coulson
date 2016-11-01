@@ -121,19 +121,22 @@ function generateAndDisplayStatsFrom(rootCharacter){
 	displayStats(characterStats);
 }
 
-// using functions to access the UI in the calculator function allows them to be overriden by the web worker
-// so that the code can be reused without duplication
 function updateProgressLabel(message){
 	progressLabel.textContent = message;
 }
 
 function addRouteToStats(stats,route){
+	var otherCharacter = route.end;
+	if (stats.name == route.end){
+		otherCharacter = route.start;
+	}
+
 	stats.totalDistance += route.links.length;
 	if (route.links.length > stats.greatestDistance){
 		stats.greatestDistance = route.links.length;
-		stats.furthestCharacters = [route.end];
+		stats.furthestCharacters = [otherCharacter];
 	} else if (route.links.length == stats.greatestDistance){
-		stats.furthestCharacters.push(route.end);
+		stats.furthestCharacters.push(otherCharacter);
 	}
 }
 
