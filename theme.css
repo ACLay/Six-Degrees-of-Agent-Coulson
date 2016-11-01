@@ -133,6 +133,15 @@ label {
 }
 
 /**
+ * Credits tab
+ */
+
+#creditsTab li{
+  list-style-type: none;
+  padding-top: 0.25em;
+}
+
+/**
  * Footer Styles
  */
 
