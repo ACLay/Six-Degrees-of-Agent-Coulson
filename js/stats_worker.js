@@ -1,73 +1,21 @@
+importScripts('solver.js', 'filters.js', 'stats.js');
 
-importScripts('solver.js', 'filters.js');
-
-function addRouteToStats(stats,route,otherPerson){
-	stats.totalDistance += route.links.length;
-	if (route.links.length > stats.greatestDistance){
-		stats.greatestDistance = route.links.length;
-		stats.furthestCharacters = [otherPerson];
-	} else if (route.links.length == stats.greatestDistance){
-		stats.furthestCharacters.push(otherPerson);
-	}
+//Overrides the UI functions from stats.js to use the web workers feedback function,
+//operating in the document scope which, unlike the web worker scope, can access the UI
+updateProgressLabel = function(message){
+	postMessage({"complete":false,"progressMessage":message});
 }
-
-function getGraphStats(rootCharacter){
-	// list reachable characters
-	var reachableCharacters = [];
-	var allCharacters = listCharactersFromSelectedMedia();
-	var characterStats = new Map();
-	var longestRouteLength = 0;
-	var longestRoutes = [];
-	postMessage({"complete":false,"progressMessage":"Finding connected characters"});
-	for (var i = 0; i < allCharacters.length; i++){
-		var character = allCharacters[i];
-		var route = calculateConnections(rootCharacter,character);
-		if (route !== null){
-			characterStats.set(character,{
-				"name":character,
-				"totalDistance":0,
-				"greatestDistance":0,
-				"averageDistance":0,
-				"furthestCharacters":[]
-			});
-			reachableCharacters.push(character);
-		}
-	}
-	var toCalculate = reachableCharacters.length * (reachableCharacters.length - 1) / 2;
-	var calculated = 0;
-	// for each pairing
-	for (var i = 0; i < reachableCharacters.length; i++){
-		postMessage({"complete":false,"progressMessage":"Calculating connections " + calculated + "/" + toCalculate});
-		var personA = reachableCharacters[i];
-		var personAstats = characterStats.get(personA);
-		for (var j = i+1; j < reachableCharacters.length; j++){
-			var personB = reachableCharacters[j];
-			var personBstats = characterStats.get(personB);
-			//find the shortest link
-			var route = calculateConnections(personA,personB);
-			//increment their counts
-			addRouteToStats(personAstats,route,personB);
-			addRouteToStats(personBstats,route,personA);
-			if (route.links.length > longestRouteLength){
-				longestRouteLength = route.links.length;
-				longestRoutes = [route];
-			} else if (route.links.length == longestRouteLength){
-				longestRoutes.push(route);
-			}
-			calculated++;
-		}
-		personAstats.averageDistance = personAstats.totalDistance/(reachableCharacters.length-1);
-	}
-	
+displayStats = function(characterStats){
 	postMessage({"complete":true,"characterStats":characterStats});
-	
 }
 
+//Global data structures in the web workers scope
 var connectionGraph;
 var mediaCheckboxes;
 
 onmessage = function(e){
+	console.log('calculating stats in web worker');
 	connectionGraph = e.data.graph;
 	mediaCheckboxes = e.data.selections;
-	getGraphStats(e.data.root);
+	generateAndDisplayStatsFrom(e.data.root);
 };

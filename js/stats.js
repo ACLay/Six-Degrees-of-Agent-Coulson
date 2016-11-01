@@ -1,6 +1,6 @@
 var statsWorker;
 
-function displayStats(){
+function generateAndDisplayStats(){
 	var button = document.getElementById("findStats")
 	button.disabled = true;
 
@@ -20,7 +20,7 @@ function displayStats(){
 		}
 		statsWorker.onmessage = function(e){
 			if (e.data.complete){
-				displayStatsTable(e.data.characterStats);
+				displayStats(e.data.characterStats);
 			} else {
 				progressLabel.textContent = e.data.progressMessage;
 			}
@@ -34,22 +34,22 @@ function displayStats(){
 	} else {
 		progressLabel.textContent = "This might take a while..."
 		setTimeout(function(){
-			var characterStats = getGraphStats(rootCharacter, progressLabel);
-			displayStatsTable(characterStats);
+			generateAndDisplayStatsFrom(rootCharacter);
 		},0);
 	}
 }
 
-function displayStatsTable(characterStats){
+function displayStats(characterStats){
 	var resultElement = document.getElementById("statsResult");
 
 	progressLabel.textContent = "Generating table";
 	setTimeout(function(){
 		var table = buildStatsTable(characterStats);
 		removeChildren(resultElement);
-		addGeneralStats(characterStats);
+		displayGraphStats(characterStats);
 		resultElement.appendChild(table);
 
+		// make the table sortable
 		sorttable.makeSortable(table);
 		var myTH = document.getElementsByTagName("th")[1];
 		sorttable.innerSortFunction.apply(myTH, []);
@@ -58,7 +58,7 @@ function displayStatsTable(characterStats){
 	},0);
 }
 
-function addGeneralStats(characterStats){
+function displayGraphStats(characterStats){
 	var characterCount = characterStats.size;
 	var averageSum = 0;
 	for(var stats of characterStats.values()){
@@ -69,14 +69,15 @@ function addGeneralStats(characterStats){
 	addChild(resultElement, "p", "Average Distance: "+averageLength.toFixed(3));
 }
 
-function getGraphStats(rootCharacter, progressLabel){
+//TODO rename:
+function generateAndDisplayStatsFrom(rootCharacter){
 	// list reachable characters
 	var reachableCharacters = [];
 	var allCharacters = listCharactersFromSelectedMedia();
 	var characterStats = new Map();
 	var longestRouteLength = 0;
 	var longestRoutes = [];
-	progressLabel.textContent = "Listing connected characters";
+	updateProgressLabel("Listing connected characters");
 	for (var i = 0; i < allCharacters.length; i++){
 		var character = allCharacters[i];
 		var route = calculateConnections(rootCharacter,character);
@@ -95,7 +96,7 @@ function getGraphStats(rootCharacter, progressLabel){
 	var calculated = 0;
 	// for each pairing
 	for (var i = 0; i < reachableCharacters.length; i++){
-		progressLabel.textContent = "Calculating connections: " + calculated + "/" + toCalculate;
+		updateProgressLabel("Calculating connections: " + calculated + "/" + toCalculate);
 		var personA = reachableCharacters[i];
 		var personAstats = characterStats.get(personA);
 		for (var j = i+1; j < reachableCharacters.length; j++){
@@ -104,8 +105,8 @@ function getGraphStats(rootCharacter, progressLabel){
 			//find the shortest link
 			var route = calculateConnections(personA,personB);
 			//increment their counts
-			addRouteToStats(personAstats,route,personB);
-			addRouteToStats(personBstats,route,personA);
+			addRouteToStats(personAstats,route);
+			addRouteToStats(personBstats,route);
 			if (route.links.length > longestRouteLength){
 				longestRouteLength = route.links.length;
 				longestRoutes = [route];
@@ -117,21 +118,27 @@ function getGraphStats(rootCharacter, progressLabel){
 		personAstats.averageDistance = personAstats.totalDistance/(reachableCharacters.length-1);
 	}
 	
-	return characterStats;
+	displayStats(characterStats);
 }
 
-function addRouteToStats(stats,route,otherPerson){
+// using functions to access the UI in the calculator function allows them to be overriden by the web worker
+// so that the code can be reused without duplication
+function updateProgressLabel(message){
+	progressLabel.textContent = message;
+}
+
+function addRouteToStats(stats,route){
 	stats.totalDistance += route.links.length;
 	if (route.links.length > stats.greatestDistance){
 		stats.greatestDistance = route.links.length;
-		stats.furthestCharacters = [otherPerson];
+		stats.furthestCharacters = [route.end];
 	} else if (route.links.length == stats.greatestDistance){
-		stats.furthestCharacters.push(otherPerson);
+		stats.furthestCharacters.push(route.end);
 	}
 }
 
 function buildStatsTable(statsMap){
-	var table = createTable();
+	var table = initializeStatsTable();
 	var body = document.createElement("tbody");
 	table.appendChild(body);
 
@@ -142,7 +149,7 @@ function buildStatsTable(statsMap){
 	return table;
 }
 
-function createTable(){
+function initializeStatsTable(){
 	var table = document.createElement("table");
 	table.classList.add("sortable");
 	var head = document.createElement("thead");

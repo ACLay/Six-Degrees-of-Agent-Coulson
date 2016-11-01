@@ -10,7 +10,7 @@ window.onload = function(){
 	button.onclick = displayConnection;
 
 	button = document.getElementById("findStats");
-	button.onclick = displayStats;
+	button.onclick = generateAndDisplayStats;
 
 	stanOptions.onchange = function(){loadConnections(); fillSelectors();};
 
