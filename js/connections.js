@@ -10,13 +10,19 @@ return {
     "TV"
   ], 
   "characters": [
+    "Abner Brody", 
     "Abu Bakar", 
+    "Agent Beringer", 
+    "Agent Blackwell", 
     "Agent Blake", 
     "Agent Corcoran", 
     "Agent Coulson", 
     "Agent Messner", 
     "Agent Reese", 
+    "Agent Ryan", 
     "Agent Sitwell", 
+    "Agent Vega", 
+    "Agent White", 
     "Agent Yauch", 
     "Aisha Axton", 
     "Albert Rackham", 
@@ -27,8 +33,10 @@ return {
     "Alexander Pierce", 
     "Algrim", 
     "Alisa Jones", 
+    "Aloysius Samberly", 
     "Alva Ramirez", 
     "Amadeus Cho", 
+    "Amanda Carter", 
     "Ana Jarvis", 
     "Andre", 
     "Angie Martinelli", 
@@ -43,9 +51,11 @@ return {
     "Bailey", 
     "Barbara Shlottman", 
     "Baron Strucker", 
+    "Bartender Leopold", 
     "Benjamin Donovan", 
     "Bennie Pollock", 
     "Bereet", 
+    "Bernard Stark", 
     "Bert Hunter", 
     "Betty Ross", 
     "Blake Tower", 
@@ -59,10 +69,12 @@ return {
     "Brock Rumlow", 
     "Bruce Banner", 
     "Bucky Barnes", 
+    "Bud Schultz", 
     "Buggy Stokes", 
     "Bunny Wiles", 
     "Butch Wallace", 
     "C-Money", 
+    "Calvin Chadwick", 
     "Cameron Klein", 
     "Candace Miller", 
     "Captain Betty Audrey", 
@@ -81,8 +93,10 @@ return {
     "Claire Temple", 
     "Claire Weiss", 
     "Clifford 'Method Man' Smith", 
+    "Clifford (Maggia)", 
     "Clint Barton", 
     "Club Manager Nate", 
+    "Codebreaker Edwards", 
     "Colleen O'Brien", 
     "Colonel Ernst Mueller", 
     "Colonel Fyodor", 
@@ -113,10 +127,13 @@ return {
     "David Kurata", 
     "Denarian Sall", 
     "Desmond Tobey", 
+    "Detective Andrew Henry", 
     "Detective Lemieux", 
     "Detective Prendergast", 
     "Detective Scarfe", 
     "Diontey", 
+    "Director Kenneth", 
+    "Doctor Chung", 
     "Doctor Fine", 
     "Doctor Johann Fennhoff", 
     "Doctor List", 
@@ -163,6 +180,7 @@ return {
     "Fletcher Heggs", 
     "Frank", 
     "Frank Levin", 
+    "Fred Wells", 
     "Frigga", 
     "Gabe Jones", 
     "Gabe Krasner", 
@@ -185,10 +203,12 @@ return {
     "Gregory Spheeris", 
     "Groot", 
     "Hank", 
+    "Hank (Maggia)", 
     "Hank Pym", 
     "Happy Hogan", 
     "Happy Sam Sawyer", 
     "Harley Keener", 
+    "Harrison Carter", 
     "Harvey", 
     "Heather B.", 
     "Heimdall", 
@@ -223,9 +243,12 @@ return {
     "James Rhodes", 
     "James Rondell", 
     "Jane Foster", 
+    "Jane Scott", 
     "Janet Van Dyne", 
+    "Jason Wilkes", 
     "Jeri Hogarth", 
     "Jerome Zandow", 
+    "Jerry", 
     "Jessica Jones", 
     "Jim Morita", 
     "Jimmy 'Houdini'", 
@@ -233,6 +256,7 @@ return {
     "Jin Lin", 
     "Joe Greller", 
     "Joel Spurlock", 
+    "Joseph Manfredi", 
     "Josephine", 
     "Juan Carlos Castro", 
     "Junior Juniper", 
@@ -264,6 +288,7 @@ return {
     "Lt Mario Green", 
     "Luis", 
     "Luke Cage", 
+    "Mabel", 
     "Madame B", 
     "Maggie Lang", 
     "Major Allen", 
@@ -283,9 +308,12 @@ return {
     "Maury Tuttlebaum", 
     "Maya Hansen", 
     "McManus", 
+    "Medical Examiner Meltzer", 
     "Megan McClaren", 
     "Mei", 
+    "Melody", 
     "Meredith Quill", 
+    "Michael Carter", 
     "Mike Li", 
     "Mike Tyson", 
     "Miles Van Ert", 
@@ -294,16 +322,20 @@ return {
     "Misty Knight", 
     "Mitchell Carson", 
     "Molly Bowden", 
+    "Mortimer Hayes", 
     "Mr Lin", 
     "Mrs Davis", 
     "Natasha Romanoff", 
     "Nathaniel Barton", 
     "Nebula", 
+    "Ned Silver", 
     "Neville Barnwell", 
     "Nick Fury", 
     "Nicole", 
+    "Nonna Manfredi", 
     "Nova Prime", 
     "Nurse Ellie Chung", 
+    "Nurse Violet", 
     "Obadiah Stane", 
     "Odin", 
     "Officer Albini", 
@@ -334,6 +366,7 @@ return {
     "Prisoner Pasha", 
     "Private Ovechkin", 
     "Raj", 
+    "Ralph", 
     "Ray Krzeminski", 
     "Raza", 
     "Red Skull", 
@@ -343,6 +376,7 @@ return {
     "Reva Connors", 
     "Rhomann Dey", 
     "Richard", 
+    "Richard Cully", 
     "Rick Hawkins", 
     "Rick Ramirez", 
     "Riley", 
@@ -354,6 +388,7 @@ return {
     "Rose Roberts", 
     "Roy Healy", 
     "Ruben", 
+    "Rufus Hunt", 
     "Sam Wilson", 
     "Samantha Reyes", 
     "Samuel Sterns", 
@@ -392,10 +427,12 @@ return {
     "Thelma Crawford", 
     "Thembi Wallace", 
     "Theo Broussard", 
+    "Thomas Gloucester", 
     "Thomas Richards", 
     "Thor", 
     "Tone", 
     "Tony Stark", 
+    "Torrance", 
     "Trevor Slattery", 
     "Trish Walker", 
     "Turk Barrett", 
@@ -405,20 +442,24 @@ return {
     "Ulysses Klaue", 
     "Vasily Karpov", 
     "Vera (Griffith)", 
+    "Vernon Masters", 
     "Veteran Frank", 
     "Vice President Rodriguez", 
     "Victor", 
     "Vision", 
     "Volstagg", 
     "Wanda Maximoff", 
+    "Warshauer", 
     "Wendy Ross-Hogarth", 
     "White Power Dave", 
+    "Whitney Frost", 
     "Wilfredo 'Chico' Diaz", 
     "Wilfredo 'Fredo' Diaz Sr", 
     "Will Adams", 
     "Will Simpson", 
     "William Ginter Riva", 
     "Willis 'Diamondback' Stryker", 
+    "Wilma Cully", 
     "Winston the butler", 
     "Yondu Udonta", 
     "Yuliana", 
@@ -1681,6 +1722,839 @@ return {
         }
       ], 
       "name": "Agent Carter Season 1"
+    }, 
+    {
+      "category": "TV", 
+      "characters": [
+        "Abner Brody", 
+        "Agent Beringer", 
+        "Agent Blackwell", 
+        "Agent Ryan", 
+        "Agent Vega", 
+        "Agent White", 
+        "Aloysius Samberly", 
+        "Amanda Carter", 
+        "Ana Jarvis", 
+        "Bartender Leopold", 
+        "Bernard Stark", 
+        "Bud Schultz", 
+        "Calvin Chadwick", 
+        "Clifford (Maggia)", 
+        "Codebreaker Edwards", 
+        "Daniel Sousa", 
+        "Detective Andrew Henry", 
+        "Director Kenneth", 
+        "Doctor Chung", 
+        "Dottie Underwood", 
+        "Edwin Jarvis", 
+        "Fred Wells", 
+        "Hank (Maggia)", 
+        "Harrison Carter", 
+        "Howard Stark", 
+        "Hugh Jones", 
+        "Jack Thompson", 
+        "Jane Scott", 
+        "Jason Wilkes", 
+        "Jerry", 
+        "Joseph Manfredi", 
+        "Mabel", 
+        "Medical Examiner Meltzer", 
+        "Melody", 
+        "Michael Carter", 
+        "Mortimer Hayes", 
+        "Ned Silver", 
+        "Nonna Manfredi", 
+        "Nurse Violet", 
+        "Peggy Carter", 
+        "Ralph", 
+        "Richard Cully", 
+        "Rose Roberts", 
+        "Rufus Hunt", 
+        "Thomas Gloucester", 
+        "Torrance", 
+        "Vernon Masters", 
+        "Warshauer", 
+        "Whitney Frost", 
+        "Wilma Cully"
+      ], 
+      "interactions": [
+        {
+          "desc": "Peggy had Dottie retrieve a \"blood\" sample from Whitney Frost", 
+          "p1": "Dottie Underwood", 
+          "p2": "Peggy Carter"
+        }, 
+        {
+          "desc": "Thompson tried to interrogate Dottie, she beat him up", 
+          "p1": "Dottie Underwood", 
+          "p2": "Jack Thompson"
+        }, 
+        {
+          "desc": "Vernon took Dottie into FBI custody from the SSR", 
+          "p1": "Dottie Underwood", 
+          "p2": "Vernon Masters"
+        }, 
+        {
+          "desc": "Sousa recaptured Dottie to get a blood sample from Whitney Frost", 
+          "p1": "Dottie Underwood", 
+          "p2": "Daniel Sousa"
+        }, 
+        {
+          "desc": "Wilkes was present when Dottie was being prepped for a mission for team Carter", 
+          "p1": "Dottie Underwood", 
+          "p2": "Jason Wilkes"
+        }, 
+        {
+          "desc": "Dottie and Jarvis went undercover together to get a blood sample from Whitney Frost", 
+          "p1": "Dottie Underwood", 
+          "p2": "Edwin Jarvis"
+        }, 
+        {
+          "desc": "Dottie watched Calvin get absorbed by Whitney Frost", 
+          "p1": "Dottie Underwood", 
+          "p2": "Calvin Chadwick"
+        }, 
+        {
+          "desc": "Dottie took a sample of Frost's \"blood\" for Peggy", 
+          "p1": "Dottie Underwood", 
+          "p2": "Whitney Frost"
+        }, 
+        {
+          "desc": "Dottie hid in a cupboard in a meeting room Hugh was in", 
+          "p1": "Dottie Underwood", 
+          "p2": "Hugh Jones"
+        }, 
+        {
+          "desc": "Dottie hid in a cupboard in a meeting room Mortimer was in", 
+          "p1": "Dottie Underwood", 
+          "p2": "Mortimer Hayes"
+        }, 
+        {
+          "desc": "Manfredi interrupted Dottie's interrogation by Vernon Masters", 
+          "p1": "Dottie Underwood", 
+          "p2": "Joseph Manfredi"
+        }, 
+        {
+          "desc": "Jane was Calvin's mistress", 
+          "p1": "Jane Scott", 
+          "p2": "Calvin Chadwick"
+        }, 
+        {
+          "desc": "Jane and Jason both worked at Isodyne Energy", 
+          "p1": "Jane Scott", 
+          "p2": "Jason Wilkes"
+        }, 
+        {
+          "desc": "Whitney Frost was married to Calvin Chadwick", 
+          "p1": "Whitney Frost", 
+          "p2": "Calvin Chadwick"
+        }, 
+        {
+          "desc": "Wilma Cully was Whitney Frost's mother", 
+          "p1": "Whitney Frost", 
+          "p2": "Wilma Cully"
+        }, 
+        {
+          "desc": "Richard Cully was Whitney Frost's father", 
+          "p1": "Whitney Frost", 
+          "p2": "Richard Cully"
+        }, 
+        {
+          "desc": "Whitney did not like Bud", 
+          "p1": "Whitney Frost", 
+          "p2": "Bud Schultz"
+        }, 
+        {
+          "desc": "Ned offered to get Whitney into the movie business", 
+          "p1": "Whitney Frost", 
+          "p2": "Ned Silver"
+        }, 
+        {
+          "desc": "Jarvis distracted Frost at the races while Peggy questioned her husband", 
+          "p1": "Whitney Frost", 
+          "p2": "Edwin Jarvis"
+        }, 
+        {
+          "desc": "Peggy worked to stop Whitney taking over the world with Zero Matter", 
+          "p1": "Whitney Frost", 
+          "p2": "Peggy Carter"
+        }, 
+        {
+          "desc": "Frost and Wilkes both tried to steal, and were affected by, the Zero Matter", 
+          "p1": "Whitney Frost", 
+          "p2": "Jason Wilkes"
+        }, 
+        {
+          "desc": "Kenneth was directing a film that Whitney was starring in. She accidentally absorbed him", 
+          "p1": "Whitney Frost", 
+          "p2": "Director Kenneth"
+        }, 
+        {
+          "desc": "Ralph worked in lighting on a film set that Whitney was working at", 
+          "p1": "Whitney Frost", 
+          "p2": "Ralph"
+        }, 
+        {
+          "desc": "Mabel worked as a housemaid for Whitney Frost", 
+          "p1": "Whitney Frost", 
+          "p2": "Mabel"
+        }, 
+        {
+          "desc": "Whitney absorbed Hunt for trying to blackmail her and her husband", 
+          "p1": "Whitney Frost", 
+          "p2": "Rufus Hunt"
+        }, 
+        {
+          "desc": "Frost went to Manfredi to get men to help her steal a nuclear bomb", 
+          "p1": "Whitney Frost", 
+          "p2": "Joseph Manfredi"
+        }, 
+        {
+          "desc": "Clifford was killed by Manfredi for the way he looked at Whitney", 
+          "p1": "Whitney Frost", 
+          "p2": "Clifford (Maggia)"
+        }, 
+        {
+          "desc": "Vernon met Whitney at a fundraising party for her husband", 
+          "p1": "Whitney Frost", 
+          "p2": "Vernon Masters"
+        }, 
+        {
+          "desc": "Thompson was introduced to Whitney at a fundraising party for her husband", 
+          "p1": "Whitney Frost", 
+          "p2": "Jack Thompson"
+        }, 
+        {
+          "desc": "Frost absorbed Gloucester when the Council of Nine tried to kill her", 
+          "p1": "Whitney Frost", 
+          "p2": "Thomas Gloucester"
+        }, 
+        {
+          "desc": "Frost met Jones at a meeting of the Council of Nine", 
+          "p1": "Whitney Frost", 
+          "p2": "Hugh Jones"
+        }, 
+        {
+          "desc": "Frost met Hayes at a meeting of the Council of Nine", 
+          "p1": "Whitney Frost", 
+          "p2": "Mortimer Hayes"
+        }, 
+        {
+          "desc": "Frost shot Ana to buy time to escape from Peggy", 
+          "p1": "Whitney Frost", 
+          "p2": "Ana Jarvis"
+        }, 
+        {
+          "desc": "Stark hit Frost with a car to stop her killing Peggy & Co.", 
+          "p1": "Whitney Frost", 
+          "p2": "Howard Stark"
+        }, 
+        {
+          "desc": "Frost tortured Hank with Zero Matter for information", 
+          "p1": "Whitney Frost", 
+          "p2": "Hank (Maggia)"
+        }, 
+        {
+          "desc": "The sight of a zero-matter imbued Whitney caused Samberly to faint", 
+          "p1": "Whitney Frost", 
+          "p2": "Aloysius Samberly"
+        }, 
+        {
+          "desc": "Sousa arrested Frost once she was drained of Zero Matter", 
+          "p1": "Whitney Frost", 
+          "p2": "Daniel Sousa"
+        }, 
+        {
+          "desc": "Mabel worked as a housemaid for Calvin Chadwick", 
+          "p1": "Mabel", 
+          "p2": "Calvin Chadwick"
+        }, 
+        {
+          "desc": "Kenneth and Ralph both worked on the same film set", 
+          "p1": "Director Kenneth", 
+          "p2": "Ralph"
+        }, 
+        {
+          "desc": "Peggy met Jason while investigating Jane Scott's death", 
+          "p1": "Jason Wilkes", 
+          "p2": "Peggy Carter"
+        }, 
+        {
+          "desc": "Sousa consulted Wilkes when investigating the death of Medical Examiner Meltzer", 
+          "p1": "Jason Wilkes", 
+          "p2": "Daniel Sousa"
+        }, 
+        {
+          "desc": "Stark provided a visibility spray for Wilkes", 
+          "p1": "Jason Wilkes", 
+          "p2": "Howard Stark"
+        }, 
+        {
+          "desc": "Jarvis assisted Wilkes at Howard Stark's mansion during his intangibility", 
+          "p1": "Jason Wilkes", 
+          "p2": "Edwin Jarvis"
+        }, 
+        {
+          "desc": "Ana helped Jason build a device to maintain his physiscal form", 
+          "p1": "Jason Wilkes", 
+          "p2": "Ana Jarvis"
+        }, 
+        {
+          "desc": "Wilkes and Manfredi helped Frost setup the atomic bomb", 
+          "p1": "Jason Wilkes", 
+          "p2": "Joseph Manfredi"
+        }, 
+        {
+          "desc": "Samberly and Wilkes worked together on the Gamma Cannon", 
+          "p1": "Jason Wilkes", 
+          "p2": "Aloysius Samberly"
+        }, 
+        {
+          "desc": "Calvin hired Andrew to dispose of Jane Scott's body", 
+          "p1": "Calvin Chadwick", 
+          "p2": "Detective Andrew Henry"
+        }, 
+        {
+          "desc": "Peggy questioned Chadwick about Jane Scott's murder", 
+          "p1": "Calvin Chadwick", 
+          "p2": "Peggy Carter"
+        }, 
+        {
+          "desc": "Jarvis met Calvin and his wife at a horse race", 
+          "p1": "Calvin Chadwick", 
+          "p2": "Edwin Jarvis"
+        }, 
+        {
+          "desc": "Chadwick and Gloucester were both on the Council of Nine", 
+          "p1": "Calvin Chadwick", 
+          "p2": "Thomas Gloucester"
+        }, 
+        {
+          "desc": "Chadwick and Jones were both on the Council of Nine", 
+          "p1": "Calvin Chadwick", 
+          "p2": "Hugh Jones"
+        }, 
+        {
+          "desc": "Hayes and Chadwick were both on the Council of Nine", 
+          "p1": "Calvin Chadwick", 
+          "p2": "Mortimer Hayes"
+        }, 
+        {
+          "desc": "Chadwick hired Hunt to assassinate Agent Carter", 
+          "p1": "Calvin Chadwick", 
+          "p2": "Rufus Hunt"
+        }, 
+        {
+          "desc": "Chadwick met Vernon at a fundraising event", 
+          "p1": "Calvin Chadwick", 
+          "p2": "Vernon Masters"
+        }, 
+        {
+          "desc": "Chadwick was introduced to Thompson at a fundraising event", 
+          "p1": "Calvin Chadwick", 
+          "p2": "Jack Thompson"
+        }, 
+        {
+          "desc": "Chadwick went to Manfredi with Frost to get help getting an atomic bomb", 
+          "p1": "Calvin Chadwick", 
+          "p2": "Joseph Manfredi"
+        }, 
+        {
+          "desc": "Clifford was killed in front of Chadwick for how he was accused of looking at Whitney Frost", 
+          "p1": "Calvin Chadwick", 
+          "p2": "Clifford (Maggia)"
+        }, 
+        {
+          "desc": "Ana and Edwin are married", 
+          "p1": "Ana Jarvis", 
+          "p2": "Edwin Jarvis"
+        }, 
+        {
+          "desc": "Peggy stayed with the Jarvises in Los Angeles", 
+          "p1": "Ana Jarvis", 
+          "p2": "Peggy Carter"
+        }, 
+        {
+          "desc": "Ana and Sousa spoke on the phone when Jarvis and Peggy were out on a mission", 
+          "p1": "Ana Jarvis", 
+          "p2": "Daniel Sousa"
+        }, 
+        {
+          "desc": "Ana confronted Manfredi when he and Frost were kidnapping Jason Wilkes", 
+          "p1": "Ana Jarvis", 
+          "p2": "Joseph Manfredi"
+        }, 
+        {
+          "desc": "Chung performed surgery on Ana after she was shot by Whitney Frost", 
+          "p1": "Ana Jarvis", 
+          "p2": "Doctor Chung"
+        }, 
+        {
+          "desc": "Ana and Bernard both stayed at Howard Stark's mansion", 
+          "p1": "Ana Jarvis", 
+          "p2": "Bernard Stark"
+        }, 
+        {
+          "desc": "Jarvis met Chung when bringing Ana to hospital after being shot", 
+          "p1": "Doctor Chung", 
+          "p2": "Edwin Jarvis"
+        }, 
+        {
+          "desc": "Peggy met Chung when bringing Ana Jarvis to hospital after being shot", 
+          "p1": "Doctor Chung", 
+          "p2": "Peggy Carter"
+        }, 
+        {
+          "desc": "Jarvis was tasked with taking care of Howard's flamingo, Bernard", 
+          "p1": "Bernard Stark", 
+          "p2": "Edwin Jarvis"
+        }, 
+        {
+          "desc": "Peggy saw Bernard from the car when arriving at Howard's mansion", 
+          "p1": "Bernard Stark", 
+          "p2": "Peggy Carter"
+        }, 
+        {
+          "desc": "Bernard was a flamingo owned by Howard Stark", 
+          "p1": "Bernard Stark", 
+          "p2": "Howard Stark"
+        }, 
+        {
+          "desc": "Violet and Daniel were engaged", 
+          "p1": "Nurse Violet", 
+          "p2": "Daniel Sousa"
+        }, 
+        {
+          "desc": "Violet tended to Peggy's injuries after she was impaled on a metal bar", 
+          "p1": "Nurse Violet", 
+          "p2": "Peggy Carter"
+        }, 
+        {
+          "desc": "Violet met Rose when bringing cookies to Sousa", 
+          "p1": "Nurse Violet", 
+          "p2": "Rose Roberts"
+        }, 
+        {
+          "desc": "Jarvis and Violet met when he and Sousa brought Peggy to her for medical attention", 
+          "p1": "Nurse Violet", 
+          "p2": "Edwin Jarvis"
+        }, 
+        {
+          "desc": "Henry brought Jane Scott's body to Meltzer for an autopsy", 
+          "p1": "Medical Examiner Meltzer", 
+          "p2": "Detective Andrew Henry"
+        }, 
+        {
+          "desc": "Carter met Meltzer to get the results of Jane Scott's autopsy", 
+          "p1": "Medical Examiner Meltzer", 
+          "p2": "Peggy Carter"
+        }, 
+        {
+          "desc": "Sousa met Meltzer to get the results of Jane Scott's autopsy", 
+          "p1": "Medical Examiner Meltzer", 
+          "p2": "Daniel Sousa"
+        }, 
+        {
+          "desc": "Sousa met Detective Henry to discuss the body in the frozen lake", 
+          "p1": "Detective Andrew Henry", 
+          "p2": "Daniel Sousa"
+        }, 
+        {
+          "desc": "Carter was assigned to the case of the body in the frozen lake that Henry was working on", 
+          "p1": "Detective Andrew Henry", 
+          "p2": "Peggy Carter"
+        }, 
+        {
+          "desc": "Peggy and Rose both worked for the SSR in LA", 
+          "p1": "Rose Roberts", 
+          "p2": "Peggy Carter"
+        }, 
+        {
+          "desc": "Sousa was Rose's boss at the SSR's LA branch", 
+          "p1": "Rose Roberts", 
+          "p2": "Daniel Sousa"
+        }, 
+        {
+          "desc": "Rose and Jarvis both went on a mission to stop Whitney Frost getting a nuclear bomb", 
+          "p1": "Rose Roberts", 
+          "p2": "Edwin Jarvis"
+        }, 
+        {
+          "desc": "Roberts and Samberly both worked at the SSR's LA branch", 
+          "p1": "Rose Roberts", 
+          "p2": "Aloysius Samberly"
+        }, 
+        {
+          "desc": "Rose helped Stark build the Gamma cannon", 
+          "p1": "Rose Roberts", 
+          "p2": "Howard Stark"
+        }, 
+        {
+          "desc": "Sousa was Samberly's boss at the SSR's LA branch", 
+          "p1": "Aloysius Samberly", 
+          "p2": "Daniel Sousa"
+        }, 
+        {
+          "desc": "Peggy and Aloysius both worked for the SSR in LA", 
+          "p1": "Aloysius Samberly", 
+          "p2": "Peggy Carter"
+        }, 
+        {
+          "desc": "Samberly tested a memory eraser on his collegue Jerry", 
+          "p1": "Aloysius Samberly", 
+          "p2": "Jerry"
+        }, 
+        {
+          "desc": "Jarvis and Samberly both went on the mission to stop Whitney Frost getting an atomic bomb", 
+          "p1": "Aloysius Samberly", 
+          "p2": "Edwin Jarvis"
+        }, 
+        {
+          "desc": "Samberly and Stark worked together to build the Gamma Cannon", 
+          "p1": "Aloysius Samberly", 
+          "p2": "Howard Stark"
+        }, 
+        {
+          "desc": "Peggy met Jerry when getting the memory eraser from Samberly", 
+          "p1": "Jerry", 
+          "p2": "Peggy Carter"
+        }, 
+        {
+          "desc": "Sousa met Jerry when getting the memory eraser from Samberly", 
+          "p1": "Jerry", 
+          "p2": "Daniel Sousa"
+        }, 
+        {
+          "desc": "Masters got Thompson his job at the SSR as well as organising him a potential promotion in a new agency", 
+          "p1": "Vernon Masters", 
+          "p2": "Jack Thompson"
+        }, 
+        {
+          "desc": "Masters questioned Carter to try and find how she knew about the Council of Nine", 
+          "p1": "Vernon Masters", 
+          "p2": "Peggy Carter"
+        }, 
+        {
+          "desc": "Masters questioned Sousa to try and find who the informant on the Council of Nine was", 
+          "p1": "Vernon Masters", 
+          "p2": "Daniel Sousa"
+        }, 
+        {
+          "desc": "Masters knew Gloucester through the Council of Nine", 
+          "p1": "Vernon Masters", 
+          "p2": "Thomas Gloucester"
+        }, 
+        {
+          "desc": "Masters knew Hayes through the Council of Nine", 
+          "p1": "Vernon Masters", 
+          "p2": "Mortimer Hayes"
+        }, 
+        {
+          "desc": "Masters knew Jones through the Council of Nine", 
+          "p1": "Vernon Masters", 
+          "p2": "Hugh Jones"
+        }, 
+        {
+          "desc": "Manfredi interrupted Masters' interrogation of Dottie Underwood", 
+          "p1": "Vernon Masters", 
+          "p2": "Joseph Manfredi"
+        }, 
+        {
+          "desc": "Masters sent Vega to beat up Sousa for refusing to cooperate", 
+          "p1": "Vernon Masters", 
+          "p2": "Agent Vega"
+        }, 
+        {
+          "desc": "Sousa was Vega's boss at the SSR's LA branch", 
+          "p1": "Agent Vega", 
+          "p2": "Daniel Sousa"
+        }, 
+        {
+          "desc": "Carter and Vega both searched for evidence at Jason Wilkes' house", 
+          "p1": "Agent Vega", 
+          "p2": "Peggy Carter"
+        }, 
+        {
+          "desc": "Vega and Ryan both worked for the SSR's LA branch", 
+          "p1": "Agent Vega", 
+          "p2": "Agent Ryan"
+        }, 
+        {
+          "desc": "Vega and Blackwell both worked for the SSR's LA branch", 
+          "p1": "Agent Vega", 
+          "p2": "Agent Blackwell"
+        }, 
+        {
+          "desc": "Blackwell was sent to beat up Sousa for refusing to cooperate with Vernon Masters", 
+          "p1": "Agent Blackwell", 
+          "p2": "Daniel Sousa"
+        }, 
+        {
+          "desc": "Masters sent Blackwell to beat up Sousa", 
+          "p1": "Agent Blackwell", 
+          "p2": "Vernon Masters"
+        }, 
+        {
+          "desc": "Jones and Gloucester were both on the Council of Nine", 
+          "p1": "Hugh Jones", 
+          "p2": "Thomas Gloucester"
+        }, 
+        {
+          "desc": "Hayes and Jones were both on the Council of Nine", 
+          "p1": "Hugh Jones", 
+          "p2": "Mortimer Hayes"
+        }, 
+        {
+          "desc": "Peggy repeatedly memory wiped Jones when trying to get a key to reach Isodyne's bomb before Whitney Frost", 
+          "p1": "Hugh Jones", 
+          "p2": "Peggy Carter"
+        }, 
+        {
+          "desc": "Thompson met Jones at a fundraising party for Calvin Chadwick", 
+          "p1": "Hugh Jones", 
+          "p2": "Jack Thompson"
+        }, 
+        {
+          "desc": "Hunt tried to kill Peggy Carter for Frost and Chadwick", 
+          "p1": "Rufus Hunt", 
+          "p2": "Peggy Carter"
+        }, 
+        {
+          "desc": "Hunt tried to kill Jason Wilkes to keep Zero Matter secret", 
+          "p1": "Rufus Hunt", 
+          "p2": "Jason Wilkes"
+        }, 
+        {
+          "desc": "Hunt and Warshauer both worked security at the Arena Club", 
+          "p1": "Rufus Hunt", 
+          "p2": "Warshauer"
+        }, 
+        {
+          "desc": "Jarvis stopped Hunt killing Peggy", 
+          "p1": "Rufus Hunt", 
+          "p2": "Edwin Jarvis"
+        }, 
+        {
+          "desc": "Sousa interrogated Sousa after he attacked Peggy and Jarvis", 
+          "p1": "Rufus Hunt", 
+          "p2": "Daniel Sousa"
+        }, 
+        {
+          "desc": "Warshauer confronted Peggy when she was exploring the Arena Club", 
+          "p1": "Warshauer", 
+          "p2": "Peggy Carter"
+        }, 
+        {
+          "desc": "Jarvis met Warshauer at the Arena Club", 
+          "p1": "Warshauer", 
+          "p2": "Edwin Jarvis"
+        }, 
+        {
+          "desc": "Hayes and Gloucester were both on the Council of Nine", 
+          "p1": "Thomas Gloucester", 
+          "p2": "Mortimer Hayes"
+        }, 
+        {
+          "desc": "Sousa was Beringer's boss at the SSR in LA", 
+          "p1": "Agent Beringer", 
+          "p2": "Daniel Sousa"
+        }, 
+        {
+          "desc": "Beringer and White both worked for the SSR in LA", 
+          "p1": "Agent Beringer", 
+          "p2": "Agent White"
+        }, 
+        {
+          "desc": "Sousa was White's boss at the SSR in LA", 
+          "p1": "Agent White", 
+          "p2": "Daniel Sousa"
+        }, 
+        {
+          "desc": "Jarvis worked as Stark's butler", 
+          "p1": "Howard Stark", 
+          "p2": "Edwin Jarvis"
+        }, 
+        {
+          "desc": "Stark and Peggy worked together to stop Frost using zero-matter to destroy the world", 
+          "p1": "Howard Stark", 
+          "p2": "Peggy Carter"
+        }, 
+        {
+          "desc": "Stark met Torrance when he visited the Arena Club", 
+          "p1": "Howard Stark", 
+          "p2": "Torrance"
+        }, 
+        {
+          "desc": "Brody was a physicist who once taught Stark", 
+          "p1": "Howard Stark", 
+          "p2": "Abner Brody"
+        }, 
+        {
+          "desc": "Stark and Thompson worked together to stop Frost using zero-matter to destroy the world", 
+          "p1": "Howard Stark", 
+          "p2": "Jack Thompson"
+        }, 
+        {
+          "desc": "Stark and Sousa worked together to stop Frost using zero-matter to destroy the world", 
+          "p1": "Howard Stark", 
+          "p2": "Daniel Sousa"
+        }, 
+        {
+          "desc": "Stark and Manfredi were childhood friends", 
+          "p1": "Howard Stark", 
+          "p2": "Joseph Manfredi"
+        }, 
+        {
+          "desc": "Torrance gave Howard and Jarvis a tour of the Arena Club", 
+          "p1": "Torrance", 
+          "p2": "Edwin Jarvis"
+        }, 
+        {
+          "desc": "Stark ordered a martini from Leopold at the Arena Club", 
+          "p1": "Bartender Leopold", 
+          "p2": "Howard Stark"
+        }, 
+        {
+          "desc": "Jarvis was with Stark when he ordered a drink from Leopold", 
+          "p1": "Bartender Leopold", 
+          "p2": "Edwin Jarvis"
+        }, 
+        {
+          "desc": "Michael and Peggy are brother and sister", 
+          "p1": "Michael Carter", 
+          "p2": "Peggy Carter"
+        }, 
+        {
+          "desc": "Amanda was Michael's mother", 
+          "p1": "Michael Carter", 
+          "p2": "Amanda Carter"
+        }, 
+        {
+          "desc": "In many ways, Michael showed Harrison what it's like to have a son", 
+          "p1": "Michael Carter", 
+          "p2": "Harrison Carter"
+        }, 
+        {
+          "desc": "Michael went to Fred and Peggy's engagement party", 
+          "p1": "Michael Carter", 
+          "p2": "Fred Wells"
+        }, 
+        {
+          "desc": "Amanda and Harrison were married", 
+          "p1": "Amanda Carter", 
+          "p2": "Harrison Carter"
+        }, 
+        {
+          "desc": "Amanda Carter was Peggy's mother", 
+          "p1": "Amanda Carter", 
+          "p2": "Peggy Carter"
+        }, 
+        {
+          "desc": "Peggy was Harrison's daughter", 
+          "p1": "Harrison Carter", 
+          "p2": "Peggy Carter"
+        }, 
+        {
+          "desc": "Peggy and Fred were engaged until Fred's death in WW2", 
+          "p1": "Fred Wells", 
+          "p2": "Peggy Carter"
+        }, 
+        {
+          "desc": "Wilma did favours for her landlord Bud", 
+          "p1": "Wilma Cully", 
+          "p2": "Bud Schultz"
+        }, 
+        {
+          "desc": "Peggy and Edwards worked together at Bletchley Park early in WW2", 
+          "p1": "Codebreaker Edwards", 
+          "p2": "Peggy Carter"
+        }, 
+        {
+          "desc": "Peggy and Ryan worked together at the SSR in LA", 
+          "p1": "Agent Ryan", 
+          "p2": "Peggy Carter"
+        }, 
+        {
+          "desc": "Ryan worked for Sousa at the SSR in LA", 
+          "p1": "Agent Ryan", 
+          "p2": "Daniel Sousa"
+        }, 
+        {
+          "desc": "Manfredi met Jarvis when he went to Howard to get help for Whitney Frost", 
+          "p1": "Joseph Manfredi", 
+          "p2": "Edwin Jarvis"
+        }, 
+        {
+          "desc": "Manfredi met Peggy when he went to Howard to get help for Whitney Frost", 
+          "p1": "Joseph Manfredi", 
+          "p2": "Peggy Carter"
+        }, 
+        {
+          "desc": "Manfredi killed Clifford for how he looked at Whitney Frost", 
+          "p1": "Joseph Manfredi", 
+          "p2": "Clifford (Maggia)"
+        }, 
+        {
+          "desc": "Hank reported on Manfredi to the police", 
+          "p1": "Joseph Manfredi", 
+          "p2": "Hank (Maggia)"
+        }, 
+        {
+          "desc": "Nonna is Joseph's grandmother", 
+          "p1": "Joseph Manfredi", 
+          "p2": "Nonna Manfredi"
+        }, 
+        {
+          "desc": "Peggy met Nonna at the Manfredi's restaurant", 
+          "p1": "Nonna Manfredi", 
+          "p2": "Peggy Carter"
+        }, 
+        {
+          "desc": "Jarvis met Nonna at the Manfredi's restaurant", 
+          "p1": "Nonna Manfredi", 
+          "p2": "Edwin Jarvis"
+        }, 
+        {
+          "desc": "Melody told Jack he should smile more at Calvin Chadwick's fundraising party", 
+          "p1": "Melody", 
+          "p2": "Jack Thompson"
+        }, 
+        {
+          "desc": "Jarvis stopped Melody talking with Jack Thompson at Calvin Chadwick's fundraiser", 
+          "p1": "Melody", 
+          "p2": "Edwin Jarvis"
+        }, 
+        {
+          "desc": "Edwin assisted Peggy in her investigations and adventures", 
+          "p1": "Peggy Carter", 
+          "p2": "Edwin Jarvis"
+        }, 
+        {
+          "desc": "Peggy and Jack worked together for the SSR", 
+          "p1": "Peggy Carter", 
+          "p2": "Jack Thompson"
+        }, 
+        {
+          "desc": "Peggy and Daniel worked together for the SSR", 
+          "p1": "Peggy Carter", 
+          "p2": "Daniel Sousa"
+        }, 
+        {
+          "desc": "Jarvis and Thompson worked together to stop Whitney Frost", 
+          "p1": "Edwin Jarvis", 
+          "p2": "Jack Thompson"
+        }, 
+        {
+          "desc": "Sousa and Jarvis worked together to stop Whitney Frost", 
+          "p1": "Edwin Jarvis", 
+          "p2": "Daniel Sousa"
+        }, 
+        {
+          "desc": "Thompson and Sousa were both SSR cheifs", 
+          "p1": "Jack Thompson", 
+          "p2": "Daniel Sousa"
+        }
+      ], 
+      "name": "Agent Carter Season 2"
     }, 
     {
       "category": "One-shots", 
