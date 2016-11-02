@@ -15,6 +15,8 @@ window.onload = function(){
 	stanOptions.onchange = function(){loadConnections(); fillSelectors();};
 
 	document.getElementById("defaultTab").click();
+    
+    removeChildren(document.getElementById("js_warning"));
 };
 
 function loadConnections(){
