@@ -39,6 +39,87 @@ function generateAndDisplayStats(){
 	}
 }
 
+function generateAndDisplayStatsFrom(rootCharacter){
+	// list reachable characters
+	var reachableCharacters = [];
+	var allCharacters = listCharactersFromSelectedMedia();
+	var characterStats = new Map();
+
+	updateProgressLabel("Listing connected characters");
+	for (var i = 0; i < allCharacters.length; i++){
+		var character = allCharacters[i];
+		var route = calculateConnections(rootCharacter,character);
+		if (route !== null){
+			reachableCharacters.push(character);
+		}
+	}
+
+	for (var i = 0; i < reachableCharacters.length; i++){
+		updateProgressLabel("Calculating character stats: " + (i + 1) + "/" + reachableCharacters.length);
+		var person = reachableCharacters[i];
+		var stats = calculateStatsFor(person, reachableCharacters);
+		characterStats.set(person, stats);
+	}
+	
+	displayStats(characterStats);
+}
+
+function calculateStatsFor(character,reachableCharacters){
+	
+	var stats = {
+				"name":character,
+				"totalDistance":0,
+				"greatestDistance":0,
+				"averageDistance":0,
+				"furthestCharacters":[]
+			};
+
+	var found = new Set();
+	found.add(character);
+	var routes = new Set();
+	routes.add(
+	{
+		"start":character,
+		"end":character,
+		"links":[]
+	});
+	var length;
+	//for each length
+	for (length = 0; length < reachableCharacters.length; length++){
+		//for each 'leaf character'
+		var newRoutes = new Set();
+		var route;
+		for (route of routes){
+			//for each unfound character they neighbour
+			var connections = getConnections(route.end);
+			var connection;
+			for (connection of connections){
+				var neighbour = connection.person;
+				if (!found.has(neighbour)){
+					//make a new route
+					var newRoute = {
+						"start":character,
+						"end":neighbour,
+						"links":route.links.slice()
+						};
+					newRoute.links.push(connection)
+					newRoutes.add(newRoute);
+					found.add(neighbour);
+					addRouteToStats(stats,newRoute);
+				}
+			};
+		}; 
+		//put in the new longer routes
+		routes = newRoutes;
+		//early exit if nothing to expand
+		if (newRoutes.size == 0){
+			break;
+		}
+	}
+	stats.averageDistance = stats.totalDistance / (reachableCharacters.length - 1);
+	return stats;
+};
+
 function displayStats(characterStats){
 	var resultElement = document.getElementById("statsResult");
 
@@ -69,67 +150,12 @@ function displayGraphStats(characterStats){
 	addChild(resultElement, "p", "Average Distance: "+averageLength.toFixed(3));
 }
 
-//TODO rename:
-function generateAndDisplayStatsFrom(rootCharacter){
-	// list reachable characters
-	var reachableCharacters = [];
-	var allCharacters = listCharactersFromSelectedMedia();
-	var characterStats = new Map();
-	var longestRouteLength = 0;
-	var longestRoutes = [];
-	updateProgressLabel("Listing connected characters");
-	for (var i = 0; i < allCharacters.length; i++){
-		var character = allCharacters[i];
-		var route = calculateConnections(rootCharacter,character);
-		if (route !== null){
-			characterStats.set(character,{
-				"name":character,
-				"totalDistance":0,
-				"greatestDistance":0,
-				"averageDistance":0,
-				"furthestCharacters":[]
-			});
-			reachableCharacters.push(character);
-		}
-	}
-	var toCalculate = reachableCharacters.length * (reachableCharacters.length - 1) / 2;
-	var calculated = 0;
-	// for each pairing
-	for (var i = 0; i < reachableCharacters.length; i++){
-		updateProgressLabel("Calculating connections: " + calculated + "/" + toCalculate);
-		var personA = reachableCharacters[i];
-		var personAstats = characterStats.get(personA);
-		for (var j = i+1; j < reachableCharacters.length; j++){
-			var personB = reachableCharacters[j];
-			var personBstats = characterStats.get(personB);
-			//find the shortest link
-			var route = calculateConnections(personA,personB);
-			//increment their counts
-			addRouteToStats(personAstats,route);
-			addRouteToStats(personBstats,route);
-			if (route.links.length > longestRouteLength){
-				longestRouteLength = route.links.length;
-				longestRoutes = [route];
-			} else if (route.links.length == longestRouteLength){
-				longestRoutes.push(route);
-			}
-			calculated++;
-		}
-		personAstats.averageDistance = personAstats.totalDistance/(reachableCharacters.length-1);
-	}
-	
-	displayStats(characterStats);
-}
-
 function updateProgressLabel(message){
 	progressLabel.textContent = message;
 }
 
 function addRouteToStats(stats,route){
 	var otherCharacter = route.end;
-	if (stats.name == route.end){
-		otherCharacter = route.start;
-	}
 
 	stats.totalDistance += route.links.length;
 	if (route.links.length > stats.greatestDistance){
