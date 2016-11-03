@@ -45,8 +45,8 @@ function generateAndDisplayStatsFrom(rootCharacter){
 	var allCharacters = listCharactersFromSelectedMedia();
 	var characterStats = new Map();
 
-	updateProgressLabel("Listing connected characters");
 	for (var i = 0; i < allCharacters.length; i++){
+		updateProgressLabel("Listing connected characters: " + (i + 1) + "/" + allCharacters.length);
 		var character = allCharacters[i];
 		var route = calculateConnections(rootCharacter,character);
 		if (route !== null){
