@@ -32,7 +32,7 @@ function generateAndDisplayStats(){
 		}
 		statsWorker.postMessage({"root":rootCharacter, "graph":connectionGraph, "selections":selections});
 	} else {
-		progressLabel.textContent = "This might take a while..."
+		updateProgressLabel("Calculating stats. This could take a while...");
 		setTimeout(function(){
 			generateAndDisplayStatsFrom(rootCharacter);
 		},0);
@@ -40,19 +40,8 @@ function generateAndDisplayStats(){
 }
 
 function generateAndDisplayStatsFrom(rootCharacter){
-	// list reachable characters
-	var reachableCharacters = [];
-	var allCharacters = listCharactersFromSelectedMedia();
+	var reachableCharacters = findConnectedCharacters(rootCharacter);
 	var characterStats = new Map();
-
-	for (var i = 0; i < allCharacters.length; i++){
-		updateProgressLabel("Listing connected characters: " + (i + 1) + "/" + allCharacters.length);
-		var character = allCharacters[i];
-		var route = calculateConnections(rootCharacter,character);
-		if (route !== null){
-			reachableCharacters.push(character);
-		}
-	}
 
 	for (var i = 0; i < reachableCharacters.length; i++){
 		updateProgressLabel("Calculating character stats: " + (i + 1) + "/" + reachableCharacters.length);
@@ -62,6 +51,42 @@ function generateAndDisplayStatsFrom(rootCharacter){
 	}
 	
 	displayStats(characterStats);
+}
+
+function findConnectedCharacters(rootCharacter){
+	var reachableCharacters = [rootCharacter];
+	var allCharacters = listCharactersFromSelectedMedia();
+	
+	var found = new Set();
+	found.add(rootCharacter);
+	var leaves = new Set();
+	leaves.add(rootCharacter);
+	//for each length
+	updateProgressLabel("Listing connected characters");
+	for (var length = 0; length < allCharacters.length; length++){
+		//for each 'leaf character'
+		var newLeaves = new Set();
+		for (var leaf of leaves){
+			//for each unfound character they neighbour
+			var connections = getConnections(leaf);
+			for (var connection of connections){
+				var neighbour = connection.person;
+				if (!found.has(neighbour)){
+					//make a new route
+					newLeaves.add(neighbour);
+					reachableCharacters.push(neighbour);
+					found.add(neighbour);
+				}
+			};
+		}; 
+		//put in the new longer routes
+		leaves = newLeaves;
+		//early exit if nothing to expand
+		if (newLeaves.size == 0){
+			break;
+		}
+	}
+	return reachableCharacters;
 }
 
 function calculateStatsFor(character,reachableCharacters){
@@ -134,7 +159,7 @@ function displayStats(characterStats){
 		sorttable.makeSortable(table);
 		var myTH = document.getElementsByTagName("th")[1];
 		sorttable.innerSortFunction.apply(myTH, []);
-		var button = document.getElementById("findStats")
+		var button = document.getElementById("findStats");
 		button.disabled = false;
 	},0);
 }
