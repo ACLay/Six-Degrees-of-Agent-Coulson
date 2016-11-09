@@ -27,6 +27,7 @@ return {
     "Agent Yauch", 
     "Aida", 
     "Aisha Axton", 
+    "Aito", 
     "Albert Rackham", 
     "Albert Thompson", 
     "Albert the jeweler", 
@@ -42,6 +43,7 @@ return {
     "Amadeus Cho", 
     "Amanda Carter", 
     "Ana Jarvis", 
+    "Anatoly Ranskahov", 
     "Andre", 
     "Andrew Garner", 
     "Angie Martinelli", 
@@ -51,8 +53,11 @@ return {
     "Anton Vanko", 
     "Anya (Red room)", 
     "Apple Aaron", 
+    "Armand Tully", 
     "Army Officer Graham", 
     "Arnim Zola", 
+    "Arthur Vistain", 
+    "Aslan", 
     "Astronaut Austin", 
     "Astronaut Brubaker", 
     "Astronaut Taylor", 
@@ -61,21 +66,30 @@ return {
     "Ayo", 
     "Bailey", 
     "Barbara Shlottman", 
+    "Barkeeper Josie", 
     "Baron Strucker", 
     "Bartender Leopold", 
+    "Ben Urich", 
     "Benjamin Donovan", 
     "Bennie Pollock", 
     "Bereet", 
     "Bernard Stark", 
+    "Bernie Walker", 
     "Bert Hunter", 
+    "Bess Mahoney", 
+    "Betsy Beatty", 
     "Betty Ross", 
+    "Bill Fisk", 
+    "Black Sky", 
     "Blake Tower", 
     "Blind Oliver", 
     "Bob Shlottman", 
     "Bobbi Morse", 
     "Bobby", 
     "Bobby Fish", 
+    "Bookie Ed", 
     "Bor", 
+    "Boxer Price", 
     "Brett Mahoney", 
     "Brian Jones", 
     "Brock Rumlow", 
@@ -112,7 +126,9 @@ return {
     "Clifford 'Method Man' Smith", 
     "Clifford (Maggia)", 
     "Clint Barton", 
+    "Clint Peterson", 
     "Club Manager Nate", 
+    "Clyde Farnum", 
     "Codebreaker Edwards", 
     "Colleen O'Brien", 
     "Colonel Ernst Mueller", 
@@ -121,6 +137,7 @@ return {
     "Comanche", 
     "Connie Lin", 
     "Cooper Barton", 
+    "Cornelius van Lunt", 
     "Cornell 'Cottonmouth' Stokes", 
     "Cosmo the Dog", 
     "Councilman Rockwell", 
@@ -134,6 +151,8 @@ return {
     "Dallas Wyatt", 
     "Damon Boone", 
     "Dana Stryker", 
+    "Daneil Fisher", 
+    "Daniel Fisher", 
     "Daniel Sousa", 
     "Daniel Whitehall", 
     "Dante Chapman", 
@@ -148,20 +167,27 @@ return {
     "Denarian Sall", 
     "Desmond Tobey", 
     "Detective Andrew Henry", 
+    "Detective Carl Hoffman", 
+    "Detective Christian Blake", 
     "Detective Lemieux", 
     "Detective Prendergast", 
     "Detective Scarfe", 
     "Dimitri Olshenko", 
     "Diontey", 
     "Director Kenneth", 
+    "Dmitry", 
     "Doctor Chung", 
     "Doctor Fine", 
     "Doctor Johann Fennhoff", 
     "Doctor List", 
+    "Doctor Murray", 
+    "Doctor Rosenberg", 
     "Doctor Seth Honicky", 
     "Doctor Wu", 
     "Domingo Colon", 
+    "Don Rigoletto", 
     "Donald", 
+    "Doris Urich", 
     "Dorothy Walker", 
     "Dottie Underwood", 
     "Dr Erskine", 
@@ -176,10 +202,14 @@ return {
     "Eddie Axton", 
     "Eden Fesi", 
     "Edith Oberon", 
+    "Editor Haverson", 
     "Edwin Abbott", 
     "Edwin Jarvis", 
     "Eir", 
+    "Elder Gahiji", 
+    "Electrician Ed", 
     "Elena 'Yo-Yo' Rodriguez", 
+    "Elena Cardenas", 
     "Elizabeth De Luca", 
     "Ellen Brandt", 
     "Ellen King", 
@@ -203,9 +233,13 @@ return {
     "Everett K. Ross", 
     "FRIDAY", 
     "Fandral", 
+    "Father Lantom", 
     "Felix Blake", 
     "Ferdinand Lopez", 
     "Fletcher Heggs", 
+    "Foggy Nelson", 
+    "Fran", 
+    "Francis", 
     "Francisco Rodriguez", 
     "Frank", 
     "Frank Levin", 
@@ -255,6 +289,7 @@ return {
     "Helmut Zemo", 
     "Henry 'Pop' Hunter", 
     "Hernan 'Shades' Alvarez", 
+    "Hitman Rance", 
     "Hive", 
     "Ho Yinsen", 
     "Hogun", 
@@ -268,10 +303,12 @@ return {
     "Ignacio", 
     "Inspector Duval", 
     "Inspector Priscilla Ridley", 
+    "Ivan", 
     "Ivan Vanko", 
     "JARVIS", 
     "JT 'Hellfire' James", 
     "Jack Denton", 
+    "Jack Murdock", 
     "Jack Rollins", 
     "Jack Thompson", 
     "Jack the Valet", 
@@ -285,11 +322,13 @@ return {
     "James Falsworth", 
     "James Rhodes", 
     "James Rondell", 
+    "James Wesley", 
     "Jane Foster", 
     "Jane Scott", 
     "Janet Van Dyne", 
     "Jason Wilkes", 
     "Jemma Simmons", 
+    "Jennifer Fisher", 
     "Jeri Hogarth", 
     "Jerome Deschamps", 
     "Jerome Zandow", 
@@ -304,12 +343,16 @@ return {
     "Joey Gutierrez", 
     "John Donnelly", 
     "John Garrett", 
+    "John Healy", 
     "Joseph Manfredi", 
+    "Joseph Pike", 
     "Josephine", 
     "Juan Carlos Castro", 
     "Junior Juniper", 
+    "Junkie Jake", 
     "Justin Boden", 
     "Justin Hammer", 
+    "Karen Page", 
     "Karman-Kan Dey", 
     "Kathleen Sparr", 
     "Kebo", 
@@ -328,6 +371,7 @@ return {
     "Laura Barton", 
     "Laurent Bouchard", 
     "Leet Brannis", 
+    "Leland Owlsley", 
     "Len Sirkes", 
     "Leo Fitz", 
     "Leonard Samson", 
@@ -350,20 +394,25 @@ return {
     "Luther Banks", 
     "Mabel", 
     "Madame B", 
+    "Madame Gao", 
     "Maggie Lang", 
     "Major Allen", 
     "Malcolm Ducasse", 
     "Malekith", 
     "Mama Mabel", 
     "Manny", 
+    "Marcel the waiter", 
+    "Marci Stahl", 
     "Maria Hill", 
     "Maria Stark", 
     "Mariah Dillard", 
+    "Marlene Vistain", 
     "Marshal Franco", 
     "Marshal Johnson", 
     "Martina", 
     "Mary (Griffith)", 
     "Matt", 
+    "Matt Murdock", 
     "Maureen Denton", 
     "Maury Tuttlebaum", 
     "Maya Hansen", 
@@ -373,15 +422,20 @@ return {
     "Mei", 
     "Melinda May", 
     "Melody", 
+    "Melvin Potter", 
     "Meredith Quill", 
     "Michael Carter", 
     "Mike Li", 
     "Mike Tyson", 
+    "Mikhail", 
     "Miles Van Ert", 
+    "Mira Donohue", 
     "Miriam Fry", 
     "Miriam Sharpe", 
     "Misty Knight", 
     "Mitchell Carson", 
+    "Mitchell Ellison", 
+    "Mob Boss Prohaszka", 
     "Molly Bowden", 
     "Mortimer Hayes", 
     "Mr Lin", 
@@ -395,21 +449,28 @@ return {
     "Neville Barnwell", 
     "Nick Fury", 
     "Nicole", 
+    "Nobu Yoshioka", 
     "Nonna Manfredi", 
     "Nova Prime", 
     "Nurse Ellie Chung", 
+    "Nurse Norma", 
+    "Nurse Schwab", 
     "Nurse Violet", 
     "Obadiah Stane", 
     "Odin", 
     "Officer Albini", 
     "Officer Cooper", 
+    "Officer Corbin", 
     "Officer Pike", 
     "Officer Polsky", 
+    "Officer Ray Peters", 
     "Officer Stuart", 
+    "Officer Sullivan", 
     "Oscar Clemons", 
     "Otto Mink", 
     "PA Alex", 
     "Pam", 
+    "Parish Landman", 
     "Patricia Wilson", 
     "Paxton", 
     "Peachy", 
@@ -423,12 +484,15 @@ return {
     "Phillip Jones", 
     "Pietro Maximoff", 
     "Pinky Pinkerton", 
+    "Piotr", 
     "Polly Hinton", 
     "President Ellis", 
     "Priscilla Everhart", 
     "Prisoner 6219", 
+    "Prisoner Alexei", 
     "Prisoner Herman", 
     "Prisoner Nikola", 
+    "Prisoner Oleg", 
     "Prisoner Pasha", 
     "Private Brown", 
     "Private Ovechkin", 
@@ -439,6 +503,8 @@ return {
     "Red Skull", 
     "Reggie 'Squabbles'", 
     "Renata", 
+    "Reporter Henricks", 
+    "Reporter Taylor", 
     "Rev James Lucas", 
     "Reva Connors", 
     "Rhomann Dey", 
@@ -447,6 +513,7 @@ return {
     "Rick Hawkins", 
     "Rick Ramirez", 
     "Riley", 
+    "Rob Donohue", 
     "Robin Hinton", 
     "Robinson", 
     "Robyn", 
@@ -454,6 +521,7 @@ return {
     "Roger Dooley", 
     "Ronan", 
     "Rosalind Price", 
+    "Roscoe Sweeney", 
     "Rose Roberts", 
     "Rowan Hamilton", 
     "Roy Healy", 
@@ -463,22 +531,30 @@ return {
     "Sam Wilson", 
     "Samantha Reyes", 
     "Samuel Sterns", 
+    "Santino", 
     "Sarah (Griffith)", 
     "Sasha Demidov", 
     "Savin", 
     "Scott Lang", 
     "Sean Connery", 
+    "Secretary Caldwell", 
+    "Semyon", 
     "Senator Brandt", 
+    "Senator Randolph Cherryh", 
     "Senator Stern", 
     "Senator Walt Cooper", 
     "Senator Webster", 
     "Serena Grier", 
     "Sergeant MacClean", 
+    "Sergei", 
     "Shameek Smith", 
     "Shane Henson", 
     "Sharon Carter", 
     "Sheldon McFee", 
+    "Shirley Benson", 
     "Sif", 
+    "Silke", 
+    "Silvio", 
     "Sissy Garcia", 
     "Sister Boy", 
     "Soledad Temple", 
@@ -489,6 +565,11 @@ return {
     "Steve Rogers", 
     "Steve Scott", 
     "Steve Wilson", 
+    "Steven Richter", 
+    "Stewart Schmidt", 
+    "Stick", 
+    "Stone", 
+    "Susan Harris", 
     "Sway Calloway", 
     "T'Chaka", 
     "T'Challa", 
@@ -506,10 +587,13 @@ return {
     "Thomas Richards", 
     "Thomas Ward", 
     "Thor", 
+    "Thug Oscar", 
     "Tina Adams", 
+    "Tom Belkin", 
     "Tone", 
     "Tony Stark", 
     "Torrance", 
+    "Tracy Farnum", 
     "Trevor Slattery", 
     "Trish Walker", 
     "Turk Barrett", 
@@ -517,6 +601,7 @@ return {
     "Tyr", 
     "Ultron", 
     "Ulysses Klaue", 
+    "Vanessa Marianna", 
     "Vasily Karpov", 
     "Vera (Griffith)", 
     "Vernon Masters", 
@@ -525,6 +610,7 @@ return {
     "Victor", 
     "Victor Ramon", 
     "Vision", 
+    "Vladimir Ranskahov", 
     "Volstagg", 
     "Walter Thomas", 
     "Wanda Maximoff", 
@@ -546,6 +632,7 @@ return {
     "William May", 
     "Willis 'Diamondback' Stryker", 
     "Wilma Cully", 
+    "Wilson Fisk", 
     "Winston the butler", 
     "Wolfgang von Strucker", 
     "Xiao Chen", 
@@ -7492,6 +7579,1537 @@ return {
         }
       ], 
       "name": "Captain America: The Winter Soldier"
+    }, 
+    {
+      "category": "Netflix", 
+      "characters": [
+        "Aito", 
+        "Anatoly Ranskahov", 
+        "Armand Tully", 
+        "Arthur Vistain", 
+        "Aslan", 
+        "Barkeeper Josie", 
+        "Ben Urich", 
+        "Bernie Walker", 
+        "Bess Mahoney", 
+        "Betsy Beatty", 
+        "Bill Fisk", 
+        "Black Sky", 
+        "Bookie Ed", 
+        "Boxer Price", 
+        "Brett Mahoney", 
+        "Bruce Banner", 
+        "Carl Creel", 
+        "Claire Temple", 
+        "Clint Peterson", 
+        "Clyde Farnum", 
+        "Cornelius van Lunt", 
+        "Daneil Fisher", 
+        "Daniel Fisher", 
+        "Detective Carl Hoffman", 
+        "Detective Christian Blake", 
+        "Dmitry", 
+        "Doctor Murray", 
+        "Doctor Rosenberg", 
+        "Don Rigoletto", 
+        "Doris Urich", 
+        "Editor Haverson", 
+        "Elder Gahiji", 
+        "Electrician Ed", 
+        "Elena Cardenas", 
+        "Emil Blonsky", 
+        "Father Lantom", 
+        "Foggy Nelson", 
+        "Fran", 
+        "Francis", 
+        "Hitman Rance", 
+        "Ivan", 
+        "Jack Murdock", 
+        "James Wesley", 
+        "Jennifer Fisher", 
+        "John Healy", 
+        "Joseph Pike", 
+        "Junkie Jake", 
+        "Karen Page", 
+        "Leland Owlsley", 
+        "Madame Gao", 
+        "Marcel the waiter", 
+        "Marci Stahl", 
+        "Marlene Vistain", 
+        "Matt Murdock", 
+        "Melvin Potter", 
+        "Mikhail", 
+        "Mira Donohue", 
+        "Mitchell Ellison", 
+        "Mob Boss Prohaszka", 
+        "Nobu Yoshioka", 
+        "Nurse Norma", 
+        "Nurse Schwab", 
+        "Officer Corbin", 
+        "Officer Ray Peters", 
+        "Officer Sullivan", 
+        "Parish Landman", 
+        "Piotr", 
+        "Prisoner Alexei", 
+        "Prisoner Oleg", 
+        "Reporter Henricks", 
+        "Reporter Taylor", 
+        "Rob Donohue", 
+        "Roscoe Sweeney", 
+        "Santino", 
+        "Secretary Caldwell", 
+        "Semyon", 
+        "Senator Randolph Cherryh", 
+        "Sergei", 
+        "Shirley Benson", 
+        "Silke", 
+        "Silvio", 
+        "Steven Richter", 
+        "Stewart Schmidt", 
+        "Stick", 
+        "Stone", 
+        "Susan Harris", 
+        "Thug Oscar", 
+        "Tom Belkin", 
+        "Tracy Farnum", 
+        "Turk Barrett", 
+        "Vanessa Marianna", 
+        "Vladimir Ranskahov", 
+        "Wilson Fisk"
+      ], 
+      "interactions": [
+        {
+          "desc": "Lantom met Gahiji when helping churches in Rwanda", 
+          "p1": "Father Lantom", 
+          "p2": "Elder Gahiji"
+        }, 
+        {
+          "desc": "Lantom was the priest at Matt's church", 
+          "p1": "Father Lantom", 
+          "p2": "Matt Murdock"
+        }, 
+        {
+          "desc": "Karen attended Ben Urich's funeral, which was led by Father Lantom", 
+          "p1": "Father Lantom", 
+          "p2": "Karen Page"
+        }, 
+        {
+          "desc": "Lantom led the funeral for Doris' husband, Ben Urich", 
+          "p1": "Father Lantom", 
+          "p2": "Doris Urich"
+        }, 
+        {
+          "desc": "Ellison attended Ben Urich's funeral, which was led by Father Lantom", 
+          "p1": "Father Lantom", 
+          "p2": "Mitchell Ellison"
+        }, 
+        {
+          "desc": "Silvio attended Ben Urich's funeral, which was led by Father Lantom", 
+          "p1": "Father Lantom", 
+          "p2": "Silvio"
+        }, 
+        {
+          "desc": "Norma attended Ben Urich's funeral, which was led by Father Lantom", 
+          "p1": "Father Lantom", 
+          "p2": "Nurse Norma"
+        }, 
+        {
+          "desc": "Hoffman was an inside man in the NYPD for Fisk", 
+          "p1": "Detective Carl Hoffman", 
+          "p2": "Wilson Fisk"
+        }, 
+        {
+          "desc": "Blake and Hoffman were partners", 
+          "p1": "Detective Carl Hoffman", 
+          "p2": "Detective Christian Blake"
+        }, 
+        {
+          "desc": "Murdock and Nelson spoke to Hoffman to get Karen released", 
+          "p1": "Detective Carl Hoffman", 
+          "p2": "Matt Murdock"
+        }, 
+        {
+          "desc": "Nelson and Murdock spoke to Hoffman to get Karen released", 
+          "p1": "Detective Carl Hoffman", 
+          "p2": "Foggy Nelson"
+        }, 
+        {
+          "desc": "Hoffman and his parter killed Piotr for betraying Fisk", 
+          "p1": "Detective Carl Hoffman", 
+          "p2": "Piotr"
+        }, 
+        {
+          "desc": "Ben asked Hoffman for information about an officer being held hostage by Daredevil", 
+          "p1": "Detective Carl Hoffman", 
+          "p2": "Ben Urich"
+        }, 
+        {
+          "desc": "Wesley and Hoffman worked for Fisk", 
+          "p1": "Detective Carl Hoffman", 
+          "p2": "James Wesley"
+        }, 
+        {
+          "desc": "Hoffman spoke with Mahoney on his way to kill Detective Blake", 
+          "p1": "Detective Carl Hoffman", 
+          "p2": "Brett Mahoney"
+        }, 
+        {
+          "desc": "Owlsley paid Hoffman to testify against Fisk in the event of his death", 
+          "p1": "Detective Carl Hoffman", 
+          "p2": "Leland Owlsley"
+        }, 
+        {
+          "desc": "Corbin was sent to kill Hoffman for planning to testify against Fisk", 
+          "p1": "Detective Carl Hoffman", 
+          "p2": "Officer Corbin"
+        }, 
+        {
+          "desc": "Hoffman tortured Ivan to find the russian gang leaders for Fisk", 
+          "p1": "Detective Carl Hoffman", 
+          "p2": "Ivan"
+        }, 
+        {
+          "desc": "Blake was an inside man in the NYPD for Fisk", 
+          "p1": "Detective Christian Blake", 
+          "p2": "Wilson Fisk"
+        }, 
+        {
+          "desc": "Murdock and Nelson spoke to Blake to get Karen released", 
+          "p1": "Detective Christian Blake", 
+          "p2": "Matt Murdock"
+        }, 
+        {
+          "desc": "Nelson and Murdock spoke to Blake to get Karen released", 
+          "p1": "Detective Christian Blake", 
+          "p2": "Foggy Nelson"
+        }, 
+        {
+          "desc": "Blake and his parter killed Piotr for betraying Fisk", 
+          "p1": "Detective Christian Blake", 
+          "p2": "Piotr"
+        }, 
+        {
+          "desc": "Wesley sent Blake locations of Russian gang bases in need of clearing out", 
+          "p1": "Detective Christian Blake", 
+          "p2": "James Wesley"
+        }, 
+        {
+          "desc": "Blake tortured Ivan to find the russian gang leaders for Fisk", 
+          "p1": "Detective Christian Blake", 
+          "p2": "Ivan"
+        }, 
+        {
+          "desc": "Ben asked Blake for information about an officer being held hostage by Daredevil", 
+          "p1": "Detective Christian Blake", 
+          "p2": "Ben Urich"
+        }, 
+        {
+          "desc": "Brett was assigned to protection detail for Blake", 
+          "p1": "Detective Christian Blake", 
+          "p2": "Brett Mahoney"
+        }, 
+        {
+          "desc": "Jack was Matt's dad", 
+          "p1": "Jack Murdock", 
+          "p2": "Matt Murdock"
+        }, 
+        {
+          "desc": "Murdock took bribes from Sweeney to lose fights", 
+          "p1": "Jack Murdock", 
+          "p2": "Roscoe Sweeney"
+        }, 
+        {
+          "desc": "Price won a last round victory against Murdock in the boxing ring", 
+          "p1": "Jack Murdock", 
+          "p2": "Boxer Price"
+        }, 
+        {
+          "desc": "Silke offered Murdock a fight with Carl Creel", 
+          "p1": "Jack Murdock", 
+          "p2": "Silke"
+        }, 
+        {
+          "desc": "Murdock beat Creel in the boxing ring", 
+          "p1": "Jack Murdock", 
+          "p2": "Carl Creel"
+        }, 
+        {
+          "desc": "Jack had Ed place a large bet on his fight against Creel", 
+          "p1": "Jack Murdock", 
+          "p2": "Bookie Ed"
+        }, 
+        {
+          "desc": "Vladimir and Anatoly were brothers, in charge of the russian mob in New York", 
+          "p1": "Anatoly Ranskahov", 
+          "p2": "Vladimir Ranskahov"
+        }, 
+        {
+          "desc": "Alexei shared a cell with Anatoly in a siberian prison", 
+          "p1": "Anatoly Ranskahov", 
+          "p2": "Prisoner Alexei"
+        }, 
+        {
+          "desc": "Fisk removed Anatoly's head with a car door", 
+          "p1": "Anatoly Ranskahov", 
+          "p2": "Wilson Fisk"
+        }, 
+        {
+          "desc": "Anatoly and Gao ran a drug trade in New York", 
+          "p1": "Anatoly Ranskahov", 
+          "p2": "Madame Gao"
+        }, 
+        {
+          "desc": "Anatoly and Owlsley worked together in the New York drugs trade", 
+          "p1": "Anatoly Ranskahov", 
+          "p2": "Leland Owlsley"
+        }, 
+        {
+          "desc": "Anatoly and Nobu worked together in the New York drugs trade", 
+          "p1": "Anatoly Ranskahov", 
+          "p2": "Nobu Yoshioka"
+        }, 
+        {
+          "desc": "Wesley didn't like Anatoly using his employers name", 
+          "p1": "Anatoly Ranskahov", 
+          "p2": "James Wesley"
+        }, 
+        {
+          "desc": "Turk worked for Anatoly and Vladimir", 
+          "p1": "Anatoly Ranskahov", 
+          "p2": "Turk Barrett"
+        }, 
+        {
+          "desc": "Oleg was a cell mate of Anatoly in a siberian prison", 
+          "p1": "Anatoly Ranskahov", 
+          "p2": "Prisoner Oleg"
+        }, 
+        {
+          "desc": "Anatoly sent Semyon to find Daredevil", 
+          "p1": "Anatoly Ranskahov", 
+          "p2": "Semyon"
+        }, 
+        {
+          "desc": "Sergei told Anatoly the restaurant he could find Fisk at", 
+          "p1": "Anatoly Ranskahov", 
+          "p2": "Sergei"
+        }, 
+        {
+          "desc": "Dmitry worked for Anatoly", 
+          "p1": "Anatoly Ranskahov", 
+          "p2": "Dmitry"
+        }, 
+        {
+          "desc": "Anatoly interrupted Vanessa and Fisk's dinner", 
+          "p1": "Anatoly Ranskahov", 
+          "p2": "Vanessa Marianna"
+        }, 
+        {
+          "desc": "Alexei shared a cell with Vladimir in a siberian prison", 
+          "p1": "Vladimir Ranskahov", 
+          "p2": "Prisoner Alexei"
+        }, 
+        {
+          "desc": "Fisk removed Vladimir's head with a car door", 
+          "p1": "Vladimir Ranskahov", 
+          "p2": "Wilson Fisk"
+        }, 
+        {
+          "desc": "Vladimir and Gao ran a drug trade in New York", 
+          "p1": "Vladimir Ranskahov", 
+          "p2": "Madame Gao"
+        }, 
+        {
+          "desc": "Vladimir and Owlsley worked together in the New York drugs trade", 
+          "p1": "Vladimir Ranskahov", 
+          "p2": "Leland Owlsley"
+        }, 
+        {
+          "desc": "Vladimir and Nobu worked together in the New York drugs trade", 
+          "p1": "Vladimir Ranskahov", 
+          "p2": "Nobu Yoshioka"
+        }, 
+        {
+          "desc": "Wesley didn't like Vladimir using his employers name", 
+          "p1": "Vladimir Ranskahov", 
+          "p2": "James Wesley"
+        }, 
+        {
+          "desc": "Turk worked for Anatoly and Vladimir", 
+          "p1": "Vladimir Ranskahov", 
+          "p2": "Turk Barrett"
+        }, 
+        {
+          "desc": "Oleg was a cell mate of Vladimir in a siberian prison", 
+          "p1": "Vladimir Ranskahov", 
+          "p2": "Prisoner Oleg"
+        }, 
+        {
+          "desc": "Vladimir sent Semyon to find Daredevil", 
+          "p1": "Vladimir Ranskahov", 
+          "p2": "Semyon"
+        }, 
+        {
+          "desc": "Sergei worked for Vladimir", 
+          "p1": "Vladimir Ranskahov", 
+          "p2": "Sergei"
+        }, 
+        {
+          "desc": "Dmitry worked for Vladimir", 
+          "p1": "Vladimir Ranskahov", 
+          "p2": "Dmitry"
+        }, 
+        {
+          "desc": "Vladimir told the man in the mask about Leland Owlsley", 
+          "p1": "Vladimir Ranskahov", 
+          "p2": "Matt Murdock"
+        }, 
+        {
+          "desc": "Gao and Nobu worked together in Fisk's drugs trade", 
+          "p1": "Nobu Yoshioka", 
+          "p2": "Madame Gao"
+        }, 
+        {
+          "desc": "Nobu and Leland worked together in Fisk's drugs trade", 
+          "p1": "Nobu Yoshioka", 
+          "p2": "Leland Owlsley"
+        }, 
+        {
+          "desc": "Fisk had Nobu fight to the death with Daredevil", 
+          "p1": "Nobu Yoshioka", 
+          "p2": "Wilson Fisk"
+        }, 
+        {
+          "desc": "Nobu and James met as part of Fisk's drugs trade", 
+          "p1": "Nobu Yoshioka", 
+          "p2": "James Wesley"
+        }, 
+        {
+          "desc": "Nobu took delivery of a child known as a 'black sky' from Japan", 
+          "p1": "Nobu Yoshioka", 
+          "p2": "Black Sky"
+        }, 
+        {
+          "desc": "Nobu nearly broke Francis' wrist demanding a meeting with Fisk", 
+          "p1": "Nobu Yoshioka", 
+          "p2": "Francis"
+        }, 
+        {
+          "desc": "Gao and Fisk worked together in the New York drugs trade", 
+          "p1": "Madame Gao", 
+          "p2": "Wilson Fisk"
+        }, 
+        {
+          "desc": "Wesley often acted as a translator between Madame Gao and his employer", 
+          "p1": "Madame Gao", 
+          "p2": "James Wesley"
+        }, 
+        {
+          "desc": "Owlsley and Gau plotted to poison Vanessa", 
+          "p1": "Madame Gao", 
+          "p2": "Leland Owlsley"
+        }, 
+        {
+          "desc": "Gao and Daredevil met in her heroin factory as it was burning down", 
+          "p1": "Madame Gao", 
+          "p2": "Matt Murdock"
+        }, 
+        {
+          "desc": "Turk got beat up by Daredevil, a lot", 
+          "p1": "Turk Barrett", 
+          "p2": "Matt Murdock"
+        }, 
+        {
+          "desc": "Turk sold a gun to Healy", 
+          "p1": "Turk Barrett", 
+          "p2": "John Healy"
+        }, 
+        {
+          "desc": "Turk sold his boss out to Wesley", 
+          "p1": "Turk Barrett", 
+          "p2": "James Wesley"
+        }, 
+        {
+          "desc": "Turk knew Potter, and revealed his name and location to Daredevil", 
+          "p1": "Turk Barrett", 
+          "p2": "Melvin Potter"
+        }, 
+        {
+          "desc": "Turk told Sergei he had information about Anatoly's death", 
+          "p1": "Turk Barrett", 
+          "p2": "Sergei"
+        }, 
+        {
+          "desc": "Foggy and Brett are old friends", 
+          "p1": "Brett Mahoney", 
+          "p2": "Foggy Nelson"
+        }, 
+        {
+          "desc": "Bess is Brett's mother", 
+          "p1": "Brett Mahoney", 
+          "p2": "Bess Mahoney"
+        }, 
+        {
+          "desc": "Brett spoke with Matt at the police precinct", 
+          "p1": "Brett Mahoney", 
+          "p2": "Matt Murdock"
+        }, 
+        {
+          "desc": "Karen met Brett when identifying Elena Cardenas' body", 
+          "p1": "Brett Mahoney", 
+          "p2": "Karen Page"
+        }, 
+        {
+          "desc": "Mahoney watched Corbin get arrested for working with Fisk", 
+          "p1": "Brett Mahoney", 
+          "p2": "Officer Corbin"
+        }, 
+        {
+          "desc": "Mahoney arrested Fisk after he was taken down by Daredevil", 
+          "p1": "Brett Mahoney", 
+          "p2": "Wilson Fisk"
+        }, 
+        {
+          "desc": "Foggy knew Bess through her son, Brett", 
+          "p1": "Bess Mahoney", 
+          "p2": "Foggy Nelson"
+        }, 
+        {
+          "desc": "Bess reccomended Elena see Nelson and Murdock to get legal aid to keep her home", 
+          "p1": "Bess Mahoney", 
+          "p2": "Elena Cardenas"
+        }, 
+        {
+          "desc": "Farnum was visited and blackmailed by Wesley into killing Karen Page", 
+          "p1": "Clyde Farnum", 
+          "p2": "James Wesley"
+        }, 
+        {
+          "desc": "Tracy was Clyde's daughter", 
+          "p1": "Clyde Farnum", 
+          "p2": "Tracy Farnum"
+        }, 
+        {
+          "desc": "Clyde borrowed thousands of dollars from Rigoletto", 
+          "p1": "Clyde Farnum", 
+          "p2": "Don Rigoletto"
+        }, 
+        {
+          "desc": "Clyde attempted to kill Karen Page for Fisk", 
+          "p1": "Clyde Farnum", 
+          "p2": "Karen Page"
+        }, 
+        {
+          "desc": "Rance followed Tracy so that her father could be blackmailed by James Wesley", 
+          "p1": "Tracy Farnum", 
+          "p2": "Hitman Rance"
+        }, 
+        {
+          "desc": "Wesley was employed by Wesley", 
+          "p1": "Hitman Rance", 
+          "p2": "James Wesley"
+        }, 
+        {
+          "desc": "Rance was ordered to retrieve the Union Allied pension data from, and then kill, Karen Page", 
+          "p1": "Hitman Rance", 
+          "p2": "Karen Page"
+        }, 
+        {
+          "desc": "Matt fought Rance to stop him killing Karen in her appartment", 
+          "p1": "Hitman Rance", 
+          "p2": "Matt Murdock"
+        }, 
+        {
+          "desc": "Susan sold Matt and Foggy their offices", 
+          "p1": "Susan Harris", 
+          "p2": "Matt Murdock"
+        }, 
+        {
+          "desc": "Susan sold Matt and Foggy their offices", 
+          "p1": "Susan Harris", 
+          "p2": "Foggy Nelson"
+        }, 
+        {
+          "desc": "Karen tried to tell Fisher about the irregularities in Union Allied's pension accounts", 
+          "p1": "Daneil Fisher", 
+          "p2": "Karen Page"
+        }, 
+        {
+          "desc": "Daniel and Jennifer were married", 
+          "p1": "Daniel Fisher", 
+          "p2": "Jennifer Fisher"
+        }, 
+        {
+          "desc": "Karen spoke to Jennifer about Daniel Fisher's death", 
+          "p1": "Jennifer Fisher", 
+          "p2": "Karen Page"
+        }, 
+        {
+          "desc": "Silke worked with Roscoe organising boxing matches", 
+          "p1": "Silke", 
+          "p2": "Roscoe Sweeney"
+        }, 
+        {
+          "desc": "Silke arranged for Carl Creel to fight Jack Murdock", 
+          "p1": "Silke", 
+          "p2": "Carl Creel"
+        }, 
+        {
+          "desc": "Matt dropped a fire extinguisher on Semyon's head", 
+          "p1": "Semyon", 
+          "p2": "Matt Murdock"
+        }, 
+        {
+          "desc": "Semyon posed as a police officer and asked Claire about Daredevil", 
+          "p1": "Semyon", 
+          "p2": "Claire Temple"
+        }, 
+        {
+          "desc": "Santino helped Daredevil carry Semyon to the roof of the building to be interrogated", 
+          "p1": "Semyon", 
+          "p2": "Santino"
+        }, 
+        {
+          "desc": "Santino found Matt bleeding out in a dumpster", 
+          "p1": "Santino", 
+          "p2": "Matt Murdock"
+        }, 
+        {
+          "desc": "Claire and Santino were neighbours", 
+          "p1": "Santino", 
+          "p2": "Claire Temple"
+        }, 
+        {
+          "desc": "Sergei tortured Santino for Claire's location", 
+          "p1": "Santino", 
+          "p2": "Sergei"
+        }, 
+        {
+          "desc": "Dmitry tortured Santino for Claire's location", 
+          "p1": "Santino", 
+          "p2": "Dmitry"
+        }, 
+        {
+          "desc": "Roscoe organised a boxing match between Carl Creel and Jack Murdock", 
+          "p1": "Roscoe Sweeney", 
+          "p2": "Carl Creel"
+        }, 
+        {
+          "desc": "Marci was a customer at Josie's bar", 
+          "p1": "Barkeeper Josie", 
+          "p2": "Marci Stahl"
+        }, 
+        {
+          "desc": "Tom was a customer at Josie's bar", 
+          "p1": "Barkeeper Josie", 
+          "p2": "Tom Belkin"
+        }, 
+        {
+          "desc": "Rob was a customer at Josie's bar", 
+          "p1": "Barkeeper Josie", 
+          "p2": "Rob Donohue"
+        }, 
+        {
+          "desc": "Clint was a customer at Josie's bar", 
+          "p1": "Barkeeper Josie", 
+          "p2": "Clint Peterson"
+        }, 
+        {
+          "desc": "Foggy is a regular at Josie's bar", 
+          "p1": "Barkeeper Josie", 
+          "p2": "Foggy Nelson"
+        }, 
+        {
+          "desc": "Matt is a regular at Josie's bar", 
+          "p1": "Barkeeper Josie", 
+          "p2": "Matt Murdock"
+        }, 
+        {
+          "desc": "Karen became a regular at Josie's bar", 
+          "p1": "Barkeeper Josie", 
+          "p2": "Karen Page"
+        }, 
+        {
+          "desc": "Tom and Rob were both regulars at Josie's bar", 
+          "p1": "Tom Belkin", 
+          "p2": "Rob Donohue"
+        }, 
+        {
+          "desc": "Clint and Tom were both regulars at Josie's bar", 
+          "p1": "Tom Belkin", 
+          "p2": "Clint Peterson"
+        }, 
+        {
+          "desc": "Foggy and Tom are regulars at Josie's bar", 
+          "p1": "Tom Belkin", 
+          "p2": "Foggy Nelson"
+        }, 
+        {
+          "desc": "Matt and Tom are regulars at Josie's bar", 
+          "p1": "Tom Belkin", 
+          "p2": "Matt Murdock"
+        }, 
+        {
+          "desc": "Karen and Tom were regulars at Josie's bar", 
+          "p1": "Tom Belkin", 
+          "p2": "Karen Page"
+        }, 
+        {
+          "desc": "Clint and Tom were both regulars at Josie's bar", 
+          "p1": "Rob Donohue", 
+          "p2": "Clint Peterson"
+        }, 
+        {
+          "desc": "Foggy and Tom are regulars at Josie's bar", 
+          "p1": "Rob Donohue", 
+          "p2": "Foggy Nelson"
+        }, 
+        {
+          "desc": "Matt and Tom are regulars at Josie's bar", 
+          "p1": "Rob Donohue", 
+          "p2": "Matt Murdock"
+        }, 
+        {
+          "desc": "Karen and Tom were regulars at Josie's bar", 
+          "p1": "Rob Donohue", 
+          "p2": "Karen Page"
+        }, 
+        {
+          "desc": "Mira and Rob are married", 
+          "p1": "Rob Donohue", 
+          "p2": "Mira Donohue"
+        }, 
+        {
+          "desc": "Foggy and Clint are regulars at Josie's bar", 
+          "p1": "Clint Peterson", 
+          "p2": "Foggy Nelson"
+        }, 
+        {
+          "desc": "Matt and Clint are regulars at Josie's bar", 
+          "p1": "Clint Peterson", 
+          "p2": "Matt Murdock"
+        }, 
+        {
+          "desc": "Karen and Clint were regulars at Josie's bar", 
+          "p1": "Clint Peterson", 
+          "p2": "Karen Page"
+        }, 
+        {
+          "desc": "Matt met Peters at the scene of Jack Murdock's murder", 
+          "p1": "Officer Ray Peters", 
+          "p2": "Matt Murdock"
+        }, 
+        {
+          "desc": "Matt and Fran are neighbours", 
+          "p1": "Fran", 
+          "p2": "Matt Murdock"
+        }, 
+        {
+          "desc": "Foggy woke Fran when yelling outside Matt's appartment", 
+          "p1": "Fran", 
+          "p2": "Foggy Nelson"
+        }, 
+        {
+          "desc": "Karen woke Fran while yelling outside Matt'a appartment", 
+          "p1": "Fran", 
+          "p2": "Karen Page"
+        }, 
+        {
+          "desc": "Foggy planned to cash in a favor from Ed to help fix Elena's appartment", 
+          "p1": "Electrician Ed", 
+          "p2": "Foggy Nelson"
+        }, 
+        {
+          "desc": "Ben and Doris were married", 
+          "p1": "Doris Urich", 
+          "p2": "Ben Urich"
+        }, 
+        {
+          "desc": "Shirley was an administrator at the hospital Doris was being cared at", 
+          "p1": "Doris Urich", 
+          "p2": "Shirley Benson"
+        }, 
+        {
+          "desc": "Karen and Doris both attended Ben Urich's funeral", 
+          "p1": "Doris Urich", 
+          "p2": "Karen Page"
+        }, 
+        {
+          "desc": "Doris and Matt both attended Ben Urich's funeral", 
+          "p1": "Doris Urich", 
+          "p2": "Matt Murdock"
+        }, 
+        {
+          "desc": "Silvio and Doris both attended Ben Urich's funeral", 
+          "p1": "Doris Urich", 
+          "p2": "Silvio"
+        }, 
+        {
+          "desc": "Doris and Mitchell both attended Ben Urich's funeral", 
+          "p1": "Doris Urich", 
+          "p2": "Mitchell Ellison"
+        }, 
+        {
+          "desc": "Norma cared for Doris when she was in hospital", 
+          "p1": "Doris Urich", 
+          "p2": "Nurse Norma"
+        }, 
+        {
+          "desc": "Silvio fed information to Ben about New York crime rings", 
+          "p1": "Silvio", 
+          "p2": "Ben Urich"
+        }, 
+        {
+          "desc": "Silvio and Ellison both attended Ben Urich's funeral", 
+          "p1": "Silvio", 
+          "p2": "Mitchell Ellison"
+        }, 
+        {
+          "desc": "Karen and Silvio both attended Ben Urich's funeral", 
+          "p1": "Silvio", 
+          "p2": "Karen Page"
+        }, 
+        {
+          "desc": "Matt and Silvio both attended Ben Urich's funeral", 
+          "p1": "Silvio", 
+          "p2": "Matt Murdock"
+        }, 
+        {
+          "desc": "Norma and Silvio both attended Ben Urich's funeral", 
+          "p1": "Silvio", 
+          "p2": "Nurse Norma"
+        }, 
+        {
+          "desc": "Richter worked for Ellison as a photographer for the New York Bulletin", 
+          "p1": "Steven Richter", 
+          "p2": "Mitchell Ellison"
+        }, 
+        {
+          "desc": "Richter photographed the Hulk's fight in Harlem for the New York Bulletin", 
+          "p1": "Steven Richter", 
+          "p2": "Bruce Banner"
+        }, 
+        {
+          "desc": "Richter photographed Abomination's fight in Harlem for the New York Bulletin", 
+          "p1": "Steven Richter", 
+          "p2": "Emil Blonsky"
+        }, 
+        {
+          "desc": "Henricks works for Ellison at the New York Bulletin", 
+          "p1": "Mitchell Ellison", 
+          "p2": "Reporter Henricks"
+        }, 
+        {
+          "desc": "Caldwell worked for Ellison at the New York Bulletin", 
+          "p1": "Mitchell Ellison", 
+          "p2": "Secretary Caldwell"
+        }, 
+        {
+          "desc": "Taylor works for Ellison at the New York Bulletin", 
+          "p1": "Mitchell Ellison", 
+          "p2": "Reporter Taylor"
+        }, 
+        {
+          "desc": "Haverson and Ellison worked together at the New York Bulletin", 
+          "p1": "Mitchell Ellison", 
+          "p2": "Editor Haverson"
+        }, 
+        {
+          "desc": "Ellison and Urich were long time collegues at the New York Bulletin", 
+          "p1": "Mitchell Ellison", 
+          "p2": "Ben Urich"
+        }, 
+        {
+          "desc": "Karen and Ellison both attended Ben Urich's funeral", 
+          "p1": "Mitchell Ellison", 
+          "p2": "Karen Page"
+        }, 
+        {
+          "desc": "Mitchell and Matt both attended Ben Urich's funeral", 
+          "p1": "Mitchell Ellison", 
+          "p2": "Matt Murdock"
+        }, 
+        {
+          "desc": "Norma and Mitchell both attended Ben Urich's funeral", 
+          "p1": "Mitchell Ellison", 
+          "p2": "Nurse Norma"
+        }, 
+        {
+          "desc": "Caldwell and Henricks both worked at the New York Bulletin", 
+          "p1": "Reporter Henricks", 
+          "p2": "Secretary Caldwell"
+        }, 
+        {
+          "desc": "Taylor and Henricks both worked at the New York Bulletin", 
+          "p1": "Reporter Henricks", 
+          "p2": "Reporter Taylor"
+        }, 
+        {
+          "desc": "Haverson and Henricks both worked at the New York Bulletin", 
+          "p1": "Reporter Henricks", 
+          "p2": "Editor Haverson"
+        }, 
+        {
+          "desc": "Henricks and Urich both worked at the New York Bulletin", 
+          "p1": "Reporter Henricks", 
+          "p2": "Ben Urich"
+        }, 
+        {
+          "desc": "Taylor and Caldwell both worked at the New York Bulletin", 
+          "p1": "Secretary Caldwell", 
+          "p2": "Reporter Taylor"
+        }, 
+        {
+          "desc": "Haverson and Caldwell both worked at the New York Bulletin", 
+          "p1": "Secretary Caldwell", 
+          "p2": "Editor Haverson"
+        }, 
+        {
+          "desc": "Caldwell and Urich both worked at the New York Bulletin", 
+          "p1": "Secretary Caldwell", 
+          "p2": "Ben Urich"
+        }, 
+        {
+          "desc": "Caldwell was a mole for Fisk inside the New York Bulletin", 
+          "p1": "Secretary Caldwell", 
+          "p2": "Wilson Fisk"
+        }, 
+        {
+          "desc": "Haverson and Taylor both worked at the New York Bulletin", 
+          "p1": "Reporter Taylor", 
+          "p2": "Editor Haverson"
+        }, 
+        {
+          "desc": "Taylor and Urich both worked at the New York Bulletin", 
+          "p1": "Reporter Taylor", 
+          "p2": "Ben Urich"
+        }, 
+        {
+          "desc": "Haverson and Urich both worked at the New York Bulletin", 
+          "p1": "Editor Haverson", 
+          "p2": "Ben Urich"
+        }, 
+        {
+          "desc": "Healy was an assassin that Fisk hired", 
+          "p1": "John Healy", 
+          "p2": "Wilson Fisk"
+        }, 
+        {
+          "desc": "Healy killed Prohaszka with a bowling ball", 
+          "p1": "John Healy", 
+          "p2": "Mob Boss Prohaszka"
+        }, 
+        {
+          "desc": "Nelson and Murdock represented Healy in court", 
+          "p1": "John Healy", 
+          "p2": "Foggy Nelson"
+        }, 
+        {
+          "desc": "Healy killed himself after giving up Fisk's name to Daredevil", 
+          "p1": "John Healy", 
+          "p2": "Matt Murdock"
+        }, 
+        {
+          "desc": "Oscar was attacked by Daredevil to find the leverage Fisk had on a juror", 
+          "p1": "Thug Oscar", 
+          "p2": "Matt Murdock"
+        }, 
+        {
+          "desc": "Benson and Urich met at hospital when he was visiting his wife", 
+          "p1": "Shirley Benson", 
+          "p2": "Ben Urich"
+        }, 
+        {
+          "desc": "Benson was in charge of the ward Claire worked at", 
+          "p1": "Shirley Benson", 
+          "p2": "Claire Temple"
+        }, 
+        {
+          "desc": "Shirley spoke with the nurse treating Elena after the Hells Kitchen bombings", 
+          "p1": "Shirley Benson", 
+          "p2": "Elena Cardenas"
+        }, 
+        {
+          "desc": "Norma worked for Shirley", 
+          "p1": "Shirley Benson", 
+          "p2": "Nurse Norma"
+        }, 
+        {
+          "desc": "Matt and Norma both attended Ben Urich's funeral", 
+          "p1": "Nurse Norma", 
+          "p2": "Matt Murdock"
+        }, 
+        {
+          "desc": "Karen and Norma both attended Ben Urich's funeral", 
+          "p1": "Nurse Norma", 
+          "p2": "Karen Page"
+        }, 
+        {
+          "desc": "Sergei tortured Claire to find information about the man in the mask", 
+          "p1": "Sergei", 
+          "p2": "Claire Temple"
+        }, 
+        {
+          "desc": "Sergei was attacked by Daredevil for kidnapping Claire", 
+          "p1": "Sergei", 
+          "p2": "Matt Murdock"
+        }, 
+        {
+          "desc": "Sergei met Wesley when he offered a deal to the Ranskahov's", 
+          "p1": "Sergei", 
+          "p2": "James Wesley"
+        }, 
+        {
+          "desc": "Corbin shot Sergei in the head", 
+          "p1": "Sergei", 
+          "p2": "Officer Corbin"
+        }, 
+        {
+          "desc": "Dmitry kidnapped Claire to find information about the man in the mask", 
+          "p1": "Dmitry", 
+          "p2": "Claire Temple"
+        }, 
+        {
+          "desc": "Dmitry was attacked by Daredevil for kidnapping Claire", 
+          "p1": "Dmitry", 
+          "p2": "Matt Murdock"
+        }, 
+        {
+          "desc": "Dmitry met Wesley when he was visiting the Ranskahov's", 
+          "p1": "Dmitry", 
+          "p2": "James Wesley"
+        }, 
+        {
+          "desc": "Oleg and Alexei were cellmates in a siberian prison", 
+          "p1": "Prisoner Alexei", 
+          "p2": "Prisoner Oleg"
+        }, 
+        {
+          "desc": "Mikhail worked for Vladimir and Anatoly", 
+          "p1": "Mikhail", 
+          "p2": "Vladimir Ranskahov"
+        }, 
+        {
+          "desc": "Mikhail worked for Vladimir and Anatoly", 
+          "p1": "Mikhail", 
+          "p2": "Anatoly Ranskahov"
+        }, 
+        {
+          "desc": "Karen helped Elena fight to keep her home", 
+          "p1": "Elena Cardenas", 
+          "p2": "Karen Page"
+        }, 
+        {
+          "desc": "Elena turned to Nelson and Mudock to try and keep her home", 
+          "p1": "Elena Cardenas", 
+          "p2": "Matt Murdock"
+        }, 
+        {
+          "desc": "Elena turned to Nelson and Mudock to try and keep her home", 
+          "p1": "Elena Cardenas", 
+          "p2": "Foggy Nelson"
+        }, 
+        {
+          "desc": "Tully was Elena's landlord", 
+          "p1": "Elena Cardenas", 
+          "p2": "Armand Tully"
+        }, 
+        {
+          "desc": "Joseph smashed up Elena's apartment with a sledgehammer", 
+          "p1": "Elena Cardenas", 
+          "p2": "Joseph Pike"
+        }, 
+        {
+          "desc": "Stewart smashed up Elena's apartment with a sledgehammer", 
+          "p1": "Elena Cardenas", 
+          "p2": "Stewart Schmidt"
+        }, 
+        {
+          "desc": "Elena was treated by Claire after the bombings in Hells Kitchen", 
+          "p1": "Elena Cardenas", 
+          "p2": "Claire Temple"
+        }, 
+        {
+          "desc": "Jake killed Elena", 
+          "p1": "Elena Cardenas", 
+          "p2": "Junkie Jake"
+        }, 
+        {
+          "desc": "Tully sent Pike to smash Elena's apartment to try and make her leave", 
+          "p1": "Armand Tully", 
+          "p2": "Joseph Pike"
+        }, 
+        {
+          "desc": "Tully sent Schmidt to smash Elena's apartment to try and make her leave", 
+          "p1": "Armand Tully", 
+          "p2": "Stewart Schmidt"
+        }, 
+        {
+          "desc": "Tully sold his buildings to Fisk", 
+          "p1": "Armand Tully", 
+          "p2": "Wilson Fisk"
+        }, 
+        {
+          "desc": "Pike and Schmidt smashed Elena Cardenas' appartment together", 
+          "p1": "Joseph Pike", 
+          "p2": "Stewart Schmidt"
+        }, 
+        {
+          "desc": "Joseph followed Karen and attacked her in an alley", 
+          "p1": "Joseph Pike", 
+          "p2": "Karen Page"
+        }, 
+        {
+          "desc": "Foggy hit Pike with a baseball bat for attacking Karen Page", 
+          "p1": "Joseph Pike", 
+          "p2": "Foggy Nelson"
+        }, 
+        {
+          "desc": "Karen took out Stewart when he pulled her into an alley", 
+          "p1": "Stewart Schmidt", 
+          "p2": "Karen Page"
+        }, 
+        {
+          "desc": "Foggy joined Karen in retaliating against Stewart", 
+          "p1": "Stewart Schmidt", 
+          "p2": "Foggy Nelson"
+        }, 
+        {
+          "desc": "Marci and Foggy used to date", 
+          "p1": "Marci Stahl", 
+          "p2": "Foggy Nelson"
+        }, 
+        {
+          "desc": "Marci met Karen when arguing the Tully-Cardenas case with Foggy", 
+          "p1": "Marci Stahl", 
+          "p2": "Karen Page"
+        }, 
+        {
+          "desc": "Landman was Stahl's boss", 
+          "p1": "Marci Stahl", 
+          "p2": "Parish Landman"
+        }, 
+        {
+          "desc": "Marcel waited at the restaurant Fisk booked out for a date with Vanessa", 
+          "p1": "Marcel the waiter", 
+          "p2": "Wilson Fisk"
+        }, 
+        {
+          "desc": "Marcel waited at the restaurant Fisk booked out for a date with Vanessa", 
+          "p1": "Marcel the waiter", 
+          "p2": "Vanessa Marianna"
+        }, 
+        {
+          "desc": "Piotr worked for Anatoly", 
+          "p1": "Piotr", 
+          "p2": "Anatoly Ranskahov"
+        }, 
+        {
+          "desc": "Daredevil questioned Piotr for Vladimir's location", 
+          "p1": "Piotr", 
+          "p2": "Matt Murdock"
+        }, 
+        {
+          "desc": "Aslan worked for Anatoly", 
+          "p1": "Aslan", 
+          "p2": "Anatoly Ranskahov"
+        }, 
+        {
+          "desc": "Aslan worked for Vladimir", 
+          "p1": "Aslan", 
+          "p2": "Vladimir Ranskahov"
+        }, 
+        {
+          "desc": "Corbin was an officer taking bribes from Fisk", 
+          "p1": "Officer Corbin", 
+          "p2": "Wilson Fisk"
+        }, 
+        {
+          "desc": "Daredevil took out Corbin and team when they tried to kill Detective Hoffman", 
+          "p1": "Officer Corbin", 
+          "p2": "Matt Murdock"
+        }, 
+        {
+          "desc": "Corbin tried to kill Vladimir after the bombings of Hells Kitchen", 
+          "p1": "Officer Corbin", 
+          "p2": "Vladimir Ranskahov"
+        }, 
+        {
+          "desc": "Ivan worked for Anatoly", 
+          "p1": "Ivan", 
+          "p2": "Anatoly Ranskahov"
+        }, 
+        {
+          "desc": "Ivan worked for Vladimir", 
+          "p1": "Ivan", 
+          "p2": "Vladimir Ranskahov"
+        }, 
+        {
+          "desc": "Sullivan was held in the hostage situation with Vladimir and Daredevil", 
+          "p1": "Officer Sullivan", 
+          "p2": "Vladimir Ranskahov"
+        }, 
+        {
+          "desc": "Sullivan was held in the hostage situation with Vladimir and Daredevil", 
+          "p1": "Officer Sullivan", 
+          "p2": "Matt Murdock"
+        }, 
+        {
+          "desc": "Stick trained Matt to fight", 
+          "p1": "Stick", 
+          "p2": "Matt Murdock"
+        }, 
+        {
+          "desc": "Stick removed Aito's hand in Japan", 
+          "p1": "Stick", 
+          "p2": "Aito"
+        }, 
+        {
+          "desc": "Stick interrupted Matt's questioning of Leland", 
+          "p1": "Stick", 
+          "p2": "Leland Owlsley"
+        }, 
+        {
+          "desc": "Stick killed the Black Sky", 
+          "p1": "Stick", 
+          "p2": "Black Sky"
+        }, 
+        {
+          "desc": "Stick attacked Nobu and his men when they were transporting a", 
+          "p1": "Stick", 
+          "p2": "Nobu Yoshioka"
+        }, 
+        {
+          "desc": "Stick and Stone discussed Matt Murdock", 
+          "p1": "Stick", 
+          "p2": "Stone"
+        }, 
+        {
+          "desc": "Aito worked for Nobu", 
+          "p1": "Aito", 
+          "p2": "Nobu Yoshioka"
+        }, 
+        {
+          "desc": "Matt briefly stopped Stick killing the Black Sky", 
+          "p1": "Black Sky", 
+          "p2": "Matt Murdock"
+        }, 
+        {
+          "desc": "Bill was Wilson's father", 
+          "p1": "Bill Fisk", 
+          "p2": "Wilson Fisk"
+        }, 
+        {
+          "desc": "Marlene and Bill were married", 
+          "p1": "Bill Fisk", 
+          "p2": "Marlene Vistain"
+        }, 
+        {
+          "desc": "Bill borrowed money from Rigoletto to run for city council", 
+          "p1": "Bill Fisk", 
+          "p2": "Don Rigoletto"
+        }, 
+        {
+          "desc": "Bill attacked Bernie for taking down his campaign signs", 
+          "p1": "Bill Fisk", 
+          "p2": "Bernie Walker"
+        }, 
+        {
+          "desc": "Marlene is Wilson Fisk's mother", 
+          "p1": "Marlene Vistain", 
+          "p2": "Wilson Fisk"
+        }, 
+        {
+          "desc": "Arthur was Marlene's third husband", 
+          "p1": "Marlene Vistain", 
+          "p2": "Arthur Vistain"
+        }, 
+        {
+          "desc": "Karen visited Marlene at her nursing home", 
+          "p1": "Marlene Vistain", 
+          "p2": "Karen Page"
+        }, 
+        {
+          "desc": "Marlene was visited at her nursing home by Ben", 
+          "p1": "Marlene Vistain", 
+          "p2": "Ben Urich"
+        }, 
+        {
+          "desc": "Marlene spoke with James when Fisk was tending to Vanessa in hospital", 
+          "p1": "Marlene Vistain", 
+          "p2": "James Wesley"
+        }, 
+        {
+          "desc": "Arthur was married to Wilson's mother", 
+          "p1": "Arthur Vistain", 
+          "p2": "Wilson Fisk"
+        }, 
+        {
+          "desc": "Fisk's father made him repeatedly kick Bernie", 
+          "p1": "Bernie Walker", 
+          "p2": "Wilson Fisk"
+        }, 
+        {
+          "desc": "Melvin made kevlar lined suits for Fisk", 
+          "p1": "Melvin Potter", 
+          "p2": "Wilson Fisk"
+        }, 
+        {
+          "desc": "Melvin made Matt his Daredevil armour", 
+          "p1": "Melvin Potter", 
+          "p2": "Matt Murdock"
+        }, 
+        {
+          "desc": "Melvin made an armoured suit for Leland", 
+          "p1": "Melvin Potter", 
+          "p2": "Leland Owlsley"
+        }, 
+        {
+          "desc": "Melvin wanted Betsy to be safe", 
+          "p1": "Melvin Potter", 
+          "p2": "Betsy Beatty"
+        }, 
+        {
+          "desc": "Francis was a bodyguard for Fisk", 
+          "p1": "Francis", 
+          "p2": "Wilson Fisk"
+        }, 
+        {
+          "desc": "Wesley and Francis both worked for Fisk", 
+          "p1": "Francis", 
+          "p2": "James Wesley"
+        }, 
+        {
+          "desc": "Francis was assigned to protect Vanessa", 
+          "p1": "Francis", 
+          "p2": "Vanessa Marianna"
+        }, 
+        {
+          "desc": "Francis kept Leland up to date on Vanessa's condition", 
+          "p1": "Francis", 
+          "p2": "Leland Owlsley"
+        }, 
+        {
+          "desc": "Jake was confronted by Daredevil for killing Elena Cardenas", 
+          "p1": "Junkie Jake", 
+          "p2": "Matt Murdock"
+        }, 
+        {
+          "desc": "Randolph attributed his election to advice from van Lunt", 
+          "p1": "Cornelius van Lunt", 
+          "p2": "Senator Randolph Cherryh"
+        }, 
+        {
+          "desc": "van Lunt organised Wilson Fisk's fundraiser", 
+          "p1": "Cornelius van Lunt", 
+          "p2": "Wilson Fisk"
+        }, 
+        {
+          "desc": "Fisk and Randolph met at Fisk's fundraiser", 
+          "p1": "Senator Randolph Cherryh", 
+          "p2": "Wilson Fisk"
+        }, 
+        {
+          "desc": "Matt interned at Landman's law firm", 
+          "p1": "Parish Landman", 
+          "p2": "Matt Murdock"
+        }, 
+        {
+          "desc": "Foggy interned at Landman's law firm", 
+          "p1": "Parish Landman", 
+          "p2": "Foggy Nelson"
+        }, 
+        {
+          "desc": "Fisk was a client of Landman", 
+          "p1": "Parish Landman", 
+          "p2": "Wilson Fisk"
+        }, 
+        {
+          "desc": "Fisk met Murray when bringing Vanessa to hospital", 
+          "p1": "Doctor Murray", 
+          "p2": "Wilson Fisk"
+        }, 
+        {
+          "desc": "Murray treated Vanessa after her poisoning", 
+          "p1": "Doctor Murray", 
+          "p2": "Vanessa Marianna"
+        }, 
+        {
+          "desc": "Murray met Wesley when Vanessa was taken to hospital", 
+          "p1": "Doctor Murray", 
+          "p2": "James Wesley"
+        }, 
+        {
+          "desc": "Owlsley met Murray when Vanessa was taken to hospital", 
+          "p1": "Doctor Murray", 
+          "p2": "Leland Owlsley"
+        }, 
+        {
+          "desc": "Murray and Schwab were collegues", 
+          "p1": "Doctor Murray", 
+          "p2": "Nurse Schwab"
+        }, 
+        {
+          "desc": "Rosenberg and Murray were collegues", 
+          "p1": "Doctor Murray", 
+          "p2": "Doctor Rosenberg"
+        }, 
+        {
+          "desc": "Schwab met Fisk when he brought Vanessa to hospital", 
+          "p1": "Nurse Schwab", 
+          "p2": "Wilson Fisk"
+        }, 
+        {
+          "desc": "Schwab treated Vanessa when she had been poisoned", 
+          "p1": "Nurse Schwab", 
+          "p2": "Vanessa Marianna"
+        }, 
+        {
+          "desc": "Schwab met Wesley when Vanessa was taken to hospital", 
+          "p1": "Nurse Schwab", 
+          "p2": "James Wesley"
+        }, 
+        {
+          "desc": "Owlsley met Schwab when Vanessa was taken to hospital", 
+          "p1": "Nurse Schwab", 
+          "p2": "Leland Owlsley"
+        }, 
+        {
+          "desc": "Rosenberg and Schwab were collegues", 
+          "p1": "Nurse Schwab", 
+          "p2": "Doctor Rosenberg"
+        }, 
+        {
+          "desc": "Rosenberg was a doctor who Fisk had treat Vanessa", 
+          "p1": "Doctor Rosenberg", 
+          "p2": "Wilson Fisk"
+        }, 
+        {
+          "desc": "Rosenberg treated Vanessa when she had been poisoned", 
+          "p1": "Doctor Rosenberg", 
+          "p2": "Vanessa Marianna"
+        }, 
+        {
+          "desc": "Wesley called Rosenberg to come and treat Vanessa", 
+          "p1": "Doctor Rosenberg", 
+          "p2": "James Wesley"
+        }, 
+        {
+          "desc": "Matt saved Karens life as Daredevil", 
+          "p1": "Matt Murdock", 
+          "p2": "Karen Page"
+        }, 
+        {
+          "desc": "Nelson and Murdock, Avocados at law!", 
+          "p1": "Matt Murdock", 
+          "p2": "Foggy Nelson"
+        }, 
+        {
+          "desc": "Wesley hired Murdock and Nelson to represent John Healy", 
+          "p1": "Matt Murdock", 
+          "p2": "James Wesley"
+        }, 
+        {
+          "desc": "Matt worked with Ben to take down Fisk", 
+          "p1": "Matt Murdock", 
+          "p2": "Ben Urich"
+        }, 
+        {
+          "desc": "Matt questioned Leland about his employer", 
+          "p1": "Matt Murdock", 
+          "p2": "Leland Owlsley"
+        }, 
+        {
+          "desc": "Matt visited Vanessa at her art gallery", 
+          "p1": "Matt Murdock", 
+          "p2": "Vanessa Marianna"
+        }, 
+        {
+          "desc": "Claire healed Matt's wounds, a lot", 
+          "p1": "Matt Murdock", 
+          "p2": "Claire Temple"
+        }, 
+        {
+          "desc": "Daredevil finally managed to subdue Fisk", 
+          "p1": "Matt Murdock", 
+          "p2": "Wilson Fisk"
+        }, 
+        {
+          "desc": "Karen and Foggy worked together after he got her off a murder charge", 
+          "p1": "Karen Page", 
+          "p2": "Foggy Nelson"
+        }, 
+        {
+          "desc": "Wesley lost a game of russian roulette with Karen", 
+          "p1": "Karen Page", 
+          "p2": "James Wesley"
+        }, 
+        {
+          "desc": "Karen and Ben investigated Fisk", 
+          "p1": "Karen Page", 
+          "p2": "Ben Urich"
+        }, 
+        {
+          "desc": "Karen got Claire to give Elena Cardenas medical attention", 
+          "p1": "Karen Page", 
+          "p2": "Claire Temple"
+        }, 
+        {
+          "desc": "Wesley hired Murdock and Nelson to represent John Healy", 
+          "p1": "Foggy Nelson", 
+          "p2": "James Wesley"
+        }, 
+        {
+          "desc": "Foggy worked with Ben to take down Fisk", 
+          "p1": "Foggy Nelson", 
+          "p2": "Ben Urich"
+        }, 
+        {
+          "desc": "Foggy got Claire to give Elena Cardenas medical attention", 
+          "p1": "Foggy Nelson", 
+          "p2": "Claire Temple"
+        }, 
+        {
+          "desc": "Wesley and Owlsley worked together for Fisk", 
+          "p1": "James Wesley", 
+          "p2": "Leland Owlsley"
+        }, 
+        {
+          "desc": "Vanessa met Wesley when seeing Fisk", 
+          "p1": "James Wesley", 
+          "p2": "Vanessa Marianna"
+        }, 
+        {
+          "desc": "Wesley was Fisk's right hand man", 
+          "p1": "James Wesley", 
+          "p2": "Wilson Fisk"
+        }, 
+        {
+          "desc": "Fisk killed Ben for visiting his mother", 
+          "p1": "Ben Urich", 
+          "p2": "Wilson Fisk"
+        }, 
+        {
+          "desc": "Vanessa met Leland when seeing Fisk", 
+          "p1": "Leland Owlsley", 
+          "p2": "Vanessa Marianna"
+        }, 
+        {
+          "desc": "Leland worked as Fisk's accountant", 
+          "p1": "Leland Owlsley", 
+          "p2": "Wilson Fisk"
+        }, 
+        {
+          "desc": "Fisk proposed to Vanessa just before his arrest", 
+          "p1": "Vanessa Marianna", 
+          "p2": "Wilson Fisk"
+        }, 
+        {
+          "desc": "Fisk took control of Rigoletto's business assets", 
+          "p1": "Wilson Fisk", 
+          "p2": "Don Rigoletto"
+        }
+      ], 
+      "name": "Daredevil Season 1"
     }, 
     {
       "category": "Films - Phase 2", 
