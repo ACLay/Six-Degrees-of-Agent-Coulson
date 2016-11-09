@@ -151,7 +151,6 @@ return {
     "Dallas Wyatt", 
     "Damon Boone", 
     "Dana Stryker", 
-    "Daneil Fisher", 
     "Daniel Fisher", 
     "Daniel Sousa", 
     "Daniel Whitehall", 
@@ -7604,7 +7603,6 @@ return {
         "Clint Peterson", 
         "Clyde Farnum", 
         "Cornelius van Lunt", 
-        "Daneil Fisher", 
         "Daniel Fisher", 
         "Detective Carl Hoffman", 
         "Detective Christian Blake", 
@@ -8130,7 +8128,7 @@ return {
         }, 
         {
           "desc": "Karen tried to tell Fisher about the irregularities in Union Allied's pension accounts", 
-          "p1": "Daneil Fisher", 
+          "p1": "Daniel Fisher", 
           "p2": "Karen Page"
         }, 
         {
