@@ -12,16 +12,24 @@ return {
   "characters": [
     "Abner Brody", 
     "Abu Bakar", 
+    "Adamo Dioli", 
     "Agent Beringer", 
     "Agent Blackwell", 
+    "Agent Case", 
     "Agent Corcoran", 
     "Agent Coulson", 
+    "Agent Harris", 
+    "Agent Hart", 
+    "Agent Hauer", 
     "Agent Messner", 
     "Agent O'Brien", 
+    "Agent Oliver", 
     "Agent Piper", 
     "Agent Reese", 
+    "Agent Rivera", 
     "Agent Ryan", 
     "Agent Sitwell", 
+    "Agent Susanna", 
     "Agent Vega", 
     "Agent White", 
     "Agent Yauch", 
@@ -47,8 +55,11 @@ return {
     "Andre", 
     "Andrew Garner", 
     "Angie Martinelli", 
+    "Anna Ward", 
+    "Anne Weaver", 
     "Anon", 
     "Antoine Grier", 
+    "Antoine Triplett", 
     "Anton Petrov", 
     "Anton Vanko", 
     "Anya (Red room)", 
@@ -80,6 +91,7 @@ return {
     "Betsy Beatty", 
     "Betty Ross", 
     "Bill Fisk", 
+    "Billy Koenig", 
     "Black Sky", 
     "Blake Tower", 
     "Blind Oliver", 
@@ -92,8 +104,11 @@ return {
     "Boxer Price", 
     "Brett Mahoney", 
     "Brian Jones", 
+    "Brick", 
+    "Bridget", 
     "Brock Rumlow", 
     "Bruce Banner", 
+    "Bruno", 
     "Bucky Barnes", 
     "Bud Schultz", 
     "Buggy Stokes", 
@@ -101,9 +116,12 @@ return {
     "Butch Wallace", 
     "C-Money", 
     "Calvin Chadwick", 
+    "Calvin Zabo", 
     "Cameron Klein", 
     "Candace Miller", 
+    "Captain Anderson", 
     "Captain Betty Audrey", 
+    "Cardozo", 
     "Carina", 
     "Carl Creel", 
     "Carla Talbot", 
@@ -112,6 +130,7 @@ return {
     "Carmine", 
     "Carol (Griffith)", 
     "Cassie Lang", 
+    "Chad", 
     "Chanise", 
     "Charles Hinton", 
     "Charles Wallace", 
@@ -135,6 +154,7 @@ return {
     "Colonel Fyodor", 
     "Colonel Phillips", 
     "Comanche", 
+    "Commander Darren", 
     "Connie Lin", 
     "Cooper Barton", 
     "Cornelius van Lunt", 
@@ -162,7 +182,10 @@ return {
     "Darren Cross", 
     "Dave", 
     "Dave Griffith", 
+    "David 'Micro' Lieberman", 
+    "David Angar", 
     "David Kurata", 
+    "Deacon", 
     "Denarian Sall", 
     "Desmond Tobey", 
     "Detective Andrew Henry", 
@@ -182,15 +205,20 @@ return {
     "Doctor Murray", 
     "Doctor Rosenberg", 
     "Doctor Seth Honicky", 
+    "Doctor Wilton", 
     "Doctor Wu", 
     "Domingo Colon", 
     "Don Rigoletto", 
     "Donald", 
+    "Donnie Gill", 
+    "Doorman Theo", 
     "Doris Urich", 
     "Dorothy Walker", 
     "Dottie Underwood", 
     "Dr Erskine", 
+    "Dr Goodman", 
     "Dr Helen Cho", 
+    "Dr Lingenfelter", 
     "Dr Noah Burstein", 
     "Drax", 
     "Driver Tony", 
@@ -209,6 +237,8 @@ return {
     "Electrician Ed", 
     "Elena 'Yo-Yo' Rodriguez", 
     "Elena Cardenas", 
+    "Elias", 
+    "Eliza", 
     "Elizabeth De Luca", 
     "Ellen Brandt", 
     "Ellen King", 
@@ -223,14 +253,18 @@ return {
     "Enforcer Sugar", 
     "Enforcer Zip", 
     "Eric Fraser", 
+    "Eric Koenig", 
     "Erik Selvig", 
     "Erin", 
     "Ernesto", 
+    "Ethan Johnston", 
     "Etta Lucas", 
     "Eva (Red Room)", 
+    "Eva Belyakov", 
     "Evelyn (Griffith)", 
     "Everett K. Ross", 
     "FRIDAY", 
+    "Faisil Ahmed", 
     "Fandral", 
     "Father Lantom", 
     "Felix Blake", 
@@ -239,6 +273,7 @@ return {
     "Foggy Nelson", 
     "Fran", 
     "Francis", 
+    "Francis Noche", 
     "Francisco Rodriguez", 
     "Frank", 
     "Frank Levin", 
@@ -246,17 +281,20 @@ return {
     "Frigga", 
     "Gabe Jones", 
     "Gabe Krasner", 
+    "Gabriel Soto", 
     "Gale", 
     "Gamora", 
     "Garcia", 
     "Gary the Camera Guy", 
     "General Andaz", 
     "General Androvich", 
+    "General Cole", 
     "General Gabriel", 
     "General Glenn Talbot", 
     "General John McGinnis", 
     "General Meade", 
     "George (tramp)", 
+    "George Stephanopoulos", 
     "George Talbot", 
     "Georges Batroc", 
     "Gerald Durand", 
@@ -268,6 +306,7 @@ return {
     "Giyera", 
     "Gloria (Griffith)", 
     "Gordon", 
+    "Graham", 
     "Grandpa Quill", 
     "Grant Ward", 
     "Gregory Spheeris", 
@@ -275,6 +314,7 @@ return {
     "Hank", 
     "Hank (Maggia)", 
     "Hank Pym", 
+    "Hank Thompson", 
     "Happy Hogan", 
     "Happy Sam Sawyer", 
     "Harley Keener", 
@@ -293,15 +333,19 @@ return {
     "Ho Yinsen", 
     "Hogun", 
     "Holden Radcliffe", 
+    "Honest Eddie", 
     "Hope Shlottman", 
     "Hope Van Dyne", 
     "Howard Stark", 
     "Howard the Duck", 
     "Hugh Jones", 
+    "Hydra Agent Paula", 
     "Ian Boothby", 
     "Ignacio", 
+    "Inhuman Michael", 
     "Inspector Duval", 
     "Inspector Priscilla Ridley", 
+    "Isabelle Hartley", 
     "Ivan", 
     "Ivan Vanko", 
     "JARVIS", 
@@ -323,8 +367,10 @@ return {
     "James Rondell", 
     "James Wesley", 
     "Jane Foster", 
+    "Jane Hartley", 
     "Jane Scott", 
     "Janet Van Dyne", 
+    "Janice Robbins", 
     "Jason Wilkes", 
     "Jemma Simmons", 
     "Jennifer Fisher", 
@@ -333,6 +379,7 @@ return {
     "Jerome Zandow", 
     "Jerry", 
     "Jessica Jones", 
+    "Jiaying", 
     "Jim Morita", 
     "Jimmy 'Houdini'", 
     "Jimmy Quinto", 
@@ -340,6 +387,7 @@ return {
     "Joe Greller", 
     "Joel Spurlock", 
     "Joey Gutierrez", 
+    "John Bruno", 
     "John Donnelly", 
     "John Garrett", 
     "John Healy", 
@@ -347,15 +395,22 @@ return {
     "Joseph Pike", 
     "Josephine", 
     "Juan Carlos Castro", 
+    "Jules Beckers", 
+    "Julien Beckers", 
     "Junior Juniper", 
     "Junkie Jake", 
     "Justin Boden", 
     "Justin Hammer", 
+    "Kara 'Agent 33' Palamas", 
     "Karen Page", 
+    "Karla Faye Gideon", 
     "Karman-Kan Dey", 
     "Kathleen Sparr", 
+    "Katie Thompson", 
+    "Katya Belyakov", 
     "Kebo", 
     "Ken", 
+    "Kenneth Turgeon", 
     "Kevin", 
     "Kilgrave", 
     "Kirk Vogel", 
@@ -374,10 +429,13 @@ return {
     "Len Sirkes", 
     "Leo Fitz", 
     "Leonard Samson", 
+    "Lewis Seaver", 
     "Lian May", 
+    "Lieutenant Decker", 
     "Lieutenant Perez", 
     "Lila Barton", 
     "Lincoln Campbell", 
+    "Linda Avery", 
     "Loki", 
     "Lonnie Wilson", 
     "Lord Manzini", 
@@ -402,6 +460,7 @@ return {
     "Manny", 
     "Marcel the waiter", 
     "Marci Stahl", 
+    "Marcus Scarlotti", 
     "Maria Hill", 
     "Maria Stark", 
     "Mariah Dillard", 
@@ -422,9 +481,12 @@ return {
     "Melinda May", 
     "Melody", 
     "Melvin Potter", 
+    "Mercenary Idaho", 
     "Meredith Quill", 
+    "Meredith Tredwyck", 
     "Michael Carter", 
     "Mike Li", 
+    "Mike Peterson", 
     "Mike Tyson", 
     "Mikhail", 
     "Miles Van Ert", 
@@ -439,6 +501,7 @@ return {
     "Mortimer Hayes", 
     "Mr Lin", 
     "Mrs Davis", 
+    "Mrs Triplett", 
     "Natasha Romanoff", 
     "Nathaniel Barton", 
     "Nathaniel Malick", 
@@ -449,6 +512,7 @@ return {
     "Nick Fury", 
     "Nicole", 
     "Nobu Yoshioka", 
+    "Noelle Walters", 
     "Nonna Manfredi", 
     "Nova Prime", 
     "Nurse Ellie Chung", 
@@ -456,8 +520,10 @@ return {
     "Nurse Schwab", 
     "Nurse Violet", 
     "Obadiah Stane", 
+    "Octavian Bloom", 
     "Odin", 
     "Officer Albini", 
+    "Officer Carvalho", 
     "Officer Cooper", 
     "Officer Corbin", 
     "Officer Pike", 
@@ -484,6 +550,7 @@ return {
     "Pietro Maximoff", 
     "Pinky Pinkerton", 
     "Piotr", 
+    "Politician Diego", 
     "Polly Hinton", 
     "President Ellis", 
     "Priscilla Everhart", 
@@ -495,6 +562,9 @@ return {
     "Prisoner Pasha", 
     "Private Brown", 
     "Private Ovechkin", 
+    "Private Tilden", 
+    "Private Walter", 
+    "Raina", 
     "Raj", 
     "Ralph", 
     "Ray Krzeminski", 
@@ -513,10 +583,12 @@ return {
     "Rick Ramirez", 
     "Riley", 
     "Rob Donohue", 
+    "Robert Gonzales", 
     "Robin Hinton", 
     "Robinson", 
     "Robyn", 
     "Rocket", 
+    "Roger Browning", 
     "Roger Dooley", 
     "Ronan", 
     "Rosalind Price", 
@@ -527,6 +599,7 @@ return {
     "Ruben", 
     "Ruben Mackenzie", 
     "Rufus Hunt", 
+    "Sam Koenig", 
     "Sam Wilson", 
     "Samantha Reyes", 
     "Samuel Sterns", 
@@ -536,7 +609,9 @@ return {
     "Savin", 
     "Scott Lang", 
     "Sean Connery", 
+    "Sebastian Derik", 
     "Secretary Caldwell", 
+    "Selwyn", 
     "Semyon", 
     "Senator Brandt", 
     "Senator Randolph Cherryh", 
@@ -559,6 +634,10 @@ return {
     "Soledad Temple", 
     "Spider Raymond", 
     "Spud", 
+    "Staff Sergeant Brookton", 
+    "Staff Sergeant Campbell", 
+    "Staff Sergeant Logan", 
+    "Staff Sergeant Smith", 
     "Stanley Lieber", 
     "Stephanie Malick", 
     "Steve Rogers", 
@@ -568,6 +647,7 @@ return {
     "Stewart Schmidt", 
     "Stick", 
     "Stone", 
+    "Sunil Bakshi", 
     "Susan Harris", 
     "Sway Calloway", 
     "T'Chaka", 
@@ -575,10 +655,13 @@ return {
     "Taggart", 
     "Thaddeus Ross", 
     "Thanos", 
+    "The Banker", 
+    "The Baroness", 
     "The Broker", 
     "The Collector", 
     "The Mandarin", 
     "The Other", 
+    "The Sheikh", 
     "Thelma Crawford", 
     "Thembi Wallace", 
     "Theo Broussard", 
@@ -587,11 +670,15 @@ return {
     "Thomas Ward", 
     "Thor", 
     "Thug Oscar", 
+    "Tiago", 
+    "Tim Maguire", 
     "Tina Adams", 
     "Tom Belkin", 
+    "Tomas Calderon", 
     "Tone", 
     "Tony Stark", 
     "Torrance", 
+    "Toshiro Mori", 
     "Tracy Farnum", 
     "Trevor Slattery", 
     "Trish Walker", 
@@ -608,9 +695,13 @@ return {
     "Vice President Rodriguez", 
     "Victor", 
     "Victor Ramon", 
+    "Victoria Hand", 
+    "Vin-Tak", 
+    "Vincent Beckers", 
     "Vision", 
     "Vladimir Ranskahov", 
     "Volstagg", 
+    "Waitress Rhonda", 
     "Walter Thomas", 
     "Wanda Maximoff", 
     "Warshauer", 
@@ -618,6 +709,7 @@ return {
     "Watchdog Jackson", 
     "Watchdog Oscar", 
     "Watchdog Victor", 
+    "Wendell Levi", 
     "Wendy Ross-Hogarth", 
     "Werner von Strucker", 
     "White Power Dave", 
@@ -635,6 +727,7 @@ return {
     "Winston the butler", 
     "Wolfgang von Strucker", 
     "Xiao Chen", 
+    "Yat-Sen", 
     "Yondu Udonta", 
     "Yuliana", 
     "Yuri Krupin", 
@@ -2731,6 +2824,2542 @@ return {
         }
       ], 
       "name": "Agent Carter Season 2"
+    }, 
+    {
+      "category": "TV", 
+      "characters": [
+        "Adamo Dioli", 
+        "Agent Case", 
+        "Agent Coulson", 
+        "Agent Harris", 
+        "Agent Hart", 
+        "Agent Hauer", 
+        "Agent O'Brien", 
+        "Agent Oliver", 
+        "Agent Rivera", 
+        "Agent Susanna", 
+        "Alexander Pierce", 
+        "Alisha Whitley", 
+        "Alphonso Mackenzie", 
+        "Andrew Garner", 
+        "Anna Ward", 
+        "Anne Weaver", 
+        "Antoine Triplett", 
+        "Billy Koenig", 
+        "Bobbi Morse", 
+        "Brick", 
+        "Bridget", 
+        "Bruno", 
+        "Calvin Zabo", 
+        "Captain Anderson", 
+        "Cardozo", 
+        "Carl Creel", 
+        "Carla Talbot", 
+        "Chad", 
+        "Christian Ward", 
+        "Clint Barton", 
+        "Commander Darren", 
+        "Daisy Johnson", 
+        "Daniel Whitehall", 
+        "David 'Micro' Lieberman", 
+        "David Angar", 
+        "Deacon", 
+        "Doctor List", 
+        "Doctor Wilton", 
+        "Donnie Gill", 
+        "Doorman Theo", 
+        "Dr Goodman", 
+        "Dr Lingenfelter", 
+        "Dum Dum Dugan", 
+        "Elias", 
+        "Eliza", 
+        "Eric Koenig", 
+        "Ethan Johnston", 
+        "Eva Belyakov", 
+        "Faisil Ahmed", 
+        "Francis Noche", 
+        "Gabriel Soto", 
+        "General Cole", 
+        "General Glenn Talbot", 
+        "George Stephanopoulos", 
+        "George Talbot", 
+        "Gordon", 
+        "Graham", 
+        "Grant Ward", 
+        "Hank Thompson", 
+        "Honest Eddie", 
+        "Hydra Agent Paula", 
+        "Inhuman Michael", 
+        "Isabelle Hartley", 
+        "Jane Hartley", 
+        "Janice Robbins", 
+        "Jemma Simmons", 
+        "Jiaying", 
+        "Jim Morita", 
+        "John Bruno", 
+        "John Garrett", 
+        "Jules Beckers", 
+        "Julien Beckers", 
+        "Kara 'Agent 33' Palamas", 
+        "Karla Faye Gideon", 
+        "Katie Thompson", 
+        "Katya Belyakov", 
+        "Kebo", 
+        "Kenneth Turgeon", 
+        "Lance Hunter", 
+        "Leo Fitz", 
+        "Lewis Seaver", 
+        "Lian May", 
+        "Lieutenant Decker", 
+        "Lincoln Campbell", 
+        "Linda Avery", 
+        "Marcus Scarlotti", 
+        "Maria Hill", 
+        "Melinda May", 
+        "Mercenary Idaho", 
+        "Meredith Tredwyck", 
+        "Mike Peterson", 
+        "Mrs Triplett", 
+        "Nick Fury", 
+        "Noelle Walters", 
+        "Octavian Bloom", 
+        "Officer Carvalho", 
+        "Peggy Carter", 
+        "Politician Diego", 
+        "Private Tilden", 
+        "Private Walter", 
+        "Raina", 
+        "Red Skull", 
+        "Robert Gonzales", 
+        "Roger Browning", 
+        "Sam Koenig", 
+        "Sebastian Derik", 
+        "Selwyn", 
+        "Sif", 
+        "Staff Sergeant Brookton", 
+        "Staff Sergeant Campbell", 
+        "Staff Sergeant Logan", 
+        "Staff Sergeant Smith", 
+        "Sunil Bakshi", 
+        "The Banker", 
+        "The Baroness", 
+        "The Sheikh", 
+        "Thomas Ward", 
+        "Tiago", 
+        "Tim Maguire", 
+        "Tomas Calderon", 
+        "Toshiro Mori", 
+        "Victoria Hand", 
+        "Vin-Tak", 
+        "Vincent Beckers", 
+        "Waitress Rhonda", 
+        "Wendell Levi", 
+        "Wolfgang von Strucker", 
+        "Yat-Sen"
+      ], 
+      "interactions": [
+        {
+          "desc": "Peggy arrested Whitehall at the end of WW2", 
+          "p1": "Peggy Carter", 
+          "p2": "Daniel Whitehall"
+        }, 
+        {
+          "desc": "Peggy and Jim worked together to clear up the remains of Red Skull's Hydra", 
+          "p1": "Peggy Carter", 
+          "p2": "Jim Morita"
+        }, 
+        {
+          "desc": "Dugan and Peggy worked together to clear up the remains of Red Skull's Hydra", 
+          "p1": "Peggy Carter", 
+          "p2": "Dum Dum Dugan"
+        }, 
+        {
+          "desc": "Jim arrested Whitehall at the end of WW2", 
+          "p1": "Jim Morita", 
+          "p2": "Daniel Whitehall"
+        }, 
+        {
+          "desc": "Morita and Dugan cleared up the remains of Red Skull's Hydra", 
+          "p1": "Jim Morita", 
+          "p2": "Dum Dum Dugan"
+        }, 
+        {
+          "desc": "Dugan arrested Whitehall at the end of WW2", 
+          "p1": "Dum Dum Dugan", 
+          "p2": "Daniel Whitehall"
+        }, 
+        {
+          "desc": "May and Triplett worked together for SHIELD", 
+          "p1": "Antoine Triplett", 
+          "p2": "Melinda May"
+        }, 
+        {
+          "desc": "Triplett died trying to save Daisy (then Skye) from the the apparently dangerous terrigen gas", 
+          "p1": "Antoine Triplett", 
+          "p2": "Daisy Johnson"
+        }, 
+        {
+          "desc": "Triplett saw Creel escape with information about an 0-8-4", 
+          "p1": "Antoine Triplett", 
+          "p2": "Carl Creel"
+        }, 
+        {
+          "desc": "Triplett and Billy both worked for SHIELD", 
+          "p1": "Antoine Triplett", 
+          "p2": "Billy Koenig"
+        }, 
+        {
+          "desc": "Idaho drove Triplett and team to Talbot's military base", 
+          "p1": "Antoine Triplett", 
+          "p2": "Mercenary Idaho"
+        }, 
+        {
+          "desc": "Hartley and Triplett both worked for SHIELD", 
+          "p1": "Antoine Triplett", 
+          "p2": "Isabelle Hartley"
+        }, 
+        {
+          "desc": "Lance and Triplett both worked for SHIELD", 
+          "p1": "Antoine Triplett", 
+          "p2": "Lance Hunter"
+        }, 
+        {
+          "desc": "Triplett worked for Coulson in SHIELD", 
+          "p1": "Antoine Triplett", 
+          "p2": "Agent Coulson"
+        }, 
+        {
+          "desc": "Trip piloted the Quinjet that flew Jemma out of Hydra", 
+          "p1": "Antoine Triplett", 
+          "p2": "Jemma Simmons"
+        }, 
+        {
+          "desc": "Trip piloted the Quinjet that flew Bobbi out of Hydra", 
+          "p1": "Antoine Triplett", 
+          "p2": "Bobbi Morse"
+        }, 
+        {
+          "desc": "Triplett went to arrest Ward, but stopped when he saw Ward had an explosive vest", 
+          "p1": "Antoine Triplett", 
+          "p2": "Grant Ward"
+        }, 
+        {
+          "desc": "Triplett found Bakshi tied up in a bar by Ward", 
+          "p1": "Antoine Triplett", 
+          "p2": "Sunil Bakshi"
+        }, 
+        {
+          "desc": "Fitz and Trip worked together for SHIELD", 
+          "p1": "Antoine Triplett", 
+          "p2": "Leo Fitz"
+        }, 
+        {
+          "desc": "Cal operated on Trip when he was shot taking an Air Force comms base", 
+          "p1": "Antoine Triplett", 
+          "p2": "Calvin Zabo"
+        }, 
+        {
+          "desc": "Trip and Koenig worked together for SHIELD", 
+          "p1": "Antoine Triplett", 
+          "p2": "Sam Koenig"
+        }, 
+        {
+          "desc": "Trip was sealed in the ancient teregenesis chamber with Raina", 
+          "p1": "Antoine Triplett", 
+          "p2": "Raina"
+        }, 
+        {
+          "desc": "Mack and Trip worked together for SHIELD", 
+          "p1": "Antoine Triplett", 
+          "p2": "Alphonso Mackenzie"
+        }, 
+        {
+          "desc": "Trip planted a phone on Talbot so Coulson could contact him", 
+          "p1": "Antoine Triplett", 
+          "p2": "General Glenn Talbot"
+        }, 
+        {
+          "desc": "Carla was with her husband when Trip planted a phone on him", 
+          "p1": "Antoine Triplett", 
+          "p2": "Carla Talbot"
+        }, 
+        {
+          "desc": "George was with his father when Trip planted a phone on him", 
+          "p1": "Antoine Triplett", 
+          "p2": "George Talbot"
+        }, 
+        {
+          "desc": "Triplett met Tilden when infiltrating Talbot's storage facility", 
+          "p1": "Antoine Triplett", 
+          "p2": "Private Tilden"
+        }, 
+        {
+          "desc": "Triplett met Walter when infiltrating Talbot's storage facility", 
+          "p1": "Antoine Triplett", 
+          "p2": "Private Walter"
+        }, 
+        {
+          "desc": "Whitehall experimented on the obelisk under Red Skull's orders", 
+          "p1": "Daniel Whitehall", 
+          "p2": "Red Skull"
+        }, 
+        {
+          "desc": "Whitehall experimented on Jiaying, rejuvinating his body", 
+          "p1": "Daniel Whitehall", 
+          "p2": "Jiaying"
+        }, 
+        {
+          "desc": "Hauer, an undercover Hydra agent, escorted an aged Whitehall out of prison in 1989", 
+          "p1": "Daniel Whitehall", 
+          "p2": "Agent Hauer"
+        }, 
+        {
+          "desc": "Rivera was sent to release Whitehall from prison in 1989", 
+          "p1": "Daniel Whitehall", 
+          "p2": "Agent Rivera"
+        }, 
+        {
+          "desc": "Bakshi was Whitehall's second in command", 
+          "p1": "Daniel Whitehall", 
+          "p2": "Sunil Bakshi"
+        }, 
+        {
+          "desc": "Whitehall brainwashed Agent 33 into working for Hydra", 
+          "p1": "Daniel Whitehall", 
+          "p2": "Kara 'Agent 33' Palamas"
+        }, 
+        {
+          "desc": "Whitehall tortured Raina to get the obelisk back from her", 
+          "p1": "Daniel Whitehall", 
+          "p2": "Raina"
+        }, 
+        {
+          "desc": "Whitehall discussed weaponising the obelisk with Jemma when she was undercover in Hydra", 
+          "p1": "Daniel Whitehall", 
+          "p2": "Jemma Simmons"
+        }, 
+        {
+          "desc": "Lingenfelter worked for Whitehall in Hydra's science team", 
+          "p1": "Daniel Whitehall", 
+          "p2": "Dr Lingenfelter"
+        }, 
+        {
+          "desc": "Turgeon worked for Whitehall in Hydra's science team", 
+          "p1": "Daniel Whitehall", 
+          "p2": "Kenneth Turgeon"
+        }, 
+        {
+          "desc": "Cal spent decades trying to find and kill Whitehall for torturing Jiaying", 
+          "p1": "Daniel Whitehall", 
+          "p2": "Calvin Zabo"
+        }, 
+        {
+          "desc": "Mori designed the Splinter Bomb for Whitehall", 
+          "p1": "Daniel Whitehall", 
+          "p2": "Toshiro Mori"
+        }, 
+        {
+          "desc": "Scarlotti was a Hydra operative who worked for Whitehall", 
+          "p1": "Daniel Whitehall", 
+          "p2": "Marcus Scarlotti"
+        }, 
+        {
+          "desc": "Whitehall and Beckers worked together in Hydra", 
+          "p1": "Daniel Whitehall", 
+          "p2": "Julien Beckers"
+        }, 
+        {
+          "desc": "Whitehall re-recruited Ward into Hydra", 
+          "p1": "Daniel Whitehall", 
+          "p2": "Grant Ward"
+        }, 
+        {
+          "desc": "Whitehall had a kidnapped Daisy (then Skye) touch the diviner", 
+          "p1": "Daniel Whitehall", 
+          "p2": "Daisy Johnson"
+        }, 
+        {
+          "desc": "Coulson killed Whitehall", 
+          "p1": "Daniel Whitehall", 
+          "p2": "Agent Coulson"
+        }, 
+        {
+          "desc": "Hauer was sent by Pierce to release Daniel Whitehall", 
+          "p1": "Agent Hauer", 
+          "p2": "Alexander Pierce"
+        }, 
+        {
+          "desc": "Hauer and Rivera were sent to release Daniel Whitehall from prison", 
+          "p1": "Agent Hauer", 
+          "p2": "Agent Rivera"
+        }, 
+        {
+          "desc": "Pierce sent Rivera to release Daniel Whitehall from prison", 
+          "p1": "Agent Rivera", 
+          "p2": "Alexander Pierce"
+        }, 
+        {
+          "desc": "Rivera worked with Whitehall when he experimented on Jiaying", 
+          "p1": "Agent Rivera", 
+          "p2": "Jiaying"
+        }, 
+        {
+          "desc": "Bobbi and Mack worked together for SHIELD, Coulson's SHIELD and 'Real SHIELD'", 
+          "p1": "Alphonso Mackenzie", 
+          "p2": "Bobbi Morse"
+        }, 
+        {
+          "desc": "Mack and Tim worked together on the SHIELD carrier Iliad", 
+          "p1": "Alphonso Mackenzie", 
+          "p2": "Tim Maguire"
+        }, 
+        {
+          "desc": "Mack and Case worked together on the SHIELD carrier Iliad", 
+          "p1": "Alphonso Mackenzie", 
+          "p2": "Agent Case"
+        }, 
+        {
+          "desc": "Susanna and Mack worked together on the SHIELD carrier Iliad", 
+          "p1": "Alphonso Mackenzie", 
+          "p2": "Agent Susanna"
+        }, 
+        {
+          "desc": "Hartley rescued Mack from Hydra on the SHIELD carrier Iliad", 
+          "p1": "Alphonso Mackenzie", 
+          "p2": "Isabelle Hartley"
+        }, 
+        {
+          "desc": "Mack and Gonzales worked together for the 'Real SHIELD'", 
+          "p1": "Alphonso Mackenzie", 
+          "p2": "Robert Gonzales"
+        }, 
+        {
+          "desc": "Mack and Daisy (then Skye) worked together for SHIELD", 
+          "p1": "Alphonso Mackenzie", 
+          "p2": "Daisy Johnson"
+        }, 
+        {
+          "desc": "Mack and May worked together for SHIELD", 
+          "p1": "Alphonso Mackenzie", 
+          "p2": "Melinda May"
+        }, 
+        {
+          "desc": "Idaho and Mack worked together for SHIELD", 
+          "p1": "Alphonso Mackenzie", 
+          "p2": "Mercenary Idaho"
+        }, 
+        {
+          "desc": "Mack choked out and kidnapped Hunter", 
+          "p1": "Alphonso Mackenzie", 
+          "p2": "Lance Hunter"
+        }, 
+        {
+          "desc": "Mack cut off Coulson's hand with an axe", 
+          "p1": "Alphonso Mackenzie", 
+          "p2": "Agent Coulson"
+        }, 
+        {
+          "desc": "Mack and Billy worked together for SHIELD", 
+          "p1": "Alphonso Mackenzie", 
+          "p2": "Billy Koenig"
+        }, 
+        {
+          "desc": "Mack helped Fitz work around his brain damage", 
+          "p1": "Alphonso Mackenzie", 
+          "p2": "Leo Fitz"
+        }, 
+        {
+          "desc": "Mack and Simmons worked together for SHIELD", 
+          "p1": "Alphonso Mackenzie", 
+          "p2": "Jemma Simmons"
+        }, 
+        {
+          "desc": "Mack met Hank when searching for a GH325 maddened Coulson", 
+          "p1": "Alphonso Mackenzie", 
+          "p2": "Hank Thompson"
+        }, 
+        {
+          "desc": "Mack met Katie when searching for a GH325 maddened Coulson", 
+          "p1": "Alphonso Mackenzie", 
+          "p2": "Katie Thompson"
+        }, 
+        {
+          "desc": "Mack interrupted a fight between GH325 maddened Derik and Coulson", 
+          "p1": "Alphonso Mackenzie", 
+          "p2": "Sebastian Derik"
+        }, 
+        {
+          "desc": "Raina was assisted by a posessed Mack in the Kree City", 
+          "p1": "Alphonso Mackenzie", 
+          "p2": "Raina"
+        }, 
+        {
+          "desc": "Mack fought Vin-Tak who was trying to kill Skye", 
+          "p1": "Alphonso Mackenzie", 
+          "p2": "Vin-Tak"
+        }, 
+        {
+          "desc": "Weaver and Mack both worked for the 'Real SHIELD'", 
+          "p1": "Alphonso Mackenzie", 
+          "p2": "Anne Weaver"
+        }, 
+        {
+          "desc": "Oliver and Mack worked together for the 'Real SHIELD'", 
+          "p1": "Alphonso Mackenzie", 
+          "p2": "Agent Oliver"
+        }, 
+        {
+          "desc": "Harris and Mack worked together for the 'Real SHIELD'", 
+          "p1": "Alphonso Mackenzie", 
+          "p2": "Agent Harris"
+        }, 
+        {
+          "desc": "Alisha attacked Mack aboard The Iliad carrier", 
+          "p1": "Alphonso Mackenzie", 
+          "p2": "Alisha Whitley"
+        }, 
+        {
+          "desc": "Mack knocked Lincoln out aboard The Iliad carrier", 
+          "p1": "Alphonso Mackenzie", 
+          "p2": "Lincoln Campbell"
+        }, 
+        {
+          "desc": "\"I'm the guy who kill's Gordon\" - He wasn't", 
+          "p1": "Alphonso Mackenzie", 
+          "p2": "Gordon"
+        }, 
+        {
+          "desc": "Fury had Billy take care of the 'Playground' base", 
+          "p1": "Billy Koenig", 
+          "p2": "Nick Fury"
+        }, 
+        {
+          "desc": "Billy and Eric are brothers", 
+          "p1": "Billy Koenig", 
+          "p2": "Eric Koenig"
+        }, 
+        {
+          "desc": "Billy and Sam are brothers", 
+          "p1": "Billy Koenig", 
+          "p2": "Sam Koenig"
+        }, 
+        {
+          "desc": "Daisy (then Skye) and Billy worked for SHIELD at the Playground", 
+          "p1": "Billy Koenig", 
+          "p2": "Daisy Johnson"
+        }, 
+        {
+          "desc": "Hartley and Billy worked for SHIELD at the Playground", 
+          "p1": "Billy Koenig", 
+          "p2": "Isabelle Hartley"
+        }, 
+        {
+          "desc": "Hunter and Billy worked together for SHIELD", 
+          "p1": "Billy Koenig", 
+          "p2": "Lance Hunter"
+        }, 
+        {
+          "desc": "Idaho and Billy worked together for SHIELD", 
+          "p1": "Billy Koenig", 
+          "p2": "Mercenary Idaho"
+        }, 
+        {
+          "desc": "Billy worked for Coulson at the Playground", 
+          "p1": "Billy Koenig", 
+          "p2": "Agent Coulson"
+        }, 
+        {
+          "desc": "Billy and May worked together for SHIELD", 
+          "p1": "Billy Koenig", 
+          "p2": "Melinda May"
+        }, 
+        {
+          "desc": "Billy helped save Raina from a Hydra hit squad", 
+          "p1": "Billy Koenig", 
+          "p2": "Raina"
+        }, 
+        {
+          "desc": "Billy protected Raina from a team led by Agent 33", 
+          "p1": "Billy Koenig", 
+          "p2": "Kara 'Agent 33' Palamas"
+        }, 
+        {
+          "desc": "Billy aimed a gun at Ward when he boarded The Bus to take Skye", 
+          "p1": "Billy Koenig", 
+          "p2": "Grant Ward"
+        }, 
+        {
+          "desc": "Isabelle and Jane were sisters", 
+          "p1": "Isabelle Hartley", 
+          "p2": "Jane Hartley"
+        }, 
+        {
+          "desc": "Hartley and Hunter were close friends", 
+          "p1": "Isabelle Hartley", 
+          "p2": "Lance Hunter"
+        }, 
+        {
+          "desc": "Bobbi and Isabelle were sent by Fury to prevent Hydra getting the Kree Monolith", 
+          "p1": "Isabelle Hartley", 
+          "p2": "Bobbi Morse"
+        }, 
+        {
+          "desc": "Hartley and Idaho were old friends who were later recruited by Coulson", 
+          "p1": "Isabelle Hartley", 
+          "p2": "Mercenary Idaho"
+        }, 
+        {
+          "desc": "Hartley saved Case's life on the SHIELD carrier Iliad", 
+          "p1": "Isabelle Hartley", 
+          "p2": "Agent Case"
+        }, 
+        {
+          "desc": "Hartley saved Susanna's life on the SHIELD carrier Iliad", 
+          "p1": "Isabelle Hartley", 
+          "p2": "Agent Susanna"
+        }, 
+        {
+          "desc": "Hartley and Gonzales worked together in the 'Real SHIELD'", 
+          "p1": "Isabelle Hartley", 
+          "p2": "Robert Gonzales"
+        }, 
+        {
+          "desc": "Hartley and Hand used to be good friends and SHIELD colleagues", 
+          "p1": "Isabelle Hartley", 
+          "p2": "Victoria Hand"
+        }, 
+        {
+          "desc": "Hartley met Browning to get information on a stolen 0-8-4", 
+          "p1": "Isabelle Hartley", 
+          "p2": "Roger Browning"
+        }, 
+        {
+          "desc": "Creel stole the kree obelisk from Hartley", 
+          "p1": "Isabelle Hartley", 
+          "p2": "Carl Creel"
+        }, 
+        {
+          "desc": "May and Hartley worked together for SHIELD", 
+          "p1": "Isabelle Hartley", 
+          "p2": "Melinda May"
+        }, 
+        {
+          "desc": "Hartley worked undercover in Coulson's SHIELD", 
+          "p1": "Isabelle Hartley", 
+          "p2": "Agent Coulson"
+        }, 
+        {
+          "desc": "Hartley and Daisy (then Skye) worked together for SHIELD", 
+          "p1": "Isabelle Hartley", 
+          "p2": "Daisy Johnson"
+        }, 
+        {
+          "desc": "Hartley kidnapped Talbot to be questioned by SHIELD", 
+          "p1": "Isabelle Hartley", 
+          "p2": "General Glenn Talbot"
+        }, 
+        {
+          "desc": "Stephanopoulos interviewed Talbot on TV", 
+          "p1": "General Glenn Talbot", 
+          "p2": "George Stephanopoulos"
+        }, 
+        {
+          "desc": "Glenn and Carla are married", 
+          "p1": "General Glenn Talbot", 
+          "p2": "Carla Talbot"
+        }, 
+        {
+          "desc": "Glenn Talbot is George's father", 
+          "p1": "General Glenn Talbot", 
+          "p2": "George Talbot"
+        }, 
+        {
+          "desc": "Talbot begrudgingly agreed to work with Coulson", 
+          "p1": "General Glenn Talbot", 
+          "p2": "Agent Coulson"
+        }, 
+        {
+          "desc": "Creel was sent to kill Talbot by Hydra", 
+          "p1": "General Glenn Talbot", 
+          "p2": "Carl Creel"
+        }, 
+        {
+          "desc": "May helped Talbot fight off Carl Creel", 
+          "p1": "General Glenn Talbot", 
+          "p2": "Melinda May"
+        }, 
+        {
+          "desc": "Hunter kidnapped Talbot to be questioned by SHIELD", 
+          "p1": "General Glenn Talbot", 
+          "p2": "Lance Hunter"
+        }, 
+        {
+          "desc": "Tilden worked for Talbot at his storage facility", 
+          "p1": "General Glenn Talbot", 
+          "p2": "Private Tilden"
+        }, 
+        {
+          "desc": "Walter worked for Talbot at his storage facility", 
+          "p1": "General Glenn Talbot", 
+          "p2": "Private Walter"
+        }, 
+        {
+          "desc": "Dioli and Talbot spoke at the UN", 
+          "p1": "General Glenn Talbot", 
+          "p2": "Adamo Dioli"
+        }, 
+        {
+          "desc": "Talbot was present when Scarlotti attacked the UN in SHIELD gear", 
+          "p1": "General Glenn Talbot", 
+          "p2": "Marcus Scarlotti"
+        }, 
+        {
+          "desc": "Ward funded Talbot's campaign against SHIELD", 
+          "p1": "General Glenn Talbot", 
+          "p2": "Christian Ward"
+        }, 
+        {
+          "desc": "Talbot and Decker worked together in the US Air Force", 
+          "p1": "General Glenn Talbot", 
+          "p2": "Lieutenant Decker"
+        }, 
+        {
+          "desc": "Tredwyck and Talbot worked together in the US Air Force", 
+          "p1": "General Glenn Talbot", 
+          "p2": "Meredith Tredwyck"
+        }, 
+        {
+          "desc": "Anderson and Talbot worked together in the US Air Force", 
+          "p1": "General Glenn Talbot", 
+          "p2": "Captain Anderson"
+        }, 
+        {
+          "desc": "Bakshi was handed into Talbot's custody by SHIELD", 
+          "p1": "General Glenn Talbot", 
+          "p2": "Sunil Bakshi"
+        }, 
+        {
+          "desc": "Hunter and Idaho used to work together as mercenaries", 
+          "p1": "Mercenary Idaho", 
+          "p2": "Lance Hunter"
+        }, 
+        {
+          "desc": "Idaho went to a negotiation to get information on an 0-8-4 from Browning", 
+          "p1": "Mercenary Idaho", 
+          "p2": "Roger Browning"
+        }, 
+        {
+          "desc": "Idaho was killed by Creel, who caused the car he was in to crash", 
+          "p1": "Mercenary Idaho", 
+          "p2": "Carl Creel"
+        }, 
+        {
+          "desc": "May and Idaho worked together for SHIELD", 
+          "p1": "Mercenary Idaho", 
+          "p2": "Melinda May"
+        }, 
+        {
+          "desc": "Idaho and Daisy (then Skye) worked together for SHIELD", 
+          "p1": "Mercenary Idaho", 
+          "p2": "Daisy Johnson"
+        }, 
+        {
+          "desc": "Idaho worked for Coulson in SHIELD", 
+          "p1": "Mercenary Idaho", 
+          "p2": "Agent Coulson"
+        }, 
+        {
+          "desc": "Idaho & team met Tilden when breaking into Talbot's storage facility", 
+          "p1": "Mercenary Idaho", 
+          "p2": "Private Tilden"
+        }, 
+        {
+          "desc": "Idaho & team met Walter when breaking into Talbot's storage facility", 
+          "p1": "Mercenary Idaho", 
+          "p2": "Private Walter"
+        }, 
+        {
+          "desc": "Garret and Bakshi met before Hydra's modern day emmergence", 
+          "p1": "Sunil Bakshi", 
+          "p2": "John Garrett"
+        }, 
+        {
+          "desc": "Bakshi provided Creel with orders and rewarded his compliance", 
+          "p1": "Sunil Bakshi", 
+          "p2": "Carl Creel"
+        }, 
+        {
+          "desc": "Raina stole the kree obelisk from Bakshi", 
+          "p1": "Sunil Bakshi", 
+          "p2": "Raina"
+        }, 
+        {
+          "desc": "Bakshi brought Agent 33 to Whitehall for brainwashing", 
+          "p1": "Sunil Bakshi", 
+          "p2": "Kara 'Agent 33' Palamas"
+        }, 
+        {
+          "desc": "Simmons worked for Bakshi when she was undercover in Hydra", 
+          "p1": "Sunil Bakshi", 
+          "p2": "Jemma Simmons"
+        }, 
+        {
+          "desc": "Bakshi placed Donnie under Hydra control", 
+          "p1": "Sunil Bakshi", 
+          "p2": "Donnie Gill"
+        }, 
+        {
+          "desc": "Bakshi met Coulson when disguised as General Talbot", 
+          "p1": "Sunil Bakshi", 
+          "p2": "Agent Coulson"
+        }, 
+        {
+          "desc": "Bakshi met May when disguised as General Talbot", 
+          "p1": "Sunil Bakshi", 
+          "p2": "Melinda May"
+        }, 
+        {
+          "desc": "Bakshi ordered Turgeon to a meeting with Whitehall", 
+          "p1": "Sunil Bakshi", 
+          "p2": "Kenneth Turgeon"
+        }, 
+        {
+          "desc": "Bobbi worked with Bakshi when she was undercover in Hydra", 
+          "p1": "Sunil Bakshi", 
+          "p2": "Bobbi Morse"
+        }, 
+        {
+          "desc": "Bakshi met Cal when he presented the obelisk to Whitehall", 
+          "p1": "Sunil Bakshi", 
+          "p2": "Calvin Zabo"
+        }, 
+        {
+          "desc": "Bakshi agreed to meet Ward, who left him to be arrested by SHIELD", 
+          "p1": "Sunil Bakshi", 
+          "p2": "Grant Ward"
+        }, 
+        {
+          "desc": "Hunter pretended to free Bakshi from SHIELD, and convinced him other Hydra heads wanted him dead", 
+          "p1": "Sunil Bakshi", 
+          "p2": "Lance Hunter"
+        }, 
+        {
+          "desc": "Bakshi met with Bloom, a Hydra head, on believing he'd escaped SHIELD custody", 
+          "p1": "Sunil Bakshi", 
+          "p2": "Octavian Bloom"
+        }, 
+        {
+          "desc": "Bakshi and List worked together researching Lincoln and Deathlok's powers", 
+          "p1": "Sunil Bakshi", 
+          "p2": "Doctor List"
+        }, 
+        {
+          "desc": "Bakshi met Fitz when returned to SHIELD custody by Ward and Agent 33", 
+          "p1": "Sunil Bakshi", 
+          "p2": "Leo Fitz"
+        }, 
+        {
+          "desc": "Peterson was sent to accompany Bakshi on a mission to infiltrate Dr List's Hydra cell", 
+          "p1": "Sunil Bakshi", 
+          "p2": "Mike Peterson"
+        }, 
+        {
+          "desc": "Bakshi captured Lincoln for Hydra experimentation", 
+          "p1": "Sunil Bakshi", 
+          "p2": "Lincoln Campbell"
+        }, 
+        {
+          "desc": "Garret recruited Creel into Hydra", 
+          "p1": "Carl Creel", 
+          "p2": "John Garrett"
+        }, 
+        {
+          "desc": "Creel interrupted a deal Hunter was working on for intel about an 0-8-4", 
+          "p1": "Carl Creel", 
+          "p2": "Lance Hunter"
+        }, 
+        {
+          "desc": "May fought Creel to stop him killing General Talbot", 
+          "p1": "Carl Creel", 
+          "p2": "Melinda May"
+        }, 
+        {
+          "desc": "Daisy (then Skye) fought Creel to stop him killing General Talbot", 
+          "p1": "Carl Creel", 
+          "p2": "Daisy Johnson"
+        }, 
+        {
+          "desc": "Creel killed Smith when escaping from military prison", 
+          "p1": "Carl Creel", 
+          "p2": "Staff Sergeant Smith"
+        }, 
+        {
+          "desc": "Creel killed Logan when escaping from military prison", 
+          "p1": "Carl Creel", 
+          "p2": "Staff Sergeant Logan"
+        }, 
+        {
+          "desc": "Raina attempted to buy the kree obelisk from Creel", 
+          "p1": "Carl Creel", 
+          "p2": "Raina"
+        }, 
+        {
+          "desc": "Coulson used a FitzTech\u2122 device to petrify Creel so he could be arrested", 
+          "p1": "Carl Creel", 
+          "p2": "Agent Coulson"
+        }, 
+        {
+          "desc": "Creel stole intel from, and killed Browning", 
+          "p1": "Carl Creel", 
+          "p2": "Roger Browning"
+        }, 
+        {
+          "desc": "Hunter was sent to obtain stolen intel from Browning", 
+          "p1": "Roger Browning", 
+          "p2": "Lance Hunter"
+        }, 
+        {
+          "desc": "Carla is George's mother", 
+          "p1": "Carla Talbot", 
+          "p2": "George Talbot"
+        }, 
+        {
+          "desc": "Walter and Tilden worked together at Talbot's storage facility", 
+          "p1": "Private Tilden", 
+          "p2": "Private Walter"
+        }, 
+        {
+          "desc": "Coulson, imitating Talbot, called Tilden to let his team through", 
+          "p1": "Private Tilden", 
+          "p2": "Agent Coulson"
+        }, 
+        {
+          "desc": "Logan and Smith worked together in the Marine Corps", 
+          "p1": "Staff Sergeant Smith", 
+          "p2": "Staff Sergeant Logan"
+        }, 
+        {
+          "desc": "Cal and Jiaying were married", 
+          "p1": "Calvin Zabo", 
+          "p2": "Jiaying"
+        }, 
+        {
+          "desc": "Daisy is Cal's daughter", 
+          "p1": "Calvin Zabo", 
+          "p2": "Daisy Johnson"
+        }, 
+        {
+          "desc": "Cal killed Avery when trying to find his daughter", 
+          "p1": "Calvin Zabo", 
+          "p2": "Linda Avery"
+        }, 
+        {
+          "desc": "Raina brought the obelisk to Cal, who told her about inhumans", 
+          "p1": "Calvin Zabo", 
+          "p2": "Raina"
+        }, 
+        {
+          "desc": "Cal killed Brick for teasing him over his anger issues", 
+          "p1": "Calvin Zabo", 
+          "p2": "Brick"
+        }, 
+        {
+          "desc": "Cal killed Deacon for teasing him over his anger issues", 
+          "p1": "Calvin Zabo", 
+          "p2": "Deacon"
+        }, 
+        {
+          "desc": "Cal nearly killed Coulson for preventing him from killing Whitehall", 
+          "p1": "Calvin Zabo", 
+          "p2": "Agent Coulson"
+        }, 
+        {
+          "desc": "Cal attacked Fitz after taking his Hyde drugs", 
+          "p1": "Calvin Zabo", 
+          "p2": "Leo Fitz"
+        }, 
+        {
+          "desc": "Cal attacked Simmons after taking his Hyde drugs", 
+          "p1": "Calvin Zabo", 
+          "p2": "Jemma Simmons"
+        }, 
+        {
+          "desc": "Ward brought Skye to Zabo and Whitehall", 
+          "p1": "Calvin Zabo", 
+          "p2": "Grant Ward"
+        }, 
+        {
+          "desc": "Cal saw Whitehall give orders to Agent 33", 
+          "p1": "Calvin Zabo", 
+          "p2": "Kara 'Agent 33' Palamas"
+        }, 
+        {
+          "desc": "Cal recruited Levi into a team to get revenge on Coulson", 
+          "p1": "Calvin Zabo", 
+          "p2": "Wendell Levi"
+        }, 
+        {
+          "desc": "Cal recruited Noche into a team to get revenge on Coulson", 
+          "p1": "Calvin Zabo", 
+          "p2": "Francis Noche"
+        }, 
+        {
+          "desc": "Cal recruited Karla into a team to get revenge on Coulson", 
+          "p1": "Calvin Zabo", 
+          "p2": "Karla Faye Gideon"
+        }, 
+        {
+          "desc": "Cal recruited Bruno into a team to get revenge on Coulson", 
+          "p1": "Calvin Zabo", 
+          "p2": "John Bruno"
+        }, 
+        {
+          "desc": "Cal recruited Angar into a team to get revenge on Coulson", 
+          "p1": "Calvin Zabo", 
+          "p2": "David Angar"
+        }, 
+        {
+          "desc": "May took custody of Cal during the negotiations in Afterlife", 
+          "p1": "Calvin Zabo", 
+          "p2": "Melinda May"
+        }, 
+        {
+          "desc": "Gordon took Cal to Afterlife to prevent him attracting too much attention to inhumans", 
+          "p1": "Calvin Zabo", 
+          "p2": "Gordon"
+        }, 
+        {
+          "desc": "Lincoln was sent to watch over Cal's father-daughter day by Jiaying", 
+          "p1": "Calvin Zabo", 
+          "p2": "Lincoln Campbell"
+        }, 
+        {
+          "desc": "Cal was present when Gonzales arrived to negotiate with Jiaying", 
+          "p1": "Calvin Zabo", 
+          "p2": "Robert Gonzales"
+        }, 
+        {
+          "desc": "Weaver met Cal when Jiaying handed him over to SHIELD", 
+          "p1": "Calvin Zabo", 
+          "p2": "Anne Weaver"
+        }, 
+        {
+          "desc": "Raina met with Coulson to try and get Skye to go with her to meet Cal", 
+          "p1": "Raina", 
+          "p2": "Agent Coulson"
+        }, 
+        {
+          "desc": "Raina saw Simmons at Hydra's laborotory", 
+          "p1": "Raina", 
+          "p2": "Jemma Simmons"
+        }, 
+        {
+          "desc": "Hunter was present when Raina met with Coulson", 
+          "p1": "Raina", 
+          "p2": "Lance Hunter"
+        }, 
+        {
+          "desc": "Daisy (then Skye) and Raina went through teregenisis together", 
+          "p1": "Raina", 
+          "p2": "Daisy Johnson"
+        }, 
+        {
+          "desc": "May was present when Raina met with Coulson", 
+          "p1": "Raina", 
+          "p2": "Melinda May"
+        }, 
+        {
+          "desc": "Raina tried to get Chad to take her to China", 
+          "p1": "Raina", 
+          "p2": "Chad"
+        }, 
+        {
+          "desc": "Agent 33, disguised as May, was sent to bring Raina to Whitehall", 
+          "p1": "Raina", 
+          "p2": "Kara 'Agent 33' Palamas"
+        }, 
+        {
+          "desc": "Koenig hid Raina from Hydra with a cloaking tech equipped umberella", 
+          "p1": "Raina", 
+          "p2": "Sam Koenig"
+        }, 
+        {
+          "desc": "Ward took Raina and Skye from The Bus", 
+          "p1": "Raina", 
+          "p2": "Grant Ward"
+        }, 
+        {
+          "desc": "Gordon took Raina to Afterlife", 
+          "p1": "Raina", 
+          "p2": "Gordon"
+        }, 
+        {
+          "desc": "Raina and Jiaying met in Afterlife", 
+          "p1": "Raina", 
+          "p2": "Jiaying"
+        }, 
+        {
+          "desc": "Raina passed Bobbi when searching for the Monolith aboard the Iliad", 
+          "p1": "Raina", 
+          "p2": "Bobbi Morse"
+        }, 
+        {
+          "desc": "Hunter set off an alarm when he saw Raina aboard the Iliad", 
+          "p1": "Raina", 
+          "p2": "Lance Hunter"
+        }, 
+        {
+          "desc": "Raina met Brick when he was being operated on by Cal", 
+          "p1": "Raina", 
+          "p2": "Brick"
+        }, 
+        {
+          "desc": "Raina met Deacon at Cal's 'surgery'", 
+          "p1": "Raina", 
+          "p2": "Deacon"
+        }, 
+        {
+          "desc": "Lincoln and Raina met in Afterlife", 
+          "p1": "Raina", 
+          "p2": "Lincoln Campbell"
+        }, 
+        {
+          "desc": "Jane and her sister were friends with Hunter and his wife", 
+          "p1": "Jane Hartley", 
+          "p2": "Lance Hunter"
+        }, 
+        {
+          "desc": "Jane and her sister were friends with Bobbi and her husband", 
+          "p1": "Jane Hartley", 
+          "p2": "Bobbi Morse"
+        }, 
+        {
+          "desc": "Whilst disguised as May, Agent 33 fought May", 
+          "p1": "Kara 'Agent 33' Palamas", 
+          "p2": "Melinda May"
+        }, 
+        {
+          "desc": "Coulson attacked Agent 33 when he found out she was impersonating May", 
+          "p1": "Kara 'Agent 33' Palamas", 
+          "p2": "Agent Coulson"
+        }, 
+        {
+          "desc": "Agent 33 attacked Daisy (then Skye) who was protecting Raina from Hydra", 
+          "p1": "Kara 'Agent 33' Palamas", 
+          "p2": "Daisy Johnson"
+        }, 
+        {
+          "desc": "Hunter knocked out Agent 33 to stop her killing Skye", 
+          "p1": "Kara 'Agent 33' Palamas", 
+          "p2": "Lance Hunter"
+        }, 
+        {
+          "desc": "Agent 33 saved Wards life after Skye shot him", 
+          "p1": "Kara 'Agent 33' Palamas", 
+          "p2": "Grant Ward"
+        }, 
+        {
+          "desc": "Agent 33 had Selwyn repair the photostatic veil that was stuck on her face", 
+          "p1": "Kara 'Agent 33' Palamas", 
+          "p2": "Selwyn"
+        }, 
+        {
+          "desc": "Rhonda served Agent 33 and Ward at a diner", 
+          "p1": "Kara 'Agent 33' Palamas", 
+          "p2": "Waitress Rhonda"
+        }, 
+        {
+          "desc": "Mike went with Coulson to bring Kara and Ward in", 
+          "p1": "Kara 'Agent 33' Palamas", 
+          "p2": "Mike Peterson"
+        }, 
+        {
+          "desc": "Fitz was held hostage by Agent 33 when she was working with SHIELD to locate List", 
+          "p1": "Kara 'Agent 33' Palamas", 
+          "p2": "Leo Fitz"
+        }, 
+        {
+          "desc": "Kara and Ward tortured Bobbi for telling Hydra about Kara's safehouse", 
+          "p1": "Kara 'Agent 33' Palamas", 
+          "p2": "Bobbi Morse"
+        }, 
+        {
+          "desc": "Simmons helped Kara overcome Hydra's brainwashing", 
+          "p1": "Kara 'Agent 33' Palamas", 
+          "p2": "Jemma Simmons"
+        }, 
+        {
+          "desc": "Kara met Gonzales when Coulson recruited Ward to attack List's Hydra base", 
+          "p1": "Kara 'Agent 33' Palamas", 
+          "p2": "Robert Gonzales"
+        }, 
+        {
+          "desc": "Decker let Agent 33, disguised as Talbot's wife, into the Air Force base", 
+          "p1": "Kara 'Agent 33' Palamas", 
+          "p2": "Lieutenant Decker"
+        }, 
+        {
+          "desc": "Agent 33, disguised as Cara Talbot, met Campbell at Talbot's air force base", 
+          "p1": "Kara 'Agent 33' Palamas", 
+          "p2": "Staff Sergeant Campbell"
+        }, 
+        {
+          "desc": "Agent 33 met Tredwyck when infiltrating Talbot's Air Force base", 
+          "p1": "Kara 'Agent 33' Palamas", 
+          "p2": "Meredith Tredwyck"
+        }, 
+        {
+          "desc": "Agent 33 killed Brookton and stole his identity to escape the Air Force base", 
+          "p1": "Kara 'Agent 33' Palamas", 
+          "p2": "Staff Sergeant Brookton"
+        }, 
+        {
+          "desc": "Donnie froze Elias to death for revealing his location to Hydra", 
+          "p1": "Donnie Gill", 
+          "p2": "Elias"
+        }, 
+        {
+          "desc": "Simmons was sent to retrieve Donnie while undercover in Hydra", 
+          "p1": "Donnie Gill", 
+          "p2": "Jemma Simmons"
+        }, 
+        {
+          "desc": "Turgeon was Jemma's supervisor in Hydra's science lab", 
+          "p1": "Kenneth Turgeon", 
+          "p2": "Jemma Simmons"
+        }, 
+        {
+          "desc": "Morse met Turgeon when undercover in Hydra", 
+          "p1": "Kenneth Turgeon", 
+          "p2": "Bobbi Morse"
+        }, 
+        {
+          "desc": "Turgeon and Lingenfelter were both Hydra scientists", 
+          "p1": "Kenneth Turgeon", 
+          "p2": "Dr Lingenfelter"
+        }, 
+        {
+          "desc": "Theo was a doorman at the Hydra lab Simmons was undercover in", 
+          "p1": "Doorman Theo", 
+          "p2": "Jemma Simmons"
+        }, 
+        {
+          "desc": "May met Soto when trying to steal a Kree inscribed painting from him", 
+          "p1": "Gabriel Soto", 
+          "p2": "Melinda May"
+        }, 
+        {
+          "desc": "Coulson met Soto when trying to steal a Kree inscribed painting from him", 
+          "p1": "Gabriel Soto", 
+          "p2": "Agent Coulson"
+        }, 
+        {
+          "desc": "Bridget is Soto's executive assistant", 
+          "p1": "Gabriel Soto", 
+          "p2": "Bridget"
+        }, 
+        {
+          "desc": "Hunter stole tickets for Gabriel Soto's party from Bridget", 
+          "p1": "Bridget", 
+          "p2": "Lance Hunter"
+        }, 
+        {
+          "desc": "Brick and Deacon went to Cal for medical attention", 
+          "p1": "Deacon", 
+          "p2": "Brick"
+        }, 
+        {
+          "desc": "Simmons and Lingenfelter worked together in Whitehall's Hydra", 
+          "p1": "Dr Lingenfelter", 
+          "p2": "Jemma Simmons"
+        }, 
+        {
+          "desc": "Christian and Grant are brothers", 
+          "p1": "Christian Ward", 
+          "p2": "Grant Ward"
+        }, 
+        {
+          "desc": "Ward and Bekers debated the value of SHIELD on WHIH", 
+          "p1": "Christian Ward", 
+          "p2": "Julien Beckers"
+        }, 
+        {
+          "desc": "Christian and Thomas are brothers", 
+          "p1": "Christian Ward", 
+          "p2": "Thomas Ward"
+        }, 
+        {
+          "desc": "Christian and Anna were married", 
+          "p1": "Christian Ward", 
+          "p2": "Anna Ward"
+        }, 
+        {
+          "desc": "Scarlotti almost managed to kill Barton once", 
+          "p1": "Marcus Scarlotti", 
+          "p2": "Clint Barton"
+        }, 
+        {
+          "desc": "Scarlotti killed Dioli with a splinter bomb", 
+          "p1": "Marcus Scarlotti", 
+          "p2": "Adamo Dioli"
+        }, 
+        {
+          "desc": "Scarlotti killed Walters at her safe house", 
+          "p1": "Marcus Scarlotti", 
+          "p2": "Noelle Walters"
+        }, 
+        {
+          "desc": "Hunter met Scarlotti at the SHIELD safehouse he had taken over", 
+          "p1": "Marcus Scarlotti", 
+          "p2": "Lance Hunter"
+        }, 
+        {
+          "desc": "May took Scarlotti down", 
+          "p1": "Marcus Scarlotti", 
+          "p2": "Melinda May"
+        }, 
+        {
+          "desc": "Bobbi attacked the safehouse Scarlotti took over", 
+          "p1": "Marcus Scarlotti", 
+          "p2": "Bobbi Morse"
+        }, 
+        {
+          "desc": "Scarlotti worked killing SHIELD agents for Beckers", 
+          "p1": "Marcus Scarlotti", 
+          "p2": "Julien Beckers"
+        }, 
+        {
+          "desc": "Bobbi met Toshiro when she was undercover in Hydra", 
+          "p1": "Toshiro Mori", 
+          "p2": "Bobbi Morse"
+        }, 
+        {
+          "desc": "Hunter and Bobbi both shot and killed Mori", 
+          "p1": "Toshiro Mori", 
+          "p2": "Lance Hunter"
+        }, 
+        {
+          "desc": "Derik was picked by Coulson as a project TAHITI test subject", 
+          "p1": "Sebastian Derik", 
+          "p2": "Agent Coulson"
+        }, 
+        {
+          "desc": "Derik killed Seaver trying to make him remember his pre-TAHITI life", 
+          "p1": "Sebastian Derik", 
+          "p2": "Lewis Seaver"
+        }, 
+        {
+          "desc": "Derik killed Janice trying to make her remember her pre-TAHITI life", 
+          "p1": "Sebastian Derik", 
+          "p2": "Janice Robbins"
+        }, 
+        {
+          "desc": "Derik visited Thompson to find what he knew about the GH325 Kree symbols", 
+          "p1": "Sebastian Derik", 
+          "p2": "Hank Thompson"
+        }, 
+        {
+          "desc": "Daisy interrupted a fight between Derik and Coulson", 
+          "p1": "Sebastian Derik", 
+          "p2": "Daisy Johnson"
+        }, 
+        {
+          "desc": "Derik met Katie when questioning her husband about project TAHITI", 
+          "p1": "Sebastian Derik", 
+          "p2": "Katie Thompson"
+        }, 
+        {
+          "desc": "Walters was assigned to protect Beckers, who was actually leading her into a Hydra trap", 
+          "p1": "Noelle Walters", 
+          "p2": "Julien Beckers"
+        }, 
+        {
+          "desc": "Walters worked for Coulson as a european SHIELD agent", 
+          "p1": "Noelle Walters", 
+          "p2": "Agent Coulson"
+        }, 
+        {
+          "desc": "Jules is Julien's father", 
+          "p1": "Julien Beckers", 
+          "p2": "Jules Beckers"
+        }, 
+        {
+          "desc": "Vincent is Jules' father", 
+          "p1": "Jules Beckers", 
+          "p2": "Vincent Beckers"
+        }, 
+        {
+          "desc": "Vincent is Julien's grandfather", 
+          "p1": "Julien Beckers", 
+          "p2": "Vincent Beckers"
+        }, 
+        {
+          "desc": "Vincent Beckers was a scientist who worked for the Red Skull", 
+          "p1": "Vincent Beckers", 
+          "p2": "Red Skull"
+        }, 
+        {
+          "desc": "Hank and Katie are married", 
+          "p1": "Hank Thompson", 
+          "p2": "Katie Thompson"
+        }, 
+        {
+          "desc": "Goodman operated on Thompson as part of project TAHITI", 
+          "p1": "Hank Thompson", 
+          "p2": "Dr Goodman"
+        }, 
+        {
+          "desc": "Coulson worked with Thompson before project TAHITI", 
+          "p1": "Hank Thompson", 
+          "p2": "Agent Coulson"
+        }, 
+        {
+          "desc": "Daisy (then Skye) saved Hank from the GH325 maddened Coulson and Derik", 
+          "p1": "Hank Thompson", 
+          "p2": "Daisy Johnson"
+        }, 
+        {
+          "desc": "Coulson met Katie when searching for other TAHITI patients", 
+          "p1": "Katie Thompson", 
+          "p2": "Agent Coulson"
+        }, 
+        {
+          "desc": "Daisy (then Skye) met Katie when searching for a GH325 maddened Coulson", 
+          "p1": "Katie Thompson", 
+          "p2": "Daisy Johnson"
+        }, 
+        {
+          "desc": "Janice was a project TAHITI test subject picked by Coulson", 
+          "p1": "Janice Robbins", 
+          "p2": "Agent Coulson"
+        }, 
+        {
+          "desc": "Goodman wiped Janice's memory as part of project TAHITI", 
+          "p1": "Janice Robbins", 
+          "p2": "Dr Goodman"
+        }, 
+        {
+          "desc": "Daisy (then Skye) knew Micro through the Rising Tide", 
+          "p1": "David 'Micro' Lieberman", 
+          "p2": "Daisy Johnson"
+        }, 
+        {
+          "desc": "Coulson ran project TAHITI, which Seaver was test subject in", 
+          "p1": "Lewis Seaver", 
+          "p2": "Agent Coulson"
+        }, 
+        {
+          "desc": "Goodman operated on Seaver as part of Project TAHITI", 
+          "p1": "Lewis Seaver", 
+          "p2": "Dr Goodman"
+        }, 
+        {
+          "desc": "Eliza is Graham's mother", 
+          "p1": "Eliza", 
+          "p2": "Graham"
+        }, 
+        {
+          "desc": "Ward helped Eliza with her bags", 
+          "p1": "Eliza", 
+          "p2": "Grant Ward"
+        }, 
+        {
+          "desc": "Ward helped Graham get his luggage onto a bus", 
+          "p1": "Graham", 
+          "p2": "Grant Ward"
+        }, 
+        {
+          "desc": "Coulson and Goodman worked together on Project TAHITI", 
+          "p1": "Dr Goodman", 
+          "p2": "Agent Coulson"
+        }, 
+        {
+          "desc": "Gordon followed Jiaying's orders in Afterlife", 
+          "p1": "Jiaying", 
+          "p2": "Gordon"
+        }, 
+        {
+          "desc": "Jiaying refused to let Eva put her daughter through teregenisis", 
+          "p1": "Jiaying", 
+          "p2": "Eva Belyakov"
+        }, 
+        {
+          "desc": "Jiaying refused to let Katya through teregenisis", 
+          "p1": "Jiaying", 
+          "p2": "Katya Belyakov"
+        }, 
+        {
+          "desc": "Jiaying is Daisy's mother", 
+          "p1": "Jiaying", 
+          "p2": "Daisy Johnson"
+        }, 
+        {
+          "desc": "Jiaying and Ethan spoke in Afterlife", 
+          "p1": "Jiaying", 
+          "p2": "Ethan Johnston"
+        }, 
+        {
+          "desc": "Lincoln followed Jiaying's leadership in Afterlife", 
+          "p1": "Jiaying", 
+          "p2": "Lincoln Campbell"
+        }, 
+        {
+          "desc": "Gonzales met with Jiaying to discuss inhuman registration", 
+          "p1": "Jiaying", 
+          "p2": "Robert Gonzales"
+        }, 
+        {
+          "desc": "Simmosn offered to treat Jiaying's bullet wounds after negotiations with Gonzales ended", 
+          "p1": "Jiaying", 
+          "p2": "Jemma Simmons"
+        }, 
+        {
+          "desc": "Wilton treated Jiaying's bullet wound after she ended talks with SHIELD", 
+          "p1": "Jiaying", 
+          "p2": "Doctor Wilton"
+        }, 
+        {
+          "desc": "Alisha fought for Jiaying in taking the SHIELD carrier Iliad", 
+          "p1": "Jiaying", 
+          "p2": "Alisha Whitley"
+        }, 
+        {
+          "desc": "Jiaying met Weaver when she took control of the SHIELD carrier Iliad", 
+          "p1": "Jiaying", 
+          "p2": "Anne Weaver"
+        }, 
+        {
+          "desc": "Jiaying killed Oliver with a diviner infused terrigen crystal", 
+          "p1": "Jiaying", 
+          "p2": "Agent Oliver"
+        }, 
+        {
+          "desc": "Jiaying and Yat-Sen spoke with Gordon after his terrigenisis", 
+          "p1": "Jiaying", 
+          "p2": "Yat-Sen"
+        }, 
+        {
+          "desc": "Jiaying saw May in the aftermath of Bahrain", 
+          "p1": "Jiaying", 
+          "p2": "Melinda May"
+        }, 
+        {
+          "desc": "Wilton and Lincoln met in Afterlife", 
+          "p1": "Doctor Wilton", 
+          "p2": "Lincoln Campbell"
+        }, 
+        {
+          "desc": "Daisy (then Skye) met Wilton in Afterlife", 
+          "p1": "Doctor Wilton", 
+          "p2": "Daisy Johnson"
+        }, 
+        {
+          "desc": "Trip planted half of an EMP generator on General Cole", 
+          "p1": "General Cole", 
+          "p2": "Antoine Triplett"
+        }, 
+        {
+          "desc": "Cole went performed inspections of Darren's air force base", 
+          "p1": "General Cole", 
+          "p2": "Commander Darren"
+        }, 
+        {
+          "desc": "Sam and Eric are brothers", 
+          "p1": "Sam Koenig", 
+          "p2": "Eric Koenig"
+        }, 
+        {
+          "desc": "Coulson had Sam working on Theta Protocol", 
+          "p1": "Sam Koenig", 
+          "p2": "Agent Coulson"
+        }, 
+        {
+          "desc": "Sam and Hunter worked together for SHIELD", 
+          "p1": "Sam Koenig", 
+          "p2": "Lance Hunter"
+        }, 
+        {
+          "desc": "May and Sam worked together for SHIELD", 
+          "p1": "Sam Koenig", 
+          "p2": "Melinda May"
+        }, 
+        {
+          "desc": "Sam and Daisy (then Skye) worked together for SHIELD", 
+          "p1": "Sam Koenig", 
+          "p2": "Daisy Johnson"
+        }, 
+        {
+          "desc": "Koenig held a gun at Ward when he boarded The Bus for Raina and Skye", 
+          "p1": "Sam Koenig", 
+          "p2": "Grant Ward"
+        }, 
+        {
+          "desc": "Diego was a contact for Bobbi in Puerto Rico", 
+          "p1": "Politician Diego", 
+          "p2": "Bobbi Morse"
+        }, 
+        {
+          "desc": "Hunter was with Bobbi when she met with Diego", 
+          "p1": "Politician Diego", 
+          "p2": "Lance Hunter"
+        }, 
+        {
+          "desc": "Yat-Sen spoke with Gordon after he went throgh teregenisis", 
+          "p1": "Gordon", 
+          "p2": "Yat-Sen"
+        }, 
+        {
+          "desc": "May passed Gordon in the aftermath of Bahrain", 
+          "p1": "Gordon", 
+          "p2": "Melinda May"
+        }, 
+        {
+          "desc": "Gordon transported Lincoln in and out of Afterlife", 
+          "p1": "Gordon", 
+          "p2": "Lincoln Campbell"
+        }, 
+        {
+          "desc": "Gordon brought Daisy (then Skye) to Afterlife", 
+          "p1": "Gordon", 
+          "p2": "Daisy Johnson"
+        }, 
+        {
+          "desc": "Gordon took Ethan from Afterlife to go on a camping trip", 
+          "p1": "Gordon", 
+          "p2": "Ethan Johnston"
+        }, 
+        {
+          "desc": "Hunter spotted Gordon breaking into the Iliad", 
+          "p1": "Gordon", 
+          "p2": "Lance Hunter"
+        }, 
+        {
+          "desc": "Bobbi found Gordon in the Monolith chamber aboard the Iliad", 
+          "p1": "Gordon", 
+          "p2": "Bobbi Morse"
+        }, 
+        {
+          "desc": "May found Gordon in the Monolith chamber aboard the Iliad", 
+          "p1": "Gordon", 
+          "p2": "Melinda May"
+        }, 
+        {
+          "desc": "Gordon and Alisha fought together in Jiayings attack on the Iliad", 
+          "p1": "Gordon", 
+          "p2": "Alisha Whitley"
+        }, 
+        {
+          "desc": "Gordon welcomed Weaver's quinjet to Afterlife", 
+          "p1": "Gordon", 
+          "p2": "Anne Weaver"
+        }, 
+        {
+          "desc": "Gordon was present when Jiaying killed Oliver", 
+          "p1": "Gordon", 
+          "p2": "Agent Oliver"
+        }, 
+        {
+          "desc": "Fitz was the actual person who killed Gordon", 
+          "p1": "Gordon", 
+          "p2": "Leo Fitz"
+        }, 
+        {
+          "desc": "Coulson fought with Fitz and Mack against Gordon aboard the Iliad", 
+          "p1": "Gordon", 
+          "p2": "Agent Coulson"
+        }, 
+        {
+          "desc": "Bloom and The Sheikh met at a gathering of the heads of Hydra", 
+          "p1": "Octavian Bloom", 
+          "p2": "The Sheikh"
+        }, 
+        {
+          "desc": "Bloom and The Banker met at a gathering of the heads of Hydra", 
+          "p1": "Octavian Bloom", 
+          "p2": "The Banker"
+        }, 
+        {
+          "desc": "Bloom and The Baroness met at a gathering of the heads of Hydra", 
+          "p1": "Octavian Bloom", 
+          "p2": "The Baroness"
+        }, 
+        {
+          "desc": "List represented Wolfgang von Strucker at Bloom's gathering of the heads of Hydra", 
+          "p1": "Octavian Bloom", 
+          "p2": "Doctor List"
+        }, 
+        {
+          "desc": "Strucker and Bloom would have met at gatherings of Hydra leaders", 
+          "p1": "Octavian Bloom", 
+          "p2": "Wolfgang von Strucker"
+        }, 
+        {
+          "desc": "Whitehall and Bloom would have met at gatherings of Hydra leaders", 
+          "p1": "Octavian Bloom", 
+          "p2": "Daniel Whitehall"
+        }, 
+        {
+          "desc": "Hunter killed Bloom", 
+          "p1": "Octavian Bloom", 
+          "p2": "Lance Hunter"
+        }, 
+        {
+          "desc": "Bobbi broke into Bloom's house with Hunter to kill Bloom", 
+          "p1": "Octavian Bloom", 
+          "p2": "Bobbi Morse"
+        }, 
+        {
+          "desc": "The Sheikh and The Banker met at a gathering of the heads of Hydra", 
+          "p1": "The Sheikh", 
+          "p2": "The Banker"
+        }, 
+        {
+          "desc": "The Sheikh and The Baroness met at a gathering of the heads of Hydra", 
+          "p1": "The Sheikh", 
+          "p2": "The Baroness"
+        }, 
+        {
+          "desc": "The Sheikh and Doctor List met at a gathering of the heads of Hydra", 
+          "p1": "The Sheikh", 
+          "p2": "Doctor List"
+        }, 
+        {
+          "desc": "Strucker and The Sheikh would have met at gatherings of Hydra leaders", 
+          "p1": "The Sheikh", 
+          "p2": "Wolfgang von Strucker"
+        }, 
+        {
+          "desc": "Whitehall and The Sheikh would have met at gatherings of Hydra leaders", 
+          "p1": "The Sheikh", 
+          "p2": "Daniel Whitehall"
+        }, 
+        {
+          "desc": "The Banker and The Baroness met at a gathering of the heads of Hydra", 
+          "p1": "The Banker", 
+          "p2": "The Baroness"
+        }, 
+        {
+          "desc": "The Banker and Doctor List met at a gathering of the heads of Hydra", 
+          "p1": "The Banker", 
+          "p2": "Doctor List"
+        }, 
+        {
+          "desc": "Strucker and The Banker would have met at gatherings of Hydra leaders", 
+          "p1": "The Banker", 
+          "p2": "Wolfgang von Strucker"
+        }, 
+        {
+          "desc": "Whitehall and The Banker would have met at gatherings of Hydra leaders", 
+          "p1": "The Banker", 
+          "p2": "Daniel Whitehall"
+        }, 
+        {
+          "desc": "The Baroness and Doctor List met at a gathering of the heads of Hydra", 
+          "p1": "The Baroness", 
+          "p2": "Doctor List"
+        }, 
+        {
+          "desc": "Strucker and The Baroness would have met at gatherings of Hydra leaders", 
+          "p1": "The Baroness", 
+          "p2": "Wolfgang von Strucker"
+        }, 
+        {
+          "desc": "Whitehall and The Baroness would have met at gatherings of Hydra leaders", 
+          "p1": "The Baroness", 
+          "p2": "Daniel Whitehall"
+        }, 
+        {
+          "desc": "Strucker sent List to represent him at a gathering of Hydra heads", 
+          "p1": "Doctor List", 
+          "p2": "Wolfgang von Strucker"
+        }, 
+        {
+          "desc": "List knew Whitehall before his death", 
+          "p1": "Doctor List", 
+          "p2": "Daniel Whitehall"
+        }, 
+        {
+          "desc": "List performed experiments on Johnston which killed him", 
+          "p1": "Doctor List", 
+          "p2": "Ethan Johnston"
+        }, 
+        {
+          "desc": "Peterson was captured by List, who dismantled all his cybernetic enhancements", 
+          "p1": "Doctor List", 
+          "p2": "Mike Peterson"
+        }, 
+        {
+          "desc": "List captured and experimented on Lincoln to learn about his powers", 
+          "p1": "Doctor List", 
+          "p2": "Lincoln Campbell"
+        }, 
+        {
+          "desc": "Mrs Triplett was Antoine's mother", 
+          "p1": "Mrs Triplett", 
+          "p2": "Antoine Triplett"
+        }, 
+        {
+          "desc": "Coulson visited Mrs Triplett to inform her of her son's passing", 
+          "p1": "Mrs Triplett", 
+          "p2": "Agent Coulson"
+        }, 
+        {
+          "desc": "Sif returned Vin-Tak to the Kree", 
+          "p1": "Sif", 
+          "p2": "Vin-Tak"
+        }, 
+        {
+          "desc": "Coulson worked with Sif to track down Earth's Kree visitor", 
+          "p1": "Sif", 
+          "p2": "Agent Coulson"
+        }, 
+        {
+          "desc": "May and Sif worked together to locate Earth's Kree visitor", 
+          "p1": "Sif", 
+          "p2": "Melinda May"
+        }, 
+        {
+          "desc": "Sif wanted to bring Daisy (then Skye) to Asgard because of her new powers", 
+          "p1": "Sif", 
+          "p2": "Daisy Johnson"
+        }, 
+        {
+          "desc": "Fitz met Sif when she was tracking a Kree on Earth", 
+          "p1": "Sif", 
+          "p2": "Leo Fitz"
+        }, 
+        {
+          "desc": "Simmons met Sif when she was tracking a Kree on Earth", 
+          "p1": "Sif", 
+          "p2": "Jemma Simmons"
+        }, 
+        {
+          "desc": "Fitz met Sif when she was tracking a Kree on Earth", 
+          "p1": "Sif", 
+          "p2": "Lance Hunter"
+        }, 
+        {
+          "desc": "Mack met Sif when she was tracking a Kree on Earth", 
+          "p1": "Sif", 
+          "p2": "Alphonso Mackenzie"
+        }, 
+        {
+          "desc": "Bobbi met Sif when she was tracking a Kree on Earth", 
+          "p1": "Sif", 
+          "p2": "Bobbi Morse"
+        }, 
+        {
+          "desc": "Sif spoke to Cardozo to get intel about Vin-Tak", 
+          "p1": "Sif", 
+          "p2": "Cardozo"
+        }, 
+        {
+          "desc": "Sif went to Carvalho's police station trying to find \"Kava\"", 
+          "p1": "Sif", 
+          "p2": "Officer Carvalho"
+        }, 
+        {
+          "desc": "Sif punched Bruno down the beach after she had her memory wiped", 
+          "p1": "Sif", 
+          "p2": "Bruno"
+        }, 
+        {
+          "desc": "Sif spoke with Tiago after her memory was wiped in Portugal", 
+          "p1": "Sif", 
+          "p2": "Tiago"
+        }, 
+        {
+          "desc": "Vin-Tak tried to kill Daisy to end the ancient teregenesis experiments", 
+          "p1": "Vin-Tak", 
+          "p2": "Daisy Johnson"
+        }, 
+        {
+          "desc": "Bobbi fought Vin-Tak in a Portugese hospital", 
+          "p1": "Vin-Tak", 
+          "p2": "Bobbi Morse"
+        }, 
+        {
+          "desc": "Hunter captured Vin-Tak with an electric shock net", 
+          "p1": "Vin-Tak", 
+          "p2": "Lance Hunter"
+        }, 
+        {
+          "desc": "Coulson and Vin-Tak met when he came to earth to end teregenesis experiments", 
+          "p1": "Vin-Tak", 
+          "p2": "Agent Coulson"
+        }, 
+        {
+          "desc": "May and Vin-Tak met when he came to earth to end teregenesis experiments", 
+          "p1": "Vin-Tak", 
+          "p2": "Melinda May"
+        }, 
+        {
+          "desc": "Fitz took down Vin-Tak using \"Bambino\", the destroyer gun", 
+          "p1": "Vin-Tak", 
+          "p2": "Leo Fitz"
+        }, 
+        {
+          "desc": "Vin-Tak stole gas valves from Cardozo to fix his disguise tech", 
+          "p1": "Vin-Tak", 
+          "p2": "Cardozo"
+        }, 
+        {
+          "desc": "Coulson spoke to Cardozo about Sif's fight with Vin-Tak", 
+          "p1": "Cardozo", 
+          "p2": "Agent Coulson"
+        }, 
+        {
+          "desc": "May spoke to Cardozo to get intel about Vin-Tak", 
+          "p1": "Cardozo", 
+          "p2": "Melinda May"
+        }, 
+        {
+          "desc": "Carvalho released a memory wiped Sif into Coulson's care", 
+          "p1": "Officer Carvalho", 
+          "p2": "Agent Coulson"
+        }, 
+        {
+          "desc": "Bruno and Tiago were on the beach with friends when a memory wiped Sif walked out of the ocean", 
+          "p1": "Bruno", 
+          "p2": "Tiago"
+        }, 
+        {
+          "desc": "Karla and Wendel were recruited by Cal to get revenge on Coulson and SHIELD", 
+          "p1": "Karla Faye Gideon", 
+          "p2": "Wendell Levi"
+        }, 
+        {
+          "desc": "Karla and Francis were recruited by Cal to get revenge on Coulson and SHIELD", 
+          "p1": "Karla Faye Gideon", 
+          "p2": "Francis Noche"
+        }, 
+        {
+          "desc": "David and Karla were recruited by Cal to get revenge on Coulson and SHIELD", 
+          "p1": "Karla Faye Gideon", 
+          "p2": "David Angar"
+        }, 
+        {
+          "desc": "Karla was taken down by Bobbi", 
+          "p1": "Karla Faye Gideon", 
+          "p2": "Bobbi Morse"
+        }, 
+        {
+          "desc": "Wendell and Francis were recruited by Cal to get revenge on Coulson and SHIELD", 
+          "p1": "Wendell Levi", 
+          "p2": "Francis Noche"
+        }, 
+        {
+          "desc": "David and Wendell were recruited by Cal to get revenge on Coulson and SHIELD", 
+          "p1": "Wendell Levi", 
+          "p2": "David Angar"
+        }, 
+        {
+          "desc": "Coulson knocked out Levi with a briefcase", 
+          "p1": "Wendell Levi", 
+          "p2": "Agent Coulson"
+        }, 
+        {
+          "desc": "David and Wendell were recruited by Cal to get revenge on Coulson and SHIELD", 
+          "p1": "Francis Noche", 
+          "p2": "David Angar"
+        }, 
+        {
+          "desc": "Francis broke John out of his cell", 
+          "p1": "Francis Noche", 
+          "p2": "John Bruno"
+        }, 
+        {
+          "desc": "Noche got taken down by The Cavalry", 
+          "p1": "Francis Noche", 
+          "p2": "Melinda May"
+        }, 
+        {
+          "desc": "Coulson knocked out Angar to stop him using his super scream", 
+          "p1": "David Angar", 
+          "p2": "Agent Coulson"
+        }, 
+        {
+          "desc": "May and Andrew used to be married", 
+          "p1": "Andrew Garner", 
+          "p2": "Melinda May"
+        }, 
+        {
+          "desc": "Garner worked for Coulson as a psychologist in SHIELD", 
+          "p1": "Andrew Garner", 
+          "p2": "Agent Coulson"
+        }, 
+        {
+          "desc": "Lian was Andrew's Mother-in-law", 
+          "p1": "Andrew Garner", 
+          "p2": "Lian May"
+        }, 
+        {
+          "desc": "Garner tried to assess Daisy (then Skye) for the index", 
+          "p1": "Andrew Garner", 
+          "p2": "Daisy Johnson"
+        }, 
+        {
+          "desc": "Simmons briefed Dr Garner about Skye's condition", 
+          "p1": "Andrew Garner", 
+          "p2": "Jemma Simmons"
+        }, 
+        {
+          "desc": "Calderon worked for the 'Real SHIELD' under Gonzales", 
+          "p1": "Tomas Calderon", 
+          "p2": "Robert Gonzales"
+        }, 
+        {
+          "desc": "Calderon rescued Weaver from the academy during the Hydra uprising", 
+          "p1": "Tomas Calderon", 
+          "p2": "Anne Weaver"
+        }, 
+        {
+          "desc": "Oliver and Calderon were leaders of the 'Real SHIELD'", 
+          "p1": "Tomas Calderon", 
+          "p2": "Agent Oliver"
+        }, 
+        {
+          "desc": "Calderon was one of Bobbi's bosses in the 'Real SHIELD'", 
+          "p1": "Tomas Calderon", 
+          "p2": "Bobbi Morse"
+        }, 
+        {
+          "desc": "Calderon tried to shoot Daisy (then Skye) who deflected it, and got him back, with a shockwave", 
+          "p1": "Tomas Calderon", 
+          "p2": "Daisy Johnson"
+        }, 
+        {
+          "desc": "Weaver and Gonzales worked together in the 'Real SHIELD'", 
+          "p1": "Anne Weaver", 
+          "p2": "Robert Gonzales"
+        }, 
+        {
+          "desc": "Oliver and Weaver served as leaders of the 'Real SHIELD'", 
+          "p1": "Anne Weaver", 
+          "p2": "Agent Oliver"
+        }, 
+        {
+          "desc": "Weaver met Hunter when he was taken to the Iliad by Mack", 
+          "p1": "Anne Weaver", 
+          "p2": "Lance Hunter"
+        }, 
+        {
+          "desc": "Weaver was one of Bobbi's bosses in the 'Real SHIELD'", 
+          "p1": "Anne Weaver", 
+          "p2": "Bobbi Morse"
+        }, 
+        {
+          "desc": "Weaver and Fitz spoke after 'Real SHIELD' took over The Playground", 
+          "p1": "Anne Weaver", 
+          "p2": "Leo Fitz"
+        }, 
+        {
+          "desc": "Weaver and Simmons spoke after 'Real SHIELD' took over The Playground", 
+          "p1": "Anne Weaver", 
+          "p2": "Jemma Simmons"
+        }, 
+        {
+          "desc": "May joined Weaver & Co on a SHIELD leadership council", 
+          "p1": "Anne Weaver", 
+          "p2": "Melinda May"
+        }, 
+        {
+          "desc": "Gonzales worked with Fury at some point before the Hydra uprising", 
+          "p1": "Robert Gonzales", 
+          "p2": "Nick Fury"
+        }, 
+        {
+          "desc": "Bobbi rescued Gonzales when Hydra attacked the Iliad", 
+          "p1": "Robert Gonzales", 
+          "p2": "Bobbi Morse"
+        }, 
+        {
+          "desc": "Case tended to Gonzales' wounds after Hydra attacked the Iliad", 
+          "p1": "Robert Gonzales", 
+          "p2": "Agent Case"
+        }, 
+        {
+          "desc": "Susanna worked with Gonzales to retake the Iliad from Hydra", 
+          "p1": "Robert Gonzales", 
+          "p2": "Agent Susanna"
+        }, 
+        {
+          "desc": "Hunter met Gonzales when he was kidnapped by Mack", 
+          "p1": "Robert Gonzales", 
+          "p2": "Lance Hunter"
+        }, 
+        {
+          "desc": "Oliver and Gonzales were heads of the 'Real SHIELD'", 
+          "p1": "Robert Gonzales", 
+          "p2": "Agent Oliver"
+        }, 
+        {
+          "desc": "Coulson and Gonzales joined forces to lead SHIELD", 
+          "p1": "Robert Gonzales", 
+          "p2": "Agent Coulson"
+        }, 
+        {
+          "desc": "Gonzales had Fitz open Fury's toolbox", 
+          "p1": "Robert Gonzales", 
+          "p2": "Leo Fitz"
+        }, 
+        {
+          "desc": "Gonzales had Simmons open Fury's toolbox", 
+          "p1": "Robert Gonzales", 
+          "p2": "Jemma Simmons"
+        }, 
+        {
+          "desc": "May joined Gonzales as a leader of SHIELD", 
+          "p1": "Robert Gonzales", 
+          "p2": "Melinda May"
+        }, 
+        {
+          "desc": "Gonzales met Ward when Coulson recruited him to attack List's Hydra base", 
+          "p1": "Robert Gonzales", 
+          "p2": "Grant Ward"
+        }, 
+        {
+          "desc": "Gonzales met Daisy (then Skye) when he visited Afterlife to meet Jiaying", 
+          "p1": "Robert Gonzales", 
+          "p2": "Daisy Johnson"
+        }, 
+        {
+          "desc": "Campbell called Decker to verify 'Cara Talbot's identity", 
+          "p1": "Lieutenant Decker", 
+          "p2": "Staff Sergeant Campbell"
+        }, 
+        {
+          "desc": "Tredwyck was gathered by Decker when searching for Agent 33", 
+          "p1": "Lieutenant Decker", 
+          "p2": "Meredith Tredwyck"
+        }, 
+        {
+          "desc": "Decker gathered Anderson and other base personel in the search for Agent 33", 
+          "p1": "Lieutenant Decker", 
+          "p2": "Captain Anderson"
+        }, 
+        {
+          "desc": "Brookton worked with Tredwyck at Talbot's Air Force base", 
+          "p1": "Staff Sergeant Brookton", 
+          "p2": "Meredith Tredwyck"
+        }, 
+        {
+          "desc": "Tredwyck and Anderson worked together on Talbot's Air Force base", 
+          "p1": "Captain Anderson", 
+          "p2": "Meredith Tredwyck"
+        }, 
+        {
+          "desc": "Ward killed Campbell when breaking into Talbot's base", 
+          "p1": "Staff Sergeant Campbell", 
+          "p2": "Grant Ward"
+        }, 
+        {
+          "desc": "Selwyn was a customer at Rhonda's diner", 
+          "p1": "Selwyn", 
+          "p2": "Waitress Rhonda"
+        }, 
+        {
+          "desc": "Ward kidnapped Selwyn to repair Agent 33's disguise mask", 
+          "p1": "Selwyn", 
+          "p2": "Grant Ward"
+        }, 
+        {
+          "desc": "Ward was a customer at Rhonda's diner", 
+          "p1": "Waitress Rhonda", 
+          "p2": "Grant Ward"
+        }, 
+        {
+          "desc": "Oliver was one of Bobbi's bosses in the 'Real SHIELD'", 
+          "p1": "Agent Oliver", 
+          "p2": "Bobbi Morse"
+        }, 
+        {
+          "desc": "Oliver met Lance when he was choked and kidnapped by Mack", 
+          "p1": "Agent Oliver", 
+          "p2": "Lance Hunter"
+        }, 
+        {
+          "desc": "Oliver and Coulson led SHIELD together", 
+          "p1": "Agent Oliver", 
+          "p2": "Agent Coulson"
+        }, 
+        {
+          "desc": "May joined Oliver & Co on the SHIELD leadership council", 
+          "p1": "Agent Oliver", 
+          "p2": "Melinda May"
+        }, 
+        {
+          "desc": "Harris informed Oliver of Gonzales' death", 
+          "p1": "Agent Oliver", 
+          "p2": "Agent Harris"
+        }, 
+        {
+          "desc": "Case and Maguire worked together on the SHIELD carrier Iliad", 
+          "p1": "Agent Case", 
+          "p2": "Tim Maguire"
+        }, 
+        {
+          "desc": "Susanna and Case worked together on the SHIELD carrier Iliad", 
+          "p1": "Agent Case", 
+          "p2": "Agent Susanna"
+        }, 
+        {
+          "desc": "Bobbi saved Case from being killed by Hydra on the Iliad", 
+          "p1": "Agent Case", 
+          "p2": "Bobbi Morse"
+        }, 
+        {
+          "desc": "Tim and Susanna worked together on the SHIELD carrier Iliad", 
+          "p1": "Tim Maguire", 
+          "p2": "Agent Susanna"
+        }, 
+        {
+          "desc": "Bobbi and Susanna worked together to retake the Iliad from Hydra", 
+          "p1": "Agent Susanna", 
+          "p2": "Bobbi Morse"
+        }, 
+        {
+          "desc": "Lincoln welcomed Daisy (then Skye) to Afterlife and helped her with her powers", 
+          "p1": "Lincoln Campbell", 
+          "p2": "Daisy Johnson"
+        }, 
+        {
+          "desc": "Lincoln and Mike were both captured and experimented on by Hydra", 
+          "p1": "Lincoln Campbell", 
+          "p2": "Mike Peterson"
+        }, 
+        {
+          "desc": "Simmons helped Lincoln recover after his kidnapping by Hydra", 
+          "p1": "Lincoln Campbell", 
+          "p2": "Jemma Simmons"
+        }, 
+        {
+          "desc": "Lincoln met Coulson when recovering from his kidnapping by Hydra", 
+          "p1": "Lincoln Campbell", 
+          "p2": "Agent Coulson"
+        }, 
+        {
+          "desc": "Lincoln and Alisha worked together to take the Iliad for Jiaying", 
+          "p1": "Lincoln Campbell", 
+          "p2": "Alisha Whitley"
+        }, 
+        {
+          "desc": "May and Lincoln saved Skye from Alisha Whitley", 
+          "p1": "Lincoln Campbell", 
+          "p2": "Melinda May"
+        }, 
+        {
+          "desc": "Coulson and Hunter stole Eddie's jeep", 
+          "p1": "Honest Eddie", 
+          "p2": "Agent Coulson"
+        }, 
+        {
+          "desc": "Hunter and Coulson stole Eddie's jeep", 
+          "p1": "Honest Eddie", 
+          "p2": "Lance Hunter"
+        }, 
+        {
+          "desc": "Mike worked in SHIELD for Coulson", 
+          "p1": "Mike Peterson", 
+          "p2": "Agent Coulson"
+        }, 
+        {
+          "desc": "Mike was Hunter and Coulson's backup when on the run from the 'Real SHIELD'", 
+          "p1": "Mike Peterson", 
+          "p2": "Lance Hunter"
+        }, 
+        {
+          "desc": "Mike helped locate Ward to infiltrate List's Hydra", 
+          "p1": "Mike Peterson", 
+          "p2": "Grant Ward"
+        }, 
+        {
+          "desc": "Mike helped rescue Fitz, who was on the run from SHIELD with Fury's toolbox", 
+          "p1": "Mike Peterson", 
+          "p2": "Leo Fitz"
+        }, 
+        {
+          "desc": "Simmons helped Mike recover after Hydra disassembled him", 
+          "p1": "Mike Peterson", 
+          "p2": "Jemma Simmons"
+        }, 
+        {
+          "desc": "Daisy (then Skye) was on the team that rescued Mike from Hydra", 
+          "p1": "Mike Peterson", 
+          "p2": "Daisy Johnson"
+        }, 
+        {
+          "desc": "May was on the team that rescued Mike from Hydra", 
+          "p1": "Mike Peterson", 
+          "p2": "Melinda May"
+        }, 
+        {
+          "desc": "O'Brien was a member of Hart's team in Bahrain", 
+          "p1": "Agent O'Brien", 
+          "p2": "Agent Hart"
+        }, 
+        {
+          "desc": "Coulson and O'Brien were sent to investigate a gifted individual in Bahrain", 
+          "p1": "Agent O'Brien", 
+          "p2": "Agent Coulson"
+        }, 
+        {
+          "desc": "May rescued O'Brien in Bahrain", 
+          "p1": "Agent O'Brien", 
+          "p2": "Melinda May"
+        }, 
+        {
+          "desc": "O'Brien and Eva met in Bahrain", 
+          "p1": "Agent O'Brien", 
+          "p2": "Eva Belyakov"
+        }, 
+        {
+          "desc": "Katya mind controlled O'Brien in Bahrain", 
+          "p1": "Agent O'Brien", 
+          "p2": "Katya Belyakov"
+        }, 
+        {
+          "desc": "Coulson and Hart were sent to investigate a gifted individual in Bahrain", 
+          "p1": "Agent Hart", 
+          "p2": "Agent Coulson"
+        }, 
+        {
+          "desc": "Hart was rescued by May in Bahrain, dubbing her \"The Cavalry\"", 
+          "p1": "Agent Hart", 
+          "p2": "Melinda May"
+        }, 
+        {
+          "desc": "Hart and Eva met in Bahrain", 
+          "p1": "Agent Hart", 
+          "p2": "Eva Belyakov"
+        }, 
+        {
+          "desc": "Katya mind controlled Hart in Bahrain", 
+          "p1": "Agent Hart", 
+          "p2": "Katya Belyakov"
+        }, 
+        {
+          "desc": "May was forced to kill Eva and her daughter in Bahrain", 
+          "p1": "Eva Belyakov", 
+          "p2": "Melinda May"
+        }, 
+        {
+          "desc": "Coulson spoke to Eva to try and evaluate her for the index", 
+          "p1": "Eva Belyakov", 
+          "p2": "Agent Coulson"
+        }, 
+        {
+          "desc": "Eva was Katya's mother", 
+          "p1": "Eva Belyakov", 
+          "p2": "Katya Belyakov"
+        }, 
+        {
+          "desc": "May was forced to kill Katya in Bahrain", 
+          "p1": "Katya Belyakov", 
+          "p2": "Melinda May"
+        }, 
+        {
+          "desc": "Faisil spoke with Coulson in Bahrain", 
+          "p1": "Faisil Ahmed", 
+          "p2": "Agent Coulson"
+        }, 
+        {
+          "desc": "Faisil spoke with May in Bahrain", 
+          "p1": "Faisil Ahmed", 
+          "p2": "Melinda May"
+        }, 
+        {
+          "desc": "Faisil spoke with O'Brien in Bahrain", 
+          "p1": "Faisil Ahmed", 
+          "p2": "Agent O'Brien"
+        }, 
+        {
+          "desc": "Paula worked for List tracking Gordon's teleportation", 
+          "p1": "Hydra Agent Paula", 
+          "p2": "Doctor List"
+        }, 
+        {
+          "desc": "Coulson provided Hill with the location of Loki's scepter", 
+          "p1": "Maria Hill", 
+          "p2": "Agent Coulson"
+        }, 
+        {
+          "desc": "Raina told Michael about a vision she had involving his son", 
+          "p1": "Inhuman Michael", 
+          "p2": "Raina"
+        }, 
+        {
+          "desc": "Alisha was tasked with guarding Raina in Afterlife", 
+          "p1": "Alisha Whitley", 
+          "p2": "Raina"
+        }, 
+        {
+          "desc": "Alisha fought with Daisy (then Skye) aboard the Iliad", 
+          "p1": "Alisha Whitley", 
+          "p2": "Daisy Johnson"
+        }, 
+        {
+          "desc": "Whitley captured Weaver aboard the Iliad", 
+          "p1": "Alisha Whitley", 
+          "p2": "Anne Weaver"
+        }, 
+        {
+          "desc": "Whitley captured Oliver aboard the Iliad", 
+          "p1": "Alisha Whitley", 
+          "p2": "Agent Oliver"
+        }, 
+        {
+          "desc": "May fought Alisha to protect Skye", 
+          "p1": "Alisha Whitley", 
+          "p2": "Melinda May"
+        }, 
+        {
+          "desc": "Kebo was Wards first recruit into his branch of Hydra", 
+          "p1": "Kebo", 
+          "p2": "Grant Ward"
+        }, 
+        {
+          "desc": "Coulson and May are friends and colleagues in SHIELD", 
+          "p1": "Agent Coulson", 
+          "p2": "Melinda May"
+        }, 
+        {
+          "desc": "Coulson turned to Ward to help infiltrate Dr List's Hydra base", 
+          "p1": "Agent Coulson", 
+          "p2": "Grant Ward"
+        }, 
+        {
+          "desc": "Daisy (then Skye) worked for Coulson in SHIELD", 
+          "p1": "Agent Coulson", 
+          "p2": "Daisy Johnson"
+        }, 
+        {
+          "desc": "Simmons worked for Coulson in SHIELD", 
+          "p1": "Agent Coulson", 
+          "p2": "Jemma Simmons"
+        }, 
+        {
+          "desc": "Fitz worked for Coulson in SHIELD", 
+          "p1": "Agent Coulson", 
+          "p2": "Leo Fitz"
+        }, 
+        {
+          "desc": "Coulson and Hunter played cards in The Retreat waiting for Deathlok", 
+          "p1": "Agent Coulson", 
+          "p2": "Lance Hunter"
+        }, 
+        {
+          "desc": "Bobbi worked for Coulson in SHIELD", 
+          "p1": "Agent Coulson", 
+          "p2": "Bobbi Morse"
+        }, 
+        {
+          "desc": "May and Ward worked together to infiltrate Dr List's Hydra base", 
+          "p1": "Melinda May", 
+          "p2": "Grant Ward"
+        }, 
+        {
+          "desc": "Daisy (then Skye) worked with May in SHIELD", 
+          "p1": "Melinda May", 
+          "p2": "Daisy Johnson"
+        }, 
+        {
+          "desc": "Simmons and May worked together for SHIELD", 
+          "p1": "Melinda May", 
+          "p2": "Jemma Simmons"
+        }, 
+        {
+          "desc": "Fitz and May worked together for SHIELD", 
+          "p1": "Melinda May", 
+          "p2": "Leo Fitz"
+        }, 
+        {
+          "desc": "May and Hunter worked together for SHIELD", 
+          "p1": "Melinda May", 
+          "p2": "Lance Hunter"
+        }, 
+        {
+          "desc": "Bobbi and May worked together for SHIELD", 
+          "p1": "Melinda May", 
+          "p2": "Bobbi Morse"
+        }, 
+        {
+          "desc": "Ward kidnapped Daisy (then Skye) to bring her to Whitehall", 
+          "p1": "Grant Ward", 
+          "p2": "Daisy Johnson"
+        }, 
+        {
+          "desc": "Simmons tried to kill Ward with a splinter bomb", 
+          "p1": "Grant Ward", 
+          "p2": "Jemma Simmons"
+        }, 
+        {
+          "desc": "Fitz and Ward worked together infiltrating Dr List's Hydra base", 
+          "p1": "Grant Ward", 
+          "p2": "Leo Fitz"
+        }, 
+        {
+          "desc": "Ward met Hunter when taking Skye and Raina from The Bus", 
+          "p1": "Grant Ward", 
+          "p2": "Lance Hunter"
+        }, 
+        {
+          "desc": "Ward didnapped Bobbi to help Agent 33 get revenge", 
+          "p1": "Grant Ward", 
+          "p2": "Bobbi Morse"
+        }, 
+        {
+          "desc": "Simmons built a set of power supression gloves for Daisy (then Skye)", 
+          "p1": "Daisy Johnson", 
+          "p2": "Jemma Simmons"
+        }, 
+        {
+          "desc": "Fitz and Daisy (then Skye) worked together in SHIELD", 
+          "p1": "Daisy Johnson", 
+          "p2": "Leo Fitz"
+        }, 
+        {
+          "desc": "Daisy (then Skye) and Hunter worked together for SHIELD", 
+          "p1": "Daisy Johnson", 
+          "p2": "Lance Hunter"
+        }, 
+        {
+          "desc": "Bobbi and Daisy (then Skye) worked together for SHIELD", 
+          "p1": "Daisy Johnson", 
+          "p2": "Bobbi Morse"
+        }, 
+        {
+          "desc": "Fitz invited Simmons to dinner moments before she was swallowed by the Monolith", 
+          "p1": "Jemma Simmons", 
+          "p2": "Leo Fitz"
+        }, 
+        {
+          "desc": "Simmons and Hunter worked together for SHIELD", 
+          "p1": "Jemma Simmons", 
+          "p2": "Lance Hunter"
+        }, 
+        {
+          "desc": "Bobbi and Simmons worked undercover in Hydra together", 
+          "p1": "Jemma Simmons", 
+          "p2": "Bobbi Morse"
+        }, 
+        {
+          "desc": "\"Have you got one of those electric hand dryers?\" \"Uh, yeah\" \"Then you're gonna be alright mate\"", 
+          "p1": "Leo Fitz", 
+          "p2": "Lance Hunter"
+        }, 
+        {
+          "desc": "Bobbi and Fitz worked together for SHIELD", 
+          "p1": "Leo Fitz", 
+          "p2": "Bobbi Morse"
+        }, 
+        {
+          "desc": "Hunter and Bobbi used to be married", 
+          "p1": "Lance Hunter", 
+          "p2": "Bobbi Morse"
+        }
+      ], 
+      "name": "Agents of SHIELD Season 2"
     }, 
     {
       "category": "TV", 
