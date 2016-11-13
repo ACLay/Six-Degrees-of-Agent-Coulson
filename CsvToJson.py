@@ -57,8 +57,8 @@ for (dirpath, dirnames, filenames) in walk("./interactions"):
                 output['category'] = category
                 output['characters'] = characters
                 output['interactions'] = interactions
-                outfile = open(filename[:-3] + 'json','w')
-                outfile.write(json.dumps(output, indent=4, sort_keys=True))
+                # outfile = open(filename[:-3] + 'json','w')
+                # outfile.write(json.dumps(output, indent=4, sort_keys=True))
                 
                 properties[name] = output
                 categories.add(category)
@@ -73,8 +73,8 @@ output = {}
 output['characters'] = sorted(allCharacters)
 output['categories'] = sorted(categories)
 output['properties'] = propertylist
-outfile = open('./interactions/connections.json','w')
-outfile.write(json.dumps(output, indent=2, sort_keys=True))
+# outfile = open('./interactions/connections.json','w')
+# outfile.write(json.dumps(output, indent=2, sort_keys=True))
 
 outfile = open('./js/connections.js','w')
 outfile.write("function getConnectionData(){\nreturn " + json.dumps(output, indent=2, sort_keys=True) + "\n}\n" +
