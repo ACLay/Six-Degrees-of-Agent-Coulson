@@ -252,6 +252,10 @@ function addMediaStats(){
 		}
 		mediaStatsRows.set(media.name,row);
 	}
+
+	var myTH = document.getElementById("mediaDefaultSortCollumn");
+	sorttable.innerSortFunction.apply(myTH, []);
+
 	updateAvailableCharactersLabel();
 }
 
