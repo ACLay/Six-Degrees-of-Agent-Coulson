@@ -16,7 +16,7 @@ window.onload = function(){
         button = document.getElementById("findStats");
         button.onclick = generateAndDisplayStats;
 
-        stanOptions.onchange = function(){loadConnections(); fillSelectors();};
+        stanOptions.onchange = function(){loadConnections(); fillSelectors(); updateMediaStatsTab();};
 
         addMediaStats();
 
