@@ -91,7 +91,7 @@ function categoryCheckboxClicked(categoryName){
 		checkboxes[i].checked = selected;
 	}
 	fillSelectors();
-	updateMediaStatsTable();
+	updateMediaStatsTab();
 }
 
 function mediaCheckboxClicked(categoryName){
