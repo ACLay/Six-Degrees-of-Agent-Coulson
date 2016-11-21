@@ -91,6 +91,7 @@ function categoryCheckboxClicked(categoryName){
 		checkboxes[i].checked = selected;
 	}
 	fillSelectors();
+	updateMediaStatsTable();
 }
 
 function mediaCheckboxClicked(categoryName){
@@ -105,4 +106,19 @@ function mediaCheckboxClicked(categoryName){
 	categoryCheckbox.checked = and;
 	categoryCheckbox.indeterminate = !(and) && or;
 	fillSelectors();
+	updateMediaStatsTab();
+}
+
+function setAllCheckboxes(selected){
+	for (var [name, categoryBoxes] of categoryCheckboxes){
+		categoryBoxes.category.indeterminate = false;
+		categoryBoxes.category.checked = selected;
+		mediaBoxes = categoryBoxes.media
+		for (var i = 0; i < mediaBoxes.length; i++){
+			var mediaBox = mediaBoxes[i];
+			mediaBox.checked = selected;
+		}
+	}
+	fillSelectors();
+	updateMediaStatsTab();
 }

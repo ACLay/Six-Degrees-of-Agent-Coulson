@@ -18,6 +18,8 @@ window.onload = function(){
 
         stanOptions.onchange = function(){loadConnections(); fillSelectors();};
 
+        addMediaStats();
+
         document.getElementById("defaultTab").click();
         
         removeChildren(noticeDiv);

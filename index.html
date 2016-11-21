@@ -23,7 +23,8 @@
 			<ul class="tab">
 				<li><a href="javascript:void(0)" class="tablinks" id="defaultTab" onclick="openTab(event, 'connectionTab')">Find connections</a></li>
 				<li><a href="javascript:void(0)" class="tablinks" onclick="openTab(event, 'statsTab')">Connectivity stats</a></li>
-				<li><a href="javascript:void(0)" class="tablinks" onclick="openTab(event, 'mediaTab')">Media filters</a></li>
+				<li><a href="javascript:void(0)" class="tablinks" onclick="openTab(event, 'mediaStatsTab')">Media stats</a></li>
+				<li><a href="javascript:void(0)" class="tablinks" onclick="openTab(event, 'mediaFilterTab')">Media filters</a></li>
 				<li><a href="javascript:void(0)" class="tablinks" onclick="openTab(event, 'creditsTab')">Thanks</a></li>
 			</ul>
 
@@ -68,8 +69,29 @@
 				<div id="statsResult"></div>
 			</div>
 
-			<div id="mediaTab" class="tabcontent">
-				<p>Select which media to use characters and connections from</p>
+			<div id="mediaStatsTab" class="tabcontent">
+				<p id="mediaStatsPeople"> </p>
+				<table class="sortable">
+					<thead>
+						<tr>
+							<th>Media</th>
+							<th>Category</th>
+							<th class="sorttable_numeric">Characters</th>
+							<th class="sorttable_numeric">Connections</th>
+							<th class="sorttable_numeric">Links/Person</th>
+						</tr>
+					</thead>
+					<tbody id="mediaStatsTableBody">
+					</tbody>	
+				</table>
+			</div>
+
+			<div id="mediaFilterTab" class="tabcontent">
+				<p>Choose which media to use characters and connections from</p>
+				<div>
+					<button type="button" onclick="setAllCheckboxes(true)">Select All</button>
+					<button type="button" onclick="setAllCheckboxes(false)">Clear All</button>
+				</div>
 				<form id=filters>
 					<div id=stanOptions>
 						<h3>Stan Lee</h3>

@@ -227,3 +227,44 @@ function addTableRow(tableBody, characterStats){
 
 	tableBody.appendChild(row);
 }
+
+var mediaStatsRows = new Map();
+
+function addMediaStats(){
+	var tableBody = document.getElementById("mediaStatsTableBody");
+	removeChildren(tableBody);
+
+	for (var i = 0; i < connectionGraph.properties.length; i++){
+		var media = connectionGraph.properties[i];
+
+		var row = document.createElement("tr");
+		tableBody.appendChild(row);
+		addChild(row,"td",media.name);
+		addChild(row,"td",media.category);
+		addChild(row,"td",media.characters.length);
+		if (media.name == "A Funny Thing Happened..."){
+			addChild(row,"td",0);
+			addChild(row,"td",0.000);
+		} else {
+			addChild(row,"td",media.interactions.length);
+			var linksPerPerson = 2 * media.interactions.length / media.characters.length;
+			addChild(row,"td",linksPerPerson.toFixed(3));
+		}
+		mediaStatsRows.set(media.name,row);
+	}
+	updateAvailableCharactersLabel();
+}
+
+function updateMediaStatsTab(){
+	for (var i = 0; i < connectionGraph.properties.length; i++){
+		var media = connectionGraph.properties[i];
+		var statRow = mediaStatsRows.get(media.name);
+		setHidden(statRow, !isMediaSelected(media.name));
+	}
+	updateAvailableCharactersLabel();
+}
+
+function updateAvailableCharactersLabel(){
+	var label = document.getElementById("mediaStatsPeople");
+	label.textContent = "Characters available: " + listCharactersFromSelectedMedia().length + "/" + connectionGraph.characters.length;
+}

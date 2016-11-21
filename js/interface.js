@@ -30,3 +30,11 @@ function addChild(parent, tag, content){
 	child.textContent = content;
 	parent.appendChild(child);
 }
+
+function setHidden(element, hidden){
+	if(hidden){
+		element.classList.add("hidden");
+	} else {
+		element.classList.remove("hidden");
+	}
+}

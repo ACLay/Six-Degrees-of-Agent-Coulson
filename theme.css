@@ -133,6 +133,14 @@ label {
 }
 
 /**
+ *
+ */
+
+.hidden{
+  display:none;
+}
+
+/**
  * Credits tab
  */
 
