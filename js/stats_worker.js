@@ -11,11 +11,11 @@ displayStats = function(characterStats){
 
 //Global data structures in the web workers scope
 var connectionGraph;
-var mediaCheckboxes;
 
 onmessage = function(e){
 	console.log('calculating stats in web worker');
 	connectionGraph = e.data.graph;
 	mediaCheckboxes = e.data.selections;
+	calculatingBetweenness = e.data.betweenness;
 	generateAndDisplayStatsFrom(e.data.root);
 };

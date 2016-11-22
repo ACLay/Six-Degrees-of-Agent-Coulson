@@ -4,6 +4,8 @@ function generateAndDisplayStats(){
 	var button = document.getElementById("findStats")
 	button.disabled = true;
 
+	calculatingBetweenness = document.getElementById("betweenness_cb").checked;
+
 	var resultElement = document.getElementById("statsResult");
 	removeChildren(resultElement);
 
@@ -30,7 +32,7 @@ function generateAndDisplayStats(){
 			var property = connectionGraph.properties[i].name;
 			selections.set(property,{"checked":isMediaSelected(property)});
 		}
-		statsWorker.postMessage({"root":rootCharacter, "graph":connectionGraph, "selections":selections});
+		statsWorker.postMessage({"root":rootCharacter, "graph":connectionGraph, "selections":selections, "betweenness":calculatingBetweenness});
 	} else {
 		updateProgressLabel("Calculating stats. This could take a while...");
 		setTimeout(function(){
@@ -38,6 +40,9 @@ function generateAndDisplayStats(){
 		},0);
 	}
 }
+
+var calculatingBetweenness;
+var minimalLengths;
 
 function generateAndDisplayStatsFrom(rootCharacter){
 	var reachableCharacters = findConnectedCharacters(rootCharacter);
@@ -49,13 +54,24 @@ function generateAndDisplayStatsFrom(rootCharacter){
 		var stats = calculateStatsFor(person, reachableCharacters);
 		characterStats.set(person, stats);
 	}
-	
+
+	if (calculatingBetweenness){
+		for (var i = 0; i < reachableCharacters.length; i++){
+			updateProgressLabel("Calculating centrality: " + (i + 1) + "/" + reachableCharacters.length);
+			var character = reachableCharacters[i];
+			var pairsBetween = calculateCentralness(character, reachableCharacters);
+			characterStats.get(character).pairsBetween = pairsBetween;
+		}
+	}
+
 	displayStats(characterStats);
 }
 
 function findConnectedCharacters(rootCharacter){
 	var reachableCharacters = [rootCharacter];
 	var allCharacters = listCharactersFromSelectedMedia();
+	minimalLengths = new Map();
+	minimalLengths.set(rootCharacter, new Map());
 	
 	var found = new Set();
 	found.add(rootCharacter);
@@ -76,6 +92,7 @@ function findConnectedCharacters(rootCharacter){
 					newLeaves.add(neighbour);
 					reachableCharacters.push(neighbour);
 					found.add(neighbour);
+					minimalLengths.set(neighbour, new Map());
 				}
 			};
 		}; 
@@ -96,6 +113,7 @@ function calculateStatsFor(character,reachableCharacters){
 				"totalDistance":0,
 				"greatestDistance":0,
 				"averageDistance":0,
+				"pairsBetween":0,
 				"furthestCharacters":[]
 			};
 
@@ -109,6 +127,7 @@ function calculateStatsFor(character,reachableCharacters){
 		"links":[]
 	});
 	var length;
+	var characterDistances = minimalLengths.get(character);
 	//for each length
 	for (length = 0; length < reachableCharacters.length; length++){
 		//for each 'leaf character'
@@ -131,6 +150,7 @@ function calculateStatsFor(character,reachableCharacters){
 					newRoutes.add(newRoute);
 					found.add(neighbour);
 					addRouteToStats(stats,newRoute);
+					characterDistances.set(neighbour, newRoute.links.length);
 				}
 			};
 		}; 
@@ -144,6 +164,32 @@ function calculateStatsFor(character,reachableCharacters){
 	stats.averageDistance = stats.totalDistance / (reachableCharacters.length - 1);
 	return stats;
 };
+
+function calculateCentralness(character, reachableCharacters){
+	var pairsBetween = 0;
+	var cDistances = minimalLengths.get(character);
+	for (var i = 0; i < reachableCharacters.length; i++){
+		var s = reachableCharacters[i];
+		if (character == s){
+			continue;
+		}
+		var sDistances = minimalLengths.get(s);
+		for (var j = i+1; j < reachableCharacters.length; j++){
+			var t = reachableCharacters[j];
+			if (character == t) {
+				continue;
+			}
+
+			var st = sDistances.get(t);
+			var sc = sDistances.get(character);
+			var ct = cDistances.get(t);
+			if (sc + ct == st) {
+				pairsBetween ++;
+			}
+		}
+	}
+	return pairsBetween;
+}
 
 function displayStats(characterStats){
 	var resultElement = document.getElementById("statsResult");
@@ -213,6 +259,9 @@ function initializeStatsTable(){
 	addChild(row,"th","Name");
 	addChild(row,"th","Average Distance");
 	addChild(row,"th","Longest Distance");
+	if (calculatingBetweenness){
+		addChild(row,"th","Pairs between");
+	}
 	addChild(row,"th","Farthest from");
 	return table;
 }
@@ -223,6 +272,9 @@ function addTableRow(tableBody, characterStats){
 	addChild(row,"td",characterStats.name);
 	addChild(row,"td",characterStats.averageDistance.toFixed(3));
 	addChild(row,"td",characterStats.greatestDistance);
+	if (calculatingBetweenness){
+		addChild(row,"td",characterStats.pairsBetween);
+	}
 	addChild(row,"td",characterStats.furthestCharacters);
 
 	tableBody.appendChild(row);
