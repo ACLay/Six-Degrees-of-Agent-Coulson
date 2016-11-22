@@ -112,6 +112,7 @@ return {
     "Betsy Beatty", 
     "Betty Ross", 
     "Bill Fisk", 
+    "Billy", 
     "Billy Koenig", 
     "Black Sky", 
     "Blake Tower", 
@@ -167,6 +168,7 @@ return {
     "Chauncey", 
     "Christian Ward", 
     "Christine Everhart", 
+    "Christine Palmer", 
     "Chuck", 
     "Clair", 
     "Claire Temple", 
@@ -204,6 +206,7 @@ return {
     "Damon Boone", 
     "Dan Monroe", 
     "Dana Stryker", 
+    "Daniel Drumm", 
     "Daniel Fisher", 
     "Daniel Sousa", 
     "Daniel Whitehall", 
@@ -240,6 +243,7 @@ return {
     "Doctor Murray", 
     "Doctor Rosenberg", 
     "Doctor Seth Honicky", 
+    "Doctor Stephen Strange", 
     "Doctor Wilton", 
     "Doctor Wu", 
     "Domingo Colon", 
@@ -248,6 +252,7 @@ return {
     "Donnie Gill", 
     "Doorman Theo", 
     "Doris Urich", 
+    "Dormammu", 
     "Dorothy Walker", 
     "Dottie Underwood", 
     "Dr Erskine", 
@@ -255,6 +260,7 @@ return {
     "Dr Helen Cho", 
     "Dr Jazuat", 
     "Dr Lingenfelter", 
+    "Dr Nicodemus West", 
     "Dr Noah Burstein", 
     "Drax", 
     "Driver Tony", 
@@ -357,6 +363,7 @@ return {
     "Gregory Spheeris", 
     "Groot", 
     "Haldor", 
+    "Hamir", 
     "Hank", 
     "Hank (Maggia)", 
     "Hank Pym", 
@@ -445,6 +452,7 @@ return {
     "John Garrett", 
     "John Healy", 
     "John Horton", 
+    "Jonathan Pangborn", 
     "Joseph Manfredi", 
     "Joseph Pike", 
     "Josephine", 
@@ -455,9 +463,11 @@ return {
     "Junkie Jake", 
     "Justin Boden", 
     "Justin Hammer", 
+    "Kaecilius", 
     "Kaminsky", 
     "Kara 'Agent 33' Palamas", 
     "Karen Page", 
+    "Karl Mordo", 
     "Karla Faye Gideon", 
     "Karman-Kan Dey", 
     "Kathleen Sparr", 
@@ -508,6 +518,7 @@ return {
     "Louise Thompson", 
     "Lt Mario Green", 
     "Luca Russo", 
+    "Lucian", 
     "Lucio", 
     "Luis", 
     "Luke Cage", 
@@ -718,6 +729,7 @@ return {
     "Silvio", 
     "Sissy Garcia", 
     "Sister Boy", 
+    "Sol Rama", 
     "Soledad Temple", 
     "Spider Raymond", 
     "Spud", 
@@ -745,6 +757,7 @@ return {
     "Taggart", 
     "Thaddeus Ross", 
     "Thanos", 
+    "The Ancient One", 
     "The Banker", 
     "The Baroness", 
     "The Broker", 
@@ -765,6 +778,7 @@ return {
     "Tiago", 
     "Tim Maguire", 
     "Tina Adams", 
+    "Tina Minoru", 
     "Tobias Ford", 
     "Todd Chesterfield", 
     "Tom Belkin", 
@@ -823,6 +837,7 @@ return {
     "Wilson Fisk", 
     "Winston the butler", 
     "Wolfgang von Strucker", 
+    "Wong", 
     "Xiao Chen", 
     "Yat-Sen", 
     "Yondu Udonta", 
@@ -14564,6 +14579,321 @@ return {
       "name": "Daredevil Season 1"
     }, 
     {
+      "category": "Films - Phase 3", 
+      "characters": [
+        "Billy", 
+        "Christine Palmer", 
+        "Daniel Drumm", 
+        "Doctor Stephen Strange", 
+        "Dormammu", 
+        "Dr Nicodemus West", 
+        "Hamir", 
+        "Jonathan Pangborn", 
+        "Kaecilius", 
+        "Karl Mordo", 
+        "Loki", 
+        "Lucian", 
+        "Sol Rama", 
+        "The Ancient One", 
+        "Thor", 
+        "Tina Minoru", 
+        "Wong"
+      ], 
+      "interactions": [
+        {
+          "desc": "Christine saved Stephen's life after he was stabbed", 
+          "p1": "Doctor Stephen Strange", 
+          "p2": "Christine Palmer"
+        }, 
+        {
+          "desc": "Mordo brought Strange into Kamar-Taj", 
+          "p1": "Doctor Stephen Strange", 
+          "p2": "Karl Mordo"
+        }, 
+        {
+          "desc": "Strange stole many books from Wong's library", 
+          "p1": "Doctor Stephen Strange", 
+          "p2": "Wong"
+        }, 
+        {
+          "desc": "Strange fought Kaecilius in the Sanctum Sanctorum", 
+          "p1": "Doctor Stephen Strange", 
+          "p2": "Kaecilius"
+        }, 
+        {
+          "desc": "The Ancient One taught Strange the mystic arts", 
+          "p1": "Doctor Stephen Strange", 
+          "p2": "The Ancient One"
+        }, 
+        {
+          "desc": "Strange saved the life of one of West's patients", 
+          "p1": "Doctor Stephen Strange", 
+          "p2": "Dr Nicodemus West"
+        }, 
+        {
+          "desc": "Pangbourn told Strange about Kamar-Taj", 
+          "p1": "Doctor Stephen Strange", 
+          "p2": "Jonathan Pangborn"
+        }, 
+        {
+          "desc": "Strange killed Lucian while fighting in the Astral Plane", 
+          "p1": "Doctor Stephen Strange", 
+          "p2": "Lucian"
+        }, 
+        {
+          "desc": "Hamir showed Strange that working hands aren't necessary for sorcery", 
+          "p1": "Doctor Stephen Strange", 
+          "p2": "Hamir"
+        }, 
+        {
+          "desc": "Strange saw Sol Rama killed through the door from Kamar-Taj to the London sanctum", 
+          "p1": "Doctor Stephen Strange", 
+          "p2": "Sol Rama"
+        }, 
+        {
+          "desc": "Strange saw Drumm be killed by Kaecilius in the New York sanctum", 
+          "p1": "Doctor Stephen Strange", 
+          "p2": "Daniel Drumm"
+        }, 
+        {
+          "desc": "The phone call Strange had with Billy was part of the reason Strange crashed his car", 
+          "p1": "Doctor Stephen Strange", 
+          "p2": "Billy"
+        }, 
+        {
+          "desc": "Strange met Thor to ensure Loki wasn't a threat to the Earth", 
+          "p1": "Doctor Stephen Strange", 
+          "p2": "Thor"
+        }, 
+        {
+          "desc": "Strange was not happy that Loki was back on Earth", 
+          "p1": "Doctor Stephen Strange", 
+          "p2": "Loki"
+        }, 
+        {
+          "desc": "Dormammu, I've come to bargain!", 
+          "p1": "Doctor Stephen Strange", 
+          "p2": "Dormammu"
+        }, 
+        {
+          "desc": "Mordo and Wong were both sorcerers in Kamar-Taj", 
+          "p1": "Karl Mordo", 
+          "p2": "Wong"
+        }, 
+        {
+          "desc": "Kaecilius attacked Mordo and Strange in the New York sanctum", 
+          "p1": "Karl Mordo", 
+          "p2": "Kaecilius"
+        }, 
+        {
+          "desc": "The Ancient One trained Mordo in the mystic arts", 
+          "p1": "Karl Mordo", 
+          "p2": "The Ancient One"
+        }, 
+        {
+          "desc": "Mordo helped teach Pangborn sorcery", 
+          "p1": "Karl Mordo", 
+          "p2": "Jonathan Pangborn"
+        }, 
+        {
+          "desc": "Before turning to the dark dimension, Lucian was a Kamar-Taj sorcerer with Mordo", 
+          "p1": "Karl Mordo", 
+          "p2": "Lucian"
+        }, 
+        {
+          "desc": "Mordo and Hamir were both masters of magic in Kamar-Taj", 
+          "p1": "Karl Mordo", 
+          "p2": "Hamir"
+        }, 
+        {
+          "desc": "Mordo and Rama were both master sorcerers in Kamar-Taj", 
+          "p1": "Karl Mordo", 
+          "p2": "Sol Rama"
+        }, 
+        {
+          "desc": "Mordo and Tina were both master sorcerers in Kamar-Taj", 
+          "p1": "Karl Mordo", 
+          "p2": "Tina Minoru"
+        }, 
+        {
+          "desc": "Mordo and Drumm were both master sorcerers in Kamar-Taj", 
+          "p1": "Karl Mordo", 
+          "p2": "Daniel Drumm"
+        }, 
+        {
+          "desc": "Christine and Nicodemus are both Doctors at New York Metro-General hospital", 
+          "p1": "Christine Palmer", 
+          "p2": "Dr Nicodemus West"
+        }, 
+        {
+          "desc": "Christine operated on The Ancient One after a multi storey fall", 
+          "p1": "Christine Palmer", 
+          "p2": "The Ancient One"
+        }, 
+        {
+          "desc": "Wong attempted to stop Kaecilius destroying the Hong Kong sanctum", 
+          "p1": "Wong", 
+          "p2": "Kaecilius"
+        }, 
+        {
+          "desc": "Wong served The Ancient One as librarian in Kamar-Taj", 
+          "p1": "Wong", 
+          "p2": "The Ancient One"
+        }, 
+        {
+          "desc": "Wong and Hamir are both sorcerers in Kamar-Taj", 
+          "p1": "Wong", 
+          "p2": "Hamir"
+        }, 
+        {
+          "desc": "Wong and Sol Rama were both sorcerers in Kamar-Taj", 
+          "p1": "Wong", 
+          "p2": "Sol Rama"
+        }, 
+        {
+          "desc": "Wong and Tina Minoru fought together to protect the Hong Kong sanctum", 
+          "p1": "Wong", 
+          "p2": "Tina Minoru"
+        }, 
+        {
+          "desc": "Wong and Drumm were both sorcerers in Kamar-Taj", 
+          "p1": "Wong", 
+          "p2": "Daniel Drumm"
+        }, 
+        {
+          "desc": "Before turning to the dark dimension, Lucian was a Kamar-Taj sorcerer with Wong", 
+          "p1": "Wong", 
+          "p2": "Lucian"
+        }, 
+        {
+          "desc": "The Ancient One battled Kaecilius to stop him handing Earth to Dormammu", 
+          "p1": "Kaecilius", 
+          "p2": "The Ancient One"
+        }, 
+        {
+          "desc": "Lucian was one of Kaecilius' followers", 
+          "p1": "Kaecilius", 
+          "p2": "Lucian"
+        }, 
+        {
+          "desc": "Hamir and Kaecilius used to be sorcerers in Kamar-Taj", 
+          "p1": "Kaecilius", 
+          "p2": "Hamir"
+        }, 
+        {
+          "desc": "Sol Rama was master of the London Sanctum until Kaecilius killed him", 
+          "p1": "Kaecilius", 
+          "p2": "Sol Rama"
+        }, 
+        {
+          "desc": "Tina attempted to defend the Hong Kong sanctum from Kaecilius", 
+          "p1": "Kaecilius", 
+          "p2": "Tina Minoru"
+        }, 
+        {
+          "desc": "Drumm was master of the New York Sanctum until Kaecilius killed him", 
+          "p1": "Kaecilius", 
+          "p2": "Daniel Drumm"
+        }, 
+        {
+          "desc": "Kaecilius served Dormammu, and was pulled into the dark dimension by him", 
+          "p1": "Kaecilius", 
+          "p2": "Dormammu"
+        }, 
+        {
+          "desc": "West attempted to save The Ancient One's life after she fell through a portal", 
+          "p1": "The Ancient One", 
+          "p2": "Dr Nicodemus West"
+        }, 
+        {
+          "desc": "The Ancient One trained Pangborn in the ways of sorcery", 
+          "p1": "The Ancient One", 
+          "p2": "Jonathan Pangborn"
+        }, 
+        {
+          "desc": "The Ancient One fought Lucian and the other zealots after killing the Kamar-Taj librarian", 
+          "p1": "The Ancient One", 
+          "p2": "Lucian"
+        }, 
+        {
+          "desc": "The Ancient One and Hamir were both master sorcerers in Kamar-Taj", 
+          "p1": "The Ancient One", 
+          "p2": "Hamir"
+        }, 
+        {
+          "desc": "Sol Rama served The Ancient One as master of the London Sanctum", 
+          "p1": "The Ancient One", 
+          "p2": "Sol Rama"
+        }, 
+        {
+          "desc": "Tina served The Ancient One as master of the Hong Kong Sanctum", 
+          "p1": "The Ancient One", 
+          "p2": "Tina Minoru"
+        }, 
+        {
+          "desc": "Daniel served The Ancient One as master of the New York Sanctum", 
+          "p1": "The Ancient One", 
+          "p2": "Daniel Drumm"
+        }, 
+        {
+          "desc": "Before turning to the Dark Dimension, Lucian was a Kamar-Taj sorcerer with Hamir", 
+          "p1": "Lucian", 
+          "p2": "Hamir"
+        }, 
+        {
+          "desc": "Before turning to the dark dimension, Lucian was a Kamar-Taj sorcerer with Sol Rama", 
+          "p1": "Lucian", 
+          "p2": "Sol Rama"
+        }, 
+        {
+          "desc": "Before turning to the dark dimension, Lucian was a Kamar-Taj sorcerer with Tina Minoru", 
+          "p1": "Lucian", 
+          "p2": "Tina Minoru"
+        }, 
+        {
+          "desc": "Before turning to the dark dimension, Lucian was a Kamar-Taj sorcerer with Daniel Drumm", 
+          "p1": "Lucian", 
+          "p2": "Daniel Drumm"
+        }, 
+        {
+          "desc": "Hamir and Sol Rama are both master sorcerers in Kamar-Taj", 
+          "p1": "Hamir", 
+          "p2": "Sol Rama"
+        }, 
+        {
+          "desc": "Hamir and Tina are both master sorcerers in Kamar-Taj", 
+          "p1": "Hamir", 
+          "p2": "Tina Minoru"
+        }, 
+        {
+          "desc": "Hamir and Drumm are both master sorcerers in Kamar-Taj", 
+          "p1": "Hamir", 
+          "p2": "Daniel Drumm"
+        }, 
+        {
+          "desc": "Sol Rama and Tina are both master sorcerers in Kamar-Taj", 
+          "p1": "Sol Rama", 
+          "p2": "Tina Minoru"
+        }, 
+        {
+          "desc": "Drumm and Sol Rama are both master sorcerers in Kamar-Taj", 
+          "p1": "Sol Rama", 
+          "p2": "Daniel Drumm"
+        }, 
+        {
+          "desc": "Drumm and Sol Rama are both master sorcerers in Kamar-Taj", 
+          "p1": "Tina Minoru", 
+          "p2": "Daniel Drumm"
+        }, 
+        {
+          "desc": "Thor brought Loki to Earth to find Odin", 
+          "p1": "Thor", 
+          "p2": "Loki"
+        }
+      ], 
+      "name": "Doctor Strange"
+    }, 
+    {
       "category": "Films - Phase 2", 
       "characters": [
         "Bereet", 
@@ -20332,6 +20662,18 @@ return [
     "media": "Agents of SHIELD Season 1", 
     "p1": "Jemma Simmons", 
     "desc": "Stan gives his condolences to Simmons' undercover character"
+  }, 
+  {
+    "p2": "Stan Lee", 
+    "media": "Doctor Strange", 
+    "p1": "Doctor Stephen Strange", 
+    "desc": "Strange passed Stan when running from Kaecilius in mirror New York"
+  }, 
+  {
+    "p2": "Stan Lee", 
+    "media": "Doctor Strange", 
+    "p1": "Karl Mordo", 
+    "desc": "Mordo passed Stan when running from Kaecilius in mirror New York"
   }
 ]
 }
@@ -20420,6 +20762,18 @@ return [
     "media": "Agents of SHIELD Season 1", 
     "p1": "Jemma Simmons", 
     "desc": "Stan gives his condolences to Simmons' undercover character"
+  }, 
+  {
+    "p2": "Stan Lee Jr", 
+    "media": "Doctor Strange", 
+    "p1": "Doctor Stephen Strange", 
+    "desc": "Strange passed Stan when running from Kaecilius in mirror New York"
+  }, 
+  {
+    "p2": "Stan Lee Jr", 
+    "media": "Doctor Strange", 
+    "p1": "Karl Mordo", 
+    "desc": "Mordo passed Stan when running from Kaecilius in mirror New York"
   }
 ]
 }
@@ -20508,6 +20862,18 @@ return [
     "media": "Agents of SHIELD Season 1", 
     "p1": "Jemma Simmons", 
     "desc": "Stan gives his condolences to Simmons' undercover character"
+  }, 
+  {
+    "p2": "The Stan on the bus", 
+    "media": "Doctor Strange", 
+    "p1": "Doctor Stephen Strange", 
+    "desc": "Strange passed Stan when running from Kaecilius in mirror New York"
+  }, 
+  {
+    "p2": "The Stan on the bus", 
+    "media": "Doctor Strange", 
+    "p1": "Karl Mordo", 
+    "desc": "Mordo passed Stan when running from Kaecilius in mirror New York"
   }
 ]
 }
