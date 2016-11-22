@@ -275,7 +275,7 @@ function addTableRow(tableBody, characterStats){
 	if (calculatingBetweenness){
 		addChild(row,"td",characterStats.pairsBetween);
 	}
-	addChild(row,"td",characterStats.furthestCharacters);
+	addChild(row,"td",characterStats.furthestCharacters.join(', '));
 
 	tableBody.appendChild(row);
 }
