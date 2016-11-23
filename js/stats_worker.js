@@ -1,4 +1,4 @@
-importScripts('solver.js', 'filters.js', 'stats.js');
+importScripts('solver.js', 'filters.js', 'stats.js', 'priority-queue.js');
 
 //Overrides the UI functions from stats.js to use the web workers feedback function,
 //operating in the document scope which, unlike the web worker scope, can access the UI
@@ -16,6 +16,5 @@ onmessage = function(e){
 	console.log('calculating stats in web worker');
 	connectionGraph = e.data.graph;
 	mediaCheckboxes = e.data.selections;
-	calculatingBetweenness = e.data.betweenness;
 	generateAndDisplayStatsFrom(e.data.root);
 };

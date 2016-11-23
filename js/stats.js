@@ -4,8 +4,6 @@ function generateAndDisplayStats(){
 	var button = document.getElementById("findStats")
 	button.disabled = true;
 
-	calculatingBetweenness = document.getElementById("betweenness_cb").checked;
-
 	var resultElement = document.getElementById("statsResult");
 	removeChildren(resultElement);
 
@@ -32,7 +30,7 @@ function generateAndDisplayStats(){
 			var property = connectionGraph.properties[i].name;
 			selections.set(property,{"checked":isMediaSelected(property)});
 		}
-		statsWorker.postMessage({"root":rootCharacter, "graph":connectionGraph, "selections":selections, "betweenness":calculatingBetweenness});
+		statsWorker.postMessage({"root":rootCharacter, "graph":connectionGraph, "selections":selections});
 	} else {
 		updateProgressLabel("Calculating stats. This could take a while...");
 		setTimeout(function(){
@@ -41,27 +39,54 @@ function generateAndDisplayStats(){
 	}
 }
 
-var calculatingBetweenness;
-var minimalLengths;
-
 function generateAndDisplayStatsFrom(rootCharacter){
+	// based on "A faster algorithm for betweenness centrality", Ulrik Brandes (2001)
+	//	sigma - number of paths between a given pair of nodes
+	//	delta(v) for s,t - ratio of shortest paths between s,t that v lies on
 	var reachableCharacters = findConnectedCharacters(rootCharacter);
 	var characterStats = new Map();
-
+	
 	for (var i = 0; i < reachableCharacters.length; i++){
-		updateProgressLabel("Calculating character stats: " + (i + 1) + "/" + reachableCharacters.length);
+		updateProgressLabel("Initialising stats");
 		var person = reachableCharacters[i];
-		var stats = calculateStatsFor(person, reachableCharacters);
+		var stats = {
+				"name":person,
+				"totalDistance":0,
+				"greatestDistance":0,
+				"averageDistance":0,
+				"furthestCharacters":[],
+				"centrality":0
+			};;
 		characterStats.set(person, stats);
 	}
 
-	if (calculatingBetweenness){
-		for (var i = 0; i < reachableCharacters.length; i++){
-			updateProgressLabel("Calculating centrality: " + (i + 1) + "/" + reachableCharacters.length);
-			var character = reachableCharacters[i];
-			var pairsBetween = calculateCentralness(character, reachableCharacters);
-			characterStats.get(character).pairsBetween = pairsBetween;
+	for (var i = 0; i < reachableCharacters.length; i++){
+		updateProgressLabel("Calculating stats: " + (i + 1) + "/" + reachableCharacters.length);
+		var s = reachableCharacters[i];
+		
+		var pq = exploreFrom(s, characterStats);
+		
+		while (pq.length !== 0){
+			var w = pq.dequeue();
+			
+			for(var v of w.predecessors){
+				var vStats = characterStats.get(v);
+				var c = ((vStats.sigma / w.sigma) * (1.0 + w.delta));
+				vStats.delta = vStats.delta + c;
+			}
+			if (w.name !== s){
+				w.centrality = w.centrality + w.delta;
+			}
 		}
+		var sStats = characterStats.get(s);
+		sStats.averageDistance = sStats.totalDistance / (reachableCharacters.length - 1);
+	}
+
+
+	//normalise values
+	var normalFactor = (reachableCharacters.length - 1) * (reachableCharacters.length - 2) / 2.0;
+	for (var [name, stats] of characterStats){
+		stats.centralityPercent = ((stats.centrality / normalFactor) * 100).toPrecision(5) + "%";
 	}
 
 	displayStats(characterStats);
@@ -70,8 +95,6 @@ function generateAndDisplayStatsFrom(rootCharacter){
 function findConnectedCharacters(rootCharacter){
 	var reachableCharacters = [rootCharacter];
 	var allCharacters = listCharactersFromSelectedMedia();
-	minimalLengths = new Map();
-	minimalLengths.set(rootCharacter, new Map());
 	
 	var found = new Set();
 	found.add(rootCharacter);
@@ -92,7 +115,6 @@ function findConnectedCharacters(rootCharacter){
 					newLeaves.add(neighbour);
 					reachableCharacters.push(neighbour);
 					found.add(neighbour);
-					minimalLengths.set(neighbour, new Map());
 				}
 			};
 		}; 
@@ -106,89 +128,54 @@ function findConnectedCharacters(rootCharacter){
 	return reachableCharacters;
 }
 
-function calculateStatsFor(character,reachableCharacters){
-	
-	var stats = {
-				"name":character,
-				"totalDistance":0,
-				"greatestDistance":0,
-				"averageDistance":0,
-				"pairsBetween":0,
-				"furthestCharacters":[]
-			};
+function exploreFrom(person, characterStats){
+	var Q = [];
+	var S = new PriorityQueue({ comparator: function(a, b) { return b.distance - a.distance; }});
 
-	var found = new Set();
-	found.add(character);
-	var routes = new Set();
-	routes.add(
-	{
-		"start":character,
-		"end":character,
-		"links":[]
-	});
-	var length;
-	var characterDistances = minimalLengths.get(character);
-	//for each length
-	for (length = 0; length < reachableCharacters.length; length++){
-		//for each 'leaf character'
-		var newRoutes = new Set();
-		var route;
-		for (route of routes){
-			//for each unfound character they neighbour
-			var connections = getConnections(route.end);
-			var connection;
-			for (connection of connections){
-				var neighbour = connection.person;
-				if (!found.has(neighbour)){
-					//make a new route
-					var newRoute = {
-						"start":character,
-						"end":neighbour,
-						"links":route.links.slice()
-						};
-					newRoute.links.push(connection)
-					newRoutes.add(newRoute);
-					found.add(neighbour);
-					addRouteToStats(stats,newRoute);
-					characterDistances.set(neighbour, newRoute.links.length);
+	for (var [key,stats] of characterStats){
+		stats.predecessors = new Set();
+		stats.sigma = 0;
+		stats.distance = -1;
+	}
+
+	Q.push(person);
+	var pStats = characterStats.get(person);
+	pStats.sigma = 1;
+	pStats.distance = 0;
+
+	while(Q.length !== 0){
+		var v = Q.shift();
+		var vStats = characterStats.get(v);
+		S.queue(vStats);
+
+		for (var connection of getConnections(v)){
+			var w = connection.person;
+			var wStats = characterStats.get(w);
+
+			if (wStats.distance == -1){
+				wStats.distance = vStats.distance + 1;
+				
+				if (wStats.distance > pStats.greatestDistance){
+					pStats.greatestDistance = wStats.distance;
+					pStats.furthestCharacters = [wStats.name];
+				} else if (wStats.distance == pStats.greatestDistance){
+					pStats.furthestCharacters.push(wStats.name);
 				}
-			};
-		}; 
-		//put in the new longer routes
-		routes = newRoutes;
-		//early exit if nothing to expand
-		if (newRoutes.size == 0){
-			break;
-		}
-	}
-	stats.averageDistance = stats.totalDistance / (reachableCharacters.length - 1);
-	return stats;
-};
-
-function calculateCentralness(character, reachableCharacters){
-	var pairsBetween = 0;
-	var cDistances = minimalLengths.get(character);
-	for (var i = 0; i < reachableCharacters.length; i++){
-		var s = reachableCharacters[i];
-		if (character == s){
-			continue;
-		}
-		var sDistances = minimalLengths.get(s);
-		for (var j = i+1; j < reachableCharacters.length; j++){
-			var t = reachableCharacters[j];
-			if (character == t) {
-				continue;
+				pStats.totalDistance += wStats.distance;
+				
+				Q.push(w);
 			}
 
-			var st = sDistances.get(t);
-			var sc = sDistances.get(character);
-			var ct = cDistances.get(t);
-			if (sc + ct == st) {
-				pairsBetween ++;
+			if (wStats.distance == vStats.distance + 1){
+				wStats.sigma = wStats.sigma + vStats.sigma;
+				wStats.predecessors.add(v);
 			}
 		}
 	}
-	return pairsBetween;
+	for (var [key,stats] of characterStats){
+		stats.delta = 0;
+	}
+	return S;
 }
 
 function displayStats(characterStats){
@@ -205,6 +192,7 @@ function displayStats(characterStats){
 		sorttable.makeSortable(table);
 		var myTH = document.getElementsByTagName("th")[1];
 		sorttable.innerSortFunction.apply(myTH, []);
+		sorttable.innerSortFunction.apply(myTH, []);
 		var button = document.getElementById("findStats");
 		button.disabled = false;
 	},0);
@@ -213,28 +201,22 @@ function displayStats(characterStats){
 function displayGraphStats(characterStats){
 	var characterCount = characterStats.size;
 	var averageSum = 0;
+	var centralitySum = 0;
 	for(var stats of characterStats.values()){
 		averageSum += stats.averageDistance;
+		centralitySum += stats.centrality;
 	}
 	var averageLength = averageSum / characterCount;
+	var averageCentrality = centralitySum / characterCount;
+	var normalFactor = (characterCount - 1) * (characterCount - 2) / 2.0;
+	var centralityPercent = ((averageCentrality / normalFactor) * 100).toPrecision(5) + "%";
 	var resultElement = document.getElementById("statsResult");
-	addChild(resultElement, "p", "Average Distance: "+averageLength.toFixed(3));
+	addChild(resultElement, "p", "Average distance: " + averageLength.toFixed(3));
+	addChild(resultElement, "p", "Average paths found in: " + centralityPercent);
 }
 
 function updateProgressLabel(message){
 	progressLabel.textContent = message;
-}
-
-function addRouteToStats(stats,route){
-	var otherCharacter = route.end;
-
-	stats.totalDistance += route.links.length;
-	if (route.links.length > stats.greatestDistance){
-		stats.greatestDistance = route.links.length;
-		stats.furthestCharacters = [otherCharacter];
-	} else if (route.links.length == stats.greatestDistance){
-		stats.furthestCharacters.push(otherCharacter);
-	}
 }
 
 function buildStatsTable(statsMap){
@@ -257,11 +239,9 @@ function initializeStatsTable(){
 	var row = document.createElement("tr");
 	head.appendChild(row);
 	addChild(row,"th","Name");
-	addChild(row,"th","Average Distance");
-	addChild(row,"th","Longest Distance");
-	if (calculatingBetweenness){
-		addChild(row,"th","Pairs between");
-	}
+	addChild(row,"th","Paths found in");
+	addChild(row,"th","Average distance");
+	addChild(row,"th","Longest distance");
 	addChild(row,"th","Farthest from");
 	return table;
 }
@@ -270,15 +250,17 @@ function addTableRow(tableBody, characterStats){
 	var row = document.createElement("tr");
 	
 	addChild(row,"td",characterStats.name);
+	addChild(row,"td",characterStats.centralityPercent);
 	addChild(row,"td",characterStats.averageDistance.toFixed(3));
 	addChild(row,"td",characterStats.greatestDistance);
-	if (calculatingBetweenness){
-		addChild(row,"td",characterStats.pairsBetween);
-	}
 	addChild(row,"td",characterStats.furthestCharacters.join(', '));
 
 	tableBody.appendChild(row);
 }
+
+/*
+ * Media Stats tab
+ */
 
 var mediaStatsRows = new Map();
 
