@@ -133,17 +133,16 @@ function exploreFrom(person, characterStats){
 		stats.distance = -1;
 	}
 
-	Q.push(person);
 	var pStats = characterStats.get(person);
 	pStats.sigma = 1;
 	pStats.distance = 0;
-
+	Q.push(pStats);
+	
 	while(Q.length !== 0){
-		var v = Q.shift();
-		var vStats = characterStats.get(v);
+		var vStats = Q.shift();
 		S.queue(vStats);
 
-		for (var connection of getConnections(v)){
+		for (var connection of getConnections(vStats.name)){
 			var w = connection.person;
 			var wStats = characterStats.get(w);
 
@@ -158,7 +157,7 @@ function exploreFrom(person, characterStats){
 				}
 				pStats.totalDistance += wStats.distance;
 				
-				Q.push(w);
+				Q.push(wStats);
 			}
 
 			if (wStats.distance == vStats.distance + 1){
