@@ -19086,7 +19086,7 @@ return {
           "p2": "Luke Cage"
         }, 
         {
-          "desc": "Baileymet Claire at the precinct", 
+          "desc": "Bailey met Claire at the precinct", 
           "p1": "Bailey", 
           "p2": "Claire Temple"
         }, 
