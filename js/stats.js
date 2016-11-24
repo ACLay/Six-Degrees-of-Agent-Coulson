@@ -40,6 +40,7 @@ function generateAndDisplayStats(){
 }
 
 function generateAndDisplayStatsFrom(rootCharacter){
+	var startTime = new Date().getTime()
 	// based on "A faster algorithm for betweenness centrality", Ulrik Brandes (2001)
 	//	sigma - number of paths between a given pair of nodes
 	//	delta(v) for s,t - ratio of shortest paths between s,t that v lies on
@@ -69,25 +70,19 @@ function generateAndDisplayStatsFrom(rootCharacter){
 		while (pq.length !== 0){
 			var w = pq.dequeue();
 			
-			for(var v of w.predecessors){
-				var vStats = characterStats.get(v);
-				var c = ((vStats.sigma / w.sigma) * (1.0 + w.delta));
-				vStats.delta = vStats.delta + c;
+			for(var vStats of w.predecessors){
+				vStats.delta += ((vStats.sigma / w.sigma) * (1.0 + w.delta));
 			}
 			if (w.name !== s){
-				w.centrality = w.centrality + w.delta;
+				w.centrality += w.delta;
 			}
 		}
 		var sStats = characterStats.get(s);
 		sStats.averageDistance = sStats.totalDistance / (reachableCharacters.length - 1);
 	}
 
-
-	//normalise values
-	var normalFactor = (reachableCharacters.length - 1) * (reachableCharacters.length - 2) / 2.0;
-	for (var [name, stats] of characterStats){
-		stats.centralityPercent = ((stats.centrality / normalFactor) * 100).toPrecision(5) + "%";
-	}
+	endTime = new Date().getTime();
+	console.log("stats calculated in " + (endTime - startTime) + "ms");
 
 	displayStats(characterStats);
 }
@@ -167,8 +162,8 @@ function exploreFrom(person, characterStats){
 			}
 
 			if (wStats.distance == vStats.distance + 1){
-				wStats.sigma = wStats.sigma + vStats.sigma;
-				wStats.predecessors.add(v);
+				wStats.sigma += vStats.sigma;
+				wStats.predecessors.add(vStats);
 			}
 		}
 	}
@@ -208,11 +203,10 @@ function displayGraphStats(characterStats){
 	}
 	var averageLength = averageSum / characterCount;
 	var averageCentrality = centralitySum / characterCount;
-	var normalFactor = (characterCount - 1) * (characterCount - 2) / 2.0;
-	var centralityPercent = ((averageCentrality / normalFactor) * 100).toPrecision(5) + "%";
+	
 	var resultElement = document.getElementById("statsResult");
-	addChild(resultElement, "p", "Average distance: " + averageLength.toFixed(3));
-	addChild(resultElement, "p", "Average paths found in: " + centralityPercent);
+	addChild(resultElement, "p", "Average distance between two characters: " + averageLength.toFixed(3));
+	addChild(resultElement, "p", "Average pairs a character is found between: " + (averageCentrality/2).toFixed(0));
 }
 
 function updateProgressLabel(message){
@@ -239,7 +233,7 @@ function initializeStatsTable(){
 	var row = document.createElement("tr");
 	head.appendChild(row);
 	addChild(row,"th","Name");
-	addChild(row,"th","Paths found in");
+	addChild(row,"th","Pairs found between");
 	addChild(row,"th","Average distance");
 	addChild(row,"th","Longest distance");
 	addChild(row,"th","Farthest from");
@@ -250,7 +244,7 @@ function addTableRow(tableBody, characterStats){
 	var row = document.createElement("tr");
 	
 	addChild(row,"td",characterStats.name);
-	addChild(row,"td",characterStats.centralityPercent);
+	addChild(row,"td",(characterStats.centrality/2).toFixed(0));
 	addChild(row,"td",characterStats.averageDistance.toFixed(3));
 	addChild(row,"td",characterStats.greatestDistance);
 	addChild(row,"td",characterStats.furthestCharacters.join(', '));

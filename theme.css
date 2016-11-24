@@ -100,6 +100,10 @@ table, th, td, tr::before {
     vertical-align:inherit;
 }
 
+th {
+  min-width: 6em;
+}
+
 /**
  * Table row numbers
  */
