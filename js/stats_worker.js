@@ -1,4 +1,6 @@
-importScripts('solver.js', 'filters.js', 'stats.js', 'priority-queue.js');
+"use strict";
+
+importScripts('solver.js', 'filters.js', 'stats.js', 'lib/priority-queue.js');
 
 //Overrides the UI functions from stats.js to use the web workers feedback function,
 //operating in the document scope which, unlike the web worker scope, can access the UI

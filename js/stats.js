@@ -1,3 +1,5 @@
+"use strict";
+
 var statsWorker;
 
 function generateAndDisplayStats(){
@@ -81,7 +83,7 @@ function generateAndDisplayStatsFrom(rootCharacter){
 		sStats.averageDistance = sStats.totalDistance / (reachableCharacters.length - 1);
 	}
 
-	endTime = new Date().getTime();
+	var endTime = new Date().getTime();
 	console.log("stats calculated in " + (endTime - startTime) + "ms");
 
 	displayStats(characterStats);

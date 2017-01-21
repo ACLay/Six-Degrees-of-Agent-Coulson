@@ -1,3 +1,5 @@
+"use strict";
+
 function openTab(evt, tabId) {
 	// Declare all variables
 	var i, tabcontent, tablinks;

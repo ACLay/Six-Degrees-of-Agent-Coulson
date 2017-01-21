@@ -1,3 +1,5 @@
+"use strict";
+
 function fillSelectors(){
 	// preserve the selected values
 	var previousMediaFrom = getSelectorValue("mediaFrom");
@@ -6,6 +8,10 @@ function fillSelectors(){
 	var previousCharFrom = getSelectorValue("goFrom");
 	var previousCharTo = getSelectorValue("goTo");
 	var previousCharRoot = getSelectorValue("rootCharacter");
+
+	var mediaFrom = document.getElementById("mediaFrom");
+	var mediaTo = document.getElementById("mediaTo");
+	var rootMedia = document.getElementById("rootMedia");
 
 	// populate the drop down menus
 	removeChildren(mediaFrom);

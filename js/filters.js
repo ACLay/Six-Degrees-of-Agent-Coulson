@@ -1,3 +1,5 @@
+"use strict";
+
 function generateFilters(){
 	var categories = connectionGraph.categories;
 	var properties  = connectionGraph.properties;
@@ -113,7 +115,7 @@ function setAllCheckboxes(selected){
 	for (var [name, categoryBoxes] of categoryCheckboxes){
 		categoryBoxes.category.indeterminate = false;
 		categoryBoxes.category.checked = selected;
-		mediaBoxes = categoryBoxes.media
+		var mediaBoxes = categoryBoxes.media
 		for (var i = 0; i < mediaBoxes.length; i++){
 			var mediaBox = mediaBoxes[i];
 			mediaBox.checked = selected;

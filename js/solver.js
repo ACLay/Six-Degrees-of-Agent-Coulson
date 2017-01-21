@@ -1,3 +1,5 @@
+"use strict";
+
 function displayConnection(){
 	var resultElement = document.getElementById("searchResult");
 	removeChildren(resultElement);

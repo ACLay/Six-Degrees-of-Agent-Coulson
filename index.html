@@ -3,18 +3,20 @@
 		<title>Six Degrees of Agent Coulson</title>
 		<link rel="stylesheet" type="text/css" href="theme.css"/>
 		<link rel="shortcut icon" href="favicon.ico"/>
-		<script src="js/sorttable.js"></script>
+		
+		<script src="js/lib/sorttable.js"></script>
+		<script src="js/lib/priority-queue.js"></script>
+
+		<script>var connectionGraph;</script>
+		<script src="js/setup.js"></script>
+		<script src="js/connections.js"></script>
+		<script src="js/interface.js"></script>
+		<script src="js/selectors.js"></script>
+		<script src="js/filters.js"></script>
+		<script src="js/solver.js"></script>
+		<script src="js/stats.js"></script>
 	</head>
 	<body>
-		<script>var connectionGraph;</script>
-		<script src="js/connections.js">Contains the connection graph</script>
-		<script src="js/solver.js">Works out and shows the connections between characters</script>
-		<script src="js/selectors.js">Manages the character selectors</script>
-		<script src="js/setup.js">Sets up the controls and graph</script>
-		<script src="js/filters.js">Filters to select which films to use</script>
-		<script src="js/stats.js">Works out facts about the graph</script>
-		<script src="js/interface.js">Functions to manipulate the interface</script>
-		<script src="js/priority-queue.js"></script>
 
 		<div class=page>
 			<h1>Six Degrees of Agent Coulson</h1>
