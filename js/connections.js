@@ -18,11 +18,14 @@ return {
     "Adamo Dioli", 
     "Admiral Jolnes", 
     "Ador", 
+    "Agent Anderson", 
     "Agent Barbour", 
     "Agent Baylin", 
     "Agent Beringer", 
     "Agent Blackwell", 
+    "Agent Burrows", 
     "Agent Case", 
+    "Agent Cecilio", 
     "Agent Chaimson", 
     "Agent Corcoran", 
     "Agent Coulson", 
@@ -430,6 +433,7 @@ return {
     "Janice Robbins", 
     "Jason Wilkes", 
     "Jasper Sitwell", 
+    "Jeffrey Mace", 
     "Jemma Simmons", 
     "Jennifer Fisher", 
     "Jeri Hogarth", 
@@ -10372,6 +10376,122 @@ return {
         }
       ], 
       "name": "Agents of SHIELD Season 3"
+    }, 
+    {
+      "category": "Other", 
+      "characters": [
+        "Agent Anderson", 
+        "Agent Burrows", 
+        "Agent Cecilio", 
+        "Agent Coulson", 
+        "Alphonso Mackenzie", 
+        "Daisy Johnson", 
+        "Elena 'Yo-Yo' Rodriguez", 
+        "Francisco Rodriguez", 
+        "Jeffrey Mace", 
+        "Jemma Simmons", 
+        "Leo Fitz", 
+        "Melinda May", 
+        "Victor Ramon"
+      ], 
+      "interactions": [
+        {
+          "desc": "Elena met Coulson as he was leaving to hunt for Quake", 
+          "p1": "Elena 'Yo-Yo' Rodriguez", 
+          "p2": "Agent Coulson"
+        }, 
+        {
+          "desc": "May retrieved the directors ID badge from Elena", 
+          "p1": "Elena 'Yo-Yo' Rodriguez", 
+          "p2": "Melinda May"
+        }, 
+        {
+          "desc": "Elena and Daisy fought the Watchdogs together", 
+          "p1": "Elena 'Yo-Yo' Rodriguez", 
+          "p2": "Daisy Johnson"
+        }, 
+        {
+          "desc": "Fitz provided Elena with a new tracking watch", 
+          "p1": "Elena 'Yo-Yo' Rodriguez", 
+          "p2": "Leo Fitz"
+        }, 
+        {
+          "desc": "Elena set Jemma on her hunt for an apartment", 
+          "p1": "Elena 'Yo-Yo' Rodriguez", 
+          "p2": "Jemma Simmons"
+        }, 
+        {
+          "desc": "Mack and Elena, sitting in a tree...", 
+          "p1": "Elena 'Yo-Yo' Rodriguez", 
+          "p2": "Alphonso Mackenzie"
+        }, 
+        {
+          "desc": "Mace got Elena to sign the Sokovia Accords", 
+          "p1": "Elena 'Yo-Yo' Rodriguez", 
+          "p2": "Jeffrey Mace"
+        }, 
+        {
+          "desc": "Elena went after Ramon for killing her cousin", 
+          "p1": "Elena 'Yo-Yo' Rodriguez", 
+          "p2": "Victor Ramon"
+        }, 
+        {
+          "desc": "Anderson took Elena to meet the Director", 
+          "p1": "Elena 'Yo-Yo' Rodriguez", 
+          "p2": "Agent Anderson"
+        }, 
+        {
+          "desc": "Elena met Cecilio when visiting Director Mace", 
+          "p1": "Elena 'Yo-Yo' Rodriguez", 
+          "p2": "Agent Cecilio"
+        }, 
+        {
+          "desc": "Elena and Francisco were cousins", 
+          "p1": "Elena 'Yo-Yo' Rodriguez", 
+          "p2": "Francisco Rodriguez"
+        }, 
+        {
+          "desc": "Mack and Coulson went to search for Daisy together", 
+          "p1": "Agent Coulson", 
+          "p2": "Alphonso Mackenzie"
+        }, 
+        {
+          "desc": "Cecilio worked as a bodyguard for Mace", 
+          "p1": "Agent Cecilio", 
+          "p2": "Jeffrey Mace"
+        }, 
+        {
+          "desc": "Fitz and Simmons shared a room on base", 
+          "p1": "Leo Fitz", 
+          "p2": "Jemma Simmons"
+        }, 
+        {
+          "desc": "Mace had May search for his missing ID badge", 
+          "p1": "Melinda May", 
+          "p2": "Jeffrey Mace"
+        }, 
+        {
+          "desc": "Burrows met with Mace the day Elena signed the accords", 
+          "p1": "Agent Burrows", 
+          "p2": "Jeffrey Mace"
+        }, 
+        {
+          "desc": "Mace had Anderson bring Elena to his office", 
+          "p1": "Agent Anderson", 
+          "p2": "Jeffrey Mace"
+        }, 
+        {
+          "desc": "Ramon killed Francisco back in Columbia", 
+          "p1": "Victor Ramon", 
+          "p2": "Francisco Rodriguez"
+        }, 
+        {
+          "desc": "Daisy interrupted a weapons sale Victor was hosting", 
+          "p1": "Daisy Johnson", 
+          "p2": "Victor Ramon"
+        }
+      ], 
+      "name": "Agents of SHIELD: Slingshot"
     }, 
     {
       "category": "One-shots", 
