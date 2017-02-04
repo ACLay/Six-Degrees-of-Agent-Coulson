@@ -30,6 +30,7 @@ return {
     "Agent Corcoran", 
     "Agent Coulson", 
     "Agent Davis", 
+    "Agent Gallagher", 
     "Agent Harris", 
     "Agent Hart", 
     "Agent Hauer", 
@@ -172,6 +173,7 @@ return {
     "Christian Ward", 
     "Christine Everhart", 
     "Christine Palmer", 
+    "Christopher Roth", 
     "Chuck", 
     "Clair", 
     "Claire Temple", 
@@ -187,6 +189,7 @@ return {
     "Colonel Ernst Mueller", 
     "Colonel Fyodor", 
     "Colonel Phillips", 
+    "Colonel Ray Schoonover", 
     "Comanche", 
     "Commander Darren", 
     "Connie Lin", 
@@ -211,6 +214,7 @@ return {
     "Dana Stryker", 
     "Daniel Drumm", 
     "Daniel Fisher", 
+    "Daniel Gibson", 
     "Daniel Sousa", 
     "Daniel Whitehall", 
     "Dante Chapman", 
@@ -249,6 +253,8 @@ return {
     "Doctor Stephen Strange", 
     "Doctor Wilton", 
     "Doctor Wu", 
+    "Dogs of Hell Pope", 
+    "Dogs of Hell Smitty", 
     "Domingo Colon", 
     "Don Rigoletto", 
     "Donald", 
@@ -258,8 +264,10 @@ return {
     "Dormammu", 
     "Dorothy Walker", 
     "Dottie Underwood", 
+    "Dr Andrew Lee", 
     "Dr Erskine", 
     "Dr Goodman", 
+    "Dr Gregory Tepper", 
     "Dr Helen Cho", 
     "Dr Jazuat", 
     "Dr Lingenfelter", 
@@ -273,6 +281,7 @@ return {
     "Earl Scarfe", 
     "Eddie Axton", 
     "Eden Fesi", 
+    "Edgar Brass", 
     "Edison Po", 
     "Edith Oberon", 
     "Editor Haverson", 
@@ -281,6 +290,7 @@ return {
     "Eir", 
     "Elder Gahiji", 
     "Electrician Ed", 
+    "Elektra Natchios", 
     "Elena", 
     "Elena 'Yo-Yo' Rodriguez", 
     "Elena Cardenas", 
@@ -289,6 +299,7 @@ return {
     "Elizabeth De Luca", 
     "Ellen Brandt", 
     "Ellen King", 
+    "Elliot 'Grotto' Grote", 
     "Elliot Randolph", 
     "Elon Musk", 
     "Emil Blonsky", 
@@ -318,6 +329,7 @@ return {
     "Father Lantom", 
     "Felix Blake", 
     "Ferdinand Lopez", 
+    "Finn Cooley", 
     "Fireman Baker", 
     "Fletcher Heggs", 
     "Foggy Nelson", 
@@ -326,6 +338,8 @@ return {
     "Francis Noche", 
     "Francisco Rodriguez", 
     "Frank", 
+    "Frank Castle", 
+    "Frank Castle Jr", 
     "Frank Delacourt", 
     "Frank Levin", 
     "Frank Whalen", 
@@ -348,6 +362,7 @@ return {
     "General John McGinnis", 
     "General Meade", 
     "George (tramp)", 
+    "George Buck", 
     "George Stephanopoulos", 
     "George Talbot", 
     "Georges Batroc", 
@@ -419,6 +434,7 @@ return {
     "Jackson Norriss (10 rings)", 
     "Jacques Alef", 
     "Jacques Dernier", 
+    "Jacques Duchamps", 
     "Jaiying", 
     "Jakob Nystrom", 
     "Jamel Shabazz", 
@@ -461,6 +477,7 @@ return {
     "Joseph Pike", 
     "Josephine", 
     "Juan Carlos Castro", 
+    "Judge Cynthia Batzer", 
     "Jules Beckers", 
     "Julien Beckers", 
     "Junior Juniper", 
@@ -484,6 +501,11 @@ return {
     "Kilgrave", 
     "Kirk Vogel", 
     "Kisha Peterson", 
+    "Kitchen Irish George", 
+    "Kitchen Irish Murph", 
+    "Kitchen Irish Rory", 
+    "Kitchen Irish Seamus", 
+    "Kitchen Irish Thomas", 
     "Koko", 
     "Korath", 
     "Kozlov", 
@@ -510,6 +532,7 @@ return {
     "Lila Barton", 
     "Lincoln Campbell", 
     "Linda Avery", 
+    "Lisa Castle", 
     "Lloyd Rathman", 
     "Loki", 
     "Lonnie Wilson", 
@@ -519,6 +542,7 @@ return {
     "Loretta Dooley", 
     "Lori Henson", 
     "Lorraine (Griffith)", 
+    "Louisa Delgado", 
     "Louise Thompson", 
     "Lt Mario Green", 
     "Luca Russo", 
@@ -540,9 +564,12 @@ return {
     "Marci Stahl", 
     "Marcus Daniels", 
     "Marcus Scarlotti", 
+    "Maria Castle", 
     "Maria Hill", 
     "Maria Stark", 
     "Mariah Dillard", 
+    "Marine Gosnell", 
+    "Marine Veteran Jerry", 
     "Marlene Vistain", 
     "Marshal Franco", 
     "Marshal Johnson", 
@@ -552,6 +579,7 @@ return {
     "Matt Murdock", 
     "Maureen Denton", 
     "Maury Tuttlebaum", 
+    "Max", 
     "Maya Hansen", 
     "McManus", 
     "Medical Examiner Meltzer", 
@@ -564,6 +592,8 @@ return {
     "Meredith Quill", 
     "Meredith Tredwyck", 
     "Michael Carter", 
+    "Michael Jortner", 
+    "Miguel Valdez", 
     "Mike Li", 
     "Mike Peterson", 
     "Mike Tyson", 
@@ -574,6 +604,7 @@ return {
     "Mira Donohue", 
     "Miriam Fry", 
     "Miriam Sharpe", 
+    "Miss Jacinto", 
     "Misty Knight", 
     "Mitchell Carson", 
     "Mitchell Ellison", 
@@ -581,10 +612,18 @@ return {
     "Mob Boss Prohaszka", 
     "Molly Bowden", 
     "Mortimer Hayes", 
+    "Mr Almeida", 
+    "Mr DiPesta", 
+    "Mr Dutton", 
+    "Mr Hirochi", 
     "Mr Lin", 
+    "Mr Marino", 
+    "Mr Maxwell", 
+    "Mr Nesbitt", 
     "Mrs Davis", 
     "Mrs Triplett", 
     "Mrs Zeller", 
+    "Ms Kwan", 
     "Natasha Romanoff", 
     "Nathaniel Barton", 
     "Nathaniel Malick", 
@@ -612,7 +651,9 @@ return {
     "Officer Corbin", 
     "Officer Pike", 
     "Officer Polsky", 
+    "Officer Powell", 
     "Officer Ray Peters", 
+    "Officer Reed", 
     "Officer Stuart", 
     "Officer Sullivan", 
     "Olaf", 
@@ -639,6 +680,7 @@ return {
     "Peter Parker", 
     "Peter Quill", 
     "Petra Larsen", 
+    "Philip Cabroni", 
     "Phillip Jones", 
     "Pietro Maximoff", 
     "Pinky Pinkerton", 
@@ -678,6 +720,7 @@ return {
     "Richard Lumley", 
     "Rick Hawkins", 
     "Rick Ramirez", 
+    "Ricky Wex", 
     "Riley", 
     "Rob Donohue", 
     "Robert Gonzales", 
@@ -741,7 +784,9 @@ return {
     "Staff Sergeant Campbell", 
     "Staff Sergeant Logan", 
     "Staff Sergeant Smith", 
+    "Stan Gibson", 
     "Stanley Lieber", 
+    "Star", 
     "Stephanie Malick", 
     "Steve Rogers", 
     "Steve Scott", 
@@ -817,6 +862,7 @@ return {
     "Vladimir Ranskahov", 
     "Volstagg", 
     "Waitress Rhonda", 
+    "Waitress Susanna", 
     "Walter Thomas", 
     "Wanda Maximoff", 
     "Warshauer", 
@@ -849,7 +895,8 @@ return {
     "Yuri Dubrovsky", 
     "Yuri Krupin", 
     "Yusef Hadad", 
-    "Zack"
+    "Zack", 
+    "Zudy Almeida"
   ], 
   "properties": [
     {
@@ -14697,6 +14744,1030 @@ return {
         }
       ], 
       "name": "Daredevil Season 1"
+    }, 
+    {
+      "category": "Netflix", 
+      "characters": [
+        "Agent Gallagher", 
+        "Barkeeper Josie", 
+        "Benjamin Donovan", 
+        "Betsy Beatty", 
+        "Blake Tower", 
+        "Brett Mahoney", 
+        "Christopher Roth", 
+        "Claire Temple", 
+        "Colonel Ray Schoonover", 
+        "Daniel Gibson", 
+        "Dogs of Hell Pope", 
+        "Dogs of Hell Smitty", 
+        "Dr Andrew Lee", 
+        "Dr Gregory Tepper", 
+        "Edgar Brass", 
+        "Elektra Natchios", 
+        "Elliot 'Grotto' Grote", 
+        "Father Lantom", 
+        "Finn Cooley", 
+        "Foggy Nelson", 
+        "Frank Castle", 
+        "Frank Castle Jr", 
+        "George Buck", 
+        "Jack Murdock", 
+        "Jacques Duchamps", 
+        "Jeri Hogarth", 
+        "Judge Cynthia Batzer", 
+        "Karen Page", 
+        "Kitchen Irish George", 
+        "Kitchen Irish Murph", 
+        "Kitchen Irish Rory", 
+        "Kitchen Irish Seamus", 
+        "Kitchen Irish Thomas", 
+        "Lisa Castle", 
+        "Louisa Delgado", 
+        "Madame Gao", 
+        "Marci Stahl", 
+        "Maria Castle", 
+        "Marine Gosnell", 
+        "Marine Veteran Jerry", 
+        "Matt Murdock", 
+        "Max", 
+        "Melvin Potter", 
+        "Michael Jortner", 
+        "Miguel Valdez", 
+        "Miss Jacinto", 
+        "Mitchell Ellison", 
+        "Mr Almeida", 
+        "Mr DiPesta", 
+        "Mr Dutton", 
+        "Mr Hirochi", 
+        "Mr Marino", 
+        "Mr Maxwell", 
+        "Mr Nesbitt", 
+        "Ms Kwan", 
+        "Nobu Yoshioka", 
+        "Officer Powell", 
+        "Officer Reed", 
+        "Philip Cabroni", 
+        "Ricky Wex", 
+        "Roscoe Sweeney", 
+        "Samantha Reyes", 
+        "Shirley Benson", 
+        "Stan Gibson", 
+        "Star", 
+        "Stick", 
+        "Turk Barrett", 
+        "Vanessa Marianna", 
+        "Waitress Susanna", 
+        "Wilson Fisk", 
+        "Zudy Almeida"
+      ], 
+      "interactions": [
+        {
+          "desc": "Nelson and Murdock, Avocados at law.", 
+          "p1": "Matt Murdock", 
+          "p2": "Foggy Nelson"
+        }, 
+        {
+          "desc": "Matt and Karen shared a beautifully lit dinner", 
+          "p1": "Matt Murdock", 
+          "p2": "Karen Page"
+        }, 
+        {
+          "desc": "Foggy and Karen worked together at Nelson and Murdock", 
+          "p1": "Foggy Nelson", 
+          "p2": "Karen Page"
+        }, 
+        {
+          "desc": "Daredevil saved Zudy from her abusive husband", 
+          "p1": "Zudy Almeida", 
+          "p2": "Matt Murdock"
+        }, 
+        {
+          "desc": "Foggy sent Zudy to a shelter to escape her abusive husband", 
+          "p1": "Zudy Almeida", 
+          "p2": "Foggy Nelson"
+        }, 
+        {
+          "desc": "The Almeida's were married to each other", 
+          "p1": "Mr Almeida", 
+          "p2": "Zudy Almeida"
+        }, 
+        {
+          "desc": "Daredevil stopped Mr Almeida from killing his wife", 
+          "p1": "Mr Almeida", 
+          "p2": "Matt Murdock"
+        }, 
+        {
+          "desc": "Mr Marino went to Nelson and Murdock after his dog was beaten", 
+          "p1": "Mr Marino", 
+          "p2": "Matt Murdock"
+        }, 
+        {
+          "desc": "Mr Marino went to Nelson and Murdock after his dog was beaten", 
+          "p1": "Mr Marino", 
+          "p2": "Foggy Nelson"
+        }, 
+        {
+          "desc": "Mr Marino met Karen at Nelson and Murdock", 
+          "p1": "Mr Marino", 
+          "p2": "Karen Page"
+        }, 
+        {
+          "desc": "Marino and Maxwell met at Nelson and Murdock", 
+          "p1": "Mr Marino", 
+          "p2": "Mr Maxwell"
+        }, 
+        {
+          "desc": "Jacinto and Marino met at Nelson and Murdock", 
+          "p1": "Mr Marino", 
+          "p2": "Miss Jacinto"
+        }, 
+        {
+          "desc": "Maxwell went to Nelson and Murdock after he was attacked in a bar", 
+          "p1": "Mr Maxwell", 
+          "p2": "Matt Murdock"
+        }, 
+        {
+          "desc": "Maxwell went to Nelson and Murdock after he was attacked in a bar", 
+          "p1": "Mr Maxwell", 
+          "p2": "Foggy Nelson"
+        }, 
+        {
+          "desc": "Maxwell met Karen at Nelson and Murdock", 
+          "p1": "Mr Maxwell", 
+          "p2": "Karen Page"
+        }, 
+        {
+          "desc": "Jacinto and Marino met at Nelson and Murdock", 
+          "p1": "Mr Maxwell", 
+          "p2": "Miss Jacinto"
+        }, 
+        {
+          "desc": "Jacinto went to Nelson and Murdock for help with work papers", 
+          "p1": "Miss Jacinto", 
+          "p2": "Matt Murdock"
+        }, 
+        {
+          "desc": "Jacinto went to Nelson and Murdock for help with work papers", 
+          "p1": "Miss Jacinto", 
+          "p2": "Foggy Nelson"
+        }, 
+        {
+          "desc": "Jacinto met Karen at Nelson and Murdock", 
+          "p1": "Miss Jacinto", 
+          "p2": "Karen Page"
+        }, 
+        {
+          "desc": "Thomas welcomed Nesbitt to the Kitchen Irish gang meeting", 
+          "p1": "Mr Nesbitt", 
+          "p2": "Kitchen Irish Thomas"
+        }, 
+        {
+          "desc": "Grotto and Thomas were both in the Kitchen Irish gang", 
+          "p1": "Kitchen Irish Thomas", 
+          "p2": "Elliot 'Grotto' Grote"
+        }, 
+        {
+          "desc": "George and Thomas were both in the Kitchen Irish gang", 
+          "p1": "Kitchen Irish Thomas", 
+          "p2": "Kitchen Irish George"
+        }, 
+        {
+          "desc": "Grotto worked under Nesbitt in the Kitchen Irish gang", 
+          "p1": "Elliot 'Grotto' Grote", 
+          "p2": "Mr Nesbitt"
+        }, 
+        {
+          "desc": "George and Grotto were both in the Kitchen Irish gang", 
+          "p1": "Elliot 'Grotto' Grote", 
+          "p2": "Kitchen Irish George"
+        }, 
+        {
+          "desc": "Nesbitt and George were both at the Kitchen Irish meeting", 
+          "p1": "Kitchen Irish George", 
+          "p2": "Mr Nesbitt"
+        }, 
+        {
+          "desc": "Thomas chained Max up before the Kitchen Irish massacre", 
+          "p1": "Kitchen Irish Thomas", 
+          "p2": "Max"
+        }, 
+        {
+          "desc": "Max was taken outside as Nesbitt arrived at the Kitchen Irish meeting", 
+          "p1": "Mr Nesbitt", 
+          "p2": "Max"
+        }, 
+        {
+          "desc": "Karen was a customer at Josies bar", 
+          "p1": "Barkeeper Josie", 
+          "p2": "Karen Page"
+        }, 
+        {
+          "desc": "Matt was a customer at Josies bar", 
+          "p1": "Barkeeper Josie", 
+          "p2": "Matt Murdock"
+        }, 
+        {
+          "desc": "Foggy was a customer at Josies bar", 
+          "p1": "Barkeeper Josie", 
+          "p2": "Foggy Nelson"
+        }, 
+        {
+          "desc": "Grotto went to Josie's to find Matt and Foggy", 
+          "p1": "Elliot 'Grotto' Grote", 
+          "p2": "Barkeeper Josie"
+        }, 
+        {
+          "desc": "Grotto told Matt about the Kitchen Irish massacre", 
+          "p1": "Elliot 'Grotto' Grote", 
+          "p2": "Matt Murdock"
+        }, 
+        {
+          "desc": "Grotto told Foggy about the Kitchen Irish massacre", 
+          "p1": "Elliot 'Grotto' Grote", 
+          "p2": "Foggy Nelson"
+        }, 
+        {
+          "desc": "Grotto met Karen telling Matt and Foggy about the Kitchen Irish massacre", 
+          "p1": "Elliot 'Grotto' Grote", 
+          "p2": "Karen Page"
+        }, 
+        {
+          "desc": "Matt met with Brett about the Kitchen Irish massacre", 
+          "p1": "Brett Mahoney", 
+          "p2": "Matt Murdock"
+        }, 
+        {
+          "desc": "Foggy spoke with Brett about the Kitchen Irish massacre", 
+          "p1": "Brett Mahoney", 
+          "p2": "Foggy Nelson"
+        }, 
+        {
+          "desc": "Daredevil interrupted a gun sale Turk was running", 
+          "p1": "Matt Murdock", 
+          "p2": "Turk Barrett"
+        }, 
+        {
+          "desc": "Foggy used to know Smitty back in school", 
+          "p1": "Foggy Nelson", 
+          "p2": "Dogs of Hell Smitty"
+        }, 
+        {
+          "desc": "Wex was a client Foggy helped out", 
+          "p1": "Foggy Nelson", 
+          "p2": "Ricky Wex"
+        }, 
+        {
+          "desc": "Foggy helped Pope get the operation he needed", 
+          "p1": "Foggy Nelson", 
+          "p2": "Dogs of Hell Pope"
+        }, 
+        {
+          "desc": "Frank killed Grotto for his crimes", 
+          "p1": "Frank Castle", 
+          "p2": "Elliot 'Grotto' Grote"
+        }, 
+        {
+          "desc": "Karen worked with Frank during his trial", 
+          "p1": "Frank Castle", 
+          "p2": "Karen Page"
+        }, 
+        {
+          "desc": "Matt tried to stop Frank from killing people", 
+          "p1": "Frank Castle", 
+          "p2": "Matt Murdock"
+        }, 
+        {
+          "desc": "Karen spoke with Brett at the police precinct", 
+          "p1": "Brett Mahoney", 
+          "p2": "Karen Page"
+        }, 
+        {
+          "desc": "Brett spoke with Grotto at the police precinct", 
+          "p1": "Brett Mahoney", 
+          "p2": "Elliot 'Grotto' Grote"
+        }, 
+        {
+          "desc": "Reyes spoke with Karen about Grotto's witness protection", 
+          "p1": "Samantha Reyes", 
+          "p2": "Karen Page"
+        }, 
+        {
+          "desc": "Reyes spoke with Foggy about Grotto's witness protection", 
+          "p1": "Samantha Reyes", 
+          "p2": "Foggy Nelson"
+        }, 
+        {
+          "desc": "Reyes offered Grotto a deal to get into witness protection", 
+          "p1": "Samantha Reyes", 
+          "p2": "Elliot 'Grotto' Grote"
+        }, 
+        {
+          "desc": "Tower worked for Reyes in the DA's office", 
+          "p1": "Samantha Reyes", 
+          "p2": "Blake Tower"
+        }, 
+        {
+          "desc": "Blake met Karen about Grotto's witness protection", 
+          "p1": "Blake Tower", 
+          "p2": "Karen Page"
+        }, 
+        {
+          "desc": "Blake met Foggy about Grotto's witness protection", 
+          "p1": "Blake Tower", 
+          "p2": "Foggy Nelson"
+        }, 
+        {
+          "desc": "Grotto spoke with Blake trying to get into witness protection", 
+          "p1": "Blake Tower", 
+          "p2": "Elliot 'Grotto' Grote"
+        }, 
+        {
+          "desc": "Grotto had past dealings with Brass which the DA wanted to use", 
+          "p1": "Edgar Brass", 
+          "p2": "Elliot 'Grotto' Grote"
+        }, 
+        {
+          "desc": "Kwan was one of Foggy's clients", 
+          "p1": "Ms Kwan", 
+          "p2": "Foggy Nelson"
+        }, 
+        {
+          "desc": "Matt went to Melvin to get his helmet fixed", 
+          "p1": "Melvin Potter", 
+          "p2": "Matt Murdock"
+        }, 
+        {
+          "desc": "Melvin promised Betsy he wouldn't do anything illegal anymore", 
+          "p1": "Melvin Potter", 
+          "p2": "Betsy Beatty"
+        }, 
+        {
+          "desc": "Max was the guard dog at Punishers appartment when Matt broke in", 
+          "p1": "Max", 
+          "p2": "Matt Murdock"
+        }, 
+        {
+          "desc": "Frank took Max from the Kitchen Irish to be his guard dog", 
+          "p1": "Max", 
+          "p2": "Frank Castle"
+        }, 
+        {
+          "desc": "Foggy visited Claire at Metro General hospital looking for Matt", 
+          "p1": "Foggy Nelson", 
+          "p2": "Claire Temple"
+        }, 
+        {
+          "desc": "Jerry spoke with Frank on a rooftop about their military service", 
+          "p1": "Frank Castle", 
+          "p2": "Marine Veteran Jerry"
+        }, 
+        {
+          "desc": "Matt saved Jerry from the Dogs of Hell", 
+          "p1": "Matt Murdock", 
+          "p2": "Marine Veteran Jerry"
+        }, 
+        {
+          "desc": "Rory got a drink for Finn at the Kitchen Irish funeral", 
+          "p1": "Finn Cooley", 
+          "p2": "Kitchen Irish Rory"
+        }, 
+        {
+          "desc": "Finn killed Seamus after the Kitchen Irish massacre", 
+          "p1": "Finn Cooley", 
+          "p2": "Kitchen Irish Seamus"
+        }, 
+        {
+          "desc": "Rory worked for Seamus in the Kitchen Irish", 
+          "p1": "Kitchen Irish Seamus", 
+          "p2": "Kitchen Irish Rory"
+        }, 
+        {
+          "desc": "Finn dognapped Max when hunting for the punisher", 
+          "p1": "Finn Cooley", 
+          "p2": "Max"
+        }, 
+        {
+          "desc": "Rory dognapped Max when hunting for the punisher", 
+          "p1": "Kitchen Irish Rory", 
+          "p2": "Max"
+        }, 
+        {
+          "desc": "Matt heard Lantom preach at Grotto's funeral", 
+          "p1": "Father Lantom", 
+          "p2": "Matt Murdock"
+        }, 
+        {
+          "desc": "Foggy heard Lantom preach at Grotto's funeral", 
+          "p1": "Father Lantom", 
+          "p2": "Foggy Nelson"
+        }, 
+        {
+          "desc": "Karen heard Lantom preach at Grotto's funeral", 
+          "p1": "Father Lantom", 
+          "p2": "Karen Page"
+        }, 
+        {
+          "desc": "DiPesta was a client that Foggy spoke to on the phone", 
+          "p1": "Foggy Nelson", 
+          "p2": "Mr DiPesta"
+        }, 
+        {
+          "desc": "Karen visited George investigating the Punisher", 
+          "p1": "George Buck", 
+          "p2": "Karen Page"
+        }, 
+        {
+          "desc": "Buck was a nurse at Metro General who looked after Castle", 
+          "p1": "George Buck", 
+          "p2": "Frank Castle"
+        }, 
+        {
+          "desc": "Rory and other Kitchen Irish tried to get revenge on Frank", 
+          "p1": "Kitchen Irish Rory", 
+          "p2": "Frank Castle"
+        }, 
+        {
+          "desc": "Cooley kidnapped Frank to get revenge for the Kitchen Irish he killed", 
+          "p1": "Finn Cooley", 
+          "p2": "Frank Castle"
+        }, 
+        {
+          "desc": "Matt interrogated Rory when searching for Punisher", 
+          "p1": "Kitchen Irish Rory", 
+          "p2": "Matt Murdock"
+        }, 
+        {
+          "desc": "Murph was one of the Kitchen Irish Matt took out searching for Punisher", 
+          "p1": "Kitchen Irish Murph", 
+          "p2": "Matt Murdock"
+        }, 
+        {
+          "desc": "Maria and Frank were married", 
+          "p1": "Maria Castle", 
+          "p2": "Frank Castle"
+        }, 
+        {
+          "desc": "Lisa was Franks daughter", 
+          "p1": "Lisa Castle", 
+          "p2": "Frank Castle"
+        }, 
+        {
+          "desc": "Frank Jr was Frank Sr's son", 
+          "p1": "Frank Castle Jr", 
+          "p2": "Frank Castle"
+        }, 
+        {
+          "desc": "Maria was Lisa's mother", 
+          "p1": "Lisa Castle", 
+          "p2": "Maria Castle"
+        }, 
+        {
+          "desc": "Maria was Frank Jr's mother", 
+          "p1": "Frank Castle Jr", 
+          "p2": "Maria Castle"
+        }, 
+        {
+          "desc": "Lisa and Frank Jr were brother and sister", 
+          "p1": "Frank Castle Jr", 
+          "p2": "Lisa Castle"
+        }, 
+        {
+          "desc": "Elektra broke into Matt's apartment", 
+          "p1": "Matt Murdock", 
+          "p2": "Elektra Natchios"
+        }, 
+        {
+          "desc": "Karen went to Mitchell for help investigating Punishers past", 
+          "p1": "Mitchell Ellison", 
+          "p2": "Karen Page"
+        }, 
+        {
+          "desc": "Foggy met with Marci at Josies", 
+          "p1": "Foggy Nelson", 
+          "p2": "Marci Stahl"
+        }, 
+        {
+          "desc": "Marci went to Josie's bar to meet Foggy", 
+          "p1": "Marci Stahl", 
+          "p2": "Barkeeper Josie"
+        }, 
+        {
+          "desc": "Marci works for Hogarth at her law firm", 
+          "p1": "Marci Stahl", 
+          "p2": "Jeri Hogarth"
+        }, 
+        {
+          "desc": "Jortner wrote about the triple gang shoot out in central park for Mitchell", 
+          "p1": "Michael Jortner", 
+          "p2": "Mitchell Ellison"
+        }, 
+        {
+          "desc": "Roscoe killed Jack after he refused to throw a fight", 
+          "p1": "Roscoe Sweeney", 
+          "p2": "Jack Murdock"
+        }, 
+        {
+          "desc": "Matt beat up Sweeney for killing his father", 
+          "p1": "Roscoe Sweeney", 
+          "p2": "Matt Murdock"
+        }, 
+        {
+          "desc": "Elektra broke into Sweeney's house to let Matt get revenge", 
+          "p1": "Roscoe Sweeney", 
+          "p2": "Elektra Natchios"
+        }, 
+        {
+          "desc": "Jack was Matt's father", 
+          "p1": "Matt Murdock", 
+          "p2": "Jack Murdock"
+        }, 
+        {
+          "desc": "Roth tried to get Karen to sign off on a statement for the Punisher trial", 
+          "p1": "Christopher Roth", 
+          "p2": "Karen Page"
+        }, 
+        {
+          "desc": "Roth met Foggy at Nelson and Murdock when working the Punisher trial", 
+          "p1": "Christopher Roth", 
+          "p2": "Foggy Nelson"
+        }, 
+        {
+          "desc": "Roth met Matt at Nelson and Murdock when working the Punisher trial", 
+          "p1": "Christopher Roth", 
+          "p2": "Matt Murdock"
+        }, 
+        {
+          "desc": "Reyes assigned Roth to work as a public defender in Frank Castle's trial", 
+          "p1": "Christopher Roth", 
+          "p2": "Samantha Reyes"
+        }, 
+        {
+          "desc": "Foggy represented Castle in court", 
+          "p1": "Frank Castle", 
+          "p2": "Foggy Nelson"
+        }, 
+        {
+          "desc": "Murdock fought against Reyes during the Punisher trial", 
+          "p1": "Matt Murdock", 
+          "p2": "Samantha Reyes"
+        }, 
+        {
+          "desc": "Brett met Samantha while guarding the Punisher in hospital", 
+          "p1": "Brett Mahoney", 
+          "p2": "Samantha Reyes"
+        }, 
+        {
+          "desc": "Matt tried to help Stan resuce his son from The Hand", 
+          "p1": "Stan Gibson", 
+          "p2": "Matt Murdock"
+        }, 
+        {
+          "desc": "Elektra met Stan when stealing the Yakuza's accounts book", 
+          "p1": "Stan Gibson", 
+          "p2": "Elektra Natchios"
+        }, 
+        {
+          "desc": "Elektra met Hirochi when infiltrating Roxxon", 
+          "p1": "Mr Hirochi", 
+          "p2": "Elektra Natchios"
+        }, 
+        {
+          "desc": "Matt met Hirochi when infiltrating Roxxon with Elektra", 
+          "p1": "Mr Hirochi", 
+          "p2": "Matt Murdock"
+        }, 
+        {
+          "desc": "Gibson and Hirochi worked together for Roxxon and the Yakuza", 
+          "p1": "Mr Hirochi", 
+          "p2": "Stan Gibson"
+        }, 
+        {
+          "desc": "Batzer was the Judge when Reyes was prosecuting the Punisher", 
+          "p1": "Judge Cynthia Batzer", 
+          "p2": "Samantha Reyes"
+        }, 
+        {
+          "desc": "Batzer was the Judge at Frank Castle's trial", 
+          "p1": "Judge Cynthia Batzer", 
+          "p2": "Frank Castle"
+        }, 
+        {
+          "desc": "Batzer was the Judge when Foggy was defending Frank Castle", 
+          "p1": "Judge Cynthia Batzer", 
+          "p2": "Foggy Nelson"
+        }, 
+        {
+          "desc": "Page met Batzer at the trial of Frank Castle", 
+          "p1": "Judge Cynthia Batzer", 
+          "p2": "Karen Page"
+        }, 
+        {
+          "desc": "Reyes was the lead prosecution against Castle in court", 
+          "p1": "Frank Castle", 
+          "p2": "Samantha Reyes"
+        }, 
+        {
+          "desc": "Blake was part of the prosecution against Frank in court", 
+          "p1": "Frank Castle", 
+          "p2": "Blake Tower"
+        }, 
+        {
+          "desc": "Matt and Blake were both lawyers in the Punisher trial", 
+          "p1": "Matt Murdock", 
+          "p2": "Blake Tower"
+        }, 
+        {
+          "desc": "Blake and Batzer met in court during the Punisher trial", 
+          "p1": "Judge Cynthia Batzer", 
+          "p2": "Blake Tower"
+        }, 
+        {
+          "desc": "Matt and Batzer both worked on the Punisher trail", 
+          "p1": "Judge Cynthia Batzer", 
+          "p2": "Matt Murdock"
+        }, 
+        {
+          "desc": "Schoonover was Castle's commanding officer in the army", 
+          "p1": "Colonel Ray Schoonover", 
+          "p2": "Frank Castle"
+        }, 
+        {
+          "desc": "Matt and Elektra had Philip decode the Yakuza's ledger", 
+          "p1": "Philip Cabroni", 
+          "p2": "Matt Murdock"
+        }, 
+        {
+          "desc": "Elektra and Matt had Philip decode the Yakuza's ledger", 
+          "p1": "Philip Cabroni", 
+          "p2": "Elektra Natchios"
+        }, 
+        {
+          "desc": "Tepper and Batzer met at the Punisher trail", 
+          "p1": "Dr Gregory Tepper", 
+          "p2": "Judge Cynthia Batzer"
+        }, 
+        {
+          "desc": "Tower and Tepper met at the Punisher trial", 
+          "p1": "Dr Gregory Tepper", 
+          "p2": "Blake Tower"
+        }, 
+        {
+          "desc": "Matt questioned Tepper at the Punisher trial", 
+          "p1": "Dr Gregory Tepper", 
+          "p2": "Matt Murdock"
+        }, 
+        {
+          "desc": "Foggy met Tepper at the Punisher trial", 
+          "p1": "Dr Gregory Tepper", 
+          "p2": "Foggy Nelson"
+        }, 
+        {
+          "desc": "Tepper and Karen met at the Punisher trial", 
+          "p1": "Dr Gregory Tepper", 
+          "p2": "Karen Page"
+        }, 
+        {
+          "desc": "Tepper was a witness at Frank's trial", 
+          "p1": "Dr Gregory Tepper", 
+          "p2": "Frank Castle"
+        }, 
+        {
+          "desc": "Elektra threatened Tepper to confess to altering his autopsy reports", 
+          "p1": "Dr Gregory Tepper", 
+          "p2": "Elektra Natchios"
+        }, 
+        {
+          "desc": "Elektra and Foggy knew each other through Matt in college", 
+          "p1": "Elektra Natchios", 
+          "p2": "Foggy Nelson"
+        }, 
+        {
+          "desc": "Stick saved Matt and Elektra from ninjas", 
+          "p1": "Stick", 
+          "p2": "Matt Murdock"
+        }, 
+        {
+          "desc": "Stick trained Elektra to fight", 
+          "p1": "Stick", 
+          "p2": "Elektra Natchios"
+        }, 
+        {
+          "desc": "Foggy questioned Schoonover during the Punisher trial", 
+          "p1": "Colonel Ray Schoonover", 
+          "p2": "Foggy Nelson"
+        }, 
+        {
+          "desc": "Karen interviewed Schoonover when writing her Frank Castle article", 
+          "p1": "Colonel Ray Schoonover", 
+          "p2": "Karen Page"
+        }, 
+        {
+          "desc": "Batzer was Judge when Schoonover gave evidence and Punisher's trial", 
+          "p1": "Colonel Ray Schoonover", 
+          "p2": "Judge Cynthia Batzer"
+        }, 
+        {
+          "desc": "Schoonover gave evidence in front of Tower at the Punisher trial", 
+          "p1": "Colonel Ray Schoonover", 
+          "p2": "Blake Tower"
+        }, 
+        {
+          "desc": "Reyes cross questioned Schoonover at Punishers trial", 
+          "p1": "Colonel Ray Schoonover", 
+          "p2": "Samantha Reyes"
+        }, 
+        {
+          "desc": "Lee gave evidence at Frank's trial", 
+          "p1": "Dr Andrew Lee", 
+          "p2": "Frank Castle"
+        }, 
+        {
+          "desc": "Foggy questioned Andrew at the Punisher trial", 
+          "p1": "Dr Andrew Lee", 
+          "p2": "Foggy Nelson"
+        }, 
+        {
+          "desc": "Karen saw Andrew give evidence at the Punisher trial", 
+          "p1": "Dr Andrew Lee", 
+          "p2": "Karen Page"
+        }, 
+        {
+          "desc": "Lee gave evidence to Batzer at Punisher's trial", 
+          "p1": "Dr Andrew Lee", 
+          "p2": "Judge Cynthia Batzer"
+        }, 
+        {
+          "desc": "Blake saw Andrew give evidence at the Punisher trial", 
+          "p1": "Dr Andrew Lee", 
+          "p2": "Blake Tower"
+        }, 
+        {
+          "desc": "Reyes heard Andrew give evidence at the Punisher trial", 
+          "p1": "Dr Andrew Lee", 
+          "p2": "Samantha Reyes"
+        }, 
+        {
+          "desc": "Fisk had Castle kill Dutton to become the prison Kingpin", 
+          "p1": "Wilson Fisk", 
+          "p2": "Frank Castle"
+        }, 
+        {
+          "desc": "Donovan was Fisk's lawyer", 
+          "p1": "Benjamin Donovan", 
+          "p2": "Wilson Fisk"
+        }, 
+        {
+          "desc": "Donovan ensured Vanessa was looked after when Fisk was in jail", 
+          "p1": "Benjamin Donovan", 
+          "p2": "Vanessa Marianna"
+        }, 
+        {
+          "desc": "Fisk had Dutton killed for the title of prison Kingpin", 
+          "p1": "Mr Dutton", 
+          "p2": "Wilson Fisk"
+        }, 
+        {
+          "desc": "Daniel is Stans son, and was held as leverage by The Hand", 
+          "p1": "Stan Gibson", 
+          "p2": "Daniel Gibson"
+        }, 
+        {
+          "desc": "Castle killed Dutton in prison for his links to The Blacksmith", 
+          "p1": "Frank Castle", 
+          "p2": "Mr Dutton"
+        }, 
+        {
+          "desc": "Mitchell spoke with Dr Lee when following up a lead on the Punisher cover up", 
+          "p1": "Dr Gregory Tepper", 
+          "p2": "Mitchell Ellison"
+        }, 
+        {
+          "desc": "Nobu attacked Stan and Daredevil in The Hand's \"farm\"", 
+          "p1": "Nobu Yoshioka", 
+          "p2": "Stan Gibson"
+        }, 
+        {
+          "desc": "Daniel was held captive by Nobu in The Hand's \"farm\"", 
+          "p1": "Nobu Yoshioka", 
+          "p2": "Daniel Gibson"
+        }, 
+        {
+          "desc": "Matt threw Nobu off a roof for killing Elektra", 
+          "p1": "Nobu Yoshioka", 
+          "p2": "Matt Murdock"
+        }, 
+        {
+          "desc": "Brett found Stan in The Hand's \"farm\"", 
+          "p1": "Brett Mahoney", 
+          "p2": "Stan Gibson"
+        }, 
+        {
+          "desc": "Brett found Daniel in The Hand's \"farm\"", 
+          "p1": "Brett Mahoney", 
+          "p2": "Daniel Gibson"
+        }, 
+        {
+          "desc": "Brett took The Hand's \"farm\" victims to Claire for medical attention", 
+          "p1": "Brett Mahoney", 
+          "p2": "Claire Temple"
+        }, 
+        {
+          "desc": "Stan met Claire after escaping The Hand's \"farm\"", 
+          "p1": "Claire Temple", 
+          "p2": "Stan Gibson"
+        }, 
+        {
+          "desc": "Daneil was treated by Claire after being freed from The Hand's \"farm\"", 
+          "p1": "Claire Temple", 
+          "p2": "Daniel Gibson"
+        }, 
+        {
+          "desc": "Matt met Claire at Metro General after liberating The Hand's \"farm\" prisoners", 
+          "p1": "Claire Temple", 
+          "p2": "Matt Murdock"
+        }, 
+        {
+          "desc": "Gallagher took Karen into city hall after The Punisher escaped from jail", 
+          "p1": "Agent Gallagher", 
+          "p2": "Karen Page"
+        }, 
+        {
+          "desc": "Gallagher took Foggy into city hall after The Punisher escaped from jail", 
+          "p1": "Agent Gallagher", 
+          "p2": "Foggy Nelson"
+        }, 
+        {
+          "desc": "Gallagher took Matt into city hall after The Punisher escaped from jail", 
+          "p1": "Agent Gallagher", 
+          "p2": "Matt Murdock"
+        }, 
+        {
+          "desc": "Donovan was present when Matt visited Fisk in jail", 
+          "p1": "Matt Murdock", 
+          "p2": "Benjamin Donovan"
+        }, 
+        {
+          "desc": "Matt visited Fisk in prison after The Punisher's escape", 
+          "p1": "Matt Murdock", 
+          "p2": "Wilson Fisk"
+        }, 
+        {
+          "desc": "Jacques tried to kill Elektra at the airport when she tried to leave New York", 
+          "p1": "Jacques Duchamps", 
+          "p2": "Elektra Natchios"
+        }, 
+        {
+          "desc": "Stick sent Jacques to try and kill Elektra", 
+          "p1": "Jacques Duchamps", 
+          "p2": "Stick"
+        }, 
+        {
+          "desc": "Miguel was one of Fisk's henchmen in prison", 
+          "p1": "Miguel Valdez", 
+          "p2": "Wilson Fisk"
+        }, 
+        {
+          "desc": "Valdez spoke to Donovan at Fisk's request", 
+          "p1": "Miguel Valdez", 
+          "p2": "Benjamin Donovan"
+        }, 
+        {
+          "desc": "Louisa was killed by Hand ninjas infront of Claire", 
+          "p1": "Louisa Delgado", 
+          "p2": "Claire Temple"
+        }, 
+        {
+          "desc": "Powell worked with Brett at the police precinct", 
+          "p1": "Officer Powell", 
+          "p2": "Brett Mahoney"
+        }, 
+        {
+          "desc": "Powell was assigned to protect Karen after Punisher's escape", 
+          "p1": "Officer Powell", 
+          "p2": "Karen Page"
+        }, 
+        {
+          "desc": "Reed and Powell were assigned to protect Karen after Punisher's escape", 
+          "p1": "Officer Powell", 
+          "p2": "Officer Reed"
+        }, 
+        {
+          "desc": "Powell met Matt when protecting Karen after Punisher's escape", 
+          "p1": "Officer Powell", 
+          "p2": "Matt Murdock"
+        }, 
+        {
+          "desc": "Reed was assigned to protect Karen after Punisher's escape", 
+          "p1": "Officer Reed", 
+          "p2": "Karen Page"
+        }, 
+        {
+          "desc": "Reed met Matt when protecting Karen after Punisher's escape", 
+          "p1": "Officer Reed", 
+          "p2": "Matt Murdock"
+        }, 
+        {
+          "desc": "Shirley was Claire's boss at Metro General hospital", 
+          "p1": "Shirley Benson", 
+          "p2": "Claire Temple"
+        }, 
+        {
+          "desc": "Susanna served Frank coffee at a diner after his escape", 
+          "p1": "Waitress Susanna", 
+          "p2": "Frank Castle"
+        }, 
+        {
+          "desc": "Susanna served Karen and The Punisher coffee at a diner", 
+          "p1": "Waitress Susanna", 
+          "p2": "Karen Page"
+        }, 
+        {
+          "desc": "Matt spoke with Gao to get a lead on the blacksmith", 
+          "p1": "Madame Gao", 
+          "p2": "Matt Murdock"
+        }, 
+        {
+          "desc": "Nobu and Hirochi were both members of The Hand", 
+          "p1": "Mr Hirochi", 
+          "p2": "Nobu Yoshioka"
+        }, 
+        {
+          "desc": "Hirochi met Gibson in The Hand's \"farm\"", 
+          "p1": "Mr Hirochi", 
+          "p2": "Daniel Gibson"
+        }, 
+        {
+          "desc": "Gosnell worked for Schoonover in the marines, and later in the drug trade", 
+          "p1": "Marine Gosnell", 
+          "p2": "Colonel Ray Schoonover"
+        }, 
+        {
+          "desc": "Frank killed Gosnell for his involvement in the Blacksmith's drug operation", 
+          "p1": "Marine Gosnell", 
+          "p2": "Frank Castle"
+        }, 
+        {
+          "desc": "Hirochi questioned Stick when he was captured by The Hand", 
+          "p1": "Mr Hirochi", 
+          "p2": "Stick"
+        }, 
+        {
+          "desc": "Nobu killed Elektra", 
+          "p1": "Nobu Yoshioka", 
+          "p2": "Elektra Natchios"
+        }, 
+        {
+          "desc": "Nobu met Stick after he had been kidnapped by The Hand", 
+          "p1": "Nobu Yoshioka", 
+          "p2": "Stick"
+        }, 
+        {
+          "desc": "Stick killed Star for wanting a young Elektra killed", 
+          "p1": "Star", 
+          "p2": "Stick"
+        }, 
+        {
+          "desc": "Star met Elektra when Stick brought her into the Chaste", 
+          "p1": "Star", 
+          "p2": "Elektra Natchios"
+        }, 
+        {
+          "desc": "Hogarth recruited Foggy to be a partner in her law firm", 
+          "p1": "Foggy Nelson", 
+          "p2": "Jeri Hogarth"
+        }, 
+        {
+          "desc": "Melvin made Elektra an highly flawed suit of armour", 
+          "p1": "Elektra Natchios", 
+          "p2": "Melvin Potter"
+        }, 
+        {
+          "desc": "Karen and Turk were both kidnapped by The Hand to get to Daredevil", 
+          "p1": "Karen Page", 
+          "p2": "Turk Barrett"
+        }, 
+        {
+          "desc": "Karen and Jerry were both kidnapped by The Hand to get to Daredevil", 
+          "p1": "Karen Page", 
+          "p2": "Marine Veteran Jerry"
+        }, 
+        {
+          "desc": "Turk and Jerry were both kidnapped by The Hand to get to Daredevil", 
+          "p1": "Turk Barrett", 
+          "p2": "Marine Veteran Jerry"
+        }, 
+        {
+          "desc": "Brett was present when Turk and the other Hand prisoners escaped", 
+          "p1": "Brett Mahoney", 
+          "p2": "Turk Barrett"
+        }, 
+        {
+          "desc": "Stick decapitated Nobu", 
+          "p1": "Nobu Yoshioka", 
+          "p2": "Stick"
+        }
+      ], 
+      "name": "Daredevil Season 2"
     }, 
     {
       "category": "Films - Phase 3", 
