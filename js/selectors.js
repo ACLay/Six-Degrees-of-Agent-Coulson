@@ -30,7 +30,7 @@ Coulson.fillSelectors = function(){
 			for(var j=0; j < this.connectionGraph.properties.length; j++){
 				var media = this.connectionGraph.properties[j];
 				if(this.isMediaSelected(media.name)){
-					if(media.category == category){
+					if(media.category === category){
 						var name = media.name;
 						this.createDropDownElement(mediaFrom,name,false);
 						this.createDropDownElement(mediaTo,name,false);
@@ -52,6 +52,16 @@ Coulson.fillSelectors = function(){
 	this.setSelectionIfPresent("goFrom", previousCharFrom);
 	this.setSelectionIfPresent("goTo", previousCharTo);
 	this.setSelectionIfPresent("rootCharacter", previousCharRoot);
+
+	// Only show the root character selector when needed
+	var selectedCharacterCount = this.selectedConnections.size;
+	var rootSelectors = document.getElementById("rootSelectors");
+	if (selectedCharacterCount === 0){
+		this.setHidden(rootSelectors, true);
+	} else {
+		var reachableCharacterCount = this.findConnectedCharacters(this.getSelectorValue("rootCharacter")).length;
+		this.setHidden(rootSelectors, selectedCharacterCount === reachableCharacterCount);
+	}
 };
 
 Coulson.updateSelector = function(mediaSelectId, charSelectId){
@@ -61,13 +71,13 @@ Coulson.updateSelector = function(mediaSelectId, charSelectId){
 	var characters;
 	var i;
 
-	if(mediaName == "All"){
+	if(mediaName === "All"){
 		characters = this.listCharactersFromSelectedMedia();
 	} else {
 		for(i = 0; i < this.connectionGraph.properties.length; i++){
 			var media = this.connectionGraph.properties[i];
 			var name = media.name;
-			if (mediaName == name){
+			if (mediaName === name){
 				characters = media.characters;
 				break;
 			}
@@ -95,7 +105,7 @@ Coulson.setSelectionIfPresent = function(selectorId, value){
 	var children = selector.children;
 	for (var i = 0; i < children.length; i++){
 		var child = children[i];
-		if (child.value == value){
+		if (child.value === value){
 			selector.selectedIndex = i;
 			return;
 		}
@@ -106,7 +116,7 @@ Coulson.getSelectorValue = function(selectorId){
 	"use strict";
 	var selector = document.getElementById(selectorId);
 	var index = selector.selectedIndex;
-	if (index == -1) {
+	if (index === -1) {
 		return "";
 	}
 	return selector.options[index].value;

@@ -84,11 +84,11 @@ Coulson.loadConnections = function(){
 
 	var stanCount = document.querySelector('input[name="stanOptions"]:checked').value;
 
-	if (stanCount == "1"){
+	if (stanCount === "1"){
 		this.addConnections(this.getOneStanConnections());
-	} else if (stanCount == "2"){
+	} else if (stanCount === "2"){
 		this.addConnections(this.getTwoStansConnections());
-	} else if (stanCount == "n"){
+	} else if (stanCount === "n"){
 		this.addConnections(this.getManyStansConnections());
 	}
 };
@@ -100,19 +100,19 @@ Coulson.addConnections = function(extraConnections){
 		var media = this.connectionGraph.properties[i];
 		for (var j = 0; j < extraConnections.length; j++){
 			var connection = extraConnections[j];
-			if (connection.media == media.name){
+			if (connection.media === media.name){
 				// add characters to the master list
-				if (allCharacters.indexOf(connection.p1) == -1){
+				if (allCharacters.indexOf(connection.p1) === -1){
 					allCharacters.push(connection.p1);
 				}
-				if (allCharacters.indexOf(connection.p2) == -1){
+				if (allCharacters.indexOf(connection.p2) === -1){
 					allCharacters.push(connection.p2);
 				}
 				// add characters to the medias character list
-				if (media.characters.indexOf(connection.p1) == -1){
+				if (media.characters.indexOf(connection.p1) === -1){
 					media.characters.push(connection.p1);
 				}
-				if (media.characters.indexOf(connection.p2) == -1){
+				if (media.characters.indexOf(connection.p2) === -1){
 					media.characters.push(connection.p2);
 				}
 				// add connection to the medias connection list

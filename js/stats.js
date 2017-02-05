@@ -21,7 +21,7 @@ Coulson.generateAndDisplayStats = function(){
 	if (typeof(Worker) !== "undefined"){
 		var context = this;
 		//if available, use a web worker so that a progress indicator can be shown
-		if (typeof(this.statsWorker) == "undefined"){
+		if (typeof(this.statsWorker) === "undefined"){
 			this.statsWorker = new Worker("js/stats_worker.js");
 		}
 		this.statsWorker.onmessage = function(e){
@@ -48,6 +48,7 @@ Coulson.generateAndDisplayStats = function(){
 
 Coulson.generateAndDisplayMainThread = function(rootCharacter){
 	"use strict";
+	console.log("calculating stats in main thread");
 	this.updateProgressLabel("Calculating stats. This could take a while...");
 	var context = this;
 	setTimeout(function(){
@@ -61,6 +62,7 @@ Coulson.generateAndDisplayStatsFrom = function(rootCharacter){
 	// based on "A faster algorithm for betweenness centrality", Ulrik Brandes (2001)
 	//	sigma - number of paths between a given pair of nodes
 	//	delta(v) for s,t - ratio of shortest paths between s,t that v lies on
+	this.updateProgressLabel("Listing connected characters");
 	var reachableCharacters = this.findConnectedCharacters(rootCharacter);
 	var characterStats = new Map();
 	
@@ -105,6 +107,10 @@ Coulson.generateAndDisplayStatsFrom = function(rootCharacter){
 
 Coulson.findConnectedCharacters = function(rootCharacter){
 	"use strict";
+	if(rootCharacter === ""){
+		return [];
+	}
+
 	var reachableCharacters = [rootCharacter];
 	
 	var found = new Set();
@@ -112,7 +118,6 @@ Coulson.findConnectedCharacters = function(rootCharacter){
 	var leaves = new Set();
 	leaves.add(rootCharacter);
 	//for each length
-	this.updateProgressLabel("Listing connected characters");
 	for (var length = 0; length < this.connectionGraph.characters.length; length++){
 		//for each 'leaf character'
 		var newLeaves = new Set();
@@ -164,13 +169,13 @@ Coulson.exploreFrom = function(person, characterStats){
 			var w = connection.person;
 			var wStats = characterStats.get(w);
 
-			if (wStats.distance == -1){
+			if (wStats.distance === -1){
 				wStats.distance = vStats.distance + 1;
 				
 				if (wStats.distance > pStats.greatestDistance){
 					pStats.greatestDistance = wStats.distance;
 					pStats.furthestCharacters = [wStats.name];
-				} else if (wStats.distance == pStats.greatestDistance){
+				} else if (wStats.distance === pStats.greatestDistance){
 					pStats.furthestCharacters.push(wStats.name);
 				}
 				pStats.totalDistance += wStats.distance;
@@ -178,7 +183,7 @@ Coulson.exploreFrom = function(person, characterStats){
 				Q.push(wStats);
 			}
 
-			if (wStats.distance == vStats.distance + 1){
+			if (wStats.distance === vStats.distance + 1){
 				wStats.sigma += vStats.sigma;
 				wStats.predecessors.add(vStats);
 			}
@@ -228,7 +233,9 @@ Coulson.displayGraphStats = function(characterStats){
 
 Coulson.updateProgressLabel = function(message){
 	"use strict";
-	this.progressLabel.textContent = message;
+	if (this.progressLabel !== undefined){
+		this.progressLabel.textContent = message;
+	}
 };
 
 Coulson.buildStatsTable = function(statsMap){
@@ -292,7 +299,7 @@ Coulson.addMediaStats = function(){
 		this.addChild(row,"td",media.name);
 		this.addChild(row,"td",media.category);
 		this.addChild(row,"td",media.characters.length);
-		if (media.name == "A Funny Thing Happened..."){
+		if (media.name === "A Funny Thing Happened..."){
 			this.addChild(row,"td",0);
 			this.addChild(row,"td",0.000);
 		} else {

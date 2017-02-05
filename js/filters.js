@@ -10,7 +10,7 @@ Coulson.generateFilters = function(){
 		var categoryTag = this.makeCategoryTag(category);
 		for(var j=0; j < properties.length; j++){
 			var media = properties[j];
-			if(media.category == category){
+			if(media.category === category){
 				//add media filter
 				this.addMediaCheckbox(categoryTag,category,media.name);
 			}
@@ -95,9 +95,9 @@ Coulson.categoryCheckboxClicked = function(categoryName){
 	for(var i=0; i < checkboxes.length; i++){
 		checkboxes[i].checked = selected;
 	}
+	this.mapSelectedConnections();
 	this.fillSelectors();
 	this.updateMediaStatsTab();
-	this.mapSelectedConnections();
 };
 
 Coulson.mediaCheckboxClicked = function(categoryName){
@@ -112,9 +112,9 @@ Coulson.mediaCheckboxClicked = function(categoryName){
 	}
 	categoryCheckbox.checked = and;
 	categoryCheckbox.indeterminate = !(and) && or;
+	this.mapSelectedConnections();
 	this.fillSelectors();
 	this.updateMediaStatsTab();
-	this.mapSelectedConnections();
 };
 
 Coulson.setAllCheckboxes = function(selected){
@@ -128,7 +128,7 @@ Coulson.setAllCheckboxes = function(selected){
 			mediaBox.checked = selected;
 		}
 	}
+	this.mapSelectedConnections();
 	this.fillSelectors();
 	this.updateMediaStatsTab();
-	this.mapSelectedConnections();
 };

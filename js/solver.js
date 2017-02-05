@@ -10,7 +10,7 @@ Coulson.displayConnection = function(){
 
 	if (connection === null){
 		this.addChild(resultElement,"p","No connection could be found through the current media");
-	} else if (connection.start == connection.end){
+	} else if (connection.start === connection.end){
 		if (connection.start !== ""){
 			this.addChild(resultElement,"h3",connection.start);
 			this.addChild(resultElement,"p","is");
@@ -18,7 +18,7 @@ Coulson.displayConnection = function(){
 		}
 	} else {
 		var heading = connection.start + " and " + connection.end + " are ";
-		if (connection.links.length == 1) {
+		if (connection.links.length === 1) {
 			heading = heading + "1 connection apart";
 		} else {
 			heading = heading + connection.links.length + " connections apart";
@@ -36,7 +36,7 @@ Coulson.displayConnection = function(){
 Coulson.calculateConnections = function(source, target){
 	"use strict";
 	
-	if (source == target){
+	if (source === target){
 		return {
 			"start":source,
 			"end":target,
@@ -71,7 +71,7 @@ Coulson.calculateConnections = function(source, target){
 						"links":route.links.slice()
 						};
 						newRoute.links.push(connection);
-					if (neighbour == target){
+					if (neighbour === target){
 						return newRoute;
 					}
 					newRoutes.add(newRoute);

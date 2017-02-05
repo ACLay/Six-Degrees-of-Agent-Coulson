@@ -43,6 +43,10 @@ h1 {
 	text-align: center;
 }
 
+.hidden{
+  display:none;
+}
+
 /**
  * Tabs
  */
@@ -134,14 +138,6 @@ table.sortable tbody tr::before {
 
 label {
   display:block;
-}
-
-/**
- *
- */
-
-.hidden{
-  display:none;
 }
 
 /**
