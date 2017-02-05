@@ -1,4 +1,5 @@
-function getConnectionData(){
+var Coulson = Coulson || {};
+Coulson.getConnectionData = function(){
 return {
   "categories": [
     "Films - Phase 1", 
@@ -21767,8 +21768,8 @@ return {
     }
   ]
 }
-}
-function getOneStanConnections(){
+};
+Coulson.getOneStanConnections = function(){
 return [
   {
     "p2": "Stan Lee", 
@@ -21867,8 +21868,8 @@ return [
     "desc": "Mordo passed Stan when running from Kaecilius in mirror New York"
   }
 ]
-}
-function getTwoStansConnections(){
+};
+Coulson.getTwoStansConnections = function(){
 return [
   {
     "p2": "Stan Lee Jr", 
@@ -21967,8 +21968,8 @@ return [
     "desc": "Mordo passed Stan when running from Kaecilius in mirror New York"
   }
 ]
-}
-function getManyStansConnections(){
+};
+Coulson.getManyStansConnections = function(){
 return [
   {
     "p2": "Stan Lee (Hef)", 
@@ -22067,4 +22068,4 @@ return [
     "desc": "Mordo passed Stan when running from Kaecilius in mirror New York"
   }
 ]
-}
+};

@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 	<head>
 		<title>Six Degrees of Agent Coulson</title>
@@ -7,7 +8,6 @@
 		<script src="js/lib/sorttable.js"></script>
 		<script src="js/lib/priority-queue.js"></script>
 
-		<script>var connectionGraph;</script>
 		<script src="js/setup.js"></script>
 		<script src="js/connections.js"></script>
 		<script src="js/interface.js"></script>
@@ -24,25 +24,25 @@
             <div id="js_notice"><p>Setting up web page</p></div>
             
 			<ul class="tab">
-				<li><a href="javascript:void(0)" class="tablinks" id="defaultTab" onclick="openTab(event, 'connectionTab')">Find connections</a></li>
-				<li><a href="javascript:void(0)" class="tablinks" onclick="openTab(event, 'statsTab')">Connectivity stats</a></li>
-				<li><a href="javascript:void(0)" class="tablinks" onclick="openTab(event, 'mediaStatsTab')">Media stats</a></li>
-				<li><a href="javascript:void(0)" class="tablinks" onclick="openTab(event, 'mediaFilterTab')">Media filters</a></li>
-				<li><a href="javascript:void(0)" class="tablinks" onclick="openTab(event, 'creditsTab')">Thanks</a></li>
+				<li><a href="javascript:void(0)" class="tablinks" id="connectionTabLink">Find connections</a></li>
+				<li><a href="javascript:void(0)" class="tablinks" id="statsTabLink">Connectivity stats</a></li>
+				<li><a href="javascript:void(0)" class="tablinks" id="mediaStatsTabLink">Media stats</a></li>
+				<li><a href="javascript:void(0)" class="tablinks" id="mediaFilterTabLink">Media filters</a></li>
+				<li><a href="javascript:void(0)" class="tablinks" id="creditsTabLink">Thanks</a></li>
 			</ul>
 
 			<div id="connectionTab" class="tabcontent">
 				<div class=selectors>
 					<div class=fromSelectors>
 						<p>Find the shortest path from:</p>
-						<select id="mediaFrom" onchange="updateSelector('mediaFrom','goFrom')">
+						<select id="mediaFrom">
 						</select>
 						<select id="goFrom">
 						</select>
 					</div>
 					<div class=toSelectors>
 						<p>to:</p>
-						<select id="mediaTo" onchange="updateSelector('mediaTo','goTo')">
+						<select id="mediaTo">
 						</select>
 						<select id="goTo">
 						</select>
@@ -59,7 +59,7 @@
 				<div class=selectors>
 					<div class=rootSelectors>
 						<p>Everyone may not be connected. Use characters reachable from:</p>
-						<select id="rootMedia" onchange="updateSelector('rootMedia','rootCharacter')">
+						<select id="rootMedia">
 						</select>
 						<select id="rootCharacter">
 						</select>
@@ -92,8 +92,8 @@
 			<div id="mediaFilterTab" class="tabcontent">
 				<p>Choose which media to use characters and connections from</p>
 				<div>
-					<button type="button" onclick="setAllCheckboxes(true)">Select All</button>
-					<button type="button" onclick="setAllCheckboxes(false)">Clear All</button>
+					<button type="button" id="selectAllMedia">Select All</button>
+					<button type="button" id="clearAllMedia">Clear All</button>
 				</div>
 				<form id=filters>
 					<div id=stanOptions>

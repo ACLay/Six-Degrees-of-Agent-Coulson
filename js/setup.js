@@ -1,64 +1,103 @@
-"use strict";
+var Coulson = Coulson || {};
+
+Coulson.connectionGraph = undefined;
+
+Coulson.selectedConnections = undefined;
 
 window.onload = function(){
-    
+    "use strict";
     var noticeDiv = document.getElementById("js_notice");
     
-    try{
+    try {
+        Coulson.loadConnections();
+        Coulson.generateFilters();
+        Coulson.mapSelectedConnections();
+        Coulson.fillSelectors();
+        Coulson.addMediaStats();
 
-        loadConnections();
+        document.getElementById("mediaFrom").onchange = function(){
+        	Coulson.updateSelector("mediaFrom", "goFrom");
+        };
+        document.getElementById("mediaTo").onchange = function(){
+        	Coulson.updateSelector("mediaTo", "goTo");
+        };
+        document.getElementById("findConnection").onclick = function(){
+        	Coulson.displayConnection();
+        };
+
+        document.getElementById("rootMedia").onchange = function(){
+        	Coulson.updateSelector("rootMedia", "rootCharacter");
+        };
+        document.getElementById("findStats").onclick = function(){
+        	Coulson.generateAndDisplayStats();
+        };
+
+        document.getElementById("selectAllMedia").onclick = function(){
+        	Coulson.setAllCheckboxes(true);
+        };
+        document.getElementById("clearAllMedia").onclick = function(){
+        	Coulson.setAllCheckboxes(false);
+        };
+
+        document.getElementById("stanOptions").onchange = function(){
+        	Coulson.loadConnections();
+        	Coulson.fillSelectors();
+        	Coulson.updateMediaStatsTab();
+            Coulson.mapSelectedConnections();
+        };
+
+        document.getElementById("connectionTabLink").onclick = function(){
+        	Coulson.openTab(event, "connectionTab");
+        };
+        document.getElementById("statsTabLink").onclick = function(){
+        	Coulson.openTab(event, "statsTab");
+        };
+        document.getElementById("mediaStatsTabLink").onclick = function(){
+        	Coulson.openTab(event, "mediaStatsTab");
+        };
+        document.getElementById("mediaFilterTabLink").onclick = function(){
+        	Coulson.openTab(event, "mediaFilterTab");
+        };
+        document.getElementById("creditsTabLink").onclick = function(){
+        	Coulson.openTab(event, "creditsTab");
+        };
+
+        document.getElementById("connectionTabLink").click();
         
-        generateFilters();
-
-        fillSelectors();
-
-        var button = document.getElementById("findConnection");
-        button.onclick = displayConnection;
-
-        button = document.getElementById("findStats");
-        button.onclick = generateAndDisplayStats;
-
-        stanOptions.onchange = function(){loadConnections(); fillSelectors(); updateMediaStatsTab();};
-
-        addMediaStats();
-
-        document.getElementById("defaultTab").click();
-        
-        removeChildren(noticeDiv);
+        Coulson.removeChildren(noticeDiv);
     } catch (err) {
-        removeChildren(noticeDiv);
+    	console.log(err);
+        Coulson.removeChildren(noticeDiv);
         // IE test from http://stackoverflow.com/a/9851769
         var isIE = /*@cc_on!@*/false || !!document.documentMode;
         if (isIE) {
-            addChild(noticeDiv, "p", "Internet Explorer isn't able to run the code on this site. Sorry about that. It should work in Chrome, Firefox, or Edge though");
+            Coulson.addChild(noticeDiv, "p", "Internet Explorer isn't able to run the code on this site. Sorry about that. It should work in Chrome, Firefox, or Edge though");
         } else {
-            addChild(noticeDiv, "p", "An error occured setting up the page, so the site probably won't work correctly. You might be able to run it in a different browser though.");
+            Coulson.addChild(noticeDiv, "p", "An error occured setting up the page, so the site probably won't work correctly. You might be able to run it in a different browser though.");
         }
-        
     }
-    
 };
 
-function loadConnections(){
-	connectionGraph = getConnectionData();
+Coulson.loadConnections = function(){
+    "use strict";
+	this.connectionGraph = this.getConnectionData();
 
 	var stanCount = document.querySelector('input[name="stanOptions"]:checked').value;
 
 	if (stanCount == "1"){
-		addConnections(getOneStanConnections());
+		this.addConnections(this.getOneStanConnections());
 	} else if (stanCount == "2"){
-		addConnections(getTwoStansConnections());
+		this.addConnections(this.getTwoStansConnections());
 	} else if (stanCount == "n"){
-		addConnections(getManyStansConnections());
+		this.addConnections(this.getManyStansConnections());
 	}
+};
 
-}
-
-function addConnections(extraConnections){
-	var allCharacters = connectionGraph.characters;
-	var addedCharacters = false;
-	for (var i = 0; i < connectionGraph.properties.length; i++){
-		var media = connectionGraph.properties[i];
+Coulson.addConnections = function(extraConnections){
+    "use strict";
+	var allCharacters = this.connectionGraph.characters;
+	for (var i = 0; i < this.connectionGraph.properties.length; i++){
+		var media = this.connectionGraph.properties[i];
 		for (var j = 0; j < extraConnections.length; j++){
 			var connection = extraConnections[j];
 			if (connection.media == media.name){
@@ -83,4 +122,38 @@ function addConnections(extraConnections){
 		media.characters.sort();
 	}
 	allCharacters.sort();
-}
+};
+
+Coulson.mapSelectedConnections = function(){
+    "use strict";
+    this.selectedConnections = new Map();
+    // for each selected media
+    var mediaList = this.connectionGraph.properties;
+    for (var i = 0; i < mediaList.length; i++){
+        var media = mediaList[i];
+        if (this.isMediaSelected(media.name)){
+            // for each connection
+            for(var j = 0; j < media.interactions.length; j++){
+                var connection = media.interactions[j];
+                if (!this.selectedConnections.has(connection.p1)){
+                    this.selectedConnections.set(connection.p1, new Set());
+                }
+                this.selectedConnections.get(connection.p1).add(
+                {
+                    "person":connection.p2,
+                    "link":connection.desc,
+                    "media":media.name
+                });
+                if (!this.selectedConnections.has(connection.p2)){
+                    this.selectedConnections.set(connection.p2, new Set());
+                }
+                this.selectedConnections.get(connection.p2).add(
+                {
+                    "person":connection.p1,
+                    "link":connection.desc,
+                    "media":media.name
+                });
+            }
+        }
+    }
+};

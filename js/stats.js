@@ -1,56 +1,71 @@
-"use strict";
+var Coulson = Coulson || {};
 
-var statsWorker;
+Coulson.statsWorker = undefined;
 
-function generateAndDisplayStats(){
-	var button = document.getElementById("findStats")
+Coulson.progressLabel = undefined;
+
+Coulson.generateAndDisplayStats = function(){
+	"use strict";
+	var button = document.getElementById("findStats");
 	button.disabled = true;
 
 	var resultElement = document.getElementById("statsResult");
-	removeChildren(resultElement);
+	this.removeChildren(resultElement);
 
-	var progressLabel = document.createElement("p");
-	progressLabel.id = "progressLabel";
-	resultElement.appendChild(progressLabel);
+	this.progressLabel = document.createElement("p");
+	this.progressLabel.id = "progressLabel";
+	resultElement.appendChild(this.progressLabel);
 
-	var rootCharacter = getSelectorValue("rootCharacter");
-			
+	var rootCharacter = this.getSelectorValue("rootCharacter");
+	
 	if (typeof(Worker) !== "undefined"){
+		var context = this;
 		//if available, use a web worker so that a progress indicator can be shown
-		if (typeof(statsWorker) == "undefined"){
-			statsWorker = new Worker("js/stats_worker.js");
+		if (typeof(this.statsWorker) == "undefined"){
+			this.statsWorker = new Worker("js/stats_worker.js");
 		}
-		statsWorker.onmessage = function(e){
+		this.statsWorker.onmessage = function(e){
 			if (e.data.complete){
-				displayStats(e.data.characterStats);
+				context.displayStats(e.data.characterStats);
 			} else {
-				progressLabel.textContent = e.data.progressMessage;
+				context.updateProgressLabel(e.data.progressMessage);
 			}
-		}
-		var selections = new Map();
-		for (var i=0; i < connectionGraph.properties.length;i++){
-			var property = connectionGraph.properties[i].name;
-			selections.set(property,{"checked":isMediaSelected(property)});
-		}
-		statsWorker.postMessage({"root":rootCharacter, "graph":connectionGraph, "selections":selections});
+		};
+		this.statsWorker.postMessage({"root":rootCharacter, "connections":this.selectedConnections, "graph":this.connectionGraph});
+		// If the worker can't be created (eg unable to download the script)
+		// this will revert to calculating in the main thread
+		this.statsWorker.addEventListener(
+			"error",
+			function(e){
+				context.generateAndDisplayMainThread(rootCharacter);
+				context.statsWorker = undefined;
+			},
+			false);
 	} else {
-		updateProgressLabel("Calculating stats. This could take a while...");
-		setTimeout(function(){
-			generateAndDisplayStatsFrom(rootCharacter);
-		},0);
+		this.generateAndDisplayMainThread(rootCharacter);
 	}
-}
+};
 
-function generateAndDisplayStatsFrom(rootCharacter){
-	var startTime = new Date().getTime()
+Coulson.generateAndDisplayMainThread = function(rootCharacter){
+	"use strict";
+	this.updateProgressLabel("Calculating stats. This could take a while...");
+	var context = this;
+	setTimeout(function(){
+		context.generateAndDisplayStatsFrom(rootCharacter);
+	},0);
+};
+
+Coulson.generateAndDisplayStatsFrom = function(rootCharacter){
+	"use strict";
+	var startTime = new Date().getTime();
 	// based on "A faster algorithm for betweenness centrality", Ulrik Brandes (2001)
 	//	sigma - number of paths between a given pair of nodes
 	//	delta(v) for s,t - ratio of shortest paths between s,t that v lies on
-	var reachableCharacters = findConnectedCharacters(rootCharacter);
+	var reachableCharacters = this.findConnectedCharacters(rootCharacter);
 	var characterStats = new Map();
 	
 	for (var i = 0; i < reachableCharacters.length; i++){
-		updateProgressLabel("Initialising stats");
+		this.updateProgressLabel("Initialising stats");
 		var person = reachableCharacters[i];
 		var stats = {
 				"name":person,
@@ -59,15 +74,15 @@ function generateAndDisplayStatsFrom(rootCharacter){
 				"averageDistance":0,
 				"furthestCharacters":[],
 				"centrality":0
-			};;
+			};
 		characterStats.set(person, stats);
 	}
 
-	for (var i = 0; i < reachableCharacters.length; i++){
-		updateProgressLabel("Calculating stats: " + (i + 1) + "/" + reachableCharacters.length);
+	for (i = 0; i < reachableCharacters.length; i++){
+		this.updateProgressLabel("Calculating stats: " + (i + 1) + "/" + reachableCharacters.length);
 		var s = reachableCharacters[i];
 		
-		var pq = exploreFrom(s, characterStats);
+		var pq = this.exploreFrom(s, characterStats);
 		
 		while (pq.length !== 0){
 			var w = pq.dequeue();
@@ -85,26 +100,25 @@ function generateAndDisplayStatsFrom(rootCharacter){
 
 	var endTime = new Date().getTime();
 	console.log("stats calculated in " + (endTime - startTime) + "ms");
+	this.displayStats(characterStats);
+};
 
-	displayStats(characterStats);
-}
-
-function findConnectedCharacters(rootCharacter){
+Coulson.findConnectedCharacters = function(rootCharacter){
+	"use strict";
 	var reachableCharacters = [rootCharacter];
-	var allCharacters = listCharactersFromSelectedMedia();
 	
 	var found = new Set();
 	found.add(rootCharacter);
 	var leaves = new Set();
 	leaves.add(rootCharacter);
 	//for each length
-	updateProgressLabel("Listing connected characters");
-	for (var length = 0; length < allCharacters.length; length++){
+	this.updateProgressLabel("Listing connected characters");
+	for (var length = 0; length < this.connectionGraph.characters.length; length++){
 		//for each 'leaf character'
 		var newLeaves = new Set();
 		for (var leaf of leaves){
 			//for each unfound character they neighbour
-			var connections = getConnections(leaf);
+			var connections = this.getConnections(leaf);
 			for (var connection of connections){
 				var neighbour = connection.person;
 				if (!found.has(neighbour)){
@@ -113,26 +127,28 @@ function findConnectedCharacters(rootCharacter){
 					reachableCharacters.push(neighbour);
 					found.add(neighbour);
 				}
-			};
-		}; 
+			}
+		}
 		//put in the new longer routes
 		leaves = newLeaves;
 		//early exit if nothing to expand
-		if (newLeaves.size == 0){
+		if (newLeaves.size === 0){
 			break;
 		}
 	}
 	return reachableCharacters;
-}
+};
 
-function exploreFrom(person, characterStats){
+Coulson.exploreFrom = function(person, characterStats){
+	"use strict";
 	var Q = [];
 	var S = new PriorityQueue({ comparator: function(a, b) { return b.distance - a.distance; }});
 
-	for (var [key,stats] of characterStats){
+	for (var stats of characterStats.values()){
 		stats.predecessors = new Set();
 		stats.sigma = 0;
 		stats.distance = -1;
+		stats.delta = 0;
 	}
 
 	var pStats = characterStats.get(person);
@@ -144,7 +160,7 @@ function exploreFrom(person, characterStats){
 		var vStats = Q.shift();
 		S.queue(vStats);
 
-		for (var connection of getConnections(vStats.name)){
+		for (var connection of this.getConnections(vStats.name)){
 			var w = connection.person;
 			var wStats = characterStats.get(w);
 
@@ -168,20 +184,19 @@ function exploreFrom(person, characterStats){
 			}
 		}
 	}
-	for (var [key,stats] of characterStats){
-		stats.delta = 0;
-	}
 	return S;
-}
+};
 
-function displayStats(characterStats){
+Coulson.displayStats = function(characterStats){
+	"use strict";
 	var resultElement = document.getElementById("statsResult");
 
-	progressLabel.textContent = "Generating table";
+	this.updateProgressLabel("Generating table");
+	var context = this;
 	setTimeout(function(){
-		var table = buildStatsTable(characterStats);
-		removeChildren(resultElement);
-		displayGraphStats(characterStats);
+		var table = context.buildStatsTable(characterStats);
+		context.removeChildren(resultElement);
+		context.displayGraphStats(characterStats);
 		resultElement.appendChild(table);
 
 		// make the table sortable
@@ -192,9 +207,10 @@ function displayStats(characterStats){
 		var button = document.getElementById("findStats");
 		button.disabled = false;
 	},0);
-}
+};
 
-function displayGraphStats(characterStats){
+Coulson.displayGraphStats = function(characterStats){
+	"use strict";
 	var characterCount = characterStats.size;
 	var averageSum = 0;
 	var centralitySum = 0;
@@ -206,98 +222,105 @@ function displayGraphStats(characterStats){
 	var averageCentrality = centralitySum / characterCount;
 	
 	var resultElement = document.getElementById("statsResult");
-	addChild(resultElement, "p", "Average distance between two characters: " + averageLength.toFixed(3));
-	addChild(resultElement, "p", "Average pairs a character is found between: " + (averageCentrality/2).toFixed(0));
-}
+	this.addChild(resultElement, "p", "Average distance between two characters: " + averageLength.toFixed(3));
+	this.addChild(resultElement, "p", "Average pairs a character is found between: " + (averageCentrality/2).toFixed(0));
+};
 
-function updateProgressLabel(message){
-	progressLabel.textContent = message;
-}
+Coulson.updateProgressLabel = function(message){
+	"use strict";
+	this.progressLabel.textContent = message;
+};
 
-function buildStatsTable(statsMap){
-	var table = initializeStatsTable();
+Coulson.buildStatsTable = function(statsMap){
+	"use strict";
+	var table = this.initializeStatsTable();
 	var body = document.createElement("tbody");
 	table.appendChild(body);
 
 	for (var stats of statsMap.values()){
-		addTableRow(body,stats);
+		this.addTableRow(body,stats);
 	}
 
 	return table;
-}
+};
 
-function initializeStatsTable(){
+Coulson.initializeStatsTable = function(){
+	"use strict";
 	var table = document.createElement("table");
 	table.classList.add("sortable");
 	var head = document.createElement("thead");
 	table.appendChild(head);
 	var row = document.createElement("tr");
 	head.appendChild(row);
-	addChild(row,"th","Name");
-	addChild(row,"th","Pairs found between");
-	addChild(row,"th","Average distance");
-	addChild(row,"th","Longest distance");
-	addChild(row,"th","Farthest from");
+	this.addChild(row,"th","Name");
+	this.addChild(row,"th","Pairs found between");
+	this.addChild(row,"th","Average distance");
+	this.addChild(row,"th","Longest distance");
+	this.addChild(row,"th","Farthest from");
 	return table;
-}
+};
 
-function addTableRow(tableBody, characterStats){
+Coulson.addTableRow = function(tableBody, characterStats){
+	"use strict";
 	var row = document.createElement("tr");
 	
-	addChild(row,"td",characterStats.name);
-	addChild(row,"td",(characterStats.centrality/2).toFixed(0));
-	addChild(row,"td",characterStats.averageDistance.toFixed(3));
-	addChild(row,"td",characterStats.greatestDistance);
-	addChild(row,"td",characterStats.furthestCharacters.join(', '));
+	this.addChild(row,"td",characterStats.name);
+	this.addChild(row,"td",(characterStats.centrality/2).toFixed(0));
+	this.addChild(row,"td",characterStats.averageDistance.toFixed(3));
+	this.addChild(row,"td",characterStats.greatestDistance);
+	this.addChild(row,"td",characterStats.furthestCharacters.join(', '));
 
 	tableBody.appendChild(row);
-}
+};
 
 /*
  * Media Stats tab
  */
 
-var mediaStatsRows = new Map();
+Coulson.mediaStatsRows = new Map();
 
-function addMediaStats(){
+Coulson.addMediaStats = function(){
+	"use strict";
 	var tableBody = document.getElementById("mediaStatsTableBody");
-	removeChildren(tableBody);
+	this.removeChildren(tableBody);
 
-	for (var i = 0; i < connectionGraph.properties.length; i++){
-		var media = connectionGraph.properties[i];
+	for (var i = 0; i < this.connectionGraph.properties.length; i++){
+		var media = this.connectionGraph.properties[i];
 
 		var row = document.createElement("tr");
 		tableBody.appendChild(row);
-		addChild(row,"td",media.name);
-		addChild(row,"td",media.category);
-		addChild(row,"td",media.characters.length);
+		this.addChild(row,"td",media.name);
+		this.addChild(row,"td",media.category);
+		this.addChild(row,"td",media.characters.length);
 		if (media.name == "A Funny Thing Happened..."){
-			addChild(row,"td",0);
-			addChild(row,"td",0.000);
+			this.addChild(row,"td",0);
+			this.addChild(row,"td",0.000);
 		} else {
-			addChild(row,"td",media.interactions.length);
+			this.addChild(row,"td",media.interactions.length);
 			var linksPerPerson = 2 * media.interactions.length / media.characters.length;
-			addChild(row,"td",linksPerPerson.toFixed(3));
+			this.addChild(row,"td",linksPerPerson.toFixed(3));
 		}
-		mediaStatsRows.set(media.name,row);
+		this.mediaStatsRows.set(media.name,row);
 	}
 
 	var myTH = document.getElementById("mediaDefaultSortCollumn");
 	sorttable.innerSortFunction.apply(myTH, []);
 
-	updateAvailableCharactersLabel();
-}
+	this.updateAvailableCharactersLabel();
+};
 
-function updateMediaStatsTab(){
-	for (var i = 0; i < connectionGraph.properties.length; i++){
-		var media = connectionGraph.properties[i];
-		var statRow = mediaStatsRows.get(media.name);
-		setHidden(statRow, !isMediaSelected(media.name));
+Coulson.updateMediaStatsTab = function(){
+	"use strict";
+	for (var i = 0; i < this.connectionGraph.properties.length; i++){
+		var media = this.connectionGraph.properties[i];
+		var statRow = this.mediaStatsRows.get(media.name);
+		this.setHidden(statRow, !this.isMediaSelected(media.name));
 	}
-	updateAvailableCharactersLabel();
-}
+	this.updateAvailableCharactersLabel();
+};
 
-function updateAvailableCharactersLabel(){
+Coulson.updateAvailableCharactersLabel = function(){
+	"use strict";
 	var label = document.getElementById("mediaStatsPeople");
-	label.textContent = "Characters available: " + listCharactersFromSelectedMedia().length + "/" + connectionGraph.characters.length;
-}
+	label.textContent = "Characters available: " + this.selectedConnections.size + "/" + this.connectionGraph.characters.length;
+};

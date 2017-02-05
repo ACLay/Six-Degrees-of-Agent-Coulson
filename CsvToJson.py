@@ -77,7 +77,8 @@ output['properties'] = propertylist
 # outfile.write(json.dumps(output, indent=2, sort_keys=True))
 
 outfile = open('./js/connections.js','w')
-outfile.write("function getConnectionData(){\nreturn " + json.dumps(output, indent=2, sort_keys=True) + "\n}\n" +
-    "function getOneStanConnections(){\nreturn " + json.dumps(oneStanInteractions, indent=2) + "\n}\n" +
-    "function getTwoStansConnections(){\nreturn " + json.dumps(twoStansInteractions, indent=2) + "\n}\n" +
-    "function getManyStansConnections(){\nreturn " + json.dumps(manyStansInteractions, indent=2) + "\n}");
+outfile.write("var Coulson = Coulson || {};\n" +
+    "Coulson.getConnectionData = function(){\nreturn " + json.dumps(output, indent=2, sort_keys=True) + "\n};\n" +
+    "Coulson.getOneStanConnections = function(){\nreturn " + json.dumps(oneStanInteractions, indent=2) + "\n};\n" +
+    "Coulson.getTwoStansConnections = function(){\nreturn " + json.dumps(twoStansInteractions, indent=2) + "\n};\n" +
+    "Coulson.getManyStansConnections = function(){\nreturn " + json.dumps(manyStansInteractions, indent=2) + "\n};");

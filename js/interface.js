@@ -1,6 +1,7 @@
-"use strict";
+var Coulson = Coulson || {};
 
-function openTab(evt, tabId) {
+Coulson.openTab = function(evt, tabId) {
+	"use strict";
 	// Declare all variables
 	var i, tabcontent, tablinks;
 
@@ -19,24 +20,27 @@ function openTab(evt, tabId) {
 	// Show the current tab, and add an "active" class to the link that opened the tab
 	document.getElementById(tabId).style.display = "block";
 	evt.currentTarget.className += " active";
-}
+};
 
-function removeChildren(element){
+Coulson.removeChildren = function(element){
+	"use strict";
 	while (element.firstChild){
 		element.removeChild(element.firstChild);
 	}
-}
+};
 
-function addChild(parent, tag, content){
+Coulson.addChild = function(parent, tag, content){
+	"use strict";
 	var child = document.createElement(tag);
 	child.textContent = content;
 	parent.appendChild(child);
-}
+};
 
-function setHidden(element, hidden){
+Coulson.setHidden = function(element, hidden){
+	"use strict";
 	if(hidden){
 		element.classList.add("hidden");
 	} else {
 		element.classList.remove("hidden");
 	}
-}
+};

@@ -1,18 +1,21 @@
-"use strict";
+var Coulson = Coulson || {};
 
-function displayConnection(){
+Coulson.displayConnection = function(){
+	"use strict";
 	var resultElement = document.getElementById("searchResult");
-	removeChildren(resultElement);
-	var source = getSelectorValue("goFrom");
-	var target = getSelectorValue("goTo");
-	var connection = calculateConnections(source, target);
+	this.removeChildren(resultElement);
+	var source = this.getSelectorValue("goFrom");
+	var target = this.getSelectorValue("goTo");
+	var connection = this.calculateConnections(source, target);
 
-	if (connection == null){
-		addChild(resultElement,"p","No connection could be found through the current media");
+	if (connection === null){
+		this.addChild(resultElement,"p","No connection could be found through the current media");
 	} else if (connection.start == connection.end){
-		addChild(resultElement,"h3",connection.start);
-		addChild(resultElement,"p","is");
-		addChild(resultElement,"h3",connection.start);
+		if (connection.start !== ""){
+			this.addChild(resultElement,"h3",connection.start);
+			this.addChild(resultElement,"p","is");
+			this.addChild(resultElement,"h3",connection.start);
+		}
 	} else {
 		var heading = connection.start + " and " + connection.end + " are ";
 		if (connection.links.length == 1) {
@@ -20,17 +23,18 @@ function displayConnection(){
 		} else {
 			heading = heading + connection.links.length + " connections apart";
 		}
-		addChild(resultElement,"h2",heading)
-		addChild(resultElement,"h3",connection.start);
+		this.addChild(resultElement,"h2",heading);
+		this.addChild(resultElement,"h3",connection.start);
 		for(var i = 0; i < connection.links.length; i++){
 			var link = connection.links[i];
-			addChild(resultElement,"p",link.link + " (" + link.media + ")");
-			addChild(resultElement,"h3",link.person);
+			this.addChild(resultElement,"p",link.link + " (" + link.media + ")");
+			this.addChild(resultElement,"h3",link.person);
 		}
 	}
-}
+};
 
-function calculateConnections(source, target){
+Coulson.calculateConnections = function(source, target){
+	"use strict";
 	
 	if (source == target){
 		return {
@@ -48,16 +52,14 @@ function calculateConnections(source, target){
 		"end":source,
 		"links":[]
 	});
-	var leaf = source;
-	var length;
 	//for each length
-	for (length = 0; length < connectionGraph.characters.length; length++){
+	for (var length = 0; length < this.selectedConnections.size; length++){
 		//for each 'leaf character'
 		var newRoutes = new Set();
 		var route;
 		for (route of routes){
 			//for each unfound character they neighbour
-			var connections = getConnections(route.end);
+			var connections = this.getConnections(route.end);
 			var connection;
 			for (connection of connections){
 				var neighbour = connection.person;
@@ -68,50 +70,26 @@ function calculateConnections(source, target){
 						"end":neighbour,
 						"links":route.links.slice()
 						};
-						newRoute.links.push(connection)
+						newRoute.links.push(connection);
 					if (neighbour == target){
 						return newRoute;
 					}
 					newRoutes.add(newRoute);
 					found.add(neighbour);
 				}
-			};
-		}; 
+			}
+		}
 		//put in the new longer routes
 		routes = newRoutes;
 		//early exit if nothing to expand
-		if (newRoutes.size == 0){
+		if (newRoutes.size === 0){
 			return null;
 		}
 	}
 	return null;
 };
 
-function getConnections(character) {
-	var properties = connectionGraph.properties;
-	var connections = new Set();
-
-	for (var i = 0; i < properties.length; i++) {
-		var media = properties[i];
-		if (isMediaSelected(media.name)){
-			var interactions = media.interactions;
-			for (var j = 0; j < interactions.length; j++){
-				var connection = interactions[j]
-				if (connection.p1 == character){
-					connections.add({
-						"person":connection.p2,
-						"link":connection.desc,
-						"media":media.name});
-				} else if (connection.p2 == character){
-					connections.add({
-						"person":connection.p1,
-						"link":connection.desc,
-						"media":media.name});
-				}
-			}
-		}
-	}
-	return connections;
+Coulson.getConnections = function(character) {
+	"use strict";
+	return this.selectedConnections.get(character);
 };
-
-

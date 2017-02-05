@@ -1,22 +1,22 @@
-"use strict";
+var Coulson = Coulson || {};
 
-importScripts('solver.js', 'filters.js', 'stats.js', 'lib/priority-queue.js');
+importScripts('solver.js', 'stats.js', 'lib/priority-queue.js');
 
 //Overrides the UI functions from stats.js to use the web workers feedback function,
 //operating in the document scope which, unlike the web worker scope, can access the UI
-updateProgressLabel = function(message){
+Coulson.updateProgressLabel = function(message){
+	"use strict";
 	postMessage({"complete":false,"progressMessage":message});
-}
-displayStats = function(characterStats){
+};
+Coulson.displayStats = function(characterStats){
+	"use strict";
 	postMessage({"complete":true,"characterStats":characterStats});
-}
-
-//Global data structures in the web workers scope
-var connectionGraph;
+};
 
 onmessage = function(e){
+	"use strict";
 	console.log('calculating stats in web worker');
-	connectionGraph = e.data.graph;
-	mediaCheckboxes = e.data.selections;
-	generateAndDisplayStatsFrom(e.data.root);
+	Coulson.selectedConnections = e.data.connections;
+	Coulson.connectionGraph = e.data.graph;
+	Coulson.generateAndDisplayStatsFrom(e.data.root);
 };

@@ -1,68 +1,71 @@
-"use strict";
+var Coulson = Coulson || {};
 
-function fillSelectors(){
+Coulson.fillSelectors = function(){
+	"use strict";
 	// preserve the selected values
-	var previousMediaFrom = getSelectorValue("mediaFrom");
-	var previousMediaTo = getSelectorValue("mediaTo");
-	var previousMediaRoot = getSelectorValue("rootMedia");
-	var previousCharFrom = getSelectorValue("goFrom");
-	var previousCharTo = getSelectorValue("goTo");
-	var previousCharRoot = getSelectorValue("rootCharacter");
+	var previousMediaFrom = this.getSelectorValue("mediaFrom");
+	var previousMediaTo = this.getSelectorValue("mediaTo");
+	var previousMediaRoot = this.getSelectorValue("rootMedia");
+	var previousCharFrom = this.getSelectorValue("goFrom");
+	var previousCharTo = this.getSelectorValue("goTo");
+	var previousCharRoot = this.getSelectorValue("rootCharacter");
 
 	var mediaFrom = document.getElementById("mediaFrom");
 	var mediaTo = document.getElementById("mediaTo");
 	var rootMedia = document.getElementById("rootMedia");
 
 	// populate the drop down menus
-	removeChildren(mediaFrom);
-	removeChildren(mediaTo);
-	removeChildren(rootMedia)
-	createDropDownElement(mediaFrom,"All",false);
-	createDropDownElement(mediaTo,"All",false);
-	createDropDownElement(rootMedia,"All",false);
-	for (var i = 0; i < connectionGraph.categories.length; i++){
-		var category = connectionGraph.categories[i];
-		if (categoryContainsSelection(category)){
-			createDropDownElement(mediaFrom,category,true);
-			createDropDownElement(mediaTo,category,true);
-			createDropDownElement(rootMedia,category,true);
-			for(var j=0; j < connectionGraph.properties.length; j++){
-				var media = connectionGraph.properties[j];
-				if(isMediaSelected(media.name)){
+	this.removeChildren(mediaFrom);
+	this.removeChildren(mediaTo);
+	this.removeChildren(rootMedia);
+	this.createDropDownElement(mediaFrom,"All",false);
+	this.createDropDownElement(mediaTo,"All",false);
+	this.createDropDownElement(rootMedia,"All",false);
+	for (var i = 0; i < this.connectionGraph.categories.length; i++){
+		var category = this.connectionGraph.categories[i];
+		if (this.categoryContainsSelection(category)){
+			this.createDropDownElement(mediaFrom,category,true);
+			this.createDropDownElement(mediaTo,category,true);
+			this.createDropDownElement(rootMedia,category,true);
+			for(var j=0; j < this.connectionGraph.properties.length; j++){
+				var media = this.connectionGraph.properties[j];
+				if(this.isMediaSelected(media.name)){
 					if(media.category == category){
 						var name = media.name;
-						createDropDownElement(mediaFrom,name,false);
-						createDropDownElement(mediaTo,name,false);
-						createDropDownElement(rootMedia,name,false);
+						this.createDropDownElement(mediaFrom,name,false);
+						this.createDropDownElement(mediaTo,name,false);
+						this.createDropDownElement(rootMedia,name,false);
 					}
 				}
 			}
 		}
 	}
 
-	setSelectionIfPresent("mediaFrom", previousMediaFrom);
-	setSelectionIfPresent("mediaTo", previousMediaTo);
-	setSelectionIfPresent("rootMedia", previousMediaRoot);
+	this.setSelectionIfPresent("mediaFrom", previousMediaFrom);
+	this.setSelectionIfPresent("mediaTo", previousMediaTo);
+	this.setSelectionIfPresent("rootMedia", previousMediaRoot);
 
-	updateSelector("mediaFrom","goFrom");
-	updateSelector("mediaTo","goTo");
-	updateSelector("rootMedia","rootCharacter");
+	this.updateSelector("mediaFrom","goFrom");
+	this.updateSelector("mediaTo","goTo");
+	this.updateSelector("rootMedia","rootCharacter");
 
-	setSelectionIfPresent("goFrom", previousCharFrom);
-	setSelectionIfPresent("goTo", previousCharTo);
-	setSelectionIfPresent("rootCharacter", previousCharRoot);
-}
+	this.setSelectionIfPresent("goFrom", previousCharFrom);
+	this.setSelectionIfPresent("goTo", previousCharTo);
+	this.setSelectionIfPresent("rootCharacter", previousCharRoot);
+};
 
-function updateSelector(mediaSelectId, charSelectId){
+Coulson.updateSelector = function(mediaSelectId, charSelectId){
+	"use strict";
 	var charSelect = document.getElementById(charSelectId);
-	var mediaName = getSelectorValue(mediaSelectId);
+	var mediaName = this.getSelectorValue(mediaSelectId);
 	var characters;
+	var i;
 
 	if(mediaName == "All"){
-		characters = listCharactersFromSelectedMedia();
+		characters = this.listCharactersFromSelectedMedia();
 	} else {
-		for(var i=0; i < connectionGraph.properties.length; i++){
-			var media = connectionGraph.properties[i];
+		for(i = 0; i < this.connectionGraph.properties.length; i++){
+			var media = this.connectionGraph.properties[i];
 			var name = media.name;
 			if (mediaName == name){
 				characters = media.characters;
@@ -71,13 +74,14 @@ function updateSelector(mediaSelectId, charSelectId){
 		}
 	}
 
-	removeChildren(charSelect);
-	for(var i=0; i < characters.length; i++){
-		createDropDownElement(charSelect, characters[i], false);
+	this.removeChildren(charSelect);
+	for(i = 0; i < characters.length; i++){
+		this.createDropDownElement(charSelect, characters[i], false);
 	}
 };
 
-function createDropDownElement(parent, name, disabled){
+Coulson.createDropDownElement = function(parent, name, disabled){
+	"use strict";
 	var element = document.createElement("option");
 	element.textContent = name;
 	element.value = name;
@@ -85,11 +89,12 @@ function createDropDownElement(parent, name, disabled){
 	parent.appendChild(element);
 };
 
-function setSelectionIfPresent(selectorId, value){
+Coulson.setSelectionIfPresent = function(selectorId, value){
+	"use strict";
 	var selector = document.getElementById(selectorId);
 	var children = selector.children;
 	for (var i = 0; i < children.length; i++){
-		var child = children[i]
+		var child = children[i];
 		if (child.value == value){
 			selector.selectedIndex = i;
 			return;
@@ -97,9 +102,12 @@ function setSelectionIfPresent(selectorId, value){
 	}
 };
 
-function getSelectorValue(selectorId){
+Coulson.getSelectorValue = function(selectorId){
+	"use strict";
 	var selector = document.getElementById(selectorId);
 	var index = selector.selectedIndex;
-	if (index == -1) { return "" }
+	if (index == -1) {
+		return "";
+	}
 	return selector.options[index].value;
 };
