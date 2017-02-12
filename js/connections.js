@@ -32,6 +32,7 @@ return {
     "Agent Coulson", 
     "Agent Davis", 
     "Agent Gallagher", 
+    "Agent Harlan", 
     "Agent Harris", 
     "Agent Hart", 
     "Agent Hauer", 
@@ -42,6 +43,7 @@ return {
     "Agent O'Brien", 
     "Agent Oliver", 
     "Agent Piper", 
+    "Agent Prince", 
     "Agent Reese", 
     "Agent Rivera", 
     "Agent Ryan", 
@@ -171,6 +173,8 @@ return {
     "Charles Wallace", 
     "Charlie Sharpe", 
     "Chauncey", 
+    "Chinatown Crew Chen", 
+    "Chinatown Crew Peng", 
     "Christian Ward", 
     "Christine Everhart", 
     "Christine Palmer", 
@@ -206,6 +210,7 @@ return {
     "Cybertek Scientist Diaz", 
     "Cybertek Scientist Ott", 
     "Cybertek Security Sofia", 
+    "D. Anderson", 
     "DJ AM", 
     "Daisy Johnson", 
     "Dale", 
@@ -224,6 +229,7 @@ return {
     "Darcy Lewis", 
     "Darrell Mitchell", 
     "Darren Cross", 
+    "Darryl", 
     "Dave", 
     "Dave Griffith", 
     "David 'Micro' Lieberman", 
@@ -295,11 +301,14 @@ return {
     "Elena", 
     "Elena 'Yo-Yo' Rodriguez", 
     "Elena Cardenas", 
+    "Eli Morrow", 
     "Elias", 
     "Eliza", 
+    "Elizabeth Albee", 
     "Elizabeth De Luca", 
     "Ellen Brandt", 
     "Ellen King", 
+    "Elliot", 
     "Elliot 'Grotto' Grote", 
     "Elliot Randolph", 
     "Elon Musk", 
@@ -332,6 +341,7 @@ return {
     "Ferdinand Lopez", 
     "Finn Cooley", 
     "Fireman Baker", 
+    "Firework Seller Shaun", 
     "Fletcher Heggs", 
     "Foggy Nelson", 
     "Fran", 
@@ -349,6 +359,7 @@ return {
     "Frigga", 
     "Gabe Jones", 
     "Gabe Krasner", 
+    "Gabe Reyes", 
     "Gabriel Soto", 
     "Gale", 
     "Gamora", 
@@ -368,6 +379,9 @@ return {
     "George Talbot", 
     "Georges Batroc", 
     "Gerald Durand", 
+    "Ghost Frederick", 
+    "Ghost Hugo", 
+    "Ghost Vincent", 
     "Gideon Malick", 
     "Gideon Mallick", 
     "Gilmore Hodge", 
@@ -446,6 +460,7 @@ return {
     "Jane Foster", 
     "Jane Hartley", 
     "Jane Scott", 
+    "Janet", 
     "Janet Van Dyne", 
     "Janice Robbins", 
     "Jason Wilkes", 
@@ -473,7 +488,9 @@ return {
     "John Garrett", 
     "John Healy", 
     "John Horton", 
+    "Johnny Blaze", 
     "Jonathan Pangborn", 
+    "Joseph Bauer", 
     "Joseph Manfredi", 
     "Joseph Pike", 
     "Josephine", 
@@ -526,6 +543,7 @@ return {
     "Len Sirkes", 
     "Leo Fitz", 
     "Leonard Samson", 
+    "Leticia", 
     "Lewis Seaver", 
     "Lian May", 
     "Lieutenant Decker", 
@@ -549,9 +567,11 @@ return {
     "Luca Russo", 
     "Lucian", 
     "Lucio", 
+    "Lucy Bauer", 
     "Luis", 
     "Luke Cage", 
     "Luther Banks", 
+    "M. Scott", 
     "Mabel", 
     "Madame B", 
     "Madame Gao", 
@@ -565,6 +585,7 @@ return {
     "Marci Stahl", 
     "Marcus Daniels", 
     "Marcus Scarlotti", 
+    "Maria", 
     "Maria Castle", 
     "Maria Hill", 
     "Maria Stark", 
@@ -628,6 +649,7 @@ return {
     "Natasha Romanoff", 
     "Nathaniel Barton", 
     "Nathaniel Malick", 
+    "Nathanson", 
     "Nathi Zuma", 
     "Nebula", 
     "Ned Silver", 
@@ -703,6 +725,7 @@ return {
     "Private Walter", 
     "Qasim Zaghlul", 
     "Quan Chen", 
+    "R. Moore", 
     "Raina", 
     "Raj", 
     "Ralph", 
@@ -724,6 +747,7 @@ return {
     "Ricky Wex", 
     "Riley", 
     "Rob Donohue", 
+    "Robbie Reyes", 
     "Robert Gonzales", 
     "Robin Hinton", 
     "Robinson", 
@@ -748,6 +772,7 @@ return {
     "Samantha Reyes", 
     "Samuel Sterns", 
     "Santino", 
+    "Santino Noguera", 
     "Sarah (Griffith)", 
     "Sasha Demidov", 
     "Savin", 
@@ -759,6 +784,7 @@ return {
     "Selwyn", 
     "Semyon", 
     "Senator Brandt", 
+    "Senator Ellen Nadeer", 
     "Senator Randolph Cherryh", 
     "Senator Stern", 
     "Senator Walt Cooper", 
@@ -803,10 +829,12 @@ return {
     "Sway Calloway", 
     "T'Chaka", 
     "T'Challa", 
+    "T. Mitchell", 
     "Tad", 
     "Taggart", 
     "Thaddeus Ross", 
     "Thanos", 
+    "The Amazing Mertz", 
     "The Ancient One", 
     "The Banker", 
     "The Baroness", 
@@ -856,6 +884,7 @@ return {
     "Victor", 
     "Victor Ramon", 
     "Victoria Hand", 
+    "Vijay Nadeer", 
     "Vin-Tak", 
     "Vincent Beckers", 
     "Vision", 
@@ -868,6 +897,7 @@ return {
     "Wanda Maximoff", 
     "Warshauer", 
     "Watchdog Alpha", 
+    "Watchdog Briggs", 
     "Watchdog Jackson", 
     "Watchdog Oscar", 
     "Watchdog Victor", 
@@ -889,6 +919,7 @@ return {
     "Winston the butler", 
     "Wolfgang von Strucker", 
     "Wong", 
+    "Workshop owner Canelo", 
     "Xiao Chen", 
     "Yat-Sen", 
     "Yondu Udonta", 
@@ -10424,6 +10455,1062 @@ return {
         }
       ], 
       "name": "Agents of SHIELD Season 3"
+    }, 
+    {
+      "category": "TV", 
+      "characters": [
+        "Agent Burrows", 
+        "Agent Cecilio", 
+        "Agent Coulson", 
+        "Agent Davis", 
+        "Agent Harlan", 
+        "Agent Piper", 
+        "Agent Prince", 
+        "Aida", 
+        "Alphonso Mackenzie", 
+        "Chinatown Crew Chen", 
+        "Chinatown Crew Peng", 
+        "D. Anderson", 
+        "Daisy Johnson", 
+        "Darryl", 
+        "Elena 'Yo-Yo' Rodriguez", 
+        "Eli Morrow", 
+        "Elizabeth Albee", 
+        "Elliot", 
+        "Firework Seller Shaun", 
+        "Gabe Reyes", 
+        "George Stephanopoulos", 
+        "Ghost Frederick", 
+        "Ghost Hugo", 
+        "Ghost Vincent", 
+        "Holden Radcliffe", 
+        "JT 'Hellfire' James", 
+        "Janet", 
+        "Jeffrey Mace", 
+        "Jemma Simmons", 
+        "Johnny Blaze", 
+        "Joseph Bauer", 
+        "Leo Fitz", 
+        "Leticia", 
+        "Lucy Bauer", 
+        "M. Scott", 
+        "Maria", 
+        "Melinda May", 
+        "Nathanson", 
+        "President Ellis", 
+        "R. Moore", 
+        "Robbie Reyes", 
+        "Santino Noguera", 
+        "Senator Ellen Nadeer", 
+        "T. Mitchell", 
+        "The Amazing Mertz", 
+        "Vijay Nadeer", 
+        "Watchdog Briggs", 
+        "Workshop owner Canelo"
+      ], 
+      "interactions": [
+        {
+          "desc": "Coulson hid Gabe with Daisy and Robbie in the containment module", 
+          "p1": "Gabe Reyes", 
+          "p2": "Agent Coulson"
+        }, 
+        {
+          "desc": "Daisy met Gabe while working with Ghost Rider", 
+          "p1": "Gabe Reyes", 
+          "p2": "Daisy Johnson"
+        }, 
+        {
+          "desc": "Gabe met Fitz aboard Zephyr One", 
+          "p1": "Gabe Reyes", 
+          "p2": "Leo Fitz"
+        }, 
+        {
+          "desc": "Gabe met Mack aboard Zephyr One", 
+          "p1": "Gabe Reyes", 
+          "p2": "Alphonso Mackenzie"
+        }, 
+        {
+          "desc": "Robbie and Gabe are brothers", 
+          "p1": "Gabe Reyes", 
+          "p2": "Robbie Reyes"
+        }, 
+        {
+          "desc": "Eli was Gabe's uncle", 
+          "p1": "Gabe Reyes", 
+          "p2": "Eli Morrow"
+        }, 
+        {
+          "desc": "Canelo helped out Gabe and Robbie", 
+          "p1": "Gabe Reyes", 
+          "p2": "Workshop owner Canelo"
+        }, 
+        {
+          "desc": "Gabe got a lift home from Janet", 
+          "p1": "Gabe Reyes", 
+          "p2": "Janet"
+        }, 
+        {
+          "desc": "Gabe watched Ghost Rider fight Jeffrey Mace", 
+          "p1": "Gabe Reyes", 
+          "p2": "Jeffrey Mace"
+        }, 
+        {
+          "desc": "Johnny pulled Gabe from the car wreck after he and his brother were attacked by the Fifth Street Locos", 
+          "p1": "Gabe Reyes", 
+          "p2": "Johnny Blaze"
+        }, 
+        {
+          "desc": "Lucy and Joseph stole the Darkhold from Johnny Blaze", 
+          "p1": "Lucy Bauer", 
+          "p2": "Joseph Bauer"
+        }, 
+        {
+          "desc": "Lucy and Hugo both became ghosts while researching the Darkhold", 
+          "p1": "Lucy Bauer", 
+          "p2": "Ghost Hugo"
+        }, 
+        {
+          "desc": "Vincent and Lucy both became ghosts while researching the Darkhold", 
+          "p1": "Lucy Bauer", 
+          "p2": "Ghost Vincent"
+        }, 
+        {
+          "desc": "Lucy and Frederick both became ghosts while researching the Darkhold", 
+          "p1": "Lucy Bauer", 
+          "p2": "Ghost Frederick"
+        }, 
+        {
+          "desc": "Lucy was turned into a ghost by Eli", 
+          "p1": "Lucy Bauer", 
+          "p2": "Eli Morrow"
+        }, 
+        {
+          "desc": "As Ghost Rider, Robbie killed ghost Lucy", 
+          "p1": "Lucy Bauer", 
+          "p2": "Robbie Reyes"
+        }, 
+        {
+          "desc": "Lucy infected May with her ghostly fear powers", 
+          "p1": "Lucy Bauer", 
+          "p2": "Melinda May"
+        }, 
+        {
+          "desc": "Lucy locked Coulson and team in an open prison wing", 
+          "p1": "Lucy Bauer", 
+          "p2": "Agent Coulson"
+        }, 
+        {
+          "desc": "Lucy locked Daisy and team in an open prison", 
+          "p1": "Lucy Bauer", 
+          "p2": "Daisy Johnson"
+        }, 
+        {
+          "desc": "Lucy infected Chen with her ghostly fear powers", 
+          "p1": "Lucy Bauer", 
+          "p2": "Chinatown Crew Chen"
+        }, 
+        {
+          "desc": "Piper saw Mace knock out a ghost addled Agent May", 
+          "p1": "Agent Piper", 
+          "p2": "Jeffrey Mace"
+        }, 
+        {
+          "desc": "Piper and Coulson worked together in SHIELD", 
+          "p1": "Agent Piper", 
+          "p2": "Agent Coulson"
+        }, 
+        {
+          "desc": "Piper worked with May in a SHIELD tactical strike team", 
+          "p1": "Agent Piper", 
+          "p2": "Melinda May"
+        }, 
+        {
+          "desc": "Piper worked with Simmons in SHIELD", 
+          "p1": "Agent Piper", 
+          "p2": "Jemma Simmons"
+        }, 
+        {
+          "desc": "Piper and team captured Chen", 
+          "p1": "Agent Piper", 
+          "p2": "Chinatown Crew Chen"
+        }, 
+        {
+          "desc": "Prince and Piper were both part of May's strike team", 
+          "p1": "Agent Piper", 
+          "p2": "Agent Prince"
+        }, 
+        {
+          "desc": "Davis checked Elena's SHIELD watch on Zephyr One", 
+          "p1": "Agent Davis", 
+          "p2": "Elena 'Yo-Yo' Rodriguez"
+        }, 
+        {
+          "desc": "Davis and Mack worked together to rescue Coulson and May from South Ridge Penitentiary", 
+          "p1": "Agent Davis", 
+          "p2": "Alphonso Mackenzie"
+        }, 
+        {
+          "desc": "Fitz gave Davis a case containing antidote to Lucy Bauer's ghost infection powers", 
+          "p1": "Agent Davis", 
+          "p2": "Leo Fitz"
+        }, 
+        {
+          "desc": "Davis worked with Daisy when rescuing Coulson and May from South Ridge Penitentiary", 
+          "p1": "Agent Davis", 
+          "p2": "Daisy Johnson"
+        }, 
+        {
+          "desc": "Prince and Davis worked together when SHIELD rescued Coulson and May from South Ridge Penitentiary", 
+          "p1": "Agent Davis", 
+          "p2": "Agent Prince"
+        }, 
+        {
+          "desc": "Davis was part of the SHIELD team that rescued Coulson from South Ridge Penitentiary", 
+          "p1": "Agent Davis", 
+          "p2": "Agent Coulson"
+        }, 
+        {
+          "desc": "Davis was part of the SHIELD team that rescued May from South Ridge Penitentiary", 
+          "p1": "Agent Davis", 
+          "p2": "Melinda May"
+        }, 
+        {
+          "desc": "Prince was part of May's strike team", 
+          "p1": "Agent Prince", 
+          "p2": "Melinda May"
+        }, 
+        {
+          "desc": "Price was in the SHIELD rescue team that extracted Coulson from South Ridge Penitentiary", 
+          "p1": "Agent Prince", 
+          "p2": "Agent Coulson"
+        }, 
+        {
+          "desc": "Prince worked under Mack to help rescue Coulson and May from South Ridge Penitentiary", 
+          "p1": "Agent Prince", 
+          "p2": "Alphonso Mackenzie"
+        }, 
+        {
+          "desc": "Prince worked with Johnson to rescue Coulson and May from South Ridge Penitentiary", 
+          "p1": "Agent Prince", 
+          "p2": "Daisy Johnson"
+        }, 
+        {
+          "desc": "Eli and Chen met in prison", 
+          "p1": "Chinatown Crew Chen", 
+          "p2": "Eli Morrow"
+        }, 
+        {
+          "desc": "May and her team captured Chen, preventing them from selling the ghost box", 
+          "p1": "Chinatown Crew Chen", 
+          "p2": "Melinda May"
+        }, 
+        {
+          "desc": "A ghost addled Chen repeatedly bashed his head against the containment module door infront of Simmons", 
+          "p1": "Chinatown Crew Chen", 
+          "p2": "Jemma Simmons"
+        }, 
+        {
+          "desc": "Chen hired Scott and his crew to steal a ghost box from Momentum Energy Lab", 
+          "p1": "Chinatown Crew Chen", 
+          "p2": "M. Scott"
+        }, 
+        {
+          "desc": "Chen hired Mitchell and his crew to steal a ghost box from Momentum Energy Lab", 
+          "p1": "Chinatown Crew Chen", 
+          "p2": "T. Mitchell"
+        }, 
+        {
+          "desc": "Chen hired Anderson and his crew to steal a ghost box from Momentum Energy Lab", 
+          "p1": "Chinatown Crew Chen", 
+          "p2": "D. Anderson"
+        }, 
+        {
+          "desc": "Chen hired Moore and his crew to steal a ghost box from Momentum Energy Lab", 
+          "p1": "Chinatown Crew Chen", 
+          "p2": "R. Moore"
+        }, 
+        {
+          "desc": "As Ghost Rider, Robbie gave Scott the wound that went on to kill him", 
+          "p1": "M. Scott", 
+          "p2": "Robbie Reyes"
+        }, 
+        {
+          "desc": "Daisy questioned Scott about Ghost Rider in hospital", 
+          "p1": "M. Scott", 
+          "p2": "Daisy Johnson"
+        }, 
+        {
+          "desc": "Scott and Moore were attacked and killed by Ghost Rider", 
+          "p1": "M. Scott", 
+          "p2": "R. Moore"
+        }, 
+        {
+          "desc": "Scott and Anderson were attacked and killed by Ghost Rider", 
+          "p1": "M. Scott", 
+          "p2": "D. Anderson"
+        }, 
+        {
+          "desc": "Scott and Mitchell were attacked and killed by Ghost Rider", 
+          "p1": "M. Scott", 
+          "p2": "T. Mitchell"
+        }, 
+        {
+          "desc": "Mitchell and Anderson stole a ghost box from Momentum Energy Lab", 
+          "p1": "T. Mitchell", 
+          "p2": "D. Anderson"
+        }, 
+        {
+          "desc": "Mitchell and Moore stole a ghost box from Momentum Energy Lab", 
+          "p1": "T. Mitchell", 
+          "p2": "R. Moore"
+        }, 
+        {
+          "desc": "Reyes, as Ghost Rider, killed Mitchell with the Hell Charger", 
+          "p1": "T. Mitchell", 
+          "p2": "Robbie Reyes"
+        }, 
+        {
+          "desc": "Daisy saw Mitchell get kidnapped by Ghost Rider", 
+          "p1": "T. Mitchell", 
+          "p2": "Daisy Johnson"
+        }, 
+        {
+          "desc": "Anderson and Moore stole a ghost box from Momentum Energy Lab", 
+          "p1": "D. Anderson", 
+          "p2": "R. Moore"
+        }, 
+        {
+          "desc": "Reyes, as Ghost Rider, attacked and killed Anderson", 
+          "p1": "D. Anderson", 
+          "p2": "Robbie Reyes"
+        }, 
+        {
+          "desc": "Daisy saw Anderson get attacked by Ghost Rider", 
+          "p1": "D. Anderson", 
+          "p2": "Daisy Johnson"
+        }, 
+        {
+          "desc": "Moore tried to destroy Robbie's Hell Charger with a rocket launcher", 
+          "p1": "R. Moore", 
+          "p2": "Robbie Reyes"
+        }, 
+        {
+          "desc": "Daisy saw Moore get killed by Ghost Rider", 
+          "p1": "R. Moore", 
+          "p2": "Daisy Johnson"
+        }, 
+        {
+          "desc": "Coulson and Nathanson worked together in SHIELD", 
+          "p1": "Nathanson", 
+          "p2": "Agent Coulson"
+        }, 
+        {
+          "desc": "Mack and Nathanson worked together in SHIELD", 
+          "p1": "Nathanson", 
+          "p2": "Alphonso Mackenzie"
+        }, 
+        {
+          "desc": "Nathanson worked for Simmons in SHIELD's science division", 
+          "p1": "Nathanson", 
+          "p2": "Jemma Simmons"
+        }, 
+        {
+          "desc": "Nathanson found May unconscious in Radcliffe's house", 
+          "p1": "Nathanson", 
+          "p2": "Melinda May"
+        }, 
+        {
+          "desc": "Mace sent Nathanson to retrieve Radcliffe's LMD work", 
+          "p1": "Nathanson", 
+          "p2": "Jeffrey Mace"
+        }, 
+        {
+          "desc": "Aida killed Nathanson after he discovered the kidnapped Agent May", 
+          "p1": "Nathanson", 
+          "p2": "Aida"
+        }, 
+        {
+          "desc": "Janet was a friend to Robbie and his brother", 
+          "p1": "Janet", 
+          "p2": "Robbie Reyes"
+        }, 
+        {
+          "desc": "Frederick was turned into a ghost by Eli", 
+          "p1": "Ghost Frederick", 
+          "p2": "Eli Morrow"
+        }, 
+        {
+          "desc": "Joseph and Frederick performed Darkhold research together at Momentum Energy Labs", 
+          "p1": "Ghost Frederick", 
+          "p2": "Joseph Bauer"
+        }, 
+        {
+          "desc": "Frederick and Hugo worked at Momentum Energy Labs and were turned into ghosts together", 
+          "p1": "Ghost Frederick", 
+          "p2": "Ghost Hugo"
+        }, 
+        {
+          "desc": "Vincent and Frederick did Darkhold research at Momentum Labs together", 
+          "p1": "Ghost Frederick", 
+          "p2": "Ghost Vincent"
+        }, 
+        {
+          "desc": "Frederick tried to kill Fitz at Momentum Energy Labs", 
+          "p1": "Ghost Frederick", 
+          "p2": "Leo Fitz"
+        }, 
+        {
+          "desc": "Mack was attacked by Frederick at Momentum Energy Labs", 
+          "p1": "Ghost Frederick", 
+          "p2": "Alphonso Mackenzie"
+        }, 
+        {
+          "desc": "Robbie burnt Frederick out of existence at Momentum Labs", 
+          "p1": "Ghost Frederick", 
+          "p2": "Robbie Reyes"
+        }, 
+        {
+          "desc": "Daisy saw Frederick get burnt by the Ghost Rider", 
+          "p1": "Ghost Frederick", 
+          "p2": "Daisy Johnson"
+        }, 
+        {
+          "desc": "Hugo and Joseph used to work together at Momentum Labs", 
+          "p1": "Ghost Hugo", 
+          "p2": "Joseph Bauer"
+        }, 
+        {
+          "desc": "Hugo and Vincent were both turned into ghosts at Momentum Energy Labs", 
+          "p1": "Ghost Hugo", 
+          "p2": "Ghost Vincent"
+        }, 
+        {
+          "desc": "Robbie burnt Hugo out of existence", 
+          "p1": "Ghost Hugo", 
+          "p2": "Robbie Reyes"
+        }, 
+        {
+          "desc": "Hugo temporarily infected Mack using his ghost madness powers", 
+          "p1": "Ghost Hugo", 
+          "p2": "Alphonso Mackenzie"
+        }, 
+        {
+          "desc": "Eli and Hugo used to work together at Momentum Energy Labs", 
+          "p1": "Ghost Hugo", 
+          "p2": "Eli Morrow"
+        }, 
+        {
+          "desc": "Reyes killed Vincent with a flaming chain", 
+          "p1": "Ghost Vincent", 
+          "p2": "Robbie Reyes"
+        }, 
+        {
+          "desc": "Vincent and Joseph worked together at Momentum Labs doing Darkhold research", 
+          "p1": "Ghost Vincent", 
+          "p2": "Joseph Bauer"
+        }, 
+        {
+          "desc": "Vincent attacked Mack and Ghost Rider", 
+          "p1": "Ghost Vincent", 
+          "p2": "Alphonso Mackenzie"
+        }, 
+        {
+          "desc": "Vincent used to work with Morrow at Momentum Energy Labs", 
+          "p1": "Ghost Vincent", 
+          "p2": "Eli Morrow"
+        }, 
+        {
+          "desc": "Reyes worked for Canelo at his car workshop", 
+          "p1": "Workshop owner Canelo", 
+          "p2": "Robbie Reyes"
+        }, 
+        {
+          "desc": "Daisy met Canelo when searching for Ghost Rider", 
+          "p1": "Workshop owner Canelo", 
+          "p2": "Daisy Johnson"
+        }, 
+        {
+          "desc": "Coulson handed the leadership of SHIELD over to Mace", 
+          "p1": "Jeffrey Mace", 
+          "p2": "Agent Coulson"
+        }, 
+        {
+          "desc": "Mace became Mack's boss as director of SHIELD", 
+          "p1": "Jeffrey Mace", 
+          "p2": "Alphonso Mackenzie"
+        }, 
+        {
+          "desc": "Mace appointed Simmons as one of his closest advisors", 
+          "p1": "Jeffrey Mace", 
+          "p2": "Jemma Simmons"
+        }, 
+        {
+          "desc": "Mace knocked out May when she was infected with Ghost madness", 
+          "p1": "Jeffrey Mace", 
+          "p2": "Melinda May"
+        }, 
+        {
+          "desc": "Cecilio was one of Mace's guards", 
+          "p1": "Jeffrey Mace", 
+          "p2": "Agent Cecilio"
+        }, 
+        {
+          "desc": "Mace welcomed Daisy back into SHIELD after taking down Eli Morrow", 
+          "p1": "Jeffrey Mace", 
+          "p2": "Daisy Johnson"
+        }, 
+        {
+          "desc": "Fitz and Mace worked together in SHIELD", 
+          "p1": "Jeffrey Mace", 
+          "p2": "Leo Fitz"
+        }, 
+        {
+          "desc": "Burrows worked for Mace, handling public relations for SHIELD", 
+          "p1": "Jeffrey Mace", 
+          "p2": "Agent Burrows"
+        }, 
+        {
+          "desc": "Mace and Ellis spoke on the phone about the blackouts in LA and Miami", 
+          "p1": "Jeffrey Mace", 
+          "p2": "President Ellis"
+        }, 
+        {
+          "desc": "Mace and Nadeer took part in a televised debate about SHIELD and Inhumans", 
+          "p1": "Jeffrey Mace", 
+          "p2": "Senator Ellen Nadeer"
+        }, 
+        {
+          "desc": "Stephanopoulos moderated Mace's TV debate with Senator Nadeer", 
+          "p1": "Jeffrey Mace", 
+          "p2": "George Stephanopoulos"
+        }, 
+        {
+          "desc": "Harlan administered lie detector tests on Director Mace's behalf", 
+          "p1": "Jeffrey Mace", 
+          "p2": "Agent Harlan"
+        }, 
+        {
+          "desc": "Robbie, as Ghost Rider, gave Mace a beat down aboard Zephyr One", 
+          "p1": "Jeffrey Mace", 
+          "p2": "Robbie Reyes"
+        }, 
+        {
+          "desc": "Radcliffe spoke with Mace about Aida and using her to help beat Eli Morrow", 
+          "p1": "Jeffrey Mace", 
+          "p2": "Holden Radcliffe"
+        }, 
+        {
+          "desc": "Mace found Aida attractive, which became odd when he found out she was a robot", 
+          "p1": "Jeffrey Mace", 
+          "p2": "Aida"
+        }, 
+        {
+          "desc": "Mace and Yo-Yo both took part in the fight against Eli Morrow", 
+          "p1": "Jeffrey Mace", 
+          "p2": "Elena 'Yo-Yo' Rodriguez"
+        }, 
+        {
+          "desc": "Mace was part of the attack team that stopped Morrow destroying LA", 
+          "p1": "Jeffrey Mace", 
+          "p2": "Eli Morrow"
+        }, 
+        {
+          "desc": "Coulson was stopped by Cecilio when going to a meeting with the new Director", 
+          "p1": "Agent Cecilio", 
+          "p2": "Agent Coulson"
+        }, 
+        {
+          "desc": "May was stopped by Cecilio when going to a meeting with the new Director", 
+          "p1": "Agent Cecilio", 
+          "p2": "Melinda May"
+        }, 
+        {
+          "desc": "Ellen and Vijay are brother and sister", 
+          "p1": "Senator Ellen Nadeer", 
+          "p2": "Vijay Nadeer"
+        }, 
+        {
+          "desc": "Stephanopoulos moderated Nadeer's TV debate with Jeffrey Mace", 
+          "p1": "Senator Ellen Nadeer", 
+          "p2": "George Stephanopoulos"
+        }, 
+        {
+          "desc": "Elena was an old friend of Maria's and attended her wedding party", 
+          "p1": "Maria", 
+          "p2": "Elena 'Yo-Yo' Rodriguez"
+        }, 
+        {
+          "desc": "Leticia was a friend of Maria's who attended her wedding party", 
+          "p1": "Maria", 
+          "p2": "Leticia"
+        }, 
+        {
+          "desc": "Coulson rescued Maria from the Watchdogs during the Miami blackout", 
+          "p1": "Maria", 
+          "p2": "Agent Coulson"
+        }, 
+        {
+          "desc": "Fitz rescued Maria from the Watchdogs during the Miami blackout", 
+          "p1": "Maria", 
+          "p2": "Leo Fitz"
+        }, 
+        {
+          "desc": "Mack saved Maria from the Watchdogs during the Miami blackout", 
+          "p1": "Maria", 
+          "p2": "Alphonso Mackenzie"
+        }, 
+        {
+          "desc": "Briggs was one of the Watchdogs that attacked the party Maria was at during the Miami blackout", 
+          "p1": "Maria", 
+          "p2": "Watchdog Briggs"
+        }, 
+        {
+          "desc": "Mertz was a magician who performed at Maria's wedding party", 
+          "p1": "Maria", 
+          "p2": "The Amazing Mertz"
+        }, 
+        {
+          "desc": "Darryl was a guest at Maria's wedding party during the Miami blackout", 
+          "p1": "Maria", 
+          "p2": "Darryl"
+        }, 
+        {
+          "desc": "Yo-Yo saw Mertz perform at her friends wedding party", 
+          "p1": "The Amazing Mertz", 
+          "p2": "Elena 'Yo-Yo' Rodriguez"
+        }, 
+        {
+          "desc": "Briggs tried to kill Mertz, thinking his magic act was due to inhuman powers", 
+          "p1": "The Amazing Mertz", 
+          "p2": "Watchdog Briggs"
+        }, 
+        {
+          "desc": "Leticia saw Mertz perform at her friends wedding party", 
+          "p1": "The Amazing Mertz", 
+          "p2": "Leticia"
+        }, 
+        {
+          "desc": "Coulson saved Mertz from the Watchdogs during the Miami blackout", 
+          "p1": "The Amazing Mertz", 
+          "p2": "Agent Coulson"
+        }, 
+        {
+          "desc": "Fitz saved Mertz from the Watchdogs during the Miami blackout", 
+          "p1": "The Amazing Mertz", 
+          "p2": "Leo Fitz"
+        }, 
+        {
+          "desc": "Mack saved Mertz from the Watchdogs during the Miami blackout", 
+          "p1": "The Amazing Mertz", 
+          "p2": "Alphonso Mackenzie"
+        }, 
+        {
+          "desc": "Darryl saw Mertz perform at a friends wedding party", 
+          "p1": "The Amazing Mertz", 
+          "p2": "Darryl"
+        }, 
+        {
+          "desc": "Leticia and Elena met at a friends wedding party in Miami", 
+          "p1": "Leticia", 
+          "p2": "Elena 'Yo-Yo' Rodriguez"
+        }, 
+        {
+          "desc": "Briggs attacked the party Leticia was at during the Miami blackout", 
+          "p1": "Leticia", 
+          "p2": "Watchdog Briggs"
+        }, 
+        {
+          "desc": "Coulson saved Leticia from the Watchdogs during the Miami blackout", 
+          "p1": "Leticia", 
+          "p2": "Agent Coulson"
+        }, 
+        {
+          "desc": "Fitz saved Leticia from the Watchdogs during the Miami blackout", 
+          "p1": "Leticia", 
+          "p2": "Leo Fitz"
+        }, 
+        {
+          "desc": "Mack saved Leticia from the Watchdogs during the Miami blackout", 
+          "p1": "Leticia", 
+          "p2": "Alphonso Mackenzie"
+        }, 
+        {
+          "desc": "Darryl and Leticia were both at the same wedding party during the Miami blackout", 
+          "p1": "Leticia", 
+          "p2": "Darryl"
+        }, 
+        {
+          "desc": "Briggs was sent to kill Elena during the Miami blackout", 
+          "p1": "Watchdog Briggs", 
+          "p2": "Elena 'Yo-Yo' Rodriguez"
+        }, 
+        {
+          "desc": "Coulson and team took out the Watchdogs hunting inhumans during the Miami blackout", 
+          "p1": "Watchdog Briggs", 
+          "p2": "Agent Coulson"
+        }, 
+        {
+          "desc": "Fitz and team took out the Watchdogs hunting inhumans during the Miami blackout", 
+          "p1": "Watchdog Briggs", 
+          "p2": "Leo Fitz"
+        }, 
+        {
+          "desc": "Mack and team took out the Watchdogs hunting inhumans during the Miami blackout", 
+          "p1": "Watchdog Briggs", 
+          "p2": "Alphonso Mackenzie"
+        }, 
+        {
+          "desc": "Briggs attacked the party Darryl was at during the Miami blackout", 
+          "p1": "Watchdog Briggs", 
+          "p2": "Darryl"
+        }, 
+        {
+          "desc": "Darryl and Elena met at a friends wedding party in Miami", 
+          "p1": "Darryl", 
+          "p2": "Elena 'Yo-Yo' Rodriguez"
+        }, 
+        {
+          "desc": "Coulson saved Darryl from the Watchdogs during the Miami blackout", 
+          "p1": "Darryl", 
+          "p2": "Agent Coulson"
+        }, 
+        {
+          "desc": "Fitz saved Darryl from the Watchdogs during the Miami blackout", 
+          "p1": "Darryl", 
+          "p2": "Leo Fitz"
+        }, 
+        {
+          "desc": "Mack saved Darryl from the Watchdogs during the Miami blackout", 
+          "p1": "Darryl", 
+          "p2": "Alphonso Mackenzie"
+        }, 
+        {
+          "desc": "Mack and Burrows worked together in SHIELD", 
+          "p1": "Agent Burrows", 
+          "p2": "Alphonso Mackenzie"
+        }, 
+        {
+          "desc": "Simmons and Burrows met working for the Director in SHIELD", 
+          "p1": "Agent Burrows", 
+          "p2": "Jemma Simmons"
+        }, 
+        {
+          "desc": "Burrows and Coulson both worked for SHIELD", 
+          "p1": "Agent Burrows", 
+          "p2": "Agent Coulson"
+        }, 
+        {
+          "desc": "Burrows met Radcliffe on the flight to LA to take out Eli Morrow", 
+          "p1": "Agent Burrows", 
+          "p2": "Holden Radcliffe"
+        }, 
+        {
+          "desc": "Burrows met Aida on the flight to LA to take out Eli Morrow", 
+          "p1": "Agent Burrows", 
+          "p2": "Aida"
+        }, 
+        {
+          "desc": "Daisy visited James while investigating the Watchdogs", 
+          "p1": "JT 'Hellfire' James", 
+          "p2": "Daisy Johnson"
+        }, 
+        {
+          "desc": "Simmons was attacked by James when investigating the Watchdogs with Daisy", 
+          "p1": "JT 'Hellfire' James", 
+          "p2": "Jemma Simmons"
+        }, 
+        {
+          "desc": "Robbie and James had a pyro fight, which introduced Robbie to the flaming chain", 
+          "p1": "JT 'Hellfire' James", 
+          "p2": "Robbie Reyes"
+        }, 
+        {
+          "desc": "Shaun employed James at his fireworks shop", 
+          "p1": "JT 'Hellfire' James", 
+          "p2": "Firework Seller Shaun"
+        }, 
+        {
+          "desc": "Coulson saw Hellfire dragged out of a burning firework shop by Ghost Rider", 
+          "p1": "JT 'Hellfire' James", 
+          "p2": "Agent Coulson"
+        }, 
+        {
+          "desc": "Mack saw Hellfire dragged out of a burning firework shop by Ghost Rider", 
+          "p1": "JT 'Hellfire' James", 
+          "p2": "Alphonso Mackenzie"
+        }, 
+        {
+          "desc": "Elliot was one of James' customers at the firework shop", 
+          "p1": "JT 'Hellfire' James", 
+          "p2": "Elliot"
+        }, 
+        {
+          "desc": "Elliot bought fireworks from Shaun", 
+          "p1": "Elliot", 
+          "p2": "Firework Seller Shaun"
+        }, 
+        {
+          "desc": "Daisy met Elliot when questioning Hellfire at a firework shop", 
+          "p1": "Elliot", 
+          "p2": "Daisy Johnson"
+        }, 
+        {
+          "desc": "Simmons met Elliot when questioning Hellfire at a firework shop", 
+          "p1": "Elliot", 
+          "p2": "Jemma Simmons"
+        }, 
+        {
+          "desc": "Robbie was Eli's nephew", 
+          "p1": "Eli Morrow", 
+          "p2": "Robbie Reyes"
+        }, 
+        {
+          "desc": "Eli and Joseph worked together at Momentum Energy Labs doing Darkhold research", 
+          "p1": "Eli Morrow", 
+          "p2": "Joseph Bauer"
+        }, 
+        {
+          "desc": "Coulson was part of the SHIELD team that took out Eli in LA", 
+          "p1": "Eli Morrow", 
+          "p2": "Agent Coulson"
+        }, 
+        {
+          "desc": "Mack was part of the SHIELD team that took out Eli in LA", 
+          "p1": "Eli Morrow", 
+          "p2": "Alphonso Mackenzie"
+        }, 
+        {
+          "desc": "Eli drowned Peng by filling his lungs with diamonds", 
+          "p1": "Eli Morrow", 
+          "p2": "Chinatown Crew Peng"
+        }, 
+        {
+          "desc": "May was in the SHIELD team that stopped Eli destroying LA", 
+          "p1": "Eli Morrow", 
+          "p2": "Melinda May"
+        }, 
+        {
+          "desc": "Before he died, Bauer told Coulson where he hid the Darkhold", 
+          "p1": "Joseph Bauer", 
+          "p2": "Agent Coulson"
+        }, 
+        {
+          "desc": "Albee worked under Simmons in SHIELD", 
+          "p1": "Elizabeth Albee", 
+          "p2": "Jemma Simmons"
+        }, 
+        {
+          "desc": "Mack pulled Robbie away from Santino in South Ridge Penitentiary", 
+          "p1": "Santino Noguera", 
+          "p2": "Alphonso Mackenzie"
+        }, 
+        {
+          "desc": "Robbie passed Santino in prison, and went back later to Ghost Rider him", 
+          "p1": "Santino Noguera", 
+          "p2": "Robbie Reyes"
+        }, 
+        {
+          "desc": "Harlan gave Simmons regular lie detector tests on the directors orders", 
+          "p1": "Agent Harlan", 
+          "p2": "Jemma Simmons"
+        }, 
+        {
+          "desc": "Jonny passed the spirit of vengence on to Robbie", 
+          "p1": "Johnny Blaze", 
+          "p2": "Robbie Reyes"
+        }, 
+        {
+          "desc": "Simmons broke Vijay out of his terrigenisis cocoon", 
+          "p1": "Vijay Nadeer", 
+          "p2": "Jemma Simmons"
+        }, 
+        {
+          "desc": "Coulson tried to get May to the lab after she was infected with ghost madness", 
+          "p1": "Agent Coulson", 
+          "p2": "Melinda May"
+        }, 
+        {
+          "desc": "Coulson put Daisy in the contianment module to try and hide her from the director", 
+          "p1": "Agent Coulson", 
+          "p2": "Daisy Johnson"
+        }, 
+        {
+          "desc": "Coulson and Fitz were trapped in an alternate dimension together", 
+          "p1": "Agent Coulson", 
+          "p2": "Leo Fitz"
+        }, 
+        {
+          "desc": "Coulson and Mack were sent to bring in Daisy during her time as the vigilante Quake", 
+          "p1": "Agent Coulson", 
+          "p2": "Alphonso Mackenzie"
+        }, 
+        {
+          "desc": "Radcliffe was present when Coulson escaped from a collapsing alternate dimension", 
+          "p1": "Agent Coulson", 
+          "p2": "Holden Radcliffe"
+        }, 
+        {
+          "desc": "Coulson brought Robbie his chain during the showdown with Eli Morrow", 
+          "p1": "Agent Coulson", 
+          "p2": "Robbie Reyes"
+        }, 
+        {
+          "desc": "Yo-Yo provided Coulson with a gun during the fight against Eli Morrow's men", 
+          "p1": "Agent Coulson", 
+          "p2": "Elena 'Yo-Yo' Rodriguez"
+        }, 
+        {
+          "desc": "Aida rescued Coulson from a collapsing alternate dimension", 
+          "p1": "Agent Coulson", 
+          "p2": "Aida"
+        }, 
+        {
+          "desc": "Fitz and May spoke about Aida after her treatment for ghost madness", 
+          "p1": "Melinda May", 
+          "p2": "Leo Fitz"
+        }, 
+        {
+          "desc": "Simmons tried to treat May after she was infected with ghost madness", 
+          "p1": "Melinda May", 
+          "p2": "Jemma Simmons"
+        }, 
+        {
+          "desc": "May and Mack were both in the team that took down Eli Morrow in LA", 
+          "p1": "Melinda May", 
+          "p2": "Alphonso Mackenzie"
+        }, 
+        {
+          "desc": "Radcliffe killed May to save her from ghost madness", 
+          "p1": "Melinda May", 
+          "p2": "Holden Radcliffe"
+        }, 
+        {
+          "desc": "Robbie and May were on the team that took down Eli Morrow", 
+          "p1": "Melinda May", 
+          "p2": "Robbie Reyes"
+        }, 
+        {
+          "desc": "May and Yo-Yo worked together to take out Eli Morrow", 
+          "p1": "Melinda May", 
+          "p2": "Elena 'Yo-Yo' Rodriguez"
+        }, 
+        {
+          "desc": "Aida knocked May out and locked her up in Radcliffe's house", 
+          "p1": "Melinda May", 
+          "p2": "Aida"
+        }, 
+        {
+          "desc": "Fitz provided Daisy with new Quake gauntlets", 
+          "p1": "Daisy Johnson", 
+          "p2": "Leo Fitz"
+        }, 
+        {
+          "desc": "Daisy met Simmons at an appartment to get help investigating the Watchdogs", 
+          "p1": "Daisy Johnson", 
+          "p2": "Jemma Simmons"
+        }, 
+        {
+          "desc": "Daisy freed Mack from the Darkhold experiment chamber at Momentum Labs", 
+          "p1": "Daisy Johnson", 
+          "p2": "Alphonso Mackenzie"
+        }, 
+        {
+          "desc": "Daisy and Radcliffe worked together during the fight against Eli Morrow", 
+          "p1": "Daisy Johnson", 
+          "p2": "Holden Radcliffe"
+        }, 
+        {
+          "desc": "Daisy teamed up with Robbie to take on the Watchdogs", 
+          "p1": "Daisy Johnson", 
+          "p2": "Robbie Reyes"
+        }, 
+        {
+          "desc": "Elena stole bone healing medicine from SHIELD for Daisy", 
+          "p1": "Daisy Johnson", 
+          "p2": "Elena 'Yo-Yo' Rodriguez"
+        }, 
+        {
+          "desc": "Daisy absorbed Eli Morrow's earthquakes, letting Aida complete her portal", 
+          "p1": "Daisy Johnson", 
+          "p2": "Aida"
+        }, 
+        {
+          "desc": "Fitz and Simmons were searching for an apartment together", 
+          "p1": "Leo Fitz", 
+          "p2": "Jemma Simmons"
+        }, 
+        {
+          "desc": "Fitz and Mack took on the Watchdogs to end the Miami blackout", 
+          "p1": "Leo Fitz", 
+          "p2": "Alphonso Mackenzie"
+        }, 
+        {
+          "desc": "Fitz helped Radcliffe with the LMD programme", 
+          "p1": "Leo Fitz", 
+          "p2": "Holden Radcliffe"
+        }, 
+        {
+          "desc": "Fitz and Reyes were trapped together in a collapsing alternate dimension by Eli Morrow", 
+          "p1": "Leo Fitz", 
+          "p2": "Robbie Reyes"
+        }, 
+        {
+          "desc": "Fitz helped rescue Elena from the Watchdogs during the Miami blackout", 
+          "p1": "Leo Fitz", 
+          "p2": "Elena 'Yo-Yo' Rodriguez"
+        }, 
+        {
+          "desc": "Fitz helped to create Aida", 
+          "p1": "Leo Fitz", 
+          "p2": "Aida"
+        }, 
+        {
+          "desc": "Simmons and Radcliffe helped Aida build the portal that Eli Morrow was sent through", 
+          "p1": "Jemma Simmons", 
+          "p2": "Holden Radcliffe"
+        }, 
+        {
+          "desc": "Robbie saved Simmons from being killed by JT 'Hellfire' James", 
+          "p1": "Jemma Simmons", 
+          "p2": "Robbie Reyes"
+        }, 
+        {
+          "desc": "Simmons quickly worked out that Aida was an android", 
+          "p1": "Jemma Simmons", 
+          "p2": "Aida"
+        }, 
+        {
+          "desc": "Robbie briefly passed the spirit of vengence to Mack", 
+          "p1": "Alphonso Mackenzie", 
+          "p2": "Robbie Reyes"
+        }, 
+        {
+          "desc": "Mack and Elena took on the Watchdogs during the Miami blackout", 
+          "p1": "Alphonso Mackenzie", 
+          "p2": "Elena 'Yo-Yo' Rodriguez"
+        }, 
+        {
+          "desc": "Radcliffe was present when Reyes was rescued from a collapsing alternate dimension", 
+          "p1": "Holden Radcliffe", 
+          "p2": "Robbie Reyes"
+        }, 
+        {
+          "desc": "Radcliffe created Aida as part of his LMD project", 
+          "p1": "Holden Radcliffe", 
+          "p2": "Aida"
+        }, 
+        {
+          "desc": "Robbie and Elena were in the team that stopped Eli Morrow", 
+          "p1": "Robbie Reyes", 
+          "p2": "Elena 'Yo-Yo' Rodriguez"
+        }, 
+        {
+          "desc": "Robbie was rescued from an alternate dimension by Aida", 
+          "p1": "Robbie Reyes", 
+          "p2": "Aida"
+        }
+      ], 
+      "name": "Agents of SHIELD Season 4A"
     }, 
     {
       "category": "Other", 
