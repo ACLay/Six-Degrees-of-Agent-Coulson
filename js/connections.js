@@ -13015,7 +13015,7 @@ return {
           "p2": "Everett K. Ross"
         }, 
         {
-          "desc": "Stark has small talk with Aunt May while waiting for Peter Pakrer in Queens", 
+          "desc": "Stark has small talk with Aunt May while waiting for Peter Parker in Queens", 
           "p1": "Tony Stark", 
           "p2": "Aunt May"
         }, 
