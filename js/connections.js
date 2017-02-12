@@ -7557,7 +7557,7 @@ return {
           "p2": "Jemma Simmons"
         }, 
         {
-          "desc": "Fitz met Sif when she was tracking a Kree on Earth", 
+          "desc": "Hunter met Sif when she was tracking a Kree on Earth", 
           "p1": "Sif", 
           "p2": "Lance Hunter"
         }, 
