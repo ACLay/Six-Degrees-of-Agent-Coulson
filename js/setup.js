@@ -47,19 +47,19 @@ window.onload = function(){
         };
 
         document.getElementById("connectionTabLink").onclick = function(){
-        	Coulson.openTab(event, "connectionTab");
+        	Coulson.openTab("connectionTab", "connectionTabLink");
         };
         document.getElementById("statsTabLink").onclick = function(){
-        	Coulson.openTab(event, "statsTab");
+        	Coulson.openTab("statsTab");
         };
         document.getElementById("mediaStatsTabLink").onclick = function(){
-        	Coulson.openTab(event, "mediaStatsTab");
+        	Coulson.openTab("mediaStatsTab", "mediaStatsTabLink");
         };
         document.getElementById("mediaFilterTabLink").onclick = function(){
-        	Coulson.openTab(event, "mediaFilterTab");
+        	Coulson.openTab("mediaFilterTab", "mediaFilterTabLink");
         };
         document.getElementById("creditsTabLink").onclick = function(){
-        	Coulson.openTab(event, "creditsTab");
+        	Coulson.openTab("creditsTab", "creditsTabLink");
         };
 
         document.getElementById("connectionTabLink").click();
