@@ -32,6 +32,13 @@ window.onload = function(){
         	Coulson.generateAndDisplayStats();
         };
 
+        document.getElementById("distanceMedia").onchange = function(){
+            Coulson.updateSelector("distanceMedia", "distanceCharacter");
+        };
+        document.getElementById("findDistances").onclick = function(){
+            Coulson.generateAndShowDistances();
+        };
+
         document.getElementById("selectAllMedia").onclick = function(){
         	Coulson.setAllCheckboxes(true);
         };
@@ -50,7 +57,10 @@ window.onload = function(){
         	Coulson.openTab("connectionTab", "connectionTabLink");
         };
         document.getElementById("statsTabLink").onclick = function(){
-        	Coulson.openTab("statsTab");
+        	Coulson.openTab("statsTab", "statsTabLink");
+        };
+        document.getElementById("distancesTabLink").onclick = function(){
+            Coulson.openTab("distancesTab", "distancesTabLink");
         };
         document.getElementById("mediaStatsTabLink").onclick = function(){
         	Coulson.openTab("mediaStatsTab", "mediaStatsTabLink");

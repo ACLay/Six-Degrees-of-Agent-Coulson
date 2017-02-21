@@ -6,27 +6,33 @@ Coulson.fillSelectors = function(){
 	var previousMediaFrom = this.getSelectorValue("mediaFrom");
 	var previousMediaTo = this.getSelectorValue("mediaTo");
 	var previousMediaRoot = this.getSelectorValue("rootMedia");
+	var previousMediaDistance = this.getSelectorValue("distanceMedia");
 	var previousCharFrom = this.getSelectorValue("goFrom");
 	var previousCharTo = this.getSelectorValue("goTo");
 	var previousCharRoot = this.getSelectorValue("rootCharacter");
+	var previousCharDistance = this.getSelectorValue("distanceCharacter");
 
 	var mediaFrom = document.getElementById("mediaFrom");
 	var mediaTo = document.getElementById("mediaTo");
 	var rootMedia = document.getElementById("rootMedia");
+	var distanceMedia = document.getElementById("distanceMedia");
 
 	// populate the drop down menus
 	this.removeChildren(mediaFrom);
 	this.removeChildren(mediaTo);
 	this.removeChildren(rootMedia);
+	this.removeChildren(distanceMedia);
 	this.createDropDownElement(mediaFrom,"All",false);
 	this.createDropDownElement(mediaTo,"All",false);
 	this.createDropDownElement(rootMedia,"All",false);
+	this.createDropDownElement(distanceMedia,"All",false);
 	for (var i = 0; i < this.connectionGraph.categories.length; i++){
 		var category = this.connectionGraph.categories[i];
 		if (this.categoryContainsSelection(category)){
 			this.createDropDownElement(mediaFrom,category,true);
 			this.createDropDownElement(mediaTo,category,true);
 			this.createDropDownElement(rootMedia,category,true);
+			this.createDropDownElement(distanceMedia,category,true);
 			for(var j=0; j < this.connectionGraph.properties.length; j++){
 				var media = this.connectionGraph.properties[j];
 				if(this.isMediaSelected(media.name)){
@@ -35,6 +41,7 @@ Coulson.fillSelectors = function(){
 						this.createDropDownElement(mediaFrom,name,false);
 						this.createDropDownElement(mediaTo,name,false);
 						this.createDropDownElement(rootMedia,name,false);
+						this.createDropDownElement(distanceMedia,name,false);
 					}
 				}
 			}
@@ -44,14 +51,17 @@ Coulson.fillSelectors = function(){
 	this.setSelectionIfPresent("mediaFrom", previousMediaFrom);
 	this.setSelectionIfPresent("mediaTo", previousMediaTo);
 	this.setSelectionIfPresent("rootMedia", previousMediaRoot);
+	this.setSelectionIfPresent("distanceMedia", previousMediaDistance);
 
 	this.updateSelector("mediaFrom","goFrom");
 	this.updateSelector("mediaTo","goTo");
 	this.updateSelector("rootMedia","rootCharacter");
+	this.updateSelector("distanceMedia","distanceCharacter");
 
 	this.setSelectionIfPresent("goFrom", previousCharFrom);
 	this.setSelectionIfPresent("goTo", previousCharTo);
 	this.setSelectionIfPresent("rootCharacter", previousCharRoot);
+	this.setSelectionIfPresent("distanceCharacter", previousCharDistance);
 
 	// Only show the root character selector when needed
 	var selectedCharacterCount = this.selectedConnections.size;

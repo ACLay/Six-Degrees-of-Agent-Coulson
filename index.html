@@ -15,10 +15,11 @@
 		<script src="js/filters.js"></script>
 		<script src="js/solver.js"></script>
 		<script src="js/stats.js"></script>
+		<script src="js/distances.js"></script>
 	</head>
 	<body>
 
-		<div class=page>
+		<div class="page">
 			<h1>Six Degrees of Agent Coulson</h1>
 
             <div id="js_notice"><p>Setting up web page</p></div>
@@ -26,21 +27,22 @@
 			<ul class="tab">
 				<li><a href="javascript:void(0)" class="tablinks" id="connectionTabLink">Find connections</a></li>
 				<li><a href="javascript:void(0)" class="tablinks" id="statsTabLink">Connectivity stats</a></li>
+				<li><a href="javascript:void(0)" class="tablinks" id="distancesTabLink">Character distances</a></li>
 				<li><a href="javascript:void(0)" class="tablinks" id="mediaStatsTabLink">Media stats</a></li>
 				<li><a href="javascript:void(0)" class="tablinks" id="mediaFilterTabLink">Media filters</a></li>
 				<li><a href="javascript:void(0)" class="tablinks" id="creditsTabLink">Thanks</a></li>
 			</ul>
 
 			<div id="connectionTab" class="tabcontent">
-				<div class=selectors>
-					<div id=fromSelectors>
+				<div class="selectors">
+					<div id="fromSelectors">
 						<p>Find the shortest path from:</p>
 						<select id="mediaFrom">
 						</select>
 						<select id="goFrom">
 						</select>
 					</div>
-					<div id=toSelectors>
+					<div id="toSelectors">
 						<p>to:</p>
 						<select id="mediaTo">
 						</select>
@@ -56,8 +58,8 @@
 			</div>
 
 			<div id="statsTab" class="tabcontent">
-				<div class=selectors>
-					<div id=rootSelectors>
+				<div class="selectors">
+					<div id="rootSelectors">
 						<p>Not everyone in the selected media are connected. Use characters reachable from:</p>
 						<select id="rootMedia">
 						</select>
@@ -70,6 +72,23 @@
 				</div>
 
 				<div id="statsResult"></div>
+			</div>
+
+			<div id="distancesTab" class="tabcontent">
+				<div class="selectors">
+					<div id="distanceSelectors">
+						<p>Find distances to characters from:</p>
+						<select id="distanceMedia">
+						</select>
+						<select id="distanceCharacter">
+						</select>
+					</div>
+					<div>
+						<button type="button" id="findDistances">Find distances</button>
+					</div>
+				</div>
+
+				<div id="distanceResult"></div>
 			</div>
 
 			<div id="mediaStatsTab" class="tabcontent">
@@ -95,8 +114,8 @@
 					<button type="button" id="selectAllMedia">Select All</button>
 					<button type="button" id="clearAllMedia">Clear All</button>
 				</div>
-				<form id=filters>
-					<div id=stanOptions>
+				<form id="filters">
+					<div id="stanOptions">
 						<h3>Stan Lee</h3>
 						<label><input name="stanOptions" type="radio" value="1">1 Stan Lee</label>
 						<label><input name="stanOptions" type="radio" value="2">2 Stan Lees'</label>
@@ -108,7 +127,7 @@
 			<div id="creditsTab" class="tabcontent">
 				<p>For their help with this project, my thanks go to:</p>
 				<ul>
-					<li><a href=https://www.reddit.com/user/Jetpack-Guy>/u/Jetpack-Guy</a> &amp; <a href="https://www.reddit.com/user/batteryChicken">/u/batteryChicken</a> (concept)</li>
+					<li><a href="https://www.reddit.com/user/Jetpack-Guy">/u/Jetpack-Guy</a> &amp; <a href="https://www.reddit.com/user/batteryChicken">/u/batteryChicken</a> (concept)</li>
 					<li><a href="https://www.reddit.com/user/Spatula26">/u/Spatula26</a> (so many connections)</li>
 					<li><a href="https://www.reddit.com/user/gusefalito">/u/gusefalito</a> (connections)</li>
 					<li><a href="https://www.reddit.com/user/_illogical_">/u/_illogical_</a> (file format advice)</li>
@@ -117,7 +136,7 @@
 
 		</div>
 
-		<div class=footer>
+		<div class="footer">
 			<p>
 				Want to help add missing connections or correct mistakes? Visit
 				<a href="http://www.reddit.com/r/SixDegreesOfCoulson">www.reddit.com/r/SixDegreesOfCoulson</a>
