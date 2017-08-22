@@ -11,6 +11,8 @@ return {
     "TV"
   ], 
   "characters": [
+    "Aaron 'Prowler' Davis", 
+    "Abe Brown", 
     "Abner Brody", 
     "Abner Croit", 
     "Abu Bakar", 
@@ -19,6 +21,7 @@ return {
     "Adamo Dioli", 
     "Admiral Jolnes", 
     "Ador", 
+    "Adrian 'Vulture' Toomes", 
     "Agent Anderson", 
     "Agent Barbour", 
     "Agent Baylin", 
@@ -82,6 +85,7 @@ return {
     "Angry Neighbour Martha", 
     "Angry Neighbour Roger", 
     "Anna Ward", 
+    "Anne Marie Hoag", 
     "Anne Weaver", 
     "Anon", 
     "Antoine Grier", 
@@ -117,6 +121,7 @@ return {
     "Bert Hunter", 
     "Bess Mahoney", 
     "Betsy Beatty", 
+    "Betty Brant", 
     "Betty Ross", 
     "Bill Fisk", 
     "Billy", 
@@ -170,6 +175,7 @@ return {
     "Chan Ho Yin \"Scorch\"", 
     "Chanise", 
     "Charles Hinton", 
+    "Charles Murphy", 
     "Charles Wallace", 
     "Charlie Sharpe", 
     "Chauncey", 
@@ -180,6 +186,7 @@ return {
     "Christine Palmer", 
     "Christopher Roth", 
     "Chuck", 
+    "Cindy Moon", 
     "Clair", 
     "Claire Temple", 
     "Claire Weiss", 
@@ -189,6 +196,7 @@ return {
     "Clint Peterson", 
     "Club Manager Nate", 
     "Clyde Farnum", 
+    "Coach Wilson", 
     "Codebreaker Edwards", 
     "Colleen O'Brien", 
     "Colonel Ernst Mueller", 
@@ -267,6 +275,7 @@ return {
     "Donald", 
     "Donnie Gill", 
     "Doorman Theo", 
+    "Doris Toomes", 
     "Doris Urich", 
     "Dormammu", 
     "Dorothy Walker", 
@@ -342,6 +351,7 @@ return {
     "Finn Cooley", 
     "Fireman Baker", 
     "Firework Seller Shaun", 
+    "Flash Thompson", 
     "Fletcher Heggs", 
     "Foggy Nelson", 
     "Fran", 
@@ -414,6 +424,7 @@ return {
     "Helen (Griffith)", 
     "Helmut Zemo", 
     "Henry 'Pop' Hunter", 
+    "Herman 'Shocker' Schultz", 
     "Hernan 'Shades' Alvarez", 
     "Hitman Rance", 
     "Hive", 
@@ -445,6 +456,7 @@ return {
     "Jack Thompson", 
     "Jack the Valet", 
     "Jackson", 
+    "Jackson 'Shocker' Brice", 
     "Jackson Norris (WHIH)", 
     "Jackson Norriss (10 rings)", 
     "Jacques Alef", 
@@ -463,6 +475,7 @@ return {
     "Janet", 
     "Janet Van Dyne", 
     "Janice Robbins", 
+    "Jason Ionello", 
     "Jason Wilkes", 
     "Jasper Sitwell", 
     "Jeffrey Mace", 
@@ -505,6 +518,7 @@ return {
     "Kaecilius", 
     "Kaminsky", 
     "Kara 'Agent 33' Palamas", 
+    "Karen 'Suit Lady'", 
     "Karen Page", 
     "Karl Mordo", 
     "Karla Faye Gideon", 
@@ -552,6 +566,7 @@ return {
     "Lincoln Campbell", 
     "Linda Avery", 
     "Lisa Castle", 
+    "Liz Toomes", 
     "Lloyd Rathman", 
     "Loki", 
     "Lonnie Wilson", 
@@ -573,6 +588,7 @@ return {
     "Luther Banks", 
     "M. Scott", 
     "Mabel", 
+    "Mac 'Scorpion' Gargan", 
     "Madame B", 
     "Madame Gao", 
     "Maggie Lang", 
@@ -592,6 +608,7 @@ return {
     "Mariah Dillard", 
     "Marine Gosnell", 
     "Marine Veteran Jerry", 
+    "Marjorie", 
     "Marlene Vistain", 
     "Marshal Franco", 
     "Marshal Johnson", 
@@ -602,6 +619,7 @@ return {
     "Maureen Denton", 
     "Maury Tuttlebaum", 
     "Max", 
+    "May Parker", 
     "Maya Hansen", 
     "McManus", 
     "Medical Examiner Meltzer", 
@@ -615,6 +633,7 @@ return {
     "Meredith Tredwyck", 
     "Michael Carter", 
     "Michael Jortner", 
+    "Michelle 'MJ' Jones", 
     "Miguel Valdez", 
     "Mike Li", 
     "Mike Peterson", 
@@ -635,6 +654,8 @@ return {
     "Molly Bowden", 
     "Mortimer Hayes", 
     "Mr Almeida", 
+    "Mr Cobbwell", 
+    "Mr Delmar", 
     "Mr DiPesta", 
     "Mr Dutton", 
     "Mr Hirochi", 
@@ -646,12 +667,15 @@ return {
     "Mrs Triplett", 
     "Mrs Zeller", 
     "Ms Kwan", 
+    "Ms Warren", 
+    "Murph the cat", 
     "Natasha Romanoff", 
     "Nathaniel Barton", 
     "Nathaniel Malick", 
     "Nathanson", 
     "Nathi Zuma", 
     "Nebula", 
+    "Ned Leeds", 
     "Ned Silver", 
     "Neville Barnwell", 
     "Nick Fury", 
@@ -705,12 +729,14 @@ return {
     "Petra Larsen", 
     "Philip Cabroni", 
     "Phillip Jones", 
+    "Phineas 'Tinkerer' Mason", 
     "Pietro Maximoff", 
     "Pinky Pinkerton", 
     "Piotr", 
     "Politician Diego", 
     "Polly Hinton", 
     "President Ellis", 
+    "Principal Morita", 
     "Priscilla Everhart", 
     "Prisoner 6219", 
     "Prisoner Alexei", 
@@ -729,6 +755,7 @@ return {
     "Raina", 
     "Raj", 
     "Ralph", 
+    "Randy Vale", 
     "Ray Krzeminski", 
     "Raza", 
     "Red Skull", 
@@ -755,6 +782,7 @@ return {
     "Rocket", 
     "Roger Browning", 
     "Roger Dooley", 
+    "Roger Harrington", 
     "Rollo", 
     "Ronan", 
     "Rooster", 
@@ -767,6 +795,7 @@ return {
     "Ruben", 
     "Ruben Mackenzie", 
     "Rufus Hunt", 
+    "Sally Avril", 
     "Sam Koenig", 
     "Sam Wilson", 
     "Samantha Reyes", 
@@ -793,6 +822,7 @@ return {
     "Sergeant MacClean", 
     "Sergei", 
     "Seth Dormer", 
+    "Seymour O'Reilly", 
     "Shameek Smith", 
     "Shane Henson", 
     "Sharon Carter", 
@@ -857,6 +887,7 @@ return {
     "Tim Maguire", 
     "Tina Adams", 
     "Tina Minoru", 
+    "Tiny McKeever", 
     "Tobias Ford", 
     "Todd Chesterfield", 
     "Tom Belkin", 
@@ -21423,6 +21454,926 @@ return {
       "name": "Luke Cage"
     }, 
     {
+      "category": "Films - Phase 3", 
+      "characters": [
+        "Aaron 'Prowler' Davis", 
+        "Abe Brown", 
+        "Adrian 'Vulture' Toomes", 
+        "Anne Marie Hoag", 
+        "Betty Brant", 
+        "Charles Murphy", 
+        "Cindy Moon", 
+        "Coach Wilson", 
+        "Doris Toomes", 
+        "FRIDAY", 
+        "Flash Thompson", 
+        "Happy Hogan", 
+        "Herman 'Shocker' Schultz", 
+        "Jackson 'Shocker' Brice", 
+        "Jason Ionello", 
+        "Jim Morita", 
+        "Karen 'Suit Lady'", 
+        "Liz Toomes", 
+        "Mac 'Scorpion' Gargan", 
+        "Marjorie", 
+        "May Parker", 
+        "Michelle 'MJ' Jones", 
+        "Mr Cobbwell", 
+        "Mr Delmar", 
+        "Ms Warren", 
+        "Murph the cat", 
+        "Ned Leeds", 
+        "Pepper Potts", 
+        "Peter Parker", 
+        "Phineas 'Tinkerer' Mason", 
+        "Principal Morita", 
+        "Randy Vale", 
+        "Roger Harrington", 
+        "Sally Avril", 
+        "Seymour O'Reilly", 
+        "Tiny McKeever", 
+        "Tony Stark"
+      ], 
+      "interactions": [
+        {
+          "desc": "May is Peter's Aunt", 
+          "p1": "Peter Parker", 
+          "p2": "May Parker"
+        }, 
+        {
+          "desc": "Karen is the AI in Peter's suit", 
+          "p1": "Peter Parker", 
+          "p2": "Karen 'Suit Lady'"
+        }, 
+        {
+          "desc": "Peter is a regular at Delmar's sandwich shop", 
+          "p1": "Peter Parker", 
+          "p2": "Mr Delmar"
+        }, 
+        {
+          "desc": "Peter saved Murph from the debris of Delmar's sandwich shop", 
+          "p1": "Peter Parker", 
+          "p2": "Murph the cat"
+        }, 
+        {
+          "desc": "Peter and Betty were in the same gym class", 
+          "p1": "Peter Parker", 
+          "p2": "Betty Brant"
+        }, 
+        {
+          "desc": "Peter and Michelle were both in the academic decathlon team", 
+          "p1": "Peter Parker", 
+          "p2": "Michelle 'MJ' Jones"
+        }, 
+        {
+          "desc": "Ned became Peter's guy in the chair", 
+          "p1": "Peter Parker", 
+          "p2": "Ned Leeds"
+        }, 
+        {
+          "desc": "Peter took Liz to homecoming", 
+          "p1": "Peter Parker", 
+          "p2": "Liz Toomes"
+        }, 
+        {
+          "desc": "Flash bullied Peter at school", 
+          "p1": "Peter Parker", 
+          "p2": "Flash Thompson"
+        }, 
+        {
+          "desc": "Tiny walked out of a toilet cubicle when Peter was talking to Happy", 
+          "p1": "Peter Parker", 
+          "p2": "Tiny McKeever"
+        }, 
+        {
+          "desc": "Peter and Seymour were classmates at Midtown", 
+          "p1": "Peter Parker", 
+          "p2": "Seymour O'Reilly"
+        }, 
+        {
+          "desc": "Peter and Charles were on the academic decathlon team together", 
+          "p1": "Peter Parker", 
+          "p2": "Charles Murphy"
+        }, 
+        {
+          "desc": "Peter and Sally were on the academic decathlon team together", 
+          "p1": "Peter Parker", 
+          "p2": "Sally Avril"
+        }, 
+        {
+          "desc": "Peter and Cindy were on the academic decathlon team together", 
+          "p1": "Peter Parker", 
+          "p2": "Cindy Moon"
+        }, 
+        {
+          "desc": "Peter and Abe were on the academic decathlon team together", 
+          "p1": "Peter Parker", 
+          "p2": "Abe Brown"
+        }, 
+        {
+          "desc": "Peter and Jason were classmates at Midtown", 
+          "p1": "Peter Parker", 
+          "p2": "Jason Ionello"
+        }, 
+        {
+          "desc": "Peter was in Coach Wilson's class at Midtown", 
+          "p1": "Peter Parker", 
+          "p2": "Coach Wilson"
+        }, 
+        {
+          "desc": "Pricipal Morita gave Peter detention", 
+          "p1": "Peter Parker", 
+          "p2": "Principal Morita"
+        }, 
+        {
+          "desc": "Ms Warren was Peter's physics teacher at Midtown", 
+          "p1": "Peter Parker", 
+          "p2": "Ms Warren"
+        }, 
+        {
+          "desc": "Peter makes his web fluid during Mr Cobbwell's chemistry class", 
+          "p1": "Peter Parker", 
+          "p2": "Mr Cobbwell"
+        }, 
+        {
+          "desc": "Harrington led the academic decathlon team Peter was part of", 
+          "p1": "Peter Parker", 
+          "p2": "Roger Harrington"
+        }, 
+        {
+          "desc": "Peter foiled several of Toomes' heists and had him arrested", 
+          "p1": "Peter Parker", 
+          "p2": "Adrian 'Vulture' Toomes"
+        }, 
+        {
+          "desc": "Gargan was one of the thugs Peter fought on the Staten Island ferry", 
+          "p1": "Peter Parker", 
+          "p2": "Mac 'Scorpion' Gargan"
+        }, 
+        {
+          "desc": "Peter interrupted Jackson's weapons sale", 
+          "p1": "Peter Parker", 
+          "p2": "Jackson 'Shocker' Brice"
+        }, 
+        {
+          "desc": "Herman attacked Peter outside the homecoming dance", 
+          "p1": "Peter Parker", 
+          "p2": "Herman 'Shocker' Schultz"
+        }, 
+        {
+          "desc": "Peter interrogated Aaron to find the Vulture", 
+          "p1": "Peter Parker", 
+          "p2": "Aaron 'Prowler' Davis"
+        }, 
+        {
+          "desc": "Peter webbed Randy up during the fight on the Staten Island ferry", 
+          "p1": "Peter Parker", 
+          "p2": "Randy Vale"
+        }, 
+        {
+          "desc": "Peter met Doris when taking her daughter to homecoming", 
+          "p1": "Peter Parker", 
+          "p2": "Doris Toomes"
+        }, 
+        {
+          "desc": "Tony offered Peter the chance to join the Avengers", 
+          "p1": "Peter Parker", 
+          "p2": "Tony Stark"
+        }, 
+        {
+          "desc": "Happy took Peter to Germany", 
+          "p1": "Peter Parker", 
+          "p2": "Happy Hogan"
+        }, 
+        {
+          "desc": "FRIDAY informed Peter that Tony was no longer on the phone after being saved from drowning", 
+          "p1": "Peter Parker", 
+          "p2": "FRIDAY"
+        }, 
+        {
+          "desc": "Peter disturbed Marjorie when attempting to stop a 'car theif'", 
+          "p1": "Peter Parker", 
+          "p2": "Marjorie"
+        }, 
+        {
+          "desc": "May drove Ned to Liz's party", 
+          "p1": "May Parker", 
+          "p2": "Ned Leeds"
+        }, 
+        {
+          "desc": "Ned disabled the training wheels program, activating Karen", 
+          "p1": "Karen 'Suit Lady'", 
+          "p2": "Ned Leeds"
+        }, 
+        {
+          "desc": "Tony put everything into Peter's suit, including Karen", 
+          "p1": "Karen 'Suit Lady'", 
+          "p2": "Tony Stark"
+        }, 
+        {
+          "desc": "Murph is Mr Delmar's cat", 
+          "p1": "Mr Delmar", 
+          "p2": "Murph the cat"
+        }, 
+        {
+          "desc": "Aaron doesn't think Mr Delmar uses enough bread in his sandwiches", 
+          "p1": "Mr Delmar", 
+          "p2": "Aaron 'Prowler' Davis"
+        }, 
+        {
+          "desc": "Betty and MJ are classmates at Midtown", 
+          "p1": "Betty Brant", 
+          "p2": "Michelle 'MJ' Jones"
+        }, 
+        {
+          "desc": "Betty and Ned are classmates at Midtown", 
+          "p1": "Betty Brant", 
+          "p2": "Ned Leeds"
+        }, 
+        {
+          "desc": "Betty and Liz are classmates at Midtown", 
+          "p1": "Betty Brant", 
+          "p2": "Liz Toomes"
+        }, 
+        {
+          "desc": "Betty and Flash are classmates at Midtown", 
+          "p1": "Betty Brant", 
+          "p2": "Flash Thompson"
+        }, 
+        {
+          "desc": "Betty and Tiny are classmates at Midtown", 
+          "p1": "Betty Brant", 
+          "p2": "Tiny McKeever"
+        }, 
+        {
+          "desc": "Betty and Seymour are classmates at Midtown", 
+          "p1": "Betty Brant", 
+          "p2": "Seymour O'Reilly"
+        }, 
+        {
+          "desc": "Betty and Charles are classmates at Midtown", 
+          "p1": "Betty Brant", 
+          "p2": "Charles Murphy"
+        }, 
+        {
+          "desc": "Betty and Sally are classmates at Midtown", 
+          "p1": "Betty Brant", 
+          "p2": "Sally Avril"
+        }, 
+        {
+          "desc": "Betty and Cindy are classmates at Midtown", 
+          "p1": "Betty Brant", 
+          "p2": "Cindy Moon"
+        }, 
+        {
+          "desc": "Betty and Abe are classmates at Midtown", 
+          "p1": "Betty Brant", 
+          "p2": "Abe Brown"
+        }, 
+        {
+          "desc": "Betty and Jason host the Midtown news update together", 
+          "p1": "Betty Brant", 
+          "p2": "Jason Ionello"
+        }, 
+        {
+          "desc": "Betty is a student in Coach Wilson's gym class", 
+          "p1": "Betty Brant", 
+          "p2": "Coach Wilson"
+        }, 
+        {
+          "desc": "Morita is Betty's principal at Midtown", 
+          "p1": "Betty Brant", 
+          "p2": "Principal Morita"
+        }, 
+        {
+          "desc": "Michelle and Ned are on Midtown's academic decathlon team together", 
+          "p1": "Michelle 'MJ' Jones", 
+          "p2": "Ned Leeds"
+        }, 
+        {
+          "desc": "Michelle went to Liz's house party", 
+          "p1": "Michelle 'MJ' Jones", 
+          "p2": "Liz Toomes"
+        }, 
+        {
+          "desc": "Michelle and Flash are both in the academic decathlon team", 
+          "p1": "Michelle 'MJ' Jones", 
+          "p2": "Flash Thompson"
+        }, 
+        {
+          "desc": "Michelle and Tiny are classmates at Midtown", 
+          "p1": "Michelle 'MJ' Jones", 
+          "p2": "Tiny McKeever"
+        }, 
+        {
+          "desc": "Seymour and Michelle are classmates at Midtown", 
+          "p1": "Michelle 'MJ' Jones", 
+          "p2": "Seymour O'Reilly"
+        }, 
+        {
+          "desc": "Michelle and Charles are classmates at Midtown", 
+          "p1": "Michelle 'MJ' Jones", 
+          "p2": "Charles Murphy"
+        }, 
+        {
+          "desc": "Michelle and Sally are classmates at Midtown", 
+          "p1": "Michelle 'MJ' Jones", 
+          "p2": "Sally Avril"
+        }, 
+        {
+          "desc": "Michelle and Cindy are classmates at Midtown", 
+          "p1": "Michelle 'MJ' Jones", 
+          "p2": "Cindy Moon"
+        }, 
+        {
+          "desc": "Michelle and Abe are classmates at Midtown", 
+          "p1": "Michelle 'MJ' Jones", 
+          "p2": "Abe Brown"
+        }, 
+        {
+          "desc": "Jason and Michelle are classmates at Midtown", 
+          "p1": "Michelle 'MJ' Jones", 
+          "p2": "Jason Ionello"
+        }, 
+        {
+          "desc": "Michellle is a student in Coach Wilson's gym class", 
+          "p1": "Michelle 'MJ' Jones", 
+          "p2": "Coach Wilson"
+        }, 
+        {
+          "desc": "Morita is Michelle's principal at Midtown", 
+          "p1": "Michelle 'MJ' Jones", 
+          "p2": "Principal Morita"
+        }, 
+        {
+          "desc": "Harrington is head of Michelle's academic decathlon team", 
+          "p1": "Michelle 'MJ' Jones", 
+          "p2": "Roger Harrington"
+        }, 
+        {
+          "desc": "Ned and Liz were in Midtown's academic decathlon team together", 
+          "p1": "Ned Leeds", 
+          "p2": "Liz Toomes"
+        }, 
+        {
+          "desc": "Ned and Flash are both in Midtown's academic decathlon team", 
+          "p1": "Ned Leeds", 
+          "p2": "Flash Thompson"
+        }, 
+        {
+          "desc": "Ned and Tiny are classmates at Midtown", 
+          "p1": "Ned Leeds", 
+          "p2": "Tiny McKeever"
+        }, 
+        {
+          "desc": "Ned and Seymour are classmates at Midtown", 
+          "p1": "Ned Leeds", 
+          "p2": "Seymour O'Reilly"
+        }, 
+        {
+          "desc": "Ned and Charles are classmates at Midtown", 
+          "p1": "Ned Leeds", 
+          "p2": "Charles Murphy"
+        }, 
+        {
+          "desc": "Sally and Ned are classmates at Midtown", 
+          "p1": "Ned Leeds", 
+          "p2": "Sally Avril"
+        }, 
+        {
+          "desc": "Cindy and Ned are classmates at Midtown", 
+          "p1": "Ned Leeds", 
+          "p2": "Cindy Moon"
+        }, 
+        {
+          "desc": "Ned and Abe are classmates at Midtown", 
+          "p1": "Ned Leeds", 
+          "p2": "Abe Brown"
+        }, 
+        {
+          "desc": "Ned and Jason are classmates at Midtown", 
+          "p1": "Ned Leeds", 
+          "p2": "Jason Ionello"
+        }, 
+        {
+          "desc": "Ned is a student in Coach Wilson's gym class", 
+          "p1": "Ned Leeds", 
+          "p2": "Coach Wilson"
+        }, 
+        {
+          "desc": "Morita is Ned's principal at Midtown", 
+          "p1": "Ned Leeds", 
+          "p2": "Principal Morita"
+        }, 
+        {
+          "desc": "Ms Warren caught Ned on the school computers during the Homecoming dance", 
+          "p1": "Ned Leeds", 
+          "p2": "Ms Warren"
+        }, 
+        {
+          "desc": "Ned is on the academic decathlon which Mr Harrington leads", 
+          "p1": "Ned Leeds", 
+          "p2": "Roger Harrington"
+        }, 
+        {
+          "desc": "Ned webbed Herman outside the homecoming ball", 
+          "p1": "Ned Leeds", 
+          "p2": "Herman 'Shocker' Schultz"
+        }, 
+        {
+          "desc": "Ned tried to warn Happy about the Vulture's heist", 
+          "p1": "Ned Leeds", 
+          "p2": "Happy Hogan"
+        }, 
+        {
+          "desc": "Liz was Flash's captain in the academic decathlon team", 
+          "p1": "Liz Toomes", 
+          "p2": "Flash Thompson"
+        }, 
+        {
+          "desc": "Tiny and Liz were classmates at Midtown", 
+          "p1": "Liz Toomes", 
+          "p2": "Tiny McKeever"
+        }, 
+        {
+          "desc": "Liz and Seymour were classmates at Midtown", 
+          "p1": "Liz Toomes", 
+          "p2": "Seymour O'Reilly"
+        }, 
+        {
+          "desc": "Liz and Charles were classmates at Midtown", 
+          "p1": "Liz Toomes", 
+          "p2": "Charles Murphy"
+        }, 
+        {
+          "desc": "Sally and Liz were classmates at Midtown", 
+          "p1": "Liz Toomes", 
+          "p2": "Sally Avril"
+        }, 
+        {
+          "desc": "Liz and Cindy were classmates at Midtown", 
+          "p1": "Liz Toomes", 
+          "p2": "Cindy Moon"
+        }, 
+        {
+          "desc": "Liz and Abe were classmates at Midtown", 
+          "p1": "Liz Toomes", 
+          "p2": "Abe Brown"
+        }, 
+        {
+          "desc": "Jason and Liz were classmates at Midtown", 
+          "p1": "Liz Toomes", 
+          "p2": "Jason Ionello"
+        }, 
+        {
+          "desc": "Liz was a student in Coach Wilson's gym class", 
+          "p1": "Liz Toomes", 
+          "p2": "Coach Wilson"
+        }, 
+        {
+          "desc": "Morita was Liz's principal at Midtown", 
+          "p1": "Liz Toomes", 
+          "p2": "Principal Morita"
+        }, 
+        {
+          "desc": "Mr Harrington was head of Liz's academic decathlon team", 
+          "p1": "Liz Toomes", 
+          "p2": "Roger Harrington"
+        }, 
+        {
+          "desc": "Liz is Adrian's daughter", 
+          "p1": "Liz Toomes", 
+          "p2": "Adrian 'Vulture' Toomes"
+        }, 
+        {
+          "desc": "Doris is Liz's mother", 
+          "p1": "Liz Toomes", 
+          "p2": "Doris Toomes"
+        }, 
+        {
+          "desc": "Flash and Tiny are classmates at Midtown", 
+          "p1": "Flash Thompson", 
+          "p2": "Tiny McKeever"
+        }, 
+        {
+          "desc": "Flash and Seymour are classmates at Midtown", 
+          "p1": "Flash Thompson", 
+          "p2": "Seymour O'Reilly"
+        }, 
+        {
+          "desc": "Charles and Flash are classmates at Midtown", 
+          "p1": "Flash Thompson", 
+          "p2": "Charles Murphy"
+        }, 
+        {
+          "desc": "Flash and Sally are classmates at Midtown", 
+          "p1": "Flash Thompson", 
+          "p2": "Sally Avril"
+        }, 
+        {
+          "desc": "Flash and Cindy are classmates at Midtown", 
+          "p1": "Flash Thompson", 
+          "p2": "Cindy Moon"
+        }, 
+        {
+          "desc": "Flash and Abe are classmates at Midtown", 
+          "p1": "Flash Thompson", 
+          "p2": "Abe Brown"
+        }, 
+        {
+          "desc": "Jason and Flash are classmates at Midtown", 
+          "p1": "Flash Thompson", 
+          "p2": "Jason Ionello"
+        }, 
+        {
+          "desc": "Flash is a student in Coach Wilson's gym class", 
+          "p1": "Flash Thompson", 
+          "p2": "Coach Wilson"
+        }, 
+        {
+          "desc": "Morita is Flash's principal at Midtown", 
+          "p1": "Flash Thompson", 
+          "p2": "Principal Morita"
+        }, 
+        {
+          "desc": "Flash is in Ms Warren's physics class", 
+          "p1": "Flash Thompson", 
+          "p2": "Ms Warren"
+        }, 
+        {
+          "desc": "Mr Harrington leads the academic decathlon team Flash is on", 
+          "p1": "Flash Thompson", 
+          "p2": "Roger Harrington"
+        }, 
+        {
+          "desc": "Tiny and Seymour are classmates at Midtown", 
+          "p1": "Tiny McKeever", 
+          "p2": "Seymour O'Reilly"
+        }, 
+        {
+          "desc": "Charles and Tiny are classmates at Midtown", 
+          "p1": "Tiny McKeever", 
+          "p2": "Charles Murphy"
+        }, 
+        {
+          "desc": "Tiny and Sally are classmates at Midtown", 
+          "p1": "Tiny McKeever", 
+          "p2": "Sally Avril"
+        }, 
+        {
+          "desc": "Tiny and Cindy are classmates at Midtown", 
+          "p1": "Tiny McKeever", 
+          "p2": "Cindy Moon"
+        }, 
+        {
+          "desc": "Tiny and Abe are classmates at Midtown", 
+          "p1": "Tiny McKeever", 
+          "p2": "Abe Brown"
+        }, 
+        {
+          "desc": "Jason and Tiny are classmates at Midtown", 
+          "p1": "Tiny McKeever", 
+          "p2": "Jason Ionello"
+        }, 
+        {
+          "desc": "Tiny is a student in Coach Wilson's gym class", 
+          "p1": "Tiny McKeever", 
+          "p2": "Coach Wilson"
+        }, 
+        {
+          "desc": "Morita is Tiny's principal at Midtown", 
+          "p1": "Tiny McKeever", 
+          "p2": "Principal Morita"
+        }, 
+        {
+          "desc": "Tiny interrupted Happy and Peter's conversation in the school bathroom", 
+          "p1": "Tiny McKeever", 
+          "p2": "Happy Hogan"
+        }, 
+        {
+          "desc": "Charles and Seymour are classmates at Midtown", 
+          "p1": "Seymour O'Reilly", 
+          "p2": "Charles Murphy"
+        }, 
+        {
+          "desc": "Seymour and Sally are classmates at Midtown", 
+          "p1": "Seymour O'Reilly", 
+          "p2": "Sally Avril"
+        }, 
+        {
+          "desc": "Seymour and Cindy are classmates at Midtown", 
+          "p1": "Seymour O'Reilly", 
+          "p2": "Cindy Moon"
+        }, 
+        {
+          "desc": "Seymour and Abe are classmates at Midtown", 
+          "p1": "Seymour O'Reilly", 
+          "p2": "Abe Brown"
+        }, 
+        {
+          "desc": "Jason and Seymour are classmates at Midtown", 
+          "p1": "Seymour O'Reilly", 
+          "p2": "Jason Ionello"
+        }, 
+        {
+          "desc": "Seymour is a student in Coach Wilson's gym class", 
+          "p1": "Seymour O'Reilly", 
+          "p2": "Coach Wilson"
+        }, 
+        {
+          "desc": "Morita is Seymour's principal at Midtown", 
+          "p1": "Seymour O'Reilly", 
+          "p2": "Principal Morita"
+        }, 
+        {
+          "desc": "Charles and Sally are academic decathlon teammates", 
+          "p1": "Charles Murphy", 
+          "p2": "Sally Avril"
+        }, 
+        {
+          "desc": "Charles and Cindy are academic decathlon teammates", 
+          "p1": "Charles Murphy", 
+          "p2": "Cindy Moon"
+        }, 
+        {
+          "desc": "Charles and Abe are academic decathlon teammates", 
+          "p1": "Charles Murphy", 
+          "p2": "Abe Brown"
+        }, 
+        {
+          "desc": "Jason and Charles are classmates at Midtown", 
+          "p1": "Charles Murphy", 
+          "p2": "Jason Ionello"
+        }, 
+        {
+          "desc": "Morita is Charles' principal at Midtown", 
+          "p1": "Charles Murphy", 
+          "p2": "Principal Morita"
+        }, 
+        {
+          "desc": "Charles is on the academic decathlon team Mr Harrington leads", 
+          "p1": "Charles Murphy", 
+          "p2": "Roger Harrington"
+        }, 
+        {
+          "desc": "Sally and Cindy are academic decathlon teammates", 
+          "p1": "Sally Avril", 
+          "p2": "Cindy Moon"
+        }, 
+        {
+          "desc": "Abe and Sally are academic decathlon teammates", 
+          "p1": "Sally Avril", 
+          "p2": "Abe Brown"
+        }, 
+        {
+          "desc": "Sally and Jason are classmates at Midtown", 
+          "p1": "Sally Avril", 
+          "p2": "Jason Ionello"
+        }, 
+        {
+          "desc": "Morita is Sally's principal at Midtown", 
+          "p1": "Sally Avril", 
+          "p2": "Principal Morita"
+        }, 
+        {
+          "desc": "Sally is part of the academic decathlon team Mr Harrington leads", 
+          "p1": "Sally Avril", 
+          "p2": "Roger Harrington"
+        }, 
+        {
+          "desc": "Cindy and Abe are academic decathlon teammates", 
+          "p1": "Cindy Moon", 
+          "p2": "Abe Brown"
+        }, 
+        {
+          "desc": "Jason and Cindy are classmates at Midtown", 
+          "p1": "Cindy Moon", 
+          "p2": "Jason Ionello"
+        }, 
+        {
+          "desc": "Morita is Cindy's principal at Midtown", 
+          "p1": "Cindy Moon", 
+          "p2": "Principal Morita"
+        }, 
+        {
+          "desc": "Cindy is part of the academic decathlon team Mr Harrington leads", 
+          "p1": "Cindy Moon", 
+          "p2": "Roger Harrington"
+        }, 
+        {
+          "desc": "Abe and Jason are classmates at Midtown", 
+          "p1": "Abe Brown", 
+          "p2": "Jason Ionello"
+        }, 
+        {
+          "desc": "Morita is Abe's principal at Midtown", 
+          "p1": "Abe Brown", 
+          "p2": "Principal Morita"
+        }, 
+        {
+          "desc": "Abe is part of the academic decathlon team Mr Harrington leads", 
+          "p1": "Abe Brown", 
+          "p2": "Roger Harrington"
+        }, 
+        {
+          "desc": "Jason is part of Coach Wilson's gym class", 
+          "p1": "Jason Ionello", 
+          "p2": "Coach Wilson"
+        }, 
+        {
+          "desc": "Morita is Jason's principal at Midtown", 
+          "p1": "Jason Ionello", 
+          "p2": "Principal Morita"
+        }, 
+        {
+          "desc": "Wilson and Morita work together at Midtown", 
+          "p1": "Coach Wilson", 
+          "p2": "Principal Morita"
+        }, 
+        {
+          "desc": "Wilson and Warren are both teachers at Midtown", 
+          "p1": "Coach Wilson", 
+          "p2": "Ms Warren"
+        }, 
+        {
+          "desc": "Harrington and Wilson work together at Midtown", 
+          "p1": "Coach Wilson", 
+          "p2": "Roger Harrington"
+        }, 
+        {
+          "desc": "Wilson and Cobbwell work together at Midtown", 
+          "p1": "Coach Wilson", 
+          "p2": "Mr Cobbwell"
+        }, 
+        {
+          "desc": "Morita and Warren work together at Midtown", 
+          "p1": "Principal Morita", 
+          "p2": "Ms Warren"
+        }, 
+        {
+          "desc": "Morita and Harrington work together at Midtown", 
+          "p1": "Principal Morita", 
+          "p2": "Roger Harrington"
+        }, 
+        {
+          "desc": "Cobwell and Morita work together at Midtown", 
+          "p1": "Principal Morita", 
+          "p2": "Mr Cobbwell"
+        }, 
+        {
+          "desc": "Pricipal Morita is Jim Morita's grandson", 
+          "p1": "Principal Morita", 
+          "p2": "Jim Morita"
+        }, 
+        {
+          "desc": "Warren and Harrington work together at Midtown", 
+          "p1": "Ms Warren", 
+          "p2": "Roger Harrington"
+        }, 
+        {
+          "desc": "Warren and Cobbwell work together at Midtown", 
+          "p1": "Ms Warren", 
+          "p2": "Mr Cobbwell"
+        }, 
+        {
+          "desc": "Harrington and Cobbwell work together at Midtown", 
+          "p1": "Roger Harrington", 
+          "p2": "Mr Cobbwell"
+        }, 
+        {
+          "desc": "Mason built The Vulture suit for Toomes", 
+          "p1": "Adrian 'Vulture' Toomes", 
+          "p2": "Phineas 'Tinkerer' Mason"
+        }, 
+        {
+          "desc": "Gargan asked Toomes for Spider-Man's identity while in prison", 
+          "p1": "Adrian 'Vulture' Toomes", 
+          "p2": "Mac 'Scorpion' Gargan"
+        }, 
+        {
+          "desc": "Toomes accidentally disintegrated Brice for doing a weapons deal in the open", 
+          "p1": "Adrian 'Vulture' Toomes", 
+          "p2": "Jackson 'Shocker' Brice"
+        }, 
+        {
+          "desc": "Toome's gave Schultz the shocker gauntlets after their previous owners death", 
+          "p1": "Adrian 'Vulture' Toomes", 
+          "p2": "Herman 'Shocker' Schultz"
+        }, 
+        {
+          "desc": "Randy Vale is part of Adrian Toomes' crew", 
+          "p1": "Adrian 'Vulture' Toomes", 
+          "p2": "Randy Vale"
+        }, 
+        {
+          "desc": "Adrian and Doris are married", 
+          "p1": "Adrian 'Vulture' Toomes", 
+          "p2": "Doris Toomes"
+        }, 
+        {
+          "desc": "Hogan found Toomes webbed up next to the wreckage of the Avengers transport plane", 
+          "p1": "Adrian 'Vulture' Toomes", 
+          "p2": "Happy Hogan"
+        }, 
+        {
+          "desc": "Anne informed Adrian that the Department of Damage Control would be taking over the battle of New York clean up", 
+          "p1": "Adrian 'Vulture' Toomes", 
+          "p2": "Anne Marie Hoag"
+        }, 
+        {
+          "desc": "Mason and Brice were both part of Adrian Toomes' crew", 
+          "p1": "Phineas 'Tinkerer' Mason", 
+          "p2": "Jackson 'Shocker' Brice"
+        }, 
+        {
+          "desc": "Mason and Schultz were both part of Adrian Toomes' crew", 
+          "p1": "Phineas 'Tinkerer' Mason", 
+          "p2": "Herman 'Shocker' Schultz"
+        }, 
+        {
+          "desc": "Phineas and Randy were both part of Adrian Toomes' crew", 
+          "p1": "Phineas 'Tinkerer' Mason", 
+          "p2": "Randy Vale"
+        }, 
+        {
+          "desc": "Mason and crew were relieved of New York clean up by Hoag's Damage Control team", 
+          "p1": "Phineas 'Tinkerer' Mason", 
+          "p2": "Anne Marie Hoag"
+        }, 
+        {
+          "desc": "Gargan met Schultz on the Staten Island Ferry to buy weapons", 
+          "p1": "Mac 'Scorpion' Gargan", 
+          "p2": "Herman 'Shocker' Schultz"
+        }, 
+        {
+          "desc": "Aaron used to work with Mac, and told Spider-Man where he'd be buying weapons", 
+          "p1": "Mac 'Scorpion' Gargan", 
+          "p2": "Aaron 'Prowler' Davis"
+        }, 
+        {
+          "desc": "Randy and Mac fought Spider-Man together on the Staten Island Ferry", 
+          "p1": "Mac 'Scorpion' Gargan", 
+          "p2": "Randy Vale"
+        }, 
+        {
+          "desc": "Jackson and Herman were both in Adrian Toomes' crew", 
+          "p1": "Jackson 'Shocker' Brice", 
+          "p2": "Herman 'Shocker' Schultz"
+        }, 
+        {
+          "desc": "Davis met with Brice for a weapons demonstration in the park", 
+          "p1": "Jackson 'Shocker' Brice", 
+          "p2": "Aaron 'Prowler' Davis"
+        }, 
+        {
+          "desc": "Randy and Jackson were both part of Adrian Toomes' crew", 
+          "p1": "Jackson 'Shocker' Brice", 
+          "p2": "Randy Vale"
+        }, 
+        {
+          "desc": "Davis met with Schultz in the park to buy a weapon", 
+          "p1": "Herman 'Shocker' Schultz", 
+          "p2": "Aaron 'Prowler' Davis"
+        }, 
+        {
+          "desc": "Herman and Randy were both part of Adrian Toomes' crew", 
+          "p1": "Herman 'Shocker' Schultz", 
+          "p2": "Randy Vale"
+        }, 
+        {
+          "desc": "Schultz and crew were relieved of New York clean up by Hoag's Damage Control team", 
+          "p1": "Herman 'Shocker' Schultz", 
+          "p2": "Anne Marie Hoag"
+        }, 
+        {
+          "desc": "Tony promoted Happy to asset management for the Avengers", 
+          "p1": "Tony Stark", 
+          "p2": "Happy Hogan"
+        }, 
+        {
+          "desc": "Pepper arranged a press conference for Tony where Spider-Man was meant to join The Avengers", 
+          "p1": "Tony Stark", 
+          "p2": "Pepper Potts"
+        }, 
+        {
+          "desc": "FRIDAY is the AI assistant in Tony's suit", 
+          "p1": "Tony Stark", 
+          "p2": "FRIDAY"
+        }, 
+        {
+          "desc": "Hoag works for Tony as Director of the Department of Damage Control", 
+          "p1": "Tony Stark", 
+          "p2": "Anne Marie Hoag"
+        }, 
+        {
+          "desc": "Happy spoke with Pepper before her Avenger's press conference", 
+          "p1": "Happy Hogan", 
+          "p2": "Pepper Potts"
+        }
+      ], 
+      "name": "Spider-Man: Homecoming"
+    }, 
+    {
       "category": "Films - Phase 1", 
       "characters": [
         "Agent Coulson", 
@@ -22953,6 +23904,18 @@ return [
     "media": "Doctor Strange", 
     "p1": "Karl Mordo", 
     "desc": "Mordo passed Stan when running from Kaecilius in mirror New York"
+  }, 
+  {
+    "p2": "Stan Lee", 
+    "media": "Spider-Man: Homecoming", 
+    "p1": "Peter Parker", 
+    "desc": "Stan shouted at Spider-Man for setting off a car alarm"
+  }, 
+  {
+    "p2": "Stan Lee", 
+    "media": "Spider-Man: Homecoming", 
+    "p1": "Marjorie", 
+    "desc": "Stan and Marjorie are neighbours"
   }
 ]
 };
@@ -23053,6 +24016,18 @@ return [
     "media": "Doctor Strange", 
     "p1": "Karl Mordo", 
     "desc": "Mordo passed Stan when running from Kaecilius in mirror New York"
+  }, 
+  {
+    "p2": "Stan Lee Jr", 
+    "media": "Spider-Man: Homecoming", 
+    "p1": "Peter Parker", 
+    "desc": "Stan shouted at Spider-Man for setting off a car alarm"
+  }, 
+  {
+    "p2": "Stan Lee Jr", 
+    "media": "Spider-Man: Homecoming", 
+    "p1": "Marjorie", 
+    "desc": "Stan and Marjorie are neighbours"
   }
 ]
 };
@@ -23153,6 +24128,18 @@ return [
     "media": "Doctor Strange", 
     "p1": "Karl Mordo", 
     "desc": "Mordo passed Stan when running from Kaecilius in mirror New York"
+  }, 
+  {
+    "p2": "Stan Lee (Garry)", 
+    "media": "Spider-Man: Homecoming", 
+    "p1": "Peter Parker", 
+    "desc": "Stan shouted at Spider-Man for setting off a car alarm"
+  }, 
+  {
+    "p2": "Stan Lee (Garry)", 
+    "media": "Spider-Man: Homecoming", 
+    "p1": "Marjorie", 
+    "desc": "Stan and Marjorie are neighbours"
   }
 ]
 };
