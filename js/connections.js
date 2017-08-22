@@ -67,6 +67,7 @@ return {
     "Albert the jeweler", 
     "Aldrich Killian", 
     "Alejandro Castillo", 
+    "Aleta Ogord", 
     "Alex Doobin", 
     "Alexander Pierce", 
     "Algrim", 
@@ -178,6 +179,7 @@ return {
     "Charles Murphy", 
     "Charles Wallace", 
     "Charlie Sharpe", 
+    "Charlie-27", 
     "Chauncey", 
     "Chinatown Crew Chen", 
     "Chinatown Crew Peng", 
@@ -303,6 +305,7 @@ return {
     "Editor Haverson", 
     "Edwin Abbott", 
     "Edwin Jarvis", 
+    "Ego the Living Planet", 
     "Eir", 
     "Elder Gahiji", 
     "Electrician Ed", 
@@ -543,6 +546,7 @@ return {
     "Kozlov", 
     "Kraglin Obfonteri", 
     "Kropsky", 
+    "Krugarr", 
     "Kurt", 
     "Kyle Zeller", 
     "Lance Hunter", 
@@ -592,11 +596,13 @@ return {
     "Madame B", 
     "Madame Gao", 
     "Maggie Lang", 
+    "Mainframe", 
     "Major Allen", 
     "Malcolm Ducasse", 
     "Malekith", 
     "Mama Mabel", 
     "Manny", 
+    "Mantis", 
     "Marcel the waiter", 
     "Marci Stahl", 
     "Marcus Daniels", 
@@ -613,6 +619,7 @@ return {
     "Marshal Franco", 
     "Marshal Johnson", 
     "Martina", 
+    "Martinex", 
     "Mary (Griffith)", 
     "Matt", 
     "Matt Murdock", 
@@ -736,6 +743,7 @@ return {
     "Politician Diego", 
     "Polly Hinton", 
     "President Ellis", 
+    "Priestess Ayesha", 
     "Principal Morita", 
     "Priscilla Everhart", 
     "Prisoner 6219", 
@@ -756,6 +764,14 @@ return {
     "Raj", 
     "Ralph", 
     "Randy Vale", 
+    "Ravager Brahl", 
+    "Ravager Gef", 
+    "Ravager Halfnut", 
+    "Ravager Narblik", 
+    "Ravager Oblo", 
+    "Ravager Retch", 
+    "Ravager Scrote", 
+    "Ravager Tullk", 
     "Ray Krzeminski", 
     "Raza", 
     "Red Skull", 
@@ -841,6 +857,7 @@ return {
     "Staff Sergeant Campbell", 
     "Staff Sergeant Logan", 
     "Staff Sergeant Smith", 
+    "Stakar Ogord", 
     "Stan Gibson", 
     "Stanley Lieber", 
     "Star", 
@@ -862,6 +879,7 @@ return {
     "T. Mitchell", 
     "Tad", 
     "Taggart", 
+    "Taserface", 
     "Thaddeus Ross", 
     "Thanos", 
     "The Amazing Mertz", 
@@ -959,7 +977,8 @@ return {
     "Yuri Krupin", 
     "Yusef Hadad", 
     "Zack", 
-    "Zudy Almeida"
+    "Zudy Almeida", 
+    "Zylak"
   ], 
   "properties": [
     {
@@ -17677,6 +17696,874 @@ return {
       "name": "Guardians of the Galaxy"
     }, 
     {
+      "category": "Films - Phase 3", 
+      "characters": [
+        "Aleta Ogord", 
+        "Charlie-27", 
+        "Drax", 
+        "Ego the Living Planet", 
+        "Gamora", 
+        "Groot", 
+        "Howard the Duck", 
+        "Kraglin Obfonteri", 
+        "Krugarr", 
+        "Mainframe", 
+        "Mantis", 
+        "Martinex", 
+        "Meredith Quill", 
+        "Nebula", 
+        "Peter Quill", 
+        "Priestess Ayesha", 
+        "Ravager Brahl", 
+        "Ravager Gef", 
+        "Ravager Halfnut", 
+        "Ravager Narblik", 
+        "Ravager Oblo", 
+        "Ravager Retch", 
+        "Ravager Scrote", 
+        "Ravager Tullk", 
+        "Rocket", 
+        "Stakar Ogord", 
+        "Taserface", 
+        "Thanos", 
+        "Yondu Udonta", 
+        "Zylak"
+      ], 
+      "interactions": [
+        {
+          "desc": "Peter and Gamora are both Guardians of the Galaxy", 
+          "p1": "Peter Quill", 
+          "p2": "Gamora"
+        }, 
+        {
+          "desc": "Peter and Drax are both Guardians of the Galaxy", 
+          "p1": "Peter Quill", 
+          "p2": "Drax"
+        }, 
+        {
+          "desc": "Groot and Peter are both Guardians of the Galaxy", 
+          "p1": "Peter Quill", 
+          "p2": "Groot"
+        }, 
+        {
+          "desc": "Rocket and Quill crashed their ship to show off who was the better pilot", 
+          "p1": "Peter Quill", 
+          "p2": "Rocket"
+        }, 
+        {
+          "desc": "Peter and Nebula fought Ego together", 
+          "p1": "Peter Quill", 
+          "p2": "Nebula"
+        }, 
+        {
+          "desc": "Mantis told everyone Peter's deepest darkest secret, he must have been so embarresed!", 
+          "p1": "Peter Quill", 
+          "p2": "Mantis"
+        }, 
+        {
+          "desc": "Ego is Peter's father", 
+          "p1": "Peter Quill", 
+          "p2": "Ego the Living Planet"
+        }, 
+        {
+          "desc": "Ayesha hired Peter and the other Guardians to protect her planet's batteries", 
+          "p1": "Peter Quill", 
+          "p2": "Priestess Ayesha"
+        }, 
+        {
+          "desc": "Meredith is Peter's mother", 
+          "p1": "Peter Quill", 
+          "p2": "Meredith Quill"
+        }, 
+        {
+          "desc": "Yondu sacrificed himself to save Peter from Ego", 
+          "p1": "Peter Quill", 
+          "p2": "Yondu Udonta"
+        }, 
+        {
+          "desc": "Peter gifted Yondu's arrow to Kraglin", 
+          "p1": "Peter Quill", 
+          "p2": "Kraglin Obfonteri"
+        }, 
+        {
+          "desc": "Gamora and Drax fought together as Guardians of the Galaxy", 
+          "p1": "Gamora", 
+          "p2": "Drax"
+        }, 
+        {
+          "desc": "Gamora and Groot are both Guardians of the Galaxy", 
+          "p1": "Gamora", 
+          "p2": "Groot"
+        }, 
+        {
+          "desc": "Gamora left Rocket to repair the ship when she went to Ego", 
+          "p1": "Gamora", 
+          "p2": "Rocket"
+        }, 
+        {
+          "desc": "Nebula only ever wanted Gamora to be a sister to her", 
+          "p1": "Gamora", 
+          "p2": "Nebula"
+        }, 
+        {
+          "desc": "Gamora and Mantis fought together against Ego", 
+          "p1": "Gamora", 
+          "p2": "Mantis"
+        }, 
+        {
+          "desc": "Gamora was invited by Ego to his planet", 
+          "p1": "Gamora", 
+          "p2": "Ego the Living Planet"
+        }, 
+        {
+          "desc": "Ayesha handed Nebula to Gamora's custody as payment for the Guardian's services", 
+          "p1": "Gamora", 
+          "p2": "Priestess Ayesha"
+        }, 
+        {
+          "desc": "Gamora and Yondu fought together against Ego", 
+          "p1": "Gamora", 
+          "p2": "Yondu Udonta"
+        }, 
+        {
+          "desc": "Gamora and Kraglin both attended Yondu's funeral", 
+          "p1": "Gamora", 
+          "p2": "Kraglin Obfonteri"
+        }, 
+        {
+          "desc": "Thanos used to make Gamora and Nebula fight, replacing parts of the loser with machinery", 
+          "p1": "Gamora", 
+          "p2": "Thanos"
+        }, 
+        {
+          "desc": "Drax and Groot are both Guardians of the Galaxy", 
+          "p1": "Drax", 
+          "p2": "Groot"
+        }, 
+        {
+          "desc": "Drax and Rocket are both Guardians of the Galaxy", 
+          "p1": "Drax", 
+          "p2": "Rocket"
+        }, 
+        {
+          "desc": "Drax and Nebula fought together against Ego", 
+          "p1": "Drax", 
+          "p2": "Nebula"
+        }, 
+        {
+          "desc": "Drax thought Mantis' antennae are to prevent decapitation by low doors", 
+          "p1": "Drax", 
+          "p2": "Mantis"
+        }, 
+        {
+          "desc": "Drax fought Ego to stop him destroying the universe", 
+          "p1": "Drax", 
+          "p2": "Ego the Living Planet"
+        }, 
+        {
+          "desc": "Ayesha commissioned Drax and the Guardians to protect her planets batteries", 
+          "p1": "Drax", 
+          "p2": "Priestess Ayesha"
+        }, 
+        {
+          "desc": "Drax and Yondu fought together against Ego", 
+          "p1": "Drax", 
+          "p2": "Yondu Udonta"
+        }, 
+        {
+          "desc": "Kraglin accidentally injured Drax with Yondu's arrow", 
+          "p1": "Drax", 
+          "p2": "Kraglin Obfonteri"
+        }, 
+        {
+          "desc": "Groot somehow managed to follow Rocket's instructions and not blow up all the Guardians of the Galaxy", 
+          "p1": "Groot", 
+          "p2": "Rocket"
+        }, 
+        {
+          "desc": "Nebula tricked groot into freeing her from her handcuffs", 
+          "p1": "Groot", 
+          "p2": "Nebula"
+        }, 
+        {
+          "desc": "Groot and Mantis fought together against Ego", 
+          "p1": "Groot", 
+          "p2": "Mantis"
+        }, 
+        {
+          "desc": "Groot planted a bomb on Ego's brain", 
+          "p1": "Groot", 
+          "p2": "Ego the Living Planet"
+        }, 
+        {
+          "desc": "Groot visited Ayesha with the Guardians to be payed for their battery defence services", 
+          "p1": "Groot", 
+          "p2": "Priestess Ayesha"
+        }, 
+        {
+          "desc": "Groot welcomed Yondu to the freaking Guardians's of the Galaxy", 
+          "p1": "Groot", 
+          "p2": "Yondu Udonta"
+        }, 
+        {
+          "desc": "Groot and Kraglin attended Yondu's funeral together", 
+          "p1": "Groot", 
+          "p2": "Kraglin Obfonteri"
+        }, 
+        {
+          "desc": "Taserface forced Groot to act like a pet after taking over the Ravager ship", 
+          "p1": "Groot", 
+          "p2": "Taserface"
+        }, 
+        {
+          "desc": "Tullk was in the Ravager group that captured Groot", 
+          "p1": "Groot", 
+          "p2": "Ravager Tullk"
+        }, 
+        {
+          "desc": "Groot threw Retch from a balcony while escaping the Ravager's custody", 
+          "p1": "Groot", 
+          "p2": "Ravager Retch"
+        }, 
+        {
+          "desc": "Oblo was in the Ravager group that captured Groot", 
+          "p1": "Groot", 
+          "p2": "Ravager Oblo"
+        }, 
+        {
+          "desc": "Narblik was in the Ravager group that captured Groot", 
+          "p1": "Groot", 
+          "p2": "Ravager Narblik"
+        }, 
+        {
+          "desc": "Halfnut was one of the Ravagers who abused the captive Groot", 
+          "p1": "Groot", 
+          "p2": "Ravager Halfnut"
+        }, 
+        {
+          "desc": "Brahl was one of the Ravagers that captured Groot", 
+          "p1": "Groot", 
+          "p2": "Ravager Brahl"
+        }, 
+        {
+          "desc": "Scrote was one of the Ragagers who abused the captive Groot", 
+          "p1": "Groot", 
+          "p2": "Ravager Scrote"
+        }, 
+        {
+          "desc": "Gef wanted to smash Groot with a rock", 
+          "p1": "Groot", 
+          "p2": "Ravager Gef"
+        }, 
+        {
+          "desc": "Nebula and Rocket fought together against Ego", 
+          "p1": "Rocket", 
+          "p2": "Nebula"
+        }, 
+        {
+          "desc": "Rocket and Mantiz fought together against Ego", 
+          "p1": "Rocket", 
+          "p2": "Mantis"
+        }, 
+        {
+          "desc": "Rocket fought against Ego to save the galaxy", 
+          "p1": "Rocket", 
+          "p2": "Ego the Living Planet"
+        }, 
+        {
+          "desc": "Rocket didn't head Ayesha's warning not to steal from the Soverign", 
+          "p1": "Rocket", 
+          "p2": "Priestess Ayesha"
+        }, 
+        {
+          "desc": "Rocket attached Yondu's fin so they could escape Ravager prison", 
+          "p1": "Rocket", 
+          "p2": "Yondu Udonta"
+        }, 
+        {
+          "desc": "Rocket and Kraglin escaped the Ravager ship together", 
+          "p1": "Rocket", 
+          "p2": "Kraglin Obfonteri"
+        }, 
+        {
+          "desc": "Rocket was extremely unconvinced by Taserface's 'intimidating' name", 
+          "p1": "Rocket", 
+          "p2": "Taserface"
+        }, 
+        {
+          "desc": "Rocket fought Tullk and the other Ravagers while defending the Milano", 
+          "p1": "Rocket", 
+          "p2": "Ravager Tullk"
+        }, 
+        {
+          "desc": "Rocket fought Retch and the other Ravagers while defending the Milano", 
+          "p1": "Rocket", 
+          "p2": "Ravager Retch"
+        }, 
+        {
+          "desc": "Rocket fought Oblo and the other Ravagers while defending the Milano", 
+          "p1": "Rocket", 
+          "p2": "Ravager Oblo"
+        }, 
+        {
+          "desc": "Rocket fought Narblik and the other Ravagers while defending the Milano", 
+          "p1": "Rocket", 
+          "p2": "Ravager Narblik"
+        }, 
+        {
+          "desc": "Rocket fought Halfnut and the other Ravagers while defending the Milano", 
+          "p1": "Rocket", 
+          "p2": "Ravager Halfnut"
+        }, 
+        {
+          "desc": "Rocket fought Brahl and the other Ravagers while defending the Milano", 
+          "p1": "Rocket", 
+          "p2": "Ravager Brahl"
+        }, 
+        {
+          "desc": "Rocket fought Scrote and the other Ravagers while defending the Milano", 
+          "p1": "Rocket", 
+          "p2": "Ravager Scrote"
+        }, 
+        {
+          "desc": "Rocket fought Gef and the other Ravagers while defending the Milano", 
+          "p1": "Rocket", 
+          "p2": "Ravager Gef"
+        }, 
+        {
+          "desc": "Rocket invited Stakar to Yondu's funeral", 
+          "p1": "Rocket", 
+          "p2": "Stakar Ogord"
+        }, 
+        {
+          "desc": "Rocket invited Charlie-27 to Yondu's funeral", 
+          "p1": "Rocket", 
+          "p2": "Charlie-27"
+        }, 
+        {
+          "desc": "Rocket invited Aleta to Yondu's funeral", 
+          "p1": "Rocket", 
+          "p2": "Aleta Ogord"
+        }, 
+        {
+          "desc": "Rocket invited Mainframe to Yondu's funeral", 
+          "p1": "Rocket", 
+          "p2": "Mainframe"
+        }, 
+        {
+          "desc": "Rocket invited Martinex to Yondu's funeral", 
+          "p1": "Rocket", 
+          "p2": "Martinex"
+        }, 
+        {
+          "desc": "Rocket invited Krugarr to Yondu's funeral", 
+          "p1": "Rocket", 
+          "p2": "Krugarr"
+        }, 
+        {
+          "desc": "Nebula and Mantis fought together against Ego", 
+          "p1": "Nebula", 
+          "p2": "Mantis"
+        }, 
+        {
+          "desc": "Nebula fought against Ego with the Guardians of the Galaxy", 
+          "p1": "Nebula", 
+          "p2": "Ego the Living Planet"
+        }, 
+        {
+          "desc": "Ayesha turned Nebula over to the Guardians", 
+          "p1": "Nebula", 
+          "p2": "Priestess Ayesha"
+        }, 
+        {
+          "desc": "Nebula and Yondu destroyed a Soverign drone fleet inside Ego's planet", 
+          "p1": "Nebula", 
+          "p2": "Yondu Udonta"
+        }, 
+        {
+          "desc": "Kraglin gave Nebula the ship she used to track down Gamora", 
+          "p1": "Nebula", 
+          "p2": "Kraglin Obfonteri"
+        }, 
+        {
+          "desc": "Nebula assisted Taserface in taking over Yondu's Ravager faction", 
+          "p1": "Nebula", 
+          "p2": "Taserface"
+        }, 
+        {
+          "desc": "Nebula took over the Tullk's Ravager group while escaping the Guardians", 
+          "p1": "Nebula", 
+          "p2": "Ravager Tullk"
+        }, 
+        {
+          "desc": "Nebula took over the Retch's Ravager group while escaping the Guardians", 
+          "p1": "Nebula", 
+          "p2": "Ravager Retch"
+        }, 
+        {
+          "desc": "Nebula took over the Oblo's Ravager group while escaping the Guardians", 
+          "p1": "Nebula", 
+          "p2": "Ravager Oblo"
+        }, 
+        {
+          "desc": "Nebula took over the Narblik's Ravager group while escaping the Guardians", 
+          "p1": "Nebula", 
+          "p2": "Ravager Narblik"
+        }, 
+        {
+          "desc": "Nebula took over the Halfnut's Ravager group while escaping the Guardians", 
+          "p1": "Nebula", 
+          "p2": "Ravager Halfnut"
+        }, 
+        {
+          "desc": "Nebula took over the Brahl's Ravager group while escaping the Guardians", 
+          "p1": "Nebula", 
+          "p2": "Ravager Brahl"
+        }, 
+        {
+          "desc": "Nebula took over the Scrote's Ravager group while escaping the Guardians", 
+          "p1": "Nebula", 
+          "p2": "Ravager Scrote"
+        }, 
+        {
+          "desc": "Nebula took over the Gef's Ravager group while escaping the Guardians", 
+          "p1": "Nebula", 
+          "p2": "Ravager Gef"
+        }, 
+        {
+          "desc": "Thanos replaced parts of Nebula with machinery after each lost duel she had with Gamora", 
+          "p1": "Nebula", 
+          "p2": "Thanos"
+        }, 
+        {
+          "desc": "Mantis was a flea with a purpose on Ego, helping him to sleep", 
+          "p1": "Mantis", 
+          "p2": "Ego the Living Planet"
+        }, 
+        {
+          "desc": "Mantis fought with Yondu against Ego", 
+          "p1": "Mantis", 
+          "p2": "Yondu Udonta"
+        }, 
+        {
+          "desc": "Kraglin and Mantis both attended Yondu's funeral", 
+          "p1": "Mantis", 
+          "p2": "Kraglin Obfonteri"
+        }, 
+        {
+          "desc": "Ego planted a fatal tumor in Meredith's brain", 
+          "p1": "Ego the Living Planet", 
+          "p2": "Meredith Quill"
+        }, 
+        {
+          "desc": "Yondu fought against Ego with the Guardians of the Galaxy", 
+          "p1": "Ego the Living Planet", 
+          "p2": "Yondu Udonta"
+        }, 
+        {
+          "desc": "Zylak is a pilot in Ayesha's drone fleet", 
+          "p1": "Priestess Ayesha", 
+          "p2": "Zylak"
+        }, 
+        {
+          "desc": "Ayesha hired Yondu to capture the Guardians for her", 
+          "p1": "Priestess Ayesha", 
+          "p2": "Yondu Udonta"
+        }, 
+        {
+          "desc": "Before he exploded, Taserface told Ayesha where to find Yondu and the Guardians", 
+          "p1": "Priestess Ayesha", 
+          "p2": "Taserface"
+        }, 
+        {
+          "desc": "Howard and Yondu were both patrons of the robot... bar", 
+          "p1": "Howard the Duck", 
+          "p2": "Yondu Udonta"
+        }, 
+        {
+          "desc": "Kraglin is Yondu's second in command", 
+          "p1": "Yondu Udonta", 
+          "p2": "Kraglin Obfonteri"
+        }, 
+        {
+          "desc": "Taserface took over Yondu's Ravager crew", 
+          "p1": "Yondu Udonta", 
+          "p2": "Taserface"
+        }, 
+        {
+          "desc": "Tullk used to be one of Yondu's Ravagers", 
+          "p1": "Yondu Udonta", 
+          "p2": "Ravager Tullk"
+        }, 
+        {
+          "desc": "Retch used to be one of Yondu's Ravagers", 
+          "p1": "Yondu Udonta", 
+          "p2": "Ravager Retch"
+        }, 
+        {
+          "desc": "Oblo used to be one of Yondu's Ravagers", 
+          "p1": "Yondu Udonta", 
+          "p2": "Ravager Oblo"
+        }, 
+        {
+          "desc": "Narblik used to be one of Yondu's Ravagers", 
+          "p1": "Yondu Udonta", 
+          "p2": "Ravager Narblik"
+        }, 
+        {
+          "desc": "Halfnut used to be one of Yondu's Ravagers", 
+          "p1": "Yondu Udonta", 
+          "p2": "Ravager Halfnut"
+        }, 
+        {
+          "desc": "Brahl used to be one of Yondu's Ravagers", 
+          "p1": "Yondu Udonta", 
+          "p2": "Ravager Brahl"
+        }, 
+        {
+          "desc": "Scrote used to be one of Yondu's Ravagers", 
+          "p1": "Yondu Udonta", 
+          "p2": "Ravager Scrote"
+        }, 
+        {
+          "desc": "Gef used to be one of Yondu's Ravagers", 
+          "p1": "Yondu Udonta", 
+          "p2": "Ravager Gef"
+        }, 
+        {
+          "desc": "Stakar freed Yondu from slavery, and let him join the Ravagers", 
+          "p1": "Yondu Udonta", 
+          "p2": "Stakar Ogord"
+        }, 
+        {
+          "desc": "Yondu and Charlie-27 used to be Ravager teammates", 
+          "p1": "Yondu Udonta", 
+          "p2": "Charlie-27"
+        }, 
+        {
+          "desc": "Yondu and Aleta used to be Ravager teammates", 
+          "p1": "Yondu Udonta", 
+          "p2": "Aleta Ogord"
+        }, 
+        {
+          "desc": "Mainframe and Yondu used to be Ravager teammates", 
+          "p1": "Yondu Udonta", 
+          "p2": "Mainframe"
+        }, 
+        {
+          "desc": "Martinex and Yondu used to be Ravager teammates", 
+          "p1": "Yondu Udonta", 
+          "p2": "Martinex"
+        }, 
+        {
+          "desc": "Yondu and Krugarr used to be Ravager teammates", 
+          "p1": "Yondu Udonta", 
+          "p2": "Krugarr"
+        }, 
+        {
+          "desc": "Kraglin briefly followed Taserface after Yondu was overthrown", 
+          "p1": "Kraglin Obfonteri", 
+          "p2": "Taserface"
+        }, 
+        {
+          "desc": "Kraglin and Tullk used to be Ravager teammates", 
+          "p1": "Kraglin Obfonteri", 
+          "p2": "Ravager Tullk"
+        }, 
+        {
+          "desc": "Kraglin and Retch used to be Ravager teammates", 
+          "p1": "Kraglin Obfonteri", 
+          "p2": "Ravager Retch"
+        }, 
+        {
+          "desc": "Oblo and Kraglin used to be Ravager teammates", 
+          "p1": "Kraglin Obfonteri", 
+          "p2": "Ravager Oblo"
+        }, 
+        {
+          "desc": "Narblik and Kraglin used to be Ravager teammates", 
+          "p1": "Kraglin Obfonteri", 
+          "p2": "Ravager Narblik"
+        }, 
+        {
+          "desc": "Halfnut and Kraglin used to be Ravager teammates", 
+          "p1": "Kraglin Obfonteri", 
+          "p2": "Ravager Halfnut"
+        }, 
+        {
+          "desc": "Brahl and Kraglin used to be Ravager teammates", 
+          "p1": "Kraglin Obfonteri", 
+          "p2": "Ravager Brahl"
+        }, 
+        {
+          "desc": "Scrote and Kraglin used to be Ravager teammates", 
+          "p1": "Kraglin Obfonteri", 
+          "p2": "Ravager Scrote"
+        }, 
+        {
+          "desc": "Gef and Kraglin used to be Ravager teammates", 
+          "p1": "Kraglin Obfonteri", 
+          "p2": "Ravager Gef"
+        }, 
+        {
+          "desc": "Tullk was killed for refusing to follow Taserface", 
+          "p1": "Taserface", 
+          "p2": "Ravager Tullk"
+        }, 
+        {
+          "desc": "Retch followed Taserface after Yondu was overthrown", 
+          "p1": "Taserface", 
+          "p2": "Ravager Retch"
+        }, 
+        {
+          "desc": "Oblo was killed for refusing to follow Taserface", 
+          "p1": "Taserface", 
+          "p2": "Ravager Oblo"
+        }, 
+        {
+          "desc": "Narblik followed Taserface after Yondu was overthrown", 
+          "p1": "Taserface", 
+          "p2": "Ravager Narblik"
+        }, 
+        {
+          "desc": "Halfnut followed Taserface after Yondu was overthrown", 
+          "p1": "Taserface", 
+          "p2": "Ravager Halfnut"
+        }, 
+        {
+          "desc": "Brahl followed Taserface after Yondu was overthrown", 
+          "p1": "Taserface", 
+          "p2": "Ravager Brahl"
+        }, 
+        {
+          "desc": "Scrote followed Taserface after Yondu was overthrown", 
+          "p1": "Taserface", 
+          "p2": "Ravager Scrote"
+        }, 
+        {
+          "desc": "Gef followed Taserface after Yondu was overthrown", 
+          "p1": "Taserface", 
+          "p2": "Ravager Gef"
+        }, 
+        {
+          "desc": "Retch and Tullk were Ravager teammates under Yondu", 
+          "p1": "Ravager Tullk", 
+          "p2": "Ravager Retch"
+        }, 
+        {
+          "desc": "Oblo and Tullk were Ravager teammates under Yondu", 
+          "p1": "Ravager Tullk", 
+          "p2": "Ravager Oblo"
+        }, 
+        {
+          "desc": "Narblik and Tullk were Ravager teammates under Yondu", 
+          "p1": "Ravager Tullk", 
+          "p2": "Ravager Narblik"
+        }, 
+        {
+          "desc": "Halfnut and Tullk were Ravager teammates under Yondu", 
+          "p1": "Ravager Tullk", 
+          "p2": "Ravager Halfnut"
+        }, 
+        {
+          "desc": "Brahl and Tullk were Ravager teammates under Yondu", 
+          "p1": "Ravager Tullk", 
+          "p2": "Ravager Brahl"
+        }, 
+        {
+          "desc": "Scrote and Tullk were Ravager teammates under Yondu", 
+          "p1": "Ravager Tullk", 
+          "p2": "Ravager Scrote"
+        }, 
+        {
+          "desc": "Gef and Tullk were Ravager teammates under Yondu", 
+          "p1": "Ravager Tullk", 
+          "p2": "Ravager Gef"
+        }, 
+        {
+          "desc": "Oblo and Retch were Ravager teammates under Yondu", 
+          "p1": "Ravager Retch", 
+          "p2": "Ravager Oblo"
+        }, 
+        {
+          "desc": "Narblik and Retch were Ravager teammates under Taserface", 
+          "p1": "Ravager Retch", 
+          "p2": "Ravager Narblik"
+        }, 
+        {
+          "desc": "Halfnut and Retch were Ravager teammates under Taserface", 
+          "p1": "Ravager Retch", 
+          "p2": "Ravager Halfnut"
+        }, 
+        {
+          "desc": "Brahl and Retch were Ravager teammates under Taserface", 
+          "p1": "Ravager Retch", 
+          "p2": "Ravager Brahl"
+        }, 
+        {
+          "desc": "Scrote and Retch were Ravager teammates under Taserface", 
+          "p1": "Ravager Retch", 
+          "p2": "Ravager Scrote"
+        }, 
+        {
+          "desc": "Gef and Retch were Ravager teammates under Taserface", 
+          "p1": "Ravager Retch", 
+          "p2": "Ravager Gef"
+        }, 
+        {
+          "desc": "Narblik and Oblo were Ravager teammates under Yondu", 
+          "p1": "Ravager Oblo", 
+          "p2": "Ravager Narblik"
+        }, 
+        {
+          "desc": "Halfnut and Oblo were Ravager teammates under Yondu", 
+          "p1": "Ravager Oblo", 
+          "p2": "Ravager Halfnut"
+        }, 
+        {
+          "desc": "Brahl and Oblo were Ravager teammates under Yondu", 
+          "p1": "Ravager Oblo", 
+          "p2": "Ravager Brahl"
+        }, 
+        {
+          "desc": "Scrote and Oblo were Ravager teammates under Yondu", 
+          "p1": "Ravager Oblo", 
+          "p2": "Ravager Scrote"
+        }, 
+        {
+          "desc": "Gef and Oblo were Ravager teammates under Yondu", 
+          "p1": "Ravager Oblo", 
+          "p2": "Ravager Gef"
+        }, 
+        {
+          "desc": "Halfnut and Narblik were Ravager teammates under Taserface", 
+          "p1": "Ravager Narblik", 
+          "p2": "Ravager Halfnut"
+        }, 
+        {
+          "desc": "Brahl and Narblik were Ravager teammates under Taserface", 
+          "p1": "Ravager Narblik", 
+          "p2": "Ravager Brahl"
+        }, 
+        {
+          "desc": "Scrote and Narblik were Ravager teammates under Taserface", 
+          "p1": "Ravager Narblik", 
+          "p2": "Ravager Scrote"
+        }, 
+        {
+          "desc": "Gef and Narblik were Ravager teammates under Taserface", 
+          "p1": "Ravager Narblik", 
+          "p2": "Ravager Gef"
+        }, 
+        {
+          "desc": "Brahl and Halfnut were Ravager teammates under Taserface", 
+          "p1": "Ravager Halfnut", 
+          "p2": "Ravager Brahl"
+        }, 
+        {
+          "desc": "Scrote and Halfnut were Ravager teammates under Taserface", 
+          "p1": "Ravager Halfnut", 
+          "p2": "Ravager Scrote"
+        }, 
+        {
+          "desc": "Gef and Halfnut were Ravager teammates under Taserface", 
+          "p1": "Ravager Halfnut", 
+          "p2": "Ravager Gef"
+        }, 
+        {
+          "desc": "Scrote and Brahl were Ravager teammates under Taserface", 
+          "p1": "Ravager Brahl", 
+          "p2": "Ravager Scrote"
+        }, 
+        {
+          "desc": "Gef and Brahl were Ravager teammates under Taserface", 
+          "p1": "Ravager Brahl", 
+          "p2": "Ravager Gef"
+        }, 
+        {
+          "desc": "Gef and Scrote were Ravager teammates under Taserface", 
+          "p1": "Ravager Scrote", 
+          "p2": "Ravager Gef"
+        }, 
+        {
+          "desc": "Stakar and Charlie-27 are Ravager teammates", 
+          "p1": "Stakar Ogord", 
+          "p2": "Charlie-27"
+        }, 
+        {
+          "desc": "Stakar and Alete are Ravager teammates", 
+          "p1": "Stakar Ogord", 
+          "p2": "Aleta Ogord"
+        }, 
+        {
+          "desc": "Mainframe and Stakar are Ravager teammates", 
+          "p1": "Stakar Ogord", 
+          "p2": "Mainframe"
+        }, 
+        {
+          "desc": "Stakar and Martinex are Ravager teammates", 
+          "p1": "Stakar Ogord", 
+          "p2": "Martinex"
+        }, 
+        {
+          "desc": "Krugarr and Stakar are Ravager teammates", 
+          "p1": "Stakar Ogord", 
+          "p2": "Krugarr"
+        }, 
+        {
+          "desc": "Charlie-27 and Alete are Ravager teammates", 
+          "p1": "Charlie-27", 
+          "p2": "Aleta Ogord"
+        }, 
+        {
+          "desc": "Mainframe and Charlie-27 are Ravager teammates", 
+          "p1": "Charlie-27", 
+          "p2": "Mainframe"
+        }, 
+        {
+          "desc": "Charlie-27 and Martinex are Ravager teammates", 
+          "p1": "Charlie-27", 
+          "p2": "Martinex"
+        }, 
+        {
+          "desc": "Krugarr and Charlie-27 are Ravager teammates", 
+          "p1": "Charlie-27", 
+          "p2": "Krugarr"
+        }, 
+        {
+          "desc": "Mainframe and Aleta are Ravager teammates", 
+          "p1": "Aleta Ogord", 
+          "p2": "Mainframe"
+        }, 
+        {
+          "desc": "Aleta and Martinex are Ravager teammates", 
+          "p1": "Aleta Ogord", 
+          "p2": "Martinex"
+        }, 
+        {
+          "desc": "Krugarr and Aleta are Ravager teammates", 
+          "p1": "Aleta Ogord", 
+          "p2": "Krugarr"
+        }, 
+        {
+          "desc": "Mainframe and Martinex are Ravager teammates", 
+          "p1": "Mainframe", 
+          "p2": "Martinex"
+        }, 
+        {
+          "desc": "Krugarr and Mainframe are Ravager teammates", 
+          "p1": "Mainframe", 
+          "p2": "Krugarr"
+        }, 
+        {
+          "desc": "Martinex and Krugarr are Ravager teammates", 
+          "p1": "Martinex", 
+          "p2": "Krugarr"
+        }
+      ], 
+      "name": "Guardians of the Galaxy Vol. 2"
+    }, 
+    {
       "category": "Films - Phase 1", 
       "characters": [
         "Abu Bakar", 
@@ -23916,6 +24803,12 @@ return [
     "media": "Spider-Man: Homecoming", 
     "p1": "Marjorie", 
     "desc": "Stan and Marjorie are neighbours"
+  }, 
+  {
+    "p2": "Stan Lee", 
+    "media": "Guardians of the Galaxy Vol. 2", 
+    "p1": "The Watchers", 
+    "desc": "Stan told his tales of suspense and astonisment to The Watchers"
   }
 ]
 };
@@ -24028,6 +24921,12 @@ return [
     "media": "Spider-Man: Homecoming", 
     "p1": "Marjorie", 
     "desc": "Stan and Marjorie are neighbours"
+  }, 
+  {
+    "p2": "Stan Lee Jr", 
+    "media": "Guardians of the Galaxy Vol. 2", 
+    "p1": "The Watchers", 
+    "desc": "Stan told his tales of suspense and astonisment to the Watchers"
   }
 ]
 };
@@ -24140,6 +25039,12 @@ return [
     "media": "Spider-Man: Homecoming", 
     "p1": "Marjorie", 
     "desc": "Stan and Marjorie are neighbours"
+  }, 
+  {
+    "p2": "Watcher Informant", 
+    "media": "Guardians of the Galaxy Vol. 2", 
+    "p1": "The Watchers", 
+    "desc": "The Informant told his tales of suspense and astonisment to the Watchers"
   }
 ]
 };
