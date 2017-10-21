@@ -67,6 +67,7 @@ return {
     "Albert the jeweler", 
     "Aldrich Killian", 
     "Alejandro Castillo", 
+    "Alessa 'Bride of Nine Spiders'", 
     "Aleta Ogord", 
     "Alex Doobin", 
     "Alexander Pierce", 
@@ -81,6 +82,7 @@ return {
     "Ana Jarvis", 
     "Anatoly Ranskahov", 
     "Andre", 
+    "Andrei Veznikov", 
     "Andrew Garner", 
     "Angie Martinelli", 
     "Angry Neighbour Martha", 
@@ -109,10 +111,12 @@ return {
     "Aunt May", 
     "Ayo", 
     "Bailey", 
+    "Bakuto", 
     "Barbara Shlottman", 
     "Barkeeper Josie", 
     "Baron Strucker", 
     "Bartender Leopold", 
+    "Becca Yoo", 
     "Ben Urich", 
     "Benjamin Donovan", 
     "Bennie Pollock", 
@@ -124,6 +128,7 @@ return {
     "Betsy Beatty", 
     "Betty Brant", 
     "Betty Ross", 
+    "Big Al", 
     "Bill Fisk", 
     "Billy", 
     "Billy Koenig", 
@@ -172,6 +177,7 @@ return {
     "Carol (Griffith)", 
     "Cassie Lang", 
     "Centipede Doctor Debbie", 
+    "Ch'i-Lin", 
     "Chad", 
     "Chan Ho Yin \"Scorch\"", 
     "Chanise", 
@@ -201,6 +207,7 @@ return {
     "Coach Wilson", 
     "Codebreaker Edwards", 
     "Colleen O'Brien", 
+    "Colleen Wing", 
     "Colonel Ernst Mueller", 
     "Colonel Fyodor", 
     "Colonel Phillips", 
@@ -233,6 +240,7 @@ return {
     "Daniel Gibson", 
     "Daniel Sousa", 
     "Daniel Whitehall", 
+    "Danny Rand", 
     "Dante Chapman", 
     "Dapper Dan", 
     "Darby", 
@@ -246,6 +254,7 @@ return {
     "David Angar", 
     "David Kurata", 
     "David Rathman", 
+    "Davos", 
     "Deacon", 
     "Denarian Sall", 
     "Desmond Tobey", 
@@ -272,6 +281,9 @@ return {
     "Doctor Wu", 
     "Dogs of Hell Pope", 
     "Dogs of Hell Smitty", 
+    "Dojo Student Caleb", 
+    "Dojo Student Darryl", 
+    "Dojo Student Jenny", 
     "Domingo Colon", 
     "Don Rigoletto", 
     "Donald", 
@@ -407,9 +419,17 @@ return {
     "Grandpa Quill", 
     "Grant Ward", 
     "Gregory Spheeris", 
+    "Grigori Veznikov", 
     "Groot", 
+    "Hai-Qing Yang", 
     "Haldor", 
     "Hamir", 
+    "Hand Member Alexi", 
+    "Hand Member Brian", 
+    "Hand Member King", 
+    "Hand Member Mary", 
+    "Hand Member Vando", 
+    "Hand Warrior Scythe", 
     "Hank", 
     "Hank (Maggia)", 
     "Hank Pym", 
@@ -418,10 +438,12 @@ return {
     "Happy Hogan", 
     "Happy Sam Sawyer", 
     "Harley Keener", 
+    "Harold Meachum", 
     "Harrison Carter", 
     "Haruto Yakimura", 
     "Harvey", 
     "Heather B.", 
+    "Heather Rand", 
     "Heimdall", 
     "Heinz Kruger", 
     "Helen (Griffith)", 
@@ -492,6 +514,7 @@ return {
     "Jessica Jones", 
     "Jiaying", 
     "Jim Morita", 
+    "Jim Pierce", 
     "Jimmy 'Houdini'", 
     "Jimmy Mackenzie", 
     "Jimmy Quinto", 
@@ -510,6 +533,7 @@ return {
     "Joseph Manfredi", 
     "Joseph Pike", 
     "Josephine", 
+    "Joy Meachum", 
     "Juan Carlos Castro", 
     "Judge Cynthia Batzer", 
     "Jules Beckers", 
@@ -556,7 +580,9 @@ return {
     "Laura Barton", 
     "Laura Hayward", 
     "Laurent Bouchard", 
+    "Lawrence Wilkins", 
     "Leet Brannis", 
+    "Lei Kung", 
     "Leland Owlsley", 
     "Len Sirkes", 
     "Leo Fitz", 
@@ -659,6 +685,8 @@ return {
     "Mob Boss Marta", 
     "Mob Boss Prohaszka", 
     "Molly Bowden", 
+    "Monk Chodak", 
+    "Monk Tashi", 
     "Mortimer Hayes", 
     "Mr Almeida", 
     "Mr Cobbwell", 
@@ -692,9 +720,11 @@ return {
     "Noelle Walters", 
     "Nonna Manfredi", 
     "Nova Prime", 
+    "Nurse Delicia", 
     "Nurse Ellie Chung", 
     "Nurse Norma", 
     "Nurse Schwab", 
+    "Nurse Smith", 
     "Nurse Violet", 
     "Obadiah Stane", 
     "Octavian Bloom", 
@@ -711,14 +741,18 @@ return {
     "Officer Stuart", 
     "Officer Sullivan", 
     "Olaf", 
+    "Orderly Joe", 
     "Oscar Clemons", 
     "Otto Mink", 
     "PA Alex", 
+    "PA Kyle", 
+    "PA Megan", 
     "Pam", 
     "Parish Landman", 
     "Park Ranger Bjorn", 
     "Park Ranger Neils", 
     "Patricia Wilson", 
+    "Paul Edmonds", 
     "Paxton", 
     "Peachy", 
     "Peggy Carter", 
@@ -757,9 +791,16 @@ return {
     "Private Ovechkin", 
     "Private Tilden", 
     "Private Walter", 
+    "Psych Patient Billy", 
+    "Psych Patient Dink", 
+    "Psych Patient Jimmy", 
+    "Psych Patient Leo", 
+    "Psych Patient Simon", 
+    "Psych Patient Tony", 
     "Qasim Zaghlul", 
     "Quan Chen", 
     "R. Moore", 
+    "Radovan Bernivig", 
     "Raina", 
     "Raj", 
     "Ralph", 
@@ -811,6 +852,7 @@ return {
     "Ruben", 
     "Ruben Mackenzie", 
     "Rufus Hunt", 
+    "Sabina Bernivig", 
     "Sally Avril", 
     "Sam Koenig", 
     "Sam Wilson", 
@@ -826,6 +868,7 @@ return {
     "Sean Connery", 
     "Sebastian Derik", 
     "Secretary Caldwell", 
+    "Security Head Shannon", 
     "Selwyn", 
     "Semyon", 
     "Senator Brandt", 
@@ -844,6 +887,7 @@ return {
     "Sharon Carter", 
     "Sheldon McFee", 
     "Shirley Benson", 
+    "Shou-Lao", 
     "Sif", 
     "Silke", 
     "Silvio", 
@@ -944,6 +988,7 @@ return {
     "Waitress Susanna", 
     "Walter Thomas", 
     "Wanda Maximoff", 
+    "Ward Meachum", 
     "Warshauer", 
     "Watchdog Alpha", 
     "Watchdog Briggs", 
@@ -951,6 +996,7 @@ return {
     "Watchdog Oscar", 
     "Watchdog Victor", 
     "Wendell Levi", 
+    "Wendell Rand", 
     "Wendy Ross-Hogarth", 
     "Werner von Strucker", 
     "White Power Dave", 
@@ -977,6 +1023,7 @@ return {
     "Yuri Krupin", 
     "Yusef Hadad", 
     "Zack", 
+    "Zhou Cheng", 
     "Zudy Almeida", 
     "Zylak"
   ], 
@@ -18562,6 +18609,920 @@ return {
         }
       ], 
       "name": "Guardians of the Galaxy Vol. 2"
+    }, 
+    {
+      "category": "Netflix", 
+      "characters": [
+        "Alessa 'Bride of Nine Spiders'", 
+        "Andrei Veznikov", 
+        "Bakuto", 
+        "Becca Yoo", 
+        "Big Al", 
+        "Ch'i-Lin", 
+        "Claire Temple", 
+        "Colleen Wing", 
+        "Danny Rand", 
+        "Davos", 
+        "Dojo Student Caleb", 
+        "Dojo Student Darryl", 
+        "Dojo Student Jenny", 
+        "Grigori Veznikov", 
+        "Hai-Qing Yang", 
+        "Hand Member Alexi", 
+        "Hand Member Brian", 
+        "Hand Member King", 
+        "Hand Member Mary", 
+        "Hand Member Vando", 
+        "Hand Warrior Scythe", 
+        "Harold Meachum", 
+        "Heather Rand", 
+        "Jeri Hogarth", 
+        "Jim Pierce", 
+        "Joy Meachum", 
+        "Lawrence Wilkins", 
+        "Lei Kung", 
+        "Madame Gao", 
+        "Monk Chodak", 
+        "Monk Tashi", 
+        "Nurse Delicia", 
+        "Nurse Smith", 
+        "Orderly Joe", 
+        "PA Kyle", 
+        "PA Megan", 
+        "Paul Edmonds", 
+        "Psych Patient Billy", 
+        "Psych Patient Dink", 
+        "Psych Patient Jimmy", 
+        "Psych Patient Leo", 
+        "Psych Patient Simon", 
+        "Psych Patient Tony", 
+        "Radovan Bernivig", 
+        "Sabina Bernivig", 
+        "Security Head Shannon", 
+        "Shirley Benson", 
+        "Shou-Lao", 
+        "Ward Meachum", 
+        "Wendell Rand", 
+        "Zhou Cheng"
+      ], 
+      "interactions": [
+        {
+          "desc": "Colleen and Danny fought against The Hand together", 
+          "p1": "Colleen Wing", 
+          "p2": "Danny Rand"
+        }, 
+        {
+          "desc": "Ward asked Colleen to sign a document that would have prevented Danny's release from the psychiatric hospital", 
+          "p1": "Ward Meachum", 
+          "p2": "Colleen Wing"
+        }, 
+        {
+          "desc": "Danny and Ward took over the running of Rand Enterprises together", 
+          "p1": "Ward Meachum", 
+          "p2": "Danny Rand"
+        }, 
+        {
+          "desc": "Ward and Joy are siblings, and ran Rand Enterprises together", 
+          "p1": "Joy Meachum", 
+          "p2": "Ward Meachum"
+        }, 
+        {
+          "desc": "Colleen returned a bag of M&M's to Joy from Danny Rand", 
+          "p1": "Joy Meachum", 
+          "p2": "Colleen Wing"
+        }, 
+        {
+          "desc": "Joy provided Danny with the evidence to prove his identity", 
+          "p1": "Joy Meachum", 
+          "p2": "Danny Rand"
+        }, 
+        {
+          "desc": "Bakuto attempted to make Danny join The Hand", 
+          "p1": "Bakuto", 
+          "p2": "Danny Rand"
+        }, 
+        {
+          "desc": "Bakuto shot Joy to draw out Danny Rand", 
+          "p1": "Bakuto", 
+          "p2": "Joy Meachum"
+        }, 
+        {
+          "desc": "Bakuto held Ward hostage to draw out Danny Rand", 
+          "p1": "Bakuto", 
+          "p2": "Ward Meachum"
+        }, 
+        {
+          "desc": "Bakuto trained Colleen and gave her the Chikara Dojo", 
+          "p1": "Bakuto", 
+          "p2": "Colleen Wing"
+        }, 
+        {
+          "desc": "Davos and Danny grew up in K'un-Lun together", 
+          "p1": "Davos", 
+          "p2": "Danny Rand"
+        }, 
+        {
+          "desc": "Davos and Colleen fought against The Hand together", 
+          "p1": "Davos", 
+          "p2": "Colleen Wing"
+        }, 
+        {
+          "desc": "Davos fought against Bakuto and his Hand faction", 
+          "p1": "Davos", 
+          "p2": "Bakuto"
+        }, 
+        {
+          "desc": "Davos met with Joy to discuss killing Danny Rand", 
+          "p1": "Davos", 
+          "p2": "Joy Meachum"
+        }, 
+        {
+          "desc": "Davos insulted Claire's pizza", 
+          "p1": "Claire Temple", 
+          "p2": "Davos"
+        }, 
+        {
+          "desc": "Claire went to Colleen's dojo to learn martial arts", 
+          "p1": "Claire Temple", 
+          "p2": "Colleen Wing"
+        }, 
+        {
+          "desc": "Claire fought against The Hand with Danny", 
+          "p1": "Claire Temple", 
+          "p2": "Danny Rand"
+        }, 
+        {
+          "desc": "Harold and Davos worked together to take on Bakuto's Hand faction", 
+          "p1": "Harold Meachum", 
+          "p2": "Davos"
+        }, 
+        {
+          "desc": "Bakuto held Harold captive to draw out the Iron Fist", 
+          "p1": "Harold Meachum", 
+          "p2": "Bakuto"
+        }, 
+        {
+          "desc": "Harold is Joy's father", 
+          "p1": "Harold Meachum", 
+          "p2": "Joy Meachum"
+        }, 
+        {
+          "desc": "Harold is Ward's father", 
+          "p1": "Harold Meachum", 
+          "p2": "Ward Meachum"
+        }, 
+        {
+          "desc": "Colleen fought Harold in Rand Enterprises", 
+          "p1": "Harold Meachum", 
+          "p2": "Colleen Wing"
+        }, 
+        {
+          "desc": "Danny captured Gao to question her about The Hand and his father", 
+          "p1": "Madame Gao", 
+          "p2": "Danny Rand"
+        }, 
+        {
+          "desc": "Gao offered Harold a ressurection in exchange for his assistance with The Hand's business", 
+          "p1": "Madame Gao", 
+          "p2": "Harold Meachum"
+        }, 
+        {
+          "desc": "Claire helped Danny Rand capture Gao in China", 
+          "p1": "Madame Gao", 
+          "p2": "Claire Temple"
+        }, 
+        {
+          "desc": "Colleen held Gao captive in her dojo", 
+          "p1": "Madame Gao", 
+          "p2": "Colleen Wing"
+        }, 
+        {
+          "desc": "Gao listened in on a meeting Davos had with Joy Meachum", 
+          "p1": "Madame Gao", 
+          "p2": "Davos"
+        }, 
+        {
+          "desc": "Gao listened in on a meeting Joy had with Davos", 
+          "p1": "Madame Gao", 
+          "p2": "Joy Meachum"
+        }, 
+        {
+          "desc": "Gao was held prisoner by Bakuto", 
+          "p1": "Madame Gao", 
+          "p2": "Bakuto"
+        }, 
+        {
+          "desc": "Megan worked as a PA for Ward at Rand Enterprises", 
+          "p1": "PA Megan", 
+          "p2": "Ward Meachum"
+        }, 
+        {
+          "desc": "Megan worked as a PA for Joy at Rand Enterprises", 
+          "p1": "PA Megan", 
+          "p2": "Joy Meachum"
+        }, 
+        {
+          "desc": "Megan worked as a PA for Danny at Rand Enterprises", 
+          "p1": "PA Megan", 
+          "p2": "Danny Rand"
+        }, 
+        {
+          "desc": "Hogarth met Megan when visiting Rand Enterprises", 
+          "p1": "PA Megan", 
+          "p2": "Jeri Hogarth"
+        }, 
+        {
+          "desc": "Harold killed Lawrence to retake Rand Enterprises, staging it to look like suicide", 
+          "p1": "Lawrence Wilkins", 
+          "p2": "Harold Meachum"
+        }, 
+        {
+          "desc": "Lawrence fired Joy and her brother from the board of Rand Enterprises", 
+          "p1": "Lawrence Wilkins", 
+          "p2": "Joy Meachum"
+        }, 
+        {
+          "desc": "Lawrence fired Ward and his sister from the board of Rand Enterprises", 
+          "p1": "Lawrence Wilkins", 
+          "p2": "Ward Meachum"
+        }, 
+        {
+          "desc": "Lawrence and Danny were both part of the Rand Enterprises board of directors", 
+          "p1": "Lawrence Wilkins", 
+          "p2": "Danny Rand"
+        }, 
+        {
+          "desc": "Harold and Wendell were once business partners in Rand Enterprises", 
+          "p1": "Wendell Rand", 
+          "p2": "Harold Meachum"
+        }, 
+        {
+          "desc": "Wendell knew Joy when she was a child, before he died in a plane crash", 
+          "p1": "Wendell Rand", 
+          "p2": "Joy Meachum"
+        }, 
+        {
+          "desc": "Wendell knew Ward when he was a child, before dying in a plane crash", 
+          "p1": "Wendell Rand", 
+          "p2": "Ward Meachum"
+        }, 
+        {
+          "desc": "Wendell is Danny's father", 
+          "p1": "Wendell Rand", 
+          "p2": "Danny Rand"
+        }, 
+        {
+          "desc": "Kyle was killed by his boss Harold for not wanting the Ice Cream he got for him", 
+          "p1": "PA Kyle", 
+          "p2": "Harold Meachum"
+        }, 
+        {
+          "desc": "Hogarth represented Danny, and helped him reclaim his family business", 
+          "p1": "Jeri Hogarth", 
+          "p2": "Danny Rand"
+        }, 
+        {
+          "desc": "Wendell gave Hogarth her first job, at Rand Enterprises", 
+          "p1": "Jeri Hogarth", 
+          "p2": "Wendell Rand"
+        }, 
+        {
+          "desc": "Jeri went against Ward in court to prove Danny Rand's identity", 
+          "p1": "Jeri Hogarth", 
+          "p2": "Ward Meachum"
+        }, 
+        {
+          "desc": "Joy and Jeri met during legal proceedings to prove Danny Rand's identity", 
+          "p1": "Jeri Hogarth", 
+          "p2": "Joy Meachum"
+        }, 
+        {
+          "desc": "Claire contacted Hogarth on Danny's behalf when he was facing drugs charges", 
+          "p1": "Jeri Hogarth", 
+          "p2": "Claire Temple"
+        }, 
+        {
+          "desc": "Jeri provided legal advice to Colleen and Danny when they were wanted by the DEA", 
+          "p1": "Jeri Hogarth", 
+          "p2": "Colleen Wing"
+        }, 
+        {
+          "desc": "Jeri saw Harold when he returned to Rand Enterprises", 
+          "p1": "Jeri Hogarth", 
+          "p2": "Harold Meachum"
+        }, 
+        {
+          "desc": "Danny obtained the power of the Iron Fist from Shou-Lao", 
+          "p1": "Shou-Lao", 
+          "p2": "Danny Rand"
+        }, 
+        {
+          "desc": "Chodak found Danny Rand after his plane crashed in the Himalayas", 
+          "p1": "Monk Chodak", 
+          "p2": "Danny Rand"
+        }, 
+        {
+          "desc": "Tashi and Chodak brought Danny Rand to K'un-Lun together", 
+          "p1": "Monk Chodak", 
+          "p2": "Monk Tashi"
+        }, 
+        {
+          "desc": "Tashi brought Danny to K'un-Lun after his plane crashed", 
+          "p1": "Monk Tashi", 
+          "p2": "Danny Rand"
+        }, 
+        {
+          "desc": "Shannon attempted to stop Danny entering Rand Enterprises", 
+          "p1": "Security Head Shannon", 
+          "p2": "Danny Rand"
+        }, 
+        {
+          "desc": "Shannon worked for Ward at Rand Enterprises", 
+          "p1": "Security Head Shannon", 
+          "p2": "Ward Meachum"
+        }, 
+        {
+          "desc": "Shannon worked for Joy at Rand Enterprises", 
+          "p1": "Security Head Shannon", 
+          "p2": "Joy Meachum"
+        }, 
+        {
+          "desc": "Colleen fought Shannon when he broke into her dojo", 
+          "p1": "Security Head Shannon", 
+          "p2": "Colleen Wing"
+        }, 
+        {
+          "desc": "Heather and Wendell were married", 
+          "p1": "Heather Rand", 
+          "p2": "Wendell Rand"
+        }, 
+        {
+          "desc": "Heather is Danny's mother", 
+          "p1": "Heather Rand", 
+          "p2": "Danny Rand"
+        }, 
+        {
+          "desc": "Harold used to be friends with Heather, before having her killed", 
+          "p1": "Heather Rand", 
+          "p2": "Harold Meachum"
+        }, 
+        {
+          "desc": "Heather knew Joy when she was a child", 
+          "p1": "Heather Rand", 
+          "p2": "Joy Meachum"
+        }, 
+        {
+          "desc": "Heather knew Ward when he was a child", 
+          "p1": "Heather Rand", 
+          "p2": "Ward Meachum"
+        }, 
+        {
+          "desc": "Big Al was a homeless man who Danny met in a New York park", 
+          "p1": "Big Al", 
+          "p2": "Danny Rand"
+        }, 
+        {
+          "desc": "Joe and Smith work together at Birch Psychiatric Hospital", 
+          "p1": "Orderly Joe", 
+          "p2": "Nurse Smith"
+        }, 
+        {
+          "desc": "Joe and Paul work together at Birch Psychiatric Hospital", 
+          "p1": "Orderly Joe", 
+          "p2": "Paul Edmonds"
+        }, 
+        {
+          "desc": "Joe sedated Danny when he was admitted to Birch Psychiatric Hospital", 
+          "p1": "Orderly Joe", 
+          "p2": "Danny Rand"
+        }, 
+        {
+          "desc": "Simon is one of Joe's patients at Birch Psychiatric Hospital", 
+          "p1": "Orderly Joe", 
+          "p2": "Psych Patient Simon"
+        }, 
+        {
+          "desc": "Dink is one of Joe's patients at Birch Psychiatric Hospital", 
+          "p1": "Orderly Joe", 
+          "p2": "Psych Patient Dink"
+        }, 
+        {
+          "desc": "Jimmy is one of Joe's patients at Birch Psychiatric Hospital", 
+          "p1": "Orderly Joe", 
+          "p2": "Psych Patient Jimmy"
+        }, 
+        {
+          "desc": "Billy is one of Joe's patients at Birch Psychiatric Hospital", 
+          "p1": "Orderly Joe", 
+          "p2": "Psych Patient Billy"
+        }, 
+        {
+          "desc": "Leo is one of Joe's patients at Birch Psychiatric Hospital", 
+          "p1": "Orderly Joe", 
+          "p2": "Psych Patient Leo"
+        }, 
+        {
+          "desc": "Tony is one of Joe's patients at Birch Psychiatric Hospital", 
+          "p1": "Orderly Joe", 
+          "p2": "Psych Patient Tony"
+        }, 
+        {
+          "desc": "Smith and Paul work together at Birch Psychiatric Hospital", 
+          "p1": "Nurse Smith", 
+          "p2": "Paul Edmonds"
+        }, 
+        {
+          "desc": "Smith was assigned to care for Danny at Birch Psychiatric Hospital", 
+          "p1": "Nurse Smith", 
+          "p2": "Danny Rand"
+        }, 
+        {
+          "desc": "Simon is one of Smith's patients at Birch Psychiatric Hospital", 
+          "p1": "Nurse Smith", 
+          "p2": "Psych Patient Simon"
+        }, 
+        {
+          "desc": "Dink is one of Smith's patients at Birch Psychiatric Hospital", 
+          "p1": "Nurse Smith", 
+          "p2": "Psych Patient Dink"
+        }, 
+        {
+          "desc": "Jimmy is one of Smith's patients at Birch Psychiatric Hospital", 
+          "p1": "Nurse Smith", 
+          "p2": "Psych Patient Jimmy"
+        }, 
+        {
+          "desc": "Billy is one of Smith's patients at Birch Psychiatric Hospital", 
+          "p1": "Nurse Smith", 
+          "p2": "Psych Patient Billy"
+        }, 
+        {
+          "desc": "Leo is one of Smith's patients at Birch Psychiatric Hospital", 
+          "p1": "Nurse Smith", 
+          "p2": "Psych Patient Leo"
+        }, 
+        {
+          "desc": "Tony is one of Smith's patients at Birch Psychiatric Hospital", 
+          "p1": "Nurse Smith", 
+          "p2": "Psych Patient Tony"
+        }, 
+        {
+          "desc": "Paul treated Danny at Birch Psychiatric Hospital", 
+          "p1": "Paul Edmonds", 
+          "p2": "Danny Rand"
+        }, 
+        {
+          "desc": "Simon is one of Paul's patients at Birch Psychiatric Hospital", 
+          "p1": "Paul Edmonds", 
+          "p2": "Psych Patient Simon"
+        }, 
+        {
+          "desc": "Dink is one of Paul's patients at Birch Psychiatric Hospital", 
+          "p1": "Paul Edmonds", 
+          "p2": "Psych Patient Dink"
+        }, 
+        {
+          "desc": "Jimmy is one of Paul's patients at Birch Psychiatric Hospital", 
+          "p1": "Paul Edmonds", 
+          "p2": "Psych Patient Jimmy"
+        }, 
+        {
+          "desc": "Billy is one of Paul's patients at Birch Psychiatric Hospital", 
+          "p1": "Paul Edmonds", 
+          "p2": "Psych Patient Billy"
+        }, 
+        {
+          "desc": "Leo is one of Paul's patients at Birch Psychiatric Hospital", 
+          "p1": "Paul Edmonds", 
+          "p2": "Psych Patient Leo"
+        }, 
+        {
+          "desc": "Tony is one of Paul's patients at Birch Psychiatric Hospital", 
+          "p1": "Paul Edmonds", 
+          "p2": "Psych Patient Tony"
+        }, 
+        {
+          "desc": "Danny and Simon were both patients at Birch Psychiatric Hospital", 
+          "p1": "Psych Patient Simon", 
+          "p2": "Danny Rand"
+        }, 
+        {
+          "desc": "Dink and Simon are both patients at Birch Psychiatric Hospital", 
+          "p1": "Psych Patient Simon", 
+          "p2": "Psych Patient Dink"
+        }, 
+        {
+          "desc": "Jimmy and Simon are both patients at Birch Psychiatric Hospital", 
+          "p1": "Psych Patient Simon", 
+          "p2": "Psych Patient Jimmy"
+        }, 
+        {
+          "desc": "Billy and Simon are both patients at Birch Psychiatric Hospital", 
+          "p1": "Psych Patient Simon", 
+          "p2": "Psych Patient Billy"
+        }, 
+        {
+          "desc": "Leo and Simon are both patients at Birch Psychiatric Hospital", 
+          "p1": "Psych Patient Simon", 
+          "p2": "Psych Patient Leo"
+        }, 
+        {
+          "desc": "Tony and Simon are both patients at Birch Psychiatric Hospital", 
+          "p1": "Psych Patient Simon", 
+          "p2": "Psych Patient Tony"
+        }, 
+        {
+          "desc": "Danny and Dink were both patients at Birch Psychiatric Hospital", 
+          "p1": "Psych Patient Dink", 
+          "p2": "Danny Rand"
+        }, 
+        {
+          "desc": "Jimmy and Dink are both patients at Birch Psychiatric Hospital", 
+          "p1": "Psych Patient Dink", 
+          "p2": "Psych Patient Jimmy"
+        }, 
+        {
+          "desc": "Billy and Dink are both patients at Birch Psychiatric Hospital", 
+          "p1": "Psych Patient Dink", 
+          "p2": "Psych Patient Billy"
+        }, 
+        {
+          "desc": "Leo and Dink are both patients at Birch Psychiatric Hospital", 
+          "p1": "Psych Patient Dink", 
+          "p2": "Psych Patient Leo"
+        }, 
+        {
+          "desc": "Tony and Dink are both patients at Birch Psychiatric Hospital", 
+          "p1": "Psych Patient Dink", 
+          "p2": "Psych Patient Tony"
+        }, 
+        {
+          "desc": "Danny and Jimmy were both patients at Birch Psychiatric Hospital", 
+          "p1": "Psych Patient Jimmy", 
+          "p2": "Danny Rand"
+        }, 
+        {
+          "desc": "Billy and Jimmy are both patients at Birch Psychiatric Hospital", 
+          "p1": "Psych Patient Jimmy", 
+          "p2": "Psych Patient Billy"
+        }, 
+        {
+          "desc": "Leo and Jimmy are both patients at Birch Psychiatric Hospital", 
+          "p1": "Psych Patient Jimmy", 
+          "p2": "Psych Patient Leo"
+        }, 
+        {
+          "desc": "Tony and Jimmy are both patients at Birch Psychiatric Hospital", 
+          "p1": "Psych Patient Jimmy", 
+          "p2": "Psych Patient Tony"
+        }, 
+        {
+          "desc": "Danny and Billy were both patients at Birch Psychiatric Hospital", 
+          "p1": "Psych Patient Billy", 
+          "p2": "Danny Rand"
+        }, 
+        {
+          "desc": "Leo and Billy are both patients at Birch Psychiatric Hospital", 
+          "p1": "Psych Patient Billy", 
+          "p2": "Psych Patient Leo"
+        }, 
+        {
+          "desc": "Tony and Billy are both patients at Birch Psychiatric Hospital", 
+          "p1": "Psych Patient Billy", 
+          "p2": "Psych Patient Tony"
+        }, 
+        {
+          "desc": "Danny and Leo were both patients at Birch Psychiatric Hospital", 
+          "p1": "Psych Patient Leo", 
+          "p2": "Danny Rand"
+        }, 
+        {
+          "desc": "Tony and Leo are both patients at Birch Psychiatric Hospital", 
+          "p1": "Psych Patient Leo", 
+          "p2": "Psych Patient Tony"
+        }, 
+        {
+          "desc": "Danny and Tony were both patients at Birch Psychiatric Hospital", 
+          "p1": "Psych Patient Tony", 
+          "p2": "Danny Rand"
+        }, 
+        {
+          "desc": "Caleb was one of Colleen's students at the Chikara Dojo", 
+          "p1": "Dojo Student Caleb", 
+          "p2": "Colleen Wing"
+        }, 
+        {
+          "desc": "Caleb and Darryl learned to fight together at the Chikara Dojo", 
+          "p1": "Dojo Student Caleb", 
+          "p2": "Dojo Student Darryl"
+        }, 
+        {
+          "desc": "Jenny and Caleb learned to fight together at the Chikara Dojo", 
+          "p1": "Dojo Student Caleb", 
+          "p2": "Dojo Student Jenny"
+        }, 
+        {
+          "desc": "Danny led a lesson Caleb was in at the Chikara Dojo", 
+          "p1": "Dojo Student Caleb", 
+          "p2": "Danny Rand"
+        }, 
+        {
+          "desc": "Darryl was one of Colleen's students at the Chikara Dojo", 
+          "p1": "Dojo Student Darryl", 
+          "p2": "Colleen Wing"
+        }, 
+        {
+          "desc": "Jenny and Darryl learned to fight together at the Chikara Dojo", 
+          "p1": "Dojo Student Darryl", 
+          "p2": "Dojo Student Jenny"
+        }, 
+        {
+          "desc": "Danny fought Darryl (among others) to escape from the Hand's training facility", 
+          "p1": "Dojo Student Darryl", 
+          "p2": "Danny Rand"
+        }, 
+        {
+          "desc": "Darryl served the Hand under Bakuto", 
+          "p1": "Dojo Student Darryl", 
+          "p2": "Bakuto"
+        }, 
+        {
+          "desc": "Davos fought Darryl when helping Danny Rand escape the Hand's training facility", 
+          "p1": "Dojo Student Darryl", 
+          "p2": "Davos"
+        }, 
+        {
+          "desc": "Colleen was Jenny's Sensei at the Chikara Dojo", 
+          "p1": "Dojo Student Jenny", 
+          "p2": "Colleen Wing"
+        }, 
+        {
+          "desc": "Danny made a deal with Yang for assistance in fighting Madame Gao", 
+          "p1": "Hai-Qing Yang", 
+          "p2": "Danny Rand"
+        }, 
+        {
+          "desc": "Colleen fought with Yang against The Hand", 
+          "p1": "Hai-Qing Yang", 
+          "p2": "Colleen Wing"
+        }, 
+        {
+          "desc": "Ward spoke with Yang to learn about The Hand's ressurection powers", 
+          "p1": "Hai-Qing Yang", 
+          "p2": "Ward Meachum"
+        }, 
+        {
+          "desc": "Colleen fought Jim in an underground cage fight", 
+          "p1": "Jim Pierce", 
+          "p2": "Colleen Wing"
+        }, 
+        {
+          "desc": "Gao killed King for losing the chemist that made their heroin", 
+          "p1": "Hand Member King", 
+          "p2": "Madame Gao"
+        }, 
+        {
+          "desc": "Danny fought King to rescue Radovan Bernivig from The Hand", 
+          "p1": "Hand Member King", 
+          "p2": "Danny Rand"
+        }, 
+        {
+          "desc": "King was tasked with guarding Bernivig, who was a prisoner of The Hand", 
+          "p1": "Hand Member King", 
+          "p2": "Radovan Bernivig"
+        }, 
+        {
+          "desc": "Danny rescued Radovan from The Hand's captivity", 
+          "p1": "Radovan Bernivig", 
+          "p2": "Danny Rand"
+        }, 
+        {
+          "desc": "Radovan is Sabina's father", 
+          "p1": "Radovan Bernivig", 
+          "p2": "Sabina Bernivig"
+        }, 
+        {
+          "desc": "Colleen helped Radovan escape from The Hand", 
+          "p1": "Radovan Bernivig", 
+          "p2": "Colleen Wing"
+        }, 
+        {
+          "desc": "Claire treated Radovan after he escaped The Hand's captivity", 
+          "p1": "Radovan Bernivig", 
+          "p2": "Claire Temple"
+        }, 
+        {
+          "desc": "Gao forced Radovan to produce artificial heroin for her to sell", 
+          "p1": "Radovan Bernivig", 
+          "p2": "Madame Gao"
+        }, 
+        {
+          "desc": "Kung was Danny's master in K'un-Lun", 
+          "p1": "Lei Kung", 
+          "p2": "Danny Rand"
+        }, 
+        {
+          "desc": "Lei Kung is Davos' father", 
+          "p1": "Lei Kung", 
+          "p2": "Davos"
+        }, 
+        {
+          "desc": "Veznikov was a Hand warrior who served Gao", 
+          "p1": "Andrei Veznikov", 
+          "p2": "Madame Gao"
+        }, 
+        {
+          "desc": "Danny fought against Andrei in Madame Gao's Da Jue Zhan tournament", 
+          "p1": "Andrei Veznikov", 
+          "p2": "Danny Rand"
+        }, 
+        {
+          "desc": "Grigori and Andrei are brothers", 
+          "p1": "Andrei Veznikov", 
+          "p2": "Grigori Veznikov"
+        }, 
+        {
+          "desc": "Veznikov was a Hand warrior who served Gao", 
+          "p1": "Grigori Veznikov", 
+          "p2": "Madame Gao"
+        }, 
+        {
+          "desc": "Danny fought against Grigori in Madame Gao's Da Jue Zhan tournament", 
+          "p1": "Grigori Veznikov", 
+          "p2": "Danny Rand"
+        }, 
+        {
+          "desc": "Allessa fought Danny in Madame Gao's Da Jue Zhan tournament", 
+          "p1": "Alessa 'Bride of Nine Spiders'", 
+          "p2": "Danny Rand"
+        }, 
+        {
+          "desc": "Allessa is a Hand warrior and poison expert who served Gao", 
+          "p1": "Alessa 'Bride of Nine Spiders'", 
+          "p2": "Danny Rand"
+        }, 
+        {
+          "desc": "Scythe was a Hand warrior who served Gao", 
+          "p1": "Hand Warrior Scythe", 
+          "p2": "Madame Gao"
+        }, 
+        {
+          "desc": "Danny fought against Scythe in Madame Gao's Da Jue Zhan tournament", 
+          "p1": "Hand Warrior Scythe", 
+          "p2": "Danny Rand"
+        }, 
+        {
+          "desc": "Danny fought through Madame Gao's Da Jue Zhan tournament to rescue Sabina", 
+          "p1": "Sabina Bernivig", 
+          "p2": "Danny Rand"
+        }, 
+        {
+          "desc": "Gao held Sabina hostage to force the Iron Fist to surrender", 
+          "p1": "Sabina Bernivig", 
+          "p2": "Madame Gao"
+        }, 
+        {
+          "desc": "Gao sent Alexi to punish Harold Meachum for leaving his appartment", 
+          "p1": "Hand Member Alexi", 
+          "p2": "Madame Gao"
+        }, 
+        {
+          "desc": "Vando and Alexi were sent to punish Harold Meachum", 
+          "p1": "Hand Member Alexi", 
+          "p2": "Hand Member Vando"
+        }, 
+        {
+          "desc": "Alexi was sent to punish Harold for leaving his appartment", 
+          "p1": "Hand Member Alexi", 
+          "p2": "Harold Meachum"
+        }, 
+        {
+          "desc": "Danny fought Alexi in Harold Meachum's appartment", 
+          "p1": "Hand Member Alexi", 
+          "p2": "Danny Rand"
+        }, 
+        {
+          "desc": "Gao once cut out Vando's tongue for lying to her", 
+          "p1": "Hand Member Vando", 
+          "p2": "Madame Gao"
+        }, 
+        {
+          "desc": "Vando was sent to punish Harold for leaving his appartment", 
+          "p1": "Hand Member Vando", 
+          "p2": "Harold Meachum"
+        }, 
+        {
+          "desc": "Danny fought Vando in Harold Meachum's appartment", 
+          "p1": "Hand Member Vando", 
+          "p2": "Danny Rand"
+        }, 
+        {
+          "desc": "Rand fought a drunk Zhou to gain entry to The Hand's facility in China", 
+          "p1": "Zhou Cheng", 
+          "p2": "Danny Rand"
+        }, 
+        {
+          "desc": "Cheng admitted Gao to The Hand's facility in China", 
+          "p1": "Zhou Cheng", 
+          "p2": "Madame Gao"
+        }, 
+        {
+          "desc": "Ch'i-Lin was Zhou Cheng's master", 
+          "p1": "Zhou Cheng", 
+          "p2": "Ch'i-Lin"
+        }, 
+        {
+          "desc": "Colleen passed an unconscious Zhou when entering The Hand's facility in China", 
+          "p1": "Zhou Cheng", 
+          "p2": "Colleen Wing"
+        }, 
+        {
+          "desc": "Claire passed an unconscious Zhou when entering The Hand's facility in China", 
+          "p1": "Zhou Cheng", 
+          "p2": "Claire Temple"
+        }, 
+        {
+          "desc": "Mary served in The Hand under Bakuto", 
+          "p1": "Hand Member Mary", 
+          "p2": "Bakuto"
+        }, 
+        {
+          "desc": "Brian and Mary worked together in The Hand", 
+          "p1": "Hand Member Mary", 
+          "p2": "Hand Member Brian"
+        }, 
+        {
+          "desc": "Becca and Mary worked together in The Hand", 
+          "p1": "Hand Member Mary", 
+          "p2": "Becca Yoo"
+        }, 
+        {
+          "desc": "Colleen fought her former student Mary to escape from The Hand's compound", 
+          "p1": "Hand Member Mary", 
+          "p2": "Colleen Wing"
+        }, 
+        {
+          "desc": "Brian served in The Hand under Bakuto", 
+          "p1": "Hand Member Brian", 
+          "p2": "Bakuto"
+        }, 
+        {
+          "desc": "Becca and Brian worked together in The Hand", 
+          "p1": "Hand Member Brian", 
+          "p2": "Becca Yoo"
+        }, 
+        {
+          "desc": "Colleen fought her former student Brian to escape from The Hand's compound", 
+          "p1": "Hand Member Brian", 
+          "p2": "Colleen Wing"
+        }, 
+        {
+          "desc": "Becca served in The Hand under Bakuto", 
+          "p1": "Becca Yoo", 
+          "p2": "Bakuto"
+        }, 
+        {
+          "desc": "Becca turned Colleen over to The Hand", 
+          "p1": "Becca Yoo", 
+          "p2": "Colleen Wing"
+        }, 
+        {
+          "desc": "Claire used to work with Delicia at Metro General", 
+          "p1": "Nurse Delicia", 
+          "p2": "Claire Temple"
+        }, 
+        {
+          "desc": "Delicia treated Radovan when he was brought to Metro General", 
+          "p1": "Nurse Delicia", 
+          "p2": "Radovan Bernivig"
+        }, 
+        {
+          "desc": "Colleen met Delicia at Metro General when getting Radovan Bernivig medical treatment", 
+          "p1": "Nurse Delicia", 
+          "p2": "Colleen Wing"
+        }, 
+        {
+          "desc": "Delicia worked for Shirley at Metro General", 
+          "p1": "Nurse Delicia", 
+          "p2": "Shirley Benson"
+        }, 
+        {
+          "desc": "Claire met Shirley at Metro General when getting Radovan Bernivig medical treatment", 
+          "p1": "Shirley Benson", 
+          "p2": "Claire Temple"
+        }, 
+        {
+          "desc": "Colleen met Shirley when bringing Radovan Bernivig to Metro General", 
+          "p1": "Shirley Benson", 
+          "p2": "Colleen Wing"
+        }, 
+        {
+          "desc": "Shirley had Radovan taken to a ward when he was brought to Metro General", 
+          "p1": "Shirley Benson", 
+          "p2": "Radovan Bernivig"
+        }
+      ], 
+      "name": "Iron Fist"
     }, 
     {
       "category": "Films - Phase 1", 
