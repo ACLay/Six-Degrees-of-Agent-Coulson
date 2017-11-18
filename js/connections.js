@@ -223,6 +223,7 @@ return {
     "Councilman Singh", 
     "Councilman Yen", 
     "Councilwoman Hawley", 
+    "Cousin Carlo", 
     "Crazy-stupid-fine Writer", 
     "Cybertek Scientist Diaz", 
     "Cybertek Scientist Ott", 
@@ -294,6 +295,7 @@ return {
     "Dormammu", 
     "Dorothy Walker", 
     "Dottie Underwood", 
+    "Doug", 
     "Dr Andrew Lee", 
     "Dr Erskine", 
     "Dr Goodman", 
@@ -362,6 +364,7 @@ return {
     "Fandral", 
     "Father Lantom", 
     "Felix Blake", 
+    "Fenris Wolf", 
     "Ferdinand Lopez", 
     "Finn Cooley", 
     "Fireman Baker", 
@@ -416,6 +419,7 @@ return {
     "Gloria (Griffith)", 
     "Gordon", 
     "Graham", 
+    "Grandmaster", 
     "Grandpa Quill", 
     "Grant Ward", 
     "Gregory Spheeris", 
@@ -446,6 +450,7 @@ return {
     "Heather Rand", 
     "Heimdall", 
     "Heinz Kruger", 
+    "Hela", 
     "Helen (Griffith)", 
     "Helmut Zemo", 
     "Henry 'Pop' Hunter", 
@@ -567,6 +572,7 @@ return {
     "Kitchen Irish Thomas", 
     "Koko", 
     "Korath", 
+    "Korg", 
     "Kozlov", 
     "Kraglin Obfonteri", 
     "Kropsky", 
@@ -667,6 +673,7 @@ return {
     "Michael Carter", 
     "Michael Jortner", 
     "Michelle 'MJ' Jones", 
+    "Miek", 
     "Miguel Valdez", 
     "Mike Li", 
     "Mike Peterson", 
@@ -893,6 +900,7 @@ return {
     "Silvio", 
     "Sissy Garcia", 
     "Sister Boy", 
+    "Skurge", 
     "Sol Rama", 
     "Soledad Temple", 
     "Spider Raymond", 
@@ -916,6 +924,7 @@ return {
     "Store Clerk Taylor", 
     "Sunil Bakshi", 
     "Supervisor Gary", 
+    "Surtur", 
     "Susan Harris", 
     "Sway Calloway", 
     "T'Chaka", 
@@ -957,6 +966,7 @@ return {
     "Tone", 
     "Tony Diaz", 
     "Tony Stark", 
+    "Topaz", 
     "Torrance", 
     "Toshiro Mori", 
     "Tracy Farnum", 
@@ -967,6 +977,7 @@ return {
     "Tyr", 
     "Ultron", 
     "Ulysses Klaue", 
+    "Valkyrie", 
     "Vanchat", 
     "Vanessa Marianna", 
     "Vasily Karpov", 
@@ -25162,6 +25173,396 @@ return {
       "name": "Thor"
     }, 
     {
+      "category": "Films - Phase 3", 
+      "characters": [
+        "Bruce Banner", 
+        "Cousin Carlo", 
+        "Doctor Stephen Strange", 
+        "Doug", 
+        "Fandral", 
+        "Fenris Wolf", 
+        "Frigga", 
+        "Grandmaster", 
+        "Heimdall", 
+        "Hela", 
+        "Hogun", 
+        "Jane Foster", 
+        "Korg", 
+        "Loki", 
+        "Miek", 
+        "Odin", 
+        "Skurge", 
+        "Surtur", 
+        "Thor", 
+        "Topaz", 
+        "Valkyrie", 
+        "Volstagg"
+      ], 
+      "interactions": [
+        {
+          "desc": "Loki once turned Thor into a frog", 
+          "p1": "Thor", 
+          "p2": "Loki"
+        }, 
+        {
+          "desc": "Thor and Bruce fought each other on Sakaar. Thor won, easily", 
+          "p1": "Thor", 
+          "p2": "Bruce Banner"
+        }, 
+        {
+          "desc": "Thor hit Hela with the largest lightning blast in the history of lightning blasts", 
+          "p1": "Thor", 
+          "p2": "Hela"
+        }, 
+        {
+          "desc": "Thor and Valkyrie escaped Sakaar together", 
+          "p1": "Thor", 
+          "p2": "Valkyrie"
+        }, 
+        {
+          "desc": "Heimdall gave Thor directions on how to return from Sakaar to Asgard", 
+          "p1": "Thor", 
+          "p2": "Heimdall"
+        }, 
+        {
+          "desc": "Thor searched out Odin and was with him when he died", 
+          "p1": "Thor", 
+          "p2": "Odin"
+        }, 
+        {
+          "desc": "Skurge returned Thor to Asgard along with half a dragon", 
+          "p1": "Thor", 
+          "p2": "Skurge"
+        }, 
+        {
+          "desc": "Grandmaster forced Thor to fight in his Contest of Champions", 
+          "p1": "Thor", 
+          "p2": "Grandmaster"
+        }, 
+        {
+          "desc": "Topaz saw Thor inducted into the Contest of Champions", 
+          "p1": "Thor", 
+          "p2": "Topaz"
+        }, 
+        {
+          "desc": "Strange teleported Thor to Odin", 
+          "p1": "Thor", 
+          "p2": "Doctor Stephen Strange"
+        }, 
+        {
+          "desc": "Thor discussed weapons with Korg before fighting in the Contest of Champions", 
+          "p1": "Thor", 
+          "p2": "Korg"
+        }, 
+        {
+          "desc": "Thor and Miek were both prisoners of the Grandmaster", 
+          "p1": "Thor", 
+          "p2": "Miek"
+        }, 
+        {
+          "desc": "Thor fought Surtur, and took his crown on Muspelheim", 
+          "p1": "Thor", 
+          "p2": "Surtur"
+        }, 
+        {
+          "desc": "Thor was held captive next to Carlo, and watched him get melted by Grandmaster", 
+          "p1": "Thor", 
+          "p2": "Cousin Carlo"
+        }, 
+        {
+          "desc": "One of Thor and Jane broke up with the other at some point before Ragnarok", 
+          "p1": "Thor", 
+          "p2": "Jane Foster"
+        }, 
+        {
+          "desc": "Loki and Bruce fought against Hela together", 
+          "p1": "Loki", 
+          "p2": "Bruce Banner"
+        }, 
+        {
+          "desc": "Loki refused to kneel before Hela", 
+          "p1": "Loki", 
+          "p2": "Hela"
+        }, 
+        {
+          "desc": "Valkyrie captured Loki as a peace offering to Thor", 
+          "p1": "Loki", 
+          "p2": "Valkyrie"
+        }, 
+        {
+          "desc": "Heimdall and Loki were both present at Thor's coronation", 
+          "p1": "Loki", 
+          "p2": "Heimdall"
+        }, 
+        {
+          "desc": "Loki exiled Odin to Earth", 
+          "p1": "Loki", 
+          "p2": "Odin"
+        }, 
+        {
+          "desc": "Loki appointed Skurge to be Asgard's gatekeeper", 
+          "p1": "Loki", 
+          "p2": "Skurge"
+        }, 
+        {
+          "desc": "Loki offered to recapture Grandmaster's missing champion", 
+          "p1": "Loki", 
+          "p2": "Grandmaster"
+        }, 
+        {
+          "desc": "Loki met Topaz on Sakaar in Grandmaster's company", 
+          "p1": "Loki", 
+          "p2": "Topaz"
+        }, 
+        {
+          "desc": "Strange trapped Loki in a portal for half an hour", 
+          "p1": "Loki", 
+          "p2": "Doctor Stephen Strange"
+        }, 
+        {
+          "desc": "Loki offered Korg assistance in leading his revolution", 
+          "p1": "Loki", 
+          "p2": "Korg"
+        }, 
+        {
+          "desc": "Loki and Miek flew to Asgard together in a giant spaceship", 
+          "p1": "Loki", 
+          "p2": "Miek"
+        }, 
+        {
+          "desc": "Loki placed Surtur in the eternal flame, unleashing Ragnarok", 
+          "p1": "Loki", 
+          "p2": "Surtur"
+        }, 
+        {
+          "desc": "Bruce and Valkyrie escaped Sakaar together", 
+          "p1": "Bruce Banner", 
+          "p2": "Valkyrie"
+        }, 
+        {
+          "desc": "Hulk and Heimdall were both present at Thor's coronation", 
+          "p1": "Bruce Banner", 
+          "p2": "Heimdall"
+        }, 
+        {
+          "desc": "Hulk fought as Grandmaster's champion in the arena", 
+          "p1": "Bruce Banner", 
+          "p2": "Grandmaster"
+        }, 
+        {
+          "desc": "Hulk and Korg were both at Thor's coronation", 
+          "p1": "Bruce Banner", 
+          "p2": "Korg"
+        }, 
+        {
+          "desc": "Doug died after fighting Hulk in the Contest of Champions", 
+          "p1": "Bruce Banner", 
+          "p2": "Doug"
+        }, 
+        {
+          "desc": "Hulk and Miek were both at Thor's coronation", 
+          "p1": "Bruce Banner", 
+          "p2": "Miek"
+        }, 
+        {
+          "desc": "Hulk smashed Surtur's giant monstrous form", 
+          "p1": "Bruce Banner", 
+          "p2": "Surtur"
+        }, 
+        {
+          "desc": "Banner sacrificed himself to fight Fenris and protect the citizens of Asgard", 
+          "p1": "Bruce Banner", 
+          "p2": "Fenris Wolf"
+        }, 
+        {
+          "desc": "Valkyrie lost everything fighting Hela to prevent her escape centuries ago", 
+          "p1": "Hela", 
+          "p2": "Valkyrie"
+        }, 
+        {
+          "desc": "Hela was imprisoned by her father Odin to contain her lust for power and destruction", 
+          "p1": "Hela", 
+          "p2": "Odin"
+        }, 
+        {
+          "desc": "Hela appointed Skurge to execute both her vision and her enemies", 
+          "p1": "Hela", 
+          "p2": "Skurge"
+        }, 
+        {
+          "desc": "Hela killed Volstagg at the Bifrost when she returned to Asgard", 
+          "p1": "Hela", 
+          "p2": "Volstagg"
+        }, 
+        {
+          "desc": "Hela killed Fandral at the Bifrost when she returned to Asgard", 
+          "p1": "Hela", 
+          "p2": "Fandral"
+        }, 
+        {
+          "desc": "Hogun died by Hela's hand, trying to stop her taking the throne of Asgard", 
+          "p1": "Hela", 
+          "p2": "Hogun"
+        }, 
+        {
+          "desc": "Surtur killed Hela when unleashing Ragnarok", 
+          "p1": "Hela", 
+          "p2": "Surtur"
+        }, 
+        {
+          "desc": "Hela ressurected Fenris with the eternal flame", 
+          "p1": "Hela", 
+          "p2": "Fenris Wolf"
+        }, 
+        {
+          "desc": "Valkyrie and Heimdall were both at Thor's coronation", 
+          "p1": "Valkyrie", 
+          "p2": "Heimdall"
+        }, 
+        {
+          "desc": "Valkyrie sold Thor and Hulk to Grandmaster", 
+          "p1": "Valkyrie", 
+          "p2": "Grandmaster"
+        }, 
+        {
+          "desc": "Topaz was reluctant to pay Valkyrie her asking price for Thor", 
+          "p1": "Valkyrie", 
+          "p2": "Topaz"
+        }, 
+        {
+          "desc": "Valkyrie and Korg escaped Asgard on a giant spaceship", 
+          "p1": "Valkyrie", 
+          "p2": "Korg"
+        }, 
+        {
+          "desc": "Valkyrie and Miek escaped Asgard on a giant spaceship", 
+          "p1": "Valkyrie", 
+          "p2": "Miek"
+        }, 
+        {
+          "desc": "Heimdall and Skurge fought together on the rainbow bridge", 
+          "p1": "Heimdall", 
+          "p2": "Skurge"
+        }, 
+        {
+          "desc": "Heimdall and Korg fought together against Hela's army on the Bifrost", 
+          "p1": "Heimdall", 
+          "p2": "Korg"
+        }, 
+        {
+          "desc": "Heimdall and Miek fought together against Hela's army on the Bifrost", 
+          "p1": "Heimdall", 
+          "p2": "Miek"
+        }, 
+        {
+          "desc": "Odin asked Dr Strange that he not be disturbed in Norway", 
+          "p1": "Odin", 
+          "p2": "Doctor Stephen Strange"
+        }, 
+        {
+          "desc": "Odin fought against and defeated Surtur in ages past", 
+          "p1": "Odin", 
+          "p2": "Surtur"
+        }, 
+        {
+          "desc": "Fenris was ridden into battle across the nine realms by Hela at Odin's side", 
+          "p1": "Odin", 
+          "p2": "Fenris Wolf"
+        }, 
+        {
+          "desc": "Frigga called Odin to join her in the halls of Valhalla", 
+          "p1": "Odin", 
+          "p2": "Frigga"
+        }, 
+        {
+          "desc": "", 
+          "p1": "Skurge", 
+          "p2": "Grandmaster"
+        }, 
+        {
+          "desc": "Volstagg supervised Skurge's cleaning of the Bifrost observatory", 
+          "p1": "Skurge", 
+          "p2": "Volstagg"
+        }, 
+        {
+          "desc": "Fandral supervised Skurge's cleaning of the Bifrost observatory", 
+          "p1": "Skurge", 
+          "p2": "Fandral"
+        }, 
+        {
+          "desc": "Skurge was present when Hogun was killed by Hela", 
+          "p1": "Skurge", 
+          "p2": "Hogun"
+        }, 
+        {
+          "desc": "Skurge nearly escaped Asgard on Korg's giant spaceship", 
+          "p1": "Skurge", 
+          "p2": "Korg"
+        }, 
+        {
+          "desc": "Skurge nearly escaped Asgard with Miek on the giant spaceship", 
+          "p1": "Skurge", 
+          "p2": "Miek"
+        }, 
+        {
+          "desc": "Skurge led Fenris and Hela's ressurected soldiers to battle on the Bifrost", 
+          "p1": "Skurge", 
+          "p2": "Fenris Wolf"
+        }, 
+        {
+          "desc": "Topaz was one of Grandmaster's bodyguards", 
+          "p1": "Grandmaster", 
+          "p2": "Topaz"
+        }, 
+        {
+          "desc": "Korg was imprisoned while launching a revolution against Grandmaster", 
+          "p1": "Grandmaster", 
+          "p2": "Korg"
+        }, 
+        {
+          "desc": "Doug was killed while fighting as Grandmaster's slave", 
+          "p1": "Grandmaster", 
+          "p2": "Doug"
+        }, 
+        {
+          "desc": "Miek was a prisoner with a job for Grandmaster", 
+          "p1": "Grandmaster", 
+          "p2": "Miek"
+        }, 
+        {
+          "desc": "Grandmaster spared his Cousin Carlo from life with the 'melt stick'", 
+          "p1": "Grandmaster", 
+          "p2": "Cousin Carlo"
+        }, 
+        {
+          "desc": "Fandral and Volstagg were killed together in the Bifrost observatory by Hela", 
+          "p1": "Volstagg", 
+          "p2": "Fandral"
+        }, 
+        {
+          "desc": "Topaz was present when Grandmaster spared Carlo from life", 
+          "p1": "Topaz", 
+          "p2": "Cousin Carlo"
+        }, 
+        {
+          "desc": "Korg and Doug were both gladiators in Grandmaster's Contest of Champions", 
+          "p1": "Korg", 
+          "p2": "Doug"
+        }, 
+        {
+          "desc": "Korg stepped on Miek during the battle on the Bifrost, but Miek was alright in the end", 
+          "p1": "Korg", 
+          "p2": "Miek"
+        }, 
+        {
+          "desc": "Miek and Doug were both gladiators in Grandmaster's Contest of Champions", 
+          "p1": "Doug", 
+          "p2": "Miek"
+        }
+      ], 
+      "name": "Thor: Ragnarok"
+    }, 
+    {
       "category": "Films - Phase 2", 
       "characters": [
         "Algrim", 
@@ -25770,6 +26171,12 @@ return [
     "media": "Guardians of the Galaxy Vol. 2", 
     "p1": "The Watchers", 
     "desc": "Stan told his tales of suspense and astonisment to The Watchers"
+  }, 
+  {
+    "p2": "Stan Lee", 
+    "media": "Thor: Ragnarok", 
+    "p1": "Thor", 
+    "desc": "Stan cut Thor's hair on Sakaar"
   }
 ]
 };
@@ -25888,6 +26295,12 @@ return [
     "media": "Guardians of the Galaxy Vol. 2", 
     "p1": "The Watchers", 
     "desc": "Stan told his tales of suspense and astonisment to the Watchers"
+  }, 
+  {
+    "p2": "Stan Lee Jr", 
+    "media": "Thor: Ragnarok", 
+    "p1": "Thor", 
+    "desc": "Stan cut Thor's hair on Sakaar"
   }
 ]
 };
@@ -26006,6 +26419,12 @@ return [
     "media": "Guardians of the Galaxy Vol. 2", 
     "p1": "The Watchers", 
     "desc": "The Informant told his tales of suspense and astonisment to the Watchers"
+  }, 
+  {
+    "p2": "Barber Stan Lee", 
+    "media": "Thor: Ragnarok", 
+    "p1": "Thor", 
+    "desc": "Stan cut Thor's hair on Sakaar"
   }
 ]
 };
