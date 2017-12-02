@@ -8,7 +8,7 @@ Colleen Wing
 Misty Knight
 Trish Walker
 Karen Page
-Elektra
+Elektra Natchios
 Jeri Hogarth
 Claire Temple
 Stick
@@ -17,6 +17,7 @@ Alexandra Reid
 Madame Gao
 Sowande
 Murakami
+Bakuto
 Captain Strieber
 Cole Miller
 Dolores Miller
@@ -25,24 +26,70 @@ Lexi Raymond
 
 ------------
 
-Father Lantom
-Mr Berkowitz
-Shaft
-Aaron James
+	Father Lantom
+	Mr Berkowitz
+	Shaft
+	Aaron James
 
-Turk Barrett
-Sandra
+	Turk Barrett
+	Sandra
 Marci Stahl
 Josie
-John Raymond
-Nicole
-Jane
+	John Raymond
+	Nicole
 
-Kadir
+	Kadir
 
 Mr Zhang
 
-Bakuto
-
 ------------
 
+Father Lantom|Matt Murdock|Matt visited Lantom for confession
+
+Mr Berkowitz|Matt Murdock|Matt took on Berkowitz in court on behalf of Aaron James
+Mr Berkowitz|Aaron James|Aaron took on Berkowitz in court for a disability caused by Berkowitz's company
+
+Aaron James|Matt Murdock|Matt was Aaron's lawyer, and won him a settlement for his disability
+
+Shaft|Elektra Natchios|Elektra killed Shaft in a sewer in Cambodia
+Shaft|Danny Rand|Before dying, Shaft told Danny that the war with the Hand would take place in New York
+Shaft|Colleen Wing|Colleen found Shaft in a Cambodian sewer as he was dying
+
+Turk Barret|Luke Cage|Turk told Luke where to find who was recruiting kids into criminal activities
+
+Sandra|Alexandra Reid|Alexandra made a very generous donation to Sandra's music theatre
+Sandra|Madame Gao|Sandra was present when Madame Gao arrived at a concert to speak with Alexandra Reid
+
+Johannes Brahms|Alexandra Reid|Alexandra met Brahms when he was alive, and was still a fan of his work over a century after his death
+
+John Raymond|Michelle Raymond|Before he died, John and Michelle were married
+John Raymond|Lexi Raymond|John was Lexi's father
+John Raymond|Jessica Jones|John visited Jessica to try and make her stop investigating him and The Hand for her own safety
+John Raymond|Malcolm Ducasse|John held Malcolm hostage in Jessica Jones' office
+John Raymond|Elektra Natchios|John killed himself when he was tracked down by Elektra
+
+Nicole|Trish Walker|Nicole told Trish that their superiors didn't want talk of the Earthquake on the show
+
+Kadir|Alexandra Reid|Alexandra complimented the food at Kadir's Turkish restaurant
+
+Mr Zhang|Matt Murdock|Matt and the other Defenders took refuge in Zhang's restaurant
+Mr Zhang|Jessica Jones|Jessica and the other Defenders took refuge in Zhang's restaurant
+Mr Zhang|Luke Cage|Luke and the other Defenders took refuge in Zhang's restaurant
+Mr Zhang|Danny Rand|Danny paid Zhang's rent for the next four months so the Defenders could hide in his restaurant
+Mr Zhang|Stick
+Mr Zhang|Alexandra Reid
+Mr Zhang|Madame Gao
+Mr Zhang|Sowande
+Mr Zhang|Murakami
+Mr Zhang|Elektra Natchios
+
+Madame Gao|Alexandra Reid|Gao and Reid founded The Hand together
+Madame Gao|Sowande|Gao and Sowanded founded The Hand together
+Madame Gao|Murakami|Murakami and Gao founded The Hand together
+Madame Gao|Bakuto|Bakuto and Gao founded The Hand together
+Madame Gao|Elektra Natchios|Gao saw Elektra kill Alexandra Pierce
+Madame Gao|Matt Murdock|Gao fought Matt and the other Defenders beneath Midland Circle
+Madame Gao|Danny Rand|Gao fought Danny and the other Defenders beneath Midland Circle
+Madame Gao|Jessica Jones|Gao fought Jessica and the other Defenders beneath Midland Circle
+Madame Gao|Luke Cage|Gao fought Luke and the other Defenders beneath Midland Circle
+Madame Gao|Stick|Gao fought Stick and the Defenders in a chinese restaurant
