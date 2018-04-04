@@ -291,22 +291,22 @@ Coulson.addMediaStats = function(){
 	var tableBody = document.getElementById("mediaStatsTableBody");
 	this.removeChildren(tableBody);
 
+	var isInteractionCountable = function(connection){
+		return connection.p1 !== connection.p2;
+	};
+
 	for (var i = 0; i < this.connectionGraph.properties.length; i++){
 		var media = this.connectionGraph.properties[i];
+		var interactions = media.interactions.filter(isInteractionCountable).length;
+		var linksPerPerson = 2 * interactions / media.characters.length;
 
 		var row = document.createElement("tr");
 		tableBody.appendChild(row);
 		this.addChild(row,"td",media.name);
 		this.addChild(row,"td",media.category);
 		this.addChild(row,"td",media.characters.length);
-		if (media.name === "A Funny Thing Happened..."){
-			this.addChild(row,"td",0);
-			this.addChild(row,"td",0.000);
-		} else {
-			this.addChild(row,"td",media.interactions.length);
-			var linksPerPerson = 2 * media.interactions.length / media.characters.length;
-			this.addChild(row,"td",linksPerPerson.toFixed(3));
-		}
+		this.addChild(row,"td",interactions);
+		this.addChild(row,"td",linksPerPerson.toFixed(3));
 		this.mediaStatsRows.set(media.name,row);
 	}
 
