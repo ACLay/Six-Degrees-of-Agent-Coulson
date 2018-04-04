@@ -12,6 +12,7 @@ return {
   ], 
   "characters": [
     "Aaron 'Prowler' Davis", 
+    "Aaron James", 
     "Abe Brown", 
     "Abner Brody", 
     "Abner Croit", 
@@ -71,6 +72,7 @@ return {
     "Aleta Ogord", 
     "Alex Doobin", 
     "Alexander Pierce", 
+    "Alexandra Reid", 
     "Algrim", 
     "Alisa Jones", 
     "Alisha Whitley", 
@@ -166,6 +168,7 @@ return {
     "Candace Miller", 
     "Captain Anderson", 
     "Captain Betty Audrey", 
+    "Captain Strieber", 
     "Cardozo", 
     "Carina", 
     "Carl Creel", 
@@ -206,6 +209,7 @@ return {
     "Clyde Farnum", 
     "Coach Wilson", 
     "Codebreaker Edwards", 
+    "Cole Miller", 
     "Colleen O'Brien", 
     "Colleen Wing", 
     "Colonel Ernst Mueller", 
@@ -285,6 +289,7 @@ return {
     "Dojo Student Caleb", 
     "Dojo Student Darryl", 
     "Dojo Student Jenny", 
+    "Dolores Miller", 
     "Domingo Colon", 
     "Don Rigoletto", 
     "Donald", 
@@ -527,11 +532,13 @@ return {
     "Joe Greller", 
     "Joel Spurlock", 
     "Joey Gutierrez", 
+    "Johannes Brahms", 
     "John Bruno", 
     "John Donnelly", 
     "John Garrett", 
     "John Healy", 
     "John Horton", 
+    "John Raymond", 
     "Johnny Blaze", 
     "Jonathan Pangborn", 
     "Joseph Bauer", 
@@ -547,6 +554,7 @@ return {
     "Junkie Jake", 
     "Justin Boden", 
     "Justin Hammer", 
+    "Kadir", 
     "Kaecilius", 
     "Kaminsky", 
     "Kara 'Agent 33' Palamas", 
@@ -595,6 +603,7 @@ return {
     "Leonard Samson", 
     "Leticia", 
     "Lewis Seaver", 
+    "Lexi Raymond", 
     "Lian May", 
     "Lieutenant Decker", 
     "Lieutenant Perez", 
@@ -673,6 +682,7 @@ return {
     "Michael Carter", 
     "Michael Jortner", 
     "Michelle 'MJ' Jones", 
+    "Michelle Raymond", 
     "Miek", 
     "Miguel Valdez", 
     "Mike Li", 
@@ -696,6 +706,7 @@ return {
     "Monk Tashi", 
     "Mortimer Hayes", 
     "Mr Almeida", 
+    "Mr Berkowitz", 
     "Mr Cobbwell", 
     "Mr Delmar", 
     "Mr DiPesta", 
@@ -705,11 +716,13 @@ return {
     "Mr Marino", 
     "Mr Maxwell", 
     "Mr Nesbitt", 
+    "Mr Zhang", 
     "Mrs Davis", 
     "Mrs Triplett", 
     "Mrs Zeller", 
     "Ms Kwan", 
     "Ms Warren", 
+    "Murakami", 
     "Murph the cat", 
     "Natasha Romanoff", 
     "Nathaniel Barton", 
@@ -865,6 +878,7 @@ return {
     "Sam Wilson", 
     "Samantha Reyes", 
     "Samuel Sterns", 
+    "Sandra", 
     "Santino", 
     "Santino Noguera", 
     "Sarah (Griffith)", 
@@ -873,6 +887,7 @@ return {
     "Scott Lang", 
     "Scout Leader Justin", 
     "Sean Connery", 
+    "Sean Miller", 
     "Sebastian Derik", 
     "Secretary Caldwell", 
     "Security Head Shannon", 
@@ -889,6 +904,7 @@ return {
     "Sergei", 
     "Seth Dormer", 
     "Seymour O'Reilly", 
+    "Shaft", 
     "Shameek Smith", 
     "Shane Henson", 
     "Sharon Carter", 
@@ -903,6 +919,7 @@ return {
     "Skurge", 
     "Sol Rama", 
     "Soledad Temple", 
+    "Sowande", 
     "Spider Raymond", 
     "Spud", 
     "Staff Sergeant Brookton", 
@@ -24631,6 +24648,823 @@ return {
         }
       ], 
       "name": "The Consultant"
+    }, 
+    {
+      "category": "Netflix", 
+      "characters": [
+        "Aaron James", 
+        "Alexandra Reid", 
+        "Bakuto", 
+        "Barkeeper Josie", 
+        "Candace Miller", 
+        "Captain Strieber", 
+        "Claire Temple", 
+        "Cole Miller", 
+        "Colleen Wing", 
+        "Danny Rand", 
+        "Dolores Miller", 
+        "Elektra Natchios", 
+        "Father Lantom", 
+        "Foggy Nelson", 
+        "Jeri Hogarth", 
+        "Jessica Jones", 
+        "Johannes Brahms", 
+        "John Raymond", 
+        "Kadir", 
+        "Karen Page", 
+        "Lexi Raymond", 
+        "Luke Cage", 
+        "Madame Gao", 
+        "Malcolm Ducasse", 
+        "Marci Stahl", 
+        "Matt Murdock", 
+        "Michelle Raymond", 
+        "Misty Knight", 
+        "Mr Berkowitz", 
+        "Mr Zhang", 
+        "Murakami", 
+        "Nicole", 
+        "Sandra", 
+        "Sean Miller", 
+        "Shaft", 
+        "Sowande", 
+        "Stick", 
+        "Trish Walker", 
+        "Turk Barrett"
+      ], 
+      "interactions": [
+        {
+          "desc": "Matt visited Lantom for confession", 
+          "p1": "Father Lantom", 
+          "p2": "Matt Murdock"
+        }, 
+        {
+          "desc": "Matt took on Berkowitz in court on behalf of Aaron James", 
+          "p1": "Mr Berkowitz", 
+          "p2": "Matt Murdock"
+        }, 
+        {
+          "desc": "Aaron took on Berkowitz in court for a disability caused by Berkowitz's company", 
+          "p1": "Mr Berkowitz", 
+          "p2": "Aaron James"
+        }, 
+        {
+          "desc": "Matt was Aaron's lawyer, and won him a settlement for his disability", 
+          "p1": "Aaron James", 
+          "p2": "Matt Murdock"
+        }, 
+        {
+          "desc": "Elektra killed Shaft in a sewer in Cambodia", 
+          "p1": "Shaft", 
+          "p2": "Elektra Natchios"
+        }, 
+        {
+          "desc": "Before dying, Shaft told Danny that the war with the Hand would take place in New York", 
+          "p1": "Shaft", 
+          "p2": "Danny Rand"
+        }, 
+        {
+          "desc": "Colleen found Shaft in a Cambodian sewer as he was dying", 
+          "p1": "Shaft", 
+          "p2": "Colleen Wing"
+        }, 
+        {
+          "desc": "Turk told Luke where to find who was recruiting kids into criminal activities", 
+          "p1": "Turk Barrett", 
+          "p2": "Luke Cage"
+        }, 
+        {
+          "desc": "Alexandra made a very generous donation to Sandra's music theatre", 
+          "p1": "Sandra", 
+          "p2": "Alexandra Reid"
+        }, 
+        {
+          "desc": "Sandra was present when Madame Gao arrived at a concert to speak with Alexandra Reid", 
+          "p1": "Sandra", 
+          "p2": "Madame Gao"
+        }, 
+        {
+          "desc": "Marci and Foggy work together, and are seeing each other after hours too", 
+          "p1": "Marci Stahl", 
+          "p2": "Foggy Nelson"
+        }, 
+        {
+          "desc": "Marci works for Hogarth", 
+          "p1": "Marci Stahl", 
+          "p2": "Jeri Hogarth"
+        }, 
+        {
+          "desc": "Foggy and Matt met for drinks at Josie's bar", 
+          "p1": "Barkeeper Josie", 
+          "p2": "Foggy Nelson"
+        }, 
+        {
+          "desc": "Matt and Foggy met for drinks at Josie's bar", 
+          "p1": "Barkeeper Josie", 
+          "p2": "Matt Murdock"
+        }, 
+        {
+          "desc": "Alexandra met Brahms when he was alive, and was still a fan of his work over a century after his death", 
+          "p1": "Johannes Brahms", 
+          "p2": "Alexandra Reid"
+        }, 
+        {
+          "desc": "Before he died, John and Michelle were married", 
+          "p1": "John Raymond", 
+          "p2": "Michelle Raymond"
+        }, 
+        {
+          "desc": "John was Lexi's father", 
+          "p1": "John Raymond", 
+          "p2": "Lexi Raymond"
+        }, 
+        {
+          "desc": "John visited Jessica to try and make her stop investigating him and The Hand for her own safety", 
+          "p1": "John Raymond", 
+          "p2": "Jessica Jones"
+        }, 
+        {
+          "desc": "John held Malcolm hostage in Jessica Jones' office", 
+          "p1": "John Raymond", 
+          "p2": "Malcolm Ducasse"
+        }, 
+        {
+          "desc": "John killed himself when he was tracked down by Elektra", 
+          "p1": "John Raymond", 
+          "p2": "Elektra Natchios"
+        }, 
+        {
+          "desc": "Nicole told Trish that their superiors didn't want talk of the Earthquake on the show", 
+          "p1": "Nicole", 
+          "p2": "Trish Walker"
+        }, 
+        {
+          "desc": "Alexandra complimented the food at Kadir's Turkish restaurant", 
+          "p1": "Kadir", 
+          "p2": "Alexandra Reid"
+        }, 
+        {
+          "desc": "Matt and the other Defenders took refuge in Zhang's restaurant", 
+          "p1": "Mr Zhang", 
+          "p2": "Matt Murdock"
+        }, 
+        {
+          "desc": "Jessica and the other Defenders took refuge in Zhang's restaurant", 
+          "p1": "Mr Zhang", 
+          "p2": "Jessica Jones"
+        }, 
+        {
+          "desc": "Luke and the other Defenders took refuge in Zhang's restaurant", 
+          "p1": "Mr Zhang", 
+          "p2": "Luke Cage"
+        }, 
+        {
+          "desc": "Danny paid Zhang's rent for the next four months so the Defenders could hide in his restaurant", 
+          "p1": "Mr Zhang", 
+          "p2": "Danny Rand"
+        }, 
+        {
+          "desc": "Stick met the Defenders at Zhang's restaurant", 
+          "p1": "Mr Zhang", 
+          "p2": "Stick"
+        }, 
+        {
+          "desc": "Cole worked for Sowande, clearing dead bodies for The Hand", 
+          "p1": "Cole Miller", 
+          "p2": "Sowande"
+        }, 
+        {
+          "desc": "Luke tried to get Cole to leave his cleanup job with The Hand", 
+          "p1": "Cole Miller", 
+          "p2": "Luke Cage"
+        }, 
+        {
+          "desc": "When clearing bodies for The Hand, Cole's group was attacked by Danny", 
+          "p1": "Cole Miller", 
+          "p2": "Danny Rand"
+        }, 
+        {
+          "desc": "When clearing bodies for The Hand, Cole's group was attacked by Colleen", 
+          "p1": "Cole Miller", 
+          "p2": "Colleen Wing"
+        }, 
+        {
+          "desc": "Cole was Dolores' son", 
+          "p1": "Cole Miller", 
+          "p2": "Dolores Miller"
+        }, 
+        {
+          "desc": "Cole and Sean were brothers, and were both cleanup crew for, and killed by, The Hand", 
+          "p1": "Cole Miller", 
+          "p2": "Sean Miller"
+        }, 
+        {
+          "desc": "Cole and Candace were brother and sister", 
+          "p1": "Cole Miller", 
+          "p2": "Candace Miller"
+        }, 
+        {
+          "desc": "Luke saved Dolores' from a falling streetlight during the New York earthquake", 
+          "p1": "Dolores Miller", 
+          "p2": "Luke Cage"
+        }, 
+        {
+          "desc": "Misty informed Dolores of her son's death", 
+          "p1": "Dolores Miller", 
+          "p2": "Misty Knight"
+        }, 
+        {
+          "desc": "Dolores was Sean's mother", 
+          "p1": "Dolores Miller", 
+          "p2": "Sean Miller"
+        }, 
+        {
+          "desc": "Candace was Dolores' daughter", 
+          "p1": "Dolores Miller", 
+          "p2": "Candace Miller"
+        }, 
+        {
+          "desc": "Candace and Sean were sister and brother", 
+          "p1": "Sean Miller", 
+          "p2": "Candace Miller"
+        }, 
+        {
+          "desc": "Sean worked in a clean up crew for Sowande", 
+          "p1": "Sean Miller", 
+          "p2": "Sowande"
+        }, 
+        {
+          "desc": "Michelle asked Jessica to investigate her husband's disappearance", 
+          "p1": "Michelle Raymond", 
+          "p2": "Jessica Jones"
+        }, 
+        {
+          "desc": "Michelle is Lexi's mother", 
+          "p1": "Michelle Raymond", 
+          "p2": "Lexi Raymond"
+        }, 
+        {
+          "desc": "Lexi asked Jessica to investigate her father's disappearance", 
+          "p1": "Lexi Raymond", 
+          "p2": "Jessica Jones"
+        }, 
+        {
+          "desc": "Matt, along with Jessica Jones, met with Lexi when investigating Midland Circle and her father's disappearance", 
+          "p1": "Lexi Raymond", 
+          "p2": "Matt Murdock"
+        }, 
+        {
+          "desc": "Strieber is Misty's superior in the NYPD", 
+          "p1": "Captain Strieber", 
+          "p2": "Misty Knight"
+        }, 
+        {
+          "desc": "Strieber questioned Matt about the dead body the Defenders were found with", 
+          "p1": "Captain Strieber", 
+          "p2": "Matt Murdock"
+        }, 
+        {
+          "desc": "Strieber questioned Jessica about the dead body the Defenders were found with", 
+          "p1": "Captain Strieber", 
+          "p2": "Jessica Jones"
+        }, 
+        {
+          "desc": "Strieber questioned Luke about the dead body the Defenders were found with", 
+          "p1": "Captain Strieber", 
+          "p2": "Luke Cage"
+        }, 
+        {
+          "desc": "Alexandra fought Matt and the other Defenders in a chinese restaurant", 
+          "p1": "Alexandra Reid", 
+          "p2": "Matt Murdock"
+        }, 
+        {
+          "desc": "Alexandra fought Jessica and the other Defenders in a chinese restaurant", 
+          "p1": "Alexandra Reid", 
+          "p2": "Jessica Jones"
+        }, 
+        {
+          "desc": "Alexandra fought Luke and the other Defenders in a chinese restaurant", 
+          "p1": "Alexandra Reid", 
+          "p2": "Luke Cage"
+        }, 
+        {
+          "desc": "Alexandra fought Danny and the other Defenders in a chinese restaurant", 
+          "p1": "Alexandra Reid", 
+          "p2": "Danny Rand"
+        }, 
+        {
+          "desc": "Alexandra ressurected, and was later killed by Elektra", 
+          "p1": "Alexandra Reid", 
+          "p2": "Elektra Natchios"
+        }, 
+        {
+          "desc": "Stick cut his hand off to get away from Alexandra", 
+          "p1": "Alexandra Reid", 
+          "p2": "Stick"
+        }, 
+        {
+          "desc": "Alexandra and Sowande founded The Hand together", 
+          "p1": "Alexandra Reid", 
+          "p2": "Sowande"
+        }, 
+        {
+          "desc": "Alexandra and Murakami founded The Hand together", 
+          "p1": "Alexandra Reid", 
+          "p2": "Murakami"
+        }, 
+        {
+          "desc": "Alexandra and Bakuto founded The Hand together", 
+          "p1": "Alexandra Reid", 
+          "p2": "Bakuto"
+        }, 
+        {
+          "desc": "Gao and Reid founded The Hand together", 
+          "p1": "Madame Gao", 
+          "p2": "Alexandra Reid"
+        }, 
+        {
+          "desc": "Gao and Sowanded founded The Hand together", 
+          "p1": "Madame Gao", 
+          "p2": "Sowande"
+        }, 
+        {
+          "desc": "Murakami and Gao founded The Hand together", 
+          "p1": "Madame Gao", 
+          "p2": "Murakami"
+        }, 
+        {
+          "desc": "Bakuto and Gao founded The Hand together", 
+          "p1": "Madame Gao", 
+          "p2": "Bakuto"
+        }, 
+        {
+          "desc": "Gao saw Elektra kill Alexandra Pierce", 
+          "p1": "Madame Gao", 
+          "p2": "Elektra Natchios"
+        }, 
+        {
+          "desc": "Gao fought Matt and the other Defenders beneath Midland Circle", 
+          "p1": "Madame Gao", 
+          "p2": "Matt Murdock"
+        }, 
+        {
+          "desc": "Gao fought Danny and the other Defenders beneath Midland Circle", 
+          "p1": "Madame Gao", 
+          "p2": "Danny Rand"
+        }, 
+        {
+          "desc": "Gao fought Jessica and the other Defenders beneath Midland Circle", 
+          "p1": "Madame Gao", 
+          "p2": "Jessica Jones"
+        }, 
+        {
+          "desc": "Gao fought Luke and the other Defenders beneath Midland Circle", 
+          "p1": "Madame Gao", 
+          "p2": "Luke Cage"
+        }, 
+        {
+          "desc": "Colleen helped the Defenders fight their way pas Gao and other Hand leaders to enter Midland Circle", 
+          "p1": "Madame Gao", 
+          "p2": "Colleen Wing"
+        }, 
+        {
+          "desc": "Gao fought Stick and the Defenders in a chinese restaurant", 
+          "p1": "Madame Gao", 
+          "p2": "Stick"
+        }, 
+        {
+          "desc": "Bakuto fought Matt and the other Defenders to keep them out of Midland Circle", 
+          "p1": "Bakuto", 
+          "p2": "Matt Murdock"
+        }, 
+        {
+          "desc": "Bakuto fought Jessica and the other Defenders to keep them out of Midland Circle", 
+          "p1": "Bakuto", 
+          "p2": "Jessica Jones"
+        }, 
+        {
+          "desc": "Bakuto fought Luke and the other Defenders to keep them out of Midland Circle", 
+          "p1": "Bakuto", 
+          "p2": "Luke Cage"
+        }, 
+        {
+          "desc": "Bakuto saw the kidnapped Danny Rand be taken below Midland Circle", 
+          "p1": "Bakuto", 
+          "p2": "Danny Rand"
+        }, 
+        {
+          "desc": "Colleen killed Bakuto in Midland Circle", 
+          "p1": "Bakuto", 
+          "p2": "Colleen Wing"
+        }, 
+        {
+          "desc": "Bakuto cut off Misty's arm", 
+          "p1": "Bakuto", 
+          "p2": "Misty Knight"
+        }, 
+        {
+          "desc": "Bakuto served Elektra after she took over The Hand", 
+          "p1": "Bakuto", 
+          "p2": "Elektra Natchios"
+        }, 
+        {
+          "desc": "Bakuto fought Claire to stop her destroying Midland Circle", 
+          "p1": "Bakuto", 
+          "p2": "Claire Temple"
+        }, 
+        {
+          "desc": "Bakuto attacked stick and The Defenders in a chinese restaurant", 
+          "p1": "Bakuto", 
+          "p2": "Stick"
+        }, 
+        {
+          "desc": "Bakuto and Sowande founded The Hand together", 
+          "p1": "Bakuto", 
+          "p2": "Sowande"
+        }, 
+        {
+          "desc": "Bakuto and Murakami founded The Hand together", 
+          "p1": "Bakuto", 
+          "p2": "Murakami"
+        }, 
+        {
+          "desc": "Murakami fought Matt and the other Defenders beneath Midland Circle", 
+          "p1": "Murakami", 
+          "p2": "Matt Murdock"
+        }, 
+        {
+          "desc": "Murakami fought Jessica and the other Defenders beneath Midland Circle", 
+          "p1": "Murakami", 
+          "p2": "Jessica Jones"
+        }, 
+        {
+          "desc": "Murakami fought Luke and the other Defenders beneath Midland Circle", 
+          "p1": "Murakami", 
+          "p2": "Luke Cage"
+        }, 
+        {
+          "desc": "Murakami fought Danny and the other Defenders beneath Midland Circle", 
+          "p1": "Murakami", 
+          "p2": "Danny Rand"
+        }, 
+        {
+          "desc": "Colleen and the Defenders fought Murakami to get into Midland Circle", 
+          "p1": "Murakami", 
+          "p2": "Colleen Wing"
+        }, 
+        {
+          "desc": "Murakami attempted to kidnap Trish to gain leverage against The Defenders", 
+          "p1": "Murakami", 
+          "p2": "Trish Walker"
+        }, 
+        {
+          "desc": "Murakami served Elektra after she took over The Hand", 
+          "p1": "Murakami", 
+          "p2": "Elektra Natchios"
+        }, 
+        {
+          "desc": "Bakuto fought Claire to stop her destroying Midland Circle", 
+          "p1": "Murakami", 
+          "p2": "Claire Temple"
+        }, 
+        {
+          "desc": "Stick fought Murakami with The Defenders in a chinese restaurant", 
+          "p1": "Murakami", 
+          "p2": "Stick"
+        }, 
+        {
+          "desc": "Murakami and Sowande founded The Hand together", 
+          "p1": "Murakami", 
+          "p2": "Sowande"
+        }, 
+        {
+          "desc": "Sowande fought Matt and the other Defenders at a chinese restaurant", 
+          "p1": "Sowande", 
+          "p2": "Matt Murdock"
+        }, 
+        {
+          "desc": "Sowande fought Jessica and the other Defenders at a chinese restaurant", 
+          "p1": "Sowande", 
+          "p2": "Jessica Jones"
+        }, 
+        {
+          "desc": "Sowande was captured by Luke after fighting The Defenders at a chinese restaurant", 
+          "p1": "Sowande", 
+          "p2": "Luke Cage"
+        }, 
+        {
+          "desc": "Sowande fought Danny and the other Defenders at a chinese restaurant", 
+          "p1": "Sowande", 
+          "p2": "Danny Rand"
+        }, 
+        {
+          "desc": "A captured Sowande was brought to Colleen's dojo", 
+          "p1": "Sowande", 
+          "p2": "Colleen Wing"
+        }, 
+        {
+          "desc": "Sowande fought alongside Elektra against The Defenders", 
+          "p1": "Sowande", 
+          "p2": "Elektra Natchios"
+        }, 
+        {
+          "desc": "Stick decapitated Sowande to prevent him ressurecting", 
+          "p1": "Sowande", 
+          "p2": "Stick"
+        }, 
+        {
+          "desc": "Stick fought alongside Matt against The Hand", 
+          "p1": "Stick", 
+          "p2": "Matt Murdock"
+        }, 
+        {
+          "desc": "Stick fought alongside Jessica against The Hand", 
+          "p1": "Stick", 
+          "p2": "Jessica Jones"
+        }, 
+        {
+          "desc": "Stick fought alongside Luke against The Hand", 
+          "p1": "Stick", 
+          "p2": "Luke Cage"
+        }, 
+        {
+          "desc": "Stick made his feelings about the \"Thundering Dumbass\" Danny Rand quite clear", 
+          "p1": "Stick", 
+          "p2": "Danny Rand"
+        }, 
+        {
+          "desc": "Stick went to Colleen at her dojo, searching for Danny and The Defenders", 
+          "p1": "Stick", 
+          "p2": "Colleen Wing"
+        }, 
+        {
+          "desc": "Stick was killed by Elektra", 
+          "p1": "Stick", 
+          "p2": "Elektra Natchios"
+        }, 
+        {
+          "desc": "Matt had Claire prepare the explosives to destroy Midland Circle", 
+          "p1": "Claire Temple", 
+          "p2": "Matt Murdock"
+        }, 
+        {
+          "desc": "Claire and Jessica met at Midland Circle to fight The Hand", 
+          "p1": "Claire Temple", 
+          "p2": "Jessica Jones"
+        }, 
+        {
+          "desc": "Claire and Luke fought against The Hand together. They're also a couple", 
+          "p1": "Claire Temple", 
+          "p2": "Luke Cage"
+        }, 
+        {
+          "desc": "Claire introduced Danny to Luke Cage", 
+          "p1": "Claire Temple", 
+          "p2": "Danny Rand"
+        }, 
+        {
+          "desc": "Claire and Malcolm met in police protection at the 29th Precinct", 
+          "p1": "Claire Temple", 
+          "p2": "Malcolm Ducasse"
+        }, 
+        {
+          "desc": "Claire and Foggy met in police protection at the 29th Precinct", 
+          "p1": "Claire Temple", 
+          "p2": "Foggy Nelson"
+        }, 
+        {
+          "desc": "Claire called Colleen to arrange a meeting between the Luke Cage and the protector of K'un-Lun", 
+          "p1": "Claire Temple", 
+          "p2": "Colleen Wing"
+        }, 
+        {
+          "desc": "Claire met Misty while in police protection at the 29th Precinct", 
+          "p1": "Claire Temple", 
+          "p2": "Misty Knight"
+        }, 
+        {
+          "desc": "Claire and Trish met in police protection at the 29th Precinct", 
+          "p1": "Claire Temple", 
+          "p2": "Trish Walker"
+        }, 
+        {
+          "desc": "Claire and Karen met in police protection at the 29th Precinct", 
+          "p1": "Claire Temple", 
+          "p2": "Karen Page"
+        }, 
+        {
+          "desc": "Jeri asked Jessica to stay out of trouble and stop investigating Midland Circle", 
+          "p1": "Jeri Hogarth", 
+          "p2": "Jessica Jones"
+        }, 
+        {
+          "desc": "Jeri had Foggy make sure Jessica Jones' Midland Circle investigation wouldn't damage her law firm", 
+          "p1": "Jeri Hogarth", 
+          "p2": "Foggy Nelson"
+        }, 
+        {
+          "desc": "Matt tried and save Elektra from herself and The Hand", 
+          "p1": "Elektra Natchios", 
+          "p2": "Matt Murdock"
+        }, 
+        {
+          "desc": "Jessica threw a car at Elektra in a chinese restaurant", 
+          "p1": "Elektra Natchios", 
+          "p2": "Jessica Jones"
+        }, 
+        {
+          "desc": "Elektra and Luke fought beneath Midland Circle", 
+          "p1": "Elektra Natchios", 
+          "p2": "Luke Cage"
+        }, 
+        {
+          "desc": "Elektra manipulated Danny to open the Dragon cemetery beneath New York", 
+          "p1": "Elektra Natchios", 
+          "p2": "Danny Rand"
+        }, 
+        {
+          "desc": "Elektra met Malcolm at Alias Investigations when hunting John Raymond", 
+          "p1": "Elektra Natchios", 
+          "p2": "Malcolm Ducasse"
+        }, 
+        {
+          "desc": "Elektra escaped from Colleen and Danny Rand in a Cambodian sewer", 
+          "p1": "Elektra Natchios", 
+          "p2": "Colleen Wing"
+        }, 
+        {
+          "desc": "Karen and Matt met at a Diner for food and an interview", 
+          "p1": "Karen Page", 
+          "p2": "Matt Murdock"
+        }, 
+        {
+          "desc": "Karen and Malcolm met in police protection at the 29th Precinct", 
+          "p1": "Karen Page", 
+          "p2": "Malcolm Ducasse"
+        }, 
+        {
+          "desc": "Karen and Foggy met in police protection at the 29th Precinct", 
+          "p1": "Karen Page", 
+          "p2": "Foggy Nelson"
+        }, 
+        {
+          "desc": "Karen and Colleen and Misty met in police protection at the 29th Precinct", 
+          "p1": "Karen Page", 
+          "p2": "Colleen Wing"
+        }, 
+        {
+          "desc": "Karen met Misty while in police protection at the 29th Precinct", 
+          "p1": "Karen Page", 
+          "p2": "Misty Knight"
+        }, 
+        {
+          "desc": "Karen and Trish met in police protection at the 29th Precinct", 
+          "p1": "Karen Page", 
+          "p2": "Trish Walker"
+        }, 
+        {
+          "desc": "Matt helped prevent Trish being kidnapped by The Hand", 
+          "p1": "Trish Walker", 
+          "p2": "Matt Murdock"
+        }, 
+        {
+          "desc": "Jessica helped prevent Trish being kidnapped by The Hand", 
+          "p1": "Trish Walker", 
+          "p2": "Jessica Jones"
+        }, 
+        {
+          "desc": "Trish and Malcolm met in police protection at the 29th Precinct", 
+          "p1": "Trish Walker", 
+          "p2": "Malcolm Ducasse"
+        }, 
+        {
+          "desc": "Trish and Foggy met in police protection at the 29th Precinct", 
+          "p1": "Trish Walker", 
+          "p2": "Foggy Nelson"
+        }, 
+        {
+          "desc": "Trish and Colleen and Misty met in police protection at the 29th Precinct", 
+          "p1": "Trish Walker", 
+          "p2": "Colleen Wing"
+        }, 
+        {
+          "desc": "Trish met Misty while in police protection at the 29th Precinct", 
+          "p1": "Trish Walker", 
+          "p2": "Misty Knight"
+        }, 
+        {
+          "desc": "Matt acted as attourney for Jessica Jones when she was being questioned by Misty", 
+          "p1": "Misty Knight", 
+          "p2": "Matt Murdock"
+        }, 
+        {
+          "desc": "Jessica was brought in for questioning by Misty after stealing evidence from a crime scene", 
+          "p1": "Misty Knight", 
+          "p2": "Jessica Jones"
+        }, 
+        {
+          "desc": "Luke went to Misty go get police protection for The Defender's close friends", 
+          "p1": "Misty Knight", 
+          "p2": "Luke Cage"
+        }, 
+        {
+          "desc": "Danny paid for Misty's medical care, and possibly a replacement arm too", 
+          "p1": "Misty Knight", 
+          "p2": "Danny Rand"
+        }, 
+        {
+          "desc": "Malcolm met Misty while in police protection at the 29th Precinct", 
+          "p1": "Misty Knight", 
+          "p2": "Malcolm Ducasse"
+        }, 
+        {
+          "desc": "Foggy met Misty while in police protection at the 29th Precinct", 
+          "p1": "Misty Knight", 
+          "p2": "Foggy Nelson"
+        }, 
+        {
+          "desc": "Colleen and Misty worked together to destroy Midland Circle", 
+          "p1": "Misty Knight", 
+          "p2": "Colleen Wing"
+        }, 
+        {
+          "desc": "Matt instructed Colleen to prepare the explosives to destroy Midland Circle", 
+          "p1": "Colleen Wing", 
+          "p2": "Matt Murdock"
+        }, 
+        {
+          "desc": "Colleen and Jessica met in Midland Circle to stop The Hand", 
+          "p1": "Colleen Wing", 
+          "p2": "Jessica Jones"
+        }, 
+        {
+          "desc": "Luke met Colleen at her dojo when being introduced to Danny Rand, the Immortal Iron Fist, protector of K'un-Lun, and sworn enemy of The Hand", 
+          "p1": "Colleen Wing", 
+          "p2": "Luke Cage"
+        }, 
+        {
+          "desc": "Danny and Colleen hunted down members of The Hand together", 
+          "p1": "Colleen Wing", 
+          "p2": "Danny Rand"
+        }, 
+        {
+          "desc": "Colleen and Malcolm met in police protection at the 29th Precinct", 
+          "p1": "Colleen Wing", 
+          "p2": "Malcolm Ducasse"
+        }, 
+        {
+          "desc": "Colleen and Foggy met in police protection at the 29th Precinct", 
+          "p1": "Colleen Wing", 
+          "p2": "Foggy Nelson"
+        }, 
+        {
+          "desc": "Foggy met Matt for a drink at Josie's bar, and offered him cases to keep him too busy for vigilante work", 
+          "p1": "Foggy Nelson", 
+          "p2": "Matt Murdock"
+        }, 
+        {
+          "desc": "Foggy and Malcolm met in police protection at the 29th Precinct", 
+          "p1": "Foggy Nelson", 
+          "p2": "Malcolm Ducasse"
+        }, 
+        {
+          "desc": "Malcolm works for Jessica at Alias Investigations", 
+          "p1": "Malcolm Ducasse", 
+          "p2": "Jessica Jones"
+        }, 
+        {
+          "desc": "Danny Rand, The Immortal Iron Fist, protector of K'un-Lun and sworn enemy of The Hand fought alongside Matt against The Hand", 
+          "p1": "Danny Rand", 
+          "p2": "Matt Murdock"
+        }, 
+        {
+          "desc": "Danny Rand, The Immortal Iron Fist, protector of K'un-Lun and sworn enemy of The Hand fought alongside Jessica against The Hand", 
+          "p1": "Danny Rand", 
+          "p2": "Jessica Jones"
+        }, 
+        {
+          "desc": "Danny Rand, The Immortal Iron Fist, protector of K'un-Lun and sworn enemy of The Hand punched Luke in the face", 
+          "p1": "Danny Rand", 
+          "p2": "Luke Cage"
+        }, 
+        {
+          "desc": "Luke and Matt fought against The Hand together", 
+          "p1": "Luke Cage", 
+          "p2": "Matt Murdock"
+        }, 
+        {
+          "desc": "Jessica and Luke fought against The Hand together", 
+          "p1": "Luke Cage", 
+          "p2": "Jessica Jones"
+        }, 
+        {
+          "desc": "Jessica and Matt fought together against The Hand", 
+          "p1": "Jessica Jones", 
+          "p2": "Matt Murdock"
+        }
+      ], 
+      "name": "The Defenders"
     }, 
     {
       "category": "Films - Phase 1", 
