@@ -86,6 +86,7 @@ return {
     "Andre", 
     "Andrei Veznikov", 
     "Andrew Garner", 
+    "Aneka", 
     "Angie Martinelli", 
     "Angry Neighbour Martha", 
     "Angry Neighbour Roger", 
@@ -354,6 +355,7 @@ return {
     "Enforcer Zip", 
     "Eric Fraser", 
     "Eric Koenig", 
+    "Erik Killmonger", 
     "Erik Selvig", 
     "Erin", 
     "Ernesto", 
@@ -364,6 +366,7 @@ return {
     "Eva Belyakov", 
     "Evelyn (Griffith)", 
     "Everett K. Ross", 
+    "Everett Ross", 
     "FRIDAY", 
     "Faisil Ahmed", 
     "Fandral", 
@@ -608,7 +611,9 @@ return {
     "Lieutenant Decker", 
     "Lieutenant Perez", 
     "Lila Barton", 
+    "Limbani", 
     "Lincoln Campbell", 
+    "Linda", 
     "Linda Avery", 
     "Lisa Castle", 
     "Liz Toomes", 
@@ -631,6 +636,7 @@ return {
     "Luis", 
     "Luke Cage", 
     "Luther Banks", 
+    "M'Baku", 
     "M. Scott", 
     "Mabel", 
     "Mac 'Scorpion' Gargan", 
@@ -724,6 +730,8 @@ return {
     "Ms Warren", 
     "Murakami", 
     "Murph the cat", 
+    "N'Jobu", 
+    "Nakia", 
     "Natasha Romanoff", 
     "Nathaniel Barton", 
     "Nathaniel Malick", 
@@ -760,6 +768,7 @@ return {
     "Officer Reed", 
     "Officer Stuart", 
     "Officer Sullivan", 
+    "Okoye", 
     "Olaf", 
     "Orderly Joe", 
     "Oscar Clemons", 
@@ -824,6 +833,7 @@ return {
     "Raina", 
     "Raj", 
     "Ralph", 
+    "Ramonda", 
     "Randy Vale", 
     "Ravager Brahl", 
     "Ravager Gef", 
@@ -911,6 +921,7 @@ return {
     "Sheldon McFee", 
     "Shirley Benson", 
     "Shou-Lao", 
+    "Shuri", 
     "Sif", 
     "Silke", 
     "Silvio", 
@@ -1012,6 +1023,7 @@ return {
     "Vladimi", 
     "Vladimir Ranskahov", 
     "Volstagg", 
+    "W'Kabi", 
     "Waitress Rhonda", 
     "Waitress Susanna", 
     "Walter Thomas", 
@@ -1044,6 +1056,7 @@ return {
     "Wong", 
     "Workshop owner Canelo", 
     "Xiao Chen", 
+    "Xoliswa", 
     "Yat-Sen", 
     "Yondu Udonta", 
     "Yuliana", 
@@ -1053,6 +1066,7 @@ return {
     "Zack", 
     "Zhou Cheng", 
     "Zudy Almeida", 
+    "Zuri", 
     "Zylak"
   ], 
   "properties": [
@@ -12950,6 +12964,563 @@ return {
     {
       "category": "Films - Phase 3", 
       "characters": [
+        "Aneka", 
+        "Ayo", 
+        "Bucky Barnes", 
+        "Erik Killmonger", 
+        "Everett Ross", 
+        "Limbani", 
+        "Linda", 
+        "M'Baku", 
+        "N'Jobu", 
+        "Nakia", 
+        "Okoye", 
+        "Ramonda", 
+        "Shuri", 
+        "T'Chaka", 
+        "T'Challa", 
+        "Ulysses Klaue", 
+        "W'Kabi", 
+        "Xoliswa", 
+        "Zuri"
+      ], 
+      "interactions": [
+        {
+          "desc": "T'Challa did not yield to, and was not killed by Killmonger in ritual combat", 
+          "p1": "T'Challa", 
+          "p2": "Erik Killmonger"
+        }, 
+        {
+          "desc": "T'Challa froze like a deer in headlights when he saw Nakia", 
+          "p1": "T'Challa", 
+          "p2": "Nakia"
+        }, 
+        {
+          "desc": "T'Challa and Shuri are brother and sister", 
+          "p1": "T'Challa", 
+          "p2": "Shuri"
+        }, 
+        {
+          "desc": "Okoye is head of T'Challa's royal bodyguard, the Dora Milaje", 
+          "p1": "T'Challa", 
+          "p2": "Okoye"
+        }, 
+        {
+          "desc": "T'Challa brought Ross to Wakanda so their medical technology could save his life", 
+          "p1": "T'Challa", 
+          "p2": "Everett Ross"
+        }, 
+        {
+          "desc": "Ramonda is T'Challa's mother", 
+          "p1": "T'Challa", 
+          "p2": "Ramonda"
+        }, 
+        {
+          "desc": "Zuri prepared the heart shaped herb for T'Challa, granting him the powers of the Black Panther", 
+          "p1": "T'Challa", 
+          "p2": "Zuri"
+        }, 
+        {
+          "desc": "T'Challa captured Klaue in South Korea", 
+          "p1": "T'Challa", 
+          "p2": "Ulysses Klaue"
+        }, 
+        {
+          "desc": "M'Baku challenged, and lost in ritual combat with T'Challa for the mantles of King and Black Panther", 
+          "p1": "T'Challa", 
+          "p2": "M'Baku"
+        }, 
+        {
+          "desc": "Ayo served T'Challa as part of the Dora Milaje", 
+          "p1": "T'Challa", 
+          "p2": "Ayo"
+        }, 
+        {
+          "desc": "Xoliswa served T'Challa as part of the Dora Milaje", 
+          "p1": "T'Challa", 
+          "p2": "Xoliswa"
+        }, 
+        {
+          "desc": "Aneka served T'Challa as part of the Dora Milaje", 
+          "p1": "T'Challa", 
+          "p2": "Aneka"
+        }, 
+        {
+          "desc": "W'Kabi served T'Challa as leader of the Wakandan border guard", 
+          "p1": "T'Challa", 
+          "p2": "W'Kabi"
+        }, 
+        {
+          "desc": "T'Challa spoke with his father T'Chaka in the ancestral plane", 
+          "p1": "T'Challa", 
+          "p2": "T'Chaka"
+        }, 
+        {
+          "desc": "Linda helped break Klaue out of T'Challa's custody", 
+          "p1": "T'Challa", 
+          "p2": "Linda"
+        }, 
+        {
+          "desc": "Limbani helped break Klaue out of T'Challa's custody", 
+          "p1": "T'Challa", 
+          "p2": "Limbani"
+        }, 
+        {
+          "desc": "T'Challa brought Bucky to Wakanda for medical attention", 
+          "p1": "T'Challa", 
+          "p2": "Bucky Barnes"
+        }, 
+        {
+          "desc": "Nakia fought against Killmonger alongside Shuri", 
+          "p1": "Erik Killmonger", 
+          "p2": "Nakia"
+        }, 
+        {
+          "desc": "Shuri fought against Killmonger alongside Nakia", 
+          "p1": "Erik Killmonger", 
+          "p2": "Shuri"
+        }, 
+        {
+          "desc": "Okoye reluctantly served Killmonger when he took the throne of Wakanda", 
+          "p1": "Erik Killmonger", 
+          "p2": "Okoye"
+        }, 
+        {
+          "desc": "Killmonger shot Ross in the spine when breaking Klaue out of captivity", 
+          "p1": "Erik Killmonger", 
+          "p2": "Everett Ross"
+        }, 
+        {
+          "desc": "Ramonda saw her son nearly killed in ritual combat with Killmonger", 
+          "p1": "Erik Killmonger", 
+          "p2": "Ramonda"
+        }, 
+        {
+          "desc": "Erik killed Zuri in retalliation for his father's death", 
+          "p1": "Erik Killmonger", 
+          "p2": "Zuri"
+        }, 
+        {
+          "desc": "Killmonger did business with, and killed Klaue, for the chance to challenge for the throne of Wakanda", 
+          "p1": "Erik Killmonger", 
+          "p2": "Ulysses Klaue"
+        }, 
+        {
+          "desc": "Ayo served Killmonger as part of the Dora Milaje", 
+          "p1": "Erik Killmonger", 
+          "p2": "Ayo"
+        }, 
+        {
+          "desc": "Xoliswa served Killmonger as part of the Dora Milaje", 
+          "p1": "Erik Killmonger", 
+          "p2": "Xoliswa"
+        }, 
+        {
+          "desc": "Aneka died when fighting Killmonger with the Dora Milaje", 
+          "p1": "Erik Killmonger", 
+          "p2": "Aneka"
+        }, 
+        {
+          "desc": "Killmonger delivered Klaue's body to W'Kabi at the Wakandan border", 
+          "p1": "Erik Killmonger", 
+          "p2": "W'Kabi"
+        }, 
+        {
+          "desc": "N'Jobu was Killmonger's father", 
+          "p1": "Erik Killmonger", 
+          "p2": "N'Jobu"
+        }, 
+        {
+          "desc": "Killmonger killed Linda when she was used as a human shield by Klaue", 
+          "p1": "Erik Killmonger", 
+          "p2": "Linda"
+        }, 
+        {
+          "desc": "Killmonger worked with Limbani to steal vibranium from the Museum of Great Britain", 
+          "p1": "Erik Killmonger", 
+          "p2": "Limbani"
+        }, 
+        {
+          "desc": "Shuri and Nakia took on Killmonger together", 
+          "p1": "Nakia", 
+          "p2": "Shuri"
+        }, 
+        {
+          "desc": "Okoye flew Nakia back to Wakanda for T'Challa's coronation", 
+          "p1": "Nakia", 
+          "p2": "Okoye"
+        }, 
+        {
+          "desc": "Ross went with Nakia to get help from the mountain tribe", 
+          "p1": "Nakia", 
+          "p2": "Everett Ross"
+        }, 
+        {
+          "desc": "Nakia and Ramonda attended T'Challa's coronation together", 
+          "p1": "Nakia", 
+          "p2": "Ramonda"
+        }, 
+        {
+          "desc": "Nakia was present when Zuri proclaimed T'Challa king", 
+          "p1": "Nakia", 
+          "p2": "Zuri"
+        }, 
+        {
+          "desc": "Nakia gave chase to Klaue in South Korea", 
+          "p1": "Nakia", 
+          "p2": "Ulysses Klaue"
+        }, 
+        {
+          "desc": "Nakia offered the heart shaped herb to M'Baku to fight Killmonger", 
+          "p1": "Nakia", 
+          "p2": "M'Baku"
+        }, 
+        {
+          "desc": "Nakia and Ayo were both at T'Challa's coronation fight", 
+          "p1": "Nakia", 
+          "p2": "Ayo"
+        }, 
+        {
+          "desc": "Nakia and Xoliswa were both at T'Challa's coronation fight", 
+          "p1": "Nakia", 
+          "p2": "Xoliswa"
+        }, 
+        {
+          "desc": "Nakia and Aneka were both at T'Challa's coronation fight", 
+          "p1": "Nakia", 
+          "p2": "Aneka"
+        }, 
+        {
+          "desc": "Nakia and W'Kabi both attended T'Challa's coronation", 
+          "p1": "Nakia", 
+          "p2": "W'Kabi"
+        }, 
+        {
+          "desc": "Nakia was present when Linda helped break Klaue out of captivity", 
+          "p1": "Nakia", 
+          "p2": "Linda"
+        }, 
+        {
+          "desc": "Nakia was present when Limbani helped break Klaue out of captivity", 
+          "p1": "Nakia", 
+          "p2": "Limbani"
+        }, 
+        {
+          "desc": "Shuri and Okoye watched T'Challa's coronation together", 
+          "p1": "Shuri", 
+          "p2": "Okoye"
+        }, 
+        {
+          "desc": "Shuri healed Ross' broken spine", 
+          "p1": "Shuri", 
+          "p2": "Everett Ross"
+        }, 
+        {
+          "desc": "Ramonda is Shuri's mother", 
+          "p1": "Shuri", 
+          "p2": "Ramonda"
+        }, 
+        {
+          "desc": "Shuri was present when Zuri proclaimed T'Challa king", 
+          "p1": "Shuri", 
+          "p2": "Zuri"
+        }, 
+        {
+          "desc": "M'Baku revealed to Shuri that her brother hadn't been killed", 
+          "p1": "Shuri", 
+          "p2": "M'Baku"
+        }, 
+        {
+          "desc": "Shuri and Ayo were both at T'Challa's coronation fight", 
+          "p1": "Shuri", 
+          "p2": "Ayo"
+        }, 
+        {
+          "desc": "Shuri and Xoliswa were both at T'Challa's coronation fight", 
+          "p1": "Shuri", 
+          "p2": "Xoliswa"
+        }, 
+        {
+          "desc": "Shuri and Aneka were both at T'Challa's coronation fight", 
+          "p1": "Shuri", 
+          "p2": "Aneka"
+        }, 
+        {
+          "desc": "Shuri and W'Kabi were both at the ritual combat between T'Challa and M'Baku", 
+          "p1": "Shuri", 
+          "p2": "W'Kabi"
+        }, 
+        {
+          "desc": "T'Chaka was Shuri's father", 
+          "p1": "Shuri", 
+          "p2": "T'Chaka"
+        }, 
+        {
+          "desc": "Bucky was the first broken white boy T'Challa brought for Shuri to fix", 
+          "p1": "Shuri", 
+          "p2": "Bucky Barnes"
+        }, 
+        {
+          "desc": "Ross gave Okoye a lift in South Korea after her car was destroyed by Klaue", 
+          "p1": "Okoye", 
+          "p2": "Everett Ross"
+        }, 
+        {
+          "desc": "Okoye served Queen Ramonda as part of the royal guard", 
+          "p1": "Okoye", 
+          "p2": "Ramonda"
+        }, 
+        {
+          "desc": "Okoye saw Zuri crown T'Challa king", 
+          "p1": "Okoye", 
+          "p2": "Zuri"
+        }, 
+        {
+          "desc": "Okoye gave chase to Klaue in South Korea", 
+          "p1": "Okoye", 
+          "p2": "Ulysses Klaue"
+        }, 
+        {
+          "desc": "Okoye stood guard during M'Baku's combat challenge for the trone", 
+          "p1": "Okoye", 
+          "p2": "M'Baku"
+        }, 
+        {
+          "desc": "Okoye and Ayo serve together in the Dora Milaje", 
+          "p1": "Okoye", 
+          "p2": "Ayo"
+        }, 
+        {
+          "desc": "Okoye and Xoliswa serve together in the Dora Milaje", 
+          "p1": "Okoye", 
+          "p2": "Xoliswa"
+        }, 
+        {
+          "desc": "Okoye and Aneka serve together in the Dora Milaje", 
+          "p1": "Okoye", 
+          "p2": "Aneka"
+        }, 
+        {
+          "desc": "Okoye and W'Kabi are lovers", 
+          "p1": "Okoye", 
+          "p2": "W'Kabi"
+        }, 
+        {
+          "desc": "Okoye previously served T'Chaka in the Dora Milaje", 
+          "p1": "Okoye", 
+          "p2": "T'Chaka"
+        }, 
+        {
+          "desc": "Okoye was present when Linda helped break Klaue out of captivity", 
+          "p1": "Okoye", 
+          "p2": "Linda"
+        }, 
+        {
+          "desc": "Okoye was present when Limbani helped break Klaue out of captivity", 
+          "p1": "Okoye", 
+          "p2": "Limbani"
+        }, 
+        {
+          "desc": "Ross travelled with Ramonda to seek aid from the mountain tribe", 
+          "p1": "Everett Ross", 
+          "p2": "Ramonda"
+        }, 
+        {
+          "desc": "Ross attempted to purchase vibranium from Klaue", 
+          "p1": "Everett Ross", 
+          "p2": "Ulysses Klaue"
+        }, 
+        {
+          "desc": "M'Baku threatened to feed Ross to his children", 
+          "p1": "Everett Ross", 
+          "p2": "M'Baku"
+        }, 
+        {
+          "desc": "Ross was present when Linda helped break Klaue out of captivity", 
+          "p1": "Everett Ross", 
+          "p2": "Linda"
+        }, 
+        {
+          "desc": "Ross was present when Limbani helped break Klaue out of captivity", 
+          "p1": "Everett Ross", 
+          "p2": "Limbani"
+        }, 
+        {
+          "desc": "Ramonda saw Zuri proclaim her son king", 
+          "p1": "Ramonda", 
+          "p2": "Zuri"
+        }, 
+        {
+          "desc": "Ramonda went to M'Baku for aid fighting Killmonger", 
+          "p1": "Ramonda", 
+          "p2": "M'Baku"
+        }, 
+        {
+          "desc": "Ayo served Ramonda as part of the royal guard", 
+          "p1": "Ramonda", 
+          "p2": "Ayo"
+        }, 
+        {
+          "desc": "Xoliswa served Ramonda as part of the royal guard", 
+          "p1": "Ramonda", 
+          "p2": "Xoliswa"
+        }, 
+        {
+          "desc": "Aneka served Ramonda as part of the royal guard", 
+          "p1": "Ramonda", 
+          "p2": "Aneka"
+        }, 
+        {
+          "desc": "Ramonda and W'Kabi were both at the ritual combat between T'Challa and M'Baku", 
+          "p1": "Ramonda", 
+          "p2": "W'Kabi"
+        }, 
+        {
+          "desc": "N'Jobu was Ramonda's brother-in-law", 
+          "p1": "Ramonda", 
+          "p2": "N'Jobu"
+        }, 
+        {
+          "desc": "T'Chaka and Ramonda were king and queen of Wakanda together", 
+          "p1": "Ramonda", 
+          "p2": "T'Chaka"
+        }, 
+        {
+          "desc": "Zuri oversaw M'Baku's combat challenge for the throne", 
+          "p1": "Zuri", 
+          "p2": "M'Baku"
+        }, 
+        {
+          "desc": "Ayo and Zuri oversaw M'Baku and T'Challa's fight for the throne", 
+          "p1": "Zuri", 
+          "p2": "Ayo"
+        }, 
+        {
+          "desc": "Xoliswa and Zuri oversaw M'Baku and T'Challa's fight for the throne", 
+          "p1": "Zuri", 
+          "p2": "Xoliswa"
+        }, 
+        {
+          "desc": "Aneka and Zuri oversaw M'Baku and T'Challa's fight for the throne", 
+          "p1": "Zuri", 
+          "p2": "Aneka"
+        }, 
+        {
+          "desc": "Zuri and W'Kabi were both at the ritual combat between T'Challa and M'Baku", 
+          "p1": "Zuri", 
+          "p2": "W'Kabi"
+        }, 
+        {
+          "desc": "Zuri was sent to watch N'Jobu and discovered his alliance with Klaue", 
+          "p1": "Zuri", 
+          "p2": "N'Jobu"
+        }, 
+        {
+          "desc": "T'Chaka saved Zuri's life by killing his brother", 
+          "p1": "Zuri", 
+          "p2": "T'Chaka"
+        }, 
+        {
+          "desc": "N'Jobu provided assistance to Klaue in his original vibranium heist", 
+          "p1": "Ulysses Klaue", 
+          "p2": "N'Jobu"
+        }, 
+        {
+          "desc": "Linda was used as a human shield by Klaue against Killmonger", 
+          "p1": "Ulysses Klaue", 
+          "p2": "Linda"
+        }, 
+        {
+          "desc": "Limbani aided Klaue in robbing the Museum of Great Britain", 
+          "p1": "Ulysses Klaue", 
+          "p2": "Limbani"
+        }, 
+        {
+          "desc": "Ayo stood guard during M'Baku's combat challenge for the throne", 
+          "p1": "M'Baku", 
+          "p2": "Ayo"
+        }, 
+        {
+          "desc": "Xoliswa stood guard during M'Baku's combat challenge for the throne", 
+          "p1": "M'Baku", 
+          "p2": "Xoliswa"
+        }, 
+        {
+          "desc": "Aneka stood guard during M'Baku's combat challenge for the throne", 
+          "p1": "M'Baku", 
+          "p2": "Aneka"
+        }, 
+        {
+          "desc": "W'Kabi saw M'Baku challenge for the Wakandan throne", 
+          "p1": "M'Baku", 
+          "p2": "W'Kabi"
+        }, 
+        {
+          "desc": "Ayo and Xoliswa serve together in the Dora Milaje", 
+          "p1": "Ayo", 
+          "p2": "Xoliswa"
+        }, 
+        {
+          "desc": "Ayo and Aneka served together in the Dora Milaje", 
+          "p1": "Ayo", 
+          "p2": "Aneka"
+        }, 
+        {
+          "desc": "Ayo and W'Kabi were both at the ritual combat between T'Challa and M'Baku", 
+          "p1": "Ayo", 
+          "p2": "W'Kabi"
+        }, 
+        {
+          "desc": "Ayo served T'Chaka as part of the royal guard", 
+          "p1": "Ayo", 
+          "p2": "T'Chaka"
+        }, 
+        {
+          "desc": "Xoliswa and Aneka served together in the Dora Milaje", 
+          "p1": "Xoliswa", 
+          "p2": "Aneka"
+        }, 
+        {
+          "desc": "Xoliswa and W'Kabi were both at the ritual combat between T'Challa and M'Baku", 
+          "p1": "Xoliswa", 
+          "p2": "W'Kabi"
+        }, 
+        {
+          "desc": "Xoliswa served T'Chaka as part of the royal guard", 
+          "p1": "Xoliswa", 
+          "p2": "T'Chaka"
+        }, 
+        {
+          "desc": "Aneka and W'Kabi were both at the ritual combat between T'Challa and M'Baku", 
+          "p1": "Aneka", 
+          "p2": "W'Kabi"
+        }, 
+        {
+          "desc": "Aneka served T'Chaka as part of the royal guard", 
+          "p1": "Aneka", 
+          "p2": "T'Chaka"
+        }, 
+        {
+          "desc": "W'Kabi served T'Chaka as leader of the border guard", 
+          "p1": "W'Kabi", 
+          "p2": "T'Chaka"
+        }, 
+        {
+          "desc": "T'Chaka and N'Jobu were brothers", 
+          "p1": "N'Jobu", 
+          "p2": "T'Chaka"
+        }, 
+        {
+          "desc": "Linda and Limbani worked together with Klaue to steal Vibranium from the Museum of Great Britain", 
+          "p1": "Linda", 
+          "p2": "Limbani"
+        }
+      ], 
+      "name": "Black Panther"
+    }, 
+    {
+      "category": "Films - Phase 3", 
+      "characters": [
         "Aunt May", 
         "Ayo", 
         "Brock Rumlow", 
@@ -19265,17 +19836,17 @@ return {
           "p2": "Dojo Student Jenny"
         }, 
         {
-          "desc": "Danny fought Darryl (among others) to escape from the Hand's training facility", 
+          "desc": "Danny fought Darryl (among others) to escape from The Hand's training facility", 
           "p1": "Dojo Student Darryl", 
           "p2": "Danny Rand"
         }, 
         {
-          "desc": "Darryl served the Hand under Bakuto", 
+          "desc": "Darryl served The Hand under Bakuto", 
           "p1": "Dojo Student Darryl", 
           "p2": "Bakuto"
         }, 
         {
-          "desc": "Davos fought Darryl when helping Danny Rand escape the Hand's training facility", 
+          "desc": "Davos fought Darryl when helping Danny Rand escape The Hand's training facility", 
           "p1": "Dojo Student Darryl", 
           "p2": "Davos"
         }, 
@@ -24719,7 +25290,7 @@ return {
           "p2": "Elektra Natchios"
         }, 
         {
-          "desc": "Before dying, Shaft told Danny that the war with the Hand would take place in New York", 
+          "desc": "Before dying, Shaft told Danny that the war with The Hand would take place in New York", 
           "p1": "Shaft", 
           "p2": "Danny Rand"
         }, 
@@ -24819,12 +25390,12 @@ return {
           "p2": "Luke Cage"
         }, 
         {
-          "desc": "Danny paid Zhang's rent for the next four months so the Defenders could hide in his restaurant", 
+          "desc": "Danny paid Zhang's rent for the next four months so The Defenders could hide in his restaurant", 
           "p1": "Mr Zhang", 
           "p2": "Danny Rand"
         }, 
         {
-          "desc": "Stick met the Defenders at Zhang's restaurant", 
+          "desc": "Stick met The Defenders at Zhang's restaurant", 
           "p1": "Mr Zhang", 
           "p2": "Stick"
         }, 
@@ -24919,17 +25490,17 @@ return {
           "p2": "Misty Knight"
         }, 
         {
-          "desc": "Strieber questioned Matt about the dead body the Defenders were found with", 
+          "desc": "Strieber questioned Matt about the dead body The Defenders were found with", 
           "p1": "Captain Strieber", 
           "p2": "Matt Murdock"
         }, 
         {
-          "desc": "Strieber questioned Jessica about the dead body the Defenders were found with", 
+          "desc": "Strieber questioned Jessica about the dead body The Defenders were found with", 
           "p1": "Captain Strieber", 
           "p2": "Jessica Jones"
         }, 
         {
-          "desc": "Strieber questioned Luke about the dead body the Defenders were found with", 
+          "desc": "Strieber questioned Luke about the dead body The Defenders were found with", 
           "p1": "Captain Strieber", 
           "p2": "Luke Cage"
         }, 
@@ -25024,12 +25595,12 @@ return {
           "p2": "Luke Cage"
         }, 
         {
-          "desc": "Colleen helped the Defenders fight their way pas Gao and other Hand leaders to enter Midland Circle", 
+          "desc": "Colleen helped The Defenders fight their way pas Gao and other Hand leaders to enter Midland Circle", 
           "p1": "Madame Gao", 
           "p2": "Colleen Wing"
         }, 
         {
-          "desc": "Gao fought Stick and the Defenders in a chinese restaurant", 
+          "desc": "Gao fought Stick and The Defenders in a chinese restaurant", 
           "p1": "Madame Gao", 
           "p2": "Stick"
         }, 
@@ -25109,7 +25680,7 @@ return {
           "p2": "Danny Rand"
         }, 
         {
-          "desc": "Colleen and the Defenders fought Murakami to get into Midland Circle", 
+          "desc": "Colleen and The Defenders fought Murakami to get into Midland Circle", 
           "p1": "Murakami", 
           "p2": "Colleen Wing"
         }, 
