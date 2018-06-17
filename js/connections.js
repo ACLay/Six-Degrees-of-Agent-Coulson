@@ -1072,6 +1072,7 @@ return {
   "properties": [
     {
       "category": "One-shots", 
+      "categoryOrder": 2, 
       "characters": [
         "Agent Coulson"
       ], 
@@ -1086,6 +1087,7 @@ return {
     }, 
     {
       "category": "One-shots", 
+      "categoryOrder": 4, 
       "characters": [
         "Dum Dum Dugan", 
         "Howard Stark", 
@@ -1107,6 +1109,7 @@ return {
     }, 
     {
       "category": "TV", 
+      "categoryOrder": 0, 
       "characters": [
         "Agent Corcoran", 
         "Agent Messner", 
@@ -2329,6 +2332,7 @@ return {
     }, 
     {
       "category": "TV", 
+      "categoryOrder": 0, 
       "characters": [
         "Abner Brody", 
         "Agent Beringer", 
@@ -3162,6 +3166,7 @@ return {
     }, 
     {
       "category": "TV", 
+      "categoryOrder": 0, 
       "characters": [
         "Abner Croit", 
         "Ace Peterson", 
@@ -5889,6 +5894,7 @@ return {
     }, 
     {
       "category": "TV", 
+      "categoryOrder": 0, 
       "characters": [
         "Adamo Dioli", 
         "Agent Case", 
@@ -8425,6 +8431,7 @@ return {
     }, 
     {
       "category": "TV", 
+      "categoryOrder": 0, 
       "characters": [
         "Agent Coulson", 
         "Agent O'Brien", 
@@ -10597,6 +10604,7 @@ return {
     }, 
     {
       "category": "TV", 
+      "categoryOrder": 0, 
       "characters": [
         "Agent Burrows", 
         "Agent Cecilio", 
@@ -11653,6 +11661,7 @@ return {
     }, 
     {
       "category": "Other", 
+      "categoryOrder": 2, 
       "characters": [
         "Agent Anderson", 
         "Agent Burrows", 
@@ -11769,6 +11778,7 @@ return {
     }, 
     {
       "category": "One-shots", 
+      "categoryOrder": 5, 
       "characters": [
         "Fletcher Heggs", 
         "Jackson Norriss (10 rings)", 
@@ -11867,6 +11877,7 @@ return {
     }, 
     {
       "category": "Films - Phase 2", 
+      "categoryOrder": 6, 
       "characters": [
         "Carlos", 
         "Cassie Lang", 
@@ -12255,6 +12266,7 @@ return {
     }, 
     {
       "category": "Films - Phase 2", 
+      "categoryOrder": 5, 
       "characters": [
         "Baron Strucker", 
         "Bruce Banner", 
@@ -12963,6 +12975,7 @@ return {
     }, 
     {
       "category": "Films - Phase 3", 
+      "categoryOrder": 6, 
       "characters": [
         "Aneka", 
         "Ayo", 
@@ -13520,6 +13533,7 @@ return {
     }, 
     {
       "category": "Films - Phase 3", 
+      "categoryOrder": 1, 
       "characters": [
         "Aunt May", 
         "Ayo", 
@@ -14115,6 +14129,7 @@ return {
     }, 
     {
       "category": "Films - Phase 1", 
+      "categoryOrder": 5, 
       "characters": [
         "Arnim Zola", 
         "Bucky Barnes", 
@@ -14475,6 +14490,7 @@ return {
     }, 
     {
       "category": "Films - Phase 2", 
+      "categoryOrder": 3, 
       "characters": [
         "Agent Sitwell", 
         "Alexander Pierce", 
@@ -15001,6 +15017,7 @@ return {
     }, 
     {
       "category": "Netflix", 
+      "categoryOrder": 1, 
       "characters": [
         "Aito", 
         "Anatoly Ranskahov", 
@@ -16531,6 +16548,7 @@ return {
     }, 
     {
       "category": "Netflix", 
+      "categoryOrder": 3, 
       "characters": [
         "Agent Gallagher", 
         "Barkeeper Josie", 
@@ -17555,6 +17573,7 @@ return {
     }, 
     {
       "category": "Films - Phase 3", 
+      "categoryOrder": 2, 
       "characters": [
         "Billy", 
         "Christine Palmer", 
@@ -17870,6 +17889,7 @@ return {
     }, 
     {
       "category": "Films - Phase 2", 
+      "categoryOrder": 4, 
       "characters": [
         "Bereet", 
         "Carina", 
@@ -18343,6 +18363,7 @@ return {
     }, 
     {
       "category": "Films - Phase 3", 
+      "categoryOrder": 3, 
       "characters": [
         "Aleta Ogord", 
         "Charlie-27", 
@@ -19211,6 +19232,7 @@ return {
     }, 
     {
       "category": "Netflix", 
+      "categoryOrder": 5, 
       "characters": [
         "Alessa 'Bride of Nine Spiders'", 
         "Andrei Veznikov", 
@@ -20125,6 +20147,7 @@ return {
     }, 
     {
       "category": "Films - Phase 1", 
+      "categoryOrder": 1, 
       "characters": [
         "Abu Bakar", 
         "Agent Coulson", 
@@ -20315,6 +20338,7 @@ return {
     }, 
     {
       "category": "Films - Phase 1", 
+      "categoryOrder": 3, 
       "characters": [
         "Agent Coulson", 
         "Anton Vanko", 
@@ -20646,6 +20670,7 @@ return {
     }, 
     {
       "category": "Films - Phase 2", 
+      "categoryOrder": 1, 
       "characters": [
         "Aldrich Killian", 
         "Bruce Banner", 
@@ -20950,6 +20975,7 @@ return {
     }, 
     {
       "category": "One-shots", 
+      "categoryOrder": 3, 
       "characters": [
         "Agent Sitwell", 
         "Bennie Pollock", 
@@ -20992,6 +21018,7 @@ return {
     }, 
     {
       "category": "Netflix", 
+      "categoryOrder": 2, 
       "characters": [
         "Albert Thompson", 
         "Alisa Jones", 
@@ -22156,6 +22183,7 @@ return {
     }, 
     {
       "category": "Netflix", 
+      "categoryOrder": 4, 
       "characters": [
         "Aisha Axton", 
         "Albert Rackham", 
@@ -23902,6 +23930,7 @@ return {
     }, 
     {
       "category": "Films - Phase 3", 
+      "categoryOrder": 4, 
       "characters": [
         "Aaron 'Prowler' Davis", 
         "Abe Brown", 
@@ -24822,6 +24851,7 @@ return {
     }, 
     {
       "category": "Films - Phase 1", 
+      "categoryOrder": 6, 
       "characters": [
         "Agent Coulson", 
         "Agent Sitwell", 
@@ -25200,6 +25230,7 @@ return {
     }, 
     {
       "category": "One-shots", 
+      "categoryOrder": 1, 
       "characters": [
         "Agent Coulson", 
         "Agent Sitwell", 
@@ -25222,6 +25253,7 @@ return {
     }, 
     {
       "category": "Netflix", 
+      "categoryOrder": 6, 
       "characters": [
         "Aaron James", 
         "Alexandra Reid", 
@@ -26039,6 +26071,7 @@ return {
     }, 
     {
       "category": "Films - Phase 1", 
+      "categoryOrder": 2, 
       "characters": [
         "Amadeus Cho", 
         "Betty Ross", 
@@ -26169,6 +26202,7 @@ return {
     }, 
     {
       "category": "Films - Phase 1", 
+      "categoryOrder": 5, 
       "characters": [
         "Agent Coulson", 
         "Agent Sitwell", 
@@ -26579,6 +26613,7 @@ return {
     }, 
     {
       "category": "Films - Phase 3", 
+      "categoryOrder": 5, 
       "characters": [
         "Bruce Banner", 
         "Cousin Carlo", 
@@ -26969,6 +27004,7 @@ return {
     }, 
     {
       "category": "Films - Phase 2", 
+      "categoryOrder": 2, 
       "characters": [
         "Algrim", 
         "Bor", 
@@ -27404,6 +27440,7 @@ return {
     }, 
     {
       "category": "Other", 
+      "categoryOrder": 1, 
       "characters": [
         "Christine Everhart", 
         "Darren Cross", 
