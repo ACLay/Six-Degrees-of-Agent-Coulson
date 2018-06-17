@@ -52,9 +52,16 @@ for (dirpath, dirnames, filenames) in walk("./interactions"):
                 output = {}
                 characters = sorted(characters)
                 category = path.basename(dirpath)
-                name = file[:-4]
+                nameData = file[:-4].split('_',2)
+                if (len(nameData) == 1):
+                    categoryOrder = 0
+                    name = nameData[0]
+                else:
+                    categoryOrder = int(nameData[0])
+                    name = nameData[1]
                 output['name'] = name
                 output['category'] = category
+                output['categoryOrder'] = categoryOrder
                 output['characters'] = characters
                 output['interactions'] = interactions
                 # outfile = open(filename[:-3] + 'json','w')
