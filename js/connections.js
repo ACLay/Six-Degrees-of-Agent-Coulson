@@ -1109,7 +1109,7 @@ return {
     }, 
     {
       "category": "TV", 
-      "categoryOrder": 0, 
+      "categoryOrder": 1, 
       "characters": [
         "Agent Corcoran", 
         "Agent Messner", 
@@ -2332,7 +2332,7 @@ return {
     }, 
     {
       "category": "TV", 
-      "categoryOrder": 0, 
+      "categoryOrder": 2, 
       "characters": [
         "Abner Brody", 
         "Agent Beringer", 
@@ -3166,7 +3166,7 @@ return {
     }, 
     {
       "category": "TV", 
-      "categoryOrder": 0, 
+      "categoryOrder": 3, 
       "characters": [
         "Abner Croit", 
         "Ace Peterson", 
@@ -5894,7 +5894,7 @@ return {
     }, 
     {
       "category": "TV", 
-      "categoryOrder": 0, 
+      "categoryOrder": 4, 
       "characters": [
         "Adamo Dioli", 
         "Agent Case", 
@@ -8431,7 +8431,7 @@ return {
     }, 
     {
       "category": "TV", 
-      "categoryOrder": 0, 
+      "categoryOrder": 5, 
       "characters": [
         "Agent Coulson", 
         "Agent O'Brien", 
@@ -10604,7 +10604,7 @@ return {
     }, 
     {
       "category": "TV", 
-      "categoryOrder": 0, 
+      "categoryOrder": 6, 
       "characters": [
         "Agent Burrows", 
         "Agent Cecilio", 
