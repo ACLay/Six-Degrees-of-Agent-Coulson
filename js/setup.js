@@ -101,6 +101,10 @@ Coulson.loadConnections = function(){
 	} else if (stanCount === "n"){
 		this.addConnections(this.getManyStansConnections());
 	}
+    // Sort properties by their order in their categories
+    this.connectionGraph.properties.sort(function(a,b){
+        return a.categoryOrder - b.categoryOrder;
+    })
 };
 
 Coulson.addConnections = function(extraConnections){
