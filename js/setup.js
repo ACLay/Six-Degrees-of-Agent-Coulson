@@ -48,9 +48,9 @@ window.onload = function(){
 
         document.getElementById("stanOptions").onchange = function(){
         	Coulson.loadConnections();
+            Coulson.mapSelectedConnections();
         	Coulson.fillSelectors();
         	Coulson.updateMediaStatsTab();
-            Coulson.mapSelectedConnections();
         };
 
         document.getElementById("connectionTabLink").onclick = function(){
