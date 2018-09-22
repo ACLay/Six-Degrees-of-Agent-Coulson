@@ -41,14 +41,17 @@ for (dirpath, dirnames, filenames) in walk("./interactions"):
                 characters = set()
                 interactions = []
                 for line in open(filename):
+                    if (line.strip() == ''):
+                        continue
                     parts = line.strip().split('|',2)
                     characters.add(parts[0])
                     characters.add(parts[1])
-                    interaction = {}
-                    interaction['p1'] = parts[0]
-                    interaction['p2'] = parts[1]
-                    interaction['desc'] = parts[2]
-                    interactions.append(interaction)
+                    if (parts[2] != ''):
+                        interaction = {}
+                        interaction['p1'] = parts[0]
+                        interaction['p2'] = parts[1]
+                        interaction['desc'] = parts[2]
+                        interactions.append(interaction)
                 output = {}
                 characters = sorted(characters)
                 category = path.basename(dirpath)
@@ -88,4 +91,4 @@ outfile.write("var Coulson = Coulson || {};\n" +
     "Coulson.getConnectionData = function(){\nreturn " + json.dumps(output, indent=2, sort_keys=True) + "\n};\n" +
     "Coulson.getOneStanConnections = function(){\nreturn " + json.dumps(oneStanInteractions, indent=2) + "\n};\n" +
     "Coulson.getTwoStansConnections = function(){\nreturn " + json.dumps(twoStansInteractions, indent=2) + "\n};\n" +
-    "Coulson.getManyStansConnections = function(){\nreturn " + json.dumps(manyStansInteractions, indent=2) + "\n};");
+    "Coulson.getManyStansConnections = function(){\nreturn " + json.dumps(manyStansInteractions, indent=2) + "\n};\n");

@@ -291,13 +291,9 @@ Coulson.addMediaStats = function(){
 	var tableBody = document.getElementById("mediaStatsTableBody");
 	this.removeChildren(tableBody);
 
-	var isInteractionCountable = function(connection){
-		return connection.p1 !== connection.p2;
-	};
-
 	for (var i = 0; i < this.connectionGraph.properties.length; i++){
 		var media = this.connectionGraph.properties[i];
-		var interactions = media.interactions.filter(isInteractionCountable).length;
+		var interactions = media.interactions.length;
 		var linksPerPerson = 2 * interactions / media.characters.length;
 
 		var row = document.createElement("tr");

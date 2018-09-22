@@ -85,7 +85,17 @@ Coulson.isMediaSelected = function(mediaName){
 
 Coulson.listCharactersFromSelectedMedia = function(){
 	"use strict";
-	return Array.from(this.selectedConnections.keys()).sort();
+	var characters = new Set();
+	var mediaList = this.connectionGraph.properties;
+	for (var i = 0; i < mediaList.length; i++){
+		var media = mediaList[i];
+		if (this.isMediaSelected(media.name)){
+			for (var j = 0; j < media.characters.length; j++){
+				characters.add(media.characters[j])
+			}
+		}
+	}
+	return Array.from(characters).sort();
 };
 
 Coulson.categoryCheckboxClicked = function(categoryName){

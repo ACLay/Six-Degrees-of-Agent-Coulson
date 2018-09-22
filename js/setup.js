@@ -146,21 +146,22 @@ Coulson.mapSelectedConnections = function(){
     for (var i = 0; i < mediaList.length; i++){
         var media = mediaList[i];
         if (this.isMediaSelected(media.name)){
-            // for each connection
-            for(var j = 0; j < media.interactions.length; j++){
-                var connection = media.interactions[j];
-                if (!this.selectedConnections.has(connection.p1)){
-                    this.selectedConnections.set(connection.p1, new Set());
+            // initialise any new characters connection sets
+            for (var j = 0; j < media.characters.length; j++){
+                var character = media.characters[j]
+                if (!this.selectedConnections.has(character)){
+                    this.selectedConnections.set(character, new Set());
                 }
+            }
+            // map each connection in the media
+            for (var j = 0; j < media.interactions.length; j++){
+                var connection = media.interactions[j];
                 this.selectedConnections.get(connection.p1).add(
                 {
                     "person":connection.p2,
                     "link":connection.desc,
                     "media":media.name
                 });
-                if (!this.selectedConnections.has(connection.p2)){
-                    this.selectedConnections.set(connection.p2, new Set());
-                }
                 this.selectedConnections.get(connection.p2).add(
                 {
                     "person":connection.p1,
