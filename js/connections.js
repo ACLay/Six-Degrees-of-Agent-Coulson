@@ -13777,6 +13777,11 @@ return {
           "p2": "Heimdall"
         }, 
         {
+          "desc": "Thanos crushed Loki's neck", 
+          "p1": "Loki", 
+          "p2": "Thanos"
+        }, 
+        {
           "desc": "Loki offered to be a guide for Cull Obsidian's mission to Earth", 
           "p1": "Loki", 
           "p2": "Cull Obsidian"
@@ -13875,6 +13880,11 @@ return {
           "desc": "Groot tried to protect Wanda and Vision from Thanos in Wakanda", 
           "p1": "Wanda Maximoff", 
           "p2": "Groot"
+        }, 
+        {
+          "desc": "Wanda destroyed the mind stone to prevent Thanos obtaining it", 
+          "p1": "Wanda Maximoff", 
+          "p2": "Thanos"
         }, 
         {
           "desc": "Wanda interrupted Ross' conference call with Rhodey", 
