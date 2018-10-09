@@ -1,10 +1,14 @@
 from os import walk
 from os import path
+from StringIO import StringIO
 import json
 
 allCharacters = set()
 properties = {}
 categories = set()
+
+with open('CsvToJson.config.json', 'r') as f:
+    config = json.load(f)
 
 oneStanInteractions = []
 twoStansInteractions = []
@@ -35,45 +39,38 @@ for (dirpath, dirnames, filenames) in walk("./interactions"):
                 # many stan lees file
                 elif (file == "Many Stans.csv"):
                     manyStansInteractions = interactions
+for category in config:
+    categoryName = category['name']
+    categories.add(categoryName)
+    for index, media in enumerate(category['media']):
             # other connection files
-            else:
-                filename = path.join(dirpath,file)
-                characters = set()
-                interactions = []
-                for line in open(filename):
-                    if (line.strip() == ''):
-                        continue
-                    parts = line.strip().split('|',2)
-                    characters.add(parts[0])
-                    characters.add(parts[1])
-                    if (parts[2] != ''):
-                        interaction = {}
-                        interaction['p1'] = parts[0]
-                        interaction['p2'] = parts[1]
-                        interaction['desc'] = parts[2]
-                        interactions.append(interaction)
-                output = {}
-                characters = sorted(characters)
-                category = path.basename(dirpath)
-                nameData = file[:-4].split('_',2)
-                if (len(nameData) == 1):
-                    categoryOrder = 0
-                    name = nameData[0]
-                else:
-                    categoryOrder = int(nameData[0])
-                    name = nameData[1]
-                output['name'] = name
-                output['category'] = category
-                output['categoryOrder'] = categoryOrder
-                output['characters'] = characters
-                output['interactions'] = interactions
-                # outfile = open(filename[:-3] + 'json','w')
-                # outfile.write(json.dumps(output, indent=4, sort_keys=True))
-                
-                properties[name] = output
-                categories.add(category)
-                for character in characters:
-                    allCharacters.add(character)
+            filename = media['file']
+            characters = set()
+            interactions = []
+            for line in open(filename):
+                if (line.strip() == ''):
+                    continue
+                parts = line.strip().split('|',2)
+                characters.add(parts[0])
+                characters.add(parts[1])
+                if (parts[2] != ''):
+                    interaction = {}
+                    interaction['p1'] = parts[0]
+                    interaction['p2'] = parts[1]
+                    interaction['desc'] = parts[2]
+                    interactions.append(interaction)
+            output = {}
+            characters = sorted(characters)
+            mediaName = media['title']
+            output['name'] = mediaName
+            output['category'] = categoryName
+            output['categoryOrder'] = index + 1
+            output['characters'] = characters
+            output['interactions'] = interactions
+            
+            properties[mediaName] = output
+            for character in characters:
+                allCharacters.add(character)
 
 propertylist = []
 for key in sorted(properties.keys()):
@@ -83,8 +80,6 @@ output = {}
 output['characters'] = sorted(allCharacters)
 output['categories'] = sorted(categories)
 output['properties'] = propertylist
-# outfile = open('./interactions/connections.json','w')
-# outfile.write(json.dumps(output, indent=2, sort_keys=True))
 
 outfile = open('./js/connections.js','w')
 outfile.write("var Coulson = Coulson || {};\n" +

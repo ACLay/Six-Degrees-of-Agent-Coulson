@@ -1,0 +1,189 @@
+[
+    {
+        "name": "Films - Phase 1",
+        "media": [
+            {
+                "file": "interactions/Films/Films - Phase 1/Iron Man.csv",
+                "title": "Iron Man"
+            },
+            {
+                "file": "interactions/Films/Films - Phase 1/The Incredible Hulk.csv",
+                "title": "The Incredible Hulk"
+            },
+            {
+                "file": "interactions/Films/Films - Phase 1/Iron Man 2.csv",
+                "title": "Iron Man 2"
+            },
+            {
+                "file": "interactions/Films/Films - Phase 1/Thor.csv",
+                "title": "Thor"
+            },
+            {
+                "file": "interactions/Films/Films - Phase 1/Captain America The First Avenger.csv",
+                "title": "Captain America: The First Avenger"
+            },
+            {
+                "file": "interactions/Films/Films - Phase 1/The Avengers.csv",
+                "title": "The Avengers"
+            }
+        ]
+    }, 
+    {
+        "name": "Films - Phase 2",
+        "media": [
+            {
+                "file": "interactions/Films/Films - Phase 2/Iron Man 3.csv",
+                "title": "Iron Man 3"
+            },
+            {
+                "file": "interactions/Films/Films - Phase 2/Thor The Dark World.csv",
+                "title": "Thor: The Dark World"
+            },
+            {
+                "file": "interactions/Films/Films - Phase 2/Captain America The Winter Soldier.csv",
+                "title": "Captain America: The Winter Soldier"
+            },
+            {
+                "file": "interactions/Films/Films - Phase 2/Guardians of the Galaxy.csv",
+                "title": "Guardians of the Galaxy"
+            },
+            {
+                "file": "interactions/Films/Films - Phase 2/Avengers Age of Ultron.csv",
+                "title": "Avengers: Age of Ultron"
+            },
+            {
+                "file": "interactions/Films/Films - Phase 2/Ant-Man.csv",
+                "title": "Ant-Man"
+            }
+        ]
+    },
+    {
+        "name": "Films - Phase 3",
+        "media": [
+            {
+                "file": "interactions/Films/Films - Phase 3/Captain America Civil War.csv",
+                "title": "Captain America: Civil War"
+            },
+            {
+                "file": "interactions/Films/Films - Phase 3/Doctor Strange.csv",
+                "title": "Doctor Strange"
+            },
+            {
+                "file": "interactions/Films/Films - Phase 3/Guardians of the Galaxy Vol 2.csv",
+                "title": "Guardians of the Galaxy Vol. 2"
+            },
+            {
+                "file": "interactions/Films/Films - Phase 3/Spider-Man Homecoming.csv",
+                "title": "Spider-Man: Homecoming"
+            },
+            {
+                "file": "interactions/Films/Films - Phase 3/Thor Ragnarok.csv",
+                "title": "Thor: Ragnarok"
+            },
+            {
+                "file": "interactions/Films/Films - Phase 3/Black Panther.csv",
+                "title": "Black Panther"
+            },
+            {
+                "file": "interactions/Films/Films - Phase 3/Avengers Infinity War.csv",
+                "title": "Avengers: Infinity War"
+            }
+        ]
+    },
+    {
+        "name": "Netflix",
+        "media": [
+            {
+                "file": "interactions/Netflix/Daredevil Season 1.csv",
+                "title": "Daredevil Season 1"
+            },
+            {
+                "file": "interactions/Netflix/Jessica Jones.csv",
+                "title": "Jessica Jones"
+            },
+            {
+                "file": "interactions/Netflix/Daredevil Season 2.csv",
+                "title": "Daredevil Season 2"
+            },
+            {
+                "file": "interactions/Netflix/Luke Cage.csv",
+                "title": "Luke Cage"
+            },
+            {
+                "file": "interactions/Netflix/Iron Fist.csv",
+                "title": "Iron Fist"
+            },
+            {
+                "file": "interactions/Netflix/The Defenders.csv",
+                "title": "The Defenders"
+            }
+        ]
+    },
+    {
+        "name": "One-shots",
+        "media": [
+            {
+                "file": "interactions/One-shots/The Consultant.csv",
+                "title": "The Consultant"
+            },
+            {
+                "file": "interactions/One-shots/A Funny Thing Happened.csv",
+                "title": "A Funny Thing Happened..."
+            },
+            {
+                "file": "interactions/One-shots/Item 47.csv",
+                "title": "Item 47"
+            },
+            {
+                "file": "interactions/One-shots/Agent Carter.csv",
+                "title": "Agent Carter"
+            },
+            {
+                "file": "interactions/One-shots/All Hail the King.csv",
+                "title": "All Hail the King"
+            }
+        ]
+    },
+    {
+        "name": "Other",
+        "media": [
+            {
+                "file": "interactions/Other/WHIH World News.csv",
+                "title": "WHIH World News"
+            },
+            {
+                "file": "interactions/Other/Agents of SHIELD Slingshot.csv",
+                "title": "Agents of SHIELD: Slingshot"
+            }
+        ]
+    },
+    {
+        "name": "TV",
+        "media": [
+            {
+                "file": "interactions/TV/Agent Carter Season 1.csv",
+                "title": "Agent Carter Season 1"
+            },
+            {
+                "file": "interactions/TV/Agent Carter Season 2.csv",
+                "title": "Agent Carter Season 2"
+            },
+            {
+                "file": "interactions/TV/Agents of SHIELD Season 1.csv",
+                "title": "Agents of SHIELD Season 1"
+            },
+            {
+                "file": "interactions/TV/Agents of SHIELD Season 2.csv",
+                "title": "Agents of SHIELD Season 2"
+            },
+            {
+                "file": "interactions/TV/Agents of SHIELD Season 3.csv",
+                "title": "Agents of SHIELD Season 3"
+            },
+            {
+                "file": "interactions/TV/Agents of SHIELD Season 4A.csv",
+                "title": "Agents of SHIELD Season 4A"
+            }
+        ]
+    }
+]
